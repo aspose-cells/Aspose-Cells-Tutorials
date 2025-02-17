@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a PDF from an Excel chart with a specified page size. 
+// It loads an Excel workbook, accesses a worksheet and its chart, and finally generates a PDF file with the desired layout.
+//ExStepSummary:0: This step initializes the source and output directories for the files.
+//ExStepSummary:1: This step loads the Excel workbook containing the chart to be exported.
+//ExStepSummary:2: This step accesses the first worksheet in the workbook.
+//ExStepSummary:3: This step retrieves the first chart in the worksheet.
+//ExStepSummary:4: This step converts the chart to a PDF file with a specified size and alignment.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// Source directory containing the Excel file
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Output directory where the PDF will be saved
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Load sample Excel file containing the chart
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// Access first worksheet
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Access first chart inside the worksheet
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// Create chart PDF with desired page size
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// Confirmation message
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

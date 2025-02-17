@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: This code demonstrates how to load an ODS file, access a chart, and print its subtitle to the console.
+//ExStepSummary:0: The code initializes the source directory for the document.
+//ExStepSummary:1: The code loads an Excel file containing charts from the specified directory.
+//ExStepSummary:2: The code accesses the first worksheet of the loaded workbook.
+//ExStepSummary:3: The code retrieves the first chart within the worksheet.
+//ExStepSummary:4: The code prints the subtitle of the chart to the console.
+//ExStepSummary:5: The code confirms successful execution of the subtitle retrieval.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Initialize the source directory for document access
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Load the Excel file containing charts
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// Access the first worksheet of the workbook
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Access the first chart within the worksheet
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Print the chart's subtitle to the console
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// Confirm successful execution
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

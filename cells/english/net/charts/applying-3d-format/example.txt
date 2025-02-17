@@ -1,0 +1,136 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a new Excel workbook, add data and charts, and apply 3D formatting to chart series.
+//ExStepSummary:0: This step initializes the output directory for the workbook and creates a new Workbook instance for data manipulation.
+//ExStepSummary:1: This step renames the first worksheet to "DataSheet."
+//ExStepSummary:2: This step adds a new worksheet titled "MyChart" to house the chart.
+//ExStepSummary:3: This step populates the "DataSheet" with sample data.
+//ExStepSummary:4: This step initializes the ChartCollection for adding charts.
+//ExStepSummary:5: This step defines the Chart Collection in "MyChart" and adds a Column chart.
+//ExStepSummary:6: This step accesses the newly added chart for customization.
+//ExStepSummary:7: This step set background and foreground colors of the chart's PlotArea and ChartArea to white.
+//ExStepSummary:8: This step hides the legend for clarity in the chart display.
+//ExStepSummary:9: This step adds data series from "DataSheet" to the chart.
+//ExStepSummary:10: This step specifies the category data for the chart.
+//ExStepSummary:11: This step retrieves the first data series for formatting purposes.
+//ExStepSummary:12: This step accesses the shape properties of the series for 3D formatting.
+//ExStepSummary:13: This step configures the TopBevel settings, setting style, height, and width.
+//ExStepSummary:14: This step set the surface material type to Warm Matte.
+//ExStepSummary:15: This step defines the lighting type of the surface.
+//ExStepSummary:16: This step specifies the angle of the lighting for better visual effect.
+//ExStepSummary:17: This step set the series background, foreground, and border colors to Maroon.
+//ExStepSummary:18: This step saves the workbook to the specified directory.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0
+// Set the output directory path
+string dataDir = "Your Document Directory";
+// Instantiate a new Workbook object
+Workbook book = new Workbook();
+
+//ExStep:1
+// Rename the first worksheet to "DataSheet"
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2
+// Get a reference to the "DataSheet"
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3
+// Add a new worksheet for the chart
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4
+// Populate B1 with value 1
+dataSheet.Cells["B1"].PutValue(1);
+// Populate B2 with value 2
+dataSheet.Cells["B2"].PutValue(2);
+// Populate B3 with value 3
+dataSheet.Cells["B3"].PutValue(3);
+// Populate A1 with label A
+dataSheet.Cells["A1"].PutValue("A");
+// Populate A2 with label B
+dataSheet.Cells["A2"].PutValue("B");
+// Populate A3 with label C
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5
+// Define the Chart Collection from the "MyChart"
+ChartCollection charts = sheet.Charts;
+// Add a Column chart
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6
+// Access the newly added chart
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7
+// Set background color of the PlotArea
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// Set chart area background color
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// Set foreground color of the PlotArea
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Set chart area foreground color
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8
+// Hide the legend for clarity in the chart display
+chart.ShowLegend = false;
+
+//ExStep:9
+// Add data series from "DataSheet"
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10
+// Specify the category data for the chart
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11
+// Get the first Data Series for formatting
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12
+// Access the shape properties of the series
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// Access 3D formatting options
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13
+// Get the TopBevel settings
+Bevel bevel = fmt3d.TopBevel;
+// Set bevel style to Circle
+bevel.Type = BevelPresetType.Circle; 
+// Set bevel height
+bevel.Height = 2;
+// Set bevel width 
+bevel.Width = 5;
+
+//ExStep:14
+// Set surface material type
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15
+// Set the lighting type for the surface
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16
+// Specify the angle of the lighting
+fmt3d.LightingAngle = 20;
+
+//ExStep:17
+// Set the series background color
+ser.Area.BackgroundColor = Color.Maroon;
+// Set the series foreground color
+ser.Area.ForegroundColor = Color.Maroon;
+// Set border color of the series
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18
+// Save the workbook to the specified directory
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// Confirm successful execution
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

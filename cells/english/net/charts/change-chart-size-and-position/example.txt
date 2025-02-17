@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: This code demonstrates how to resize and reposition a chart in an Excel workbook using Aspose.Cells library.
+//ExStepSummary:0: The following code initializes source and output directories for the Excel file.
+//ExStepSummary:1: The code loads a workbook from the source directory containing a sample Excel file.
+//ExStepSummary:2: The code accesses the first worksheet in the workbook to work with its charts.
+//ExStepSummary:3: The code retrieves the first chart from the worksheet for modification purposes.
+//ExStepSummary:4: The code resizes the chart to a width of 400 and height of 300 pixels.
+//ExStepSummary:5: The code repositions the chart by setting its X and Y coordinates.
+//ExStepSummary:6: Finally, the modified workbook is saved to the output directory with a new filename.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Source directory for the Excel file
+string sourceDir = "Your Document Directory";
+// Output directory for saving the modified Excel file
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Load the specified workbook
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// Access the first worksheet of the workbook
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Load the first chart from the worksheet
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Resize the chart width to 400 pixels
+chart.ChartObject.Width = 400;
+// Resize the chart height to 300 pixels
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// Reposition the chart's X coordinate
+chart.ChartObject.X = 250;
+// Reposition the chart's Y coordinate 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// Save the modified workbook to the output directory
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// Notify the user of successful execution
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

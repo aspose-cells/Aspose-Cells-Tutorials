@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: This code demonstrates how to modify the shape type of data labels in an Excel chart using Aspose.Cells.
+//ExStepSummary:0: Loading the source Excel file and accessing the first worksheet.
+//ExStepSummary:1: Accessing the first chart in the worksheet.
+//ExStepSummary:2: Accessing the first series in the chart.
+//ExStepSummary:3: Setting the shape type of data labels to a Speech Bubble Oval.
+//ExStepSummary:4: Saving the modified Excel file to the output directory.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Define the source directory
+string sourceDir = "Your Document Directory";
+// Define the output directory
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Load the source Excel file
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// Access the first worksheet
+Worksheet ws = wb.Worksheets[0];
+// Access the first chart
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// Access the first series
+Series srs = ch.NSeries[0];
+// Set the shape type of data labels to Speech Bubble Oval
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// Save the output Excel file
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// Confirm successful execution
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd
