@@ -10,7 +10,6 @@
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
-//ExStepImage:5:images/5.png
 
 //ExStep:0-
 // Initialize the source directory for document access

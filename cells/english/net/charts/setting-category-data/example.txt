@@ -1,13 +1,16 @@
 //ExStart
+Here's a summary of the steps in the code you provided:
 //ExSummary: This code demonstrates how to create an Excel workbook, populate it with sample data, and generate a column chart based on that data. 
-//ExStepSummary:0: This step sets the output directory for the Excel file.
-//ExStepSummary:1: This step instantiates a new Workbook object.
-//ExStepSummary:2: This step obtains a reference to the first worksheet in the workbook.
-//ExStepSummary:3: This step adds sample numeric values to specific cells in the worksheet.
-//ExStepSummary:4: This step adds category labels to the worksheet cells.
-//ExStepSummary:5: This step creates a chart in the worksheet and configures it with a specific data range.
-//ExStepSummary:6: This step sets the category data for the chart's series collection.
-//ExStepSummary:7: This step saves the workbook as an Excel file with the specified name.
+//ExStepSummary:0: This step specifies the output directory for the Excel file.
+//ExStepSummary:1: This step instantiates a new Workbook object for creating the Excel file.
+//ExStepSummary:2: This step retrieves a reference to the first worksheet in the created workbook.
+//ExStepSummary:3: This step populates specific cells in the worksheet with sample numeric data.
+//ExStepSummary:4: This step adds category labels to the worksheet to represent different data groups.
+//ExStepSummary:5: This step creates a column chart in the worksheet at the specified location, defining its size and position.
+//ExStepSummary:6: This step accesses the newly created chart for further configuration.
+//ExStepSummary:7: This step adds data series to the chart, setting its data source and category data to properly represent the information.
+//ExStepSummary:8: This step saves the generated workbook as an Excel file in the specified output directory.
+//ExStepSummary:9: This step prints a success message to the console indicating that the chart settings have been applied successfully.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png

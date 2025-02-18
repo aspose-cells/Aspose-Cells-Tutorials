@@ -11,8 +11,11 @@ url: /net/charts/change-tick-label-direction/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Chart Tick Label Direction in Excel using Aspose.Cells 
-This example demonstrates how to modify the direction of chart tick labels in an Excel worksheet using Aspose.Cells for .NET. By adjusting the text direction of the category axis tick labels, you can enhance the readability of chart data. The code loads an existing Excel workbook, accesses the first worksheet, retrieves the chart, sets the tick label direction to horizontal, and then saves the modified workbook. This approach ensures precise control over chart label orientation in your .NET applications.  
+
+This example demonstrates how to modify the direction of chart tick labels in an Excel worksheet using Aspose.Cells for .NET. By adjusting the text direction of the category axis tick labels, you can enhance the readability of chart data. The code loads an existing Excel workbook, accesses the first worksheet, retrieves the chart, sets the tick label direction to horizontal, and then saves the modified workbook. This approach ensures precise control over chart label orientation in your .NET applications. 
+ 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/change-tick-label-direction" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
