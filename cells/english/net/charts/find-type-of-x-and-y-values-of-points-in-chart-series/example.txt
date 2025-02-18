@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: This code demonstrates how to load an Excel file containing a chart, access the chart, calculate its data, 
+// and retrieve the types of X and Y values from a specific chart point. It prints these types to the console.
+//ExStepSummary:0: Load the sample Excel file that contains the chart data.
+//ExStepSummary:1: Access the first worksheet in the workbook.
+//ExStepSummary:2: Access the first chart in the worksheet.
+//ExStepSummary:3: Calculate the data for the chart.
+//ExStepSummary:4: Retrieve the first chart point from the first series of the chart.
+//ExStepSummary:5: Print the types of X and Y values to the console.
+//ExStepSummary:6: Confirm the successful execution of the process.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+
+//ExStep:0-
+// Define the source directory for the document
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Load sample Excel file containing chart.
+Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx"); 
+
+//ExStep:2-
+// Access the first worksheet in the workbook
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Get the first chart from the worksheet
+Chart ch = ws.Charts[0]; 
+
+//ExStep:4-
+// Compute the chart's data points and formulas
+ch.Calculate(); 
+
+//ExStep:5-
+// Retrieve the first data point of the first series in the chart
+ChartPoint pnt = ch.NSeries[0].Points[0]; 
+
+//ExStep:6-
+// Print the types of X and Y values of chart point.
+Console.WriteLine("X Value Type: " + pnt.XValueType);
+Console.WriteLine("Y Value Type: " + pnt.YValueType);
+
+//ExStep:7-
+// Confirm execution success.
+Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");
+//ExEnd

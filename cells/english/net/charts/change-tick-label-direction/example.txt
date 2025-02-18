@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: This code demonstrates how to change the direction of chart tick labels in an Excel worksheet using Aspose.Cells library.
+//ExStepSummary:0: Load the sample Excel workbook from the specified source directory.
+//ExStepSummary:1: Access the first worksheet in the workbook.
+//ExStepSummary:2: Load the chart from the first worksheet.
+//ExStepSummary:3: Set the direction of the category axis tick labels to horizontal.
+//ExStepSummary:4: Save the modified workbook to the specified output directory.
+//ExStepSummary:5: Confirm successful execution with a console message.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Define the source directory for the Excel file
+// Set the source directory path
+string sourceDir = "Your Document Directory"; 
+// Set the output directory path
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Load the Excel workbook from the specified source path
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// Index 0 refers to the first worksheet
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Load the chart from the first worksheet
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Change the direction type of the category axis tick labels to horizontal
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// Save the modified workbook to the output directory with a new file name
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Print a success message to the console
+// Indicate the process completed successfully
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd
