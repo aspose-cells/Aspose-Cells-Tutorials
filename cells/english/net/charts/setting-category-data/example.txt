@@ -11,7 +11,6 @@ Here's a summary of the steps in the code you provided:
 //ExStepSummary:7: This step adds data series to the chart, setting its data source and category data to properly represent the information.
 //ExStepSummary:8: This step saves the generated workbook as an Excel file in the specified output directory.
 //ExStepSummary:9: This step prints a success message to the console indicating that the chart settings have been applied successfully.
-//ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 //ExStepImage:4:images/3.png
 //ExStepImage:5:images/4.png
