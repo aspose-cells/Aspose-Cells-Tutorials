@@ -1,19 +1,17 @@
 //ExStart
-//ExSummary: This code demonstrates how to load an Excel file containing a chart, access the chart, calculate its data, 
-// and retrieve the types of X and Y values from a specific chart point. It prints these types to the console.
-//ExStepSummary:0: Load the sample Excel file that contains the chart data.
-//ExStepSummary:1: Access the first worksheet in the workbook.
-//ExStepSummary:2: Access the first chart in the worksheet.
-//ExStepSummary:3: Calculate the data for the chart.
-//ExStepSummary:4: Retrieve the first chart point from the first series of the chart.
-//ExStepSummary:5: Print the types of X and Y values to the console.
-//ExStepSummary:6: Confirm the successful execution of the process.
+//ExSummary: This code demonstrates how to load an existing Excel workbook, access a chart, and retrieve the types of X and Y values of its data points.
+//ExStepSummary:0: This step defines the source directory where the Excel document is located.
+//ExStepSummary:1: This step loads a sample Excel file containing a chart into a Workbook object.
+//ExStepSummary:2: This step accesses the first worksheet in the workbook to work with its contents.
+//ExStepSummary:3: This step retrieves the first chart present in the worksheet for analysis.
+//ExStepSummary:4: This step computes the data points and formulas used in the chart for accurate data retrieval.
+//ExStepSummary:5: This step retrieves the first data point from the first series of the chart to examine its properties.
+//ExStepSummary:6: This step prints out the types of X and Y values associated with the retrieved chart point, providing insights into the data's format.
+//ExStepSummary:7: This step confirms the successful execution of the operation by outputting a success message to the console.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
-//ExStepImage:4:images/4.png
-//ExStepImage:5:images/5.png
-//ExStepImage:6:images/6.png
+//ExStepImage:6:images/4.png
 
 //ExStep:0-
 // Define the source directory for the document

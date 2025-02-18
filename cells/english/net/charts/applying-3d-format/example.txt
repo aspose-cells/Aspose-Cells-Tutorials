@@ -2,23 +2,23 @@
 //ExSummary: This code demonstrates how to create a new Excel workbook, add data and charts, and apply 3D formatting to chart series.
 //ExStepSummary:0: This step initializes the output directory for the workbook and creates a new Workbook instance for data manipulation.
 //ExStepSummary:1: This step renames the first worksheet to "DataSheet."
-//ExStepSummary:2: This step adds a new worksheet titled "MyChart" to house the chart.
-//ExStepSummary:3: This step populates the "DataSheet" with sample data.
-//ExStepSummary:4: This step initializes the ChartCollection for adding charts.
-//ExStepSummary:5: This step defines the Chart Collection in "MyChart" and adds a Column chart.
-//ExStepSummary:6: This step accesses the newly added chart for customization.
-//ExStepSummary:7: This step set background and foreground colors of the chart's PlotArea and ChartArea to white.
+//ExStepSummary:2: This step retrieves the "DataSheet" for further data insertion.
+//ExStepSummary:3: This step adds a new worksheet titled "MyChart" to house the chart.
+//ExStepSummary:4: This step populates the "DataSheet" with sample values from B1 to B3 and labels from A1 to A3.
+//ExStepSummary:5: This step initializes the ChartCollection for adding charts in "MyChart".
+//ExStepSummary:6: This step defines the Chart Collection in "MyChart" and adds a Column chart.
+//ExStepSummary:7: This step sets the background and foreground colors of the chart's PlotArea and ChartArea to white.
 //ExStepSummary:8: This step hides the legend for clarity in the chart display.
 //ExStepSummary:9: This step adds data series from "DataSheet" to the chart.
 //ExStepSummary:10: This step specifies the category data for the chart.
 //ExStepSummary:11: This step retrieves the first data series for formatting purposes.
 //ExStepSummary:12: This step accesses the shape properties of the series for 3D formatting.
 //ExStepSummary:13: This step configures the TopBevel settings, setting style, height, and width.
-//ExStepSummary:14: This step set the surface material type to Warm Matte.
-//ExStepSummary:15: This step defines the lighting type of the surface.
-//ExStepSummary:16: This step specifies the angle of the lighting for better visual effect.
-//ExStepSummary:17: This step set the series background, foreground, and border colors to Maroon.
-//ExStepSummary:18: This step saves the workbook to the specified directory.
+//ExStepSummary:14: This step sets the surface material type to Warm Matte.
+//ExStepSummary:15: This step defines the lighting type for the surface.
+//ExStepSummary:16: This step specifies the angle of the lighting for visual enhancement.
+//ExStepSummary:17: This step sets the series background, foreground, and border colors to Maroon.
+//ExStepSummary:18: This step saves the workbook to the specified directory and confirms successful execution.
 //ExStepImage:4:images/1.png
 //ExStepImage:5:images/2.png
 //ExStepImage:9:images/3.png
