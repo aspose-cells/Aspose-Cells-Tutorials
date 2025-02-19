@@ -1,0 +1,92 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a PivotTable in a spreadsheet using Aspose.Cells for .NET. It initializes a workbook, adds data to it, creates a PivotTable, configures its settings, and saves the workbook in ODS format.
+//ExStepSummary:0: This code sets the output directory for the ODS file.
+//ExStepSummary:1: This step initializes a Workbook object to create a new spreadsheet.
+//ExStepSummary:2: This section retrieves the first worksheet and the cells collection for data manipulation.
+//ExStepSummary:3: This step populates the worksheet with sport sales data for various quarters.
+//ExStepSummary:4: This section adds a PivotTable to the worksheet using the populated data.
+//ExStepSummary:5: This step configures the PivotTable by setting fields for rows, columns, and data then section calculates the PivotTable data.
+//ExStepSummary:6: This step saves the workbook to the specified output directory.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// Setting the document output directory
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Instantiating a Workbook object
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Obtaining the reference of the first worksheet
+Worksheet sheet = workbook.Worksheets[0];
+// Getting the cells collection from the sheet
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// Accessing cell A1
+cell = cells["A1"];
+// Setting the header for sport
+cell.PutValue("Sport");
+// Accessing cell B1
+cell = cells["B1"];
+// Setting the header for quarter
+cell.PutValue("Quarter");
+// Accessing cell C1
+cell = cells["C1"];
+// Setting the header for sales
+cell.PutValue("Sales");
+
+// Adding data for sports, quarters, and sales
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// Access the PivotTable collection
+PivotTableCollection pivotTables = sheet.PivotTables;
+// Adding a PivotTable based on the data range
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// Accessing the newly added PivotTable
+PivotTable pivotTable = pivotTables[index];
+// Disabling grand totals for rows
+pivotTable.RowGrand = false;
+// Draging the first field to the row area
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// Draging the second field to the column area
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// Draging the third field to the data area
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// Calculating the data for the PivotTable
+pivotTable.CalculateData();
+
+//ExStep:6-
+// Saving the workbook in ODS format
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// Indicating successful execution
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd
