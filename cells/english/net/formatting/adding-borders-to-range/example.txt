@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: This code demonstrates how to create and format an Excel workbook using Aspose. It includes the creation of a workbook, adding a Cell value, defining a range, and applying borders to that range.
+//ExStepSummary:0: This code initializes the document directory for saving the workbook.
+//ExStepSummary:1: This code creates a Workbook object that represents an Excel workbook.
+//ExStepSummary:2: This code accesses the first worksheet of the workbook.
+//ExStepSummary:3: This code accesses the "A1" cell to input a value.
+//ExStepSummary:4: This code creates a range of cells from "A1" to the third column.
+//ExStepSummary:5: This code applies thick borders to the defined range in various directions.
+//ExStepSummary:6: This code saves the workbook to the specified file path.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Define path for the document directory.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Check if the directory exists
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// If directory doesn't exist
+if (!IsExists)
+	// Create the directory
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantiate a Workbook object
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Obtain reference to the first worksheet
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Access the "A1" cell in the worksheet
+Cell cell = worksheet.Cells["A1"];
+// Add a value to the "A1" cell
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// Create a range from "A1" to the 3rd column
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// Apply various border styles to the range
+// Set top border
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// Set bottom border
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// Set left border
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// Set right border
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// Save the Excel file
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd
