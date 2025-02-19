@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: This code demonstrates how to load an Excel file, access a specific worksheet, and apply a tiling texture fill to a shape within that worksheet. The modified Excel file is then saved to a specified output directory.
+//ExStepSummary:0: This step initializes the source and output directories for the Excel file operations.
+//ExStepSummary:1: This step loads the sample Excel file containing a shape to modify.
+//ExStepSummary:2: This step accesses the first worksheet in the loaded workbook.
+//ExStepSummary:3: This step retrieves the first shape inside the worksheet for modification.
+//ExStepSummary:4: This step applies a picture texture fill to the shape, allowing it to be tiled.
+//ExStepSummary:5: This step saves the modified workbook to the output directory.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// Source directory where the input Excel file is located
+string sourceDir = "Your Document Directory"; 
+
+// Output directory where the modified Excel file will be saved
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// Load the sample Excel file from the source directory
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// Access the first worksheet in the workbook
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// Access the first shape within the worksheet
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// Tile the picture as a texture inside the shape, enabling tiling
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// Save the updated Excel file to the output directory
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// Indicate success in the console
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

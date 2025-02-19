@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: This code demonstrates how to create an Excel workbook, add a textbox to a worksheet, and specify both Far East and Latin font names for the text in the textbox.
+//ExStepSummary:0: The following code initializes the output directory for the Excel file.
+//ExStepSummary:1: The following code creates a new empty workbook.
+//ExStepSummary:2: The following code accesses the first worksheet in the workbook.
+//ExStepSummary:3: The following code adds a textbox to the worksheet at specified coordinates.
+//ExStepSummary:4: The following code sets the content of the textbox to "こんにちは世界" (Hello World) and specifies the Latin and Far East font names for the textbox.
+//ExStepSummary:5: The following code saves the workbook to the specified output directory.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Specify the output directory for the file
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Create an empty workbook
+var wb = new Workbook();
+
+//ExStep:2-
+// Access the first worksheet in the workbook
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Add a textbox at position (5,5) with width 50 and height 200
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// Access the new textbox
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// Set the text of the textbox to "Hello World" in Japanese
+tb.Text = "こんにちは世界";
+// Specify the Latin font name
+tb.TextOptions.LatinName = "Comic Sans MS";
+// Specify the Far East font name
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// Save the workbook to the output directory
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// Confirm successful execution
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

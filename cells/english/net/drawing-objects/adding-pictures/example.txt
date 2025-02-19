@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: The following code demonstrates how to create a new Excel file, add a worksheet, and insert an image into a specific cell.
+//ExStepSummary:0: This step checks if the documents directory exists and creates it if it doesn't.
+//ExStepSummary:1: This step instantiates a Workbook object to create a new Excel file.
+//ExStepSummary:2: This step adds a new worksheet to the Workbook object and obtains its reference.
+//ExStepSummary:3: This step adds an image to the worksheet at specified cell coordinates.
+//ExStepSummary:4: This step saves the Excel file to the specified path.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Define path to the documents directory
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Check if directory exists
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantiate a Workbook object
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// Add a new worksheet to the Workbook
+int sheetIndex = workbook.Worksheets.Add(); 
+// Get reference to the newly added worksheet
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// Add an image to cell "F6" (row 5, column 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Save the Excel file to the specified path
+workbook.Save(dataDir + "output.xls");
+//ExEnd

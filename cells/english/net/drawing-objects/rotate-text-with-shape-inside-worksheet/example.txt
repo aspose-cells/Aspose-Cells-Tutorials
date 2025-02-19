@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: This code demonstrates how to manipulate text inside a shape in an Excel worksheet using Aspose.Cells. It sets text alignment properties and saves the workbook.
+//ExStepSummary:0: The following code defines the source and output directories for Excel files.
+//ExStepSummary:1: The following code loads a sample Excel file containing the data.
+//ExStepSummary:2: The following code accesses the first worksheet in the workbook.
+//ExStepSummary:3: The following code updates the value of cell B4 with a message regarding text rotation.
+//ExStepSummary:4: The following code accesses the first shape on the worksheet.
+//ExStepSummary:5: The following code modifies the text alignment of the shape to prevent text rotation.
+//ExStepSummary:6: The following code saves the modified workbook to the specified output directory.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Define the source directory where the Excel file is located
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Define the output directory to save the modified Excel file
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Load the sample Excel file
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// Access the first worksheet in the workbook
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Access cell B4 in the worksheet
+Cell b4 = ws.Cells["B4"];
+// Update cell B4 with a specific message
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// Access the first shape in the worksheet
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// Access the text alignment of the shape
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// Set the property to not rotate text with the shape
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// Save the modified workbook to the output directory
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// Print success message
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

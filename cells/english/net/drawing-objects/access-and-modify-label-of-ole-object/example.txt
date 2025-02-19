@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary: This code demonstrates how to access and modify the label of an Ole object in an Excel file using Aspose.Cells.
+//ExStepSummary:0: The following code initializes the source directory where the Excel file is located.
+//ExStepSummary:1: The code loads the sample Excel file into a Workbook object.
+//ExStepSummary:2: This step accesses the first worksheet in the workbook.
+//ExStepSummary:3: Here, the first Ole object is accessed for modification.
+//ExStepSummary:4: The original label of the Ole object is displayed in the console.
+//ExStepSummary:5: The label of the Ole object is modified.
+//ExStepSummary:6: The updated workbook is saved to a memory stream.
+//ExStepSummary:7: The workbook reference is set to null to release resources.
+//ExStepSummary:8: The workbook is reloaded from the memory stream to verify the changes.
+//ExStepSummary:9: The modified label of the Ole object is displayed after reloading.
+//ExStepSummary:10: A success message is displayed in the console to indicate execution completion.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// Specify the directory containing the Excel file
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Load the sample Excel file
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// Access the first worksheet
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Access the first Ole object
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// Display the original label of the Ole object
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// Modify the label of the Ole object
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// Create a memory stream to save the workbook
+MemoryStream ms = new MemoryStream();
+// Save workbook to memory stream
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// Set the workbook reference to null to release resources
+wb = null; 
+
+//ExStep:8-
+// Load workbook from the memory stream
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// Display the modified label of the Ole object
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// Indicate successful execution
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd
