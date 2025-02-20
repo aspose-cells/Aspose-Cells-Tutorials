@@ -1,8 +1,8 @@
 //ExStart
 //ExSummary: This code demonstrates how to create an Excel workbook using Aspose.Cells, add custom styles to cells, and save the workbook in Excel 97-2003 format.
-//ExStepSummary:0: The following code sets up the path for the document directory and creates it if it doesn't exist.
-//ExStepSummary:1: The following code instantiates a Workbook object.
-//ExStepSummary:2: The following code adds a new worksheet to the Workbook object.
+//ExStepSummary:0: The following code initializes the directory where the Excel file is located.
+//ExStepSummary:1: The following code sets up the path for the document directory and creates it if it doesn't exist.
+//ExStepSummary:2: The following code instantiates a Workbook object and adds a new worksheet to the Workbook object.
 //ExStepSummary:3: The following code retrieves the A1 cell style and applies a yellow foreground color with a vertical stripe pattern.
 //ExStepSummary:4: The following code retrieves the A2 cell style and applies a blue foreground color, yellow background color, and a vertical stripe pattern.
 //ExStepSummary:5: The following code saves the workbook in Excel 97-2003 format.

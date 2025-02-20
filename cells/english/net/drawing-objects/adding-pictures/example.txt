@@ -1,10 +1,11 @@
 //ExStart
 //ExSummary: The following code demonstrates how to create a new Excel file, add a worksheet, and insert an image into a specific cell.
-//ExStepSummary:0: This step checks if the documents directory exists and creates it if it doesn't.
-//ExStepSummary:1: This step instantiates a Workbook object to create a new Excel file.
-//ExStepSummary:2: This step adds a new worksheet to the Workbook object and obtains its reference.
-//ExStepSummary:3: This step adds an image to the worksheet at specified cell coordinates.
-//ExStepSummary:4: This step saves the Excel file to the specified path.
+//ExStepSummary:0: The following code initializes the directory where the Excel file is located.
+//ExStepSummary:1: This step checks if the documents directory exists and creates it if it doesn't.
+//ExStepSummary:2: This step instantiates a Workbook object to create a new Excel file.
+//ExStepSummary:3: This step adds a new worksheet to the Workbook object and obtains its reference.
+//ExStepSummary:4: This step adds an image to the worksheet at specified cell coordinates.
+//ExStepSummary:5: This step saves the Excel file to the specified path.
 //ExStepImage:4:images/1.png
 //ExStep:0-
 // Define path to the documents directory
