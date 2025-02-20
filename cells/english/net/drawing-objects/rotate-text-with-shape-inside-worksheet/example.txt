@@ -1,12 +1,13 @@
 //ExStart
 //ExSummary: This code demonstrates how to manipulate text inside a shape in an Excel worksheet using Aspose.Cells. It sets text alignment properties and saves the workbook.
-//ExStepSummary:0: The following code defines the source and output directories for Excel files.
-//ExStepSummary:1: The following code loads a sample Excel file containing the data.
-//ExStepSummary:2: The following code accesses the first worksheet in the workbook.
-//ExStepSummary:3: The following code updates the value of cell B4 with a message regarding text rotation.
-//ExStepSummary:4: The following code accesses the first shape on the worksheet.
-//ExStepSummary:5: The following code modifies the text alignment of the shape to prevent text rotation.
-//ExStepSummary:6: The following code saves the modified workbook to the specified output directory.
+//ExStepSummary:0: The following code defines the source directory for Excel file.
+//ExStepSummary:1: The following code defines the output directory for Excel file.
+//ExStepSummary:2: The following code loads a sample Excel file containing the data.
+//ExStepSummary:3: The following code accesses the first worksheet in the workbook.
+//ExStepSummary:4: The following code updates the value of cell B4 with a message regarding text rotation.
+//ExStepSummary:5: The following code accesses the first shape on the worksheet.
+//ExStepSummary:6: The following code modifies the text alignment of the shape to prevent text rotation.
+//ExStepSummary:7: The following code saves the modified workbook to the specified output directory.
 //ExStepImage:4:images/1.png
 //ExStepImage:6:images/2.png
 

@@ -40,6 +40,26 @@ Learn how to create, customize, and manage charts in .NET applications using Asp
 {{< tutorial-card link="./drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Create Excel Workbook with Far East & Latin Fonts" imgSrc="./drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
 {{< tutorial-card link="./drawing-objects/tile-picture-as-texture-inside-shape/" title="Tiling Texture Fill in Excel with Aspose.Cells" imgSrc="./drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Formatting in Aspose.Cells for .NET – Styles, Colors & More](./formatting/)
+Learn how to apply formatting in Aspose.Cells for .NET, including styles, colors, fonts, borders, and more for professional Excel reports.
+
+{{< tutorial-card link="./formatting/adding-borders-to-range/" title="Adding Borders to a Range in Excel using Aspose.Cells" imgSrc="./formatting/adding-borders-to-range/images/thumb.png" >}}
+{{< tutorial-card link="./formatting/colors-and-background/" title="Apply Colors & Backgrounds in Excel using Aspose.Cells" imgSrc="./formatting/colors-and-background/images/thumb.png" >}}
+{{< tutorial-card link="./formatting/merging-cells/" title="Merging Cells in Excel using Aspose.Cells for .NET" imgSrc="./formatting/merging-cells/images/thumb.png" >}}
+{{< tutorial-card link="./formatting/setting-font-color/" title="Set Font Color in Excel Cells using Aspose.Cells" imgSrc="./formatting/setting-font-color/images/thumb.png" >}}
+{{< tutorial-card link="./formatting/setting-font-name/" title="Setting Font Name in Excel using Aspose.Cells" imgSrc="./formatting/setting-font-name/images/thumb.png" >}}
+{{< tutorial-card link="./formatting/setting-font-size/" title="Set Font Size in Excel Using Aspose.Cells" imgSrc="./formatting/setting-font-size/images/thumb.png" >}}
+{{< tutorial-card link="./formatting/text-alignment-horizontal/" title="Horizontal Text Alignment in Excel with Aspose.Cells" imgSrc="./formatting/text-alignment-horizontal/images/thumb.png" >}}
+{{< tutorial-card link="./formatting/wrapping-text/" title="Wrap Text in Excel Cells Using Aspose.Cells" imgSrc="./formatting/wrapping-text/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Pivot Tables in Aspose.Cells for .NET](./pivot-tables/)
+Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+
+{{< tutorial-card link="./pivot-tables/create-pivot-table/" title="Create a Pivot Table in Excel Using Aspose.Cells" imgSrc="./pivot-tables/create-pivot-table/images/thumb.png" >}}
+{{< tutorial-card link="./pivot-tables/pivot-table-save-in-ods/" title="Save Pivot Table as ODS in Aspose.Cells" imgSrc="./pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
