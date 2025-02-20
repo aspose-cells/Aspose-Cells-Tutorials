@@ -1,15 +1,16 @@
 //ExStart
 //ExSummary: This code loads an Excel workbook, accesses specific shapes in a worksheet, manipulates their Z-order positions, and saves the updated workbook.
-//ExStepSummary:0: The following code shows how to define source and output directories for the Excel file.
-//ExStepSummary:1: The following code shows how to load the source Excel file.
-//ExStepSummary:2: The following code shows how to access the first worksheet of the workbook.
-//ExStepSummary:3: The following code shows how to access the first and fourth shapes in the worksheet.
-//ExStepSummary:4: The following code shows how to print the Z-Order position of the first shape.
-//ExStepSummary:5: The following code shows how to send the first shape to the front.
-//ExStepSummary:6: The following code shows how to print the Z-Order position of the fourth shape.
-//ExStepSummary:7: The following code shows how to send the fourth shape to the back.
-//ExStepSummary:8: The following code shows how to save the modified Excel file to the output directory.
-//ExStepSummary:9: The following code shows how to confirm execution of the operation.
+//ExStepSummary:0: The following code shows how to define source directory for the Excel file.
+//ExStepSummary:1: The following code shows how to define output directory for the Excel file.
+//ExStepSummary:2: The following code shows how to load the source Excel file.
+//ExStepSummary:3: The following code shows how to access the first worksheet of the workbook.
+//ExStepSummary:4: The following code shows how to access the first and fourth shapes in the worksheet.
+//ExStepSummary:5: The following code shows how to print the Z-Order position of the first shape.
+//ExStepSummary:6: The following code shows how to send the first shape to the front.
+//ExStepSummary:7: The following code shows how to print the Z-Order position of the fourth shape.
+//ExStepSummary:8: The following code shows how to send the fourth shape to the back.
+//ExStepSummary:9: The following code shows how to save the modified Excel file to the output directory.
+//ExStepSummary:10: The following code shows how to confirm execution of the operation.
 //ExStepImage:4:images/1.png
 //ExStepImage:5:images/2.png
 //ExStepImage:6:images/3.png
