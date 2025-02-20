@@ -4,8 +4,8 @@
 //ExStepSummary:1: The following code checks if the directory exists and creates it if not.
 //ExStepSummary:2: The following code instantiates a Workbook object to create a new Excel file.
 //ExStepSummary:3: The following code adds a new worksheet to the workbook.
-//ExStepSummary:4: The following code accesses the "A1" cell in the newly added worksheet.
-//ExStepSummary:5: The following code adds a value to the "A1" cell.
+//ExStepSummary:4: This code accesses the first worksheet of the workbook.
+//ExStepSummary:5:  The following code accesses the "A1" cell in the newly added worksheet and adds a value to the "A1" cell.
 //ExStepSummary:6: The following code obtains and modifies the style of the "A1" cell.
 //ExStepSummary:7: The following code saves the workbook to the specified directory.
 //ExStepImage:5:images/1.png

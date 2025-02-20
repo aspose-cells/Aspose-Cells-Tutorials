@@ -1,11 +1,12 @@
 //ExStart
 //ExSummary: This code demonstrates how to create an Excel file using Aspose.Cells, including setting up a workbook, modifying a cell, and saving the file to a specified directory.
-//ExStepSummary:0: The following code sets the path for the documents directory and creates it if it doesn't exist.
-//ExStepSummary:1: This step initializes a Workbook object for the Excel file.
-//ExStepSummary:2: This step retrieves the first worksheet from the workbook.
-//ExStepSummary:3: In this step, we access the "A1" cell from the worksheet and add a value to it.
-//ExStepSummary:4: This step sets the horizontal alignment of the text in the "A1" cell to center.
-//ExStepSummary:5: Finally, the code saves the workbook to the specified directory in the Excel 97-2003 format.
+//ExStepSummary:0: The following code initializes the directory where the Excel file is located.
+//ExStepSummary:1: The following code sets the path for the documents directory and creates it if it doesn't exist.
+//ExStepSummary:2: This step initializes a Workbook object for the Excel file.
+//ExStepSummary:3: This step retrieves the first worksheet from the workbook.
+//ExStepSummary:4: In this step, we access the "A1" cell from the worksheet and add a value to it.
+//ExStepSummary:5: This step sets the horizontal alignment of the text in the "A1" cell to center.
+//ExStepSummary:6: Finally, the code saves the workbook to the specified directory in the Excel 97-2003 format.
 //ExStepImage:4:images/1.png
 //ExStepImage:5:images/2.png
 

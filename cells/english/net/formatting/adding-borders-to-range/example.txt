@@ -1,10 +1,10 @@
 //ExStart
 //ExSummary: This code demonstrates how to create and format an Excel workbook using Aspose. It includes the creation of a workbook, adding a Cell value, defining a range, and applying borders to that range.
 //ExStepSummary:0: This code initializes the document directory for saving the workbook.
-//ExStepSummary:1: This code creates a Workbook object that represents an Excel workbook.
-//ExStepSummary:2: This code accesses the first worksheet of the workbook.
-//ExStepSummary:3: This code accesses the "A1" cell to input a value.
-//ExStepSummary:4: This code creates a range of cells from "A1" to the third column.
+//ExStepSummary:1: This code create a new directory if it doesn't exist.
+//ExStepSummary:2: This code creates a Workbook object that represents an Excel workbook.
+//ExStepSummary:3: This code accesses the first worksheet of the workbook.
+//ExStepSummary:4: This code accesses the "A1" cell to input a value.
 //ExStepSummary:5: This code applies thick borders to the defined range in various directions.
 //ExStepSummary:6: This code saves the workbook to the specified file path.
 //ExStepImage:4:images/1.png
