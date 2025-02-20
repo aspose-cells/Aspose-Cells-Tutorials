@@ -29,6 +29,17 @@ Learn how to create, customize, and manage charts in .NET applications using Asp
 {{< tutorial-card link="./charts/set-shape-type-of-data-labels-of-chart/" title="Modify Chart Data Label Shape in Excel" imgSrc="./charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
 {{< tutorial-card link="./charts/setting-category-data/" title="Create Excel Chart with Aspose.Cells for .NET" imgSrc="./charts/setting-category-data/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Drawing Objects with Aspose.Cells for .NET](./drawing-objects/)
+Learn how to create, customize, and manage charts in .NET applications using Aspose.Cells. Explore various chart types with easy, efficient examples.
+
+{{< tutorial-card link="./drawing-objects/access-and-modify-label-of-ole-object/" title="Modify Ole Object Labels in Excel Using Aspose.Cells" imgSrc="./drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
+{{< tutorial-card link="./drawing-objects/adding-pictures/" title="Create and Save Excel Files with Aspose.Cells" imgSrc="./drawing-objects/adding-pictures/images/thumb.png" >}}
+{{< tutorial-card link="./drawing-objects/rotate-text-with-shape-inside-worksheet/" title="Modify Shape Text Alignment in Excel Using Aspose.Cells" imgSrc="./drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+{{< tutorial-card link="./drawing-objects/send-shape-front-or-back-in-worksheet/" title="Manipulating Z-Order of Shapes in Excel using Aspose.Cells" imgSrc="./drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+{{< tutorial-card link="./drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Create Excel Workbook with Far East & Latin Fonts" imgSrc="./drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+{{< tutorial-card link="./drawing-objects/tile-picture-as-texture-inside-shape/" title="Tiling Texture Fill in Excel with Aspose.Cells" imgSrc="./drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: This code demonstrates how to create an Excel workbook, add a worksheet, modify a cell's value and style, and save the workbook.
+//ExStepSummary:0: The code initializes the path for the documents directory and checks if it exists.
+//ExStepSummary:1: The code instantiates a new Workbook object.
+//ExStepSummary:2: A new worksheet is added to the workbook, and a reference to it is obtained.
+//ExStepSummary:3: The "A1" cell of the worksheet is accessed to modify its value.
+//ExStepSummary:4: The style of the "A1" cell is obtained and the font color is set to blue.
+//ExStepSummary:5: The modified style is applied to the cell before saving the workbook.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Check if the directory exists.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// If it does not exist, create it.
+if (!IsExists)
+	// Create directory.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantiating a Workbook object.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Adding a new worksheet to the Excel object.
+int i = workbook.Worksheets.Add();
+// Obtaining a reference to the newly added worksheet.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Access the "A1" cell from the worksheet.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Adding some value to the "A1" cell.
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Obtaining the style of the cell.
+Style style = cell.GetStyle();
+// Setting the font color to blue.
+style.Font.Color = Color.Blue;
+// Applying the style to the cell.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Saving the Excel file.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

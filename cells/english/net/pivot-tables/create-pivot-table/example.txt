@@ -1,0 +1,85 @@
+//ExStart
+//ExSummary: This code demonstrates how to create an Excel workbook, add data to it, and generate a PivotTable to summarize the sales data for different sports over various quarters.
+//ExStepSummary:0: Initialize the path to the documents directory.
+//ExStepSummary:1: Create a new Workbook object and obtain the reference to the default worksheet.
+//ExStepSummary:2: Populate the worksheet with headers and data for sports, quarters, and sales.
+//ExStepSummary:3: Add a PivotTable to summarize the data in the worksheet.
+//ExStepSummary:4: Configure the PivotTable by setting grand totals and drag fields into appropriate areas.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Path to the documents directory
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instantiate a Workbook object
+Workbook workbook = new Workbook();
+// Obtain the reference of the newly added worksheet
+Worksheet sheet = workbook.Worksheets[0];
+// Access the cells of the worksheet
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// Access cell A1
+cell = cells["A1"];
+// Set value for Sport header
+cell.PutValue("Sport");
+// Access cell B1
+cell = cells["B1"];
+// Set value for Quarter header
+cell.PutValue("Quarter");
+// Access cell C1
+cell = cells["C1"];
+// Set value for Sales header
+cell.PutValue("Sales");
+
+// Add data for sports
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// Add data for quarters
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// Add data for sales
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// Access pivot tables in the sheet
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// Adding a PivotTable to the worksheet
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// Access the instance of the newly added PivotTable
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// Unshow grand totals for rows
+pivotTable.RowGrand = false;
+// Drag the first field (Sport) to the row area
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// Drag the second field (Quarter) to the column area
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// Drag the third field (Sales) to the data area
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// Save the Excel file
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

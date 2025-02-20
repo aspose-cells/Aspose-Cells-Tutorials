@@ -1,0 +1,64 @@
+//ExStart
+//ExSummary: This code loads an Excel workbook, accesses specific shapes in a worksheet, manipulates their Z-order positions, and saves the updated workbook.
+//ExStepSummary:0: The following code shows how to define source and output directories for the Excel file.
+//ExStepSummary:1: The following code shows how to load the source Excel file.
+//ExStepSummary:2: The following code shows how to access the first worksheet of the workbook.
+//ExStepSummary:3: The following code shows how to access the first and fourth shapes in the worksheet.
+//ExStepSummary:4: The following code shows how to print the Z-Order position of the first shape.
+//ExStepSummary:5: The following code shows how to send the first shape to the front.
+//ExStepSummary:6: The following code shows how to print the Z-Order position of the fourth shape.
+//ExStepSummary:7: The following code shows how to send the fourth shape to the back.
+//ExStepSummary:8: The following code shows how to save the modified Excel file to the output directory.
+//ExStepSummary:9: The following code shows how to confirm execution of the operation.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// Source directory for input Excel file
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Output directory for the modified Excel file
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Load source Excel file
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// Access the first worksheet
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Access the first shape
+Shape sh1 = ws.Shapes[0];
+// Access the fourth shape
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// Print the Z-Order position of the first shape
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// Send this first shape to the front
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// Print the Z-Order position of the fourth shape
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// Send this fourth shape to the back
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// Save the output Excel file
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// Confirmation of execution
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

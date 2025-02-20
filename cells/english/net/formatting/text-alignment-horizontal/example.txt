@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: This code demonstrates how to create an Excel file using Aspose.Cells, including setting up a workbook, modifying a cell, and saving the file to a specified directory.
+//ExStepSummary:0: The following code sets the path for the documents directory and creates it if it doesn't exist.
+//ExStepSummary:1: This step initializes a Workbook object for the Excel file.
+//ExStepSummary:2: This step retrieves the first worksheet from the workbook.
+//ExStepSummary:3: In this step, we access the "A1" cell from the worksheet and add a value to it.
+//ExStepSummary:4: This step sets the horizontal alignment of the text in the "A1" cell to center.
+//ExStepSummary:5: Finally, the code saves the workbook to the specified directory in the Excel 97-2003 format.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Define the path to the documents directory.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Check if the directory exists.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// create the directory.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantiate a Workbook object to create a new Excel file.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Obtain a reference to the first worksheet.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Access the "A1" cell from the worksheet.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Add some value to the "A1" cell.
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Get the cell's existing style.
+Style style = cell.GetStyle();
+// Set the horizontal alignment to center.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// Apply the updated style to the cell.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Save the workbook to the specified directory in Excel 97-2003 format.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

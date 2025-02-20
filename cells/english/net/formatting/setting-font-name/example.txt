@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: This code demonstrates how to create an Excel workbook, add a worksheet, and format a cell using Aspose.Cells.
+//ExStepSummary:0: The following code sets the path for the documents directory.
+//ExStepSummary:1: The following code checks if the directory exists and creates it if not.
+//ExStepSummary:2: The following code instantiates a Workbook object to create a new Excel file.
+//ExStepSummary:3: The following code adds a new worksheet to the workbook.
+//ExStepSummary:4: The following code accesses the "A1" cell in the newly added worksheet.
+//ExStepSummary:5: The following code adds a value to the "A1" cell.
+//ExStepSummary:6: The following code obtains and modifies the style of the "A1" cell.
+//ExStepSummary:7: The following code saves the workbook to the specified directory.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Set the path to the documents directory
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Check if the directory exists
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// If it does not exist
+if (!IsExists)
+	// Create the directory
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantiate a Workbook object
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Add a new worksheet to the workbook
+int i = workbook.Worksheets.Add();
+
+//ExStep:4-
+// Obtain reference to the newly added worksheet
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:5-
+// Access the "A1" cell in the worksheet
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Add a value to the "A1" cell
+cell.PutValue("Hello Aspose!");
+
+//ExStep:6-
+// Obtain the style of the cell
+Style style = cell.GetStyle();
+// Set the font name to "Times New Roman"
+style.Font.Name = "Times New Roman";
+// Apply the modified style to the cell
+cell.SetStyle(style);
+
+//ExStep:7-
+// Save the workbook to the specified directory
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd
