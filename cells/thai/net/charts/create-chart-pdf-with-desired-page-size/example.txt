@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้าง PDF จากตาราง Excel ที่มีขนาดหน้าที่กําหนดไว้ มันบรรจุหนังสืองาน Excel เข้าสู่ตารางงานและตารางของมัน และสุดท้ายสร้างไฟล์ PDF ที่มีการจัดวางที่ต้องการ
+//ExStepSummary:0: ขั้นตอนนี้กําหนดไดเรอรี่แหล่งที่ไฟล์ Excel ถูกเก็บไว้
+//ExStepSummary:1: ขั้นตอนนี้กําหนดหน้ากากผลิตที่ PDF ที่สร้างจะบันทึก
+//ExStepSummary:2: ขั้นตอนนี้จะโหลดไฟล์ Excel แบบตัวอย่างที่มีแผนที่เข้าในวัตถุ Workbook
+//ExStepSummary:3: ขั้นตอนนี้เข้าสู่ใบงานแรกของหนังสือทํางานที่บรรจุ
+//ExStepSummary:4: ขั้นตอนนี้เข้าสู่แผนที่แรกที่อยู่ในใบงาน
+//ExStepSummary:5: ขั้นตอนนี้สร้าง PDF ของตารางที่มีขนาดหน้าและการจัดเรียงที่กําหนดไว้ และบันทึกมันไปยังบันทึกผลิต
+//ExStepSummary:6: ขั้นตอนนี้จะส่งข้อความยืนยันที่แสดงว่าการดําเนินงานของกระบวนการสร้างได้สําเร็จ
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// หนังสือบรรจุแหล่งที่มีไฟล์ Excel
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// หนังสือบรรจุผลิตที่ PDF จะถูกบันทึก
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// โหลดตัวอย่างไฟล์ Excel ที่มีแผนที่
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// การเข้าถึงใบงานแรก
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// เข้าสู่แผนที่แรกในใบงาน
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// สร้างแผนที่ PDF ด้วยขนาดหน้าที่ต้องการ
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// ข้อความยืนยัน
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

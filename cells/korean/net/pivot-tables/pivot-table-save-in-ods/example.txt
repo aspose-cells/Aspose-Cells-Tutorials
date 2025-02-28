@@ -1,0 +1,92 @@
+//ExStart
+//ExSummary: 이 코드는 .NET에 대한 Aspose.Cells를 사용하여 스프레드시트에서 피보트 테이블을 만드는 방법을 보여줍니다. 그것은 작업서를 초기화하고 데이터들을 추가하고, 피보트 테이블을 생성하고, 설정들을 구성하고, ODS 형식으로 작업서를 저장합니다.
+//ExStepSummary:0: 이 코드는 ODS 파일의 출력 디렉토리를 설정합니다.
+//ExStepSummary:1: 이 단계에서는 새로운 스프레드시트를 만들기 위해 작업번호부 객체를 초기화합니다.
+//ExStepSummary:2: 이 섹션에서는 데이터 조작을 위한 첫 번째 워크시트와 셀 컬렉션을 검색합니다.
+//ExStepSummary:3: 이 단계로, 워크시트는 다양한 분기별 스포츠 판매 데이터를 채우게 됩니다.
+//ExStepSummary:4: 이 섹션에서는 채용된 데이터를 사용하여 도중 테이블을 워크시트에 추가합니다.
+//ExStepSummary:5: 이 단계는 도중 테이블을 설정하여 줄, 열 및 데이터에 대한 필드를 설정하고 섹션이 도중 테이블 데이터를 계산합니다.
+//ExStepSummary:6: 이 단계로 작업번호부를 지정된 출력 디렉토리에 저장합니다.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// 문서 출력 디렉토리를 설정
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 작업번호부 객체를 인스턴스하는
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// 첫 번째 워크시트의 참조를 얻는 방법
+Worksheet sheet = workbook.Worksheets[0];
+// 표지에서 세포 수집을 얻는
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// A1 셀에 접속
+cell = cells["A1"];
+// 스포츠를 위한 헤더를 설정
+cell.PutValue("Sport");
+// 접근 셀 B1
+cell = cells["B1"];
+// 분당의 헤더를 설정
+cell.PutValue("Quarter");
+// 접근 셀 C1
+cell = cells["C1"];
+// 판매를 위한 헤더를 설정
+cell.PutValue("Sales");
+
+// 스포츠, 분기 및 판매에 대한 데이터를 추가
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// 중추표 컬렉션에 액세스
+PivotTableCollection pivotTables = sheet.PivotTables;
+// 데이터 범위를 기반으로 PivotTable를 추가
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// 새로 추가된 중추 테이블에 액세스
+PivotTable pivotTable = pivotTables[index];
+// 라인에 대한 총 수를 비활성화
+pivotTable.RowGrand = false;
+// 첫 번째 필드를 라인 영역으로 끌어당기
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// 두 번째 필드를 열 영역으로 끌고
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// 데이터 영역으로 세 번째 필드를 끌고
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// 도중 테이블의 데이터를 계산
+pivotTable.CalculateData();
+
+//ExStep:6-
+// ODS 형식으로 작업번호부를 저장
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// 성공적인 실행을 나타내는
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

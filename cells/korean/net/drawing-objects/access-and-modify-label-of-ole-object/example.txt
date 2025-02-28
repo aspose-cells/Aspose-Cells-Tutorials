@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary: 이 코드는 Aspose.Cells를 사용하여 Excel 파일에서 Ole 객체의 레이블을 액세스하고 수정하는 방법을 보여줍니다.
+//ExStepSummary:0: 다음 코드는 Excel 파일이 있는 소스 디렉토리를 초기화합니다.
+//ExStepSummary:1: 코드는 샘플 엑셀 파일을 워크북 객체로 로드합니다.
+//ExStepSummary:2: 이 단계로 작업 책상 첫 번째 워크 시트에 액세스합니다.
+//ExStepSummary:3: 여기, 첫 번째 오레 객체에 접근하여 수정합니다.
+//ExStepSummary:4: 오레 객체의 원래 라벨은 콘솔에 표시됩니다.
+//ExStepSummary:5: 오레 물체의 표지가 변경되었습니다.
+//ExStepSummary:6: 업데이트된 작업번호부는 메모리 스트림에 저장됩니다.
+//ExStepSummary:7: 리소스를 풀기 위해 작업책 참조는 무효로 설정됩니다.
+//ExStepSummary:8: 변경 사항을 확인하기 위해 작업 책기는 메모리 스트림에서 다시 로드됩니다.
+//ExStepSummary:9: 오레 물체의 수정된 라벨은 재충전 후 표시됩니다.
+//ExStepSummary:10: 실행 완료를 표시하기 위해 콘솔에 성공 메시지가 표시됩니다.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// Excel 파일의 디렉토리를 지정
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// 샘플 엑셀 파일을 로드
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// 첫 번째 워크시트에 액세스
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// 첫 번째 Ole 객체에 액세스
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// 오레 객체의 원본 라벨을 표시
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// 오레 객체의 라벨을 수정
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// 작업번호부를 저장하기 위해 메모리 스트림을 생성
+MemoryStream ms = new MemoryStream();
+// 메모리 스트림에 작업서를 저장
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// 리소스를 풀기 위해 작업책 참조를 null로 설정
+wb = null; 
+
+//ExStep:8-
+// 메모리 스트림에서 작업번호부를 로드
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// 오레 객체의 수정된 라벨을 표시
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// 성공적인 실행을 표시
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

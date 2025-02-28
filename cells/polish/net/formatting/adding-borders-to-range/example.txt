@@ -1,0 +1,55 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak tworzyć i formatować książeczkę roboczą Excel za pomocą programu Aspose.
+//ExStepSummary:0: Kod ten inicjuje katalog dokumentów do zapisywania podręcznika roboczego.
+//ExStepSummary:1: Ten kod tworzy nowy katalog, jeśli nie istnieje.
+//ExStepSummary:2: Kod ten tworzy obiekt Workbook, który reprezentuje książkę roboczą Excel.
+//ExStepSummary:3: Kod ten dostępuje do pierwszego arkusza w podręczniku pracy.
+//ExStepSummary:4: Kod ten wchodzi do komórki "A1" w celu wprowadzenia wartości.
+//ExStepSummary:5: Kod ten ma zastosowanie do definiowanego zakresu w różnych kierunkach.
+//ExStepSummary:6: Kod ten zapisuje książkę do określonej ścieżki pliku.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Definiuj ścieżkę do katalogu dokumentów.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Sprawdź , czy istnieje katalog
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Jeśli katalog nie istnieje
+if (!IsExists)
+	// Tworzenie katalogu
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Wykreszczenie obiektu Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Uzyskanie odniesienia do pierwszego arkusza
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Dostęp do komórki "A1" w arkuszu roboczym
+Cell cell = worksheet.Cells["A1"];
+// Dodaj wartość do komórki "A1"
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// Tworzyć zakres od "A1" do kolumny 3
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// Wpływ różnych stylów granicznych do zakresu
+// Ustaw górną granicę
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// Ustaw granicę dolną
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// Ustaw lewy granicę
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// Ustaw prawy granicę
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// Zapisz plik Excel
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd

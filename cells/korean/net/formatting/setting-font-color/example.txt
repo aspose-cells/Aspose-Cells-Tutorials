@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: 이 코드는 Excel 작업번호부, 작업번호부 추가, 셀의 값과 스타일을 수정하고 작업번호부를 저장하는 방법을 보여줍니다.
+//ExStepSummary:0: 다음 코드는 Excel 파일이 있는 디렉토리를 초기화합니다.
+//ExStepSummary:1: 코드는 문서 디렉토리 경로를 초기화하고, 그것이 있는지 확인합니다.
+//ExStepSummary:2: 코드는 새로운 워크북 객체를 인스턴스합니다.
+//ExStepSummary:3: 작업 책 에 새로운 작업 표 가 추가 되어 그 에 대한 참조 를 얻는다.
+//ExStepSummary:4: 작업 표의 "A1" 셀은 그 값을 변경하기 위해 액세스 할 수 있습니다.
+//ExStepSummary:5: "A1" 셀의 스타일은 얻으며 글꼴 색상은 파란색으로 설정됩니다.
+//ExStepSummary:6: 수정된 스타일은 작업번호부를 저장하기 전에 셀에 적용됩니다.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// 문서 디렉토리로 가는 길
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 디렉토리가 있는지 확인해
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// 만약 존재하지 않는다면, 창조해 보세요.
+if (!IsExists)
+	// 디렉토리를 만들죠.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 작업번호부 객체를 인스턴스하는 것
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Excel 객체에 새로운 워크시트를 추가합니다.
+int i = workbook.Worksheets.Add();
+// 새로 추가된 작업 표의 참조를 얻는 것.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// 작업 표에서 "A1" 셀에 액세스하십시오.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1" 셀에 약간의 값을 추가합니다.
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// 세포의 스타일을 알아내기 위해서요
+Style style = cell.GetStyle();
+// 글꼴 색을 파란색으로 설정합니다.
+style.Font.Color = Color.Blue;
+// 세포에 적용하는 스타일
+cell.SetStyle(style);
+
+//ExStep:6-
+// 엑셀 파일을 저장합니다.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

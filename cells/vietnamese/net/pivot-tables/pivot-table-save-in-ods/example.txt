@@ -1,0 +1,92 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo một PivotTable trong bảng tính bằng cách sử dụng Aspose.Cells cho .NET. Nó khởi tạo một sổ làm việc, thêm dữ liệu vào nó, tạo một PivotTable, cấu hình cài đặt của nó, và lưu sổ làm việc trong định dạng ODS.
+//ExStepSummary:0: Mã này thiết lập thư mục đầu ra cho tệp ODS.
+//ExStepSummary:1: Bước này khởi tạo một đối tượng Workbook để tạo ra một bảng tính mới.
+//ExStepSummary:2: Phần này lấy trang tính đầu tiên và bộ sưu tập các tế bào để thao tác dữ liệu.
+//ExStepSummary:3: Bước này làm đầy trang tính với dữ liệu bán hàng thể thao cho các quý khác nhau.
+//ExStepSummary:4: Phần này thêm một bảng chuyển động vào trang tính bằng cách sử dụng dữ liệu được lấp đầy.
+//ExStepSummary:5: Bước này cấu hình bảng PivotTable bằng cách đặt các trường cho hàng, cột và dữ liệu sau đó phần tính toán dữ liệu bảng PivotTable.
+//ExStepSummary:6: Bước này lưu sổ làm việc vào thư mục đầu ra được chỉ định.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// Thiết lập thư mục xuất tài liệu
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Tạo một đối tượng Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Nhận tham chiếu của trang tính đầu tiên
+Worksheet sheet = workbook.Worksheets[0];
+// Nhận các tập tin tế bào từ tấm
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// Phiên bản truy cập tế bào A1
+cell = cells["A1"];
+// Đặt tiêu đề cho thể thao
+cell.PutValue("Sport");
+// Phiên bản truy cập tế bào B1
+cell = cells["B1"];
+// Đặt tiêu đề cho phần tư
+cell.PutValue("Quarter");
+// Hành động truy cập C1
+cell = cells["C1"];
+// Đặt tiêu đề cho bán hàng
+cell.PutValue("Sales");
+
+// Thêm thêm dữ liệu cho thể thao, quý và doanh số bán hàng
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// Nhập vào bộ sưu tập PivotTable
+PivotTableCollection pivotTables = sheet.PivotTables;
+// Thêm một bảng PivotTable dựa trên phạm vi dữ liệu
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// Nhập vào bảng chuyển động mới được thêm vào
+PivotTable pivotTable = pivotTables[index];
+// Thiết lập tổng số lớn cho hàng
+pivotTable.RowGrand = false;
+// Chuyển trường đầu tiên đến khu vực hàng
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// Chuyển trường thứ hai đến khu vực cột
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// Chuyển trường thứ ba vào khu dữ liệu
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// Xét dữ liệu cho bảng chuyển động
+pivotTable.CalculateData();
+
+//ExStep:6-
+// Cung cấp sổ làm việc theo định dạng ODS
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// Chỉ ra việc thực hiện thành công
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

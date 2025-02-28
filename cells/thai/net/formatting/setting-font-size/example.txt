@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างไฟล์ Excel โดยใช้ Aspose.Cells มันเริ่มต้นหนังสือทํางาน, เพิ่มใบงาน, เติมเซลล์ด้วยข้อความ, ปรับขนาดตัวอักษรของเซลล์, และบันทึกหนังสือทํางานไปยังบันทึกที่กําหนด
+//ExStepSummary:0: ขั้นตอนนี้แสดงวิธีการกําหนดเส้นทางไปยังบันทึกเอกสาร
+//ExStepSummary:1: ขั้นตอนนี้แสดงวิธีการสร้างบันทึกข้อมูล หากมันยังไม่มี
+//ExStepSummary:2: ขั้นตอนนี้แสดงให้เห็นการแสดงตัวของวัตถุ Workbook
+//ExStepSummary:3: ขั้นตอนนี้แสดงวิธีการเพิ่มใบงานใหม่ในหนังสืองาน และหามันตามอักษร
+//ExStepSummary:4: ขั้นตอนนี้รายละเอียดวิธีการเข้าถึงเซลล์ที่特定และประชุดมันด้วยค่า
+//ExStepSummary:5: ขั้นตอนนี้อธิบายวิธีการรับสไตล์เซลล์และปรับขนาดลายอักษร และแสดงวิธีการนําสไตล์ที่ปรับเปลี่ยนไปสู่เซลล์
+//ExStepSummary:6: ขั้นตอนนี้แสดงให้เห็นวิธีการบันทึกหนังสือทํางานไปยังเส้นทางไฟล์ที่กําหนด
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// กําหนดเส้นทางไปยังบันทึกเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// ตรวจสอบว่าเอกสารมีหรือไม่
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// ถ้ามันไม่มี
+if (!IsExists)
+	// สร้างบันทึก
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// จัดทําโครงการ Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// เพิ่มใบงานใหม่ในหนังสืองาน
+int i = workbook.Worksheets.Add();
+// รับข้อมูลจากใบงานที่เพิ่มใหม่
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// เข้าถึงเซลล์ "A1" จากใบงาน
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// เคล็ดลับเซลล์ "A1" ด้วยค่า
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// ได้รับสไตล์เซลล์
+Style style = cell.GetStyle();
+// ปรับขนาด font เป็น 14
+style.Font.Size = 14;
+// ใช้สไตล์ที่ปรับเปลี่ยนไปบนเซลล์
+cell.SetStyle(style);
+
+//ExStep:6-
+// กองบันทึกหนังสือทํางานที่เส้นทางไฟล์ที่กําหนด
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

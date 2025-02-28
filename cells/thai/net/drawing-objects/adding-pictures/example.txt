@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: คódต่อไปนี้แสดงให้เห็นวิธีการสร้างไฟล์ Excel ใหม่ เพิ่มใบงาน และใส่ภาพในเซลล์ที่特定
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นการแสดงบัญชีที่ไฟล์ Excel อยู่
+//ExStepSummary:1: ขั้นตอนนี้ ตรวจสอบว่าเอกสารบันทึกมีอยู่หรือไม่ และสร้างมันถ้ามันไม่มี
+//ExStepSummary:2: ขั้นตอนนี้แสดงให้เห็นของ Workbook เพื่อสร้างไฟล์ Excel ใหม่
+//ExStepSummary:3: ขั้นตอนนี้เพิ่มใบงานใหม่ต่อวัตถุ Workbook และได้รับการอ้างอิงของมัน
+//ExStepSummary:4: ขั้นตอนนี้เพิ่มภาพในใบงานที่สมาธิเซลล์ที่กําหนด
+//ExStepSummary:5: ขั้นตอนนี้จะบันทึกไฟล์ Excel ไปยังเส้นทางที่กําหนด
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// กําหนดเส้นทางไปยังบันทึกเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// ตรวจสอบว่าเอกสารมีหรือไม่
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// จัดทําโครงการ Workbook
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// เพิ่มใบงานใหม่ในหนังสืองาน
+int sheetIndex = workbook.Worksheets.Add(); 
+// รับข้อมูลจากใบงานที่เพิ่มใหม่
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// เพิ่มภาพในเซลล์ "F6" (แถว 5 สตาง 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// กองเก็บไฟล์ Excel ไปยังเส้นทางที่กําหนด
+workbook.Save(dataDir + "output.xls");
+//ExEnd

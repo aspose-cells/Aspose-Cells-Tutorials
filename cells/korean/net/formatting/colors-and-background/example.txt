@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: 이 코드는 Aspose.Cells를 사용하여 Excel 작업서를 만드는 방법, 셀에 사용자 지정 스타일을 추가하고 Excel 97-2003 형식으로 작업서를 저장하는 방법을 보여줍니다.
+//ExStepSummary:0: 다음 코드는 Excel 파일이 있는 디렉토리를 초기화합니다.
+//ExStepSummary:1: 다음 코드는 문서 디렉토리 경로를 설정하고 존재하지 않는 경우 생성합니다.
+//ExStepSummary:2: 다음 코드는 Workbook 객체를 인스턴스하고 Workbook 객체에 새로운 워크시트를 추가합니다.
+//ExStepSummary:3: 다음 코드에서는 A1 셀 스타일을 검색하고 수직 스트립 패턴으로 노란색 전지색을 적용합니다.
+//ExStepSummary:4: 다음 코드에서는 A2 세포 스타일을 검색하고 푸른 전면색, 노란색 배경색, 수직 스트립 패턴을 적용합니다.
+//ExStepSummary:5: 다음 코드에서는 Excel 97-2003 형식으로 작업 책자를 저장합니다.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// 문서 디렉토리로 가는 길
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 디렉토리가 있는지 확인해
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// 이미 존재하지 않는 경우 디렉토리를 생성하십시오.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 작업번호부 객체를 인스턴스하는 것
+Workbook workbook = new Workbook();
+
+// 새로운 워크시트를 만들고 그 지표를 얻으십시오.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// 새로 추가된 워크시트의 참조를 탭 인덱스를 통과함으로써 얻는 것
+Worksheet worksheet = workbook.Worksheets[i];
+// 스타일을 정의하고 A1 세포 스타일을 얻으십시오.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// 셀 A1 스타일 특성을 설정
+// 앞면 색을 노란색으로 설정합니다.
+style.ForegroundColor = Color.Yellow;
+// 배경 패턴을 수직 스트립으로 설정합니다.
+style.Pattern = BackgroundType.VerticalStripe;
+// A1 세포에 스타일을 적용하십시오.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// A2 셀 스타일로
+style = worksheet.Cells["A2"].GetStyle();
+
+// 셀 A2 스타일 특성을 설정
+// 앞면 색을 파란색으로 설정합니다.
+style.ForegroundColor = Color.Blue;
+// 배경 색을 노란색으로 설정합니다.
+style.BackgroundColor = Color.Yellow;
+// 배경 패턴을 수직 스트립으로 설정합니다.
+style.Pattern = BackgroundType.VerticalStripe;
+// A2 셀에 스타일 적용하세요.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// 엑셀 파일을 저장합니다.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

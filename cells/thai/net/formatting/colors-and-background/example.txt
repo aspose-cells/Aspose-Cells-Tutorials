@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างหนังสือทํางาน Excel โดยใช้ Aspose.Cells, เพิ่มแบบที่ต้องการให้กับเซลล์, และบันทึกหนังสือทํางานในรูปแบบ Excel 97-2003.
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นการแสดงบัญชีที่ไฟล์ Excel อยู่
+//ExStepSummary:1: คódต่อไปนี้ตั้งเส้นทางสําหรับเอกสารลักษณะและสร้างมันถ้ามันไม่ได้มี
+//ExStepSummary:2: คódต่อไปนี้แสดงตัวอย่างของ Workbook และเพิ่มใบงานใหม่ใน object Workbook
+//ExStepSummary:3: คódต่อไปนี้จะนําเสนอรูปแบบเซลล์ A1 และใช้สีสีเหลืองในพื้นที่หน้าด้วยรูปเส้นตั้ง
+//ExStepSummary:4: คódต่อไปนี้นําเสนอรูปแบบเซลล์ A2 และใช้สีสีฟ้าในพื้นที่หน้า, สีพื้นที่เหลือง และรูปแบบเส้นตรง
+//ExStepSummary:5: คódต่อไปนี้บันทึกหนังสือทํางานในรูปแบบ Excel 97-2003.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// ทางไปยังบันทึกเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// ตรวจสอบว่าเอกสารมีอยู่หรือเปล่า
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// สร้างบันทึกข้อมูล หากมันยังไม่มี
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// การฉายตัวของ Workbook
+Workbook workbook = new Workbook();
+
+// สร้างใบงานใหม่และได้รับออเด็กซ์ของมัน
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// การรับระบุใบงานที่เพิ่มใหม่โดยการผ่านออดีตใบ
+Worksheet worksheet = workbook.Worksheets[i];
+// กําหนดสไตล์และได้รับสไตล์เซลล์ A1
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// กําหนดคุณสมบัติแบบเซลล์ A1
+// ปรับสีหน้าเป็นสีเหลือง
+style.ForegroundColor = Color.Yellow;
+// การตั้งรูปแบบพื้นฐานเป็นเส้นตรง
+style.Pattern = BackgroundType.VerticalStripe;
+// ใช้สไตล์ไปยังเซลล์ A1
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// รับสไตล์เซลล์ A2
+style = worksheet.Cells["A2"].GetStyle();
+
+// กําหนดคุณสมบัติแบบเซลล์ A2
+// ปรับสีหน้าเป็นสีฟ้า
+style.ForegroundColor = Color.Blue;
+// ปรับสีหลังเป็นสีเหลือง
+style.BackgroundColor = Color.Yellow;
+// การตั้งรูปแบบพื้นฐานเป็นเส้นตรง
+style.Pattern = BackgroundType.VerticalStripe;
+// ใช้สไตล์ไปยังเซลล์ A2
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// การบันทึกไฟล์ Excel
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

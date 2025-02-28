@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการเปลี่ยนทิศทางของตารางตัวกระบายในตารางงาน Excel โดยใช้ห้องสมุด Aspose.Cells
+//ExStepSummary:0: โหลดตัวอย่าง Excel หนังสือทํางานจากบันทึกข้อมูลแหล่งที่กําหนด
+//ExStepSummary:1: เข้าสู่ใบงานแรกในหนังสืองาน
+//ExStepSummary:2: โหลดแผนที่จากใบการทํางานแรก
+//ExStepSummary:3: กําหนดทิศทางของหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหมวดหม
+//ExStepSummary:4: กรอกบันทึกหนังสือทํางานที่ปรับปรุงไว้ในบันทึกผลิตที่กําหนด
+//ExStepSummary:5: ยืนยันการดําเนินการสําเร็จด้วยข้อความของคอนโซล
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// กําหนดหน้าหลักแหล่งสําหรับไฟล์ Excel
+// กําหนดเส้นทางของบันทึกข้อมูลแหล่ง
+string sourceDir = "Your Document Directory"; 
+// กําหนดเส้นทางของบันทึกผล
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// โหลดหนังสือทํางาน Excel จากทางแหล่งที่กําหนด
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// รายการ 0 หมายถึงใบงานแรก
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// โหลดแผนที่จากใบงานแรก
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// เปลี่ยนแบบทิศทางของเล็บหมวดหมู่แกนตัวกลางเป็นแนวตั้ง
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// กองบันทึกหนังสือทํางานที่ปรับปรุงไว้ในบันทึกผลิตด้วยชื่อไฟล์ใหม่
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// พิมพ์ข้อความความสําเร็จที่เครื่อง
+// แสดงกระบวนการที่สําเร็จสําเร็จ
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

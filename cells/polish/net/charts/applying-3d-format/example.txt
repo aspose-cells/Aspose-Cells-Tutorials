@@ -1,0 +1,136 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak tworzyć nowy podręcznik pracy programu Excel, dodać dane i wykresy oraz zastosować format 3D do serii wykresów.
+//ExStepSummary:0: Ten krok inicjuje katalog wyjściowy do podręcznika roboczego i tworzy nowy przykład podręcznika roboczego do manipulacji danymi.
+//ExStepSummary:1: Ten krok przemienia nazwę pierwszego arkusza do "Arkusza danych".
+//ExStepSummary:2: W tym kroku odzyskuje się "DataSheet" do dalszego wprowadzania danych.
+//ExStepSummary:3: W tym kroku dodaje się nowy arkusz z tytułem "MyChart" do wykresu.
+//ExStepSummary:4: W tym kroku "DataSheet" zapełnia się wartościami próbki od B1 do B3 oraz etykietami od A1 do A3.
+//ExStepSummary:5: W tym kroku inicjuje się zbiór wykresów do dodawania wykresów do "MyChart".
+//ExStepSummary:6: Ten krok definuje zbiór wykresów w "MyChart" i doda wykres kolumny.
+//ExStepSummary:7: Ten krok ustawia kolor tła i przodu w planach PlotArea i ChartArea na biały.
+//ExStepSummary:8: Ten krok ukrywa legendę dla jasności w wyświetleniu wykresu.
+//ExStepSummary:9: W tym kroku do wykresu dodaje się serię danych z "DataSheet".
+//ExStepSummary:10: W tym kroku określono dane dotyczące kategorii wykresu.
+//ExStepSummary:11: W tym kroku odzyskuje się pierwsze sery dane do celów formatowania.
+//ExStepSummary:12: W tym kroku dostęp do właściwości kształtu serii do formatowania 3D.
+//ExStepSummary:13: Ten krok konfigurował ustawienia TopBevel, ustawianie stylu, wysokości i szerokości.
+//ExStepSummary:14: W tym kroku rodzaj materiału powierzchni ustawiony jest na Warm Matte.
+//ExStepSummary:15: W tym kroku określa się typ oświetlenia powierzchni.
+//ExStepSummary:16: W tym kroku określa się kąt oświetlenia w celu wzmocnienia wzroku wzroku.
+//ExStepSummary:17: Ten krok ustawia kolory tła, przodu i granicy serii na Maroon.
+//ExStepSummary:18: Ten krok zapisuje książkę do wskazanego katalogu i potwierdza udane wykonanie.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// Ustaw ścieżkę wydajności
+string dataDir = "Your Document Directory";
+// Wykonać nowy obiekt Workbook
+Workbook book = new Workbook();
+
+//ExStep:1-
+// Przejmienie pierwszego arkusza do "Arkusza danych"
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// Zwróć się do "DataSheet"
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// Dodaj nowy arkusz do wykresu
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// Populat B1 o wartości 1
+dataSheet.Cells["B1"].PutValue(1);
+// Populat B2 o wartości 2
+dataSheet.Cells["B2"].PutValue(2);
+// Populat B3 o wartości 3
+dataSheet.Cells["B3"].PutValue(3);
+// Populacja A1 z etykietą A
+dataSheet.Cells["A1"].PutValue("A");
+// Populacja A2 z etykietą B
+dataSheet.Cells["A2"].PutValue("B");
+// Populacja A3 o etykietce C
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// Definiuj zbiór wykresów z "MyChart"
+ChartCollection charts = sheet.Charts;
+// Dodaj wykres kolumny
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// Dostęp do nowo dodanego wykresu
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// Ustaw kolor tła PlotArea
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// Ustaw kolor tła obszaru wykresu
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// Ustaw barwę pierwszego planu
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Ustaw kolor przodu obszaru wykresu
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// Ukryj legendę dla jasności w wyświetleniu wykresu
+chart.ShowLegend = false;
+
+//ExStep:9-
+// Dodaj serię danych z "DataSheet"
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// Wskaźnik wpisany w tabelę
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// Uzyskaj pierwszy serię danych do formatowania
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// Dostęp do właściwości kształtu serii
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// Dostęp do opcji formatowania 3D
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// Uzyskaj ustawienia TopBevel
+Bevel bevel = fmt3d.TopBevel;
+// Ustaw styl obwodów na Circle
+bevel.Type = BevelPresetType.Circle; 
+// Ustawić wysokość obwodów
+bevel.Height = 2;
+// Ustawić szerokość obwodów 
+bevel.Width = 5;
+
+//ExStep:14-
+// Rodzaj materiału powierzchni ustawionego
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// Ustaw typ oświetlenia dla powierzchni
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// Wyznacz kąt oświetlenia
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// Ustaw kolor tła serii
+ser.Area.BackgroundColor = Color.Maroon;
+// Ustaw kolor pierwszego planu serii
+ser.Area.ForegroundColor = Color.Maroon;
+// Ustaw kolor granicy serii
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// Zapisz książkę do wypełnionego katalogu
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// Potwierdzenie udanej wykonania
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

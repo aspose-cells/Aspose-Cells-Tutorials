@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: 이 코드 는 Aspose.Cells 를 사용하여 Excel 파일을 만드는 방법을 보여줍니다. 이 프로그램은 작업 책자를 초기화 하고, 작업 표를 추가 하고, 텍스트로 세포를 채우며, 세포의 글꼴 크기를 수정하고, 작업 책자를 지정된 디렉토리로 저장합니다.
+//ExStepSummary:0: 이 단계에서는 문서 디렉토리로의 경로를 정의하는 방법을 보여줍니다.
+//ExStepSummary:1: 이 단계에서는 이미 존재하지 않는 경우 디렉토리를 만드는 방법을 보여줍니다.
+//ExStepSummary:2: 이 단계는 Workbook 객체의 인스턴시션을 보여줍니다.
+//ExStepSummary:3: 이 단계에서는 작업 책상에 새로운 워크시트를 추가하고 인덱스별로 얻는 방법을 알려줍니다.
+//ExStepSummary:4: 이 단계에서는 특정 세포에 접근하고 값을 채우는 방법을 자세히 설명합니다.
+//ExStepSummary:5: 이 단계는 세포의 스타일을 얻는 방법과 글꼴 크기를 수정하는 방법을 설명하고 수정된 스타일을 세포에 적용하는 방법을 보여줍니다.
+//ExStepSummary:6: 이 단계에서는 작업번호부를 특정 파일 경로로 저장하는 방법을 보여줍니다.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// 문서 디렉토리 로그를 정의
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 디렉토리가 있는지 확인
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// 만약 그것이 존재하지 않는다면
+if (!IsExists)
+	// 디렉토리를 생성
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 작업번호부 객체를 인스턴스
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 작업 책상에 새로운 워크 시트를 추가
+int i = workbook.Worksheets.Add();
+// 새로 추가된 작업 표의 참조를 얻으십시오
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// 작업 표에서 "A1" 셀에 액세스
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// 값으로 "A1" 셀을 채우
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// 세포의 스타일을 얻으십시오
+Style style = cell.GetStyle();
+// 글꼴 크기를 14으로 설정
+style.Font.Size = 14;
+// 수정된 스타일을 셀에 적용
+cell.SetStyle(style);
+
+//ExStep:6-
+// 작업번호부를 지정된 파일 경로로 저장
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

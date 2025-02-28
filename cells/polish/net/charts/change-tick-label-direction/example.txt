@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak zmienić kierunek etykietek znaków wykresu w arkuszu roboczym programu Excel za pomocą biblioteki Aspose.Cells.
+//ExStepSummary:0: Załadowanie próbki podręcznika pracy programu Excel z określonego katalogu źródła.
+//ExStepSummary:1: Uzyskaj dostęp do pierwszego arkusza w podręczniku.
+//ExStepSummary:2: Załóż grafik z pierwszego arkusza.
+//ExStepSummary:3: Ustaw kierunek etykietek ośów kategorii na poziomie.
+//ExStepSummary:4: Zapisz zmienione podręcznik do określonego katalogu wyjściowego.
+//ExStepSummary:5: Potwierdź sukcesyjną wykonanie wiadomością na konsoli.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Definicja katalogu źródłowego pliku Excel
+// Ustaw ścieżkę rejestru źródła
+string sourceDir = "Your Document Directory"; 
+// Ustaw ścieżkę wydajności
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Ładowanie podręcznika pracy programu Excel z określonej ścieżki źródła
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// Indeks 0 odnosi się do pierwszego arkusza
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Włóż grafik z pierwszego arkusza
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Zmiana typu kierunku etykietek ośów kategorii na poziom
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// Zapisz zmienione podręcznik do katalogu wyjściowego z nowym nazwą pliku
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Wyślij wiadomość o sukcesie na konsoli
+// Wyznacz proces zakończony z powodzeniem
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

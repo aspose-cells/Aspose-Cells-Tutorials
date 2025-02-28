@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo sổ làm việc Excel mới, thêm một trang làm việc, tùy chỉnh một tế bào và lưu sổ làm việc.
+//ExStepSummary:0: Mã sau đây xác định đường dẫn cho thư mục tài liệu.
+//ExStepSummary:1: Mã sau đây kiểm tra xem thư mục có tồn tại hay không; nếu không, nó tạo ra một thư mục.
+//ExStepSummary:2: Mã sau đây mô tả một đối tượng Workbook.
+//ExStepSummary:3: Mã sau đây có được một tham chiếu đến trang tính đầu tiên của sổ làm việc.
+//ExStepSummary:4: Mã sau này truy cập vào ô "A1" trong trang tính.
+//ExStepSummary:5: Mã sau này thêm một giá trị vào ô "A1".
+//ExStepSummary:6: Mã sau đây thiết lập sự sắp xếp ngang của văn bản trong ô "A1" và cho phép bao vỏ văn bản.
+//ExStepSummary:7: Mã sau lưu sổ làm việc Excel vào thư mục được chỉ định.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Định nghĩa con đường đến thư mục tài liệu
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Kiểm tra xem thư mục có tồn tại không
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Nếu nó không tồn tại thì hãy tạo ra nó
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Tạo một đối tượng Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Nhận tham chiếu đến trang tính đầu tiên
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Nhập vào ô "A1" từ trang tính
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+
+//ExStep:5-
+// Thêm một số giá trị vào ô "A1"
+cell.PutValue("Visit Aspose!");
+
+//ExStep:6-
+// Nhận phong cách hiện tại của tế bào
+Style style = cell.GetStyle();
+// Khả năng gói văn bản trong tế bào
+style.IsTextWrapped = true;
+// Lấy lại phong cách đã sửa đổi vào tế bào
+cell.SetStyle(style);
+
+//ExStep:7-
+// Cung cấp tập tin Excel theo định dạng đã chỉ định
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

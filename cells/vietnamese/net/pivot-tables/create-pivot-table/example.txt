@@ -1,0 +1,85 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo sổ làm việc Excel, thêm dữ liệu vào nó và tạo ra bảng chuyển động để tóm tắt dữ liệu bán hàng cho các môn thể thao khác nhau trong các quý khác nhau.
+//ExStepSummary:0: Tạo ra con đường đến thư mục tài liệu.
+//ExStepSummary:1: Tạo một đối tượng Workbook mới và lấy tham chiếu đến bảng tính mặc định.
+//ExStepSummary:2: Đấp đầy trang tính với tiêu đề và dữ liệu cho môn thể thao, quý và bán hàng.
+//ExStepSummary:3: Thêm một bảng chuyển động để tóm tắt dữ liệu trong bảng tính.
+//ExStepSummary:4: Cài đặt bảng chuyển động bằng cách đặt tổng cộng lớn và các trường kéo vào các khu vực thích hợp.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Đường đến thư mục tài liệu
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Tạo một đối tượng Workbook
+Workbook workbook = new Workbook();
+// Nhận tham chiếu của trang tính mới được thêm vào
+Worksheet sheet = workbook.Worksheets[0];
+// Nhập vào các tế bào của bảng tính
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// Hành vi truy cập A1
+cell = cells["A1"];
+// Giá trị thiết lập cho tiêu đề Sport
+cell.PutValue("Sport");
+// Hành vi truy cập B1
+cell = cells["B1"];
+// Đặt giá trị cho tiêu đề Quarter
+cell.PutValue("Quarter");
+// Hành vi truy cập C1
+cell = cells["C1"];
+// Đặt giá trị cho tiêu đề Sales
+cell.PutValue("Sales");
+
+// Thêm dữ liệu cho thể thao
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// Thêm dữ liệu cho quý
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// Thêm dữ liệu về bán hàng
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// Các bảng access pivot trong trang
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// Thêm một PivotTable vào bảng tính
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// Nhập vào phiên bản của bảng chuyển động mới được thêm vào
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// Không hiển thị tổng số lớn cho hàng
+pivotTable.RowGrand = false;
+// Nhổ trường đầu tiên (Sport) vào vùng hàng
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// Chuyển trường thứ hai (Quarter) đến khu vực cột
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// Nhổ trường thứ ba (Sales) vào khu dữ liệu
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// Cung cấp tập tin Excel
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

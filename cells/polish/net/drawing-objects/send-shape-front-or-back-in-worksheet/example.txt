@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Kod ten ładuje podręcznik pracy programu Excel, dostępuje do określonych kształtów w arkuszu, manipuluje ich pozycjami z porządku Z i zapisuje zaktualizowany podręcznik pracy.
+//ExStepSummary:0: Następujący kod pokazuje, jak zdefiniować katalog źródłowy pliku Excel.
+//ExStepSummary:1: Następujący kod pokazuje, jak zdefiniować katalog wyjściowy dla pliku Excel.
+//ExStepSummary:2: Następujący kod pokazuje, jak ładować plik źródłowy programu Excel.
+//ExStepSummary:3: Następujący kod pokazuje, jak uzyskać dostęp do pierwszego arkusza w podręczniku pracy.
+//ExStepSummary:4: Następujący kod pokazuje, jak uzyskać dostęp do pierwszego i czwartego kształtu w arkuszu.
+//ExStepSummary:5: Następujący kod pokazuje, jak drukować pozycję Z-Order pierwszego kształtu.
+//ExStepSummary:6: Następujący kod pokazuje, jak wysłać pierwszy kształt na przód.
+//ExStepSummary:7: Następujący kod pokazuje, jak drukować pozycję Z-Order czwartego kształtu.
+//ExStepSummary:8: Następujący kod pokazuje, jak wysłać czwarty kształt na tył.
+//ExStepSummary:9: Następujący kod pokazuje, jak zapisać zmieniony plik Excel do katalogu wyjściowego.
+//ExStepSummary:10: Następujący kod pokazuje, jak potwierdzić wykonanie operacji.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// Plik źródłowy do pliku Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Wpływ katalog dla modyfikowanego pliku Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Plik źródła wzorcowy
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// Dostęp do pierwszego arkusza
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Dostęp do pierwszego kształtu
+Shape sh1 = ws.Shapes[0];
+// Dostęp do czwartego kształtu
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// Drukuj pozycję Z-Order pierwszego kształtu
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// Wyślij ten pierwszy kształt na przód.
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// Drukuj pozycję Z-Order czwartego kształtu
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// Wyślij ten czwarty kształt na tył.
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// Zapisz plik Excel wyjściowy
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// Potwierdzenie wykonania
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

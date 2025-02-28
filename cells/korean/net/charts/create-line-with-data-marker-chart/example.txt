@@ -1,0 +1,88 @@
+//ExStart
+//ExSummary: 이 코드는 Aspose.Cells 라이브러리를 사용하여 작업 책자를 만들고 데이터 마크를 가진 라인 차트를 생성하는 방법을 보여줍니다.
+//ExStepSummary:0: 작업번호부를 저장하기 위해 출력 디렉토리를 초기화합니다.
+//ExStepSummary:1: 새로운 작업 책자를 설치하고 첫 번째 작업 표에 액세스합니다.
+//ExStepSummary:2: 그래프 데이터에 대한 컬럼 제목 "X"와 "Y"를 설정합니다.
+//ExStepSummary:3: 두 시리즈에 대한 무작위 데이터를 생성하고 적절한 셀에 채우습니다.
+//ExStepSummary:4: 라인 차트를 워크시트에 추가하고 그 속성을 사용자 정의합니다.
+//ExStepSummary:5: 차트에 있는 두 개의 데이터 시리즈의 성질을 구성합니다.
+//ExStepSummary:6: 생성된 차트와 함께 작업번호부를 저장합니다.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// 작업 책록의 출력 디렉토리를 설정
+static string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 새로운 작업 책 을 설치
+Workbook workbook = new Workbook();
+// 첫 번째 워크시트에 액세스
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:2-
+// X 값에 대한 열 제목을 설정
+worksheet.Cells[0, 0].Value = "X";
+// Y 값에 대한 열 제목을 설정
+worksheet.Cells[0, 1].Value = "Y";
+
+//ExStep:3-
+// 데이터를 생성하기 위해 새로운 무작위 객체를 생성
+Random R = new Random();
+
+// 무작위 데이터를 생성하고 셀에 저장
+for (int i = 1; i < 21; i++) // Loop to fill the first series data
+{
+    worksheet.Cells[i, 0].Value = i; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.8; // Fill the Y value (0.8 for the first series)
+}
+
+for (int i = 21; i < 41; i++) // Loop to fill the second series data
+{
+    worksheet.Cells[i, 0].Value = i - 20; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.9; // Fill the Y value (0.9 for the second series)
+}
+
+//ExStep:4-
+// 작업 표에 새로운 라인 차트를 추가
+int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
+Chart chart = worksheet.Charts[idx]; // Access the newly created chart
+// 차트 스타일을 설정
+chart.Style = 3;
+// 차트의 자동 스케일링을 활성화
+chart.AutoScaling = true;
+// 이 지표 영역의 배경 색을 설정
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// 차트의 제목을 설정
+chart.Title.Text = "Sample Chart";
+// 차트 유형을 정의
+chart.Type = ChartType.LineWithDataMarkers;
+
+// 카테고리 축 타이틀의 집합 속성
+chart.CategoryAxis.Title.Text = "Units"; // Set the title for the category axis
+
+//ExStep:5-
+int s2_idx = chart.NSeries.Add("A2: A2", true); // Add the first series to the chart
+int s3_idx = chart.NSeries.Add("A22: A22", true); // Add the second series to the chart
+
+chart.NSeries.IsColorVaried = true; // Enable varied colors for different points
+
+// 첫 번째 데이터 시리즈에 대한 성질 집계
+chart.NSeries[s2_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s2_idx].Marker.Area.ForegroundColor = Color.Yellow; // Set marker color to yellow
+chart.NSeries[s2_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s2_idx].XValues = "A2: A21"; // Define X values for the first series
+chart.NSeries[s2_idx].Values = "B2: B21"; // Define Y values for the first series
+
+// 두 번째 데이터 시리즈에 대한 성질 집계
+chart.NSeries[s3_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green; // Set marker color to green
+chart.NSeries[s3_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s3_idx].XValues = "A22: A41"; // Define X values for the second series
+chart.NSeries[s3_idx].Values = "B22: B41"; // Define Y values for the second series
+
+//ExStep:6-
+workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx); // Save the workbook
+Console.WriteLine("CreateLineWithDataMarkerChart executed successfully."); // Indicate successful execution
+//ExEnd

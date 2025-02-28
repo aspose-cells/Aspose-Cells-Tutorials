@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างหนังสือทํางาน Excel เพิ่มใบงาน ปรับค่าและสไตล์เซลล์ และบันทึกหนังสืองาน
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นการแสดงบัญชีที่ไฟล์ Excel อยู่
+//ExStepSummary:1: คódเริ่มต้นเส้นทางสําหรับบันทึกเอกสารและตรวจสอบว่ามันมีหรือไม่
+//ExStepSummary:2: คódแสดงเป็นตัวอย่างของ Workbook ใหม่
+//ExStepSummary:3: การเพิ่มใบงานใหม่เข้าในหนังสืองาน และได้รับระบุ
+//ExStepSummary:4: การเข้าถึงเซลล์ "A1" ของใบงานเพื่อปรับค่าของมัน
+//ExStepSummary:5: สไตล์เซลล์ "A1" ได้รับและสีลายเขียนตั้งให้เป็นสีฟ้า
+//ExStepSummary:6: สไตล์ที่ปรับปรุงถูกนําไปใช้กับเซลล์ ก่อนที่จะบันทึกหนังสืองาน
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// ทางไปยังบันทึกเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// ตรวจสอบว่าเอกสารมีอยู่หรือเปล่า
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// ถ้ามันไม่มี มันต้องสร้างมัน
+if (!IsExists)
+	// สร้างบันทึก
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// การฉายตัวของ Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// การเพิ่มใบงานใหม่กับวัตถุ Excel
+int i = workbook.Worksheets.Add();
+// การรับระบุความหมายของใบงานที่เพิ่มเติมใหม่
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// เข้าสู่เซลล์ "A1" จากใบงาน
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// เพิ่มค่าบางตัวต่อเซลล์ "A1"
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// การรับสไตล์ของเซลล์
+Style style = cell.GetStyle();
+// ปรับสีลายเป็นสีฟ้า
+style.Font.Color = Color.Blue;
+// การใช้สไตล์ไปยังเซลล์
+cell.SetStyle(style);
+
+//ExStep:6-
+// การบันทึกไฟล์ Excel
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

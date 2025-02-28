@@ -1,0 +1,136 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo ra một sổ làm việc Excel mới, thêm dữ liệu và biểu đồ, và áp dụng định dạng 3D cho các chuỗi biểu đồ.
+//ExStepSummary:0: Bước này khởi tạo thư mục đầu ra cho sổ làm việc và tạo ra một ví dụ sổ làm việc mới cho thao tác dữ liệu.
+//ExStepSummary:1: Bước này đổi tên trang tính đầu tiên thành "DataSheet".
+//ExStepSummary:2: Bước này lấy "DataSheet" để thêm dữ liệu.
+//ExStepSummary:3: Bước này thêm một trang tính mới có tiêu đề "MyChart" để chứa biểu đồ.
+//ExStepSummary:4: Bước này làm đầy "DataSheet" với các giá trị mẫu từ B1 đến B3 và nhãn từ A1 đến A3.
+//ExStepSummary:5: Bước này khởi tạo ChartCollection để thêm biểu đồ vào "MyChart".
+//ExStepSummary:6: Bước này xác định bộ sưu tập biểu đồ trong "MyChart" và thêm biểu đồ Cột.
+//ExStepSummary:7: Bước này đặt màu nền và mặt trước của PlotArea và ChartArea của biểu đồ vào màu trắng.
+//ExStepSummary:8: Bước này che giấu huyền thoại để rõ ràng trong biểu đồ hiển thị.
+//ExStepSummary:9: Bước này thêm các chuỗi dữ liệu từ "DataSheet" vào biểu đồ.
+//ExStepSummary:10: Bước này xác định dữ liệu về danh mục cho biểu đồ.
+//ExStepSummary:11: Bước này lấy lại chuỗi dữ liệu đầu tiên cho mục đích định dạng.
+//ExStepSummary:12: Bước này truy cập các tính chất hình dạng của loạt để định dạng 3D.
+//ExStepSummary:13: Bước này cấu hình các cài đặt TopBevel, thiết lập phong cách, chiều cao và chiều rộng.
+//ExStepSummary:14: Bước này đặt loại vật liệu bề mặt thành Warm Matte.
+//ExStepSummary:15: Bước này xác định loại ánh sáng cho bề mặt.
+//ExStepSummary:16: Bước này xác định góc của ánh sáng để tăng cường thị giác.
+//ExStepSummary:17: Bước này đặt nền, tiền cảnh và màu biên của loạt lên Maroon.
+//ExStepSummary:18: Bước này lưu sổ làm việc vào thư mục được chỉ định và xác nhận thực hiện thành công.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// Thiết lập đường dẫn thư mục đầu ra
+string dataDir = "Your Document Directory";
+// Tạo một đối tượng Workbook mới
+Workbook book = new Workbook();
+
+//ExStep:1-
+// Thay đổi tên trang tính đầu tiên thành "DataSheet"
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// Tìm tham chiếu đến "DataSheet"
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// Thêm một trang tính mới cho biểu đồ
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// B1 có giá trị 1
+dataSheet.Cells["B1"].PutValue(1);
+// B2 có giá trị 2
+dataSheet.Cells["B2"].PutValue(2);
+// B3 có giá trị 3
+dataSheet.Cells["B3"].PutValue(3);
+// Sản phẩm A1 có nhãn A
+dataSheet.Cells["A1"].PutValue("A");
+// Sản phẩm A2 có nhãn B
+dataSheet.Cells["A2"].PutValue("B");
+// Sản phẩm A3 có nhãn C
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// Định nghĩa bộ sưu tập biểu đồ từ "MyChart"
+ChartCollection charts = sheet.Charts;
+// Thêm biểu đồ Cột
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// Nhập vào biểu đồ mới được thêm vào
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// Đặt màu nền của PlotArea
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// Thiết lập màu nền của khu vực biểu đồ
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// Đặt màu tiền cảnh của PlotArea
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Đặt màu nền của khu vực biểu đồ
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// Cụm lại huyền thoại để rõ ràng trong biểu đồ hiển thị
+chart.ShowLegend = false;
+
+//ExStep:9-
+// Thêm chuỗi dữ liệu từ "DataSheet"
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// Định nghĩa dữ liệu về danh mục cho biểu đồ
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// Nhận bộ dữ liệu đầu tiên để định dạng
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// Nhận các tính chất hình dạng của loạt
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// Các tùy chọn định dạng 3D truy cập
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// Nhận cài đặt TopBevel
+Bevel bevel = fmt3d.TopBevel;
+// Đặt phong cách bevel để Circle
+bevel.Type = BevelPresetType.Circle; 
+// Đặt độ cao cục
+bevel.Height = 2;
+// Đặt chiều rộng con đường 
+bevel.Width = 5;
+
+//ExStep:14-
+// Tiểu vật liệu bề mặt được thiết lập
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// Đặt loại ánh sáng cho bề mặt
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// Định hướng góc chiếu sáng
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// Thiết lập màu nền series
+ser.Area.BackgroundColor = Color.Maroon;
+// Đặt màu đầu tiên của chuỗi
+ser.Area.ForegroundColor = Color.Maroon;
+// Đặt màu biên của loạt
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// Cung cấp sổ làm việc vào thư mục được chỉ định
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// Đảm nhận hành quyết thành công
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

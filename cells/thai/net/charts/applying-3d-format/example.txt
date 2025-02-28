@@ -1,0 +1,136 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างหนังสือทํางาน Excel ใหม่ เพิ่มข้อมูลและแผนที่ และนําการฟอร์เมท 3D ไปสู่แผนที่
+//ExStepSummary:0: ขั้นตอนนี้เริ่มต้นการกําหนดหน้าต่างการออกสําหรับหนังสือทํางาน และสร้างตัวอย่าง Workbook ใหม่สําหรับการ thao tácข้อมูล
+//ExStepSummary:1: ขั้นตอนนี้เปลี่ยนชื่อใบงานแรกเป็น "DataSheet"
+//ExStepSummary:2: ขั้นตอนนี้จะเอา "DataSheet" เพื่อใส่ข้อมูลเพิ่มเติม
+//ExStepSummary:3: ขั้นตอนนี้เพิ่มใบงานใหม่ ชื่อ "MyChart" เพื่อเก็บแผนที่
+//ExStepSummary:4: ขั้นตอนนี้จะประชุด "DataSheet" ด้วยค่าตัวอย่างจาก B1 ถึง B3 และตราจาก A1 ถึง A3.
+//ExStepSummary:5: ขั้นตอนนี้เริ่มต้น ChartCollection เพื่อเพิ่มแผนที่ใน "MyChart"
+//ExStepSummary:6: ขั้นตอนนี้กําหนดการรวมแผนที่ใน "MyChart" และเพิ่มแผนที่คอลัมน์
+//ExStepSummary:7: ขั้นตอนนี้ตั้งสีพื้นหลังและพื้นผิวหน้าของแผนที่ PlotArea และ ChartArea เป็นสีขาว
+//ExStepSummary:8: ขั้นตอนนี้ปิดบังตํานาน เพื่อความชัดเจนในการแสดงแผนที่
+//ExStepSummary:9: ขั้นตอนนี้เพิ่มเติมเรียงข้อมูลจาก "DataSheet" ไปยังแผนที่
+//ExStepSummary:10: ขั้นตอนนี้กําหนดข้อมูลประเภทสําหรับแผนที่
+//ExStepSummary:11: ขั้นตอนนี้จะนําตัวเลขของข้อมูลแรกมาใช้ในการฟอร์มเทป
+//ExStepSummary:12: ขั้นตอนนี้เข้าถึงคุณสมบัติรูปของซีรีส์เพื่อการฟอร์เมท 3D
+//ExStepSummary:13: ขั้นตอนนี้ตั้งค่าการตั้งค่า TopBevel การตั้งชุดสไตล์ ความสูง และความกว้าง
+//ExStepSummary:14: ขั้นตอนนี้ตั้งชนิดของวัสดุพื้นผิวให้เป็น Warm Matte
+//ExStepSummary:15: ขั้นตอนนี้กําหนดประเภทแสงสําหรับพื้นผิว
+//ExStepSummary:16: ขั้นตอนนี้กําหนดมุมของแสงเพื่อเพิ่มภาพ
+//ExStepSummary:17: ขั้นตอนนี้ตั้งสีหลัง, แผนหน้า และขอบเขตของซีรีส์ให้ Maroon
+//ExStepSummary:18: ขั้นตอนนี้จะบันทึกหนังสือทํางานไปยังบันทึกที่กําหนดไว้ และยืนยันการดําเนินงานสําเร็จ
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// กําหนดเส้นทางของบันทึกผล
+string dataDir = "Your Document Directory";
+// สร้างโครงการ Workbook ใหม่
+Workbook book = new Workbook();
+
+//ExStep:1-
+// ชื่อหน้าแรกเป็น "DataSheet"
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// รับความหมายที่ "DataSheet"
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// เพิ่มใบงานใหม่สําหรับแผนที่
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// ประชากร B1 มีค่า 1
+dataSheet.Cells["B1"].PutValue(1);
+// ประชากร B2 มีค่า 2
+dataSheet.Cells["B2"].PutValue(2);
+// ประชากร B3 มีค่า 3
+dataSheet.Cells["B3"].PutValue(3);
+// ประชากร A1 ที่มีตรา A
+dataSheet.Cells["A1"].PutValue("A");
+// ประชากร A2 พร้อมตรา B
+dataSheet.Cells["A2"].PutValue("B");
+// ประชากร A3 มีตรา C
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// กําหนดการรวมตารางจาก "MyChart"
+ChartCollection charts = sheet.Charts;
+// เพิ่มแผนที่คอลัมน์
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// เข้าสู่แผนที่ที่เพิ่มใหม่
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// กําหนดสีพื้นหลังของ PlotArea
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// กําหนดสีพื้นที่แผนที่
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// กําหนดสีหน้าของ PlotArea
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// กําหนดสีหน้าพื้นที่แผนที่
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// ลอบตํานานเพื่อความชัดเจนในภาพแสดงแผนที่
+chart.ShowLegend = false;
+
+//ExStep:9-
+// เพิ่มเรียงข้อมูลจาก "DataSheet"
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// กําหนดข้อมูลประเภทสําหรับแผนที่
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// รับการจัดรูปแบบ Data Series ครั้งแรก
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// เข้าถึงคุณสมบัติรูปของลําดับ
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// การเลือกการฟอร์เมท 3D
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// รับการตั้งค่า TopBevel
+Bevel bevel = fmt3d.TopBevel;
+// กําหนดสไตล์ bevel ให้ Circle
+bevel.Type = BevelPresetType.Circle; 
+// ปรับความสูงของบิด
+bevel.Height = 2;
+// กําหนดความกว้างของบิด 
+bevel.Width = 5;
+
+//ExStep:14-
+// ชนิดของวัสดุพื้นที่ที่ตั้ง
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// กําหนดชนิดแสงสําหรับพื้นผิว
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// กําหนดมุมของแสง
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// กําหนดสีเบื้องหลังของเรียง
+ser.Area.BackgroundColor = Color.Maroon;
+// กําหนดสีหน้าของเรียง
+ser.Area.ForegroundColor = Color.Maroon;
+// กําหนดสีขอบของซีรีส์
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// เก็บบันทึกงานในบันทึกที่กําหนด
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// ยืนยันการดําเนินการสําเร็จ
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

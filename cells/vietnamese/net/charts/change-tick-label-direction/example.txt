@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách thay đổi hướng của các nhãn biểu đồ trong một trang tính Excel bằng cách sử dụng thư viện Aspose.Cells.
+//ExStepSummary:0: Lắp đặt mẫu sổ làm việc Excel từ thư mục nguồn được chỉ định.
+//ExStepSummary:1: Nhập vào trang tính đầu tiên trong sổ làm việc.
+//ExStepSummary:2: Lắp biểu đồ từ trang tính đầu tiên.
+//ExStepSummary:3: Đặt hướng của nhãn tick axis loại sang đường ngang.
+//ExStepSummary:4: Cung cấp sổ làm việc đã sửa đổi vào thư mục đầu ra được chỉ định.
+//ExStepSummary:5: Xác nhận hiệu ứng thành công bằng tin nhắn từ máy điều khiển.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Định nghĩa thư mục nguồn cho tệp Excel
+// Thiết lập đường dẫn thư mục nguồn
+string sourceDir = "Your Document Directory"; 
+// Thiết lập đường dẫn thư mục đầu ra
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Lắp đặt sổ làm việc Excel từ đường nguồn được chỉ định
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// Chỉ số 0 đề cập đến trang tính đầu tiên
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Lắp đặt biểu đồ từ trang tính đầu tiên
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Thay đổi kiểu hướng của nhãn tick axis loại sang ngang
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// Cung cấp sổ làm việc đã sửa đổi vào thư mục đầu ra với tên tệp mới
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Bác in một tin nhắn thành công vào máy điều khiển
+// Chỉ ra quy trình hoàn thành thành công
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak uzyskać dostęp do i zmienić etykietę obiektu Ole w pliku Excel za pomocą Aspose.Cells.
+//ExStepSummary:0: Następujący kod inicjalizuje katalog źródłowy, w którym znajduje się plik Excel.
+//ExStepSummary:1: Kod ładuje próbkę pliku Excel do obiektu Workbook.
+//ExStepSummary:2: W tym kroku uzyskuje się dostęp do pierwszego arkusza w podręczniku pracy.
+//ExStepSummary:3: Tutaj, pierwszy obiekt Ole jest dostępny do modyfikacji.
+//ExStepSummary:4: Oryginalny etykieta obiektu Ole jest wyświetlana na konsoli.
+//ExStepSummary:5: Edytująca obiekt Ole jest zmieniona.
+//ExStepSummary:6: Aktualizowany podręcznik pracy jest zapisywany w strumieniu pamięci.
+//ExStepSummary:7: Odniesienie do podręcznika pracy jest ustawione na null, aby uwolnić zasoby.
+//ExStepSummary:8: Wskaźnik pracy jest ponownie ładowany z strumienia pamięci w celu weryfikacji zmian.
+//ExStepSummary:9: Zmieniony etykietka obiektu ole jest wyświetlana po ponownym ładowaniu.
+//ExStepSummary:10: W konsoli wyświetlone jest komunikat sukcesowy wskazujący na zakończenie wykonania.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// Wyznacz katalog zawierający plik Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Ładowanie przykładu pliku Excel
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// Dostęp do pierwszego arkusza
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Dostęp do pierwszego obiektu Ole
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// Wyświetlać oryginalny etykietę obiektu Ole
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// Zmiana etykiety obiektu Ole
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// Utworz strumień pamięci do zapisywania księgi roboczej
+MemoryStream ms = new MemoryStream();
+// Zapisywanie podręcznika do strumienia pamięci
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// Ustawić odniesienie do podręcznika do null , aby uwolnić zasoby
+wb = null; 
+
+//ExStep:8-
+// Ładowanie podręcznika z strumienia pamięci
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// Wyświetlać zmienione etykietę obiektu Ole
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// Wykazać skuteczne wykonanie
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

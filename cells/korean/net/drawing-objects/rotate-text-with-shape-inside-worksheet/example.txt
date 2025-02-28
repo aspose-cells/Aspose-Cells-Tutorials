@@ -1,0 +1,53 @@
+//ExStart
+//ExSummary: 이 코드는 Excel 작업 표의 모양 안에 텍스트를 Aspose.Cells를 사용하여 조작하는 방법을 보여줍니다. 텍스트 조렬 속성을 설정하고 작업서를 저장합니다.
+//ExStepSummary:0: 다음 코드에서 Excel 파일의 소스 디렉토리를 정의합니다.
+//ExStepSummary:1: 다음 코드에서 Excel 파일의 출력 디렉토리를 정의합니다.
+//ExStepSummary:2: 다음 코드는 데이터를 포함하는 샘플 엑셀 파일을 로드합니다.
+//ExStepSummary:3: 다음 코드에서는 작업 책상 첫 번째 워크 시트에 액세스합니다.
+//ExStepSummary:4: 다음 코드에서는 텍스트 회전과 관련된 메시지로 셀 B4의 값을 업데이트합니다.
+//ExStepSummary:5: 다음 코드는 워크시트의 첫 번째 모양에 액세스합니다.
+//ExStepSummary:6: 다음 코드는 텍스트 회전을 방지하기 위해 모양의 텍스트 조화를 수정합니다.
+//ExStepSummary:7: 다음 코드는 수정된 작업번호부를 지정된 출력 디렉토리에 저장합니다.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Excel 파일이 있는 소스 디렉토리를 정의
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// 수정된 Excel 파일을 저장하기 위해 출력 디렉토리를 정의
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// 샘플 엑셀 파일을 로드
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// 작업 책상에서 첫 번째 워크 시트를 열
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// 작업표의 액세스 셀 B4
+Cell b4 = ws.Cells["B4"];
+// 특정 메시지로 셀 B4를 업데이트
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// 작업표의 첫 번째 모양에 액세스
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// 형태의 텍스트 조렬에 액세스
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// 텍스트를 모양으로 회전하지 않도록 설정
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// 수정된 작업번호부를 출력 디렉토리에 저장
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// 성공 메시지 인쇄
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

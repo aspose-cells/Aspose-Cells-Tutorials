@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo một tệp Excel bằng cách sử dụng Aspose.Cells, 
+// khi thực hiện một số hành động như tạo thư mục, thao tác tế bào, 
+// và lưu sổ làm việc trong một định dạng được xác định.
+
+//ExStepSummary:0: Định nghĩa con đường cho thư mục tài liệu và kiểm tra xem nó có tồn tại hay không.
+//ExStepSummary:1: Tạo một thư mục mới nếu nó không tồn tại.
+//ExStepSummary:2: Tạo một đối tượng Workbook để đại diện cho tệp Excel.
+//ExStepSummary:3: Tìm tham chiếu đến trang làm việc đầu tiên trong sổ làm việc.
+//ExStepSummary:4: Nhập vào ô "A1" và thêm một giá trị vào nó.
+//ExStepSummary:5: Thủy kết hợp ba cột đầu tiên trong hàng đầu vào một tế bào.
+//ExStepSummary:6: Cung cấp sổ làm việc theo định dạng và vị trí mong muốn.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Con đường đến thư mục tài liệu.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Hãy kiểm tra xem thư mục có tồn tại không.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// Tạo thư mục nếu nó không tồn tại.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Tạo một đối tượng Workbook cho tệp Excel.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Tìm tham chiếu đến trang làm việc đầu tiên trong sổ làm việc.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Nhập vào ô "A1" từ trang tính.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Thêm một số giá trị vào ô "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Thêm vào ba cột đầu tiên trong hàng đầu để tạo ra một tế bào.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// Cung cấp tập tin Excel theo định dạng được chỉ định.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary이 코드는 특정 페이지 크기의 엑셀 차트에서 PDF를 만드는 방법을 보여줍니다. 이 코드는 엑셀 작업 책자를 로드하고, 워크시트와 그 차트를 액세스하고, 최종적으로 원하는 레이아웃을 가진 PDF 파일을 생성합니다.
+//ExStepSummary:0: 이 단계는 Excel 파일이 저장되는 소스 디렉토리를 정의합니다.
+//ExStepSummary:1: 이 단계는 생성된 PDF가 저장될 출력 디렉토리를 정의합니다.
+//ExStepSummary:2: 이 단계에서는 일괄 그래프를 포함하는 샘플 Excel 파일을 작업책 객체로 로드합니다.
+//ExStepSummary:3: 이 단계로 로드된 작업 책정의 첫 번째 워크 시트에 액세스합니다.
+//ExStepSummary:4: 이 단계에서는 워크시트에 있는 첫 번째 차트에 액세스합니다.
+//ExStepSummary:5: 이 단계에서는 지정된 페이지 크기와 조렬을 가진 차트의 PDF를 생성하고 출력 디렉토리에 저장합니다.
+//ExStepSummary:6: 이 단계에서는 생성 프로세스의 성공적인 실행을 나타내는 확인 메시지가 나오게 됩니다.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// Excel 파일을 포함하는 소스 디렉토리
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// PDF가 저장될 출력 디렉토리
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// 표를 포함하는 Excel 파일의 샘플을 로드
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// 첫 번째 워크샵에 액세스
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// 작업표 내의 첫 번째 차트에 액세스
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// 원하는 페이지 크기의 PDF 차트를 생성
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// 확인 메시지
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

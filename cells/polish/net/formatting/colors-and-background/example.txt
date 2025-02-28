@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć podręcznik pracy w Excel za pomocą Aspose.Cells, dodać do komórek indywidualne style i zapisać podręcznik w formie Excel 97-2003.
+//ExStepSummary:0: Następujący kod inicjalizuje katalog, w którym znajduje się plik Excel.
+//ExStepSummary:1: Następujący kod wyznacza ścieżkę do katalogu dokumentów i tworzy ją, jeśli nie istnieje.
+//ExStepSummary:2: Następujący kod wyobraża obiekt Workbook i doda nowy arkusz do obiektu Workbook.
+//ExStepSummary:3: Kod poniższy odbiera styl komórki A1 i stosuje żółty kolor z przodu z wzoru pionowego pasma.
+//ExStepSummary:4: Następujący kod odbiera styl komórki A2 i stosuje niebieski kolor przodu, żółty kolor tła i wzór pionowej paski.
+//ExStepSummary:5: Następujący kod zapisuje podręcznik w formie programu Excel 97-2003.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Ścieżka do katalogu dokumentów.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Sprawdź, czy istnieje katalog.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// Tworzenie katalogu, jeśli nie jest już obecny.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Wykonywanie obiektu Workbook.
+Workbook workbook = new Workbook();
+
+// Tworzyć nowy arkusz i uzyskać jego indeks.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// Uzyskanie odniesienia do nowo dodanego arkusza poprzez przejście jego indeksu arkusza.
+Worksheet worksheet = workbook.Worksheets[i];
+// Definiuj styl i uznaj styl komórki A1.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// Ustaw właściwości stylu komórki A1
+// Ustawiamy kolor przodu na żółty.
+style.ForegroundColor = Color.Yellow;
+// Ustawienie wzoru tła na pasy pionowe.
+style.Pattern = BackgroundType.VerticalStripe;
+// Styl włącz do komórki A1.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// Zrób styl komórki A2.
+style = worksheet.Cells["A2"].GetStyle();
+
+// Ustaw właściwości stylu komórki A2
+// Ustawiamy kolor przodu na niebieski.
+style.ForegroundColor = Color.Blue;
+// Ustawiamy kolor tła na żółty.
+style.BackgroundColor = Color.Yellow;
+// Ustawienie wzoru tła na pasy pionowe.
+style.Pattern = BackgroundType.VerticalStripe;
+// Stylicz komórkę A2.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// Zapisywanie pliku Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

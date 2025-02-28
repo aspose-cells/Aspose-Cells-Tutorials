@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo sổ làm việc Excel, thêm một trang làm việc, sửa đổi giá trị và phong cách của một tế bào, và lưu sổ làm việc.
+//ExStepSummary:0: Mã sau đây khởi tạo thư mục nơi tập tin Excel nằm.
+//ExStepSummary:1: Mã khởi tạo con đường cho thư mục tài liệu và kiểm tra nếu nó tồn tại.
+//ExStepSummary:2: Mã này tạo ra một đối tượng Workbook mới.
+//ExStepSummary:3: Một trang làm việc mới được thêm vào sổ làm việc và có được một tham chiếu đến nó.
+//ExStepSummary:4: Các mô hình được sử dụng để thay đổi giá trị của nó.
+//ExStepSummary:5: Phong cách của ô "A1" được lấy và màu phông chữ được đặt lên màu xanh dương.
+//ExStepSummary:6: Phong cách được sửa đổi được áp dụng cho tế bào trước khi lưu sổ làm việc.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Con đường đến thư mục tài liệu.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Hãy kiểm tra xem thư mục có tồn tại không.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Nếu nó không tồn tại, hãy tạo ra nó.
+if (!IsExists)
+	// Tạo thư mục.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Tạo một đối tượng Workbook.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Thêm một trang tính mới vào đối tượng Excel.
+int i = workbook.Worksheets.Add();
+// Nhận tham chiếu vào trang tính mới được thêm vào.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Nhập vào ô "A1" từ trang tính.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Thêm một số giá trị vào ô "A1".
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Tìm ra phong cách của tế bào.
+Style style = cell.GetStyle();
+// Đặt màu chữ lên màu xanh.
+style.Font.Color = Color.Blue;
+// Lấy phong cách này vào tế bào.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Chữ lưu tập tin Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

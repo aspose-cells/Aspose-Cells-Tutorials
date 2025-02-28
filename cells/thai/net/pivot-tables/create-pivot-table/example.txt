@@ -1,0 +1,85 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างหนังสือทํางาน Excel, เพิ่มข้อมูลในมัน, และสร้าง PivotTable เพื่อสรุปข้อมูลการขายสําหรับกีฬาต่าง ๆ ในช่วงสี่ปีที่ต่าง ๆ
+//ExStepSummary:0: เริ่มต้นเส้นทางไปยังเอกสารเอกสาร
+//ExStepSummary:1: สร้างวัตถุ Workbook ใหม่ และหาคําอ้างอิงไปยังใบงานตามปกติ
+//ExStepSummary:2: เติมหัวข้อและข้อมูลสําหรับกีฬา ช่วงไตรมาส และการขาย
+//ExStepSummary:3: เพิ่มตารางหมุนเพื่อสรุปข้อมูลในใบงาน
+//ExStepSummary:4: ปรับปรุงตารางหมุนโดยตั้งค่ารวมใหญ่และสนามดึงในพื้นที่ที่ที่เหมาะสม
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// เส้นทางไปยังบันทึกเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// จัดทําโครงการ Workbook
+Workbook workbook = new Workbook();
+// รับข้อมูลจากใบงานที่เพิ่มใหม่
+Worksheet sheet = workbook.Worksheets[0];
+// เข้าถึงเซลล์ของใบงาน
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// เซลล์เข้า A1
+cell = cells["A1"];
+// ราคากําหนดสําหรับหัวข้อ Sport
+cell.PutValue("Sport");
+// เซลล์เข้า B1
+cell = cells["B1"];
+// ใส่ค่าสําหรับหัวข้อ Quarter
+cell.PutValue("Quarter");
+// เซลล์เข้า C1
+cell = cells["C1"];
+// หมายเลขค่าตั้งค่าสําหรับหัวข้อ Sales
+cell.PutValue("Sales");
+
+// เพิ่มข้อมูลสําหรับกีฬา
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// เพิ่มข้อมูลสําหรับไตรมาส
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// เพิ่มข้อมูลสําหรับการขาย
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// ตารางการเข้าถึงในแผ่น
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// การเพิ่มตารางหมุนเวียนต่อตารางงาน
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// เข้าถึงตัวอย่างของตารางหมุนที่เพิ่มใหม่
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// ไม่แสดงจํานวนรวมใหญ่สําหรับแถว
+pivotTable.RowGrand = false;
+// ดึงสนามแรก (กีฬา) ไปยังพื้นที่แถว
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// ดึงสนามที่สอง (สี่เหลี่ยม) ไปยังพื้นที่คอลัมน์
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// ดึงกรอบที่สาม (ขาย) ไปยังพื้นที่ข้อมูล
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// เก็บไฟล์ Excel
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

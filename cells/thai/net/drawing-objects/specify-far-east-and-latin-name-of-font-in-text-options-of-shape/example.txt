@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างหนังสือทํางาน Excel เพิ่มกล่องบทความในใบงาน และระบุชื่อสกุลทั้งภาคตะวันออกไกลและภาษาลาตินสําหรับบทความในกล่องบทความ
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นการกําหนดหน้าบัญชีการออกสําหรับไฟล์ Excel
+//ExStepSummary:1: คódต่อไปนี้สร้างหนังสือทํางานว่างใหม่
+//ExStepSummary:2: คódต่อไปนี้เข้าสู่ใบงานแรกในหนังสืองาน
+//ExStepSummary:3: คódต่อไปนี้เพิ่มกล่องข้อความในใบงานที่สอดคล้องที่กําหนด
+//ExStepSummary:4: คódต่อไปนี้ตั้งเนื้อหาของกล่องข้อความเป็น "こんにちは 世界" (สวัสดีโลก) และกําหนดชื่อสกุลลภาษาลาตินและตะวันออกไกลสําหรับกล่องข้อความ.
+//ExStepSummary:5: คódต่อไปนี้บันทึกหนังสือทํางานไปยังบันทึกผลิตที่กําหนด
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// กําหนดหน้าต่างการออกของไฟล์
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// สร้างบันทึกงานว่าง
+var wb = new Workbook();
+
+//ExStep:2-
+// เข้าสู่ใบงานแรกในหนังสืองาน
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// เพิ่มกล่องข้อความที่ตําแหน่ง (5,5) โดยความกว้าง 50 และความสูง 200
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// เข้าสู่กล่องบทความใหม่
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// กําหนดข้อความของกล่องข้อความเป็น "Hello World" ในภาษาญี่ปุ่น
+tb.Text = "こんにちは世界";
+// กําหนดชื่อ font ภาษาลาติน
+tb.TextOptions.LatinName = "Comic Sans MS";
+// กําหนดชื่อ font ในตะวันออกไกล
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// เก็บบันทึกงานในบันทึกผลิต
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// ยืนยันการดําเนินการสําเร็จ
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

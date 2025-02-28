@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Następujący kod pokazuje, jak tworzyć nowy plik Excel, dodać kartę roboczą i wstawić obraz do określonej komórki.
+//ExStepSummary:0: Następujący kod inicjalizuje katalog, w którym znajduje się plik Excel.
+//ExStepSummary:1: Ten krok sprawdza, czy katalog dokumentów istnieje i tworzy go, jeśli nie.
+//ExStepSummary:2: W tym kroku obiekt Workbook jest widoczny do tworzenia nowego pliku Excel.
+//ExStepSummary:3: W tym kroku do obiektu Workbook dodaje się nowy arkusz i otrzymuje jego odniesienie.
+//ExStepSummary:4: W tym kroku dodaje się obraz do arkusza w określonych współrzędach komórek.
+//ExStepSummary:5: Ten krok zapisuje plik Excel na określony ścieżkę.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Definicja ścieżki do katalogu dokumentów
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Sprawdź , czy istnieje katalog
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Wykreszczenie obiektu Workbook
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// Dodaj nowe arkusze do podręcznika
+int sheetIndex = workbook.Worksheets.Add(); 
+// Uzyskaj odniesienie do nowo dodanego arkusza
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// Dodaj obraz do komórki "F6" (rząd 5, kolumna 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Zapisz plik Excel na określonej ścieżce
+workbook.Save(dataDir + "output.xls");
+//ExEnd

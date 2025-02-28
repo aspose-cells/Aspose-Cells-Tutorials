@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć plik Excel za pomocą Aspose.Cells, 
+// wykonując kilka czynności, takich jak tworzenie katalogu, manipulacja komórkami, 
+// i zapisywanie podręcznika w określonym formatie.
+
+//ExStepSummary:0: Definiuj ścieżkę do katalogu dokumentów i sprawdź, czy istnieje.
+//ExStepSummary:1: Tworzyć nowe katalogi, jeśli nie istnieje.
+//ExStepSummary:2: Wykonaj obiekt Workbook, który reprezentuje plik Excel.
+//ExStepSummary:3: Zdobądź odniesienie do pierwszego arkusza w podręczniku pracy.
+//ExStepSummary:4: Włącz komórkę "A1" i dodaj do niej wartość.
+//ExStepSummary:5: Połącz pierwsze trzy kolumny pierwszego rzędu w jedną komórkę.
+//ExStepSummary:6: Zapisz książkę w żądanym formatie i miejscu.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Ścieżka do katalogu dokumentów.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Sprawdź, czy istnieje katalog.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// Tworzyć katalog, jeśli nie istnieje.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Wykonaj obiekt Workbook dla pliku Excel.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Zdobądź odniesienie do pierwszego arkusza w podręczniku pracy.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Dostęp do komórki "A1" z arkusza.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Dodaj wartość do komórki "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Połącz pierwsze trzy kolumny pierwszego rzędu, tworząc jedną komórkę.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// Zapisz plik Excel w określonym formie.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

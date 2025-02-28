@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Mã này tải một sổ làm việc Excel, truy cập các hình dạng cụ thể trong một trang làm việc, thao túng vị trí của họ theo thứ tự Z, và lưu sổ làm việc cập nhật.
+//ExStepSummary:0: Mã sau đây cho thấy cách xác định thư mục nguồn cho tệp Excel.
+//ExStepSummary:1: Mã sau đây cho thấy cách xác định thư mục đầu ra cho tệp Excel.
+//ExStepSummary:2: Mã sau đây cho thấy cách tải tập tin Excel nguồn.
+//ExStepSummary:3: Mã sau đây cho thấy cách truy cập trang tính đầu tiên của sổ làm việc.
+//ExStepSummary:4: Mã sau đây cho thấy cách truy cập hình dạng đầu tiên và thứ tư trong trang tính.
+//ExStepSummary:5: Mã sau đây cho thấy cách in vị trí Z-Order của hình dạng đầu tiên.
+//ExStepSummary:6: Mã sau đây cho thấy cách gửi hình dạng đầu tiên đến phía trước.
+//ExStepSummary:7: Mã sau đây cho thấy cách in vị trí Z-Order của hình dạng thứ tư.
+//ExStepSummary:8: Mã sau đây cho thấy cách gửi hình dạng thứ tư về phía sau.
+//ExStepSummary:9: Mã sau đây cho thấy cách lưu tập tin Excel được sửa đổi vào thư mục đầu ra.
+//ExStepSummary:10: Mã sau đây cho thấy cách xác nhận việc thực hiện hoạt động.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// Thư mục nguồn cho tệp Excel nhập
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Thư mục đầu ra cho tệp Excel được sửa đổi
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Lắp đặt nguồn Excel
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// Nhập vào trang tính đầu tiên
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Nhập vào hình dạng đầu tiên
+Shape sh1 = ws.Shapes[0];
+// Nhập vào hình dạng thứ tư
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// Bác định vị trí Z-Order của hình dạng đầu tiên
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// Đưa hình dạng đầu tiên này lên phía trước
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// Bác ấn vị trí Z-Order của hình thứ tư
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// Đưa hình thứ tư này về phía sau
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// Cung cấp tệp Excel đầu ra
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// Xác nhận hành động
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

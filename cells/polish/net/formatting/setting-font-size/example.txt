@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak tworzyć plik Excel za pomocą Aspose.Cells. Inicjalizuje książkę roboczą, doda arkusz roboczy, wypełnia komórkę tekstem, modyfikuje rozmiar czcionki komórki i zapisuje ją w określonym katalogu.
+//ExStepSummary:0: W tym kroku pokazano, jak zdefiniować ścieżkę do katalogu dokumentów.
+//ExStepSummary:1: W tym kroku pokazano, jak utworzyć katalog, jeśli nie istnieje już.
+//ExStepSummary:2: Ten krok pokazuje wyobrażenie obiektu Workbook.
+//ExStepSummary:3: W tym kroku wskazuje się, jak dodać nowy arkusz do podręcznika i uzyskać go według indeksu.
+//ExStepSummary:4: W tym kroku szczegółowo opisano, jak uzyskać dostęp do określonej komórki i wypełnić ją wartością.
+//ExStepSummary:5: W tym kroku wyjaśniono, jak uzyskać styl komórki i zmienić rozmiar czcionki oraz jak zastosować modyfikowany styl do komórki.
+//ExStepSummary:6: W tym kroku przedstawiono sposób zapisania podręcznika do określonej ścieżki pliku.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Definicja ścieżki do katalogu dokumentów
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Sprawdź , czy istnieje katalog
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Jeśli nie istnieje
+if (!IsExists)
+	// Tworzenie katalogu
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Wykreszczenie obiektu Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Dodaj nowy arkusz do podręcznika
+int i = workbook.Worksheets.Add();
+// Uzyskaj odniesienie do nowo dodanego arkusza
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Dostęp do komórki "A1" z arkusza
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Wpływ komórki "A1" z wartością
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Zdobądź styl komórki
+Style style = cell.GetStyle();
+// Ustaw rozmiar czcionki na 14
+style.Font.Size = 14;
+// Wpływ modyfikowanego stylu do komórki
+cell.SetStyle(style);
+
+//ExStep:6-
+// Zapisz książkę do określonej ścieżki pliku
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

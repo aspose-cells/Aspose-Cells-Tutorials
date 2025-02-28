@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: 이 코드는 Excel 작업 책자를 생성하고, 작업 표를 추가하고, Aspose.Cells를 사용하여 셀을 포맷하는 방법을 보여줍니다.
+//ExStepSummary:0: 다음 코드에서 문서 디렉토리 경로를 설정합니다.
+//ExStepSummary:1: 다음 코드는 디렉토리가 존재하는지 여부를 확인하고 그렇지 않은 경우 생성합니다.
+//ExStepSummary:2: 다음 코드는 새로운 Excel 파일을 생성하기 위해 Workbook 객체를 인스턴스합니다.
+//ExStepSummary:3: 다음 코드 는 작업 책 에 새로운 워크 시트를 추가 합니다.
+//ExStepSummary:4: 이 코드는 작업책의 첫 번째 워크시트에 액세스합니다.
+//ExStepSummary:5:  다음 코드는 새로 추가된 워크시트의 "A1" 셀에 접속하여 "A1" 셀에 값을 추가합니다.
+//ExStepSummary:6: 다음 코드에서 "A1" 셀의 스타일을 얻으며 수정합니다.
+//ExStepSummary:7: 다음 코드는 해당 작업번호부를 지정된 디렉토리에 저장합니다.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// 문서 디렉토리 로드를 설정
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 디렉토리가 있는지 확인
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// 만약 존재하지 않는다면
+if (!IsExists)
+	// 디렉토리를 생성
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 작업번호부 객체를 인스턴스
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 작업 책상에 새로운 워크 시트를 추가
+int i = workbook.Worksheets.Add();
+
+//ExStep:4-
+// 새로 추가된 워크시트에 참조를 얻으십시오
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:5-
+// 작업 표의 "A1" 셀에 액세스
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1" 셀에 값을 추가
+cell.PutValue("Hello Aspose!");
+
+//ExStep:6-
+// 세포의 스타일을 얻으십시오
+Style style = cell.GetStyle();
+// 글꼴 이름을 "타임스 뉴 로마"로 설정
+style.Font.Name = "Times New Roman";
+// 수정된 스타일을 셀에 적용
+cell.SetStyle(style);
+
+//ExStep:7-
+// 작업번호부를 지정된 디렉토리에 저장
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tải một tập tin ODS, truy cập một biểu đồ, và in phụ đề của nó vào máy điều khiển.
+//ExStepSummary:0: Mã khởi tạo thư mục nguồn cho tài liệu.
+//ExStepSummary:1: Mã tải một tệp Excel chứa biểu đồ từ thư mục được chỉ định.
+//ExStepSummary:2: Mã truy cập trang tính đầu tiên của sổ làm việc tải.
+//ExStepSummary:3: Mã lấy biểu đồ đầu tiên trong bảng tính.
+//ExStepSummary:4: Mã in bản phụ đề của biểu đồ lên máy điều khiển.
+//ExStepSummary:5: Mã xác nhận việc thực hiện thành công việc tìm kiếm phụ đề.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Tạo ra thư mục nguồn để truy cập tài liệu
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Lắp đặt tệp Excel chứa biểu đồ
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// Nhập vào trang tính đầu tiên của sổ làm việc
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Nhập vào biểu đồ đầu tiên trong bảng tính
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Bác in phụ đề của biểu đồ vào máy điều khiển
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// Đảm nhận hành quyết thành công
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

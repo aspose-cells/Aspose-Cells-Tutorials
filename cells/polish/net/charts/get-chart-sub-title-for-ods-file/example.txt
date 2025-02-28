@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak załadować plik ODS, uzyskać dostęp do wykresu i wydrukować jego podtytuł na konsoli.
+//ExStepSummary:0: Kod inicjalizuje katalog źródłowy dokumentu.
+//ExStepSummary:1: Kod ładuje plik Excel zawierający wykresy z określonego katalogu.
+//ExStepSummary:2: Kod dostępuje do pierwszego arkusza załadowanego podręcznika.
+//ExStepSummary:3: Kod odbiera pierwszy wykres w arkuszu.
+//ExStepSummary:4: Kod drukuje podtytuł wykresu na konsole.
+//ExStepSummary:5: Kod potwierdza udane wykonanie odzyskiwania podtytułów.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Inicjalizuj katalog źródłowy do dostępu do dokumentu
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Ładowanie pliku Excel zawierającego wykresy
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// Dostęp do pierwszego arkusza w podręczniku
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Dostęp do pierwszego wykresu w arkuszu
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Drukuj podtytuł wykresu na konsoli
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// Potwierdzenie udanej wykonania
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

@@ -1,0 +1,92 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak tworzyć PivotTable w arkuszu kalkulacyjnemu za pomocą Aspose.Cells dla .NET. Inicjalizuje księgę roboczą, dodaje do niej dane, tworzy PivotTable, konfiguruje jej ustawienia i zapisuje ją w formie ODS.
+//ExStepSummary:0: Kod ten ustawia katalog wyjściowy pliku ODS.
+//ExStepSummary:1: W tym kroku inicjuje obiekt Workbook, aby utworzyć nowy arkusz kalkulacyjny.
+//ExStepSummary:2: W tej sekcji znajduje się pierwszy arkusz i zbiór komórek do manipulacji danymi.
+//ExStepSummary:3: W tym kroku przechowywane są dane dotyczące sprzedaży sportu w różnych kwartałach.
+//ExStepSummary:4: W tej sekcji dodaje do arkusza tabelę obrotową przy użyciu danych zaludnionych.
+//ExStepSummary:5: Ten krok konfigurował PivotTable, ustawiając pola dla wierszy, kolumn i danych, a następnie sekcja oblicza dane PivotTable.
+//ExStepSummary:6: W tym kroku zapisany jest podręcznik do określonego katalogu wyjściowego.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// Ustawienie katalogu wyjściowego dokumentu
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Wykreszczenie obiektu Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Uzyskanie odniesienia do pierwszego arkusza roboczego
+Worksheet sheet = workbook.Worksheets[0];
+// Uzyskanie zbioru komórek z arkusza
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// Wykrycie w komórce A1
+cell = cells["A1"];
+// Ustawienie nagłówka do gry
+cell.PutValue("Sport");
+// Wykrycie w komórce B1
+cell = cells["B1"];
+// Ustawienie nagłówka na kwartalny
+cell.PutValue("Quarter");
+// Wykorzystanie w celu uzyskania dostępu do komórki C1
+cell = cells["C1"];
+// Ustawienie nagłówka do sprzedaży
+cell.PutValue("Sales");
+
+// Dodawanie danych dotyczących sportu, kwartałów i sprzedaży
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// Dostęp do zbioru PivotTable
+PivotTableCollection pivotTables = sheet.PivotTables;
+// Dodawanie tabeli obrotowej na podstawie zakresu danych
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// Dostęp do nowo dodanego tabeli obrotowej
+PivotTable pivotTable = pivotTables[index];
+// Wyłączenie wielkich sum dla rzędów
+pivotTable.RowGrand = false;
+// Przeciąganie pierwszego pola do obszaru wiersza
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// Przeciąganie drugiego pola do obszaru kolumny
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// Przeciąganie trzeciego pola do obszaru danych
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// obliczanie danych dla tabeli obrotowej
+pivotTable.CalculateData();
+
+//ExStep:6-
+// Zapisywanie podręcznika w formie ODS
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// Wskazuje na udane wykonanie
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

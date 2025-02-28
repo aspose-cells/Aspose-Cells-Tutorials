@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć podręcznik pracy w Excel, dodać kartę pracy i formatować komórkę za pomocą Aspose.Cells.
+//ExStepSummary:0: Następujący kod wyznacza ścieżkę do katalogu dokumentów.
+//ExStepSummary:1: Następujący kod sprawdza, czy katalog istnieje i tworzy go, jeśli nie.
+//ExStepSummary:2: Następujący kod przedstawia obiekt Workbook do tworzenia nowego pliku Excel.
+//ExStepSummary:3: Następujący kod dodaje do podręcznika nowy arkusz pracy.
+//ExStepSummary:4: Kod ten dostępuje do pierwszego arkusza w podręczniku pracy.
+//ExStepSummary:5:  Kod następujący wchodzi w komórkę "A1" w nowo dodanym arkuszu roboczym i doda wartości komórce "A1".
+//ExStepSummary:6: Następujący kod pozyskuje i modyfikuje styl komórki "A1".
+//ExStepSummary:7: Następujący kod zapisuje książkę do określonego katalogu.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Ustaw ścieżkę do katalogu dokumentów
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Sprawdź , czy istnieje katalog
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Jeśli nie istnieje
+if (!IsExists)
+	// Tworzenie katalogu
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Wykreszczenie obiektu Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Dodaj nowy arkusz do podręcznika
+int i = workbook.Worksheets.Add();
+
+//ExStep:4-
+// Uzyskanie odniesienia do nowo dodanego arkusza
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:5-
+// Dostęp do komórki "A1" w arkuszu roboczym
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Dodaj wartość do komórki "A1"
+cell.PutValue("Hello Aspose!");
+
+//ExStep:6-
+// Zdobądź styl komórki
+Style style = cell.GetStyle();
+// Ustaw nazwę czcionki na "Times New Roman"
+style.Font.Name = "Times New Roman";
+// Wpływ modyfikowanego stylu do komórki
+cell.SetStyle(style);
+
+//ExStep:7-
+// Zapisz książkę do wypełnionego katalogu
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

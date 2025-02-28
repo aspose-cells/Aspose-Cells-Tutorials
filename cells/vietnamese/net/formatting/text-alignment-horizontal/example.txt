@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo một tệp Excel bằng cách sử dụng Aspose.Cells, bao gồm thiết lập sổ làm việc, sửa đổi một tế bào và lưu tệp vào thư mục cụ thể.
+//ExStepSummary:0: Mã sau đây khởi tạo thư mục nơi tập tin Excel nằm.
+//ExStepSummary:1: Mã sau đây đặt đường cho thư mục tài liệu và tạo ra nó nếu nó không tồn tại.
+//ExStepSummary:2: Bước này khởi tạo một đối tượng Workbook cho tệp Excel.
+//ExStepSummary:3: Bước này lấy trang tính đầu tiên từ sổ làm việc.
+//ExStepSummary:4: Trong bước này, chúng ta truy cập vào ô "A1" từ trang tính và thêm một giá trị vào nó.
+//ExStepSummary:5: Bước này đặt sự sắp xếp ngang của văn bản trong ô "A1" vào trung tâm.
+//ExStepSummary:6: Cuối cùng, mã lưu sổ làm việc vào thư mục được chỉ định trong định dạng Excel 97-2003.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Định nghĩa con đường đến thư mục tài liệu.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Hãy kiểm tra xem thư mục có tồn tại không.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// tạo thư mục.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Tạo một đối tượng Workbook để tạo một tệp Excel mới.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Nhận một tham chiếu đến trang làm việc đầu tiên.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Nhập vào ô "A1" từ trang tính.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Thêm một số giá trị vào ô "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Nhận được phong cách của tế bào hiện tại.
+Style style = cell.GetStyle();
+// Đặt đường thẳng ngang vào trung tâm.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// Lấy phong cách cập nhật vào tế bào.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Cung cấp sổ làm việc vào thư mục được chỉ định trong định dạng Excel 97-2003.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

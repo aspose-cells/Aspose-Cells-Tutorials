@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: 이 코드는 Aspose.Cells 라이브러리를 사용하여 Excel 작업 책상에서 차트를 크기를 변경하고 재 위치화하는 방법을 보여줍니다.
+//ExStepSummary:0: 다음 코드는 Excel 파일의 소스 및 출력 디렉토리를 초기화합니다.
+//ExStepSummary:1: 이 코드는 Excel 파일 샘플을 포함하는 소스 디렉토리에서 작업 책자를 로드합니다.
+//ExStepSummary:2: 코드는 작업 책상의 첫 번째 워크시트에 접속하여 그 차트와 함께 작업합니다.
+//ExStepSummary:3: 코드는 수정 목적으로 워크시트에서 첫 번째 차트를 검색합니다.
+//ExStepSummary:4: 코드는 차트를 400개의 너비와 300개의 피클로로 크기를 바꾸어 놓습니다.
+//ExStepSummary:5: 코드는 X와 Y 좌표를 설정하여 차트를 다시 배치합니다.
+//ExStepSummary:6: 마지막으로, 수정된 작업번호부가 새로운 파일 이름으로 출력 디렉토리에 저장됩니다.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Excel 파일의 소스 디렉토리
+string sourceDir = "Your Document Directory";
+// 수정된 Excel 파일을 저장하는 출력 디렉토리
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 지정된 작업 책자를 로드
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// 작업책의 첫 번째 워크 시트에 액세스
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// 작업표에서 첫 번째 표를 로드
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// 차트 너비를 400 픽셀로 변경
+chart.ChartObject.Width = 400;
+// 차트 높이를 300 픽셀로 변경
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// 차트의 X 좌표를 다시 배치
+chart.ChartObject.X = 250;
+// 차트의 Y 좌표를 다시 배치 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// 수정된 작업번호부를 출력 디렉토리에 저장
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// 성공적으로 실행된 사용자에 알림
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

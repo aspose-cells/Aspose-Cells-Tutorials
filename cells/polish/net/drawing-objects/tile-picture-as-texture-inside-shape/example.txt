@@ -1,0 +1,41 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak załadować plik Excel, uzyskać dostęp do konkretnego arkusza roboczego i zastosować wypełnienie tekstury płytek do kształtu w tym arkuszu roboczym. Zmodyfikowany plik Excel jest następnie zapisywany do określonego katalogu wyjściowego.
+//ExStepSummary:0: W tym kroku inicjalizuje się katalog źródłowy i wyjściowy dla operacji plików Excel.
+//ExStepSummary:1: W tym kroku załadowany jest próbkowy plik Excel zawierający kształt do modyfikacji.
+//ExStepSummary:2: W tym kroku uzyskuje się dostęp do pierwszego arkusza w załadowanym podręczniku.
+//ExStepSummary:3: W tym kroku odzyskuje się pierwszy kształt w arkuszu do modyfikacji.
+//ExStepSummary:4: W tym kroku kształt jest wypełniany teksturą obrazu, co pozwala na jego wykonanie.
+//ExStepSummary:5: Ten krok zapisuje zmienione podręcznik do katalogu wyjściowego.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// Plik źródłowy , w którym znajduje się plik Excel
+string sourceDir = "Your Document Directory"; 
+
+// Sklep wyjściowy , w którym zostanie zapisane zmienione plik Excel
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// Ładowanie przykładu pliku Excel z katalogu źródła
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// Dostęp do pierwszego arkusza w podręczniku
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// Dostęp do pierwszego kształtu w arkuszu
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// Obraz jest wzorem w kształcie, co umożliwia wykonanie płytek
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// Zapisz zaktualizowany plik Excel do katalogu wyjściowego
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// Wskazać sukces w konsoli
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

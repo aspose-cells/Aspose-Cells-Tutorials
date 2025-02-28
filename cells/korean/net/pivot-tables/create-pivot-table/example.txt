@@ -1,0 +1,85 @@
+//ExStart
+//ExSummary: 이 코드는 Excel 작업서를 만들고 데이터들을 추가하고 다양한 스포츠에 대한 판매 데이터를 다양한 분기 동안 요약하기 위해 회전 테이블을 생성하는 방법을 보여줍니다.
+//ExStepSummary:0: 문서 디렉토리로 가는 경로를 초기화하십시오.
+//ExStepSummary:1: 새로운 작업번호부 객체를 생성하고 기본 작업 표의 참조를 얻으십시오.
+//ExStepSummary:2: 스포츠, 분기, 판매에 대한 헤더와 데이터를 채우고 작업 표를 작성하십시오.
+//ExStepSummary:3: 도중 표를 추가하여 작업표의 데이터를 요약합니다.
+//ExStepSummary:4: PivotTable를 적절한 영역에 큰 총수와 드래그 필드를 설정하여 구성합니다.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// 문서 디렉토리 로그
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 작업번호부 객체를 인스턴스
+Workbook workbook = new Workbook();
+// 새로 추가된 작업 표의 참조를 얻으십시오
+Worksheet sheet = workbook.Worksheets[0];
+// 작업 표의 셀에 액세스
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// 접근 셀 A1
+cell = cells["A1"];
+// 스포츠 헤더의 설정 값
+cell.PutValue("Sport");
+// 접근 셀 B1
+cell = cells["B1"];
+// 분기 헤더의 값 설정
+cell.PutValue("Quarter");
+// 접근 셀 C1
+cell = cells["C1"];
+// 판매 헤더의 값 설정
+cell.PutValue("Sales");
+
+// 스포츠에 대한 데이터를 추가
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// 분기별 자료를 추가
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// 판매에 대한 데이터를 추가
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// 시트에서 액세스 피보트 테이블
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// 도중 테이블을 워크시트에 추가
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// 새로 추가된 중추 테이블의 인스턴스에 액세스
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// 행에 대한 총수를 표시하지 않습니다
+pivotTable.RowGrand = false;
+// 첫 번째 필드를 (스포츠) 라인 영역으로 끌
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// 두 번째 필드를 (분기) 열 영역으로 끌
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// 세 번째 필드를 (판매) 데이터 영역으로 끌
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// Excel 파일을 저장
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

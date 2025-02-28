@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างและฟอร์เมทหนังสือทํางาน Excel โดยใช้ Aspose. มันรวมถึงการสร้างหนังสือทํางาน, เพิ่มค่า Cell, การกําหนดช่วง, และการใช้ขอบเขตในช่วงนั้น.
+//ExStepSummary:0: คódนี้เริ่มต้นเอกสารบันทึกเพื่อบันทึกหนังสือทํางาน
+//ExStepSummary:1: คódนี้สร้างบันทึกใหม่ ถ้ามันไม่มี
+//ExStepSummary:2: คódนี้สร้างวัตถุ Workbook ที่แสดงให้เห็นว่าเป็น workbook Excel
+//ExStepSummary:3: คódนี้เข้าสู่ใบงานแรกของหนังสือทํางาน
+//ExStepSummary:4: คódนี้เข้าสู่เซลล์ "A1" เพื่อใส่ค่า
+//ExStepSummary:5: คოდიนี้ใช้ขอบหนาสําหรับระยะที่กําหนดในทิศทางต่าง ๆ
+//ExStepSummary:6: คódนี้บันทึกหนังสือทํางานไปยังเส้นทางไฟล์ที่กําหนด
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// กําหนดเส้นทางสําหรับบันทึกเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// ตรวจสอบว่าเอกสารมีหรือไม่
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// ถ้าบันทึกไม่มี
+if (!IsExists)
+	// สร้างบันทึก
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// จัดทําโครงการ Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// รับความหมายจากใบงานแรก
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// เข้าถึงเซลล์ "A1" ในใบงาน
+Cell cell = worksheet.Cells["A1"];
+// เพิ่มค่าต่อเซลล์ "A1"
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// สร้างระยะจาก "A1" ไปยังคอลัมน์ที่ 3
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// ใช้สไตล์ขอบต่าง ๆ ในระยะ
+// กําหนดขอบบน
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// กําหนดขอบล่าง
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// กําหนดขอบซ้าย
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// กําหนดขอบขวา
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// เก็บไฟล์ Excel
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd
