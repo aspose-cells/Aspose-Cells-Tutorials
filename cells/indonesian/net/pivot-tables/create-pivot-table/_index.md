@@ -12,7 +12,7 @@ url: /id/net/pivot-tables/create-pivot-table/
 
 # Buat Tabel Pivot di Excel Dengan Menggunakan Aspose.Cells
 
-Creating Pivot Tables in Excel programmatically has never been easier! With Aspose.Cells for .NET, you can generate an Excel workbook, add structured data, and create a Pivot Table for dynamic data analysis. This tutorial walks you through initializing a workbook, populating data, inserting a Pivot Table, and configuring its structure—all in C#. Whether you're automating reports or analyzing sales data, this example will help you streamline the process efficiently.  
+Dengan Aspose.Cells untuk .NET, Anda dapat membuat buku kerja Excel, menambahkan data terstruktur, dan membuat tabel Pivot untuk analisis data dinamis. Tutorial ini akan membantu Anda melalui inisialisasi buku kerja, mengisi data, memasukkan tabel Pivot, dan mengkonfigurasi strukturnyaall dalam C#. Apakah Anda mengotomatisasi laporan atau menganalisis data penjualan, contoh ini akan membantu Anda merampingkan proses secara efisien.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/create-pivot-table" >}}

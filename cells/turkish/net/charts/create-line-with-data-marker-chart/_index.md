@@ -12,7 +12,7 @@ url: /tr/net/charts/create-line-with-data-marker-chart/
 
 # Aspose.Cellsde veri işaretçileri ile bir çizgi çizelgesi oluşturun
 
-This tutorial demonstrates how to create a line chart with data markers in an Excel workbook using Aspose.Cells for .NET. You'll learn how to generate random data, insert it into a worksheet, and configure a visually appealing chart with customizable styles. The guide covers everything from setting up your workbook to saving the final file. Whether you're automating Excel reports or enhancing data visualization, this step-by-step example will help you implement line charts effortlessly using C#.  
+Bu öğretim kitabı Excel çalışma kitabında Aspose.Cells kullanılarak verilerle bir çizgi çizgi çizgi nasıl oluşturulacağını gösterir. .NET için rastgele veriler nasıl oluşturulacağını öğreneceksiniz.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
@@ -36,7 +36,7 @@ Projeinizde .NET için Aspose.Cells kullanmak için, bu adımları takip edin:
    Eğer DLL'i elle indirdiyseniz, `Aspose.Cells.`.NET projenize.
 
 4. Ad alanı ekle:  
-   In your C# file, add:  
+   C# dosyanıza ekleyin:  
    ```csharp
    using Aspose.Cells;
    using System;
@@ -44,7 +44,7 @@ Projeinizde .NET için Aspose.Cells kullanmak için, bu adımları takip edin:
    ```
 
 5. Örnek çalıştır:  
-   Copy and paste the provided C# code into your project, update the output directory, and execute the script to generate an Excel file with a line chart.
+   Verilen C# kodunu projenize kopyalanıp yapıştırın, çıkış dizini güncelleyin ve bir satır çizelgesi ile Excel dosyası oluşturmak için senaryoyu çalıştırın.
 
 ## Ayrıca bakın
 Ücretsiz deneme için ziyaret edin [Özgür Bir Deneme Yapın](https://releases.aspose.com/)\- Evet .  

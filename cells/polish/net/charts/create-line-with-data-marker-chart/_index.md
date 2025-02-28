@@ -12,7 +12,7 @@ url: /pl/net/charts/create-line-with-data-marker-chart/
 
 # Tworzenie wykresu linii z markerami danych w Aspose.Cells
 
-This tutorial demonstrates how to create a line chart with data markers in an Excel workbook using Aspose.Cells for .NET. You'll learn how to generate random data, insert it into a worksheet, and configure a visually appealing chart with customizable styles. The guide covers everything from setting up your workbook to saving the final file. Whether you're automating Excel reports or enhancing data visualization, this step-by-step example will help you implement line charts effortlessly using C#.  
+W tym tutoriale dowiemy się, jak tworzyć wykres linii z markerami danych w księdze roboczym Excel za pomocą Aspose.Cells dla .NET. Nauczysz się generować losowe dane, wstawiać je do arkusza roboczego i konfigurować wizualnie atrakcyjną wykres z dostosowalnymi stylami. Przewodnik obejmuje wszystko, od ustawienia księdza roboczego po zapisywanie pliku końcowego. Czy automatyzujesz raporty Excel lub ulepszasz wizualizację danych, ten przykład krok po kroku pomoże ci bez wysiłku wdrożyć wykresy linii za pomocą C#.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
@@ -36,7 +36,7 @@ Aby użyć Aspose.Cells dla .NET w projekcie, wykonaj następujące kroki:
    Jeśli załadowałeś DLL ręcznie, dodaj odniesienie do `Aspose.Cells.`w twoim projekcie .NET.
 
 4. Włączyć przestrzeni nazwisk:  
-   In your C# file, add:  
+   W pliku C# dodać:  
    ```csharp
    using Aspose.Cells;
    using System;
@@ -44,7 +44,7 @@ Aby użyć Aspose.Cells dla .NET w projekcie, wykonaj następujące kroki:
    ```
 
 5. Wykorzystaj przykład:  
-   Copy and paste the provided C# code into your project, update the output directory, and execute the script to generate an Excel file with a line chart.
+   Kopiować i wklej dostarczony kod C# do projektu, aktualizować katalog wyjściowy i wykonać skrypt, aby generować plik Excel z wykresem linii.
 
 ## Zobacz również
 Bezpłatna próbka[Wystarczy bezpłatny test](https://releases.aspose.com/)\- Nie .  

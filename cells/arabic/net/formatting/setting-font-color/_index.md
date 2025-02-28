@@ -12,7 +12,7 @@ url: /ar/net/formatting/setting-font-color/
 
 ## حدد لون الخط في خلاياه Excel باستخدام Aspose.Cells
   
-This tutorial demonstrates how to set the font color in an Excel cell using Aspose.Cells for .NET. You'll learn how to create an Excel workbook, add a worksheet, modify a cell’s value and style, and apply a custom font color. By following these steps, you can programmatically control cell formatting in Excel files using C#. This is especially useful for generating reports, highlighting important data, and enhancing spreadsheet readability.  
+تظهر هذه الدروسية كيفية تعيين لون الخط في خلية إكسيل باستخدام Aspose.Cells ل .NET. سوف تتعلم كيفية إنشاء دفتر عمل إكسيل، وإضافة ورقة عمل، وتعديل قيمة وخيارات الخلية، وتطبيق لون الخط المخصص. عن طريق اتباع هذه الخطوات، يمكنك التحكم برنامجيا بتصميم الخلية في ملفات إكسيل باستخدام C#. هذا مفيد بشكل خاص لتوليد التقارير، وتسليط الضوء على البيانات المهمة، وتعزيز قراءة ورقة الهاتف.  
  
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-color" >}}

@@ -12,7 +12,7 @@ url: /ar/net/formatting/setting-font-size/
   
 # حدد حجم الخط في Excel باستخدام Aspose.Cells
 
-Setting font size in an Excel file is crucial for enhancing readability and emphasizing key data points. With Aspose.Cells for .NET, you can easily modify the font size of any cell programmatically. This tutorial demonstrates how to create a new Excel workbook, add a worksheet, populate a cell with text, change its font size, and save the file in Excel format. By following this step-by-step guide, you’ll master the process of customizing text appearance in Excel files using C#.  
+إن تعيين حجم الخط في ملف Excel أمر حاسم لتعزيز القراءة وتأكيد نقاط البيانات الرئيسية. باستخدام Aspose.Cells ل .NET ، يمكنك بسهولة تعديل حجم الخط في أي خلية برنامجيا. يوضح هذا التعليم كيفية إنشاء كتاب عمل جديد من Excel وإضافة ورقة عمل ومحتوى خلية بالنص وتغيير حجم الخط وتحفظ الملف في شكل Excel. عن طريق اتباع هذه الدليل خطوة بخطوة ، سوف تتقن عملية تخصيص مظهر النص في ملفات Excel باستخدام C #.  
 
 ---
 

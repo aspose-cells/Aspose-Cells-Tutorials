@@ -11,7 +11,7 @@ url: /pt/net/charts/change-chart-size-and-position/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Redescide e reposicione o gráfico no Excel usando Aspose.Cells 
-Aspose.Cells for .NET provides a powerful API for working with Excel files programmatically. This example demonstrates how to resize and reposition a chart in an Excel workbook using Aspose.Cells. Whether you need to adjust chart dimensions or move it to a specific position, this tutorial walks you through the process with easy-to-follow C# code. By leveraging Aspose.Cells, you can manipulate Excel charts seamlessly, ensuring your reports and visual data presentations are precisely formatted.  
+Aspose.Cells para .NET fornece uma API poderosa para trabalhar com arquivos Excel programaticamente. Este exemplo demonstra como redimensionar e reposicionar um gráfico em um livro de trabalho Excel usando Aspose.Cells. Se você precisa ajustar as dimensões do gráfico ou movê-lo para uma posição específica, este tutorial o guia através do processo com código C# fácil de seguir.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/change-chart-size-and-position" >}}
@@ -23,10 +23,10 @@ Aspose.Cells for .NET provides a powerful API for working with Excel files progr
 Para usar Aspose.Cells para .NET, siga estes passos:  
 
 1. Instalar através do Gerente de Pacotes NuGet  
-- Abre o Visual Studio.  
-- Navegação para Ferramentas → Gerente de Pacotes NuGet → Gerenciar Pacotes NuGet para Solução.  
-- Pesquisa por Aspose.Cells.  
-- Clique em Instalar para adicionar o pacote ao seu projeto.  
+* Abre o Visual Studio.  
+* Navegação para Ferramentas → Gerente de Pacotes NuGet → Gerenciar Pacotes NuGet para Solução.  
+* Pesquisa por Aspose.Cells.  
+* Clique em Instalar para adicionar o pacote ao seu projeto.  
 
 Alternativamente, instale usando o Console do Gerente de Pacotes NuGet:  
 
@@ -34,7 +34,7 @@ Alternativamente, instale usando o Console do Gerente de Pacotes NuGet:
 Install-Package Aspose.Cells
 ```
 
-2. Add Namespace in Your C# Code  
+2. Adicionar espaço de nomes no seu código C#  
 ```csharp
 using Aspose.Cells;
 ```

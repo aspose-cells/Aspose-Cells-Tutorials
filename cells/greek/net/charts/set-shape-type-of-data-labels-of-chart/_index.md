@@ -11,7 +11,7 @@ url: /el/net/charts/set-shape-type-of-data-labels-of-chart/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Προσαρμόστε το σχήμα ετικέτας δεδομένων διαγράμματος στο Excel χρησιμοποιώντας το Aspose.Cells
-In this tutorial, we will explore how to modify the shape type of data labels in an Excel chart using Aspose.Cells for .NET. Data labels in charts help provide better visualization, and changing their shape can improve readability. This example demonstrates how to access an existing Excel chart, retrieve the series data labels, and change their shape type to a Speech Bubble Oval (Wedge Ellipse Callout). With a few lines of C# code, you can enhance the visual appeal of your Excel charts efficiently.  
+Σε αυτό το εγχειρίδιο, θα εξερευνήσουμε πώς να τροποποιήσουμε τον τύπο σχήματος των ετικετών δεδομένων σε ένα διάγραμμα Excel χρησιμοποιώντας Aspose.Cells για .NET. Τα ετικέτα δεδομένων σε διαγράμματα βοηθούν να παρέχουν καλύτερη ορατότητα και η αλλαγή της σχήμας τους μπορεί να βελτιώσει τη αναγνώριση. Αυτό το παράδειγμα δείχνει πώς να αποκτήσετε πρόσβαση σε ένα υπάρχον διάγραμμα Excel, να ανακτήσετε τις ετικέτες δεδομένων σειράς και να αλλάξετε τον τύπο σχήματος τους σε μια ομιλία φούσκα οβάλ (Wedge Ellipse Callout). Με μερικές γραμμές κώδικα C #, μπορείτε να ενισχύσετε την οπτική ελκυστικότητα των διαγράμμων Excel σας αποτελεσματικά.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/set-shape-type-of-data-labels-of-chart" >}}

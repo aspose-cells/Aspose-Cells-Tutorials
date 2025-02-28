@@ -12,7 +12,7 @@ url: /de/net/formatting/merging-cells/
 
 # Zusammenführen von Zellen in Excel mit Aspose.Cells für .NET
   
-Aspose.Cells for .NET is a powerful library for working with Excel files programmatically. In this tutorial, you'll learn how to merge cells in an Excel worksheet using C#. We start by creating a new workbook, accessing a worksheet, and merging specific cells to format the document efficiently. This step-by-step guide will help you streamline your spreadsheet manipulation using Aspose.Cells for .NET.  
+Aspose.Cells für .NET ist eine leistungsstarke Bibliothek für die programmatische Arbeit mit Excel-Dateien. In diesem Tutorial lernen Sie, wie Sie Zellen in einem Excel-Arbeitsblatt mit C# zusammenführen. Wir beginnen mit der Erstellung eines neuen Arbeitsbüchens, dem Zugriff auf ein Arbeitsblatt und der Zusammenführung bestimmter Zellen, um das Dokument effizient zu formatieren. Dieser Schritt-für-Schritt-Leitfaden wird Ihnen helfen, Ihre Tabellenmanipulation mit Aspose.Cells für .NET zu optimieren.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/merging-cells" >}}
@@ -37,7 +37,7 @@ Um Aspose.Cells für .NET in Ihrem Projekt zu verwenden, folgen Sie diesen Schri
    * Klicken Sie auf OK, um die Referenz hinzuzufügen.  
 
 4. Beginnen Sie mit Aspose.Cells  
-   Add the following namespace at the beginning of your C# file:  
+   Fügen Sie den folgenden Namenspace zu Beginn Ihrer C#-Datei hinzu:  
    ```csharp
    using Aspose.Cells;
    ```

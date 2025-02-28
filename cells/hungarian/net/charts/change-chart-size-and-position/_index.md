@@ -11,7 +11,7 @@ url: /hu/net/charts/change-chart-size-and-position/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # A Excelben a Aspose.Cells segítségével átalakítsa és átalakítsa a méretét 
-Aspose.Cells for .NET provides a powerful API for working with Excel files programmatically. This example demonstrates how to resize and reposition a chart in an Excel workbook using Aspose.Cells. Whether you need to adjust chart dimensions or move it to a specific position, this tutorial walks you through the process with easy-to-follow C# code. By leveraging Aspose.Cells, you can manipulate Excel charts seamlessly, ensuring your reports and visual data presentations are precisely formatted.  
+Az Aspose.Cells programmatizált Excel fájlokkal való együttműködésre alkalmas API-t nyújt a .NET-hez. Ez a példa bemutatja, hogyan lehet egy Excel munkafüzetben egy táblázat méretét és átruházását az Aspose.Cells segítségével. Akár a táblázat méreteit kell módosítani, akár egy meghatározott pozícióba kell költöztetnie, ez a tanár a folyamaton keresztül vezet a követhető C# kód segítségével. Az Aspose.Cells segítségével a Excel táblázatokat sima módon manipulálhatja, biztosítva, hogy a jelentései és vizuális adatbemutatásai pontosan formázódjanak.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/change-chart-size-and-position" >}}
@@ -23,10 +23,10 @@ Aspose.Cells for .NET provides a powerful API for working with Excel files progr
 A .NET-ben az Aspose.Cells használatához kövesse az alábbi lépéseket:  
 
 1. A NuGet csomagkezelő segítségével telepítse  
-- Nyissa ki a Visual Studio-t.  
-- Navigáljon a Szerszámok → NuGet csomagkezelő → A megoldáshoz a NuGet csomagok kezelésére.  
-- Keresd az Aspose.Cells címet.  
-- Kattintson a telepítésre, hogy a csomagot a projekthez hozzák hozzá.  
+* Nyissa ki a Visual Studio-t.  
+* Navigáljon a Szerszámok → NuGet csomagkezelő → A megoldáshoz a NuGet csomagok kezelésére.  
+* Keresd az Aspose.Cells címet.  
+* Kattintson a telepítésre, hogy a csomagot a projekthez hozzák hozzá.  
 
 Alternatív módon, telepítse a NuGet csomagkezelő konzolt:  
 
@@ -34,7 +34,7 @@ Alternatív módon, telepítse a NuGet csomagkezelő konzolt:
 Install-Package Aspose.Cells
 ```
 
-2. Add Namespace in Your C# Code  
+2. Adjon névhelyet a C# kódjához  
 ```csharp
 using Aspose.Cells;
 ```

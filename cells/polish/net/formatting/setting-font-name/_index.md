@@ -12,7 +12,7 @@ url: /pl/net/formatting/setting-font-name/
 
 # Ustawienie nazwy czcionki w Excel za pomocą Aspose.Cells
 
-Setting the font name in an Excel file is essential for maintaining a professional and consistent document format. With Aspose.Cells for .NET, you can easily create an Excel workbook, add a worksheet, and modify cell styles. This tutorial walks you through the process of setting a custom font name for a specific cell in C#. Follow the step-by-step guide and enhance your Excel document formatting with ease.  
+Ustawienie nazwy czcionki w pliku Excel jest niezbędne do utrzymania profesjonalnego i spójnego formatu dokumentu. Dzięki Aspose.Cells dla .NET można łatwo utworzyć podręcznik Excel, dodać arkusz i modyfikować styl komórek.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-name" >}}

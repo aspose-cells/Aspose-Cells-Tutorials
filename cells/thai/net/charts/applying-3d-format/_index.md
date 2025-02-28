@@ -12,7 +12,7 @@ url: /th/net/charts/applying-3d-format/
 
 # สร้างและฟอร์เมทแผนที่ 3D ใน Excel โดยใช้ Aspose.Cells 
 
-Aspose.Cells for .NET is a powerful library that allows developers to create, manipulate, and format Excel files programmatically. This example demonstrates how to create a new Excel workbook, insert data into a worksheet, add a chart, and apply 3D formatting to the chart series. By following this guide, you will learn how to set up category data, configure chart properties, and enhance visualization with 3D effects using C#.  
+Aspose.Cells สําหรับ .NET เป็นห้องสมุดที่มีความแรงที่ให้ผู้พัฒนาสามารถสร้าง การ thao tác และรูปแบบไฟล์ Excel ได้ตามหลักสูตร ตัวอย่างนี้แสดงวิธีการสร้างหนังสือทํางาน Excel ใหม่ ใส่ข้อมูลในใบงาน เพิ่มแผนที่ และนํารูปแบบ 3D มาใช้กับแผนที่ รายการ โดยการปฏิบัติตามแนวทางนี้ คุณจะได้เรียนรู้วิธีการตั้งข้อมูลประเภท ปรับปรุงคุณสมบัติแผนที่ และเพิ่มภาพภาพด้วยผลงาน 3D โดยใช้ C#  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/applying-3d-format" >}}
@@ -36,7 +36,7 @@ Aspose.Cells for .NET is a powerful library that allows developers to create, ma
      [ดาวน์โหลด Aspose.Cells สําหรับ .NET](https://releases.aspose.com/cells/net/)  
 
 3. เพิ่มความหมายในโครงการของคุณ  
-   - After installation, include the following namespace in your C# code:  
+   * หลังจากติดตั้ง, ใส่ namespace ต่อไปในรหัส C# ของคุณ:  
      ```csharp
      using Aspose.Cells;
      using Aspose.Cells.Charts;

@@ -12,7 +12,7 @@ url: /id/net/charts/create-line-with-data-marker-chart/
 
 # Buat grafik garis dengan penanda data di Aspose.Cells
 
-This tutorial demonstrates how to create a line chart with data markers in an Excel workbook using Aspose.Cells for .NET. You'll learn how to generate random data, insert it into a worksheet, and configure a visually appealing chart with customizable styles. The guide covers everything from setting up your workbook to saving the final file. Whether you're automating Excel reports or enhancing data visualization, this step-by-step example will help you implement line charts effortlessly using C#.  
+Tutorial ini menunjukkan cara membuat grafik baris dengan penanda data di buku kerja Excel menggunakan Aspose.Cells untuk .NET. Anda akan belajar bagaimana menghasilkan data acak, menyisipkannya ke dalam lembar kerja, dan mengkonfigurasi grafik yang menarik secara visual dengan gaya yang dapat disesuaikan. Panduan mencakup segala sesuatu dari pengaturan buku kerja Anda untuk menyimpan file akhir. Apakah Anda mengotomatisasi laporan Excel atau meningkatkan visualisasi data, contoh langkah demi langkah ini akan membantu Anda menerapkan grafik baris dengan mudah menggunakan C #.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
@@ -36,7 +36,7 @@ Untuk menggunakan Aspose.Cells untuk .NET dalam proyek Anda, ikuti langkah- lang
    Jika Anda telah mengunduh DLL secara manual, tambahkan referensi ke `Aspose.Cells. dll`di proyek .NET Anda.
 
 4. Tambahkan Nama Ruang:  
-   In your C# file, add:  
+   Di file C# Anda, tambahkan:  
    ```csharp
    using Aspose.Cells;
    using System;
@@ -44,7 +44,7 @@ Untuk menggunakan Aspose.Cells untuk .NET dalam proyek Anda, ikuti langkah- lang
    ```
 
 5. Pergi Contoh:  
-   Copy and paste the provided C# code into your project, update the output directory, and execute the script to generate an Excel file with a line chart.
+   Salin dan tempel kode C# yang diberikan ke dalam proyek Anda, memperbarui direktori output, dan mengeksekusi skrip untuk menghasilkan file Excel dengan grafik baris.
 
 ## Lihat juga
 Untuk uji coba gratis, kunjungi [Tentukan Percobaan Bebas](https://releases.aspose.com/)Aku tidak tahu.  

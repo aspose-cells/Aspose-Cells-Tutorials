@@ -12,7 +12,7 @@ url: /sv/net/charts/create-line-with-data-marker-chart/
 
 # Skapa en raddiagram med datamärkare i Aspose.Cells
 
-This tutorial demonstrates how to create a line chart with data markers in an Excel workbook using Aspose.Cells for .NET. You'll learn how to generate random data, insert it into a worksheet, and configure a visually appealing chart with customizable styles. The guide covers everything from setting up your workbook to saving the final file. Whether you're automating Excel reports or enhancing data visualization, this step-by-step example will help you implement line charts effortlessly using C#.  
+Denna handledning visar hur man skapar en rad diagram med datamärkare i en Excel-arbetsbok med hjälp av Aspose.Cells för .NET. Du kommer att lära dig hur du genererar slumpmässiga data, lägg in det i ett arbetsblad och konfigurera ett visuellt tilltalande diagram med anpassningsbara stilar. Guiden omfattar allt från att ställa in din arbetsbok till att spara den slutliga filen. Oavsett om du automatiserar Excel-rapporter eller förbättrar datavisualisering, hjälper detta steg för steg exempel dig att implementera rad diagram utan ansträngning med hjälp av C #.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
@@ -36,7 +36,7 @@ För att använda Aspose.Cells för .NET i ditt projekt, följ dessa steg:
    Om du har laddat ner DLL manuellt, lägg till en referens till `Aspose.Cells.`i ditt .NET-projekt.
 
 4. Inkludera Namespace:  
-   In your C# file, add:  
+   I din C #-fil lägg till:  
    ```csharp
    using Aspose.Cells;
    using System;
@@ -44,7 +44,7 @@ För att använda Aspose.Cells för .NET i ditt projekt, följ dessa steg:
    ```
 
 5. Läs exempel:  
-   Copy and paste the provided C# code into your project, update the output directory, and execute the script to generate an Excel file with a line chart.
+   Kopiera och klistra den angivna C #-koden i ditt projekt, uppdatera utgångsdirektören och utföra skriptet för att generera en Excel-fil med en rad diagram.
 
 ## Se även
 För en gratis provprovning, besök [Ställ dig ett fria försök](https://releases.aspose.com/)\- Jag är inte rädd.  

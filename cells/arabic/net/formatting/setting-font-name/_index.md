@@ -12,7 +12,7 @@ url: /ar/net/formatting/setting-font-name/
 
 # إعداد اسم الخط في Excel باستخدام Aspose.Cells
 
-Setting the font name in an Excel file is essential for maintaining a professional and consistent document format. With Aspose.Cells for .NET, you can easily create an Excel workbook, add a worksheet, and modify cell styles. This tutorial walks you through the process of setting a custom font name for a specific cell in C#. Follow the step-by-step guide and enhance your Excel document formatting with ease.  
+إن تعيين اسم الخط في ملف Excel أمر ضروري للحفاظ على شكل وثيقة مهنية ومتسقة. باستخدام Aspose.Cells ل .NET ، يمكنك بسهولة إنشاء دفتر عمل Excel وإضافة ورقة عمل وتعديل أساليب الخلية. يمركك هذا التعليمية في عملية تعيين اسم الخط المخصص للخلية المحددة في C#. اتبع الدليل خطوة بخطوة وتعزز تصميم مستند Excel بسهولة.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-name" >}}

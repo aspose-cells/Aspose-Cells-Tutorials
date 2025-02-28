@@ -11,7 +11,7 @@ url: /ru/net/charts/change-chart-size-and-position/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Переобороть и переустроить диаграмму в Excel с помощью Aspose.Cells 
-Aspose.Cells for .NET provides a powerful API for working with Excel files programmatically. This example demonstrates how to resize and reposition a chart in an Excel workbook using Aspose.Cells. Whether you need to adjust chart dimensions or move it to a specific position, this tutorial walks you through the process with easy-to-follow C# code. By leveraging Aspose.Cells, you can manipulate Excel charts seamlessly, ensuring your reports and visual data presentations are precisely formatted.  
+Aspose.Cells для .NET предоставляет мощный API для работы с файлами Excel программируемым образом. Этот пример демонстрирует, как изменить размер и переположить график в рабочей книге Excel с использованием Aspose.Cells. Независимо от того, нужно ли регулировать размеры графика или перенести его в определенное положение, этот учебник проходит через процесс с помощью простого C# кода. Используя Aspose.Cells, вы можете бесперебойно манипулировать графиками Excel, гарантируя точную форматку ваших отчетов и визуальных презентаций данных.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/change-chart-size-and-position" >}}
@@ -23,10 +23,10 @@ Aspose.Cells for .NET provides a powerful API for working with Excel files progr
 Чтобы использовать Aspose.Cells для .NET, выполните следующие шаги:  
 
 1. Установка через управляющий пакетами NuGet  
-- Откройте визуальную студию.  
-- Перейти к инструментам → Управляющему пакетам NuGet → Управлению пакетами NuGet для решения.  
-- Поиск "Аспозиция. Клетки".  
-- Нажмите на Установите, чтобы добавить пакет к вашему проекту.  
+* Откройте визуальную студию.  
+* Перейти к инструментам → Управляющему пакетам NuGet → Управлению пакетами NuGet для решения.  
+* Поиск "Аспозиция. Клетки".  
+* Нажмите на Установите, чтобы добавить пакет к вашему проекту.  
 
 В качестве альтернативы, установить его с помощью консоли NuGet Package Manager:  
 
@@ -34,7 +34,7 @@ Aspose.Cells for .NET provides a powerful API for working with Excel files progr
 Install-Package Aspose.Cells
 ```
 
-2. Add Namespace in Your C# Code  
+2. Добавьте пространство имен в код C#  
 ```csharp
 using Aspose.Cells;
 ```

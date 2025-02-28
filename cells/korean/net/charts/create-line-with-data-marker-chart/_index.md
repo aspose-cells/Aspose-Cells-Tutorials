@@ -12,7 +12,7 @@ url: /ko/net/charts/create-line-with-data-marker-chart/
 
 # Aspose.Cells에서 데이터 마크를 가진 라인 차트를 생성합니다.
 
-This tutorial demonstrates how to create a line chart with data markers in an Excel workbook using Aspose.Cells for .NET. You'll learn how to generate random data, insert it into a worksheet, and configure a visually appealing chart with customizable styles. The guide covers everything from setting up your workbook to saving the final file. Whether you're automating Excel reports or enhancing data visualization, this step-by-step example will help you implement line charts effortlessly using C#.  
+이 튜토리얼은 .NET용 Aspose.Cells를 사용하여 Excel 작업 책에서 데이터 마크를 가진 라인 차트를 만드는 방법을 보여줍니다. 당신은 무작위 데이터를 생성하고, 워크시트에 삽입하고, 사용자 정의 할 수있는 스타일로 시각적으로 매력적인 차트를 구성하는 방법을 배울 것입니다. 가이드는 작업 책에서 최종 파일을 저장하는 것부터 모든 것을 다루고 있습니다. 당신이 Excel 보고서를 자동화하거나 데이터 시각화를 향상시키는 경우, 이 단계별 예는 C #를 사용하여 라인 차트를 무단하게 구현하는 데 도움이 될 것입니다.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
@@ -36,7 +36,7 @@ This tutorial demonstrates how to create a line chart with data markers in an Ex
    DLL를 수동으로 다운로드한 경우, 에 대한 참조를 추가하십시오.`Aspose.Cells.dll`.NET 프로젝트에서
 
 4. 네임스페이스 포함:  
-   In your C# file, add:  
+   C# 파일에 다음을 추가하세요:  
    ```csharp
    using Aspose.Cells;
    using System;
@@ -44,7 +44,7 @@ This tutorial demonstrates how to create a line chart with data markers in an Ex
    ```
 
 5. 예를 실행:  
-   Copy and paste the provided C# code into your project, update the output directory, and execute the script to generate an Excel file with a line chart.
+   제공된 C# 코드를 프로젝트에 복사하고 붙여서 출력 디렉토리를 업데이트하고 라인 차트를 가진 Excel 파일을 생성하기 위해 스크립트를 실행하십시오.
 
 ## 또한 참조
 무료 체험을 받으려면 방문하세요[자유 로 시험 을 목표로 하라](https://releases.aspose.com/)\- 그래  

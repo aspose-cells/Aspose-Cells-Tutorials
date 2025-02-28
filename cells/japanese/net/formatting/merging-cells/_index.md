@@ -12,7 +12,7 @@ url: /ja/net/formatting/merging-cells/
 
 # .NET のAspose.Cellsを使用して Excel に セルを統合する
   
-Aspose.Cells for .NET is a powerful library for working with Excel files programmatically. In this tutorial, you'll learn how to merge cells in an Excel worksheet using C#. We start by creating a new workbook, accessing a worksheet, and merging specific cells to format the document efficiently. This step-by-step guide will help you streamline your spreadsheet manipulation using Aspose.Cells for .NET.  
+.NET の Aspose.Cells は Excel ファイル を プログラム 的に 処理 する 強力な ライブラリ です.この チュートリアル で, Excel ワークシート の セル を C# で 統合 する こと を 学び ます.新しい ワークブック を 作成 し,ワークシート に アクセス し,文書 を 効率 的 に フォーマット する ため に 特定の セル を 統合 する こと を 始め ます.この ステップ バイ ステップ ガイド は, .NET の Aspose.Cells を 活用 し て スプレッドシート 操作 を 効率化 する に 役立つ.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/merging-cells" >}}
@@ -37,7 +37,7 @@ Aspose.Cells for .NET is a powerful library for working with Excel files program
    * 参照を追加するにはOKをクリックします.  
 
 4. "アスペーズ.セル" を 活用 始め  
-   Add the following namespace at the beginning of your C# file:  
+   C# ファイルの初めには次の名前空間を追加します  
    ```csharp
    using Aspose.Cells;
    ```

@@ -12,7 +12,7 @@ url: /pt/net/formatting/setting-font-color/
 
 ## Configurar a cor de fonte em células do Excel usando Aspose.Cells
   
-This tutorial demonstrates how to set the font color in an Excel cell using Aspose.Cells for .NET. You'll learn how to create an Excel workbook, add a worksheet, modify a cell’s value and style, and apply a custom font color. By following these steps, you can programmatically control cell formatting in Excel files using C#. This is especially useful for generating reports, highlighting important data, and enhancing spreadsheet readability.  
+Este tutorial demonstra como definir a cor da fonte em uma célula do Excel usando Aspose.Cells para .NET. Você aprenderá como criar um livro de trabalho do Excel, adicionar uma folha de trabalho, modificar o valor e o estilo de uma célula e aplicar uma cor de fonte personalizada. Seguindo essas etapas, você pode controlar programaticamente a formatação de células em arquivos do Excel usando C#. Isso é especialmente útil para gerar relatórios, destacar dados importantes e melhorar a legibilidade da folha de cálculo.  
  
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-color" >}}

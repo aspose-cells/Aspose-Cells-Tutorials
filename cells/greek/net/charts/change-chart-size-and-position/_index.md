@@ -11,7 +11,7 @@ url: /el/net/charts/change-chart-size-and-position/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Μεταπλασιάστε και αναθέστε το διάγραμμα στο Excel χρησιμοποιώντας το Aspose.Cells 
-Aspose.Cells for .NET provides a powerful API for working with Excel files programmatically. This example demonstrates how to resize and reposition a chart in an Excel workbook using Aspose.Cells. Whether you need to adjust chart dimensions or move it to a specific position, this tutorial walks you through the process with easy-to-follow C# code. By leveraging Aspose.Cells, you can manipulate Excel charts seamlessly, ensuring your reports and visual data presentations are precisely formatted.  
+Το Aspose.Cells για το .NET παρέχει μια ισχυρή API για την εργασία με αρχεία Excel προγραμματικά. Αυτό το παράδειγμα δείχνει πώς να αλλάξετε το μέγεθος και να επαναπροσανατολιστεί ένα διάγραμμα σε ένα βιβλίο εργασίας Excel χρησιμοποιώντας το Aspose.Cells. Είτε χρειάζεται να ρυθμίσετε τις διαστάσεις του διάγραμμα ή να το μεταφέρετε σε μια συγκεκριμένη θέση, αυτό το εγχειρίδιο σας οδηγεί στη διαδικασία με εύκολο να ακολουθήσετε κωδικό C #. Με την αξιοποίηση του Aspose.Cells, μπορείτε να χειριστείτε τα διαγράμματα Excel με ομαλή συνέπεια, εξασφαλίζοντας ότι οι εκθέσεις και οι οπτικές παρουσιάσεις δεδομένων σας μορφοποιούνται με ακρίβεια.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/change-chart-size-and-position" >}}
@@ -23,10 +23,10 @@ Aspose.Cells for .NET provides a powerful API for working with Excel files progr
 Για να χρησιμοποιήσετε το Aspose.Cells για το .NET, ακολουθήστε τα παρακάτω βήματα:  
 
 1. Εγκατάσταση μέσω του διαχειριστή πακέτων NuGet  
-- Ανοίξτε το Visual Studio.  
-- Επιστρέψτε στα εργαλεία → Διαχειριστής πακέτων NuGet → Διαχειρίστε τα πακέτα NuGet για Λύση.  
-- Ψάξτε για "Ασπόζ.Κελίδες".  
-- Κάντε κλικ στην επιλογή Εγκατάσταση για να προσθέσετε το πακέτο στο έργο σας.  
+* Ανοίξτε το Visual Studio.  
+* Επιστρέψτε στα εργαλεία → Διαχειριστής πακέτων NuGet → Διαχειρίστε τα πακέτα NuGet για Λύση.  
+* Ψάξτε για "Ασπόζ.Κελίδες".  
+* Κάντε κλικ στην επιλογή Εγκατάσταση για να προσθέσετε το πακέτο στο έργο σας.  
 
 Εναλλακτικά, εγκαταστήστε το χρησιμοποιώντας τη κονσόλα διαχειριστή πακέτων NuGet:  
 
@@ -34,7 +34,7 @@ Aspose.Cells for .NET provides a powerful API for working with Excel files progr
 Install-Package Aspose.Cells
 ```
 
-2. Add Namespace in Your C# Code  
+2. Προσθέστε χώρο ονομάτων στο κώδικα C# σας  
 ```csharp
 using Aspose.Cells;
 ```

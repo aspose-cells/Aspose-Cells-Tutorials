@@ -12,7 +12,7 @@ url: /hu/net/charts/create-line-with-data-marker-chart/
 
 # Készítsen egy vonal-diagramot az Aspose.Cells-ben
 
-This tutorial demonstrates how to create a line chart with data markers in an Excel workbook using Aspose.Cells for .NET. You'll learn how to generate random data, insert it into a worksheet, and configure a visually appealing chart with customizable styles. The guide covers everything from setting up your workbook to saving the final file. Whether you're automating Excel reports or enhancing data visualization, this step-by-step example will help you implement line charts effortlessly using C#.  
+Ez a tanár bemutatja, hogyan lehet egy Excel munkafüzetben az Aspose.Cells használatával adatjelzőkkel ellátott vonaltervet készíteni. Megtanulhatja, hogyan lehet véletlenszerű adatokat generálni, behelyezni egy munkafüzetbe, és konfigurálni egy vizuálisan vonzó táblázatot a személyre szabható stílusokkal. A útmutató mindent lefedi, a munkafüzet beállításától a végleges fájlt megőrzésig. Akár az Excel jelentések automatizálása vagy az adatvisuálálálálása javítása, ez a lépésről lépésre adott példa segít C# segítségével könnyedén végrehajtani a vonaltervet.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
@@ -36,7 +36,7 @@ A .NET-hez használt Aspose.Cells projekthez kövesse ezeket a lépéseket:
    Ha kézi úton töltötted le a DLL-t, adjon hozzá egy hivatkozást a `Aspose.Cells.dll`a .NET projektedben.
 
 4. Be kell foglalni a névterületet:  
-   In your C# file, add:  
+   C# fájljaihoz hozzon hozzá:  
    ```csharp
    using Aspose.Cells;
    using System;
@@ -44,7 +44,7 @@ A .NET-hez használt Aspose.Cells projekthez kövesse ezeket a lépéseket:
    ```
 
 5. A példa:  
-   Copy and paste the provided C# code into your project, update the output directory, and execute the script to generate an Excel file with a line chart.
+   Képzeld és takarítsd be a megadott C# kódot a projektedbe, frissítd a kimeneti címlapot, és végezd el a szöveget egy Excel fájl létrehozásához egy sortervvel.
 
 ## Lásd:
 A ingyenes próbapróbára látogatás [Képzelj ingyenes próbázást](https://releases.aspose.com/)\- Nem.  

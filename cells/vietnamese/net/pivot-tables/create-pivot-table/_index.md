@@ -12,7 +12,7 @@ url: /vi/net/pivot-tables/create-pivot-table/
 
 # Tạo một bảng xoay trong Excel sử dụng Aspose.Cells
 
-Creating Pivot Tables in Excel programmatically has never been easier! With Aspose.Cells for .NET, you can generate an Excel workbook, add structured data, and create a Pivot Table for dynamic data analysis. This tutorial walks you through initializing a workbook, populating data, inserting a Pivot Table, and configuring its structure—all in C#. Whether you're automating reports or analyzing sales data, this example will help you streamline the process efficiently.  
+Tạo bảng xoay trong Excel theo cách lập trình chưa bao giờ dễ dàng hơn! Với Aspose.Cells cho .NET, bạn có thể tạo ra một sổ làm việc Excel, thêm dữ liệu có cấu trúc và tạo ra một bảng xoay cho phân tích dữ liệu động. Bài hướng dẫn này sẽ hướng dẫn bạn thông qua khởi tạo sổ làm việc, lấp đầy dữ liệu, chèn một bảng xoay, và cấu hình cấu trúc của nó tất cả bằng C #. Cho dù bạn tự động hóa báo cáo hoặc phân tích dữ liệu bán hàng, ví dụ này sẽ giúp bạn tăng hiệu quả trong quá trình.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/create-pivot-table" >}}

@@ -12,7 +12,7 @@ url: /pl/net/formatting/setting-font-color/
 
 ## Ustaw kolor czcionki w komórkach programu Excel za pomocą Aspose.Cells
   
-This tutorial demonstrates how to set the font color in an Excel cell using Aspose.Cells for .NET. You'll learn how to create an Excel workbook, add a worksheet, modify a cell’s value and style, and apply a custom font color. By following these steps, you can programmatically control cell formatting in Excel files using C#. This is especially useful for generating reports, highlighting important data, and enhancing spreadsheet readability.  
+W tym tutoriale dowiemy się, jak ustawić kolor czcionki w komórce Excel za pomocą Aspose.Cells dla .NET. Dowiesz się, jak tworzyć książeczkę roboczą Excel, dodać arkusz roboczy, zmodyfikować wartość i styl komórki i zastosować spersonalizowany kolor czcionki.  
  
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-color" >}}

@@ -12,7 +12,7 @@ url: /cs/net/charts/create-line-with-data-marker-chart/
 
 # Vytvořte graf s datovými značkami v Aspose.Cells
 
-This tutorial demonstrates how to create a line chart with data markers in an Excel workbook using Aspose.Cells for .NET. You'll learn how to generate random data, insert it into a worksheet, and configure a visually appealing chart with customizable styles. The guide covers everything from setting up your workbook to saving the final file. Whether you're automating Excel reports or enhancing data visualization, this step-by-step example will help you implement line charts effortlessly using C#.  
+Tento příruční program ukazuje, jak vytvořit graf s datovými značkami v pracovní knize Excel pomocí Aspose.Cells pro .NET. Naučíte se generovat náhodné údaje, vložit je do pracovního listu a konfigurovat vizuálně atraktivní graf s přizpůsobitelnými styly. V průvodci se zabývá vším od nastavení pracovního knihy až po ukládání konečného souboru. Ať už automatizujete zprávy Excel nebo vylepšujete vizualizaci dat, tento krok za krokem příklad vám pomůže bez námahy implementovat graf s použitím C#.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
@@ -36,7 +36,7 @@ Chcete-li v projektu používat Aspose.Cells pro .NET, postupujte podle těchto 
    Pokud jste si snesli DLL manuálně, přidejte odkaz na `Aspose.Cells. Dll`ve vašem projektu .NET.
 
 4. Vkládejte Názovové prostor:  
-   In your C# file, add:  
+   Ve svém souboru C# přidejte:  
    ```csharp
    using Aspose.Cells;
    using System;
@@ -44,7 +44,7 @@ Chcete-li v projektu používat Aspose.Cells pro .NET, postupujte podle těchto 
    ```
 
 5. Využijte příklad:  
-   Copy and paste the provided C# code into your project, update the output directory, and execute the script to generate an Excel file with a line chart.
+   Kopírovat a vložit poskytnutý kód C# do projektu, aktualizovat výstupní adresář a spustit skript k vytvoření souboru Excel s grafickou řádků.
 
 ## Viz také
 Pro bezplatnou zkoušku navštivte [Vyzkoušejte se bezplatně](https://releases.aspose.com/)\- Ne , ne .  

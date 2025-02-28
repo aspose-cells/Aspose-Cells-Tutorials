@@ -11,7 +11,7 @@ url: /zh/net/charts/get-chart-sub-title-for-ods-file/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 通过Aspose.Cells从ODS文件中获取图表字幕  
-This example demonstrates how to use Aspose.Cells for .NET to load an ODS file, access a specific chart within a worksheet, and retrieve its subtitle. By following this guide, developers can efficiently read and extract chart information from ODS spreadsheets using C#. The example provides a clear, step-by-step approach to working with charts in Excel files, ensuring smooth implementation in .NET applications.  
+这篇例子展示了如何使用Aspose.Cells为 .NET来加载ODS文件,访问一个工作表中的特定图表,并检索其字幕.通过遵循本指南,开发人员可以通过C#有效地阅读和提取ODS电子表中的图表信息.该例子提供了明确的,步骤一步方法,以在Excel文件中的图表工作,确保在 .NET应用程序中进行流的实现.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/get-chart-sub-title-for-ods-file" >}}
@@ -25,7 +25,7 @@ This example demonstrates how to use Aspose.Cells for .NET to load an ODS file, 
    ```shell
    Install-Package Aspose.Cells
    ```  
-2. Add the required namespace in your C# project:  
+2. 在C#项目中添加所需的名称空间:  
    ```csharp
    using Aspose.Cells;
    using Aspose.Cells.Charts;

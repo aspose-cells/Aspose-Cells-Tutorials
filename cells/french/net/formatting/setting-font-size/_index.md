@@ -12,7 +12,7 @@ url: /fr/net/formatting/setting-font-size/
   
 # Définir la taille de la police dans Excel à l'aide de Aspose.Cells
 
-Setting font size in an Excel file is crucial for enhancing readability and emphasizing key data points. With Aspose.Cells for .NET, you can easily modify the font size of any cell programmatically. This tutorial demonstrates how to create a new Excel workbook, add a worksheet, populate a cell with text, change its font size, and save the file in Excel format. By following this step-by-step guide, you’ll master the process of customizing text appearance in Excel files using C#.  
+La définition de la taille de la police dans un fichier Excel est essentielle pour améliorer la lisibilité et mettre l'accent sur les points de données clés. Avec Aspose.Cells pour .NET, vous pouvez facilement modifier la taille de la police de n'importe quelle cellule de manière programmatique. Ce tutoriel montre comment créer un nouveau livre de travail Excel, ajouter une feuille de calcul, remplir une cellule de texte, changer sa taille de police et enregistrer le fichier dans le format Excel. En suivant ce guide étape par étape, vous maîtrisez le processus de personnalisation de l'apparence du texte dans les fichiers Excel en utilisant C #.  
 
 ---
 

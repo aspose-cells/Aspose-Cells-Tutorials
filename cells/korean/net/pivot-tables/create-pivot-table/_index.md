@@ -12,7 +12,7 @@ url: /ko/net/pivot-tables/create-pivot-table/
 
 # Aspose.Cells을 사용하여 Excel에서 중추 테이블을 생성합니다
 
-Creating Pivot Tables in Excel programmatically has never been easier! With Aspose.Cells for .NET, you can generate an Excel workbook, add structured data, and create a Pivot Table for dynamic data analysis. This tutorial walks you through initializing a workbook, populating data, inserting a Pivot Table, and configuring its structure—all in C#. Whether you're automating reports or analyzing sales data, this example will help you streamline the process efficiently.  
+.NET에 대한 Aspose.Cells을 사용하면 Excel 작업簿을 생성하고 구조화된 데이터를 추가하고 동적 데이터 분석을 위한 Pivot Table를 만들 수 있습니다. 이 튜토리얼은 작업簿을 초기화하고 데이터를 채우고, Pivot Table를 삽입하고, C#에서 구조를 구성하는 과정을 안내합니다. 보고서를 자동화하거나 판매 데이터를 분석하는 경우도 있지만, 이 예제는 프로세스를 효율적으로 효율적으로 조정하는 데 도움이 될 것입니다.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/create-pivot-table" >}}

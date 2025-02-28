@@ -12,7 +12,7 @@ url: /ko/net/formatting/setting-font-name/
 
 # Aspose.Cells을 사용하여 Excel에서 글꼴 이름을 설정
 
-Setting the font name in an Excel file is essential for maintaining a professional and consistent document format. With Aspose.Cells for .NET, you can easily create an Excel workbook, add a worksheet, and modify cell styles. This tutorial walks you through the process of setting a custom font name for a specific cell in C#. Follow the step-by-step guide and enhance your Excel document formatting with ease.  
+Excel 파일에서 글꼴 이름을 설정하는 것은 전문적이고 일관된 문서 형식을 유지하기 위해 필수적입니다. .NET의 Aspose.Cells을 사용하면 쉽게 Excel 작업서를 만들고, 워크시트를 추가하고 셀 스타일을 수정할 수 있습니다. 이 튜토리얼은 C#에서 특정 셀에 맞춤형 글꼴 이름을 설정하는 과정을 통해 안내합니다. 단계별 안내를 따라 Excel 문서 형식을 쉽게 향상시킵니다.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-name" >}}

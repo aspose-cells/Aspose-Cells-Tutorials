@@ -12,7 +12,7 @@ url: /de/net/charts/create-line-with-data-marker-chart/
 
 # Erstellen Sie ein Zeichentisch mit Datenmarkern in Aspose.Cells
 
-This tutorial demonstrates how to create a line chart with data markers in an Excel workbook using Aspose.Cells for .NET. You'll learn how to generate random data, insert it into a worksheet, and configure a visually appealing chart with customizable styles. The guide covers everything from setting up your workbook to saving the final file. Whether you're automating Excel reports or enhancing data visualization, this step-by-step example will help you implement line charts effortlessly using C#.  
+Dieses Tutorial zeigt, wie man ein Zeichentischarten mit Datenmarkern in einem Excel-Arbeitsbuch mit Aspose.Cells für .NET erstellt. Sie lernen, wie Sie zufällige Daten erstellen, in ein Arbeitsblatt einfügen und ein visuell ansprechendes Diagramm mit anpassbaren Stilen konfigurieren. Das Handbuch umfasst alles von der Einrichtung Ihres Arbeitsbuchs bis zur Speicherung der endgültigen Datei. Ob Sie Excel-Berichte automatisieren oder die Datenvisualisierung verbessern, dieses Schritt-für-Schritt-Beispiel wird Ihnen helfen, Zeichentischarte mühelos mit C# umzusetzen.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
@@ -36,7 +36,7 @@ Um Aspose.Cells für .NET in Ihrem Projekt zu verwenden, folgen Sie diesen Schri
    Wenn Sie die DLL manuell heruntergeladen haben, fügen Sie einen Hinweis auf `"Aspose. Zellen".`in Ihrem .NET-Projekt.
 
 4. Namenspace enthalten:  
-   In your C# file, add:  
+   Fügen Sie in Ihre C#-Datei hinzu:  
    ```csharp
    using Aspose.Cells;
    using System;
@@ -44,7 +44,7 @@ Um Aspose.Cells für .NET in Ihrem Projekt zu verwenden, folgen Sie diesen Schri
    ```
 
 5. Führen Sie das Beispiel aus:  
-   Copy and paste the provided C# code into your project, update the output directory, and execute the script to generate an Excel file with a line chart.
+   Kopieren und kleben Sie den bereitgestellten C#-Code in Ihr Projekt, aktualisieren Sie das Ausgabeverzeichnis und führen Sie das Skript aus, um eine Excel-Datei mit einem Zeilendiagramm zu erstellen.
 
 ## Siehe auch
 Für eine kostenlose Testversion besuchen Sie [Werfen Sie sich eine kostenlose Prüfung vor](https://releases.aspose.com/)\- Ich weiß .  

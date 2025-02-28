@@ -12,7 +12,7 @@ url: /ru/net/formatting/setting-font-color/
 
 ## Настройка цвета шрифта в ячейках Excel с помощью Aspose.Cells
   
-This tutorial demonstrates how to set the font color in an Excel cell using Aspose.Cells for .NET. You'll learn how to create an Excel workbook, add a worksheet, modify a cell’s value and style, and apply a custom font color. By following these steps, you can programmatically control cell formatting in Excel files using C#. This is especially useful for generating reports, highlighting important data, and enhancing spreadsheet readability.  
+В этом руководстве показано, как настроить цвет шрифта в ячейке Excel с использованием Aspose.Cells для .NET. Вы узнаете, как создать рабочую книгу Excel, добавить рабочий лист, изменить значение и стиль ячейки и применить пользовательский цвет шрифта. Следуя этим шагам, вы можете программирующе контролировать форматирование ячейки в файлах Excel с использованием C#. Это особенно полезно для генерации отчетов, выделения важных данных и повышения читаемости таблицы.  
  
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-color" >}}

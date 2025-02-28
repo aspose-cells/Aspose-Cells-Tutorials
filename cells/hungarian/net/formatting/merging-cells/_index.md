@@ -10,9 +10,9 @@ url: /hu/net/formatting/merging-cells/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A .NET-hez használt Aspose.Cells segítségével egyesíteni a sejteket Excel-ben
+# A .NET-hez használt Aspose.Cells segítségével egyesíteni a sejteket Excel- ben
   
-Aspose.Cells for .NET is a powerful library for working with Excel files programmatically. In this tutorial, you'll learn how to merge cells in an Excel worksheet using C#. We start by creating a new workbook, accessing a worksheet, and merging specific cells to format the document efficiently. This step-by-step guide will help you streamline your spreadsheet manipulation using Aspose.Cells for .NET.  
+Az Excel-fájlokat programosan kezelő erőteljes könyvtár a .NET-hez. Ebben a tanárakban megtanuljuk, hogyan egyesítsük az Excel-munkalapban lévő sejteket C# segítségével. Először egy új munkahelyet készítünk, hozzáférünk egy munkalaphoz, és egyesített sejteket egyesítünk, hogy hatékonyan formátáljuk a dokumentumot. Ez a lépésről lépésre szóló útmutató segít a számítási lap manipulációjának egyszerűsítésében a .NET-hez Aspose.Cells segítségével.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/merging-cells" >}}
@@ -37,7 +37,7 @@ A .NET-hez használt Aspose.Cells projekthez kövesse ezeket a lépéseket:
    * Kattintson OK-ra, hogy hozzáadja a hivatkozást.  
 
 4. Kezdje használni az Aspose.Cells  
-   Add the following namespace at the beginning of your C# file:  
+   Adja be a következő névterületet a C# fájl elején:  
    ```csharp
    using Aspose.Cells;
    ```

@@ -12,7 +12,7 @@ url: /zh/net/pivot-tables/create-pivot-table/
 
 # 在Excel中创建一个旋转表,使用Aspose.Cells
 
-Creating Pivot Tables in Excel programmatically has never been easier! With Aspose.Cells for .NET, you can generate an Excel workbook, add structured data, and create a Pivot Table for dynamic data analysis. This tutorial walks you through initializing a workbook, populating data, inserting a Pivot Table, and configuring its structure—all in C#. Whether you're automating reports or analyzing sales data, this example will help you streamline the process efficiently.  
+编程上创建Excel中转向表从来没有那么容易!为 .NET使用Aspose.Cells可以生成Excel工作簿,添加结构数据,并创建动态数据分析的转向表.本教程将您通过初始化工作簿,填充数据,插入转向表,并配置其结构所有在C#中.无论您是自动化报告还是分析销售数据,这篇例子将帮助您有效地简化过程.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/create-pivot-table" >}}

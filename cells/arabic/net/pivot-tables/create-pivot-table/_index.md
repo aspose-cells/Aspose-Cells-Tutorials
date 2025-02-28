@@ -12,7 +12,7 @@ url: /ar/net/pivot-tables/create-pivot-table/
 
 # إعداد جدول محرك في Excel باستخدام Aspose.Cells
 
-Creating Pivot Tables in Excel programmatically has never been easier! With Aspose.Cells for .NET, you can generate an Excel workbook, add structured data, and create a Pivot Table for dynamic data analysis. This tutorial walks you through initializing a workbook, populating data, inserting a Pivot Table, and configuring its structure—all in C#. Whether you're automating reports or analyzing sales data, this example will help you streamline the process efficiently.  
+إنشاء الجداول المحورية في Excel برنامجيا لم يكن من الأسهل من قبل! مع Aspose.Cells ل .NET ، يمكنك إنشاء دفتر عمل Excel ، وإضافة بيانات مهيكلة ، وإنشاء جدول محور لتحليل البيانات الديناميكية. يمركزك هذا التعليم عبر إطلاق دفتر عمل ، وتعبئة البيانات ، وإدخال جدول محور ، وتكوين هيكلهكل في C #. سواء كنت تتلقّم التقارير أو تحليل بيانات المبيعات ، سيساعدك هذا المثال على تبسيط العملية بكفاءة.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/create-pivot-table" >}}

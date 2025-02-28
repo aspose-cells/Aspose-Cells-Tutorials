@@ -11,7 +11,7 @@ url: /th/net/charts/change-chart-size-and-position/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเปลี่ยนขนาดและการตั้งตําแหน่งใน Excel โดยใช้ Aspose.Cells 
-Aspose.Cells for .NET provides a powerful API for working with Excel files programmatically. This example demonstrates how to resize and reposition a chart in an Excel workbook using Aspose.Cells. Whether you need to adjust chart dimensions or move it to a specific position, this tutorial walks you through the process with easy-to-follow C# code. By leveraging Aspose.Cells, you can manipulate Excel charts seamlessly, ensuring your reports and visual data presentations are precisely formatted.  
+Aspose.Cells สําหรับ .NET ให้บริการ API ที่มีพลังในการทํางานกับไฟล์ Excel โดยวิธีโปรแกรม. ตัวอย่างนี้แสดงให้เห็นวิธีการเปลี่ยนขนาดและตั้งตําแหน่งแผนที่ในหนังสือทํางาน Excel โดยใช้ Aspose.Cells ไม่ว่าคุณต้องการปรับขนาดแผนที่หรือย้ายมันไปยังตําแหน่งที่เฉพาะเจาะจง, คู่มือนี้นําคุณผ่านกระบวนการด้วยรหัส C# ที่ง่ายที่จะติดตาม. โดยการใช้ Aspose.Cells, คุณสามารถควบคุมแผนที่ Excel ได้อย่างเรียบร้อย, การ đảm bảoรายงานของคุณและการนําเสนอข้อมูลภาพของคุณถูกรูปแบบอย่างแม่นยํา.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/change-chart-size-and-position" >}}
@@ -23,10 +23,10 @@ Aspose.Cells for .NET provides a powerful API for working with Excel files progr
 เพื่อใช้ Aspose.Cells สําหรับ .NET ติดตามขั้นตอนนี้  
 
 1. โกตั้งผ่าน NuGet Package Manager  
-- เปิด Visual Studio  
-- ขับมือไปยัง Tools → NuGet Package Manager → 管理 NuGet Packages for Solution  
-- ค้นหา Aspose.Cells  
-- คลิกติดตั้งเพื่อเพิ่มแพ็คเกจให้กับโครงการของคุณ  
+* เปิด Visual Studio  
+* ขับมือไปยัง Tools → NuGet Package Manager → 管理 NuGet Packages for Solution  
+* ค้นหา Aspose.Cells  
+* คลิกติดตั้งเพื่อเพิ่มแพ็คเกจให้กับโครงการของคุณ  
 
 แทนอื่น, โกตั้งมันโดยใช้ NuGet Package Manager Console:  
 
@@ -34,7 +34,7 @@ Aspose.Cells for .NET provides a powerful API for working with Excel files progr
 Install-Package Aspose.Cells
 ```
 
-2. Add Namespace in Your C# Code  
+2. เพิ่ม namespace ใน C# Code ของคุณ  
 ```csharp
 using Aspose.Cells;
 ```

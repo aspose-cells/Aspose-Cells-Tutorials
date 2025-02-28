@@ -11,7 +11,7 @@ url: /ko/net/charts/change-chart-size-and-position/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells을 사용하여 Excel에서 크기를 변경하고 위치를 변경합니다. 
-Aspose.Cells for .NET provides a powerful API for working with Excel files programmatically. This example demonstrates how to resize and reposition a chart in an Excel workbook using Aspose.Cells. Whether you need to adjust chart dimensions or move it to a specific position, this tutorial walks you through the process with easy-to-follow C# code. By leveraging Aspose.Cells, you can manipulate Excel charts seamlessly, ensuring your reports and visual data presentations are precisely formatted.  
+.NET용 Aspose.Cells는 Excel 파일과 프로그래밍적으로 작업할 수 있는 강력한 API를 제공합니다. 이 예는 Aspose.Cells을 사용하여 Excel 작업 책에서 차트를 크기를 변경하고 재 배치하는 방법을 보여줍니다. 차트 크기를 조정하거나 특정 위치에 이동해야 할 경우도, 이 튜토리얼은 C# 코드를 쉽게 따라하는 과정을 안내합니다. Aspose.Cells를 활용하여 Excel 차트를 원활하게 조작하여 보고서와 시각 데이터 프레젠테이션이 정확하게 포맷되도록합니다.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/change-chart-size-and-position" >}}
@@ -23,10 +23,10 @@ Aspose.Cells for .NET provides a powerful API for working with Excel files progr
 .NET에서 Aspose.Cells를 사용하려면 다음 단계를 수행하십시오.  
 
 1. NuGet 패키지 관리자 를 통해 설치  
-- 비주얼 스튜디오를 열고  
-- 도구 → NuGet 패키지 관리자 → 솔루션에 대한 NuGet 패키지를 관리하는 데 이동하십시오.  
-- Aspose.Cells를 검색해 보세요.  
-- 프로젝트에 패키지를 추가하려면 설치를 클릭하십시오.  
+* 비주얼 스튜디오를 열고  
+* 도구 → NuGet 패키지 관리자 → 솔루션에 대한 NuGet 패키지를 관리하는 데 이동하십시오.  
+* Aspose.Cells를 검색해 보세요.  
+* 프로젝트에 패키지를 추가하려면 설치를 클릭하십시오.  
 
 이 경우 NuGet 패키지 관리자 콘솔을 사용하여 설치하십시오.  
 
@@ -34,7 +34,7 @@ Aspose.Cells for .NET provides a powerful API for working with Excel files progr
 Install-Package Aspose.Cells
 ```
 
-2. Add Namespace in Your C# Code  
+2. C# 코드에 네임스페이스 추가  
 ```csharp
 using Aspose.Cells;
 ```

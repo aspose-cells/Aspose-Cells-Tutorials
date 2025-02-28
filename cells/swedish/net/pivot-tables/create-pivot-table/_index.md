@@ -12,7 +12,7 @@ url: /sv/net/pivot-tables/create-pivot-table/
 
 # Skapa en pivottabell i Excel med hjälp av Aspose.Cells
 
-Creating Pivot Tables in Excel programmatically has never been easier! With Aspose.Cells for .NET, you can generate an Excel workbook, add structured data, and create a Pivot Table for dynamic data analysis. This tutorial walks you through initializing a workbook, populating data, inserting a Pivot Table, and configuring its structure—all in C#. Whether you're automating reports or analyzing sales data, this example will help you streamline the process efficiently.  
+Att skapa pivottabeller i Excel programmatiskt har aldrig varit enklare! Med Aspose.Cells för .NET kan du generera en Excel-arbetsbok, lägga till strukturerade data och skapa en pivottabell för dynamisk dataanalys. Denna handledning går igenom att initialisera en arbetsbok, fylla in data, införa en pivottabell och konfigurera dess strukturall i C#. Oavsett om du automatiserar rapporter eller analyserar försäljningsdata, hjälper detta exempel dig att effektivisera processen.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/create-pivot-table" >}}

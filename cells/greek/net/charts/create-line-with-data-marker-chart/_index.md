@@ -12,7 +12,7 @@ url: /el/net/charts/create-line-with-data-marker-chart/
 
 # Δημιουργήστε ένα διάγραμμα γραμμών με τα σημάδια δεδομένων στο Aspose.Cells
 
-This tutorial demonstrates how to create a line chart with data markers in an Excel workbook using Aspose.Cells for .NET. You'll learn how to generate random data, insert it into a worksheet, and configure a visually appealing chart with customizable styles. The guide covers everything from setting up your workbook to saving the final file. Whether you're automating Excel reports or enhancing data visualization, this step-by-step example will help you implement line charts effortlessly using C#.  
+Αυτό το εγχειρίδιο δείχνει πώς να δημιουργήσετε ένα διάγραμμα γραμμών με σημεία δεδομένων σε ένα βιβλίο εργασίας Excel χρησιμοποιώντας το Aspose.Cells για .NET. Θα μάθετε πώς να δημιουργείτε τυχαία δεδομένα, να το εισάγετε σε ένα φύλλο εργασίας και να ρυθμίσετε ένα οπτικά ελκυστικό διάγραμμα με προσαρμόσιμα στυλ. Το οδηγό καλύπτει τα πάντα από την εγκατάσταση του βιβλίου εργασίας σας μέχρι τη διατήρηση του τελικού αρχείου. Είτε αυτόματοποιείτε εκθέσεις Excel ή βελτιώνετε την οπτική δεδομένων, αυτό το βήμα-πό-βήμα παράδειγμα θα σας βοηθήσει να εφαρμόσετε χωρίς προσπάθεια διαγράμματα γραμμών χρησιμοποιώντας το C #.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
@@ -36,7 +36,7 @@ This tutorial demonstrates how to create a line chart with data markers in an Ex
    Αν έχετε κατεβάσει το DLL χειροκίνητα, προσθέστε μια αναφορά σε `"Αποθέστε. Κελί".`στο έργο .NET σας.
 
 4. Συμπεριλάβετε το χώρο ονομάτων:  
-   In your C# file, add:  
+   Στο αρχείο C# σας, προσθέστε:  
    ```csharp
    using Aspose.Cells;
    using System;
@@ -44,7 +44,7 @@ This tutorial demonstrates how to create a line chart with data markers in an Ex
    ```
 
 5. Δοκιμάστε το παράδειγμα:  
-   Copy and paste the provided C# code into your project, update the output directory, and execute the script to generate an Excel file with a line chart.
+   Αντικατάστε και επικολλήσετε τον προδιατεθέντα κώδικα C# στο έργο σας, ενημερώστε το κατάλογο εξόδου και εκτελέστε το σενάριο για να δημιουργήσετε ένα αρχείο Excel με διάγραμμα γραμμών.
 
 ## Δείτε επίσης
 Για δωρεάν δοκιμή, επισκεφθείτε [Προσθέστε Ελεύθερη Αποκάλυψη](https://releases.aspose.com/)\- Δεν ξέρω .  

@@ -12,7 +12,7 @@ url: /el/net/pivot-tables/create-pivot-table/
 
 # Δημιουργήστε ένα περιστροφικό πίνακα στο Excel Χρησιμοποιώντας Aspose.Cells
 
-Creating Pivot Tables in Excel programmatically has never been easier! With Aspose.Cells for .NET, you can generate an Excel workbook, add structured data, and create a Pivot Table for dynamic data analysis. This tutorial walks you through initializing a workbook, populating data, inserting a Pivot Table, and configuring its structure—all in C#. Whether you're automating reports or analyzing sales data, this example will help you streamline the process efficiently.  
+Η δημιουργία pivot tables στο Excel προγραμματικά δεν ήταν ποτέ πιο εύκολη! Με το Aspose.Cells για το .NET, μπορείτε να δημιουργήσετε ένα εργατικό βιβλίο Excel, να προσθέσετε δομημένα δεδομένα και να δημιουργήσετε ένα pivot table για δυναμική ανάλυση δεδομένων. Αυτό το tutorial σας οδηγεί στη δημιουργία ενός εργατικού βιβλίου, την πληρότητα δεδομένων, την εισαγωγή ενός pivot table, και τη ρυθμίση της δομής τουόλα σε C#. Είτε αυτόματοποιείτε αναφορές ή αναλύετε δεδομένα πωλήσεων, αυτό το παράδειγμα θα σας βοηθήσει να εξορθολογήσετε την διαδικασία αποτελεσματικά.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/create-pivot-table" >}}

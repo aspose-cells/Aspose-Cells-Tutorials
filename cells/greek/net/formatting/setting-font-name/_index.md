@@ -12,7 +12,7 @@ url: /el/net/formatting/setting-font-name/
 
 # Ορισμός ονόματος γραμματοσειράς στο Excel χρησιμοποιώντας Aspose.Cells
 
-Setting the font name in an Excel file is essential for maintaining a professional and consistent document format. With Aspose.Cells for .NET, you can easily create an Excel workbook, add a worksheet, and modify cell styles. This tutorial walks you through the process of setting a custom font name for a specific cell in C#. Follow the step-by-step guide and enhance your Excel document formatting with ease.  
+Η ρύθμιση του ονόματος γραμματοσειράς σε ένα αρχείο Excel είναι απαραίτητη για τη διατήρηση μιας επαγγελματικής και συνεπής μορφής εγγράφου. Με το Aspose.Cells για το .NET, μπορείτε εύκολα να δημιουργήσετε ένα βιβλίο εργασίας Excel, να προσθέσετε ένα φύλλο εργασίας και να τροποποιήσετε τους στυλ κελίδων. Αυτό το εγχειρίδιο σας οδηγεί στη διαδικασία της ρύθμισης ενός προσαρμοσμένου ονόματος γραμματοσειράς για ένα συγκεκριμένο κελί σε C#. Ακολουθήστε την καθοδήγηση βήματος-βήμα και βελτιώστε με ευκολία τη διαμόρφωση του εγγράφου Excel σας.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-name" >}}

@@ -12,7 +12,7 @@ url: /cs/net/formatting/setting-font-size/
   
 # Nastavte velikost písma v programu Excel pomocí Aspose.Cells
 
-Setting font size in an Excel file is crucial for enhancing readability and emphasizing key data points. With Aspose.Cells for .NET, you can easily modify the font size of any cell programmatically. This tutorial demonstrates how to create a new Excel workbook, add a worksheet, populate a cell with text, change its font size, and save the file in Excel format. By following this step-by-step guide, you’ll master the process of customizing text appearance in Excel files using C#.  
+Nastavení velikosti písma v souboru Excel je zásadní pro zlepšení čitelnosti a zdůrazňování klíčových datových bodů. Pomocí Aspose.Cells pro .NET můžete snadno programaticky upravit velikost písma jakékoli buňky. Tento výukový návod ukazuje, jak vytvořit nový pracovní knižku Excel, přidat pracovní list, vyplnit buňku textem, změnit velikost písma a uložit soubor v formátu Excel.  
 
 ---
 

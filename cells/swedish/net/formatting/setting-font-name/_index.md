@@ -12,7 +12,7 @@ url: /sv/net/formatting/setting-font-name/
 
 # Sätt ett teckensnamn i Excel med hjälp av Aspose.Cells
 
-Setting the font name in an Excel file is essential for maintaining a professional and consistent document format. With Aspose.Cells for .NET, you can easily create an Excel workbook, add a worksheet, and modify cell styles. This tutorial walks you through the process of setting a custom font name for a specific cell in C#. Follow the step-by-step guide and enhance your Excel document formatting with ease.  
+Att sätta ett teckensnamn i en Excel-fil är viktigt för att upprätthålla ett professionellt och konsekvent dokumentformat. Med Aspose.Cells för .NET kan du enkelt skapa en Excel-arbetsbok, lägga till ett arbetsblad och ändra cellstilar. Denna handledning går dig igenom processen med att ställa in ett anpassat teckensnamn för en viss cell i C#. Följ stegvis guiden och förbättra din Excel-dokumentformatting med lätthet.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-name" >}}

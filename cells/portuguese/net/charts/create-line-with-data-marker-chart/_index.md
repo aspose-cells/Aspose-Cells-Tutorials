@@ -12,7 +12,7 @@ url: /pt/net/charts/create-line-with-data-marker-chart/
 
 # Criar um gráfico de linhas com marcadores de dados em Aspose.Cells
 
-This tutorial demonstrates how to create a line chart with data markers in an Excel workbook using Aspose.Cells for .NET. You'll learn how to generate random data, insert it into a worksheet, and configure a visually appealing chart with customizable styles. The guide covers everything from setting up your workbook to saving the final file. Whether you're automating Excel reports or enhancing data visualization, this step-by-step example will help you implement line charts effortlessly using C#.  
+Este tutorial demonstra como criar um gráfico de linhas com marcadores de dados em um livro de trabalho do Excel usando Aspose.Cells para .NET. Você aprenderá como gerar dados aleatórios, inserí-los em uma folha de trabalho e configurar um gráfico visualmente atraente com estilos personalizáveis. O guia abrange tudo, desde a configuração do seu livro de trabalho até salvar o arquivo final. Se você está automatizando relatórios do Excel ou melhorando a visualização de dados, este exemplo passo a passo irá ajudá-lo a implementar gráficos de linhas sem esforço usando C #.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
@@ -36,7 +36,7 @@ Para usar Aspose.Cells para .NET no seu projeto, siga estes passos:
    Se você baixou o DLL manualmente, adicione uma referência para `Aspose.Cells.`no seu projeto .NET.
 
 4. Incluir espaço de nomes:  
-   In your C# file, add:  
+   No seu arquivo C#, adicione:  
    ```csharp
    using Aspose.Cells;
    using System;
@@ -44,7 +44,7 @@ Para usar Aspose.Cells para .NET no seu projeto, siga estes passos:
    ```
 
 5. Exercer o Exemplo:  
-   Copy and paste the provided C# code into your project, update the output directory, and execute the script to generate an Excel file with a line chart.
+   Copiar e colar o código C# fornecido no seu projeto, atualizar o diretório de saída e executar o script para gerar um arquivo Excel com um gráfico de linhas.
 
 ## Veja também
 Para uma prova gratuita, visite [Aplique um julgamento livre](https://releases.aspose.com/)\- Não .  

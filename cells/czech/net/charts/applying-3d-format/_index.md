@@ -12,7 +12,7 @@ url: /cs/net/charts/applying-3d-format/
 
 # Vytvořte a formátujte 3D grafy v programu Excel pomocí Aspose.Cells 
 
-Aspose.Cells for .NET is a powerful library that allows developers to create, manipulate, and format Excel files programmatically. This example demonstrates how to create a new Excel workbook, insert data into a worksheet, add a chart, and apply 3D formatting to the chart series. By following this guide, you will learn how to set up category data, configure chart properties, and enhance visualization with 3D effects using C#.  
+Aspose.Cells pro .NET je výkonná knihovna, která umožňuje vývojářům programaticky vytvářet, manipulovat a formátovat soubory Excel. Tento příklad ukazuje, jak vytvořit nový pracovní knižek Excel, vložit data do pracovního listu, přidat graf a aplikovat formátování 3D do série grafů.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/applying-3d-format" >}}
@@ -36,7 +36,7 @@ Chcete-li použít Aspose.Cells pro .NET, postupujte podle těchto kroků:
      [Snímek Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/)  
 
 3. Přidejte odkaz do svého projektu:  
-   - After installation, include the following namespace in your C# code:  
+   * Po instalaci zahrněte do svého kódu C# následující názevové místo:  
      ```csharp
      using Aspose.Cells;
      using Aspose.Cells.Charts;

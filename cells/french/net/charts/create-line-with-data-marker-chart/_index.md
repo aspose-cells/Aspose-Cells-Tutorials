@@ -12,7 +12,7 @@ url: /fr/net/charts/create-line-with-data-marker-chart/
 
 # Créer un graphique de lignes avec des marqueurs de données dans Aspose.Cells
 
-This tutorial demonstrates how to create a line chart with data markers in an Excel workbook using Aspose.Cells for .NET. You'll learn how to generate random data, insert it into a worksheet, and configure a visually appealing chart with customizable styles. The guide covers everything from setting up your workbook to saving the final file. Whether you're automating Excel reports or enhancing data visualization, this step-by-step example will help you implement line charts effortlessly using C#.  
+Ce tutoriel montre comment créer un graphique de lignes avec des marqueurs de données dans un carnet Excel en utilisant Aspose.Cells pour .NET. Vous apprendrez à générer des données aléatoires, à les insérer dans une feuille de calcul et à configurer un graphique visuellement attrayant avec des styles personnalisables. Le guide couvre tout, de la configuration de votre carnet de travail à la sauvegarde du fichier final. Que vous automatisiez les rapports Excel ou amélioriez la visualisation des données, cet exemple étape par étape vous aidera à mettre en œuvre des graphiques de lignes sans effort en utilisant C #.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
@@ -36,7 +36,7 @@ Pour utiliser Aspose.Cells pour .NET dans votre projet, suivez ces étapes:
    Si vous avez téléchargé le DLL manuellement, ajoutez une référence à `Aspose.Cells.`dans votre projet .NET.
 
 4. Inclure l' espace de noms:  
-   In your C# file, add:  
+   Dans votre fichier C#, ajoutez:  
    ```csharp
    using Aspose.Cells;
    using System;
@@ -44,7 +44,7 @@ Pour utiliser Aspose.Cells pour .NET dans votre projet, suivez ces étapes:
    ```
 
 5. Exécutez l' Exemple:  
-   Copy and paste the provided C# code into your project, update the output directory, and execute the script to generate an Excel file with a line chart.
+   Copiez et collez le code C# fourni dans votre projet, mettez à jour le répertoire de sortie et exécutez le script pour générer un fichier Excel avec un graphique de lignes.
 
 ## Voir aussi
 Pour un essai gratuit, visitez [Faites une épreuve gratuite](https://releases.aspose.com/)\- Je suis désolé .  

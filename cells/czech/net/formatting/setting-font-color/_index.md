@@ -12,7 +12,7 @@ url: /cs/net/formatting/setting-font-color/
 
 ## Nastavte barvu písma v buňkách programu Excel pomocí položky Aspose.Cells
   
-This tutorial demonstrates how to set the font color in an Excel cell using Aspose.Cells for .NET. You'll learn how to create an Excel workbook, add a worksheet, modify a cell’s value and style, and apply a custom font color. By following these steps, you can programmatically control cell formatting in Excel files using C#. This is especially useful for generating reports, highlighting important data, and enhancing spreadsheet readability.  
+Tento tutoriál ukazuje, jak nastavit barvu písma v buňce Excel pomocí Aspose.Cells pro .NET. Naučíte se vytvářet Excel pracovní knižku, přidat pracovní list, upravit hodnotu a styl buňky a aplikovat vlastní barvu písma.  
  
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-color" >}}

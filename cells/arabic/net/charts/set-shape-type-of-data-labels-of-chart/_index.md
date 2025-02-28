@@ -11,7 +11,7 @@ url: /ar/net/charts/set-shape-type-of-data-labels-of-chart/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تعديل شكل علامة بيانات الرسم البياني في Excel باستخدام Aspose.Cells
-In this tutorial, we will explore how to modify the shape type of data labels in an Excel chart using Aspose.Cells for .NET. Data labels in charts help provide better visualization, and changing their shape can improve readability. This example demonstrates how to access an existing Excel chart, retrieve the series data labels, and change their shape type to a Speech Bubble Oval (Wedge Ellipse Callout). With a few lines of C# code, you can enhance the visual appeal of your Excel charts efficiently.  
+في هذه الدروسية، سنستكشف كيفية تعديل نوع الشكل من علامات البيانات في مخطط إكسيل باستخدام Aspose.Cells ل .NET. علامات البيانات في الرسومات تساعد على توفير رؤية أفضل، وتغيير شكلها يمكن أن يحسن القراءة. هذا المثال يوضح كيفية الوصول إلى مخطط إكسيل موجود، استرداد علامات البيانات المتسلسلة، وتغيير نوع الشكل إلى فقاعة خطاب أوفال (Wedge Ellipse Callout). مع بضعة خطوط من رمز C #، يمكنك تعزيز الجاذبة البصرية من مخطط إكسيل بكفاءة.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/set-shape-type-of-data-labels-of-chart" >}}

@@ -12,7 +12,7 @@ url: /fr/net/formatting/setting-font-name/
 
 # Sélectionner le nom de police dans Excel en utilisant Aspose.Cells
 
-Setting the font name in an Excel file is essential for maintaining a professional and consistent document format. With Aspose.Cells for .NET, you can easily create an Excel workbook, add a worksheet, and modify cell styles. This tutorial walks you through the process of setting a custom font name for a specific cell in C#. Follow the step-by-step guide and enhance your Excel document formatting with ease.  
+La définition du nom de police dans un fichier Excel est essentielle pour maintenir un format de document professionnel et cohérent. Avec Aspose.Cells pour .NET, vous pouvez facilement créer un carnet de travail Excel, ajouter une feuille de calcul et modifier les styles de cellules. Ce tutoriel vous guide dans le processus de définition d'un nom de police personnalisé pour une cellule spécifique en C #. Suivez le guide étape par étape et améliorez facilement la mise en forme de votre document Excel.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-name" >}}

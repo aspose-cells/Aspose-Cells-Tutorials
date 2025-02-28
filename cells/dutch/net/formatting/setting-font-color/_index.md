@@ -12,7 +12,7 @@ url: /nl/net/formatting/setting-font-color/
 
 ## Stel letterkleur in Excel-cellen op met behulp van Aspose.Cells
   
-This tutorial demonstrates how to set the font color in an Excel cell using Aspose.Cells for .NET. You'll learn how to create an Excel workbook, add a worksheet, modify a cell’s value and style, and apply a custom font color. By following these steps, you can programmatically control cell formatting in Excel files using C#. This is especially useful for generating reports, highlighting important data, and enhancing spreadsheet readability.  
+Deze handleiding toont hoe je de letterkleur in een Excel-cel kunt instellen met behulp van Aspose.Cells voor .NET. Je leert hoe je een Excel-werkboek kunt maken, een werkblad kunt toevoegen, een cel s waarde en stijl kunt wijzigen en een aangepaste letterkleur kunt toepassen. Door deze stappen te volgen, kun je de vormgeving van cellen in Excel-bestanden met behulp van C# programmerend controleren. Dit is vooral handig voor het genereren van rapporten, het benadrukken van belangrijke gegevens en het verbeteren van de leesbaarheid van spreadsheets.  
  
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-color" >}}

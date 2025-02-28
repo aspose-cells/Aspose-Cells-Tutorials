@@ -11,7 +11,7 @@ url: /nl/net/charts/change-chart-size-and-position/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vergroot en plaatsen van de grafiek in Excel met behulp van Aspose.Cells 
-Aspose.Cells for .NET provides a powerful API for working with Excel files programmatically. This example demonstrates how to resize and reposition a chart in an Excel workbook using Aspose.Cells. Whether you need to adjust chart dimensions or move it to a specific position, this tutorial walks you through the process with easy-to-follow C# code. By leveraging Aspose.Cells, you can manipulate Excel charts seamlessly, ensuring your reports and visual data presentations are precisely formatted.  
+Aspose.Cells voor .NET biedt een krachtige API voor het programmeren van Excel-bestanden. Dit voorbeeld toont aan hoe u een grafiek in een Excel- werkboek kunt vergroten en opnieuw plaatsen met behulp van Aspose.Cells. Of u de grafiekdimensies moet aanpassen of naar een specifieke positie moet verplaatsen, deze handleiding leidt u door het proces met een eenvoudige C#-code. Door gebruik te maken van Aspose.Cells, kunt u Excel-grafieken naadloos manipuleren, zodat uw rapporten en visuele datapresentaties nauwkeurig worden geformateerd.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/change-chart-size-and-position" >}}
@@ -23,10 +23,10 @@ Aspose.Cells for .NET provides a powerful API for working with Excel files progr
 Om Aspose.Cells te gebruiken voor .NET, volg deze stappen:  
 
 1. Installeer via NuGet Package Manager  
-- Open Visual Studio.  
-- Ga naar Tools → NuGet Package Manager → NuGet Packages voor Solution beheren.  
-- Zoek naar Aspose.Cells.  
-- Klik op Installeer om het pakket toe te voegen aan uw project.  
+* Open Visual Studio.  
+* Ga naar Tools → NuGet Package Manager → NuGet Packages voor Solution beheren.  
+* Zoek naar Aspose.Cells.  
+* Klik op Installeer om het pakket toe te voegen aan uw project.  
 
 Installeer het ook met de NuGet Package Manager Console:  
 
@@ -34,7 +34,7 @@ Installeer het ook met de NuGet Package Manager Console:
 Install-Package Aspose.Cells
 ```
 
-2. Add Namespace in Your C# Code  
+2. Voeg naamruimte toe in uw C#-code  
 ```csharp
 using Aspose.Cells;
 ```

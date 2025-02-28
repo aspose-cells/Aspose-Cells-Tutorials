@@ -12,7 +12,7 @@ url: /de/net/formatting/adding-borders-to-range/
 
 # Grenzen zu einem Bereich in Excel mit Aspose.Cells hinzufügen
   
-Aspose.Cells for .NET is a powerful library that enables developers to create, manipulate, and format Excel files programmatically. In this example, we demonstrate how to add borders to a specific range of cells within an Excel workbook using C#. You will learn how to create a workbook, access a worksheet, define a range, and apply thick borders in different directions. This tutorial provides a practical approach to Excel formatting, making it easy to enhance the visual structure of your spreadsheets.  
+Aspose.Cells für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, Excel-Dateien programmatisch zu erstellen, zu manipulieren und zu formatieren. In diesem Beispiel zeigen wir, wie man mit C# Grenzen zu einem bestimmten Bereich von Zellen innerhalb eines Excel-Arbeitsbüchens hinzufügt. Sie lernen, wie man ein Arbeitsbuch erstellt, auf ein Arbeitsblatt zugreift, ein Bereich definiert und dichte Grenzen in verschiedene Richtungen anwenden kann. Dieses Tutorial bietet einen praktischen Ansatz zur Formatierung von Excel, wodurch es einfach ist, die visuelle Struktur Ihrer Tabellen zu verbessern.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/adding-borders-to-range" >}}

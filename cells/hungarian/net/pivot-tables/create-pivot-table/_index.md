@@ -12,7 +12,7 @@ url: /hu/net/pivot-tables/create-pivot-table/
 
 # Készíts egy forgó táblázatot az Excelben Aspose.Cells segítségével
 
-Creating Pivot Tables in Excel programmatically has never been easier! With Aspose.Cells for .NET, you can generate an Excel workbook, add structured data, and create a Pivot Table for dynamic data analysis. This tutorial walks you through initializing a workbook, populating data, inserting a Pivot Table, and configuring its structure—all in C#. Whether you're automating reports or analyzing sales data, this example will help you streamline the process efficiently.  
+A programmatizálva az Excel-ben mozgatott táblázatok létrehozása soha nem volt egyszerűbb! Az Aspose.Cells alkalmazásával az Excel munkalapot generálhatja, strukturált adatokat hozzáadhat, és mozgatott táblázatot készíthet dinamikus adatelemzéshez. Ez a tanármutató átvezet egy munkalap kezdeményezésével, adatkiöltésével, mozgatott táblázat behelyezésével és a szerkezetének C#-ban történő konfigurálásával. Függetlenül attól, hogy automatikus jelentéseket vagy értékesítési adatokat elemzi, ez a példa segít hatékonyan egyszerűsíteni a folyamatot.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/create-pivot-table" >}}

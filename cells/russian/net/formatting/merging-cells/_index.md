@@ -12,7 +12,7 @@ url: /ru/net/formatting/merging-cells/
 
 # Слияние ячеек в Excel с использованием Aspose.Cells для .NET
   
-Aspose.Cells for .NET is a powerful library for working with Excel files programmatically. In this tutorial, you'll learn how to merge cells in an Excel worksheet using C#. We start by creating a new workbook, accessing a worksheet, and merging specific cells to format the document efficiently. This step-by-step guide will help you streamline your spreadsheet manipulation using Aspose.Cells for .NET.  
+Aspose.Cells для .NET - мощная библиотека для программирования файлов Excel. В этом учебном пособии вы узнаете, как объединять клетки в рабочем листе Excel с помощью C#. Мы начинаем с создания новой рабочей книги, доступа к рабочему листу и объединения конкретных клеток для эффективного форматирования документа.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/merging-cells" >}}
@@ -37,7 +37,7 @@ Aspose.Cells for .NET is a powerful library for working with Excel files program
    * Нажмите на OK, чтобы добавить ссылку.  
 
 4. Начните использовать "Аспози.Сел"  
-   Add the following namespace at the beginning of your C# file:  
+   Добавьте следующее пространство имен в начале файла C#:  
    ```csharp
    using Aspose.Cells;
    ```

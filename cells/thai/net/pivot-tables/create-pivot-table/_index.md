@@ -12,7 +12,7 @@ url: /th/net/pivot-tables/create-pivot-table/
 
 # สร้างตารางหมุนใน Excel โดยใช้ Aspose.Cells
 
-Creating Pivot Tables in Excel programmatically has never been easier! With Aspose.Cells for .NET, you can generate an Excel workbook, add structured data, and create a Pivot Table for dynamic data analysis. This tutorial walks you through initializing a workbook, populating data, inserting a Pivot Table, and configuring its structure—all in C#. Whether you're automating reports or analyzing sales data, this example will help you streamline the process efficiently.  
+การสร้างตารางหมุนใน Excel ได้ง่ายกว่าเดิม! ด้วย Aspose.Cells สําหรับ .NET คุณสามารถสร้างตารางงาน Excel, เพิ่มข้อมูลโครงสร้าง และสร้างตารางหมุนเพื่อวิเคราะห์ข้อมูลแบบไดนามิก. คู่มือนี้จะนําคุณผ่านการเริ่มต้นตารางงาน, เติมข้อมูล, ใส่ตารางหมุน, และการตั้งโครงสร้างของมันทั้งหมดใน C #. ไม่ว่าคุณกําลังอัตโนมัติรายงานหรือวิเคราะห์ข้อมูลการขาย, ตัวอย่างนี้จะช่วยให้คุณกระบวนการกระบวนการได้อย่างมีประสิทธิภาพ  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/create-pivot-table" >}}

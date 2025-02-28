@@ -12,7 +12,7 @@ url: /nl/net/charts/create-line-with-data-marker-chart/
 
 # Maak een lijngrafiek met data-marker in Aspose.Cells
 
-This tutorial demonstrates how to create a line chart with data markers in an Excel workbook using Aspose.Cells for .NET. You'll learn how to generate random data, insert it into a worksheet, and configure a visually appealing chart with customizable styles. The guide covers everything from setting up your workbook to saving the final file. Whether you're automating Excel reports or enhancing data visualization, this step-by-step example will help you implement line charts effortlessly using C#.  
+Deze handleiding toont hoe je een lijnkaart met gegevensmarkeringen in een Excel-werkboek kunt maken met behulp van Aspose.Cells voor .NET. Je leert hoe je willekeurige gegevens kunt genereren, in een werkblad kunt plaatsen en een visueel aantrekkelijke grafiek kunt configuren met aanpasbare stijlen. De handleiding omvat alles van het opzetten van je werkboek tot het opslaan van het eindbestand. Of je Excel-rapporten automatisert of de datavisualisatie verbetert, dit stap voor stap voorbeeld zal je helpen lijnkaartjes moeiteloos te implementeren met behulp van C #.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
@@ -36,7 +36,7 @@ Om Aspose.Cells voor .NET in uw project te gebruiken, volg deze stappen:
    Als u de DLL handmatig hebt gedownload, voeg dan een verwijzing toe naar `Aspose.Cells.`In je .NET project.
 
 4. Voeg Namespace in:  
-   In your C# file, add:  
+   Voeg in uw C#-bestand:  
    ```csharp
    using Aspose.Cells;
    using System;
@@ -44,7 +44,7 @@ Om Aspose.Cells voor .NET in uw project te gebruiken, volg deze stappen:
    ```
 
 5. Uitvoeren van het voorbeeld:  
-   Copy and paste the provided C# code into your project, update the output directory, and execute the script to generate an Excel file with a line chart.
+   Kopieer en plak de verstrekte C#-code in je project, update de output directory en voer het script uit om een Excel-bestand met een lijngrafiek te genereren.
 
 ## Zie ook
 Voor een gratis proefverhaal, bezoek [Stel een gratis proef voor](https://releases.aspose.com/)\- Ik heb het niet gedaan .  

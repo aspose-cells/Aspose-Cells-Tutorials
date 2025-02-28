@@ -12,7 +12,7 @@ url: /hu/net/pivot-tables/pivot-table-save-in-ods/
 
 # Takarítsa meg a Pivot Tabelt az ODS-ként az Aspose.Cells .NET-ben 
 
-Aspose.Cells for .NET provides powerful features for spreadsheet automation, including PivotTables. This tutorial walks you through creating a PivotTable in a workbook, adding data, configuring PivotTable settings, and saving it as an ODS file. With a simple C# implementation, you’ll be able to generate dynamic reports effortlessly. Whether you are processing financial data, sales reports, or any tabular information, this guide ensures seamless PivotTable creation and export in ODS format.  
+Az Aspose.Cells a .NET-hez erős funkciókat biztosít a táblázatok automatizálására, beleértve a PivotTables-t. Ez a tanármutató átvezet egy PivotTable-t létrehozáson egy munkafüzetben, adat hozzáadáson, a PivotTable beállításainak konfigurálásában és az ODS fájlokként való mentésen. Egy egyszerű C# végrehajtással könnyedén tudnál dinamikus jelentéseket generálni. Függetlenül attól, hogy pénzügyi adatokat, értékesítési jelentéseket vagy bármilyen táblázatos információt dolgozol, ez a útmutató biztosítja a simán alakuló PivotTable-t létrehozást és exportját az ODS formátumban.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/pivot-table-save-in-ods" >}}
@@ -29,7 +29,7 @@ A .NET-hez Aspose.Cells használatával kezdeni, kövesse ezeket a lépéseket:
      ```powershell
      Install-Package Aspose.Cells
      ```
-3. Include the Aspose.Cells namespace in your C# project:  
+3. Be kell foglalni a Aspose.Cells névterületet a C# projektedbe:  
    ```csharp
    using Aspose.Cells;
    ```  

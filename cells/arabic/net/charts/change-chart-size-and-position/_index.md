@@ -11,7 +11,7 @@ url: /ar/net/charts/change-chart-size-and-position/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إعادة الحجم وإعادة وضع الرسم البياني في Excel باستخدام Aspose.Cells 
-Aspose.Cells for .NET provides a powerful API for working with Excel files programmatically. This example demonstrates how to resize and reposition a chart in an Excel workbook using Aspose.Cells. Whether you need to adjust chart dimensions or move it to a specific position, this tutorial walks you through the process with easy-to-follow C# code. By leveraging Aspose.Cells, you can manipulate Excel charts seamlessly, ensuring your reports and visual data presentations are precisely formatted.  
+توفر Aspose.Cells لـ .NET API قوية للعمل مع ملفات Excel بشكل برنامجي. هذا المثال يوضح كيفية تغيير حجم وتعديل وضع الرسم البياني في دفتر عمل Excel باستخدام Aspose.Cells. سواء كنت بحاجة إلى تعديل أبعاد الرسم البياني أو نقلها إلى موقع معين ، فإن هذا التعليم يمرك في العملية مع رمز C # سهل التبعه. باستخدام Aspose.Cells ، يمكنك التعامل مع الرسوم البيانية Excel بسهولة ، مما يضمن تنسيق تقاريرك وعروض البيانات المرئية بدقة.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/change-chart-size-and-position" >}}
@@ -23,10 +23,10 @@ Aspose.Cells for .NET provides a powerful API for working with Excel files progr
 للاستخدام Aspose.Cells ل .NET، اتبع هذه الخطوات:  
 
 1. قم بتثبيتها عبر مدير الحزمات NuGet  
-- افتح استوديو "بيزيوال".  
-- التنقل إلى أدوات → مدير حزم NuGet → إدارة حزم NuGet للحصول على الحل.  
-- بحث عن "أسبوز.خلايا".  
-- انقر فوق "تثبيت" لإضافة الحزمة إلى مشروعك.  
+* افتح استوديو "بيزيوال".  
+* التنقل إلى أدوات → مدير حزم NuGet → إدارة حزم NuGet للحصول على الحل.  
+* بحث عن "أسبوز.خلايا".  
+* انقر فوق "تثبيت" لإضافة الحزمة إلى مشروعك.  
 
 بدلاً من ذلك، قم بتثبيته باستخدام جهاز إدارة الحزم NuGet:  
 
@@ -34,7 +34,7 @@ Aspose.Cells for .NET provides a powerful API for working with Excel files progr
 Install-Package Aspose.Cells
 ```
 
-2. Add Namespace in Your C# Code  
+2. إضافة مساحة الأسماء في رمز C # الخاص بك  
 ```csharp
 using Aspose.Cells;
 ```

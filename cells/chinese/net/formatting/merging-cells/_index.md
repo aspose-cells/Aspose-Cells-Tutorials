@@ -12,7 +12,7 @@ url: /zh/net/formatting/merging-cells/
 
 # 通过 .NET 用Aspose.Cells将细胞结合到Excel中
   
-Aspose.Cells for .NET is a powerful library for working with Excel files programmatically. In this tutorial, you'll learn how to merge cells in an Excel worksheet using C#. We start by creating a new workbook, accessing a worksheet, and merging specific cells to format the document efficiently. This step-by-step guide will help you streamline your spreadsheet manipulation using Aspose.Cells for .NET.  
+对于 .NET 的Aspose.Cells是一个强大的库,可以程序化处理Excel文件. 在本教程中,您将学习如何将 Excel 工作表中的细胞结合起来,使用C#.我们首先创建一个新的工作簿,访问一个工作表,并将特定的细胞结合起来,以有效格式化文档.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/formatting/merging-cells" >}}
@@ -37,7 +37,7 @@ Aspose.Cells for .NET is a powerful library for working with Excel files program
    * 单击OK,添加参考.  
 
 4. 开始使用Aspose.Cells  
-   Add the following namespace at the beginning of your C# file:  
+   在C#文件开始时添加以下名字空间:  
    ```csharp
    using Aspose.Cells;
    ```

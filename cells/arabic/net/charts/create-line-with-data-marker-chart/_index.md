@@ -12,7 +12,7 @@ url: /ar/net/charts/create-line-with-data-marker-chart/
 
 # إعداد الرسم البياني للخط مع علامات البيانات في Aspose.Cells
 
-This tutorial demonstrates how to create a line chart with data markers in an Excel workbook using Aspose.Cells for .NET. You'll learn how to generate random data, insert it into a worksheet, and configure a visually appealing chart with customizable styles. The guide covers everything from setting up your workbook to saving the final file. Whether you're automating Excel reports or enhancing data visualization, this step-by-step example will help you implement line charts effortlessly using C#.  
+تظهر هذه الدروسية كيفية إنشاء مخطط خط مع علامات بيانات في دفتر عمل Excel باستخدام Aspose.Cells ل .NET. ستتعلم كيفية إنتاج بيانات عشوائية وإدخالها في ورقة عمل وتكوين مخطط جذاب بصريًا مع أساليب قابلة للتخصيص. يغطي الدليل كل شيء من إعداد دفتر العمل الخاص بك إلى حفظ الملف النهائي. سواء كنت تقوم بتلقية تقارير Excel أو تعزيز تصور البيانات ، فإن هذا المثال خطوة بخطوة سوف يساعدك على تنفيذ مخطط خط بدون جهد باستخدام C #.  
 
 ---
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
@@ -36,7 +36,7 @@ This tutorial demonstrates how to create a line chart with data markers in an Ex
    إذا قمت بتنزيل DLL يدوياً، أضف إشارة إلى `"تحدثوا. الخلايا".`في مشروعك .NET
 
 4. إدراج مساحة الأسماء:  
-   In your C# file, add:  
+   في ملف C# الخاص بك، أضف:  
    ```csharp
    using Aspose.Cells;
    using System;
@@ -44,7 +44,7 @@ This tutorial demonstrates how to create a line chart with data markers in an Ex
    ```
 
 5. إشغال المثال:  
-   Copy and paste the provided C# code into your project, update the output directory, and execute the script to generate an Excel file with a line chart.
+   نسخ وتلصق الرمز C # المقدم في مشروعك، وتحديث دليل الخروج، وتنفيذ النص لتوليد ملف Excel مع الرسم البياني للخط.
 
 ## انظر أيضاً
 للحصول على تجربة مجانية، زيارة [تَوَجُّبُ الْمُحَاكَمَةَ المُجانيةَ](https://releases.aspose.com/). . .  
