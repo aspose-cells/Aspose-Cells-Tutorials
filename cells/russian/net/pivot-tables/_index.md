@@ -17,7 +17,7 @@ Pivot tables are a powerful feature in Aspose.Cells for .NET, allowing developer
 Используя Aspose.Cells для .NET, вы можете полностью настроить пивовые таблицы, добавляя вычисленные поля, изменяя типы агрегации данных и применяя стили для профессионального внешнего вида. API поддерживает такие продвинутые функции, как группировка данных, динамичное обновление пивовых таблиц и эффективное обращение с несколькими источниками данных. Это позволяет разработчикам автоматизировать генерацию отчетов Excel, гарантируя, что пользователи получают точные, обновленные резюме с минимальным усилием.
 
 {{< tutorial-card link="./create-pivot-table/" title="Создать поворотную таблицу в Excel с помощью Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
-{{< tutorial-card link="./pivot-table-save-in-ods/" title="Сохранить поворотную таблицу в виде ODS в "Аспозиция.Клетка"" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< tutorial-card link="./pivot-table-save-in-ods/" title="Сохранить поворотную таблицу в виде ODS в Аспозиция.Клетка" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

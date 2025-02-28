@@ -58,7 +58,7 @@ Aspose.Cells для .NET Visual Tutorials предоставляет компл�
 Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
 
 {{< tutorial-card link="./pivot-tables/create-pivot-table/" title="Создать поворотную таблицу в Excel с помощью Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
-{{< tutorial-card link="./pivot-tables/pivot-table-save-in-ods/" title="Сохранить поворотную таблицу в виде ODS в "Аспозиция.Клетка"" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< tutorial-card link="./pivot-tables/pivot-table-save-in-ods/" title="Сохранить поворотную таблицу в виде ODS в Аспозиция.Клетка" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
