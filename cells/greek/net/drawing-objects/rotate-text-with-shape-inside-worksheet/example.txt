@@ -1,0 +1,53 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να χειριστείτε το κείμενο μέσα σε ένα σχήμα σε ένα φύλλο εργασίας Excel χρησιμοποιώντας το Aspose.Cells.
+//ExStepSummary:0: Ο ακόλουθος κωδικός ορίζει τον καταλόγο πηγής για το αρχείο Excel.
+//ExStepSummary:1: Ο ακόλουθος κωδικός καθορίζει τον κατάλογο εξόδου για το αρχείο Excel.
+//ExStepSummary:2: Ο ακόλουθος κώδικας φορτώνει ένα δείγμα αρχείου Excel που περιέχει τα δεδομένα.
+//ExStepSummary:3: Ο ακόλουθος κώδικας προσπερνά το πρώτο φύλλο εργασίας του βιβλίου εργασίας.
+//ExStepSummary:4: Ο ακόλουθος κωδικός ενημερώνει την τιμή του κελίου B4 με μήνυμα σχετικά με την περιστροφή κειμένου.
+//ExStepSummary:5: Ο ακόλουθος κώδικας έχει πρόσβαση στο πρώτο σχήμα στο φύλλο εργασίας.
+//ExStepSummary:6: Ο ακόλουθος κώδικας τροποποιεί την ευθυγράμμιση κειμένου του σχήματος για να αποτρέψει την περιστροφή κειμένου.
+//ExStepSummary:7: Ο ακόλουθος κωδικός αποθηκεύει το τροποποιημένο βιβλίο εργασίας στο καθορισμένο κατάλογο εκδόσεων.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Ορίστε το καταλόγιο πηγής όπου βρίσκεται το αρχείο Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Ορίστε το κατάλογο εξόδου για να αποθηκεύσετε το τροποποιημένο αρχείο Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Εφορτώστε το δείγμα αρχείου Excel
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// Πρόσβαση στο πρώτο φύλλο εργασίας στο βιβλίο εργασίας
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Κελίδα πρόσβασης B4 στο φύλλο εργασίας
+Cell b4 = ws.Cells["B4"];
+// Ενημερώστε την κυττάρα B4 με συγκεκριμένο μήνυμα
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// Πρόσβαση στο πρώτο σχήμα στο φύλλο εργασίας
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// Πρόσβαση στην ευθυγράμμιση κειμένου του σχήματος
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// Εγκαταστήστε την ιδιότητα να μην περιστρέφεται το κείμενο με το σχήμα
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// Αποθηκεύστε το τροποποιημένο βιβλίο εργασίας στο κατάλογο εξόδου
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// Εκτυπώστε μήνυμα επιτυχίας
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

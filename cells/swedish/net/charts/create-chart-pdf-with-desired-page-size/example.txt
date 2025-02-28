@@ -1,0 +1,39 @@
+//ExStart
+//ExSummaryDenna kod visar hur man skapar en PDF från ett Excel-diagram med en specifik sidstorlek. Den laddar en Excel-arbetsbok, får tillgång till ett arbetsblad och dess diagram och slutligen genererar en PDF-fil med önskad layout.
+//ExStepSummary:0: Detta steg definierar källkataloget där Excel-filen lagras.
+//ExStepSummary:1: Detta steg definierar den utgångsdirektori där den genererade PDF-filen kommer att sparas.
+//ExStepSummary:2: I detta steg laddas Excel-filen som innehåller diagrammet i ett arbetsbokobjekt.
+//ExStepSummary:3: I detta steg går man till det första arbetsbladet i den laddade arbetsboken.
+//ExStepSummary:4: I detta steg går man till det första diagrammet i arbetsbladet.
+//ExStepSummary:5: Detta steg skapar en PDF-bild av diagrammet med en specifik sidstorlek och justering och sparar den till utgångsdirektoriet.
+//ExStepSummary:6: Detta steg ger ett bekräftelse meddelande som indikerar att skapandet genomförts framgångsrikt.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// Källa katalog som innehåller Excel-filen
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Utgångskatalog där PDF-filen kommer att sparas
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Ladda ut Excel-fil som innehåller diagrammet
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// Tillträde till första arbetsbladet
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Tillträde till första diagrammet i arbetsbladet
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// Skapa diagram PDF med önskad sidstorlek
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// Bekräftelse meddelande
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

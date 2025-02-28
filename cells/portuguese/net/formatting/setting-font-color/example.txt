@@ -1,0 +1,52 @@
+//ExStart
+//ExSummaryEste código demonstra como criar um manual de trabalho do Excel, adicionar uma planilha de trabalho, modificar o valor e o estilo de uma célula e salvar o manual.
+//ExStepSummary:0: O código a seguir inicializa o diretório onde o arquivo Excel está localizado.
+//ExStepSummary:1: O código inicializa o caminho para o diretório de documentos e verifica se ele existe.
+//ExStepSummary:2: O código representa um novo objeto do Workbook.
+//ExStepSummary:3: A folha de trabalho é adicionada ao manual e obtém-se uma referência a ele.
+//ExStepSummary:4: A célula "A1" da folha de cálculo é acessada para modificar o seu valor.
+//ExStepSummary:5: O estilo da célula "A1" é obtido e a cor da fonte é definida para azul.
+//ExStepSummary:6: O estilo modificado é aplicado à célula antes de guardar o manual de trabalho.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// O caminho para o diretório de documentos.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Verifique se o diretório existe.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Se não existe, cria-a.
+if (!IsExists)
+	// Criar um diretório.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instalação de um objeto de Manual de Trabalho.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Adicionando uma nova planilha ao objeto do Excel.
+int i = workbook.Worksheets.Add();
+// Obter uma referência à folha de trabalho recém-adicionada.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Acesse a célula "A1" da folha de cálculo.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Adicionar algum valor à célula "A1".
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Obter o estilo da célula.
+Style style = cell.GetStyle();
+// Colocando a cor da fonte para azul.
+style.Font.Color = Color.Blue;
+// Aplicando o estilo à cela.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Salvar o arquivo do Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

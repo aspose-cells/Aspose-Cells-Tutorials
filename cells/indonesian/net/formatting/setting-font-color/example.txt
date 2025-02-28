@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara membuat buku kerja Excel, menambahkan lembar kerja, memodifikasi nilai dan gaya sel, dan menyimpan buku kerja.
+//ExStepSummary:0: Kode berikut ini menginisialisasi direktori di mana file Excel berada.
+//ExStepSummary:1: Kode ini menginisialisasi jalur untuk direktori dokumen dan memeriksa apakah ada.
+//ExStepSummary:2: Kode ini menunjukan objek Workbook baru.
+//ExStepSummary:3: Daftar kerja baru ditambahkan ke buku kerja, dan referensi untuknya diperoleh.
+//ExStepSummary:4: Sel "A1" dari lembar kerja diakses untuk memodifikasi nilainya.
+//ExStepSummary:5: Gaya sel "A1" diperoleh dan warna font ditetapkan menjadi biru.
+//ExStepSummary:6: Gaya yang dimodifikasi diterapkan pada sel sebelum menyimpan buku kerja.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Jalan menuju direktori dokumen.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Periksa apakah direktori itu ada.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Jika tidak ada, buatlah.
+if (!IsExists)
+	// Buat direktori.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Menampilkan objek Workbook.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Menambahkan lembar kerja baru ke objek Excel.
+int i = workbook.Worksheets.Add();
+// Mendapatkan referensi ke lembar kerja yang baru ditambahkan.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Akses sel "A1" dari lembar kerja.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Menambahkan beberapa nilai ke sel "A1".
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Menentukan gaya sel.
+Style style = cell.GetStyle();
+// Menyeset warna font ke biru.
+style.Font.Color = Color.Blue;
+// Menggunakan gaya ke sel.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Menyimpan file Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

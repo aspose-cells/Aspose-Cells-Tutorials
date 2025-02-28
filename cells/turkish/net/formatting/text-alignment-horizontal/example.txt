@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: Bu kod, bir çalışma defteri oluşturmayı, bir hücreyi değiştirmeyi ve dosyayı belirli bir dizine kaydetmeyi içeren Aspose.Cells kullanarak Excel dosyası oluşturmanın nasıl gösterildiğini gösterir.
+//ExStepSummary:0: Aşağıdaki kod, Excel dosyası bulunduğu dizinin başlangıcını yapar.
+//ExStepSummary:1: Aşağıdaki kod, belge dizininin yolunu belirler ve eğer var değilse onu oluşturur.
+//ExStepSummary:2: Bu adım Excel dosyası için bir Çalışma Kitabı nesnesini initialize eder.
+//ExStepSummary:3: Bu adım, çalışma defterinden ilk çalışma sayfasını çıkarır.
+//ExStepSummary:4: Bu aşamada, çalışma sayfasından "A1" hücresine erişerek bir değer ekliyoruz.
+//ExStepSummary:5: Bu adım "A1" hücresindeki metnin yatay düzeniyi merkezine ayarlar.
+//ExStepSummary:6: Son olarak, kod, çalışma defterini Excel 97-2003 biçimindeki belirtilen dizine kaydeder.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Belgeler dizinine giden yolu tanımlayın.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Dizinin var mı diye kontrol et.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// Dizini oluşturun.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Yeni bir Excel dosyası oluşturmak için bir Çalışma Kitabı nesnesini oluşturun.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// İlk çalışma sayfasına bir referans alın.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Çalışma sayfasından "A1" hücresine eriş.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1" hücresine biraz değer ekleyin.
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Hücreye ait olan tarzını öğren.
+Style style = cell.GetStyle();
+// Yatay düzeni merkezine ayarlayın.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// Güncelleştirilmiş tarzı hücreye uygulayın.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Çalışma defterini Excel 97-2003 biçiminde belirtilen dizine kaydet.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

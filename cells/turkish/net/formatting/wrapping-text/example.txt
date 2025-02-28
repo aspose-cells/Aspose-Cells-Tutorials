@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Bu kod yeni bir Excel çalışma defteri oluşturmanın, çalışma sayfasını eklemenin, hücreyi özelleştirmenin ve çalışma defterini kaydetmenin yollarını gösterir.
+//ExStepSummary:0: Aşağıdaki kod, belgeler dizininin yolunu tanımlar.
+//ExStepSummary:1: Aşağıdaki kod, dizinin var olup olmadığını kontrol eder; yoksa bir dizin oluşturur.
+//ExStepSummary:2: Aşağıdaki kod, Workbook nesnesini simgeledi.
+//ExStepSummary:3: Aşağıdaki kod, çalışma defterinin ilk çalışma sayfasına bir atıfta bulunur.
+//ExStepSummary:4: Aşağıdaki kod, çalışma sayfasındaki "A1" hücresine erişir.
+//ExStepSummary:5: Aşağıdaki kod "A1" hücreye bir değer ekler.
+//ExStepSummary:6: Aşağıdaki kod "A1" hücresindeki metnin yatay düzeni belirler ve metin sarılmasını sağlar.
+//ExStepSummary:7: Aşağıdaki kod Excel çalışma defterini belirtilen dizine kaydeder.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Belge dizinine giden yolu tanımlayın
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Dizin var mı kontrol edin
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Eğer var değilse onu yarat .
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Çalışma Kutusu nesnesini bir anlık oluştur
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// İlk çalışma sayfasına bir referans alın
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Çalışma sayfasından "A1" hücresine eriş
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+
+//ExStep:5-
+// "A1" hücresine biraz değer ekle
+cell.PutValue("Visit Aspose!");
+
+//ExStep:6-
+// Hücreye ait olan şimdiki biçimi alın .
+Style style = cell.GetStyle();
+// Hücre içinde metin sarılmasını etkinleştir
+style.IsTextWrapped = true;
+// Değiştirilmiş biçimi hücreye geri uygulayın
+cell.SetStyle(style);
+
+//ExStep:7-
+// Excel dosyasını belirtilen biçimde kaydet
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

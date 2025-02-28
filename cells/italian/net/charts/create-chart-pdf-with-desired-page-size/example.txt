@@ -1,0 +1,39 @@
+//ExStart
+//ExSummaryQuesto codice mostra come creare un PDF da un grafico Excel con una dimensione di pagina specificata. Carica un libro di lavoro Excel, accede a un foglio di lavoro e alla sua tabella e infine genera un file PDF con il layout desiderato.
+//ExStepSummary:0: Questo passo definisce la directory sorgente in cui il file Excel è archiviato.
+//ExStepSummary:1: Questo passo definisce la directory di uscita in cui verrà salvato il PDF generato.
+//ExStepSummary:2: Questa fase carica il file Excel campione contenente il grafico in un oggetto Workbook.
+//ExStepSummary:3: In questo passaggio si accede al primo foglio di lavoro del libro di lavoro caricato.
+//ExStepSummary:4: In questo passaggio si accede al primo grafico presente nella scheda di lavoro.
+//ExStepSummary:5: Questo passo crea un PDF del grafico con una dimensione e un allineamento specificati della pagina e lo salva nella directory di uscita.
+//ExStepSummary:6: Questa fase fornisce un messaggio di conferma che indica l'esecuzione di successo del processo di creazione.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// Directorio sorgente contenente il file Excel
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Directory di output dove verrà salvato il PDF
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Caricare campione di file Excel contenente il grafico
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// Accesso al primo foglio di lavoro
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Accedere al primo grafico all'interno della scheda di lavoro
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// Crea tabella PDF con la dimensione della pagina desiderata
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// Messaggio di conferma
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

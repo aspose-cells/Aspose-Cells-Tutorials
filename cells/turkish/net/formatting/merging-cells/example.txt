@@ -1,0 +1,48 @@
+//ExStart
+//ExSummaryBu kod Aspose.Cells kullanarak Excel dosyası oluşturmanın yolunu gösterir. 
+// Dizin oluşturma, hücre manipülasyonu gibi çeşitli eylemleri yaparken, 
+// ve çalışma defterini belirtilen bir biçimde kaydetmek.
+
+//ExStepSummary:0: Belge dizininin yolunu tanımlayın ve var olup olmadığını kontrol edin.
+//ExStepSummary:1: Eğer var değilse yeni bir dizin oluşturun.
+//ExStepSummary:2: Excel dosyasını temsil etmek için bir Çalışma Kitabı nesnesini oluşturun.
+//ExStepSummary:3: Çalışma defterindeki ilk çalışma sayfasına değin.
+//ExStepSummary:4: "A1" hücresine eriş ve ona bir değer ekle.
+//ExStepSummary:5: İlk sıradaki ilk üç sütunu tek bir hücreye birleştirin.
+//ExStepSummary:6: Çalışma defterini istediğiniz format ve konumda kaydet.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Belgeler dizinine giden yol.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Dizinin var mı diye kontrol et.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// Eğer bu listesi yoksa dizin oluşturun.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Excel dosyası için bir Çalışma Kitabı nesnesini oluşturun.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Çalışma defterindeki ilk çalışma sayfasına değin.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Çalışma sayfasından "A1" hücresine eriş.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1" hücresine biraz değer ekleyin.
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Bir hücre oluşturmak için ilk üç sütunu birleştirin.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// Excel dosyasını belirtilen biçimde kaydet.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

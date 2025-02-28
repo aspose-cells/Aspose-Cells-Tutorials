@@ -1,0 +1,136 @@
+//ExStart
+//ExSummaryEste código muestra cómo crear un nuevo libro de trabajo de Excel, añadir datos y gráficos, y aplicar el formato 3D a las series de gráficos.
+//ExStepSummary:0: Este paso inicializa el directorio de salida para el libro de trabajo y crea una nueva instancia de libro de trabajo para la manipulación de datos.
+//ExStepSummary:1: Este paso renombre la primera hoja de trabajo a "DataSheet".
+//ExStepSummary:2: Este paso recupera la "Figura de datos" para la inserción de datos adicionales.
+//ExStepSummary:3: Este paso añade una nueva hoja de trabajo titulada "Mi gráfico" para albergar el gráfico.
+//ExStepSummary:4: En este paso se completa la "Ficha de datos" con valores de muestra de B1 a B3 y etiquetas de A1 a A3.
+//ExStepSummary:5: Este paso inicializa la ChartCollection para agregar gráficos en "MyChart".
+//ExStepSummary:6: Este paso define la colección de gráficos en "Mi gráfico" y añade un gráfico de columnas.
+//ExStepSummary:7: Este paso establece los colores de fondo y del primer plano de PlotArea y ChartArea del gráfico en blanco.
+//ExStepSummary:8: Este paso oculta la leyenda para la claridad en la pantalla del gráfico.
+//ExStepSummary:9: Este paso añade a la tabla las series de datos de "DataSheet".
+//ExStepSummary:10: En este paso se especifican los datos de categoría del gráfico.
+//ExStepSummary:11: Este paso recupera la primera serie de datos para fines de formato.
+//ExStepSummary:12: Este paso accede a las propiedades de forma de la serie para el formato 3D.
+//ExStepSummary:13: Este paso configura las configuraciones de TopBevel, estableciendo estilo, altura y ancho.
+//ExStepSummary:14: Este paso establece el tipo de material de superficie en Matte caliente.
+//ExStepSummary:15: Este paso define el tipo de iluminación de la superficie.
+//ExStepSummary:16: En este paso se especifica el ángulo de la iluminación para mejorar la visión.
+//ExStepSummary:17: Este paso establece los colores de fondo, primer plano y borde de la serie a Maroon.
+//ExStepSummary:18: Este paso guarda el libro de trabajo en el directorio especificado y confirma la ejecución exitosa.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// Establezca el camino del directorio de salida
+string dataDir = "Your Document Directory";
+// Instanciar un nuevo objeto de libro de trabajo
+Workbook book = new Workbook();
+
+//ExStep:1-
+// Renombre la primera hoja de trabajo a "DataSheet"
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// Obtenga una referencia a la "Figura de datos"
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// Añadir una hoja de trabajo nueva para el gráfico
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// Poblado B1 con valor 1
+dataSheet.Cells["B1"].PutValue(1);
+// Poblado B2 con valor 2
+dataSheet.Cells["B2"].PutValue(2);
+// Poblado B3 con valor 3
+dataSheet.Cells["B3"].PutValue(3);
+// Poblado A1 con etiqueta A
+dataSheet.Cells["A1"].PutValue("A");
+// Poblado A2 con etiqueta B
+dataSheet.Cells["A2"].PutValue("B");
+// Poblado A3 con etiqueta C
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// Definir la colección de gráficos de la "Mi gráfica"
+ChartCollection charts = sheet.Charts;
+// Añadir un gráfico de columnas
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// Accede al cuadro de datos añadido
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// Configuración del color de fondo del área de la trama
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// Establezca el color de fondo de la zona del gráfico
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// Configurar el color de primer plano del PlotArea
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Establezca el color del primer plano de la zona del gráfico
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// Escondir la leyenda para claridad en la pantalla de gráficos
+chart.ShowLegend = false;
+
+//ExStep:9-
+// Añadir series de datos de "DataSheet"
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// Especifique los datos de categoría para el gráfico
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// Obtenga la primera serie de datos para el formato
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// Accede a las propiedades de forma de la serie
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// Opciones de formato 3D de acceso
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// Obtenga las configuraciones de TopBevel
+Bevel bevel = fmt3d.TopBevel;
+// Establezca el estilo de bevel en círculo
+bevel.Type = BevelPresetType.Circle; 
+// Establezca la altura de la cuenca
+bevel.Height = 2;
+// Ancho de la cuenca 
+bevel.Width = 5;
+
+//ExStep:14-
+// Tipo de material de superficie fijado
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// Establezca el tipo de iluminación para la superficie
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// Especifique el ángulo de la iluminación
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// Establezca el color de fondo de la serie
+ser.Area.BackgroundColor = Color.Maroon;
+// Establezca el color de primer plano de la serie
+ser.Area.ForegroundColor = Color.Maroon;
+// Coloque el color de borde de la serie
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// Guardar el libro de trabajo en el directorio especificado
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// Confirmar la ejecución exitosa
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

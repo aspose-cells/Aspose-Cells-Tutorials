@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Následující kód ukazuje, jak vytvořit nový soubor Excel, přidat pracovní list a vložit obrázek do konkrétní buňky.
+//ExStepSummary:0: Následující kód inicializuje adresář, kde se soubor Excel nachází.
+//ExStepSummary:1: Tento krok kontroluje, zda dokumentový adresář existuje a vytváří ho, pokud ne.
+//ExStepSummary:2: Tento krok zobrazuje objekt Workbook k vytvoření nového souboru Excel.
+//ExStepSummary:3: Tento krok přidává nový pracovní list k objektu Pracovní kniha a získává její odkaz.
+//ExStepSummary:4: Tento krok přidává obrázek do pracovního listu na specifikovaných buněčných souřadnicích.
+//ExStepSummary:5: Tento krok ukládá soubor Excel na uvedenou cestu.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Definice cesty do adresáře dokumentů
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Zkontrolujte, zda existuje adresář
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Vytvořte objekt Workbook
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// Přidejte do pracovního seznamu nový pracovní list
+int sheetIndex = workbook.Worksheets.Add(); 
+// Získejte odkaz na nově přidaný pracovní list
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// Přidejte obrázek do buňky "F6" (článek 5, sloupek 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Uložte soubor Excel na uvedenou cestu
+workbook.Save(dataDir + "output.xls");
+//ExEnd

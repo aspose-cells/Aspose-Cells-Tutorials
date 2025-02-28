@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: 这代码展示了如何加载一个ODS文件,访问图表,并将其字幕打印到控制台.
+//ExStepSummary:0: 代码将文件的源目录初始化.
+//ExStepSummary:1: 代码中载入一个包含指定目录的图表的Excel文件.
+//ExStepSummary:2: 代码访问加载工作簿的第一个工作表.
+//ExStepSummary:3: 代码将工作表中的第一个图取回来.
+//ExStepSummary:4: 代码将图表的字幕打印到控制台上.
+//ExStepSummary:5: 代码证实了字幕检索成功执行.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// 启动源目录访问文件
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// 载入包含图表的Excel文件
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// 访问工作簿的第一个工作表
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// 访问工作表中的第一个图表
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// 打印图表的字幕到控制台
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// 确认成功执行
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

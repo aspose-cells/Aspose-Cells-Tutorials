@@ -1,0 +1,39 @@
+//ExStart
+//ExSummaryBu kod, belirtilen bir sayfa boyutu olan bir Excel tabloundan bir PDF nasıl oluşturulacağını gösterir.
+//ExStepSummary:0: Bu adım Excel dosyasının depolunduğu kaynak dizinini tanımlar.
+//ExStepSummary:1: Bu adım, oluşturulan PDF'nin kaydedileceği çıkış dizini tanımlar.
+//ExStepSummary:2: Bu adım, tablo içeren örnek Excel dosyasını bir Çalışma Kitabı nesneye yükler.
+//ExStepSummary:3: Bu adım yüklü çalışma defterinin ilk çalışma sayfasına erişir.
+//ExStepSummary:4: Bu adım, çalışma sayfasındaki ilk tabloya erişir.
+//ExStepSummary:5: Bu adım, belirtilen bir sayfa boyutu ve uyumluluğu ile tabloun PDF'sini oluşturur ve çıkış dizine kaydeder.
+//ExStepSummary:6: Bu adım, yaratma sürecinin başarılı bir şekilde yürütülmesini gösteren bir onay mesajı çıkarır.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// Excel dosyasını içeren kaynak dizin
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// PDF'in kaydedileceği çıkış dizin
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Grafiği içeren Excel dosyasını yükle
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// İlk çalışma sayfasına eriş
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Çalışma sayfasının içindeki ilk grafiklere eriş
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// İstediğiniz sayfa boyutuna sahip bir tablo PDF oluştur
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// Tesdiq mesajı
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

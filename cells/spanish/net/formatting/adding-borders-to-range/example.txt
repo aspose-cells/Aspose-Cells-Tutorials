@@ -1,0 +1,55 @@
+//ExStart
+//ExSummaryEste código muestra cómo crear y formatar un libro de trabajo de Excel usando Aspose. Incluye la creación de un libro de trabajo, agregar un valor de celda, definir un rango y aplicar límites a ese rango.
+//ExStepSummary:0: Este código inicializa el directorio de documentos para guardar el libro de trabajo.
+//ExStepSummary:1: Este código crea un nuevo directorio si no existe.
+//ExStepSummary:2: Este código crea un objeto de libro de trabajo que representa un libro de trabajo de Excel.
+//ExStepSummary:3: Este código accede a la primera hoja de cálculo del libro de trabajo.
+//ExStepSummary:4: Este código accede a la célula "A1" para ingresar un valor.
+//ExStepSummary:5: Este código aplica límites gruesos al rango definido en varias direcciones.
+//ExStepSummary:6: Este código guarda la libreta de trabajo en el camino de archivo especificado.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Definir la ruta para el directorio de documentos.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Compruebe si el directorio existe
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Si el directorio no existe
+if (!IsExists)
+	// Crear el directorio
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instanciar un objeto de libro de trabajo
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Obtener referencia a la primera hoja de trabajo
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Accede a la célula "A1" en la hoja de cálculo
+Cell cell = worksheet.Cells["A1"];
+// Añadir un valor a la célula "A1"
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// Crear un rango desde "A1" hasta la tercera columna
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// Aplicar diferentes estilos de frontera a la gama
+// Establezca el límite superior
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// Establecer el límite inferior
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// Establecer el límite izquierdo
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// Establezca el límite derecho
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// Guardar el archivo de Excel
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd

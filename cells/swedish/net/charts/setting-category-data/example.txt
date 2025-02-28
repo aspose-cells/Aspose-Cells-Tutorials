@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummary: Denna kod visar hur man skapar en Excel-arbetsbok, fyller den med data i prov och genererar ett kolumntabell baserat på dessa data. 
+//ExStepSummary:0: I det här steget anges utgångsdirektören för Excel-filen.
+//ExStepSummary:1: Detta steg instansierar ett nytt arbetsbok för att skapa Excel-filen.
+//ExStepSummary:2: I detta steg hittar du en referens till det första arbetsbladet i den skapade arbetsboken.
+//ExStepSummary:3: I detta steg fyllas specifika celler i arbetsbladet med numeriska data i prov.
+//ExStepSummary:4: I detta steg läggs kategorietiketter till arbetsbladet för att representera olika datagrupper.
+//ExStepSummary:5: I detta steg skapas ett kolumnsdiagram i arbetsbladet på den angivna platsen, där storleken och positionen definieras.
+//ExStepSummary:6: I detta steg får du tillgång till det nyskapade diagrammet för ytterligare konfiguration.
+//ExStepSummary:7: I detta steg läggs dataförteckningar till diagrammet och dess datakälla och kategoridata anges för att kunna representera informationen korrekt.
+//ExStepSummary:8: Detta steg sparar den genererade arbetsboken som en Excel-fil i den angivna utgångsdirektören.
+//ExStepSummary:9: Detta steg trycker ett framgångsmeddelande till konsolen som anger att diagraminställningarna har tillämpats framgångsrikt.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// Ange utgångsdirektören för Excel-filen
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Instansiera ett nytt arbetsbokobjekt
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Få en referens till det första arbetsbladet
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Lägg till numeriska data i prov till celler
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// Lägg till kategorietiketter i arbetsbladet
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// Skapa en kolumn diagram
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// Få tillgång till det nyskapade diagrammet
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// Lägg till datakällor för diagrammet
+chart.NSeries.Add("A1:B4", true);
+// Ange kategoriuppgifter för diagrammet
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Spara Excel- filen
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// Skriv framgångsmeddelande
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

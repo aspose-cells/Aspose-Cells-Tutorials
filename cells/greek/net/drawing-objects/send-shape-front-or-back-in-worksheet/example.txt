@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας φορτώνει ένα βιβλίο εργασίας Excel, αποκτά πρόσβαση σε συγκεκριμένα σχήματα σε ένα φύλλο εργασίας, χειρίζεται τις θέσεις τους στη σειρά Z και αποθηκεύει το ενημερωμένο βιβλίο εργασίας.
+//ExStepSummary:0: Ο ακόλουθος κωδικός δείχνει πώς να οριστεί ο καταλόγος πηγής για το αρχείο Excel.
+//ExStepSummary:1: Ο ακόλουθος κωδικός δείχνει πώς να οριστεί ο κατάλογος εξόδου για το αρχείο Excel.
+//ExStepSummary:2: Ο ακόλουθος κωδικός δείχνει πώς να φορτώσετε το αρχείο πηγής Excel.
+//ExStepSummary:3: Ο ακόλουθος κώδικας δείχνει πώς να αποκτήσετε πρόσβαση στο πρώτο φύλλο εργασίας του βιβλίου εργασίας.
+//ExStepSummary:4: Ο ακόλουθος κώδικας δείχνει πώς να αποκτήσετε πρόσβαση στα πρώτα και τα τέταρτα σχήματα στο φύλλο εργασίας.
+//ExStepSummary:5: Ο ακόλουθος κωδικός δείχνει πώς να εκτυπωθεί η θέση Z-Order του πρώτου σχήματος.
+//ExStepSummary:6: Ο ακόλουθος κώδικας δείχνει πώς να στείλετε το πρώτο σχήμα στο μπροστινό μέρος.
+//ExStepSummary:7: Ο ακόλουθος κωδικός δείχνει πώς να εκτυπωθεί η θέση Z-Order του τέταρτου σχήματος.
+//ExStepSummary:8: Ο ακόλουθος κώδικας δείχνει πώς να στείλετε το τέταρτο σχήμα πίσω.
+//ExStepSummary:9: Ο ακόλουθος κωδικός δείχνει πώς να αποθηκεύσετε το τροποποιημένο αρχείο Excel στο καταλόγιο εξόδου.
+//ExStepSummary:10: Ο ακόλουθος κωδικός δείχνει πώς να επιβεβαιωθεί η εκτέλεση της επιχείρησης.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// Πηγή καταλόγου για αρχείο εισόδου Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Καταλόγιο εξόδου για το τροποποιημένο αρχείο Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Λογισμικό Excel
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// Πρόσβαση στο πρώτο φύλλο εργασίας
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Επικοινωνήστε με την πρώτη μορφή
+Shape sh1 = ws.Shapes[0];
+// Επικοινωνήστε με την τέταρτη μορφή
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// Τυπώστε τη θέση Z-Order του πρώτου σχήματος
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// Στείλε αυτό το πρώτο σχήμα στο μπροστινό μέρος.
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// Τυπώστε τη θέση Z-Order της τέταρτης μορφής
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// Στείλε αυτό το τέταρτο σχήμα πίσω.
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// Αποθηκεύστε το αρχείο Excel εξόδου
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// Επιβεβαίωση εκτέλεσης
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

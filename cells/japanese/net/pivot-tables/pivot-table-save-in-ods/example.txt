@@ -1,0 +1,92 @@
+//ExStart
+//ExSummary: このコードは .NET のAspose.Cellsを使用してスプレッドシートでピボットテーブルを作成する方法を示します. ワークブックを初期化し,データを追加し,ピボットテーブルを作成し,設定を設定し,ワークブックを ODS 形式で保存します.
+//ExStepSummary:0: このコードは,ODSファイルのための出力ディレクトリを設定します.
+//ExStepSummary:1: このステップでは,新しい表を作成するためにワークブックオブジェクトを初期化します.
+//ExStepSummary:2: このセクションでは,最初のワークシートとデータ操作のためのセル収集を取得します.
+//ExStepSummary:3: このステップでは,各季度のスポーツ販売データで表を埋めます.
+//ExStepSummary:4: このセクションでは,埋められたデータを利用して,ワークシートにピボットテーブルを追加します.
+//ExStepSummary:5: このステップでは,行,列,データのためのフィールドを設定して,ピボットテーブルを設定します.
+//ExStepSummary:6: このステップでは,作業簿を指定された出力ディレクトリに保存します.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// ドキュメント出力ディレクトリ設定
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// ワークブックオブジェクトのインスタントレーション
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// 最初のワークシートの参照を取得する
+Worksheet sheet = workbook.Worksheets[0];
+// ページからセルを収集する
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// セルA1へのアクセス
+cell = cells["A1"];
+// スポーツのヘッダを設定する
+cell.PutValue("Sport");
+// アクセスセルB1
+cell = cells["B1"];
+// タイトルを四分ける
+cell.PutValue("Quarter");
+// アクセスセルC1
+cell = cells["C1"];
+// 販売のヘッダを設定する
+cell.PutValue("Sales");
+
+// スポーツ,四半期,販売に関するデータを追加する
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// 動向表集合にアクセスする
+PivotTableCollection pivotTables = sheet.PivotTables;
+// データ範囲に基づいてピボットテーブルを追加する
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// 新たに追加されたピボットテーブルにアクセス
+PivotTable pivotTable = pivotTables[index];
+// 列の総数を無効にする
+pivotTable.RowGrand = false;
+// 列領域に最初のフィールドを引っ張る
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// 2番目のフィールドを列領域に引っ張る
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// データの領域に第三のフィールドを引っ張る
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// 動向表のデータを計算する
+pivotTable.CalculateData();
+
+//ExStep:6-
+// ODS形式で作業簿を保存する
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// 実行を成功させる
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

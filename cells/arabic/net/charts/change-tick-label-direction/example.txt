@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية تغيير اتجاه علامات التبويضات الرسم البياني في ورقة عمل Excel باستخدام مكتبة Aspose.Cells.
+//ExStepSummary:0: تحميل نموذج دفتر عمل Excel من الإداري المصدر المحدد.
+//ExStepSummary:1: الوصول إلى أول ورقة عمل في دفتر العمل.
+//ExStepSummary:2: قم بتحميل الرسم البياني من ورقة العمل الأولى
+//ExStepSummary:3: حدد اتجاه علامات التقطير على محور الفئة إلى الأفق.
+//ExStepSummary:4: حفظ دفتر العمل المعدل إلى دليل الإخراج المحدد.
+//ExStepSummary:5: تأكيد التنفيذ الناجح بمساعدة جهاز التحكم
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// حدد الإدراج المصدر لملف Excel
+// حدد مسار المجلد المصدر
+string sourceDir = "Your Document Directory"; 
+// حدد مسار المجلد الخارجي
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// تحميل دفتر عمل Excel من المسار المصدر المحدد
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// الإندكس 0 يشير إلى ورقة العمل الأولى
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// تحميل الرسم البياني من ورقة العمل الأولى
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// تغيير نوع الاتجاه لملفات التقطير على محور الفئة إلى أفقية
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// حفظ دفتر العمل المعدل إلى دليل الإخراج مع اسم ملف جديد
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// طبع رسالة نجاح على الجهاز
+// إشارة إلى العملية التي تم إتمامها بنجاح
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryQuesto codice mostra come creare un file Excel utilizzando Aspose.Cells. Inizia un libro di lavoro, aggiunge un foglio di lavoro, riempie una cella di testo, modifica la dimensione della font della cella e salva il libro di lavoro in una directory specificata.
+//ExStepSummary:0: Questo passo mostra come definire il percorso verso la directory dei documenti.
+//ExStepSummary:1: Questo passo mostra come creare una directory se non esiste già.
+//ExStepSummary:2: Questo passo dimostra l'istanzazione di un oggetto Workbook.
+//ExStepSummary:3: Questo passo indica come aggiungere un nuovo foglio di lavoro al libro di lavoro e ottenerlo per indice.
+//ExStepSummary:4: Questo passo spiega come accedere a una cellula specifica e riempirla di un valore.
+//ExStepSummary:5: Questo passo spiega come ottenere lo stile della cella e modificare la dimensione del carattere e mostra come applicare lo stile modificato alla cella.
+//ExStepSummary:6: Questo passo illustra come salvare il libro di lavoro in un percorso di file specificato.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Definire il percorso per la directory di documenti
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Controllare se l' elenco esiste
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Se non esiste
+if (!IsExists)
+	// Crea la directory
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantare un oggetto Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Aggiungere un nuovo foglio di lavoro al libro
+int i = workbook.Worksheets.Add();
+// Ottenere il riferimento della scheda di lavoro aggiunta
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Accedere alla cella "A1" dalla scheda di lavoro
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Popolare la cella "A1" con un valore
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Ottenere lo stile della cella
+Style style = cell.GetStyle();
+// Impostare la dimensione della font a 14
+style.Font.Size = 14;
+// Applicare lo stile modificato alla cella
+cell.SetStyle(style);
+
+//ExStep:6-
+// Salvare la scheda di lavoro nel percorso di file specificato
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

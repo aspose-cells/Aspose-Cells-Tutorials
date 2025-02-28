@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryCe code montre comment créer un fichier Excel à l'aide de Aspose.Cells. Il initie un carnet de travail, ajoute une feuille de calcul, remplit une cellule de texte, modifie la taille de la police de la cellule et enregistre le carnet de travail dans un répertoire spécifié.
+//ExStepSummary:0: Cette étape montre comment définir le chemin vers le répertoire de documents.
+//ExStepSummary:1: Cette étape montre comment créer un répertoire si celui-ci n'existe pas déjà.
+//ExStepSummary:2: Cette étape démontre l'instantiation d'un objet de Workbook.
+//ExStepSummary:3: Cette étape indique comment ajouter une nouvelle feuille de calcul au carnet de travail et la récupérer par index.
+//ExStepSummary:4: Cette étape détaille comment accéder à une cellule spécifique et la remplir d'une valeur.
+//ExStepSummary:5: Cette étape explique comment obtenir le style de la cellule et modifier la taille de la police et montre comment appliquer le style modifié à la cellule.
+//ExStepSummary:6: Cette étape montre comment enregistrer le carnet de travail sur un chemin de fichier spécifié.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Définir le chemin vers le répertoire de documents
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Vérifiez si le répertoire existe
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Si elle n'existe pas
+if (!IsExists)
+	// Créer le répertoire
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Installez un objet de classeur
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Ajouter une nouvelle feuille de calcul au manuel de travail
+int i = workbook.Worksheets.Add();
+// Obtenez la référence de la feuille de calcul récemment ajoutée
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Accéder à la cellule "A1" depuis la feuille de calcul
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Remplissez la cellule "A1" avec une valeur
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Obtenez le style de la cellule
+Style style = cell.GetStyle();
+// Réglez la taille de la police à 14
+style.Font.Size = 14;
+// Appliquer le style modifié à la cellule
+cell.SetStyle(style);
+
+//ExStep:6-
+// Enregistrer le carnet de travail sur le chemin de fichier spécifié
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

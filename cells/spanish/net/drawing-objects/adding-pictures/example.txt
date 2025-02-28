@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: El siguiente código muestra cómo crear un nuevo archivo Excel, añadir una hoja de cálculo e insertar una imagen en una célula específica.
+//ExStepSummary:0: El siguiente código inicializa el directorio donde se encuentra el archivo Excel.
+//ExStepSummary:1: Este paso verifica si el directorio de documentos existe y lo crea si no lo hace.
+//ExStepSummary:2: Este paso hace que un objeto de Workbook crea un nuevo archivo de Excel.
+//ExStepSummary:3: Este paso añade una nueva hoja de trabajo al objeto de la Manual de Trabajo y obtiene su referencia.
+//ExStepSummary:4: Este paso añade una imagen a la hoja de cálculo en las coordenadas de la célula especificadas.
+//ExStepSummary:5: Este paso guarda el archivo Excel en el camino especificado.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Definir el camino al directorio de documentos
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Compruebe si existe un directorio
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instanciar un objeto de libro de trabajo
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// Añadir una hoja de trabajo nueva al libro de trabajo
+int sheetIndex = workbook.Worksheets.Add(); 
+// Obtenga referencias a la hoja de trabajo recientemente agregada
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// Añadir una imagen a la célula "F6" (fila 5, columna 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Guardar el archivo Excel en el camino especificado
+workbook.Save(dataDir + "output.xls");
+//ExEnd

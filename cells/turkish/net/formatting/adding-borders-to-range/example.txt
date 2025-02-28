@@ -1,0 +1,55 @@
+//ExStart
+//ExSummaryBu kod, Excel çalışma defterini Aspose kullanarak nasıl oluşturulacağını ve biçimlendirileceğini gösterir.
+//ExStepSummary:0: Bu kod, çalışma defterini kaydetmek için belge dizinini initializer.
+//ExStepSummary:1: Bu kod var değilse yeni bir dizin oluşturur.
+//ExStepSummary:2: Bu kod, Excel çalışma defterini temsil eden bir Çalışma Kitabı nesnesini oluşturur.
+//ExStepSummary:3: Bu kod, çalışma defterinin ilk çalışma sayfasına erişir.
+//ExStepSummary:4: Bu kod bir değer girmek için "A1" hücresine erişir.
+//ExStepSummary:5: Bu kod, belirlenen aralığın çeşitli yönlerde kalın sınırlarını uyguluyor.
+//ExStepSummary:6: Bu kod, çalışma defterini belirtilen dosya yoluna kaydeder.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Belge dizininin yolunu tanımlayın.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Dizin var mı kontrol edin
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Eğer dizin yoksa
+if (!IsExists)
+	// Dizin oluştur
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Çalışma Kutusu nesnesini bir anlık oluştur
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// İlk çalışma sayfasına referans alın
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Çalışma sayfasındaki "A1" hücresine eriş
+Cell cell = worksheet.Cells["A1"];
+// "A1" hücresine bir değer ekle
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// "A1"'den 3. sütuna kadar bir aralığı oluştur
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// Aralıkta çeşitli sınır stillerini uygulayın
+// Üst sınır belirle
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// Alt sınır belirlenir
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// Sol sınır belirle
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// Sağ sınır ayarlayın
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// Excel dosyasını kaydet
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd

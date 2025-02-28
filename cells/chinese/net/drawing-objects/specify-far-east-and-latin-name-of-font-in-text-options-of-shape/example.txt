@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: 这个代码展示了如何创建Excel工作簿,将一个文本框添加到一个工作表中,并指定远东和拉丁字体名称.
+//ExStepSummary:0: 下面的代码初始化Excel文件输出目录.
+//ExStepSummary:1: 下面的代码创建了一个新的空白工作簿.
+//ExStepSummary:2: 下面的代码访问了工作簿中的第一个工作表.
+//ExStepSummary:3: 下面的代码将在指定坐标上添加一个文本框到工作表中.
+//ExStepSummary:4: 下面的代码将文本框的内容设置为"こんにちは 世界" (Hello World) 并指定文本框的拉丁语和远东字体名称.
+//ExStepSummary:5: 下面的代码将工作簿保存到指定输出目录中.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// 指定文件输出目录
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 创建一个空白的工作簿
+var wb = new Workbook();
+
+//ExStep:2-
+// 访问工作簿中的第一个工作表
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// 在位置 (5,5) 添加一个宽度50和高度200的文本框
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// 访问新文本框
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// 设置文本框中的文字为"Hello World"
+tb.Text = "こんにちは世界";
+// 指定拉丁字体名称
+tb.TextOptions.LatinName = "Comic Sans MS";
+// 指定远东字体名称
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// 保存工作簿到输出目录
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// 确认成功执行
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Ce code charge un carnet de travail Excel, accède à des formes spécifiques dans une feuille de calcul, manipule leurs positions en ordre Z et enregistre le carnet de travail mis à jour.
+//ExStepSummary:0: Le code suivant montre comment définir le répertoire source du fichier Excel.
+//ExStepSummary:1: Le code suivant montre comment définir le répertoire de sortie du fichier Excel.
+//ExStepSummary:2: Le code suivant montre comment charger le fichier Excel source.
+//ExStepSummary:3: Le code suivant montre comment accéder à la première feuille de calcul du manuel de travail.
+//ExStepSummary:4: Le code suivant montre comment accéder aux premières et aux quatrièmes formes de la feuille de calcul.
+//ExStepSummary:5: Le code suivant montre comment imprimer la position Z-Order de la première forme.
+//ExStepSummary:6: Le code suivant montre comment envoyer la première forme à l'avant.
+//ExStepSummary:7: Le code suivant montre comment imprimer la position Z-Order de la quatrième forme.
+//ExStepSummary:8: Le code suivant montre comment envoyer la quatrième forme à l'arrière.
+//ExStepSummary:9: Le code suivant montre comment enregistrer le fichier Excel modifié dans le répertoire de sortie.
+//ExStepSummary:10: Le code suivant montre comment confirmer l'exécution de l'opération.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// Directory source pour le fichier Excel d'entrée
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Directory de sortie du fichier Excel modifié
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Fichier Excel source de chargement
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// Accéder à la première feuille de calcul
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Accéder à la première forme
+Shape sh1 = ws.Shapes[0];
+// Accéder à la quatrième forme
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// Imprimez la position Z-Order de la première forme
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// Envoyez cette première forme à l'avant
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// Imprimez la position Z-Order de la quatrième forme
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// Envoyez cette quatrième forme à l'arrière
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// Enregistrez le fichier Excel de sortie
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// Confirmation de l'exécution
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

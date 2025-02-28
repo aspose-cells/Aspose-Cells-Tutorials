@@ -1,0 +1,52 @@
+//ExStart
+//ExSummaryBu kod Excel çalışma defteri oluşturmanın, çalışma sayfasını eklemenin, hücre değerinin ve stilinin değiştirilmesinin ve çalışma defterinin nasıl kaydedildiğini gösterir.
+//ExStepSummary:0: Aşağıdaki kod, Excel dosyası bulunduğu dizinin başlangıcını yapar.
+//ExStepSummary:1: Kod, belge dizini için yolun başlangıcını yapar ve var olup olmadığını kontrol eder.
+//ExStepSummary:2: Kod yeni bir çalışma kitabı nesnesini simgeledi.
+//ExStepSummary:3: Çalışma defterine yeni bir çalışma sayfası eklenir ve ona bir referans elde edilir.
+//ExStepSummary:4: Çalışma sayfasının "A1" hücresine değeri değiştirmek için erişilir.
+//ExStepSummary:5: "A1" hücresinin stili elde edilir ve yazı tipi rengi mavi olarak ayarlanır.
+//ExStepSummary:6: Değiştirilmiş stil, çalışma defterini kaydetmeden önce hücreye uygulanır.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Belgeler dizinine giden yol.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Dizinin var mı diye kontrol et.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Eğer var değilse, onu yarat.
+if (!IsExists)
+	// Dizin oluştur.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Bir çalışma kitabı nesnesini oluşturmak.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Excel nesneye yeni bir çalışma sayfası ekliyor.
+int i = workbook.Worksheets.Add();
+// Yeni eklenen çalışma sayfasına bir referans almak.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Çalışma sayfasından "A1" hücresine eriş.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1" hücresine biraz değer eklemek.
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Hücre tarzını öğrenmek.
+Style style = cell.GetStyle();
+// Yazı tipi rengi mavi ayarlıyorum.
+style.Font.Color = Color.Blue;
+// \- Sınıfı hücreye uyguluyorum.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Excel dosyasını kaydetmek.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

@@ -1,0 +1,88 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara membuat buku kerja dan menghasilkan grafik baris dengan penanda data menggunakan perpustakaan Aspose.Cells.
+//ExStepSummary:0: Inisialkan direktori output untuk menyimpan buku kerja.
+//ExStepSummary:1: Menginstansifkan buku kerja baru dan mengakses lembar kerja pertama.
+//ExStepSummary:2: Mengatur judul kolom "X" dan "Y" untuk data grafik.
+//ExStepSummary:3: Menghasilkan data acak untuk dua seri dan mengisi ke dalam sel yang sesuai.
+//ExStepSummary:4: Menambahkan grafik garis ke lembar kerja dan menyesuaikan sifatnya.
+//ExStepSummary:5: Mengkonfigurasi sifat untuk dua seri data dalam grafik.
+//ExStepSummary:6: Menyimpan buku kerja dengan grafik yang dibuat.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// Setel direktori output untuk buku kerja
+static string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Buatlah buku kerja baru
+Workbook workbook = new Workbook();
+// Akses ke lembar kerja pertama
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:2-
+// Set judul kolom untuk nilai X
+worksheet.Cells[0, 0].Value = "X";
+// Set judul kolom untuk nilai Y
+worksheet.Cells[0, 1].Value = "Y";
+
+//ExStep:3-
+// Buat objek acak baru untuk menghasilkan data
+Random R = new Random();
+
+// Buat data acak dan simpan di sel
+for (int i = 1; i < 21; i++) // Loop to fill the first series data
+{
+    worksheet.Cells[i, 0].Value = i; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.8; // Fill the Y value (0.8 for the first series)
+}
+
+for (int i = 21; i < 41; i++) // Loop to fill the second series data
+{
+    worksheet.Cells[i, 0].Value = i - 20; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.9; // Fill the Y value (0.9 for the second series)
+}
+
+//ExStep:4-
+// Tambahkan grafik baris baru ke lembar kerja
+int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
+Chart chart = worksheet.Charts[idx]; // Access the newly created chart
+// Setelan gaya grafik
+chart.Style = 3;
+// Memungkinkan skeling otomatis untuk grafik
+chart.AutoScaling = true;
+// Tentukan warna latar belakang area plot
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Tentukan judul grafik
+chart.Title.Text = "Sample Chart";
+// Tentukan jenis grafik
+chart.Type = ChartType.LineWithDataMarkers;
+
+// Properti set judul sumbu kategori
+chart.CategoryAxis.Title.Text = "Units"; // Set the title for the category axis
+
+//ExStep:5-
+int s2_idx = chart.NSeries.Add("A2: A2", true); // Add the first series to the chart
+int s3_idx = chart.NSeries.Add("A22: A22", true); // Add the second series to the chart
+
+chart.NSeries.IsColorVaried = true; // Enable varied colors for different points
+
+// Set properti untuk seri data pertama
+chart.NSeries[s2_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s2_idx].Marker.Area.ForegroundColor = Color.Yellow; // Set marker color to yellow
+chart.NSeries[s2_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s2_idx].XValues = "A2: A21"; // Define X values for the first series
+chart.NSeries[s2_idx].Values = "B2: B21"; // Define Y values for the first series
+
+// Set properti untuk seri data kedua
+chart.NSeries[s3_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green; // Set marker color to green
+chart.NSeries[s3_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s3_idx].XValues = "A22: A41"; // Define X values for the second series
+chart.NSeries[s3_idx].Values = "B22: B41"; // Define Y values for the second series
+
+//ExStep:6-
+workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx); // Save the workbook
+Console.WriteLine("CreateLineWithDataMarkerChart executed successfully."); // Indicate successful execution
+//ExEnd

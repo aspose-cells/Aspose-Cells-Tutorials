@@ -1,0 +1,39 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit PDF z Excelové grafy s určitou velikostí stránky.
+//ExStepSummary:0: Tento krok definuje zdrojový adresář, kde je soubor Excel uložen.
+//ExStepSummary:1: Tento krok definuje výstupní adresář, kde bude generovaný PDF uložen.
+//ExStepSummary:2: Tento krok načítá vzorek souboru Excel obsahující graf do objektu Workbook.
+//ExStepSummary:3: Tento krok umožňuje přístup k prvnímu pracovnímu listu načteného pracovního seznamu.
+//ExStepSummary:4: Tento krok přistupuje k prvnímu grafu v pracovním listu.
+//ExStepSummary:5: Tento krok vytváří PDF tabulky s specifikovanou velikostí a vyrovnání stránky a ukládá ji do výstupního adresáře.
+//ExStepSummary:6: Tento krok vyzařuje potvrdovací zprávu, která naznačuje úspěšné provedení procesu vytváření.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// Zdrojový adresář obsahující soubor Excel
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Výstupní adresář, kde bude PDF uložen
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Vložte vzorek souboru Excel obsahující graf
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// Přístup k prvnímu pracovnímu listu
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Přístup k prvnímu grafu uvnitř pracovního listu
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// Vytvořte tabulku PDF s požadovaným velikostí stránky
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// Sdělení potvrzení
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

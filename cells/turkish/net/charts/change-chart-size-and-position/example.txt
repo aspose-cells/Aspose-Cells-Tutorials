@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryBu kod, Excel çalışma defterindeki bir tabloyu Aspose.Cells kütüphanesi kullanarak nasıl boyutlandırıp yeniden konumlandırılacağını gösterir.
+//ExStepSummary:0: Aşağıdaki kod Excel dosyası için kaynak ve çıkış dizinlerini initialize eder.
+//ExStepSummary:1: Kod, bir örnek Excel dosyası içeren kaynak dizininden bir çalışma defteri yükler.
+//ExStepSummary:2: Kod, çalışma defterindeki ilk çalışma sayfasına erişerek grafikleriyle çalışmaktadır.
+//ExStepSummary:3: Kod, değişiklik amaçlı çalışma sayfasından ilk tabloyu alır.
+//ExStepSummary:4: Kod, grafikin genişliğini 400 ve yüksekliğini 300 piksel olarak değiştirir.
+//ExStepSummary:5: Kod X ve Y koordinatlarını belirleyerek grafikin yerini geri alır.
+//ExStepSummary:6: Son olarak, değiştirilmiş çalışma defteri yeni bir dosya adı ile çıkış dizinine kaydedilmiştir.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Excel dosyası için kaynak dizin
+string sourceDir = "Your Document Directory";
+// Değiştirilmiş Excel dosyasını kaydetmek için çıkış dizin
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Belirtilen çalışma defterini yükle
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// Çalışma defterinin ilk çalışma sayfasına eriş
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Çalışma sayfasından ilk tabloyu yükle
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Grafik genişliğini 400 piksel olarak değiştir
+chart.ChartObject.Width = 400;
+// Grafik yüksekliğini 300 piksel olarak değiştir
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// Grafiğin X koordinatını yeniden yerleştir
+chart.ChartObject.X = 250;
+// Grafiğin Y koordinatını yeniden yerleştir 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// Değiştirilmiş çalışma defterini çıkış dizinine kaydet
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// Başarılı çalıştırma kullanıcıya bildirin
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

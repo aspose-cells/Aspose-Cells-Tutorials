@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man ein neues Excel-Arbeitsbuch erstellt, ein Arbeitsblatt hinzufügt, eine Zelle anpasst und das Arbeitsbuch speichert.
+//ExStepSummary:0: Der folgende Code definiert den Weg für das Dokumentenverzeichnis.
+//ExStepSummary:1: Der folgende Code überprüft, ob das Verzeichnis existiert; wenn nicht, erstellt es es.
+//ExStepSummary:2: Der folgende Code zeigt ein Workbook-Objekt.
+//ExStepSummary:3: Der folgende Code bezieht sich auf das erste Arbeitsblatt des Arbeitsbuchs.
+//ExStepSummary:4: Der folgende Code greift in die Zelle "A1" im Arbeitsblatt ein.
+//ExStepSummary:5: Der folgende Code fügt der Zelle "A1" einen Wert hinzu.
+//ExStepSummary:6: Der folgende Code setzt die horizontale Ausrichtung des Textes in der Zelle "A1" und ermöglicht das Verwenden von Text.
+//ExStepSummary:7: Der folgende Code speichert das Excel-Arbeitsbuch in das angegebene Verzeichnis.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Definition des Weges zum Dokumentenverzeichnis
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Überprüfen Sie , ob das Verzeichnis existiert
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Wenn es nicht existiert , dann erschaffen Sie es .
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instanzieren Sie ein Werkbuchobjekt
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Erhalten Sie einen Verweis auf das erste Arbeitsblatt
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Zugriff auf die Zelle "A1" aus dem Arbeitsblatt
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+
+//ExStep:5-
+// Hinzufügen von einem gewissen Wert in die Zelle "A1"
+cell.PutValue("Visit Aspose!");
+
+//ExStep:6-
+// Erhalten Sie den aktuellen Stil der Zelle
+Style style = cell.GetStyle();
+// Textverpackung in der Zelle aktivieren
+style.IsTextWrapped = true;
+// Verwenden Sie den modifizierten Stil wieder auf die Zelle
+cell.SetStyle(style);
+
+//ExStep:7-
+// Speichern Sie die Excel-Datei im angegebenen Format
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

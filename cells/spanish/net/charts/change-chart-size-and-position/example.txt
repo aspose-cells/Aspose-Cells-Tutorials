@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Este código muestra cómo cambiar el tamaño y reposicionar un gráfico en un libro de trabajo de Excel utilizando la biblioteca Aspose.Cells.
+//ExStepSummary:0: El siguiente código inicializa los directorios de origen y salida del archivo Excel.
+//ExStepSummary:1: El código carga un libro de trabajo del directorio fuente que contiene un archivo de Excel muestra.
+//ExStepSummary:2: El código accede a la primera hoja de cálculo del libro de trabajo para trabajar con sus gráficos.
+//ExStepSummary:3: El código recupera el primer gráfico de la hoja de cálculo para fines de modificación.
+//ExStepSummary:4: El código cambia el tamaño del gráfico a un ancho de 400 y una altura de 300 píxeles.
+//ExStepSummary:5: El código reposiciona la tabla estableciendo sus coordenadas X y Y.
+//ExStepSummary:6: Finalmente, el libro de trabajo modificado se guarda en el directorio de salida con un nuevo nombre de archivo.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Directorio de origen para el archivo Excel
+string sourceDir = "Your Document Directory";
+// Directorio de salida para guardar el archivo de Excel modificado
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Cargar el libro de trabajo especificado
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// Accede a la primera hoja de trabajo del libro de trabajo
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Cargar el primer gráfico de la hoja de cálculo
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Redimensionar el ancho del gráfico a 400 píxeles
+chart.ChartObject.Width = 400;
+// Redimensionar la altura del gráfico a 300 píxeles
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// Reubicar la coordenada X del gráfico
+chart.ChartObject.X = 250;
+// Reubicar la coordenada Y del gráfico 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// Guardar el libro de trabajo modificado en el directorio de salida
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// Notificar al usuario de la ejecución exitosa
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

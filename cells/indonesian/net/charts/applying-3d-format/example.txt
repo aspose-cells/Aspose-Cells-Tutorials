@@ -1,0 +1,136 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana membuat buku kerja Excel baru, menambahkan data dan grafik, dan menerapkan pemformatan 3D untuk seri grafik.
+//ExStepSummary:0: Langkah ini menginisialisasi direktori output untuk buku kerja dan membuat contoh buku kerja baru untuk manipulasi data.
+//ExStepSummary:1: Langkah ini mengubah nama lembar kerja pertama menjadi "DataSheet".
+//ExStepSummary:2: Langkah ini mengambil "DataSheet" untuk memasukkan data lebih lanjut.
+//ExStepSummary:3: Langkah ini menambahkan lembar kerja baru berjudul "MyChart" untuk menampung grafik.
+//ExStepSummary:4: Langkah ini mengisi "DataSheet" dengan nilai sampel dari B1 sampai B3 dan label dari A1 sampai A3.
+//ExStepSummary:5: Langkah ini menginisialisasikan ChartCollection untuk menambahkan grafik ke "MyChart".
+//ExStepSummary:6: Langkah ini mendefinisikan Koleksi Chart dalam "MyChart" dan menambahkan grafik Kolom.
+//ExStepSummary:7: Langkah ini menetapkan warna latar belakang dan latar belakang PlotArea dan ChartArea grafik ke putih.
+//ExStepSummary:8: Langkah ini menyembunyikan legenda untuk kejelasan dalam tampilan grafik.
+//ExStepSummary:9: Langkah ini menambahkan serangkaian data dari "DataSheet" ke grafik.
+//ExStepSummary:10: Langkah ini menentukan data kategori untuk grafik.
+//ExStepSummary:11: Langkah ini mengambil seri data pertama untuk tujuan pemformatan.
+//ExStepSummary:12: Langkah ini mengakses sifat bentuk seri untuk pemformatan 3D.
+//ExStepSummary:13: Langkah ini mengkonfigurasi pengaturan TopBevel, pengaturan gaya, tinggi, dan lebar.
+//ExStepSummary:14: Langkah ini mengatur jenis material permukaan ke Warm Matte.
+//ExStepSummary:15: Langkah ini menentukan jenis pencahayaan untuk permukaan.
+//ExStepSummary:16: Langkah ini menentukan sudut pencahayaan untuk peningkatan visual.
+//ExStepSummary:17: Langkah ini menetapkan latar belakang seri, latar belakang, dan warna perbatasan ke Maroon.
+//ExStepSummary:18: Langkah ini menyimpan buku kerja ke direktori yang ditentukan dan mengkonfirmasi eksekusi yang berhasil.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// Setelan jalur direktori output
+string dataDir = "Your Document Directory";
+// Instansi object Workbook baru
+Workbook book = new Workbook();
+
+//ExStep:1-
+// Rename sheet pertama menjadi "DataSheet"
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// Dapatkan referensi ke "DataSheet"
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// Tambahkan lembar kerja baru untuk grafik
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// Populasi B1 dengan nilai 1
+dataSheet.Cells["B1"].PutValue(1);
+// Populasi B2 dengan nilai 2
+dataSheet.Cells["B2"].PutValue(2);
+// Populasi B3 dengan nilai 3
+dataSheet.Cells["B3"].PutValue(3);
+// Populasi A1 dengan label A
+dataSheet.Cells["A1"].PutValue("A");
+// Populasi A2 dengan label B
+dataSheet.Cells["A2"].PutValue("B");
+// Populasi A3 dengan label C
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// Define Chart Collection dari "MyChart"
+ChartCollection charts = sheet.Charts;
+// Tambahkan grafik kolom
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// Akses ke grafik baru ditambahkan
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// Set background color dari PlotArea
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// Set area grafik warna latar belakang
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// Set warna latar depan PlotArea
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Set area grafik warna latar depan
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// Sembunyikan legenda untuk kejelasan di tampilan grafik
+chart.ShowLegend = false;
+
+//ExStep:9-
+// Tambahkan serangkaian data dari "DataSheet"
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// Tentukan data kategori untuk grafik
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// Dapatkan Seri Data Pertama untuk Format
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// Akses ke sifat bentuk seri
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// Akses opsi pemformatan 3D
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// Dapatkan pengaturan TopBevel
+Bevel bevel = fmt3d.TopBevel;
+// Setelan gaya bevel untuk Circle
+bevel.Type = BevelPresetType.Circle; 
+// Set tinggi bevel
+bevel.Height = 2;
+// Set lebar bevel 
+bevel.Width = 5;
+
+//ExStep:14-
+// Jenis bahan permukaan yang ditetapkan
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// Setkan jenis pencahayaan untuk permukaan
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// Tentukan sudut pencahayaan
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// Setelan warna latar belakang seri
+ser.Area.BackgroundColor = Color.Maroon;
+// Setel warna latar depan seri
+ser.Area.ForegroundColor = Color.Maroon;
+// Set warna batas seri
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// Simpan buku kerja ke direktori yang ditentukan
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// Konfirmasi eksekusi yang sukses
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

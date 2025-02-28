@@ -1,0 +1,55 @@
+//ExStart
+//ExSummaryΟ κώδικας αυτός δείχνει πώς να δημιουργήσετε και να μορφοποιήσετε ένα βιβλίο εργασίας Excel χρησιμοποιώντας το Aspose.
+//ExStepSummary:0: Αυτός ο κώδικας αρχιτοποιεί τον κατάλογο εγγράφων για τη διατήρηση του βιβλίου εργασίας.
+//ExStepSummary:1: Αυτός ο κώδικας δημιουργεί ένα νέο κατάλογο αν δεν υπάρχει.
+//ExStepSummary:2: Αυτός ο κώδικας δημιουργεί ένα αντικείμενο Workbook που αντιπροσωπεύει ένα βιβλίο εργασίας Excel.
+//ExStepSummary:3: Ο κωδικός αυτός έχει πρόσβαση στο πρώτο φύλλο εργασίας του βιβλίου εργασίας.
+//ExStepSummary:4: Αυτός ο κωδικός εισάγει μια τιμή στο κελί "A1".
+//ExStepSummary:5: Ο κωδικός αυτός εφαρμόζει πυκνά σύνορα στην καθορισμένη περιοχή σε διάφορες κατευθύνσεις.
+//ExStepSummary:6: Αυτός ο κωδικός αποθηκεύει το βιβλίο εργασίας στην καθορισμένη διαδρομή αρχείου.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Ορίστε τη διαδρομή για το κατάλογο εγγράφων.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ελέγξτε αν υπάρχει το κατάλογο
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Αν το κατάλογο δεν υπάρχει
+if (!IsExists)
+	// Δημιουργήστε τον κατάλογο
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Εναρμηνεύστε ένα αντικείμενο Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Παίρνετε αναφορά στο πρώτο φύλλο εργασίας
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Επικοινωνήστε με το κελί "A1" στο φύλλο εργασίας
+Cell cell = worksheet.Cells["A1"];
+// Προσθέστε μια τιμή στο κελί "A1"
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// Δημιουργήστε μια περιοχή από "A1" έως την 3η στήλη
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// Εφαρμόστε διάφορα στυλ συνοριοποίησης στην περιοχή
+// Εγκαταστήστε τα ανώτατα όρια
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// Καθορισμός κατώτερης οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής οριακής ο
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// Εποστρέψτε αριστερό όριο
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// Καθορίστε δεξιά όριο
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// Κράτησε το αρχείο Excel
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd

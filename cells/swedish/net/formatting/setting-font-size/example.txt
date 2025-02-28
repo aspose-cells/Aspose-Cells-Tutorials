@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryDenna kod visar hur man skapar en Excel-fil med hjälp av Aspose.Cells. Den initialiserar en arbetsbok, lägger till ett arbetsblad, fyller en cell med text, ändrar cellens teckensnittstorlek och sparar arbetsboken till en specifik katalog.
+//ExStepSummary:0: I detta steg visas hur man definierar vägen till dokumentkataloget.
+//ExStepSummary:1: I detta steg visas hur man skapar ett katalog om det inte redan finns.
+//ExStepSummary:2: Detta steg visar instansieringen av ett arbetsbokobjekt.
+//ExStepSummary:3: I detta steg anges hur man lägger till ett nytt arbetsblad i arbetsboken och får det genom index.
+//ExStepSummary:4: I detta steg beskrivs hur man får tillgång till en specifik cell och fyller den med ett värde.
+//ExStepSummary:5: I detta steg förklaras hur man får stylen i cellen och ändrar teckensnittstorleken och hur man tillämpar den ändrade stilen på cellen.
+//ExStepSummary:6: I detta steg visas hur man sparar arbetsboken till en specifik filväg.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Definera vägen till dokumentkataloget
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Kontrollera om katalogn finns
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Om det inte existerar
+if (!IsExists)
+	// Skapa katalog
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instansiera ett arbetsbokobjekt
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Lägg till ett nytt arbetsblad i arbetsboken
+int i = workbook.Worksheets.Add();
+// Få referens till det nyligen läggs till arbetsbladet
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Tillträde till cellen "A1" från arbetsbladet
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Fyll i cellen "A1" med ett värde
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Få in cellens stil
+Style style = cell.GetStyle();
+// Ställ upp teckensnittstorleken till 14
+style.Font.Size = 14;
+// Använd den ändrade stilen på cellen
+cell.SetStyle(style);
+
+//ExStep:6-
+// Spara arbetsboken till den angivna filvägen
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

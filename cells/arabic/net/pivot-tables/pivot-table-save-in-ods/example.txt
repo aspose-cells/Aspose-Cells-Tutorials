@@ -1,0 +1,92 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية إنشاء جدول محوري في جدول بيانات باستخدام Aspose.Cells ل .NET. يبدأ دفتر العمل، ويضيف البيانات إليه، ويخلق جدول محوري، ويضبط إعداداته، ويخزن دفتر العمل في شكل ODS.
+//ExStepSummary:0: هذا الرمز يحدد دليل الخروج لملف ODS.
+//ExStepSummary:1: هذه الخطوة تبدأ في تشغيل كائن كتاب العمل لإنشاء جدول حساب جديد.
+//ExStepSummary:2: هذا القسم يستعيد أول ورقة عمل وجمع الخلايا للتلاعب بالبيانات.
+//ExStepSummary:3: هذه الخطوة تملأ ورقة العمل بـ بيانات مبيعات الرياضة لعدة ربعات.
+//ExStepSummary:4: هذا القسم يضيف جدول محوري إلى ورقة العمل باستخدام البيانات المكتبة.
+//ExStepSummary:5: هذه الخطوة تقوم بتهيئة الجدول المحوري عن طريق تعيين الحقول للسلسلة والعمود والبيانات ثم يقوم القسم بحساب بيانات الجدول المحوري.
+//ExStepSummary:6: هذه الخطوة توفر دفتر العمل إلى دليل الخروج المحدد.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// إعداد دليل إصدار المستند
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// تحديد كائن كتاب العمل
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// الحصول على إشارة في ورقة العمل الأولى
+Worksheet sheet = workbook.Worksheets[0];
+// الحصول على مجموعة الخلايا من ورقة
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// الوصول إلى الخلية A1
+cell = cells["A1"];
+// إعداد الرأس للاعب
+cell.PutValue("Sport");
+// الخلية الوصول B1
+cell = cells["B1"];
+// إعداد الرأس للربع
+cell.PutValue("Quarter");
+// الخلية الوصول C1
+cell = cells["C1"];
+// إعداد العنوان للبيع
+cell.PutValue("Sales");
+
+// إضافة بيانات للرياضة والربعات والبيع
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// الوصول إلى مجموعة الجدولات المحورية
+PivotTableCollection pivotTables = sheet.PivotTables;
+// إضافة جدول محوري على أساس نطاق البيانات
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// الوصول إلى الجدول المحرك المضاف حديثا
+PivotTable pivotTable = pivotTables[index];
+// إعاقة مجموعات الكبيرة للصفوف
+pivotTable.RowGrand = false;
+// سحب الحقل الأول إلى منطقة الصف
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// سحب الحقل الثاني إلى منطقة العمود
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// سحب الحقل الثالث إلى منطقة البيانات
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// حساب البيانات للجدول المحرك
+pivotTable.CalculateData();
+
+//ExStep:6-
+// حفظ دفتر العمل في تنسيق ODS
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// إشارة إلى نجاح الإجراء
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

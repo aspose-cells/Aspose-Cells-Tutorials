@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Questo codice mostra come cambiare la direzione delle etichette di cartone di marcia in un foglio di lavoro Excel utilizzando la libreria Aspose.Cells.
+//ExStepSummary:0: Caricare il modello di libreria Excel dalla directory sorgente specificata.
+//ExStepSummary:1: Accedi alla prima foglia di lavoro del libro.
+//ExStepSummary:2: Carica il grafico dalla prima foglia di lavoro.
+//ExStepSummary:3: Impostare la direzione delle etichette di puntatura per l'asse di categoria in orizzontale.
+//ExStepSummary:4: Salvare la scheda di lavoro modificata nella directory di uscita specificata.
+//ExStepSummary:5: Confirma l'esecuzione con successo con un messaggio della console.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Definire la directory sorgente per il file Excel
+// Impostare il percorso della directory sorgente
+string sourceDir = "Your Document Directory"; 
+// Impostare il percorso della directory di uscita
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Caricare la scheda di lavoro Excel dal percorso sorgente specificato
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// Indice 0 si riferisce alla prima foglia di lavoro
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Caricare il grafico dalla prima foglia di lavoro
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Cambiare il tipo di direzione delle etichette di segno di taglio per l'asse di categoria in orizzontale
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// Salvare la scheda modificata nella directory di uscita con un nuovo nome di file
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Stampa un messaggio di successo sulla console
+// Indicare il processo completato con successo
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

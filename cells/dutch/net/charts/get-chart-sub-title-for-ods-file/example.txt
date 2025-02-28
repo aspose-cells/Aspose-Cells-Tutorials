@@ -1,0 +1,37 @@
+//ExStart
+//ExSummaryDeze code toont hoe een ODS-bestand wordt geladen, een grafiek wordt gebruikt en de ondertitel op de console wordt afgedrukt.
+//ExStepSummary:0: De code initialiseert de bron directory voor het document.
+//ExStepSummary:1: De code laadt een Excel-bestand met grafieken uit het opgegeven directory.
+//ExStepSummary:2: De code komt naar het eerste werkblad van het geladen werkboek.
+//ExStepSummary:3: De code haalt de eerste grafiek binnen het werkblad.
+//ExStepSummary:4: De code print de ondertitel van de grafiek op de console.
+//ExStepSummary:5: De code bevestigt de succesvolle uitvoering van het subtitelverhalen.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Initiaal het bron directory voor documenttoegang
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Het Excel-bestand met grafieken laden
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// Toegang tot het eerste werkblad van het werkboek
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Toegang tot de eerste grafiek in het werkblad
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Druk de ondertitel van de grafiek op de console
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// Bevestig succesvolle uitvoering
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

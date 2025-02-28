@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Bu kod Excel çalışma defteri oluşturmanın, çalışma sayfasını eklemenin ve hücreyi Aspose.Cells kullanarak biçimlendirme yöntemini gösterir.
+//ExStepSummary:0: Aşağıdaki kod, belgeler dizininin yolunu belirler.
+//ExStepSummary:1: Aşağıdaki kod, dizinin var olup olmadığını kontrol eder ve yoksa oluşturur.
+//ExStepSummary:2: Aşağıdaki kod, yeni bir Excel dosyası oluşturmak için bir Workbook nesnesini örnekler.
+//ExStepSummary:3: Aşağıdaki kod, çalışma defterine yeni bir çalışma sayfası ekler.
+//ExStepSummary:4: Bu kod, çalışma defterinin ilk çalışma sayfasına erişir.
+//ExStepSummary:5:  Aşağıdaki kod yeni eklenen çalışma sayfasındaki "A1" hücreye erişir ve "A1" hücreye bir değer ekler.
+//ExStepSummary:6: Aşağıdaki kod "A1" hücresinin biçimini elde eder ve değiştirir.
+//ExStepSummary:7: Aşağıdaki kod, çalışma defterini belirtilen dizinle kaydeder.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Belge dizinine giden yolu belirleyin
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Dizin var mı kontrol edin
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Eğer var değilse
+if (!IsExists)
+	// Dizin oluştur
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Çalışma Kutusu nesnesini bir anlık oluştur
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Çalışma defterine yeni bir çalışma sayfası ekle
+int i = workbook.Worksheets.Add();
+
+//ExStep:4-
+// Yeni eklenen çalışma sayfasına referans almak
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:5-
+// Çalışma sayfasındaki "A1" hücresine eriş
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1" hücresine bir değer ekle
+cell.PutValue("Hello Aspose!");
+
+//ExStep:6-
+// Hücre biçimini öğren
+Style style = cell.GetStyle();
+// Yazı tipi adını "Times New Roman" olarak ayarlayın.
+style.Font.Name = "Times New Roman";
+// Değiştirilmiş biçimi hücreye uygulayın
+cell.SetStyle(style);
+
+//ExStep:7-
+// Çalışma defterini belirtilen dizinle kaydet
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary: Este código muestra cómo acceder y modificar la etiqueta de un objeto Ole en un archivo Excel utilizando Aspose.Cells.
+//ExStepSummary:0: El siguiente código inicializa el directorio fuente donde se encuentra el archivo Excel.
+//ExStepSummary:1: El código carga el archivo de Excel muestra en un objeto de libro de trabajo.
+//ExStepSummary:2: Este paso accede a la primera hoja de cálculo del libro de trabajo.
+//ExStepSummary:3: Aquí, el primer objeto Ole se accede para la modificación.
+//ExStepSummary:4: La etiqueta original del objeto Ole se muestra en la consola.
+//ExStepSummary:5: La etiqueta del objeto Ole se modifica.
+//ExStepSummary:6: El libro de trabajo actualizado se guarda en un flujo de memoria.
+//ExStepSummary:7: La referencia del libro de trabajo se establece en nulo para liberar recursos.
+//ExStepSummary:8: El libro de trabajo se recarga desde el flujo de memoria para verificar los cambios.
+//ExStepSummary:9: La etiqueta modificada del objeto Ole se muestra después de la recarga.
+//ExStepSummary:10: Se muestra un mensaje de éxito en la consola para indicar la ejecución completa.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// Especifique el directorio que contiene el archivo Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Cargar el archivo Excel muestra
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// Accede a la primera hoja de trabajo
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Accede al primer objeto Ole
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// Muestre la etiqueta original del objeto Ole
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// Modificar la etiqueta del objeto Ole
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// Crear un flujo de memoria para guardar el libro de trabajo
+MemoryStream ms = new MemoryStream();
+// Guardar el libro de trabajo en la memoria
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// Establezca la referencia de la libreta de trabajo en nulo para liberar recursos
+wb = null; 
+
+//ExStep:8-
+// Cargar el libro de trabajo desde el flujo de memoria
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// Muestre la etiqueta modificada del objeto Ole
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// Indique la ejecución exitosa
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

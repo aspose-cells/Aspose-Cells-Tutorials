@@ -1,0 +1,43 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit pracovní knižku Excel, přidat textové krabice do pracovního listu a určit jak na Dálném východě, tak i latinské názvy písmen pro text v textovém krabici.
+//ExStepSummary:0: Následující kód iniciuje výstupní adresář souboru Excel.
+//ExStepSummary:1: Následující kód vytváří nový prázdný pracovní seznam.
+//ExStepSummary:2: Následující kód se dostává k prvnímu pracovnímu listu v pracovní knize.
+//ExStepSummary:3: Následující kód přidává textové krabice do pracovního listu na specifikovaných souřadnicích.
+//ExStepSummary:4: Následující kód nastavuje obsah textového krabice na "こんにち 世界" (Hello World) a určuje latinské a daleké východní název písmen pro textový krabici.
+//ExStepSummary:5: Následující kód ukládá pracovní knihu do specifikovaného výstupního adresáře.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Uveďte výstupní adresář souboru
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Vytvořit prázdný pracovní seznam
+var wb = new Workbook();
+
+//ExStep:2-
+// Přístup k prvnímu pracovnímu listu v pracovním seznamu
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Přidejte textové krabici na poloze (5,5) s šířkou 50 a výškou 200
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// Přístup k novému textovému krabici
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// Nastavte text textové skříňky na "Hello World" v japonském jazyce
+tb.Text = "こんにちは世界";
+// Uveďte latinské jméno písma
+tb.TextOptions.LatinName = "Comic Sans MS";
+// Uveďte název písma na Dálném východě
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// Uložte pracovní knižku do výstupního adresáře
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// Potvrzení úspěšného provádění
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

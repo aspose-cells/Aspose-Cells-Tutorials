@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Denna kod laddar en Excel-arbetsbok, får tillgång till specifika former i ett arbetsblad, manipulerar deras positioner i Z-orden och sparar den uppdaterade arbetsboken.
+//ExStepSummary:0: Följande kod visar hur man definierar källkataloget för Excel-filen.
+//ExStepSummary:1: Följande kod visar hur man definierar utgångsdirektoriet för Excel-filen.
+//ExStepSummary:2: Följande kod visar hur man laddar källfilen Excel.
+//ExStepSummary:3: Följande kod visar hur man får tillgång till det första arbetsbladet i arbetsboken.
+//ExStepSummary:4: Följande kod visar hur man får tillgång till de första och fjärde formerna i arbetsbladet.
+//ExStepSummary:5: Följande kod visar hur man skriver ut Z-Order-positionen i den första formen.
+//ExStepSummary:6: Följande kod visar hur man skickar den första formen framåt.
+//ExStepSummary:7: Följande kod visar hur man skriver ut Z-Order-positionen i den fjärde formen.
+//ExStepSummary:8: Följande kod visar hur man skickar den fjärde formen bakåt.
+//ExStepSummary:9: Följande kod visar hur man sparar den ändrade Excel-filen till utgångsdirektören.
+//ExStepSummary:10: Följande kod visar hur man bekräftar att operationen genomförs.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// Källaskådesbok för inmatnings Excel-fil
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Utgångsförteckning för den ändrade Excel-filen
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Läda källor Excel- fil
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// Tillgå det första arbetsbladet
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Tillträde till den första formen
+Shape sh1 = ws.Shapes[0];
+// Tillträde till den fjärde formen
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// Tryck ut Z-ordern position av den första formen
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// Skicka den här första formen till framsidan.
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// Tryck ut Z-ordern position i den fjärde formen
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// Skicka den här fjärde formen bakåt.
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// Spara utgångsfilen Excel
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// Bekräftelse av verkställighet
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

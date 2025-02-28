@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: 次のコードでは新しい Excel ファイルを作成し,ワークシートを追加し,特定のセルに画像を挿入する方法を示します.
+//ExStepSummary:0: 次のコードは,Excelファイルが所在するディレクトリを初期化します.
+//ExStepSummary:1: このステップでは,ドキュメントディレクトリが存在するかどうかを確認し,存在しない場合は作成します.
+//ExStepSummary:2: このステップでは,新しい Excel ファイルを作成する Workbook オブジェクトをインスタンスします.
+//ExStepSummary:3: このステップでは,ワークブックオブジェクトに新しいワークシートを追加し,参照を取得します.
+//ExStepSummary:4: このステップでは,指定されたセル座標で,ワークシートに画像を追加します.
+//ExStepSummary:5: このステップでは,Excelファイルを指定されたパスに保存します.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// 文書ディレクトリへの経路を定義する
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// リストが存在するかどうかを確認する
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// ワークブックオブジェクトをインスタント化する
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// 作業簿に新しい作業表を追加する
+int sheetIndex = workbook.Worksheets.Add(); 
+// 新たに追加された作業表への参照
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// 図"F6"に画像を追加する (5行,5列)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Excel ファイルを指定されたパスに保存する
+workbook.Save(dataDir + "output.xls");
+//ExEnd

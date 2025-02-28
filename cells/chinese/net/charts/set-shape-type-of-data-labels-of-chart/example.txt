@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: 这个代码显示了如何加载现有Excel工作簿,修改图表的数据标签形状类型,并将变更保存到新的Excel文件中.
+//ExStepSummary:0: 这个步骤定义了Excel文件的源和输出目录.
+//ExStepSummary:1: 这个步骤将现有Excel文件加载到 Workbook 对象中.
+//ExStepSummary:2: 通过此步骤访问工作簿中的第一个工作表.
+//ExStepSummary:3: 这一步从图中获取第一系列,并将其数据标签的形状类型改为语音泡.
+//ExStepSummary:4: 这个步骤将修改的工作簿保存到一个新的Excel文件中,有指定名称.
+//ExStepSummary:5: 通过将消息打印到控制台,这个步骤确认了程序的成功执行.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// 定义源目录
+string sourceDir = "Your Document Directory";
+// 定义输出目录
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 输入源Excel文件
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// 访问第一个工作表
+Worksheet ws = wb.Worksheets[0];
+// 访问第一个图表
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// 访问第一系列
+Series srs = ch.NSeries[0];
+// 设置数据标签的形状类型为语音泡圆形
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// 保存输出 Excel 文件
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// 确认成功执行
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

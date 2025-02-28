@@ -1,0 +1,41 @@
+//ExStart
+//ExSummaryEste código muestra cómo cargar un archivo Excel, acceder a una hoja de trabajo específica y aplicar un relleno de textura de azulejos a una forma dentro de esa hoja de trabajo.
+//ExStepSummary:0: Este paso inicializa los directorios de origen y salida para las operaciones de archivos de Excel.
+//ExStepSummary:1: Este paso carga el archivo Excel muestra que contiene una forma para modificar.
+//ExStepSummary:2: Este paso accede a la primera hoja de cálculo en el libro de trabajo cargado.
+//ExStepSummary:3: Este paso recupera la primera forma dentro de la hoja de cálculo para su modificación.
+//ExStepSummary:4: Este paso aplica un relleno de textura de imagen a la forma, permitiendo que se haga de azulejos.
+//ExStepSummary:5: Este paso guarda el libro de trabajo modificado en el directorio de salida.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// Directorio de origen donde se encuentra el archivo de entrada de Excel
+string sourceDir = "Your Document Directory"; 
+
+// Directorio de salida donde se guardará el archivo de Excel modificado
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// Cargar el archivo Excel muestra del directorio fuente
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// Accede a la primera hoja de trabajo en el libro de trabajo
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// Accede a la primera forma dentro de la hoja de cálculo
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// Tela la imagen como textura dentro de la forma, lo que permite la talla
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// Guardar el archivo Excel actualizado en el directorio de salida
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// Indique el éxito en la consola
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

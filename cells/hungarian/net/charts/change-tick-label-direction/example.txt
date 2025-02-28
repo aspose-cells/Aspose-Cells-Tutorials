@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan kell megváltoztatni a táblázat-jelölési címkék irányát egy Excel-készletlapban az Aspose.Cells könyvtár segítségével.
+//ExStepSummary:0: Teljesítsük a Excel munkafüzet mintát a megadott forráskönyvtárból.
+//ExStepSummary:1: Folyamatosítsa meg az első munkalapot a munkafüzetben.
+//ExStepSummary:2: Töltsük be az első számlapból a táblázatot.
+//ExStepSummary:3: A kategóriás tengelyjelző címkék irányát horizontálisra kell beállítani.
+//ExStepSummary:4: A módosított munkafüzetet a megadott kimeneti címkére kell tárolni.
+//ExStepSummary:5: A konszolat üzenettel erősítse meg a sikeres végrehajtást.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Az Excel fájl forráskönyve
+// Beállítsa a forrásjegyzék útvonalát
+string sourceDir = "Your Document Directory"; 
+// Beállítsa a kimeneti címlap útvonalát
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Teljesítsük az Excel munkafüzetet a megadott forrásútból
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// Az 0 index az első munkalapra utal
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Töltse be a táblázatot az első munkalapból
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// A kategóriás tengelyes csípőjelző címkéinek iránytípusát horizontálisra kell módosítani.
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// A módosított munkafüzetet mentse meg az új fájlnevet tartalmazó kimeneti címlapba
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Nyomtatás a konzolra
+// Jelölje meg a sikeresen befejezett folyamatot
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

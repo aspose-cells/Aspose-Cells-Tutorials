@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Följande kod visar hur man skapar en ny Excel-fil, lägger till ett arbetsblad och lägger in en bild i en specifik cell.
+//ExStepSummary:0: Följande kod initialiserar kataloget där Excel-filen är belägen.
+//ExStepSummary:1: Detta steg kontrollerar om dokumentkataloget existerar och skapar det om det inte finns.
+//ExStepSummary:2: Detta steg instansionerar ett arbetsbokobjekt för att skapa en ny Excel-fil.
+//ExStepSummary:3: Detta steg lägger till ett nytt arbetsblad i arbetsbokobjektet och får dess referens.
+//ExStepSummary:4: Detta steg lägger till en bild i arbetsbladet vid angivna cellkoordinater.
+//ExStepSummary:5: Detta steg sparar Excel-filen till den angivna vägen.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Definera väg till dokumentkataloget
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Kontrollera om katalog finns
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instansiera ett arbetsbokobjekt
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// Lägg till ett nytt arbetsblad i arbetsboken
+int sheetIndex = workbook.Worksheets.Add(); 
+// Få referenser till det nyligen läggs till arbetsbladet
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// Lägg till en bild i cell "F6" (rad 5, kolumn 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Spara Excel-filen till den angivna vägen
+workbook.Save(dataDir + "output.xls");
+//ExEnd

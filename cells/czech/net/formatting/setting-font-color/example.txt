@@ -1,0 +1,52 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit pracovní knihu Excel, přidat pracovní list, upravit hodnotu a styl buňky a uložit pracovní knihu.
+//ExStepSummary:0: Následující kód inicializuje adresář, kde se soubor Excel nachází.
+//ExStepSummary:1: Kód iniciuje cestu adresáře dokumentů a kontroluje, zda existuje.
+//ExStepSummary:2: Kód představuje nový objekt Workbook.
+//ExStepSummary:3: Do pracovního seznamu se přidá nový pracovní list a získává se odkaz na něj.
+//ExStepSummary:4: K buňce "A1" pracovního listu je přístupný pro změnu její hodnoty.
+//ExStepSummary:5: V případě, že je to možné, je třeba použít vzorku "A1", který je v souladu s čl.
+//ExStepSummary:6: Změněný styl se používá na buňku před uchováním pracovního seznamu.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Cesta do adresáře dokumentů.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Zkontrolujte, jestli ta adresář existuje.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Pokud neexistuje, vytvořte ho.
+if (!IsExists)
+	// Vytvořte seznam.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Zobrazování objektu Workbook.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Přidávání nového pracovního listu do objektu Excel.
+int i = workbook.Worksheets.Add();
+// Získání odkazu na nově přidaný pracovní list.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Přístup k buňce "A1" z pracovního listu.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Přidávání nějaké hodnoty k buňce "A1".
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Získání stylu buňky.
+Style style = cell.GetStyle();
+// Nastavím barvu písma na modrou.
+style.Font.Color = Color.Blue;
+// Používám styl na buňku.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Zachovávám soubor Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

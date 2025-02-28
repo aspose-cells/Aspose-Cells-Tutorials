@@ -1,0 +1,92 @@
+//ExStart
+//ExSummaryCe code montre comment créer un tableau pivot dans une feuille de calcul à l'aide de Aspose.Cells pour .NET. Il initie un carnet de travail, y ajoute des données, crée un tableau pivot, configure ses paramètres et enregistre le carnet de travail au format ODS.
+//ExStepSummary:0: Ce code définit le répertoire de sortie du fichier ODS.
+//ExStepSummary:1: Cette étape initie un objet de Workbook pour créer une nouvelle feuille de calcul.
+//ExStepSummary:2: Cette section récupère la première feuille de calcul et la collection de cellules pour la manipulation des données.
+//ExStepSummary:3: Cette étape remplit la feuille de calcul de données sur les ventes sportives pour différents trimestres.
+//ExStepSummary:4: Cette section ajoute un tableau pivot à la feuille de calcul en utilisant les données remplies.
+//ExStepSummary:5: Cette étape configure la Table pivot en définissant des champs pour les lignes, les colonnes et les données, puis la section calcule les données de la Table pivot.
+//ExStepSummary:6: Cette étape sauvegarde le carnet de travail dans le répertoire de sortie spécifié.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// Réglage du répertoire de sortie du document
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Installation d' un objet de classeur
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Obtenir la référence de la première feuille de calcul
+Worksheet sheet = workbook.Worksheets[0];
+// Obtenir la collection de cellules de la feuille
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// Accès à la cellule A1
+cell = cells["A1"];
+// Réglage de l'en-tête pour le sport
+cell.PutValue("Sport");
+// Accès à la cellule B1
+cell = cells["B1"];
+// Réglage de l' en-tête pour quart
+cell.PutValue("Quarter");
+// Celle d'accès C1
+cell = cells["C1"];
+// Réglage de l'en-tête pour les ventes
+cell.PutValue("Sales");
+
+// Ajout de données pour les sports, les trimestres et les ventes
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// Accéder à la collection de table pivot
+PivotTableCollection pivotTables = sheet.PivotTables;
+// Ajouter une table pivot basée sur la plage de données
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// Accéder à la table pivot récemment ajoutée
+PivotTable pivotTable = pivotTables[index];
+// Désactivation des totaux de rangées
+pivotTable.RowGrand = false;
+// Traîner le premier champ vers la zone de rangée
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// Traîner le deuxième champ vers la zone de colonne
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// Traîner le troisième champ vers la zone de données
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// Calcul des données pour la table pivot
+pivotTable.CalculateData();
+
+//ExStep:6-
+// Enregistrement du carnet de travail au format ODS
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// Indiquant une exécution réussie
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

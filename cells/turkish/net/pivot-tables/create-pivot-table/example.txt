@@ -1,0 +1,85 @@
+//ExStart
+//ExSummaryBu kod Excel çalışma defterini nasıl oluşturulacağını, ona veriler ekleneceğini ve çeşitli çeyreklerde farklı sporlar için satış verilerini özetlemek için bir PivotTable oluşturulacağını gösterir.
+//ExStepSummary:0: Belge dizine giden yolu initialize edin.
+//ExStepSummary:1: Yeni bir Çalışma Kitabı nesnesi oluşturun ve öntanımlı çalışma sayfasına referans alın.
+//ExStepSummary:2: Çalışma sayfasını spor, çeyrek ve satış için başlık ve verilerle doldurun.
+//ExStepSummary:3: Çalışma sayfasındaki verileri özetlemek için bir Dönüşüm Tablosu ekleyin.
+//ExStepSummary:4: PivotTable'i büyük toplamlar ve sürükleme alanlarını uygun alanlara ayarlayarak yapılandırın.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Belge dizinine giden yol
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Çalışma Kutusu nesnesini bir anlık oluştur
+Workbook workbook = new Workbook();
+// Yeni eklenen çalışma sayfasının referansını alın
+Worksheet sheet = workbook.Worksheets[0];
+// Çalışma sayfasının hücrelerine eriş
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// Erişim hücre A1
+cell = cells["A1"];
+// Sport başlığı için belirlenmiş değer
+cell.PutValue("Sport");
+// Erişim hücresi B1
+cell = cells["B1"];
+// Çeyreğin başlığı için değer belirle
+cell.PutValue("Quarter");
+// Erişim hücresi C1
+cell = cells["C1"];
+// Satış başlığı için değer belirle
+cell.PutValue("Sales");
+
+// Spor için veriler ekle
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// Üç aylık verileri ekle
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// Satış için veriler ekle
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// Hesapta erişim çekirdek tablosu
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// Çalışma sayfasına bir PivotTable eklenmesi
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// Yeni eklenen PivotTable'in örneğine eriş
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// Satırlar için büyük toplamları gösterme
+pivotTable.RowGrand = false;
+// İlk alanı (Sport) sıra alanına çek
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// İkinci alanı (Çekim) sütun alanına çek
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// Üçüncü alanı (Satış) ile veri alanına sürükle
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// Excel dosyasını kaydet
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

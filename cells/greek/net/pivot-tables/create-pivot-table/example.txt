@@ -1,0 +1,85 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel, να προσθέσετε δεδομένα σε αυτό και να δημιουργήσετε ένα PivotTable για να συνοψίσετε τα δεδομένα πωλήσεων για διαφορετικούς σπορ σε διάφορα τρίμηνα.
+//ExStepSummary:0: Αρχιερώστε τη διαδρομή στο κατάλογο εγγράφων.
+//ExStepSummary:1: Δημιουργήστε ένα νέο αντικείμενο Workbook και βρείτε την αναφορά στο προεπιλεγμένο φύλλο εργασίας.
+//ExStepSummary:2: Γεμίστε το φύλλο εργασίας με τίτλους και δεδομένα για τα αθλήματα, τα τέταρτα και τις πωλήσεις.
+//ExStepSummary:3: Προσθέστε ένα PivotTable για να συνοψίσετε τα δεδομένα στο φύλλο εργασίας.
+//ExStepSummary:4: Προσαρμόστε το pivottable ρυθμίζοντας τα μεγάλα σύνολα και τα πεδία σύρματος σε κατάλληλες περιοχές.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Δρόμο προς τον κατάλογο εγγράφων
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Εναρμηνεύστε ένα αντικείμενο Workbook
+Workbook workbook = new Workbook();
+// Πάρτε την αναφορά του πρόσφατα προστίθεται φύλλου εργασίας
+Worksheet sheet = workbook.Worksheets[0];
+// Πρόσβαση στα κύτταρα του φύλλου εργασίας
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// Κελίδα πρόσβασης Α1
+cell = cells["A1"];
+// Ορισμένη τιμή για τίτλο Sport
+cell.PutValue("Sport");
+// Κελός πρόσβασης Β1
+cell = cells["B1"];
+// Εγκατάσταση αξίας για την επικεφαλίδα Τρίγων
+cell.PutValue("Quarter");
+// Κελός πρόσβασης C1
+cell = cells["C1"];
+// Ορισμένη τιμή για τίτλο πωλήσεων
+cell.PutValue("Sales");
+
+// Προσθήκη δεδομένων για τα αθλήματα
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// Προσθήκη δεδομένων για τα τριμήνια
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// Προσθήκη δεδομένων για τις πωλήσεις
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// Πίνακες pivot πρόσβασης στο φύλλο
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// Προσθήκη PivotTable στο φύλλο εργασίας
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// Πρόσβαση στην περίπτωση του πρόσφατα προστίθεται PivotTable
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// Απαναδείξτε τα συνολικά ποσά των σειρών
+pivotTable.RowGrand = false;
+// Σέρνετε το πρώτο πεδίο (Sport) στην περιοχή της σειράς
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// Σέρνετε το δεύτερο πεδίο (Τρίμημα) στην περιοχή στήλης
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// Σέρνετε το τρίτο πεδίο (Αγορά) στην περιοχή δεδομένων
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// Κράτησε το αρχείο Excel
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

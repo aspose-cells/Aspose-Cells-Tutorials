@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar en ny Excel-arbetsbok, lägger till ett arbetsblad, anpassar en cell och sparar arbetsboken.
+//ExStepSummary:0: Följande kod definierar vägen för dokumentkataloget.
+//ExStepSummary:1: Följande kod kontrollerar om katalogn finns, om inte skapar den en.
+//ExStepSummary:2: Följande kod visar ett Workbook-objekt.
+//ExStepSummary:3: Följande kod ger en hänvisning till arbetsboken.
+//ExStepSummary:4: Följande kod får tillgång till cellen "A1" i arbetsbladet.
+//ExStepSummary:5: Följande kod lägger ett värde till cellen "A1".
+//ExStepSummary:6: Följande kod anger den horisontella justeringen av texten i cellen "A1" och möjliggör textförpackning.
+//ExStepSummary:7: Följande kod sparar Excel-arbetsboken till den angivna katalogen.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Definera vägen till dokumentkataloget
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Kontrollera om katalogn finns
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Om det inte existerar skapar det.
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instansiera ett arbetsbokobjekt
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Få en referens till det första arbetsbladet
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Tillträde till cellen "A1" från arbetsbladet
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+
+//ExStep:5-
+// Lägg till något värde i cellen "A1"
+cell.PutValue("Visit Aspose!");
+
+//ExStep:6-
+// Få den aktuella stiln i cellen
+Style style = cell.GetStyle();
+// Aktivera textpakning i cellen
+style.IsTextWrapped = true;
+// Använd den ändrade stilen tillbaka till cellen
+cell.SetStyle(style);
+
+//ExStep:7-
+// Spara Excel-filen i det angivna formatet
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

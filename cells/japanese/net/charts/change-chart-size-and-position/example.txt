@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: このコードは,Excelワークブックに表をAspose.Cellsライブラリを使用してサイズ変更し,位置変更する方法を示します.
+//ExStepSummary:0: 次のコードは Excel ファイルのためのソースと出力ディレクトリを初期化します.
+//ExStepSummary:1: ソースディレクトリから Excel ファイルサンプルを含むワークブックをロードします
+//ExStepSummary:2: 図表を操作するために,コードは作業簿の最初の作業表にアクセスします.
+//ExStepSummary:3: コードは修正目的のために,ワークシートから最初のグラフを回収します.
+//ExStepSummary:4: 幅は400ピクセル 高さ300ピクセルまで変更されます
+//ExStepSummary:5: XとY座標を設定することでコードがチャートを再配置します
+//ExStepSummary:6: 最後に,変更されたワークブックが新しいファイル名で出力ディレクトリに保存されます.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Excel ファイルのソースディレクトリ
+string sourceDir = "Your Document Directory";
+// 変更された Excel ファイルを保存するための出力ディレクトリ
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 指定された作業簿を読み込み
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// 作業簿の最初の作業表にアクセスする
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// 作業表から最初のグラフをロードする
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// グラフ幅を400ピクセルに変更する
+chart.ChartObject.Width = 400;
+// グラフの高さを300ピクセルに変更する
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// 図のX座標を再配置する
+chart.ChartObject.X = 250;
+// 図のY座標を再配置する 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// 変更されたワークブックを輸出ディレクトリに保存する
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// 実行成功の通知
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

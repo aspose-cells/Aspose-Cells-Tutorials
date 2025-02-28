@@ -1,0 +1,85 @@
+//ExStart
+//ExSummaryEz a kód bemutatja, hogyan lehet létrehozni egy Excel munkakönyvet, adatok hozzáadása hozzá, és egy PivotTable létrehozása, amely összefoglalja a különböző sportok értékesítési adatait különböző negyedéveken.
+//ExStepSummary:0: Indítsa be az út a dokumentumok könyvtárába.
+//ExStepSummary:1: Készítsen egy új Workbook objektumot, és kapja meg a alapértelmezett munkalapot.
+//ExStepSummary:2: A munkalapot töltsd ki sport, negyedév és értékesítési címekkel és adatokkal.
+//ExStepSummary:3: Adjon hozzá egy mozgó táblázat a munkalap adatainak összefoglalására.
+//ExStepSummary:4: A mozgó táblázat konfigurálása a nagy összegeinek és a húzás mezőinek megfelelő területekre történő beállításával.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// A dokumentumok könyvtárába vezető út
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Folyamatosít egy Workbook objektumot
+Workbook workbook = new Workbook();
+// Az újonnan hozzáadott munkalap hivatkozását kapja meg
+Worksheet sheet = workbook.Worksheets[0];
+// A munkalap celláinak hozzáférése
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// A hozzáférési cellák A1
+cell = cells["A1"];
+// Sport címletre vonatkozó beállított érték
+cell.PutValue("Sport");
+// A B1 hozzáférési cellát
+cell = cells["B1"];
+// A negyedév fejlettségének beállított értéke
+cell.PutValue("Quarter");
+// C1 hozzáférési cellák
+cell = cells["C1"];
+// Az értékesítési cím szerinti érték
+cell.PutValue("Sales");
+
+// Sportra vonatkozó adatok hozzáadása
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// Adatokat adjunk negyedévekre
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// Adatokat adjunk az értékesítésre
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// A lapban található hozzáférési pívot táblázatok
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// A munkalaphoz egy pivotTable-t hozzáadás
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// A frissen hozzáadott PivotTable példányához hozzáférni
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// A sorok nagy összege nem mutatható
+pivotTable.RowGrand = false;
+// A következő szöveget a következő szöveggel kell alkalmazni:
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// A második mezőt (Kvarter) a oszlop területére húzza
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// A harmadik mezőt (Szolgáltatások) a adatterületre húzza
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// Takarítsa meg az Excel fájlt
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

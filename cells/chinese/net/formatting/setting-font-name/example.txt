@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: 这个代码展示了如何创建Excel工作簿,添加工作表,并使用Aspose.Cells格式化一个细胞.
+//ExStepSummary:0: 下面的代码为文件目录设定了路径.
+//ExStepSummary:1: 下面的代码检查该目录是否存在,如果没有,则创建该目录.
+//ExStepSummary:2: 下面的代码将 Workbook 对象设置为创建新的 Excel 文件.
+//ExStepSummary:3: 下面的代码将新工作表添加到工作簿中.
+//ExStepSummary:4: 通过此代码访问工作簿的第一个工作表.
+//ExStepSummary:5:  下面的代码进入新添加的工作表中的"A1"细胞,并添加值到"A1"细胞.
+//ExStepSummary:6: 下面的代码获得并修改"A1"细胞的风格.
+//ExStepSummary:7: 下面的代码将工作簿保存到指定目录中.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// 设置文件目录的路径
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 检查目录是否存在
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// 如果它不存在
+if (!IsExists)
+	// 创建目录
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 实例化一个工作簿对象
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 添加一个新的工作表到工作簿
+int i = workbook.Worksheets.Add();
+
+//ExStep:4-
+// 获取新添加的工作表的参考
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:5-
+// 访问工作表中的"A1"细胞
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// 添加一个值到"A1"细胞
+cell.PutValue("Hello Aspose!");
+
+//ExStep:6-
+// 获取细胞的样式
+Style style = cell.GetStyle();
+// 设置字体名称为"时代新罗马"
+style.Font.Name = "Times New Roman";
+// 应用修改式到细胞
+cell.SetStyle(style);
+
+//ExStep:7-
+// 保存工作簿到指定目录中
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

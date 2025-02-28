@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να αλλάξετε το μέγεθος και να επαναθέσετε το διάγραμμα σε ένα βιβλίο εργασίας Excel χρησιμοποιώντας τη βιβλιοθήκη Aspose.Cells.
+//ExStepSummary:0: Ο ακόλουθος κώδικας αρχιτοποιεί τα καταλόγια προέλευσης και εξόδου για το αρχείο Excel.
+//ExStepSummary:1: Ο κώδικας φορτώνει ένα βιβλίο εργασίας από τον καταλόγιο προέλευσης που περιέχει ένα δείγμα αρχείου Excel.
+//ExStepSummary:2: Ο κώδικας έχει πρόσβαση στο πρώτο φύλλο εργασίας του βιβλίου εργασίας για να εργάζεται με τα διαγράμματα του.
+//ExStepSummary:3: Ο κώδικας ανακτήτρια του πρώτου διαγράμματος από το φύλλο εργασίας για σκοπούς τροποποίησης.
+//ExStepSummary:4: Ο κώδικας αναπροσαρμόζει το διάγραμμα σε πλάτος 400 και ύψος 300 πικέλων.
+//ExStepSummary:5: Ο κώδικας αναθέτει το χάρτη καθορίζοντας τις συντεταγμένες X και Y.
+//ExStepSummary:6: Τέλος, το τροποποιημένο βιβλίο εργασίας αποθηκεύεται στο κατάλογο εξόδου με νέο όνομα αρχείου.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Καταλόγιο πηγής για το αρχείο Excel
+string sourceDir = "Your Document Directory";
+// Καταλόγιο εξόδου για τη διατήρηση του τροποποιημένου αρχείου Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Εφορτώστε το καθορισμένο βιβλίο εργασίας
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// Πρόσβαση στο πρώτο φύλλο εργασίας του βιβλίου εργασίας
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Εφορτώστε το πρώτο χάρτη από το φύλλο εργασίας
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Μεταπλασιάστε το πλάτος του διαγράμματος σε 400 πικέλια
+chart.ChartObject.Width = 400;
+// Μεταπλασιάστε το ύψος του διαγράμματος σε 300 πικέλια
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// Μεταποθέτηση της συντεταγμένης X του χάρτη
+chart.ChartObject.X = 250;
+// Μεταποθέτηση της συντεταγμένης Y του χάρτη 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// Αποθηκεύστε το τροποποιημένο βιβλίο εργασίας στο κατάλογο εξόδου
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// Ενημερώστε τον χρήστη για επιτυχή εκτέλεση
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

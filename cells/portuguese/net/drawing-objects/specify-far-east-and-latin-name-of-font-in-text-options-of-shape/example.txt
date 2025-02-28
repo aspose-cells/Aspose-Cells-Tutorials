@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Este código demonstra como criar um manual de trabalho do Excel, adicionar uma caixa de texto a uma folha de trabalho e especificar nomes de fontes do Extremo Oriente e do latim para o texto na caixa de texto.
+//ExStepSummary:0: O código a seguir inicializa o diretório de saída para o arquivo Excel.
+//ExStepSummary:1: O código a seguir cria um novo livro de trabalho vazio.
+//ExStepSummary:2: O código seguinte acessa a primeira folha de cálculo do livro de trabalho.
+//ExStepSummary:3: O código a seguir adiciona uma caixa de texto à folha de cálculo em coordenadas especificadas.
+//ExStepSummary:4: O código a seguir define o conteúdo da caixa de texto para "こんにちは 世界" (Salve Mundo) e especifica os nomes de fontes latinas e do Extremo Oriente para a caixa de texto.
+//ExStepSummary:5: O código a seguir salva o livro de trabalho no diretório de saída especificado.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Especifique o diretório de saída para o arquivo
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Criar um livro de trabalho vazio
+var wb = new Workbook();
+
+//ExStep:2-
+// Acesse a primeira folha de cálculo no manual
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Adicionar uma caixa de texto na posição (5,5) com largura 50 e altura 200
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// Acesse a nova caixa de texto
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// Coloque o texto da caixa de texto em "Hello World" em japonês
+tb.Text = "こんにちは世界";
+// Especificar o nome da fonte latina
+tb.TextOptions.LatinName = "Comic Sans MS";
+// Especifique o nome da fonte do Extremo Oriente
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// Salvar o manual de trabalho no diretório de saída
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// Confirmar a execução bem-sucedida
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

@@ -1,0 +1,39 @@
+//ExStart
+//ExSummaryEste código muestra cómo crear un PDF a partir de un gráfico de Excel con un tamaño de página especificado.
+//ExStepSummary:0: Este paso define el directorio fuente donde se almacena el archivo Excel.
+//ExStepSummary:1: Este paso define el directorio de salida donde se guardará el PDF generado.
+//ExStepSummary:2: Este paso carga el archivo de Excel muestra que contiene la tabla en un objeto de libro de trabajo.
+//ExStepSummary:3: Este paso accede a la primera hoja de cálculo del libro de trabajo cargado.
+//ExStepSummary:4: Este paso accede al primer gráfico presente en la hoja de cálculo.
+//ExStepSummary:5: Este paso crea un PDF del gráfico con un tamaño y alineación de página especificados, y lo guarda en el directorio de salida.
+//ExStepSummary:6: Este paso emite un mensaje de confirmación que indica la ejecución exitosa del proceso de creación.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// Directorio de origen que contiene el archivo Excel
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Directorio de salida donde se guardará el PDF
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Cargar muestra de archivo Excel que contiene el gráfico
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// Acceso a la primera hoja de trabajo
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Accede a la primera tabla dentro de la hoja de cálculo
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// Crea gráfico PDF con el tamaño de página deseado
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// Mensaje de confirmación
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

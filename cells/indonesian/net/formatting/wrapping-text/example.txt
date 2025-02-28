@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara membuat buku kerja Excel baru, menambahkan lembar kerja, menyesuaikan sel, dan menyimpan buku kerja.
+//ExStepSummary:0: Kode berikut menentukan jalur untuk direktori dokumen.
+//ExStepSummary:1: Kode berikut memeriksa apakah direktori itu ada; jika tidak, ia membuat salah satu.
+//ExStepSummary:2: Kode berikut ini menyalin objek Workbook.
+//ExStepSummary:3: Kode berikut ini mendapatkan referensi ke lembaran kerja pertama buku kerja.
+//ExStepSummary:4: Kode berikut mengakses sel "A1" dalam lembar kerja.
+//ExStepSummary:5: Kode berikut menambahkan nilai ke sel "A1".
+//ExStepSummary:6: Kode berikut menetapkan penyelarasan horizontal teks di sel "A1" dan memungkinkan pembungkus teks.
+//ExStepSummary:7: Kode berikut menyimpan buku kerja Excel ke direktori yang ditentukan.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Tentukan jalur ke direktori dokumen
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Periksa apakah direktori itu ada
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Jika tidak ada maka buatlah
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instansify sebuah objek Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Dapatkan referensi ke lembar kerja pertama
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Akses sel "A1" dari lembar kerja
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+
+//ExStep:5-
+// Tambahkan beberapa nilai ke sel "A1"
+cell.PutValue("Visit Aspose!");
+
+//ExStep:6-
+// Dapatkan gaya sel saat ini
+Style style = cell.GetStyle();
+// Memungkinkan teks membungkus dalam sel
+style.IsTextWrapped = true;
+// Menggunakan gaya yang dimodifikasi kembali ke sel
+cell.SetStyle(style);
+
+//ExStep:7-
+// Simpan file Excel dalam format yang ditentukan
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

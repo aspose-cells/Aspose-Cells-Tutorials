@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية تحميل ملف Excel، والوصول إلى ورقة عمل محددة، وتطبيق ملء بناء الطلاء على شكل داخل تلك الورقة العمل. يتم حفظ ملف Excel المعدل ثم إلى دليل الخروج المحدد.
+//ExStepSummary:0: هذه الخطوة تبدأ إصدار الإداريات المصدرة والخروج لعمليات ملف Excel.
+//ExStepSummary:1: هذه الخطوة تحميل نموذج ملف Excel يحتوي على شكل للتعديل.
+//ExStepSummary:2: هذه الخطوة تسمح بالوصول إلى أول ورقة عمل في دفتر العمل المحمل.
+//ExStepSummary:3: هذه الخطوة تستعيد الشكل الأول داخل ورقة العمل للتعديل.
+//ExStepSummary:4: هذه الخطوة تطبق ملء بناء الصورة على الشكل، مما يسمح له بتصميم البلاط.
+//ExStepSummary:5: هذه الخطوة توفر دفتر العمل المعدل إلى دليل الخروج.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// الإداري المصدر حيث يقع ملف إدخال Excel
+string sourceDir = "Your Document Directory"; 
+
+// دليل الخروج حيث سيتم حفظ ملف Excel المعدل
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// تحميل نموذج ملف Excel من المجلد المصدر
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// الوصول إلى أول ورقة عمل في دفتر العمل
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// الوصول إلى الشكل الأول داخل ورقة العمل
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// طلاء الصورة كتركيب داخل الشكل، مما يسمح بتصميم الطلاء
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// حفظ ملف Excel المحدث إلى دليل الخروج
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// إشارة النجاح في المكالمة
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

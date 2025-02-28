@@ -1,0 +1,41 @@
+//ExStart
+//ExSummaryEste código demonstra como carregar um arquivo do Excel, acessar uma folha de cálculo específica e aplicar um preenchimento de textura de telas a uma forma dentro dessa folha de cálculo.
+//ExStepSummary:0: Esta etapa inicializa os diretórios de origem e saída para as operações de arquivo do Excel.
+//ExStepSummary:1: Esta etapa carrega o arquivo Excel de amostra contendo uma forma a modificar.
+//ExStepSummary:2: Esta etapa acessa a primeira folha de cálculo no livro de trabalho carregado.
+//ExStepSummary:3: Esta etapa recupera a primeira forma dentro da planilha de cálculo para modificação.
+//ExStepSummary:4: Este passo aplica uma textura de imagem para a forma, permitindo que seja azulejoada.
+//ExStepSummary:5: Esta etapa salva o manual de trabalho modificado no diretório de saída.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// Directório de origem onde o arquivo de entrada do Excel está localizado
+string sourceDir = "Your Document Directory"; 
+
+// Directório de saída onde o arquivo do Excel modificado será salvo
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// Carregar o arquivo Excel de amostra do diretório fonte
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// Acesse a primeira folha de cálculo no manual
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// Acesse o primeiro formato dentro da planilha
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// Tire a imagem como uma textura dentro da forma, permitindo o tecelagem
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// Salvar o arquivo Excel atualizado no diretório de saída
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// Indicar o sucesso no console
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

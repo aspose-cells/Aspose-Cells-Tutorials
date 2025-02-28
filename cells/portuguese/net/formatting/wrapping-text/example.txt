@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Este código mostra como criar um novo livro de trabalho do Excel, adicionar uma folha de trabalho, personalizar uma célula e salvar o livro de trabalho.
+//ExStepSummary:0: O código a seguir define o caminho para o diretório de documentos.
+//ExStepSummary:1: O código a seguir verifica se o diretório existe; se não, cria um.
+//ExStepSummary:2: O código a seguir representa um objeto do Workbook.
+//ExStepSummary:3: O código seguinte é utilizado para obter uma referência à primeira folha de cálculo do manual de trabalho.
+//ExStepSummary:4: O código seguinte acessa a célula "A1" na folha de cálculo.
+//ExStepSummary:5: O código seguinte acrescenta um valor à célula "A1".
+//ExStepSummary:6: O código a seguir define o alinhamento horizontal do texto na célula "A1" e permite o envolvimento do texto.
+//ExStepSummary:7: O código a seguir salva o manual de trabalho do Excel no diretório especificado.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Defina o caminho para o diretório de documentos
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Verifique se o diretório existe
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Se não existe, então crie-a.
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantanear um objeto de Manual de Trabalho
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Obter uma referência à primeira folha de trabalho
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Acesse a célula "A1" da folha de cálculo
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+
+//ExStep:5-
+// Adicionar algum valor à célula "A1"
+cell.PutValue("Visit Aspose!");
+
+//ExStep:6-
+// Obtenha o estilo atual da célula
+Style style = cell.GetStyle();
+// Ativar o envelope de texto dentro da célula
+style.IsTextWrapped = true;
+// Aplique o estilo modificado de volta à célula
+cell.SetStyle(style);
+
+//ExStep:7-
+// Salvar o arquivo Excel no formato especificado
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

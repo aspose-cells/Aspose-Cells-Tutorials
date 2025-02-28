@@ -1,0 +1,68 @@
+//ExStart
+//ExSummaryDeze code toont hoe u toegang krijgt tot en het etiket van een Ole-object in een Excel-bestand met behulp van Aspose.Cells kunt wijzigen.
+//ExStepSummary:0: De volgende code initialiseert de bronmap waar het Excel-bestand zich bevindt.
+//ExStepSummary:1: De code laadt het Excel-bestand in een Workbook-object.
+//ExStepSummary:2: Deze stap geeft toegang tot het eerste werkblad in het werkboek.
+//ExStepSummary:3: Hier is het eerste Ole-object toegelaten voor wijziging.
+//ExStepSummary:4: Het originele etiket van het Ole-object wordt weergegeven in de console.
+//ExStepSummary:5: Het etiket van het Ole-object is gewijzigd.
+//ExStepSummary:6: Het bijgewerkte werkboek wordt opgeslagen in een geheugenstroom.
+//ExStepSummary:7: De werkboekverwijzing is op nul ingesteld om middelen vrij te geven.
+//ExStepSummary:8: Het werkboek wordt opnieuw geladen uit de geheugenstroom om de wijzigingen te verifiëren.
+//ExStepSummary:9: Het gewijzigde etiket van het Ole-object wordt na herladen weergegeven.
+//ExStepSummary:10: Op de console wordt een succesbericht weergegeven om de uitvoering te laten zien.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// Specificeer het directory dat het Excel-bestand bevat
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Laad het Excel-bestand
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// Toegang tot het eerste werkblad
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Toegang tot het eerste Ole-object
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// Vertoon het originele etiket van het Ole-object
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// Het etiket van het Ole-object wijzigen
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// Maak een geheugenstroom om het werkboek te bewaren
+MemoryStream ms = new MemoryStream();
+// Speer werkboek in geheugenstroom
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// Stel de werkboekverwijzing op nul om middelen vrij te geven
+wb = null; 
+
+//ExStep:8-
+// Load werkboek van de geheugenstroom
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// Vertoon het gewijzigde etiket van het Ole-object
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// Vermeld succesvolle uitvoering
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

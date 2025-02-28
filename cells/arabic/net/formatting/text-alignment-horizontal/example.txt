@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية إنشاء ملف Excel باستخدام Aspose.Cells، بما في ذلك إعداد دفتر عمل، وتعديل خلية، وتخزين الملف إلى دليل محدد.
+//ExStepSummary:0: يبدأ الرمز التالي الإداري حيث يقع ملف Excel.
+//ExStepSummary:1: يحدد الرمز التالي الطريق لمجلة الوثائق ويؤدي إلى إنشاءها إذا لم تكن موجودة.
+//ExStepSummary:2: هذه الخطوة تبدأ كائن كتاب العمل لملف Excel.
+//ExStepSummary:3: هذه الخطوة تستعيد أول ورقة عمل من دفتر العمل.
+//ExStepSummary:4: في هذه الخطوة، نصل إلى خلية "A1" من ورقة العمل ونضيف قيمة إليها.
+//ExStepSummary:5: هذه الخطوة تحدد التوجه الأفقي للنص في خلية "A1" إلى المركز.
+//ExStepSummary:6: أخيراً، يقوم الرمز بتخزين دفتر العمل إلى الإداري المحدد في شكل إكسيل 97-2003.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// حدد المسار إلى دليل الوثائق.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// تحقق من وجود المجلة
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// إخلق المجلد
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// قم بتثبيت كائن كتاب العمل لإنشاء ملف Excel الجديد.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// احصل على مرجع على ورقة العمل الأولى.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// الوصول إلى خلية "A1" من ورقة العمل.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// إضافة بعض القيمة إلى خلية "A1"
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// احصل على نمط الخلية الموجودة
+Style style = cell.GetStyle();
+// حدد التوجه الأفقي إلى المركز
+style.HorizontalAlignment = TextAlignmentType.Center;
+// تطبيق النمط المحدث على الخلية.
+cell.SetStyle(style);
+
+//ExStep:6-
+// حفظ دفتر العمل إلى الإداري المحدد في شكل إكسل 97-2003.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

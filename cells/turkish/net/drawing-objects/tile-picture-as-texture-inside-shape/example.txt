@@ -1,0 +1,41 @@
+//ExStart
+//ExSummaryBu kod, Excel dosyasını nasıl yükleyeceğinizi, belirli bir çalışma sayfasına erişeceğinizi ve bu çalışma sayfasındaki bir şekle bir bezleme doku doldurmasını gösterir.
+//ExStepSummary:0: Bu adım Excel dosya işlemleri için kaynak ve çıkış dizinlerini initialize eder.
+//ExStepSummary:1: Bu adım, değiştirilmesi gereken bir şekli içeren örnek Excel dosyasını yükler.
+//ExStepSummary:2: Bu adım yüklü çalışma defterindeki ilk çalışma sayfasına erişir.
+//ExStepSummary:3: Bu adım, değişiklik için çalışma sayfasının içindeki ilk şekli alır.
+//ExStepSummary:4: Bu adım, şekle bir resim doku doldurmasını sağlar ve bu şekilde bir kapak yapılır.
+//ExStepSummary:5: Bu adım, değiştirilmiş çalışma defterini çıkış dizine kaydetir.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// Girdi Excel dosyasının bulunduğu kaynak dizin
+string sourceDir = "Your Document Directory"; 
+
+// Değiştirilmiş Excel dosyasının kaydedileceği çıkış dizin
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// Kaynak dizininden örnek Excel dosyasını yükle
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// Çalışma defterindeki ilk çalışma sayfasına eriş
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// Çalışma sayfasındaki ilk şekle eriş
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// Resmi, şeklin içindeki bir doku olarak çizerek, çizmeyi mümkün kılar
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// Güncelleştirilmiş Excel dosyasını çıkış dizinine kaydet
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// Konsolda başarıyı göster
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

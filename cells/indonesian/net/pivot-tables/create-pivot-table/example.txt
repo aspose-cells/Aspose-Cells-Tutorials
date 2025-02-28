@@ -1,0 +1,85 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana membuat buku kerja Excel, menambahkan data ke dalamnya, dan menghasilkan PivotTable untuk meringkaskan data penjualan untuk berbagai olahraga selama berbagai trimester.
+//ExStepSummary:0: Inisialisasikan jalur ke direktori dokumen.
+//ExStepSummary:1: Buat objek Workbook baru dan dapatkan referensi ke lembar kerja default.
+//ExStepSummary:2: Isi lembar kerja dengan header dan data untuk olahraga, kuartal, dan penjualan.
+//ExStepSummary:3: Tambahkan PivotTable untuk meringkaskan data dalam lembar kerja.
+//ExStepSummary:4: Mengkonfigurasi PivotTable dengan mengatur total besar dan medan seret ke area yang sesuai.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Jalur ke direktori dokumen
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instansify sebuah objek Workbook
+Workbook workbook = new Workbook();
+// Dapatkan referensi dari lembar kerja yang baru ditambahkan
+Worksheet sheet = workbook.Worksheets[0];
+// Akses ke sel-sel lembar kerja
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// Sel Akses A1
+cell = cells["A1"];
+// Nilai tetap untuk header Sport
+cell.PutValue("Sport");
+// Sel Akses B1
+cell = cells["B1"];
+// Set value untuk header Quarter
+cell.PutValue("Quarter");
+// Sel akses C1
+cell = cells["C1"];
+// Set value for Sales header
+cell.PutValue("Sales");
+
+// Tambahkan data untuk olahraga
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// Tambahkan data untuk kuartal
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// Tambahkan data untuk penjualan
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// Tabel pemutar akses di lembar
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// Menambahkan PivotTable ke lembar kerja
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// Akses ke contoh Tabel PivotTable yang baru ditambahkan
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// Tidak menunjukkan total besar untuk baris
+pivotTable.RowGrand = false;
+// Seret bidang pertama (Sport) ke area baris
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// Seret bidang kedua (Quarter) ke area kolom
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// Seret bidang ketiga (Penjualan) ke area data
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// Simpan file Excel
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

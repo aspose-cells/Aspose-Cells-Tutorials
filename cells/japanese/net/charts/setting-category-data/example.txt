@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummary: このコードでは Excel のワークブックを作成し,サンプルデータで埋め,そのデータに基づいて列表を作成する方法を示します. 
+//ExStepSummary:0: このステップでは Excel ファイルの出力ディレクトリを指定します.
+//ExStepSummary:1: このステップでは Excel ファイルを作成するための新しいワークブックオブジェクトをインスタンスします.
+//ExStepSummary:2: このステップでは作成されたワークブックの最初のワークシートへの参照が取得されます.
+//ExStepSummary:3: このステップでは,ワークシートの特定のセルをサンプル数値データで埋めます.
+//ExStepSummary:4: このステップでは,異なるデータグループを表すために,カテゴリーラベルをワークシートに追加します.
+//ExStepSummary:5: このステップでは,指定された場所で,作業表に列表を作成し,その大きさと位置を定義します.
+//ExStepSummary:6: このステップでは,新しい構成のための新たに作成されたチャートにアクセスできます.
+//ExStepSummary:7: このステップでは,データ・シリーズを図に追加し,そのデータソースとカテゴリーデータを適切に表示する.
+//ExStepSummary:8: このステップでは生成されたワークブックを指定された出力ディレクトリに Excel ファイルとして保存します.
+//ExStepSummary:9: このステップでは,チャート設定が成功して適用されたことを示すコンソールに成功メッセージが印刷されます.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// Excel ファイルの出力ディレクトリを指定する
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 新しいワークブックオブジェクトをインスタント化する
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// 最初の作業表への参照を取得
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// セルにサンプル数値データを追加する
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// 作業表にカテゴリーラベルを追加する
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// 列表を作成する
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// 新作成されたチャートにアクセスする
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// 図にデータソースを追加する
+chart.NSeries.Add("A1:B4", true);
+// グラフのカテゴリーデータを設定
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Excel ファイルを保存する
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// 成功メッセージを印刷する
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

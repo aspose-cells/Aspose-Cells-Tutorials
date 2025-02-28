@@ -1,0 +1,61 @@
+//ExStart
+//ExSummaryDieser Code zeigt, wie man ein Excel-Arbeitsbuch mit Aspose.Cells erstellt, benutzerdefinierte Stile zu Zellen hinzufügt und das Arbeitsbuch im Excel 97-2003-Format speichert.
+//ExStepSummary:0: Der folgende Code initialisiert das Verzeichnis, in dem sich die Excel-Datei befindet.
+//ExStepSummary:1: Der folgende Code setzt den Weg für das Dokumentverzeichnis und erstellt ihn, wenn es nicht existiert.
+//ExStepSummary:2: Der folgende Code stellt ein Workbook-Objekt dar und fügt dem Workbook-Objekt ein neues Arbeitsblatt hinzu.
+//ExStepSummary:3: Der folgende Code erhebt den Zellstil A1 und verwendet eine gelbe Vordergrundfarbe mit einem vertikalen Streifenmuster.
+//ExStepSummary:4: Der folgende Code erhebt den Zellstil A2 und verwendet eine blaue Vordergrundfarbe, eine gelbe Hintergrundfarbe und ein vertikal gestrichenes Strichmuster.
+//ExStepSummary:5: Der folgende Code speichert das Arbeitsbuch im Format Excel 97-2003.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Der Weg zum Dokumentenverzeichnis.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Überprüfen Sie, ob das Verzeichnis existiert.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// Erstellen Sie ein Verzeichnis, wenn es noch nicht vorhanden ist.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instanzierung eines Workbook-Objekts.
+Workbook workbook = new Workbook();
+
+// Erstellen Sie ein neues Arbeitsblatt und erhalten Sie seinen Index.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// Erhalt der Referenz des neu hinzugefügten Arbeitsblattes durch Übergabe des Blattindex.
+Worksheet worksheet = workbook.Worksheets[i];
+// Definieren Sie einen Stil und erhalten Sie den Stil der A1-Zelle.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// Setze Zell-A1-Stil-Eigenschaften
+// Die Farbe des Vordergrunds auf gelb.
+style.ForegroundColor = Color.Yellow;
+// Das Hintergrundmuster auf vertikale Streifen einstellen.
+style.Pattern = BackgroundType.VerticalStripe;
+// Anwendet den Stil auf die Zelle A1.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// Holen Sie sich den A2-Zell-Stil.
+style = worksheet.Cells["A2"].GetStyle();
+
+// Setze Zell-A2-Stil-Eigenschaften
+// Die Farbe des Vordergrunds auf blau.
+style.ForegroundColor = Color.Blue;
+// Einstellen Sie die Hintergrundfarbe auf gelb.
+style.BackgroundColor = Color.Yellow;
+// Das Hintergrundmuster auf vertikale Streifen einstellen.
+style.Pattern = BackgroundType.VerticalStripe;
+// Anwendet den Stil auf die Zelle A2.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// Ich speichere die Excel-Datei.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

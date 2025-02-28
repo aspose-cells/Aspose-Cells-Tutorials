@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Denna kod visar hur man laddar en ODS-fil, får tillgång till ett diagram och trycker undertexterna på konsolen.
+//ExStepSummary:0: Koden initialiserar källkataloget för dokumentet.
+//ExStepSummary:1: Koden laddar en Excel-fil som innehåller diagram från den angivna katalogen.
+//ExStepSummary:2: Koden går till det första arbetsbladet i den laddade arbetsboken.
+//ExStepSummary:3: Koden hämtar det första diagrammet i arbetsbladet.
+//ExStepSummary:4: Koden skriver ut undertexterna till konsolen.
+//ExStepSummary:5: Koden bekräftar framgångsrikt utförande av subtitling hämtning.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Initialisera källkataloget för att få tillgång till dokument
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Läda Excel- filen som innehåller diagram
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// Tillgå till det första arbetsbladet i arbetsboken
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Få tillgång till det första diagrammet i arbetsbladet
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Tryck ut diagrammens undertexter på konsolen
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// Bekräfta framgångsrik utförande
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

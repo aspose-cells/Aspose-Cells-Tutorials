@@ -1,0 +1,53 @@
+//ExStart
+//ExSummaryDeze code toont hoe tekst in een vorm in een Excel-werkblad kan worden gemanipuleerd met behulp van Aspose.Cells. Het stelt de eigenschappen van tekstalinjeering in en slaat het werkboek op.
+//ExStepSummary:0: De volgende code definieert de bronmap voor Excel-bestand.
+//ExStepSummary:1: De volgende code definieert de output directory voor Excel-bestand.
+//ExStepSummary:2: De volgende code laadt een voorbeeld Excel-bestand met de gegevens.
+//ExStepSummary:3: De volgende code geeft toegang tot het eerste werkblad in het werkboek.
+//ExStepSummary:4: De volgende code bijwerkt de waarde van cel B4 met een bericht over tekstrotatie.
+//ExStepSummary:5: De volgende code heeft toegang tot de eerste vorm van het werkblad.
+//ExStepSummary:6: De volgende code wijzigt de tekstlijn van de vorm om tekstrotatie te voorkomen.
+//ExStepSummary:7: De volgende code slaat het gewijzigde werkboek op in het gespecificeerde output directory.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Definieer het bron directory waar het Excel-bestand zich bevindt
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// De output directory om het gewijzigde Excel-bestand te bewaren
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Laad het Excel-bestand
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// Toegang tot het eerste werkblad in het werkboek
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Accesscel B4 in het werkblad
+Cell b4 = ws.Cells["B4"];
+// Updaten van cel B4 met een specifiek bericht
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// Toegang tot de eerste vorm in het werkblad
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// Toegang tot de tekst-uitlijning van de vorm
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// Stel de eigenschap op om tekst niet te roteren met de vorm
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// Het gewijzigde werkboek opslaan in het output directory
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// Printen van succesbericht
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

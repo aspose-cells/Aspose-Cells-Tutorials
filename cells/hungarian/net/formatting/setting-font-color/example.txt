@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy Excel munkafüzetet, hozzáadni egy munkafüzetet, módosítani a sejt értékét és stílusát, és menteni a munkafüzetet.
+//ExStepSummary:0: Az alábbi kód az Excel fájl található címke indítványait indítja.
+//ExStepSummary:1: A kód az iratok könyvtárának útját kezdeményezi, és ellenőrizheti, hogy létezik-e.
+//ExStepSummary:2: A kód egy új Workbook objektumot jelöl.
+//ExStepSummary:3: Az új munkalapot hozzáadják a munkakönyvhez, és erre hivatkozást kapnak.
+//ExStepSummary:4: A munkalap "A1" sejtje bejut az érték módosítása érdekében.
+//ExStepSummary:5: Az "A1" sejt stílusát kapjuk, és a betűszínét kékre állítjuk.
+//ExStepSummary:6: A módosított stílust a sejtre alkalmazzák a munkafüzet mentése előtt.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// A dokumentumok könyvtárába vezető út.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ellenőrizd, hogy létezik-e a könyvtár.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Ha nem létezik, akkor hozza létre.
+if (!IsExists)
+	// Készítsünk egy katalógust.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Egy Workbook objektum instantiálása.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Új munkalapot adunk hozzá az Excel objektumhoz.
+int i = workbook.Worksheets.Add();
+// Az újonnan hozzáadott munkalaphoz való hivatkozás megszerzése.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// A "A1" sejthez férjen hozzá a munkalapból.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Ad egy kis értéket az "A1" cellának.
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Megkapjuk a cellának stílusát.
+Style style = cell.GetStyle();
+// Kékre állítjuk a betűszínt.
+style.Font.Color = Color.Blue;
+// A stílus alkalmazása a cellára.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Az Excel fájl mentése.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

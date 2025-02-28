@@ -1,0 +1,49 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit soubor Excel pomocí Aspose.Cells, včetně nastavení pracovního seznamu, úpravy buňky a ukládání souboru do specifikovaného adresáře.
+//ExStepSummary:0: Následující kód inicializuje adresář, kde se soubor Excel nachází.
+//ExStepSummary:1: Následující kód určuje cestu adresáře dokumentů a vytváří ji, pokud neexistuje.
+//ExStepSummary:2: Tento krok iniciuje objekt Workbook pro soubor Excel.
+//ExStepSummary:3: Tento krok získává první pracovní list z pracovního seznamu.
+//ExStepSummary:4: V tomto kroku se z pracovního listu dostaneme k buňce "A1" a přidáme k ní hodnotu.
+//ExStepSummary:5: Tento krok nastaví horizontální vyrovnání textu v buňce "A1" na střed.
+//ExStepSummary:6: Konečně kód uloží pracovní knihu do specifikovaného adresáře ve formátu Excel 97-2003.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Definiovat cestu do adresáře dokumentů.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Zkontrolujte, jestli ta adresář existuje.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// vytvořit adresář.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Vytvořte objekt Workbook k vytvoření nového souboru Excel.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Získejte odkaz na první pracovní list.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Přístup k buňce "A1" z pracovního listu.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Přidejte nějakou hodnotu k buňce "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Zjisti existující styl buňky.
+Style style = cell.GetStyle();
+// Nastav horizontální vyrovnání do středu.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// Aplikujte aktualizovaný styl na buňku.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Uložte pracovní knihu do specifikovaného adresáře ve formátu Excel 97-2003.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara mengubah arah label tik grafik dalam lembar kerja Excel menggunakan perpustakaan Aspose.Cells.
+//ExStepSummary:0: Pindahkan contoh Excel workbook dari direktori sumber yang ditentukan.
+//ExStepSummary:1: Akses ke lembar kerja pertama dalam buku kerja.
+//ExStepSummary:2: Pindahkan grafik dari lembar kerja pertama.
+//ExStepSummary:3: Tentukan arah label tick kategori sumbu ke horizontal.
+//ExStepSummary:4: Simpan buku kerja yang dimodifikasi ke direktori output yang ditentukan.
+//ExStepSummary:5: Konfirmasi eksekusi berhasil dengan pesan konsol.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Define direktori sumber untuk file Excel
+// Setelan jalur direktori sumber
+string sourceDir = "Your Document Directory"; 
+// Setelan jalur direktori output
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Mengunduh buku kerja Excel dari jalur sumber yang ditentukan
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// Indeks 0 mengacu pada lembar kerja pertama
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Mengunggah grafik dari lembar kerja pertama
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Mengubah jenis arah label tik kategori sumbu ke horizontal
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// Simpan buku kerja yang dimodifikasi ke direktori output dengan nama file baru
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Cetak pesan sukses ke konsol
+// Tunjukkan proses yang berhasil selesai
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

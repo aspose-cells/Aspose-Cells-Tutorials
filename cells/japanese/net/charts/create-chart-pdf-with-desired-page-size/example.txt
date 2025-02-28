@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary: このコードは,指定されたページサイズを持つエクセルチャートからPDFを作成する方法を示します. Excelワークブックをロードし,ワークシートとそのチャートにアクセスし,最終的に望ましいレイアウトを持つPDFファイルを生成します.
+//ExStepSummary:0: このステップでは Excel ファイルが保存されているソースディレクトリを定義します.
+//ExStepSummary:1: このステップでは生成された PDF が保存される輸出ディレクトリを定義します.
+//ExStepSummary:2: このステップでは,図を含むサンプル Excel ファイルをワークブックオブジェクトに読み込みます.
+//ExStepSummary:3: このステップでは,読み込みされたワークブックの最初のワークシートにアクセスします.
+//ExStepSummary:4: このステップでは,ワークシートに存在する最初のグラフにアクセスします.
+//ExStepSummary:5: このステップでは,指定されたページサイズとアライナメントを持つチャートの PDF を作成し,出力ディレクトリに保存します.
+//ExStepSummary:6: このステップでは,作成プロセスの成功の確認メッセージが出されます.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// Excel ファイルを含むソースディレクトリ
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// PDF が保存される輸出ディレクトリ
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// グラフを含む Excel ファイルを表示します
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// アクセス最初のワークシート
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// 作業表内の最初のグラフにアクセスする
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// ページサイズを希望する PDF グラフを作成する
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// 確認メッセージ
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Denna kod visar hur man laddar en befintlig Excel-arbetsbok, ändrar en diagrams dataetikettform och sparar ändringar i en ny Excel-fil.
+//ExStepSummary:0: I detta steg definieras käll- och utgångsdirektören för Excel-filerna.
+//ExStepSummary:1: Detta steg laddar en befintlig Excel-fil i ett arbetsbokobjekt.
+//ExStepSummary:2: Detta steg ger åtkomst till det första arbetsbladet i arbetsboken.
+//ExStepSummary:3: Detta steg hämtar den första serien från diagrammet och ändrar formen på dess datatyp till en talbubbla oval.
+//ExStepSummary:4: Detta steg sparar den ändrade arbetsboken till en ny Excel-fil med ett angett namn.
+//ExStepSummary:5: Detta steg bekräftar att programmet har genomförts framgångsrikt genom att ett meddelande skrivs ut på konsolen.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Definera källkataloget
+string sourceDir = "Your Document Directory";
+// Definera utgångsregisteret
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Läda källfil Excel
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// Tillgå det första arbetsbladet
+Worksheet ws = wb.Worksheets[0];
+// Tillträde till första diagrammet
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// Tillträde till den första serien
+Series srs = ch.NSeries[0];
+// Ställ formattypen på datatitel till Talbubbla Oval
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// Spara utgångsfilen Excel
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// Bekräfta framgångsrik utförande
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

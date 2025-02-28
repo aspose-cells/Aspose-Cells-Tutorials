@@ -1,0 +1,136 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit nový pracovní knižek Excel, přidat data a grafy a aplikovat 3D formátování na série grafu.
+//ExStepSummary:0: Tento krok iniciuje výstupní adresář pro pracovní knihu a vytváří nový pracovní příklad pro manipulaci s daty.
+//ExStepSummary:1: Tento krok přejmenuje první pracovní list na "DataSheet".
+//ExStepSummary:2: Tento krok získává "DataSheet" pro další vložení dat.
+//ExStepSummary:3: Tento krok přidává nový pracovní list s názvem "Můj graf" k umístění tabulky.
+//ExStepSummary:4: Tento krok vyplňuje "DataSheet" s vzorky hodnot od B1 do B3 a štítky od A1 do A3.
+//ExStepSummary:5: Tento krok iniciuje sbírku grafů pro přidání grafů do "Můj graf".
+//ExStepSummary:6: Tento krok definuje sbírku grafů v "Můj graf" a přidává graf sloupců.
+//ExStepSummary:7: Tento krok nastaví barvy pozadí a přední části ploty PlotArea a ChartArea na bílé.
+//ExStepSummary:8: Tento krok skrývá legendu pro jasnost v zobrazení tabulky.
+//ExStepSummary:9: Tento krok přidává data sérii z "DataSheet" do grafu.
+//ExStepSummary:10: V tomto kroku jsou uvedeny údaje o kategoriích pro graf.
+//ExStepSummary:11: Tento krok získává první data sérii pro účely formátování.
+//ExStepSummary:12: Tento krok přistupuje k tvarovým vlastnostem série pro 3D formátování.
+//ExStepSummary:13: Tento krok konfiguruje nastavení TopBevel, nastavení stylu, výšky a šířky.
+//ExStepSummary:14: Tento krok nastaví typ povrchového materiálu na teplý mat.
+//ExStepSummary:15: Tento krok definuje typ osvětlení povrchu.
+//ExStepSummary:16: Tento krok určuje úhel osvětlení pro zlepšení vizuální kvality.
+//ExStepSummary:17: Tento krok nastaví seriální pozadí, přední zázemí a hraniční barvy na Maroon.
+//ExStepSummary:18: Tento krok uloží pracovní knihu do uvedeného adresáře a potvrdí úspěšné provedení.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// Nastavte výstupní adresář
+string dataDir = "Your Document Directory";
+// Vytvořit nový objekt Workbook
+Workbook book = new Workbook();
+
+//ExStep:1-
+// První pracovní list přejmenovat na "DataSheet"
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// Získejte odkaz na "DataSheet"
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// Přidejte nový pracovní list do tabulky
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// Populace B1 s hodnotou 1
+dataSheet.Cells["B1"].PutValue(1);
+// Populace B2 s hodnotou 2
+dataSheet.Cells["B2"].PutValue(2);
+// Populace B3 s hodnotou 3
+dataSheet.Cells["B3"].PutValue(3);
+// Populát A1 s označením A
+dataSheet.Cells["A1"].PutValue("A");
+// Populát A2 s označením B
+dataSheet.Cells["A2"].PutValue("B");
+// Populované A3 s označením C
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// Definice sbírky grafů z "Můj graf"
+ChartCollection charts = sheet.Charts;
+// Přidejte graf sloupců
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// Přístup k nově přidanému grafu
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// Nastavte barvu pozadí plochy
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// Nastavte barvu pozadí v oblasti grafu
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// Nastavte barvu předního prostředí plochy
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Nastavte barvu předního zázemí plochy tabulky
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// Ukryjte legendu pro jasnost v zobrazení tabulky
+chart.ShowLegend = false;
+
+//ExStep:9-
+// Přidejte data série z "DataSheet"
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// Uveďte údaje kategorie pro graf
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// Získáte první data sérii pro formátování
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// Přístup k vlastnostem tvaru řady
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// Možnosti 3D formátování
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// Získáte nastavení TopBevel
+Bevel bevel = fmt3d.TopBevel;
+// Nastavte styl oblohy na Circle
+bevel.Type = BevelPresetType.Circle; 
+// Nastavte výšku oblohy
+bevel.Height = 2;
+// Nastavení šířky oblohy 
+bevel.Width = 5;
+
+//ExStep:14-
+// Typ povrchového materiálu
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// Nastavte typ osvětlení povrchu
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// Uveďte úhel osvětlení
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// Nastavte barvu pozadí řady
+ser.Area.BackgroundColor = Color.Maroon;
+// Nastavte barvu v předním zázemí řady
+ser.Area.ForegroundColor = Color.Maroon;
+// Nastavení barvy hranic řady
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// Uložte pracovní knihu do uvedeného adresáře
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// Potvrzení úspěšného provádění
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

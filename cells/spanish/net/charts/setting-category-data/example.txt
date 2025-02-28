@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummary: Este código muestra cómo crear un libro de trabajo Excel, llenarlo con datos de muestra y generar un gráfico de columnas basado en esos datos. 
+//ExStepSummary:0: Este paso especifica el directorio de salida para el archivo Excel.
+//ExStepSummary:1: Este paso muestra un nuevo objeto de libro de trabajo para crear el archivo Excel.
+//ExStepSummary:2: Este paso recupera una referencia a la primera hoja de trabajo en el libro de trabajo creado.
+//ExStepSummary:3: Este paso llena células específicas en la hoja de cálculo con datos numéricos de muestra.
+//ExStepSummary:4: Este paso añade etiquetas de categorías a la hoja de cálculo para representar diferentes grupos de datos.
+//ExStepSummary:5: Este paso crea un gráfico de columnas en la hoja de cálculo en el lugar especificado, definiendo su tamaño y posición.
+//ExStepSummary:6: Este paso accede al gráfico recién creado para una configuración adicional.
+//ExStepSummary:7: Este paso añade a la tabla una serie de datos, estableciendo su fuente de datos y los datos de categoría para representar adecuadamente la información.
+//ExStepSummary:8: Este paso guarda el libro de trabajo generado como un archivo de Excel en el directorio de salida especificado.
+//ExStepSummary:9: Este paso imprime un mensaje de éxito a la consola que indica que las configuraciones del gráfico se han aplicado con éxito.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// Especifique el directorio de salida para el archivo Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Instanciar un nuevo objeto de libro de trabajo
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Obtenga una referencia a la primera hoja de cálculo
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Añadir datos numéricos de muestra a las celdas
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// Añadir etiquetas de categorías a la hoja de cálculo
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// Crear un gráfico de columnas
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// Accede al gráfico creado recientemente
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// Añadir fuente de datos para el gráfico
+chart.NSeries.Add("A1:B4", true);
+// Establecer datos de categorías para el gráfico
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Guardar el archivo de Excel
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// Imprimir el mensaje de éxito
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

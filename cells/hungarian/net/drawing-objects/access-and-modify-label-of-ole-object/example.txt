@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet hozzáférni és módosítani az Ole objektum címkét egy Excel fájlt használva Aspose.Cells.
+//ExStepSummary:0: Az alábbi kód az Excel fájl található forráskönyv kezdeti beállítását jelenti.
+//ExStepSummary:1: A kód a Excel fájl mintát egy Workbook objektumba tölt.
+//ExStepSummary:2: Ez a lépés az első munkalaphoz vezet.
+//ExStepSummary:3: Itt az első Ole objektumhoz érkezik a módosítás céljából.
+//ExStepSummary:4: Az Ole tárgy eredeti címkéje a konzolban látható.
+//ExStepSummary:5: A Ole tárgy címkéjét módosították.
+//ExStepSummary:6: A frissített munkatárgyat memóriaáramra mentjük meg.
+//ExStepSummary:7: A munkafüzet hivatkozása nullára állítva, hogy a források szabaduljanak ki.
+//ExStepSummary:8: A munkafüzetet a memóriaáramról töltik újra a változások ellenőrizése érdekében.
+//ExStepSummary:9: Az Ole-objektum módosított címkéje feltöltés után megjelenik.
+//ExStepSummary:10: A konzolban egy siker üzenet jelenik meg, amely a végrehajtás befejezését jelzi.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// A Excel fájlot tartalmazó oldalt megadja
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Töltse be az Excel- fájl mintát
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// Az első munkalaphoz hozzáférés
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Felső Ole-objektumhoz jutás
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// A Ole-objektum eredeti címkéje megjelenítése
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// A Ole-objektum címkét módosítani
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// Tárgyaljon egy memóriaáramlást a munkafüzet mentésére
+MemoryStream ms = new MemoryStream();
+// A munkahelyet tárolja a memóriaáramra
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// A munkafüzet hivatkozását nullára állítsa a források felszabadítása érdekében
+wb = null; 
+
+//ExStep:8-
+// A memóriaáramról töltött munkafüzet
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// A Ole-objektum módosított címkéje megjelenítése
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// Jelölje a sikeres végrehajtást
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

@@ -1,0 +1,49 @@
+//ExStart
+//ExSummaryDieser Code zeigt, wie man eine Excel-Datei mit Aspose.Cells erstellt, einschließlich der Einrichtung eines Arbeitsbuchs, der Änderung einer Zelle und der Speicherung der Datei in ein bestimmtes Verzeichnis.
+//ExStepSummary:0: Der folgende Code initialisiert das Verzeichnis, in dem sich die Excel-Datei befindet.
+//ExStepSummary:1: Der folgende Code legt den Weg für das Dokumentenverzeichnis fest und erstellt ihn, wenn es nicht existiert.
+//ExStepSummary:2: Dieser Schritt initialisiert ein Workbook-Objekt für die Excel-Datei.
+//ExStepSummary:3: In diesem Schritt wird das erste Arbeitsblatt aus dem Arbeitsbuch abgerufen.
+//ExStepSummary:4: In diesem Schritt gehen wir von der Arbeitsliste zur Zelle "A1" und fügen ihr einen Wert hinzu.
+//ExStepSummary:5: In diesem Schritt wird die horizontale Ausrichtung des Textes in der Zelle "A1" in die Mitte gesetzt.
+//ExStepSummary:6: Schließlich speichert der Code das Arbeitsbuch in das angegebene Verzeichnis im Excel 97-2003-Format.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Definieren Sie den Weg zum Dokumentenverzeichnis.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Überprüfen Sie, ob das Verzeichnis existiert.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// Erstellen Sie das Verzeichnis.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instanzieren Sie ein Workbook-Objekt, um eine neue Excel-Datei zu erstellen.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Erhalten Sie einen Verweis auf das erste Arbeitsblatt.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Zugriff auf die Zelle "A1" aus dem Arbeitsblatt.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Hinzufügen Sie etwas Wert in die Zelle "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Erfahren Sie, wie die Zelle funktioniert.
+Style style = cell.GetStyle();
+// Setzen Sie die horizontale Ausrichtung in die Mitte.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// Anwendet den aktualisierten Stil auf die Zelle.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Speichern Sie das Arbeitsbuch in das angegebene Verzeichnis im Excel 97-2003-Format.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

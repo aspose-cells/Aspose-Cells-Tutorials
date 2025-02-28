@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργηθεί ένα βιβλίο εργασίας Excel, να το γεμίσει με δείγματα δεδομένων και να δημιουργηθεί ένα χάρτη στήλης με βάση αυτά τα δεδομένα. 
+//ExStepSummary:0: Αυτό το βήμα καθορίζει τον κατάλογο εξόδου για το αρχείο Excel.
+//ExStepSummary:1: Αυτό το βήμα αναγράφει ένα νέο αντικείμενο Workbook για τη δημιουργία του αρχείου Excel.
+//ExStepSummary:2: Με αυτό το βήμα λαμβάνεται αναφορά στο πρώτο φύλλο εργασίας στο δημιουργικό βιβλίο εργασίας.
+//ExStepSummary:3: Αυτό το βήμα πλημμυρίζει συγκεκριμένα κύτταρα στο φύλλο εργασίας με δείγμα αριθμητικών δεδομένων.
+//ExStepSummary:4: Σε αυτό το βήμα προστίθενται ετικέτες κατηγοριών στο φύλλο εργασίας για να αντιπροσωπεύουν διαφορετικές ομάδες δεδομένων.
+//ExStepSummary:5: Με το βήμα αυτό δημιουργείται ένα χάρτη στήλης στο φύλλο εργασίας στην καθορισμένη θέση, ορίζοντας το μέγεθος και τη θέση του.
+//ExStepSummary:6: Σε αυτό το βήμα, αποκτά πρόσβαση στο πρόσφατα δημιουργημένο διάγραμμα για περαιτέρω διαμόρφωση.
+//ExStepSummary:7: Το βήμα αυτό προσθέτει σε διάγραμμα σειρές δεδομένων, καθορίζοντας την πηγή δεδομένων και τα στοιχεία κατηγορίας ώστε να αντιπροσωπεύουν σωστά τις πληροφορίες.
+//ExStepSummary:8: Αυτό το βήμα αποθηκεύει το εγγεγραμμένο βιβλίο εργασίας ως αρχείο Excel στο καθορισμένο κατάλογο εξόδου.
+//ExStepSummary:9: Αυτό το βήμα εκτυπώνει ένα μήνυμα επιτυχίας στην κονσόλα που δείχνει ότι οι ρυθμίσεις του διαγράμματος έχουν εφαρμοστεί με επιτυχία.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// Ειδίκεστε τον κατάλογο εξόδου για το αρχείο Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Εγκαταστήστε ένα νέο αντικείμενο Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Βρείτε αναφορά στο πρώτο φύλλο εργασίας
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Προσθήκη αριθμητικών δεδομένων δείγματος στα κύτταρα
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// Προσθήκη ετικέτων κατηγορίας στο φύλλο εργασίας
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// Δημιουργήστε ένα χάρτη στήλης
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// Πρόσβαση στο πρόσφατα δημιουργημένο διάγραμμα
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// Προσθήκη πηγής δεδομένων για το διάγραμμα
+chart.NSeries.Add("A1:B4", true);
+// Συγκρότημα δεδομένων κατηγορίας για το διάγραμμα
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Κράτησε το αρχείο Excel
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// Εκτυπώστε μήνυμα επιτυχίας
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

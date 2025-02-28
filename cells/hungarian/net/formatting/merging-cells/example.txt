@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy Excel fájlt Aspose.Cells segítségével, 
+// a különböző műveletek végrehajtása során, mint például az igazolvány létrehozása, a sejt manipulációja, 
+// és a munkafüzetet meghatározott formátumban tároljuk.
+
+//ExStepSummary:0: Tárgyakodjon a dokumentumjegyzék útvonalára, és ellenőrizze, hogy létezik-e.
+//ExStepSummary:1: Új könyvtárat hozz, ha nem létezik.
+//ExStepSummary:2: A Excel fájlot képviseli egy Workbook objektum.
+//ExStepSummary:3: Kérje meg az első munkalapot a munkafüzetben.
+//ExStepSummary:4: A "A1" cellához lépjen be és adjon hozzá hozzá egy értéket.
+//ExStepSummary:5: Összefoglalja az első három oszlopot egy cellába.
+//ExStepSummary:6: Takarítsa meg a munkafüzetet a kívánt formátumban és helyben.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// A dokumentumok könyvtárába vezető út.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ellenőrizd, hogy létezik-e a könyvtár.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// Ha nem létezik, készítsen az igazolványt.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// A Excel fájlhoz egy Workbook objektumot instantiálj.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Kérje meg az első munkalapot a munkafüzetben.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// A "A1" sejthez férjen hozzá a munkalapból.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Adjon hozzá egy kis értéket az "A1" cellához.
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Összefoglalja az első három oszlopot az első sorban, hogy egyetlen sejtet hozzon létre.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// Takarítsa meg az Excel fájlt a megadott formátumban.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

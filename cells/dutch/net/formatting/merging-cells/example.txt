@@ -1,0 +1,48 @@
+//ExStart
+//ExSummaryDeze code toont aan hoe een Excel-bestand te maken met behulp van Aspose.Cells, 
+// het uitvoeren van verschillende acties, zoals het maken van een directory, celmanipulatie, 
+// en het opslaan van het werkboek in een bepaald formaat.
+
+//ExStepSummary:0: De definitie van het pad voor het document directory en controleer of het bestaat.
+//ExStepSummary:1: Maak een nieuwe directory als het niet bestaat.
+//ExStepSummary:2: Instantie een Workbook-object om het Excel-bestand te vertegenwoordigen.
+//ExStepSummary:3: Verwijzingen voor het eerste werkblad in het werkboek.
+//ExStepSummary:4: Ga naar de cel "A1" en voeg er een waarde toe.
+//ExStepSummary:5: Verzamel de eerste drie kolommen in één cel.
+//ExStepSummary:6: Bewaar het werkboek in het gewenste formaat en de gewenste locatie.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Het pad naar de documenten directory.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Controleer of de lijst bestaat.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// Maak de directory als deze niet bestaat.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantie een Workbook object voor het Excel-bestand.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Verwijzingen voor het eerste werkblad in het werkboek.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Toegang tot de cel "A1" vanaf het werkblad.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Voeg een waarde toe aan de cel "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Verzamel de eerste drie kolommen in de eerste rij om een enkele cel te maken.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// Bewaar het Excel-bestand in het gespecificeerde formaat.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

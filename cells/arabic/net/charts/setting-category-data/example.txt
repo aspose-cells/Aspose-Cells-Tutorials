@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummary: هذا الرمز يظهر كيفية إنشاء دفتر عمل Excel، وملئها مع بيانات عينات، وخلق مخطط عمود على أساس تلك البيانات. 
+//ExStepSummary:0: هذه الخطوة تحدد الإدراج الخارجي لملف Excel.
+//ExStepSummary:1: هذه الخطوة تعرض كائن كتاب العمل الجديد لإنشاء ملف Excel.
+//ExStepSummary:2: هذه الخطوة تستعيد إشارة إلى أول ورقة عمل في دفتر العمل المُنشئ.
+//ExStepSummary:3: هذه الخطوة تملأ الخلايا المحددة في ورقة العمل مع بيانات نموذجية رقمية.
+//ExStepSummary:4: هذه الخطوة تضيف علامات الفئة إلى ورقة العمل لتمثيل مجموعات البيانات المختلفة.
+//ExStepSummary:5: هذه الخطوة تخلق مخطط عمود في ورقة العمل في المكان المحدد، وتحدد حجمها وموقعها.
+//ExStepSummary:6: هذه الخطوة تسمح بالوصول إلى الرسم البياني الذي تم إنشاؤه حديثاً للحصول على مزيد من التكوين.
+//ExStepSummary:7: هذه الخطوة تضيف سلسلة البيانات إلى الرسم البياني، وتحدد مصدر البيانات والبيانات الفئة لتمثيل المعلومات بشكل صحيح.
+//ExStepSummary:8: هذه الخطوة تخزن دفتر العمل المولد كملف Excel في دليل الخروج المحدد.
+//ExStepSummary:9: هذه الخطوة تقوم بطبع رسالة نجاح إلى جهاز التحكم تشير إلى أن إعدادات الرسم البياني قد تم تطبيقها بنجاح.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// حدد الإدراج المخرج لملف Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// إعادة تشكيل كائن كتاب العمل الجديد
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// احصل على إشارة إلى ورقة العمل الأولى
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// إضافة البيانات العددية للمعينة إلى الخلايا
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// إضافة علامات الفئة إلى ورقة العمل
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// إعداد جدول العمود
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// الوصول إلى الرسم البياني الذي تم إنشاؤه حديثاً
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// إضافة مصدر البيانات للجدول
+chart.NSeries.Add("A1:B4", true);
+// تعيين بيانات الفئة للخطاب
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// حفظ ملف Excel
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// طباعة رسالة نجاح
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

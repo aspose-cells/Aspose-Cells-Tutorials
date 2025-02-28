@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara memuat file Excel, mengakses lembar kerja tertentu, dan menerapkan isi tekstur lembar ke bentuk dalam lembar kerja itu.
+//ExStepSummary:0: Langkah ini menginisialisasi direktori sumber dan output untuk operasi file Excel.
+//ExStepSummary:1: Langkah ini memuat contoh file Excel yang berisi bentuk untuk dimodifikasi.
+//ExStepSummary:2: Langkah ini mengakses lembar kerja pertama dalam buku kerja yang dimuat.
+//ExStepSummary:3: Langkah ini mengambil bentuk pertama di dalam lembar kerja untuk modifikasi.
+//ExStepSummary:4: Langkah ini menerapkan tekstur gambar mengisi ke bentuk, memungkinkan untuk di ubin.
+//ExStepSummary:5: Langkah ini menyimpan buku kerja yang dimodifikasi ke direktori output.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// direktori sumber di mana file Excel input berada
+string sourceDir = "Your Document Directory"; 
+
+// Direktori output di mana file Excel yang dimodifikasi akan disimpan
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// Mengunduh file Excel sampel dari direktori sumber
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// Akses ke lembar kerja pertama dalam buku kerja
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// Akses bentuk pertama dalam lembar kerja
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// Tiling gambar sebagai tekstur dalam bentuk, memungkinkan tile
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// Simpan file Excel yang diperbarui ke direktori output
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// Tunjukkan keberhasilan di konsol
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara mengakses dan memodifikasi label objek Ole dalam file Excel menggunakan Aspose.Cells.
+//ExStepSummary:0: Kode berikut ini menginisialisasi direktori sumber di mana file Excel berada.
+//ExStepSummary:1: Kode ini memuat sampel file Excel ke dalam objek Workbook.
+//ExStepSummary:2: Langkah ini mengakses lembar kerja pertama dalam buku kerja.
+//ExStepSummary:3: Di sini, objek Ole pertama diakses untuk modifikasi.
+//ExStepSummary:4: Label asli dari objek Ole ditampilkan di konsol.
+//ExStepSummary:5: Label objek Ole dimodifikasi.
+//ExStepSummary:6: Buku kerja yang diperbarui disimpan ke aliran memori.
+//ExStepSummary:7: Referensi buku kerja ditetapkan untuk nol untuk melepaskan sumber daya.
+//ExStepSummary:8: Buku kerja dimuat ulang dari aliran memori untuk memverifikasi perubahan.
+//ExStepSummary:9: Label yang dimodifikasi dari objek Ole ditampilkan setelah pengisian ulang.
+//ExStepSummary:10: Sebuah pesan sukses ditampilkan di konsol untuk menunjukkan eksekusi selesai.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// Tentukan direktori yang berisi file Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Mengunggah file Excel sampel
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// Akses ke lembar kerja pertama
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Akses ke objek Ole pertama
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// Tampilkan label asli dari objek Ole
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// Mengubah label objek Ole
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// Buat aliran memori untuk menyimpan buku kerja
+MemoryStream ms = new MemoryStream();
+// Simpan buku kerja ke aliran memori
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// Setel referensi buku kerja ke nol untuk melepaskan sumber daya
+wb = null; 
+
+//ExStep:8-
+// Loading workbook dari aliran memori
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// Tampilkan label yang dimodifikasi dari objek Ole
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// Tunjukkan eksekusi yang berhasil
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

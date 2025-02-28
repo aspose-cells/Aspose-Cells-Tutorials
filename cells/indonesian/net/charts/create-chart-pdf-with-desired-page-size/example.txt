@@ -1,0 +1,39 @@
+//ExStart
+//ExSummaryKode ini menunjukkan cara membuat PDF dari grafik Excel dengan ukuran halaman yang ditentukan. Ini memuat buku kerja Excel, mengakses lembar kerja dan grafiknya, dan akhirnya menghasilkan file PDF dengan tata letak yang diinginkan.
+//ExStepSummary:0: Langkah ini mendefinisikan direktori sumber di mana file Excel disimpan.
+//ExStepSummary:1: Langkah ini mendefinisikan direktori output di mana PDF yang dihasilkan akan disimpan.
+//ExStepSummary:2: Langkah ini memuat contoh file Excel yang berisi grafik ke dalam objek Workbook.
+//ExStepSummary:3: Langkah ini mengakses lembar kerja pertama dari buku kerja yang dimuat.
+//ExStepSummary:4: Langkah ini mengakses grafik pertama yang ada di lembar kerja.
+//ExStepSummary:5: Langkah ini membuat PDF dari grafik dengan ukuran halaman dan penyelarasan yang ditentukan, dan menyimpannya ke direktori output.
+//ExStepSummary:6: Langkah ini menghasilkan pesan konfirmasi yang menunjukkan eksekusi proses penciptaan berhasil.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// direktori sumber yang berisi file Excel
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Direktori output di mana PDF akan disimpan
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Pindai contoh file Excel yang berisi grafik
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// Akses ke lembar kerja pertama
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Akses grafik pertama di dalam lembar kerja
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// Buat grafik PDF dengan ukuran halaman yang diinginkan
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// Pesan konfirmasi
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

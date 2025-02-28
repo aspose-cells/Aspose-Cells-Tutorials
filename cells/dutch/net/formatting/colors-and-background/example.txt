@@ -1,0 +1,61 @@
+//ExStart
+//ExSummaryDeze code toont hoe je een Excel-werkboek kunt maken met behulp van Aspose.Cells, aangepaste stijlen aan cellen kunt toevoegen en het werkboek in Excel 97-2003 kunt opslaan.
+//ExStepSummary:0: De volgende code initialiseert de directory waar het Excel-bestand zich bevindt.
+//ExStepSummary:1: De volgende code geeft het pad voor het document directory en maakt het als het niet bestaat.
+//ExStepSummary:2: De volgende code instantieert een Workbook-object en voegt een nieuw werkblad toe aan het Workbook-object.
+//ExStepSummary:3: De volgende code neemt de A1-cel stijl in en past een gele voorgrondkleur toe met een verticaal streeppatroon.
+//ExStepSummary:4: De volgende code vindt de A2-cel stijl en past een blauwe achtergrondkleur, een gele achtergrondkleur en een verticaal streeppatroon toe.
+//ExStepSummary:5: De volgende code slaat het werkboek op in Excel 97-2003.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Het pad naar de documenten directory.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Controleer of de lijst bestaat.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// Maak een directory als het niet al aanwezig is.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Een werkboek object instantiëren.
+Workbook workbook = new Workbook();
+
+// Maak een nieuw werkblad en krijg de index.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// Het verkrijgen van de verwijzing naar het nieuw toegevoegde werkblad door de index van het werkblad te geven.
+Worksheet worksheet = workbook.Worksheets[i];
+// Definieer een stijl en krijg de stijl van de A1-cel.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// Stel eigenschappen van de cel A1-stijl
+// De kleuren van het voorgrondje zetten naar geel.
+style.ForegroundColor = Color.Yellow;
+// Het achtergrondpatroon instellen op verticale streep.
+style.Pattern = BackgroundType.VerticalStripe;
+// Pas de stijl toe op de cel A1.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// \- De A2-cel stijl.
+style = worksheet.Cells["A2"].GetStyle();
+
+// Stel eigenschappen van de cel A2-stijl
+// De kleuren van de voorgrond zetten naar blauw.
+style.ForegroundColor = Color.Blue;
+// Stel de achtergrondkleur op geel.
+style.BackgroundColor = Color.Yellow;
+// Het achtergrondpatroon instellen op verticale streep.
+style.Pattern = BackgroundType.VerticalStripe;
+// Pas de stijl toe op de cel A2.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// Het opslaan van het Excel-bestand.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

@@ -1,0 +1,88 @@
+//ExStart
+//ExSummary: هذا الرمز يوضح كيفية إنشاء دفتر عمل وتوليد جدول خط مع علامات البيانات باستخدام مكتبة Aspose.Cells.
+//ExStepSummary:0: يبدأ إعدادات الإصدارات لتخزين دفتر العمل.
+//ExStepSummary:1: يقوم بتصميم دفتر عمل جديد ويقوم بالوصول إلى ورقة العمل الأولى.
+//ExStepSummary:2: يحدد عناوين العمود "X" و "Y" لبيانات الرسم البياني.
+//ExStepSummary:3: يخلق بيانات عشوائية لسلسلتين ويملئها في الخلايا المناسبة.
+//ExStepSummary:4: يضيف مخطط خط إلى ورقة العمل ويخصيص خصائصها.
+//ExStepSummary:5: يُعدّل خصائص سلسلة البيانات الثنائية في الرسم البياني.
+//ExStepSummary:6: يحفظ دفتر العمل مع الرسم البياني المبدع.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// حدد الإدراج المخرج للكتابة
+static string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// إعداد دفتر عمل جديد
+Workbook workbook = new Workbook();
+// الوصول إلى أول ورقة عمل
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:2-
+// تعيين عنوان العمود لقيم X
+worksheet.Cells[0, 0].Value = "X";
+// تعيين عنوان العمود لقيم Y
+worksheet.Cells[0, 1].Value = "Y";
+
+//ExStep:3-
+// إعداد كائن عشوائي جديد لتوليد البيانات
+Random R = new Random();
+
+// إعداد بيانات عشوائية و حفظها في الخلايا
+for (int i = 1; i < 21; i++) // Loop to fill the first series data
+{
+    worksheet.Cells[i, 0].Value = i; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.8; // Fill the Y value (0.8 for the first series)
+}
+
+for (int i = 21; i < 41; i++) // Loop to fill the second series data
+{
+    worksheet.Cells[i, 0].Value = i - 20; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.9; // Fill the Y value (0.9 for the second series)
+}
+
+//ExStep:4-
+// إضافة جدول خط جديد إلى ورقة العمل
+int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
+Chart chart = worksheet.Charts[idx]; // Access the newly created chart
+// حدد نمط الرسم البياني
+chart.Style = 3;
+// تمكين التوسع التلقائي للخطوط
+chart.AutoScaling = true;
+// حدد لون الخلفية للمساحة
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// حدد عنوان الرسم البياني
+chart.Title.Text = "Sample Chart";
+// تحديد نوع الرسم البياني
+chart.Type = ChartType.LineWithDataMarkers;
+
+// خصائص مجموعة عنوان محور الفئة
+chart.CategoryAxis.Title.Text = "Units"; // Set the title for the category axis
+
+//ExStep:5-
+int s2_idx = chart.NSeries.Add("A2: A2", true); // Add the first series to the chart
+int s3_idx = chart.NSeries.Add("A22: A22", true); // Add the second series to the chart
+
+chart.NSeries.IsColorVaried = true; // Enable varied colors for different points
+
+// تعيين خصائص لأول سلسلة بيانات
+chart.NSeries[s2_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s2_idx].Marker.Area.ForegroundColor = Color.Yellow; // Set marker color to yellow
+chart.NSeries[s2_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s2_idx].XValues = "A2: A21"; // Define X values for the first series
+chart.NSeries[s2_idx].Values = "B2: B21"; // Define Y values for the first series
+
+// تعيين خصائص لسلسلة البيانات الثانية
+chart.NSeries[s3_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green; // Set marker color to green
+chart.NSeries[s3_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s3_idx].XValues = "A22: A41"; // Define X values for the second series
+chart.NSeries[s3_idx].Values = "B22: B41"; // Define Y values for the second series
+
+//ExStep:6-
+workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx); // Save the workbook
+Console.WriteLine("CreateLineWithDataMarkerChart executed successfully."); // Indicate successful execution
+//ExEnd

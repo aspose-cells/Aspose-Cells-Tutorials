@@ -1,0 +1,48 @@
+//ExStart
+//ExSummaryQuesto codice mostra come creare un file Excel utilizzando Aspose.Cells, 
+// mentre eseguono diverse azioni come la creazione di directory, la manipolazione cellulare, 
+// e salvare il libro di lavoro in un formato specificato.
+
+//ExStepSummary:0: Definire il percorso per la directory dei documenti e verificare se esiste.
+//ExStepSummary:1: Crea una nuova directory se non esiste.
+//ExStepSummary:2: Instantare un oggetto Workbook per rappresentare il file Excel.
+//ExStepSummary:3: Ottenere il riferimento alla prima foglia di lavoro del libro.
+//ExStepSummary:4: Accedere alla cella "A1" e aggiungerle un valore.
+//ExStepSummary:5: Fondere le prime tre colonne della prima riga in una singola cella.
+//ExStepSummary:6: Salvare il libro di lavoro nel formato e nella posizione desiderati.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Il percorso verso la cartella dei documenti.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Controlla se esiste la directory.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// Crea la directory se non esiste.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Installare un oggetto Workbook per il file Excel.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Ottenere il riferimento alla prima foglia di lavoro del libro.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Accedere alla cella "A1" dalla scheda di lavoro.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Aggiungi un certo valore alla cella "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Fondere le prime tre colonne della prima riga per creare una singola cella.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// Salvare il file Excel nel formato specificato.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

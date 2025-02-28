@@ -1,0 +1,49 @@
+//ExStart
+//ExSummaryEste código demonstra como criar um arquivo Excel usando Aspose.Cells, incluindo a configuração de um manual de trabalho, a modificação de uma célula e a salvação do arquivo para um diretório especificado.
+//ExStepSummary:0: O código a seguir inicializa o diretório onde o arquivo Excel está localizado.
+//ExStepSummary:1: O código a seguir define o caminho para o diretório de documentos e cria-o se não existir.
+//ExStepSummary:2: Este passo inicializa um objeto de Workbook para o arquivo do Excel.
+//ExStepSummary:3: Este passo recupera a primeira folha de cálculo do manual de trabalho.
+//ExStepSummary:4: Nesta etapa, acessamos a célula "A1" da folha de cálculo e adicionamos um valor a ela.
+//ExStepSummary:5: Esta etapa define o alinhamento horizontal do texto na célula "A1" no centro.
+//ExStepSummary:6: Por último, o código guarda o livro de trabalho no diretório especificado no formato Excel 97-2003.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Defina o caminho para o diretório de documentos.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Verifique se o diretório existe.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// criar o diretório.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantanear um objeto de Workbook para criar um novo arquivo do Excel.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Obter uma referência à primeira folha de trabalho.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Acesse a célula "A1" da folha de cálculo.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Adicionar algum valor à célula "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Obtenha o estilo existente da célula.
+Style style = cell.GetStyle();
+// Coloque o alinhamento horizontal no centro.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// Aplique o estilo atualizado à célula.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Salvar o manual de trabalho no diretório especificado no formato Excel 97-2003.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

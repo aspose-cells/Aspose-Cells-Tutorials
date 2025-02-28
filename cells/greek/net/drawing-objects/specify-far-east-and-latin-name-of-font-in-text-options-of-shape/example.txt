@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel, να προσθέσετε ένα κείμενο σε ένα φύλλο εργασίας και να προσδιορίσετε τόσο τις ονομασίες των γραμματοσειρών της Άπω Ανατολής όσο και τα λατινικά για το κείμενο στο κείμενο.
+//ExStepSummary:0: Ο ακόλουθος κωδικός αρχιτοποιεί τον κατάλογο εξόδου για το αρχείο Excel.
+//ExStepSummary:1: Ο ακόλουθος κώδικας δημιουργεί ένα νέο κενό βιβλίο εργασίας.
+//ExStepSummary:2: Ο ακόλουθος κώδικας προσπερνά το πρώτο φύλλο εργασίας του βιβλίου εργασίας.
+//ExStepSummary:3: Ο ακόλουθος κωδικός προσθέτει ένα κείμενο στο φύλλο εργασίας στις καθορισμένες συντεταγμένες.
+//ExStepSummary:4: Ο ακόλουθος κώδικας ορίζει το περιεχόμενο του κειμένου σε "こんにちは 世界" (Χαίρετε τον κόσμο) και προσδιορίζει τα λατινικά και μακρινά ανατολικά ονόματα γραμματοσειρών για το κειμενικό κουτί.
+//ExStepSummary:5: Ο ακόλουθος κωδικός αποθηκεύει το βιβλίο εργασίας στο καθορισμένο κατάλογο εκδόσεων.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Ειδίκεσε τον κατάλογο εξόδου για το αρχείο
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Δημιουργήστε ένα κενό βιβλίο εργασίας
+var wb = new Workbook();
+
+//ExStep:2-
+// Πρόσβαση στο πρώτο φύλλο εργασίας στο βιβλίο εργασίας
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Προσθέστε ένα κείμενο στη θέση (5,5) με πλάτος 50 και ύψος 200
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// Πρόσβαση στο νέο κείμενο
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// Ρυθμίστε το κείμενο του κειμένου σε "Hello World" στα Ιαπωνικά
+tb.Text = "こんにちは世界";
+// Ειδίκεστε το όνομα της λατινικής γραμματοσειράς
+tb.TextOptions.LatinName = "Comic Sans MS";
+// Ειδίκεστε το όνομα γραμματοσειράς της Άπω Ανατολής
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// Κράτησε το βιβλίο εργασίας στο κατάλογο εξόδου
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// Επιβεβαιώστε επιτυχημένη εκτέλεση
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

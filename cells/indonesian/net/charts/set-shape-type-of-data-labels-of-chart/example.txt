@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara memuat buku kerja Excel yang ada, memodifikasi tipe bentuk label data grafik, dan menyimpan perubahan ke file Excel baru.
+//ExStepSummary:0: Langkah ini mendefinisikan direktori sumber dan output untuk file Excel.
+//ExStepSummary:1: Langkah ini memuat file Excel yang ada ke dalam objek Workbook.
+//ExStepSummary:2: Langkah ini mengakses lembar kerja pertama dalam buku kerja.
+//ExStepSummary:3: Langkah ini mengambil seri pertama dari grafik dan memodifikasi jenis bentuk label data menjadi Speech Bubble Oval.
+//ExStepSummary:4: Langkah ini menyimpan buku kerja yang dimodifikasi ke file Excel baru dengan nama yang ditentukan.
+//ExStepSummary:5: Langkah ini mengkonfirmasi eksekusi program dengan sukses dengan mencetak pesan ke konsol.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Menentukan direktori sumber
+string sourceDir = "Your Document Directory";
+// Define direktori output
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Mengunggah file Excel sumber
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// Akses ke lembar kerja pertama
+Worksheet ws = wb.Worksheets[0];
+// Akses ke grafik pertama
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// Akses pada seri pertama
+Series srs = ch.NSeries[0];
+// Set the shape type of data labels to Speech Bubble Oval
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// Simpan file Excel output
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// Konfirmasi eksekusi yang sukses
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Ce code montre comment charger un classeur Excel existant, modifier le type de forme de l'étiquette de données d'un graphique et enregistrer les modifications dans un nouveau fichier Excel.
+//ExStepSummary:0: Cette étape définit le répertoire source et de sortie des fichiers Excel.
+//ExStepSummary:1: Cette étape charge un fichier Excel existant dans un objet de classeur de travail.
+//ExStepSummary:2: Cette étape accède à la première feuille de calcul du manuel de travail.
+//ExStepSummary:3: Cette étape récupère la première série du graphique et modifie le type de forme de ses étiquettes de données à une bulle de parole ovale.
+//ExStepSummary:4: Cette étape sauvegarde le carnet de travail modifié dans un nouveau fichier Excel avec un nom spécifié.
+//ExStepSummary:5: Cette étape confirme l'exécution réussie du programme en imprimant un message sur la console.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Définir le répertoire source
+string sourceDir = "Your Document Directory";
+// Définir le répertoire de sortie
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Charger le fichier Excel source
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// Accéder à la première feuille de calcul
+Worksheet ws = wb.Worksheets[0];
+// Accéder au premier graphique
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// Accéder à la première série
+Series srs = ch.NSeries[0];
+// Réglez le type de forme des étiquettes de données à la bulle de parole ovale
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// Enregistrez le fichier Excel de sortie
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// Confirmer l'exécution réussie
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

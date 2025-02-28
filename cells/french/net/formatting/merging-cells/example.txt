@@ -1,0 +1,48 @@
+//ExStart
+//ExSummaryCe code montre comment créer un fichier Excel en utilisant Aspose.Cells, 
+// tout en effectuant plusieurs actions telles que la création de répertoires, la manipulation de cellules, 
+// et enregistrer le manuel de travail dans un format spécifié.
+
+//ExStepSummary:0: Définir le chemin pour le répertoire de documents et vérifier s'il existe.
+//ExStepSummary:1: Créez un nouveau répertoire s'il n'existe pas.
+//ExStepSummary:2: Installez un objet de Workbook pour représenter le fichier Excel.
+//ExStepSummary:3: Obtenez la référence à la première feuille de calcul du manuel de travail.
+//ExStepSummary:4: Accédez à la cellule "A1" et ajoutez-lui une valeur.
+//ExStepSummary:5: Fusez les trois premières colonnes de la première rangée dans une seule cellule.
+//ExStepSummary:6: Enregistrez le manuel de travail dans le format et l'emplacement souhaités.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Le chemin vers le répertoire des documents.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Vérifiez si le répertoire existe.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// Créer le répertoire s'il n'existe pas.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Installez un objet de classeur de travail pour le fichier Excel.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Obtenez la référence à la première feuille de calcul du manuel de travail.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Accédez à la cellule "A1" depuis la feuille de calcul.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Ajoutez une valeur à la cellule "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Fusez les trois premières colonnes de la première rangée pour créer une seule cellule.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// Enregistrez le fichier Excel dans le format spécifié.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

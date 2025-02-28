@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: هذا البرنامج يوضح كيفية إنشاء ومصيغة دفتر عمل Excel باستخدام Aspose. يتضمن إنشاء دفتر عمل، وإضافة قيمة الخلية، وتعريف مجموعة، وتطبيق الحدود على تلك النطاق.
+//ExStepSummary:0: هذا الرمز يبدأ إدراج الوثائق لإنقاذ دفتر العمل.
+//ExStepSummary:1: هذا الرمز يخلق دليل جديد إذا لم يكن موجودا.
+//ExStepSummary:2: هذا الرمز يخلق كائن كتاب العمل الذي يمثل كتاب عمل Excel.
+//ExStepSummary:3: هذا الرمز يصل إلى أول ورقة عمل من دفتر العمل.
+//ExStepSummary:4: هذا الرمز يصل إلى خلية "A1" لإدخال قيمة.
+//ExStepSummary:5: هذا الرمز يطبق الحدود السميكة على المدى المحدد في مختلف الاتجاهات.
+//ExStepSummary:6: هذا الرمز يحفظ دفتر العمل إلى مسار الملف المحدد.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// حدد مسار دليل الوثائق.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// تحقق من وجود المجلد
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// إذا لم يكن هناك دليل
+if (!IsExists)
+	// إعداد الإداري
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// تحديد كائن كتاب العمل
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// الحصول على إشارة إلى ورقة العمل الأولى
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// الوصول إلى خلية "A1" في ورقة العمل
+Cell cell = worksheet.Cells["A1"];
+// إضافة قيمة إلى خلية "A1"
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// إعداد نطاق من "A1" إلى العمود الثالث
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// تطبيق أساليب الحدود المختلفة على النطاق
+// حدد الحدود العليا
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// حد أدنى محدد
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// حدد الحدود اليسرى
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// حدد الحدود اليمنى
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// حفظ ملف Excel
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd

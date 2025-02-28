@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Der folgende Code zeigt, wie man eine neue Excel-Datei erstellt, ein Arbeitsblatt hinzufügt und ein Bild in eine bestimmte Zelle einfügt.
+//ExStepSummary:0: Der folgende Code initialisiert das Verzeichnis, in dem sich die Excel-Datei befindet.
+//ExStepSummary:1: Dieser Schritt überprüft, ob das Dokumentenverzeichnis existiert und erstellt es, wenn es nicht existiert.
+//ExStepSummary:2: Dieser Schritt stellt ein Workbook-Objekt zum Erstellen einer neuen Excel- Datei vor.
+//ExStepSummary:3: Dieser Schritt fügt dem Werkbuchobjekt ein neues Arbeitsblatt hinzu und erhält seine Referenz.
+//ExStepSummary:4: Dieser Schritt fügt ein Bild an das Arbeitsblatt an bestimmten Zellkoordinaten hinzu.
+//ExStepSummary:5: Dieser Schritt speichert die Excel-Datei auf den angegebenen Pfad.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Definition des Weges zum Dokumentenverzeichnis
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Überprüfen Sie , ob das Verzeichnis existiert
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instanzieren Sie ein Werkbuchobjekt
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// Fügen Sie ein neues Arbeitsblatt zum Arbeitsbuch hinzu
+int sheetIndex = workbook.Worksheets.Add(); 
+// Erhalten Sie einen Hinweis auf das neu hinzugefügte Arbeitsblatt
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// Hinzufügen eines Bildes in die Zelle "F6" (Reihe 5, Spalte 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Speichern Sie die Excel-Datei auf den angegebenen Weg
+workbook.Save(dataDir + "output.xls");
+//ExEnd

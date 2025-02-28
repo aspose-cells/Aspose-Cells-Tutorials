@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet méretét átalakítani és újrakezdeni egy grafikont egy Excel munkakönyvben az Aspose.Cells könyvtár segítségével.
+//ExStepSummary:0: Az alábbi kód az Excel fájl forráskönyveinek és kimeneti címlapoknak az initializálását jelenti.
+//ExStepSummary:1: A kód egy Excel-fájlmintát tartalmazó munkafüzetet tölt be a forráskönyvtől.
+//ExStepSummary:2: A kód a munkakönyv első munkalapjára lép, hogy a diagramokkal dolgozzon.
+//ExStepSummary:3: A kód a módosítás céljából az első táblázatot a munkalapból veszi vissza.
+//ExStepSummary:4: A kód 400 és 300 pikszel szélességű grafikonra változtatja a méretét.
+//ExStepSummary:5: A kód a térképet a X és Y koordinátáival helyettesíti.
+//ExStepSummary:6: Végül a módosított munkafüzetet egy új fájlnevet tartalmazó kimeneti címlapba tárolják.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Az Excel fájl forráskönyve
+string sourceDir = "Your Document Directory";
+// A módosított Excel fájl mentésére szolgáló kimeneti direktorium
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Teljesítsük a megadott munkafüzetet
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// A munkafüzet első munkalapjára hozzáférés
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Töltse be az első táblázatot a munkalapból
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Átmérni a térkép szélességét 400 pikselre
+chart.ChartObject.Width = 400;
+// Átmérni a diagram magasságát 300 pikselre
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// A térkép X koordinátáját helyezze át
+chart.ChartObject.X = 250;
+// A térkép Y koordinátája 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// A módosított munkafüzetet mentse meg a kimeneti címlapba
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// Jelentse a felhasználót a sikeres végrehajtásról
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

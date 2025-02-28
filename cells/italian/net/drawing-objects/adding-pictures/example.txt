@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Il seguente codice mostra come creare un nuovo file Excel, aggiungere un foglio di lavoro e inserire un'immagine in una cellula specifica.
+//ExStepSummary:0: Il seguente codice inizializza la directory in cui si trova il file Excel.
+//ExStepSummary:1: Questo passo verifica se la directory dei documenti esiste e la crea se non esiste.
+//ExStepSummary:2: Questo passaggio visualizza un oggetto Workbook per creare un nuovo file Excel.
+//ExStepSummary:3: Questa fase aggiunge una nuova scheda di lavoro all'oggetto Workbook e ne ottiene il riferimento.
+//ExStepSummary:4: Questo passo aggiunge un'immagine alla scheda di lavoro alle coordinate della cella specificate.
+//ExStepSummary:5: Questo passaggio salva il file Excel sul percorso specificato.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Definire il percorso della directory di documenti
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Controllare se esiste una directory
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantare un oggetto Workbook
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// Aggiungere un nuovo foglio di lavoro al libro di lavoro
+int sheetIndex = workbook.Worksheets.Add(); 
+// Richiedi riferimento alla scheda di lavoro aggiunta
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// Aggiungere un'immagine alla cella "F6" ( riga 5, colonna 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Salvare il file Excel sul percorso specificato
+workbook.Save(dataDir + "output.xls");
+//ExEnd

@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Este código demonstra como alterar a direcção dos rótulos de marcação de gráfico em uma folha de cálculo do Excel usando a biblioteca Aspose.Cells.
+//ExStepSummary:0: Carregar a lista de trabalho do Excel de exemplo do diretório de origem especificado.
+//ExStepSummary:1: Acesse a primeira folha de cálculo no manual.
+//ExStepSummary:2: Carregue o gráfico da primeira folha de cálculo.
+//ExStepSummary:3: Defina a direcção das etiquetas de marcação do eixo da categoria para horizontal.
+//ExStepSummary:4: Salvar o manual de trabalho modificado no diretório de saída especificado.
+//ExStepSummary:5: Confirme execução bem-sucedida com uma mensagem do console.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Defina o diretório de origem para o arquivo Excel
+// Defina o caminho do diretório de origem
+string sourceDir = "Your Document Directory"; 
+// Configurar o caminho do diretório de saída
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Carregar o manual do Excel a partir do caminho de origem especificado
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// Indice 0 refere-se à primeira folha de cálculo
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Carregar o gráfico da primeira folha de cálculo
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Cambio do tipo de direcção das etiquetas de marcação do eixo da categoria para horizontal
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// Salvar o manual de trabalho modificado no diretório de saída com um novo nome de arquivo
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Imprimir uma mensagem de sucesso para o console
+// Indicar o processo concluído com êxito
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

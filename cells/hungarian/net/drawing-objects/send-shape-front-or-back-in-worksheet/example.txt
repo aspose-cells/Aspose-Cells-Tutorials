@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Ez a kód egy Excel munkafüzetet tölt be, hozzáfér egy munkafüzetben meghatározott formákhoz, manipulálja a Z sorrendben lévő pozíciókat, és megőrzi a frissített munkafüzetet.
+//ExStepSummary:0: Az alábbi kód megmutatja, hogyan kell meghatározni az Excel fájl forráskönyvét.
+//ExStepSummary:1: Az alábbi kód megmutatja, hogyan kell meghatározni az Excel fájl kiviteli címlapját.
+//ExStepSummary:2: Az alábbi kód mutatja, hogyan töltsük be az Excel forrásfájlt.
+//ExStepSummary:3: A következő kód mutatja, hogyan lehet hozzáférni a munkafüzet első munkalapjához.
+//ExStepSummary:4: A következő kód mutatja, hogyan lehet elérni az első és a negyedik formát a munkalapban.
+//ExStepSummary:5: A következő kód mutatja, hogyan nyomtatható az első formájú Z-Order pozíció.
+//ExStepSummary:6: A következő kód mutatja, hogyan küldjük el az első formát a frontra.
+//ExStepSummary:7: A következő kód mutatja, hogyan nyomtatható a negyedik alak Z-Order pozíciója.
+//ExStepSummary:8: A következő kód mutatja, hogyan küldjük a negyedik formát hátra.
+//ExStepSummary:9: Az alábbi kód megmutatja, hogyan mentheti meg a módosított Excel fájlt a kimeneti címlapba.
+//ExStepSummary:10: A következő kód mutatja, hogyan lehet megerősíteni a művelet végrehajtását.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// Az Excel-fájl beadására vonatkozó forráskönyv
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// A módosított Excel fájl kimeneti directoryja
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Töltő forrás Excel fájl
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// Az első munkalaphoz hozzáférés
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Az első formába lépés
+Shape sh1 = ws.Shapes[0];
+// A negyedik formába lépés
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// Nyomtatja az első formában lévő Z-rend pozícióját
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// Küldd el ezt az első formát a frontra.
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// Nyomtatja a negyedik formában lévő Z-rend pozícióját
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// Küldd el ezt a negyedik formát hátra.
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// A kiviteli Excel fájl mentése
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// A végrehajtás megerősítése
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

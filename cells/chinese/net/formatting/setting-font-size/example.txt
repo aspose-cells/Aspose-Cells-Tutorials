@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: 这代码展示了如何使用Aspose.Cells创建Excel文件. 它启动了工作簿,添加了工作表,填充了一个单元,修改了单元的字体大小,并将工作簿保存到指定目录中.
+//ExStepSummary:0: 这一步说明如何定义文件目录的路径.
+//ExStepSummary:1: 如果没有,该指南将显示如何创建目录.
+//ExStepSummary:2: 工作簿对象的实例化.
+//ExStepSummary:3: 工作簿中如何添加新工作表,并按索引获取.
+//ExStepSummary:4: 这一步详细说明如何访问特定的细胞并填充它一个值.
+//ExStepSummary:5: 这一步解释了如何获得细胞的风格,并修改字体大小,并显示如何将修改的风格应用到细胞中.
+//ExStepSummary:6: 这一步说明了如何将工作簿保存到指定文件路径.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// 定义文件目录的路径
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 检查目录是否存在
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// 如果它不存在
+if (!IsExists)
+	// 创建目录
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 实例化一个工作簿对象
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 添加一个新的工作表到工作簿
+int i = workbook.Worksheets.Add();
+// 获取新添加的工作表的参考
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// 从工作表访问"A1"细胞
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// 填充"A1"细胞的值
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// 获取细胞的风格
+Style style = cell.GetStyle();
+// 设置字体大小为14
+style.Font.Size = 14;
+// 应用修改式到细胞
+cell.SetStyle(style);
+
+//ExStep:6-
+// 保存工作簿到指定文件路径
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

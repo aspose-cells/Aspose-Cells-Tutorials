@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Ce code montre comment modifier la direction des étiquettes de balises de graphique dans une feuille de calcul Excel à l'aide de la bibliothèque Aspose.Cells.
+//ExStepSummary:0: Charger l'échantillon de classeur Excel depuis le répertoire source spécifié.
+//ExStepSummary:1: Accédez à la première feuille de calcul du carnet de travail.
+//ExStepSummary:2: Chargez le graphique de la première feuille de calcul.
+//ExStepSummary:3: Réglez la direction des étiquettes de marquage de l'axe de catégorie à l'horizontale.
+//ExStepSummary:4: Enregistrez le carnet de travail modifié dans le répertoire de sortie spécifié.
+//ExStepSummary:5: Confirmer l'exécution réussie avec un message de console.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Définir le répertoire source du fichier Excel
+// Définir le chemin de l' annuaire source
+string sourceDir = "Your Document Directory"; 
+// Définir le chemin de l' annuaire de sortie
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Charger le carnet de travail Excel à partir du chemin source spécifié
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// L'indice 0 fait référence à la première feuille de calcul
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Charger le graphique à partir de la première feuille de calcul
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Modifier le type de direction des étiquettes de marquage d'axe de catégorie à l'horizontale
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// Enregistrer le carnet de travail modifié dans le répertoire de sortie avec un nouveau nom de fichier
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Imprimez un message de succès sur la console
+// Indiquer le processus achevé avec succès
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

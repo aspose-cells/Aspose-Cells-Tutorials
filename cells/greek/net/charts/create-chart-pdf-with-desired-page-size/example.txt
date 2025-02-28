@@ -1,0 +1,39 @@
+//ExStart
+//ExSummaryΟ κώδικας αυτός δείχνει πώς να δημιουργήσετε ένα PDF από ένα διάγραμμα Excel με καθορισμένο μέγεθος σελίδας.
+//ExStepSummary:0: Αυτό το βήμα καθορίζει τον καταλόγιο πηγής όπου αποθηκεύεται το αρχείο Excel.
+//ExStepSummary:1: Αυτό το βήμα καθορίζει τον κατάλογο εξόδου όπου θα αποθηκευτεί το δημιουργημένο PDF.
+//ExStepSummary:2: Αυτό το βήμα φορτώνει το δείγμα αρχείου Excel που περιέχει το διάγραμμα σε αντικείμενο Workbook.
+//ExStepSummary:3: Με αυτό το βήμα γίνεται πρόσβαση στο πρώτο φύλλο εργασίας του φορτωμένου βιβλίου εργασίας.
+//ExStepSummary:4: Με αυτό το βήμα γίνεται η πρόσβαση στο πρώτο διάγραμμα που βρίσκεται στο φύλλο εργασίας.
+//ExStepSummary:5: Αυτό το βήμα δημιουργεί ένα PDF του διαγράμματος με καθορισμένο μέγεθος σελίδας και ευθυγράμμιση, και το αποθηκεύει στο καταλόγιο εξόδου.
+//ExStepSummary:6: Το βήμα αυτό εκδίδει ένα μήνυμα επιβεβαίωσης που δείχνει επιτυχή εκτέλεση της διαδικασίας δημιουργίας.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// Καταλόγιο πηγής που περιέχει το αρχείο Excel
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Καταλόγιο εξόδου όπου θα αποθηκευτεί το PDF
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Εφορτώστε δείγμα αρχείου Excel που περιέχει το διάγραμμα
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// Πρόσβαση σε πρώτο φύλλο εργασίας
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Πρόσβαση στο πρώτο χάρτη μέσα στο φύλλο εργασίας
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// Δημιουργήστε πίνακα PDF με το επιθυμητό μέγεθος της σελίδας
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// Επιστολή επιβεβαίωσης
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية إنشاء دفتر عمل Excel باستخدام Aspose.Cells، وإضافة أساليب مخصصة إلى الخلايا، والإنقاذ من دفتر العمل في تصميم Excel 97-2003.
+//ExStepSummary:0: يبدأ الرمز التالي الإداري حيث يقع ملف Excel.
+//ExStepSummary:1: يحدد الرمز التالي المسار لمجلة الوثائق ويخلقه إذا لم يكن موجوداً.
+//ExStepSummary:2: يظهر الرمز التالي كائن كتاب العمل ويضيف ورقة عمل جديدة إلى كائن كتاب العمل.
+//ExStepSummary:3: يستخدم الرمز التالي نمط الخلية A1 و يطبق لونًا أصفرًا في الأساس مع نمط شريط عمودي.
+//ExStepSummary:4: يستخدم الرمز التالي نمط الخلية A2 و يطبق لون الأزرق في الأفق، و لون الخلفية الأصفر، ونمط شريط عمودي.
+//ExStepSummary:5: الترميز التالي يحفظ دفتر العمل في تصميم Excel 97-2003.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// الطريق إلى دليل الوثائق
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// تحقق من وجود المجلة
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// إعداد دليل إذا لم يكن موجوداً بالفعل.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// تحديد كائن كتاب العمل
+Workbook workbook = new Workbook();
+
+// إعداد ورقة عمل جديدة والحصول على فهرسها.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// الحصول على إشارة ورقة العمل المضافة حديثاً عن طريق عبور مؤشر ورقة العمل.
+Worksheet worksheet = workbook.Worksheets[i];
+// حدد النمط والحصول على النمط الخلية A1.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// تعيين خصائص نمط الخلية A1
+// إعداد لون الأضواء إلى الصفراء
+style.ForegroundColor = Color.Yellow;
+// تعيين نمط الخلفية إلى شريط عمودي.
+style.Pattern = BackgroundType.VerticalStripe;
+// تطبيق النمط على خلية A1.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// احصل على نمط الخلية A2.
+style = worksheet.Cells["A2"].GetStyle();
+
+// تعيين خصائص نمط الخلية A2
+// إعداد لون الدرج الأول إلى الأزرق
+style.ForegroundColor = Color.Blue;
+// إعداد لون الخلفية إلى الأصفر
+style.BackgroundColor = Color.Yellow;
+// تعيين نمط الخلفية إلى شريط عمودي.
+style.Pattern = BackgroundType.VerticalStripe;
+// تطبيق النمط على خلية A2.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// حفظ ملف Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

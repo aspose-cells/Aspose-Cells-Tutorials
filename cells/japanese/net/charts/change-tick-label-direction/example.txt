@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: このコードでは,ExcelのワークシートでAspose.Cellsライブラリを使用してチャートタックラベルの方向を変更する方法を示します.
+//ExStepSummary:0: 指定されたソースディレクトリから Excel のサンプルワークブックをロードします.
+//ExStepSummary:1: 作業簿の最初の作業表にアクセスしてください.
+//ExStepSummary:2: 最初の表からチャートを読み込みます
+//ExStepSummary:3: カテゴリー軸のティックラベルの方向を水平に設定する.
+//ExStepSummary:4: 変更されたワークブックを指定された出力ディレクトリに保存します.
+//ExStepSummary:5: コンソールメッセージで成功の実行を確認する.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Excel ファイルのソースディレクトリを定義する
+// ソースディレクトリ経路を設定
+string sourceDir = "Your Document Directory"; 
+// 出力ディレクトリ経路を設定
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 指定されたソースパスから Excel のワークブックをロードする
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// 指標0は最初の作業表を指します
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// 図表を最初の作業表から読み込み
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// カテゴリー軸のティックラベルの方向タイプを水平に変更する
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// 変更されたワークブックを新しいファイル名で出力ディレクトリに保存する
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// コンソールに成功メッセージをプリントする
+// 順調に完了したプロセスを表示する
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: 这个代码展示了如何创建Excel工作簿,添加工作表,修改细胞的值和样式,并保存工作簿.
+//ExStepSummary:0: 下面的代码初始化Excel文件所在的目录.
+//ExStepSummary:1: 代码将文件目录的路径初始化,并检查是否存在.
+//ExStepSummary:2: 代码表示一个新的工作簿对象.
+//ExStepSummary:3: 工作簿中添加了一个新的工作表,并获得了参考文件.
+//ExStepSummary:4: 访问工作表中的"A1"细胞以修改其值.
+//ExStepSummary:5: 获取"A1"细胞的风格,字体颜色设置为蓝色.
+//ExStepSummary:6: 在保存工作簿之前,修改式的样式应用于细胞.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// 文件目录的路径.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 检查有没有目录.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// 如果它不存在,就创造它.
+if (!IsExists)
+	// 创建目录.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 实例化一个工作簿对象.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 添加一个新的表格到Excel对象.
+int i = workbook.Worksheets.Add();
+// 获取新添加的工作表的引用.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// 访问从工作表中访问"A1"细胞.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// 增加一些值"A1"细胞.
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// 得到细胞的风格.
+Style style = cell.GetStyle();
+// 设置字体颜色为蓝色.
+style.Font.Color = Color.Blue;
+// 应用这种风格到细胞.
+cell.SetStyle(style);
+
+//ExStep:6-
+// 保存了Excel文件.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan töltsük be egy meglévő Excel munkafüzetet, módosítsuk egy táblázat adatcímké formáját, és mentse meg a módosításokat egy új Excel fájlokba.
+//ExStepSummary:0: Ez a lépés meghatározza az Excel fájlok forráskönyvét és kimeneti címlapját.
+//ExStepSummary:1: Ez a lépés egy meglévő Excel fájlt tölt be egy Workbook objektumba.
+//ExStepSummary:2: Ez a lépés az első munkalaphoz vezet.
+//ExStepSummary:3: Ez a lépés az első sorozatot a diagramból állítja ki, és az adatcímkéinek alakját egy beszédbubbó óvalra módosítja.
+//ExStepSummary:4: Ez a lépés az módosított munkafüzetet az adott névű új Excel fájlokba tárolja.
+//ExStepSummary:5: Ez a lépés megerősíti a program sikeres végrehajtását egy üzenet nyomtatásával a konzolra.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Tisztázza a forráskönyvet
+string sourceDir = "Your Document Directory";
+// A kimeneti index meghatározása
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Teljesítse a forrás Excel fájlt
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// Az első munkalaphoz hozzáférés
+Worksheet ws = wb.Worksheets[0];
+// Az első táblázathoz jutás
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// Az első sorozathoz hozzáférés
+Series srs = ch.NSeries[0];
+// Az adatcímkéek alak típusa a Beszédbubboly Oval
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// A kiviteli Excel fájl mentése
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// A sikeres végrehajtás megerősítése
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

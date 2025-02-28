@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummaryDeze code toont hoe een Excel-werkboek wordt gemaakt, wordt gevuld met steekproefgegevens en een kolomgrafiek op basis van die gegevens wordt gegenereerd. 
+//ExStepSummary:0: Deze stap geeft de output directory voor het Excel-bestand aan.
+//ExStepSummary:1: Deze stap instantieert een nieuw Workbook-object voor het maken van het Excel- bestand.
+//ExStepSummary:2: Deze stap geeft een verwijzing naar het eerste werkblad in het gecreëerde werkboek.
+//ExStepSummary:3: Deze stap vult specifieke cellen in het werkblad met numerische gegevens in de steekproef.
+//ExStepSummary:4: In deze stap worden categorieetiketten toegevoegd aan het werkblad om verschillende gegevensgroepen te vertegenwoordigen.
+//ExStepSummary:5: Deze stap maakt een kolomgrafiek in het werkblad op de opgegeven locatie, waarin de grootte en positie worden gedefinieerd.
+//ExStepSummary:6: Deze stap geeft toegang tot de nieuw gecreëerde grafiek voor verdere configuratie.
+//ExStepSummary:7: Deze stap voegt gegevensreeks toe aan de grafiek, waarbij de gegevensbron en de gegevens van de categorie worden ingesteld om de informatie goed te weergeven.
+//ExStepSummary:8: Deze stap slaat het gegenereerde werkboek op als een Excel-bestand in de gespecificeerde output directory.
+//ExStepSummary:9: Deze stap print een succesbericht naar de console waarin wordt aangegeven dat de grafiekinstellingen succesvol zijn toegepast.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// Specificeer het output directory voor het Excel-bestand
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Instantie een nieuw werkboek object
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Verwijzingen voor het eerste werkblad
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Voeg numerische gegevens toe aan de cellen
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// Categorieetiketten toevoegen aan het werkblad
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// Maak een kolomdiagram
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// Toegang tot de nieuw gecreëerde grafiek
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// Voeg gegevensbron toe voor het schema
+chart.NSeries.Add("A1:B4", true);
+// Stel categoriegegevens voor de grafiek
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Het Excel-bestand bewaren
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// Printen van succesbericht
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

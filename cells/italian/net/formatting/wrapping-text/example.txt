@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Questo codice mostra come creare una nuova libreria di lavoro Excel, aggiungere una scheda di lavoro, personalizzare una cella e salvare la libreria.
+//ExStepSummary:0: Il seguente codice definisce il percorso della directory di documenti.
+//ExStepSummary:1: Il seguente codice verifica se la directory esiste; se no, ne crea una.
+//ExStepSummary:2: Il seguente codice rappresenta un oggetto Workbook.
+//ExStepSummary:3: Il seguente codice dà un riferimento alla prima foglia di lavoro del libro di lavoro.
+//ExStepSummary:4: Il seguente codice accede alla cella "A1" della foglia di lavoro.
+//ExStepSummary:5: Il seguente codice aggiunge un valore alla cella "A1".
+//ExStepSummary:6: Il seguente codice imposta l'allineamento orizzontale del testo nella cella "A1" e consente l'avvolgimento del testo.
+//ExStepSummary:7: Il seguente codice salva la scheda di lavoro di Excel nella directory specificata.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Definire il percorso per la directory di documenti
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Controllare se l' elenco esiste
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Se non esiste, allora crealo.
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantare un oggetto Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Ottenere un riferimento alla prima foglia di lavoro
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Accedere alla cella "A1" dalla scheda di lavoro
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+
+//ExStep:5-
+// Aggiungere un certo valore alla cella "A1"
+cell.PutValue("Visit Aspose!");
+
+//ExStep:6-
+// Ottieni lo stile attuale della cella
+Style style = cell.GetStyle();
+// Abilitare l' avvolgimento di testo all'interno della cella
+style.IsTextWrapped = true;
+// Applicare lo stile modificato alla cella
+cell.SetStyle(style);
+
+//ExStep:7-
+// Salvare il file Excel nel formato specificato
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

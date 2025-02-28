@@ -1,0 +1,85 @@
+//ExStart
+//ExSummaryEste código demonstra como criar um manual de trabalho do Excel, adicionar dados a ele e gerar uma Tabela Pivot para resumir os dados de vendas para diferentes esportes em vários trimestres.
+//ExStepSummary:0: Inicialize o caminho para o diretório de documentos.
+//ExStepSummary:1: Crie um novo objeto do Workbook e obtenha a referência à folha de trabalho padrão.
+//ExStepSummary:2: Preencha a folha de trabalho com cabeçalhos e dados para esportes, quartos e vendas.
+//ExStepSummary:3: Adicione uma Tabela Pivot para resumir os dados na planilha de cálculo.
+//ExStepSummary:4: Configurar a Tabela Pivot definindo os totais e os campos de arrasto em áreas apropriadas.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// Caminho para o diretório de documentos
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instantanear um objeto de Manual de Trabalho
+Workbook workbook = new Workbook();
+// Obter a referência da folha de trabalho recém-adicionada
+Worksheet sheet = workbook.Worksheets[0];
+// Acesse as células da planilha de cálculo
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// Célula de acesso A1
+cell = cells["A1"];
+// Valor definido para cabeçalho Sport
+cell.PutValue("Sport");
+// Célula de acesso B1
+cell = cells["B1"];
+// Valor definido para cabeçalho Quarter
+cell.PutValue("Quarter");
+// Célula de acesso C1
+cell = cells["C1"];
+// Valor definido para cabeçalho de vendas
+cell.PutValue("Sales");
+
+// Adicionar dados para esportes
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// Adicionar dados para trimestres
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// Adicionar dados de vendas
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// Tabelas de acesso de pivot na folha
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// Adicionar uma tabela pivot à planilha
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// Acesse a instância da Tabela Pivot recém- adicionada
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// Não mostrar grandes totais para linhas
+pivotTable.RowGrand = false;
+// Arraste o primeiro campo (Esporte) para a área de linha
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// Arraste o segundo campo (Quarter) para a área da coluna
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// Arraste o terceiro campo (Vendas) para a área de dados
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// Salvar o arquivo do Excel
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

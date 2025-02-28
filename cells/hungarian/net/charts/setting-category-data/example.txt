@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy Excel munkafüzetet, beöltözni minták adatokkal, és generálni egy oszlop-diagram az adatok alapján. 
+//ExStepSummary:0: Ez a lépés az Excel fájl kiviteli címlapját határozza meg.
+//ExStepSummary:1: Ez a lépés egy új Workbook objektumot jelöl ki az Excel fájl létrehozására.
+//ExStepSummary:2: Ez a lépés a létrehozott munkafüzet első munkalapjára utal.
+//ExStepSummary:3: Ez a lépés a munkalapban meghatározott sejteket tölti be mintában szereplő számadatokkal.
+//ExStepSummary:4: Ez a lépés a munkalaphoz kategóriacímkéket ad hozzá, hogy különböző adatcsoportokat képvisezzen.
+//ExStepSummary:5: Ez a lépés egy oszlop-diagramot hoz létre a munkalapban a megadott helyen, meghatározva a méretét és pozícióját.
+//ExStepSummary:6: Ez a lépés hozzáfér az újonnan létrehozott táblázathoz további konfiguráció céljából.
+//ExStepSummary:7: Ez a lépés az adatszövegeket adja hozzá a táblázathoz, és az adatforrás és a kategóriájú adatok megfelelő képviseli az információkat.
+//ExStepSummary:8: Ez a lépés az előállított munkafüzetet az Excel fájlokként tárolja a megadott kimeneti címlapban.
+//ExStepSummary:9: Ez a lépés nyomtatja a konzolnak a siker üzenetet, amely azt jelzi, hogy a grafikon beállításait sikeresen alkalmazták.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// A Excel fájl kiállítási címke
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Új Workbook objektum beállítása
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Kapjon hivatkozást az első munkalapra
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// A cellákba adjuk a minták számadatát
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// Kategóriacímkéket adjon a munkalaphoz
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// Készítsen egy oszlop-diagramot
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// A frissen létrehozott táblázathoz hozzáférés
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// Adatforrás hozzáadása a táblázathoz
+chart.NSeries.Add("A1:B4", true);
+// A táblázat kategóriájú adatainak beállítása
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Takarítsa meg az Excel fájlt
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// Nyomtatás siker üzenet
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

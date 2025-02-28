@@ -1,0 +1,136 @@
+//ExStart
+//ExSummaryBu kod, yeni bir Excel çalışma defteri oluşturmanın, veriler ve tablolar eklemenin ve tablo dizilerine 3D biçimlendirme uygulamanın nasıl yapılacağını gösterir.
+//ExStepSummary:0: Bu adım, çalışma defteri için çıkış dizini başlatır ve verileri manipüle etmek için yeni bir çalışma defteri örneği oluşturur.
+//ExStepSummary:1: Bu adım ilk çalışma sayfasının adını "DataSheet" olarak değiştirir.
+//ExStepSummary:2: Bu adım, daha fazla veri eklemek için "DataSheet" i alır.
+//ExStepSummary:3: Bu adım, tabloyu yerleştirmek için "MyChart" başlıklı yeni bir çalışma sayfasını ekler.
+//ExStepSummary:4: Bu adım, "DataSheet" i B1'den B3'e ve A1'den A3'e kadar etiketlerle doldurur.
+//ExStepSummary:5: Bu adım "MyChart"a tablolar eklemek için ÇartKolleksiyon'u initializer.
+//ExStepSummary:6: Bu adım "MyChart"daki Çarşın Koleksiyonunu tanımlar ve Bir sütun çizelgesini ekler.
+//ExStepSummary:7: Bu adım, grafikin PlotArea ve ChartArea'nın arka plan ve ön plan renkleri beyaz olarak ayarlar.
+//ExStepSummary:8: Bu adım, grafik gösterisinde açıklık için efsaneyi saklar.
+//ExStepSummary:9: Bu adım, "DataSheet" den veri dizisini şart'a ekler.
+//ExStepSummary:10: Bu adım, tablo için kategoriler verilerini belirler.
+//ExStepSummary:11: Bu adım, biçimlendirme amaçlı ilk veri dizisini alır.
+//ExStepSummary:12: Bu adım, 3D biçimlendirme için serinin şekil özelliklerine erişmektedir.
+//ExStepSummary:13: Bu adım TopBevel ayarlarını, stil, boyut ve genişliği ayarlamayı yapılandırır.
+//ExStepSummary:14: Bu adım yüzey malzemesini Warm Matte'ye ayarlar.
+//ExStepSummary:15: Bu adım yüzey için aydınlatma türünü tanımlar.
+//ExStepSummary:16: Bu adım, görsel artış için aydınlatmanın açısını belirler.
+//ExStepSummary:17: Bu adım, serinin arka plan, ön plan ve sınır renklerini Maroon'a ayarlar.
+//ExStepSummary:18: Bu adım, çalışma defterini belirtilen dizine kaydetir ve başarılı bir şekilde gerçekleştirildiğini doğruluyor.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// Çıktı Dizin Yolunu Ayarla
+string dataDir = "Your Document Directory";
+// Yeni bir Çalışma Kutusu nesnesini oluştur
+Workbook book = new Workbook();
+
+//ExStep:1-
+// İlk çalışma sayfasının adını "DataSheet" olarak değiştir
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// "DataSheet"e referans edin
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// Tabloya yeni bir çalışma sayfası ekle
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// 1 değerli B1 nüfuslu
+dataSheet.Cells["B1"].PutValue(1);
+// 2 değerli B2 nüfuslu
+dataSheet.Cells["B2"].PutValue(2);
+// 3 değerli B3 nüfuslu
+dataSheet.Cells["B3"].PutValue(3);
+// A etiketli A1 popülatı
+dataSheet.Cells["A1"].PutValue("A");
+// B etiketli A2 popülatı
+dataSheet.Cells["A2"].PutValue("B");
+// C etiketli A3 popülatı
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// "MyChart"dan Çarşın Toplantısını Define Et
+ChartCollection charts = sheet.Charts;
+// Bir sütun tablosunu ekle
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// Yeni eklenen grafiklere eriş
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// PlotArea'nın arka plan rengi ayarlan
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// Çizgi alanı arka plan rengi ayarlayın
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// PlotArea'nın ön plan rengi ayarlan
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Grafik alanının ön plan rengi ayarlan
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// Efsaneyi açıklık için grafik gösterisinde gizle
+chart.ShowLegend = false;
+
+//ExStep:9-
+// "DataSheet" den veri dizini ekle
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// Tablo için kategoriler verilerini belirtin
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// Formate için ilk veri dizini alın
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// Serinin şekil özelliklerine erişmek
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// Erişim 3D biçimlendirme seçenekleri
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// TopBevel ayarlarını alın
+Bevel bevel = fmt3d.TopBevel;
+// Çember biçimini ayarlayın
+bevel.Type = BevelPresetType.Circle; 
+// Sıkılık ayarlayın
+bevel.Height = 2;
+// Sıkılık ayarlayın 
+bevel.Width = 5;
+
+//ExStep:14-
+// Sıfır yüzey malzemesi tipi
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// Yüzeyin aydınlatma türünü ayarlayın
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// Işıklandırmanın açısını belirtin
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// Seriler arkaplan rengi ayarlayın
+ser.Area.BackgroundColor = Color.Maroon;
+// Serilerin ön plan rengi ayarlan
+ser.Area.ForegroundColor = Color.Maroon;
+// Serinin sınır rengi ayarlan
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// Çalışma defterini belirtilen dizinle kaydet
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// Başarılı bir şekilde idam edildiğini doğrulayın
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

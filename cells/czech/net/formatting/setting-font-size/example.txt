@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit soubor Excel pomocí Aspose.Cells. Inicializuje pracovní knihu, přidává pracovní list, vyplňuje buňku textem, mění velikost písma buňky a ukládá pracovní knihu do specifikovaného adresáře.
+//ExStepSummary:0: Tento krok ukazuje, jak definovat cestu do adresáře dokumentů.
+//ExStepSummary:1: Tento krok ukazuje, jak vytvořit adresář, pokud už neexistuje.
+//ExStepSummary:2: Tento krok ukazuje instancizaci objektu Workbook.
+//ExStepSummary:3: Tento krok ukazuje, jak do pracovního seznamu přidat nový pracovní list a získat ho podle indexu.
+//ExStepSummary:4: Tento krok podrobně popisuje, jak získat přístup k konkrétní buňce a naplnit ji hodnotou.
+//ExStepSummary:5: Tento krok vysvětluje, jak získat styl buňky a upravit velikost písma a ukazuje, jak aplikovat změněný styl na buňku.
+//ExStepSummary:6: Tento krok ilustruje, jak uložit pracovní knihu na určitou složku.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Definice cesty do adresáře dokumentů
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Zkontrolujte, zda existuje adresář
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Pokud neexistuje
+if (!IsExists)
+	// Vytvořit adresář
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Vytvořte objekt Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Přidejte do pracovního seznamu nový pracovní list
+int i = workbook.Worksheets.Add();
+// Získejte odkaz na nově přidaný pracovní list
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Přístup k buňce "A1" z pracovního listu
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Populovat buňku "A1" hodnotou
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Získejte styl buňky.
+Style style = cell.GetStyle();
+// Nastav velikost písma na 14
+style.Font.Size = 14;
+// Aplikujte změněný styl na buňku
+cell.SetStyle(style);
+
+//ExStep:6-
+// Uložte pracovní knižku na zadávanou složku
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

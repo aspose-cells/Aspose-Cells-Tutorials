@@ -1,0 +1,88 @@
+//ExStart
+//ExSummaryDeze code toont hoe een werkboek wordt gemaakt en een lijngrafiek met gegevensmarkeringen wordt gegenereerd met behulp van de bibliotheek Aspose.Cells.
+//ExStepSummary:0: Initiaaliseert de output directory voor het opslaan van het werkboek.
+//ExStepSummary:1: Instantieert een nieuw werkboek en krijgt toegang tot het eerste werkblad.
+//ExStepSummary:2: Stel de kolomtitels "X" en "Y" in voor de grafiekgegevens.
+//ExStepSummary:3: Het genereert willekeurige gegevens voor twee series en vult deze in de juiste cellen.
+//ExStepSummary:4: Voegt een lijngrafiek toe aan het werkblad en past de eigenschappen ervan aan.
+//ExStepSummary:5: Configureert de eigenschappen voor de twee data-reeks in het grafiek.
+//ExStepSummary:6: Het opslaat het werkboek met de gecreëerde grafiek.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// Stel de output directory voor het werkboek in
+static string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Een nieuw werkboek installeer
+Workbook workbook = new Workbook();
+// Toegang tot het eerste werkblad
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:2-
+// Stel kolomtitel voor X-waarden
+worksheet.Cells[0, 0].Value = "X";
+// Stel kolomtitel voor Y-waarden
+worksheet.Cells[0, 1].Value = "Y";
+
+//ExStep:3-
+// Creëer een nieuw willekeurig object voor het genereren van gegevens
+Random R = new Random();
+
+// Maak willekeurige gegevens en opslaan ze in de cellen
+for (int i = 1; i < 21; i++) // Loop to fill the first series data
+{
+    worksheet.Cells[i, 0].Value = i; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.8; // Fill the Y value (0.8 for the first series)
+}
+
+for (int i = 21; i < 41; i++) // Loop to fill the second series data
+{
+    worksheet.Cells[i, 0].Value = i - 20; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.9; // Fill the Y value (0.9 for the second series)
+}
+
+//ExStep:4-
+// Voeg een nieuwe lijngrafiek toe aan het werkblad
+int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
+Chart chart = worksheet.Charts[idx]; // Access the newly created chart
+// Stel de grafiekstijl in
+chart.Style = 3;
+// Automatische schaalverwerking voor het schema
+chart.AutoScaling = true;
+// Stel de achtergrondkleur van het perceelgebied in
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Stel de titel van de grafiek in
+chart.Title.Text = "Sample Chart";
+// Definieer het type grafiek
+chart.Type = ChartType.LineWithDataMarkers;
+
+// De categorie-axis-titel
+chart.CategoryAxis.Title.Text = "Units"; // Set the title for the category axis
+
+//ExStep:5-
+int s2_idx = chart.NSeries.Add("A2: A2", true); // Add the first series to the chart
+int s3_idx = chart.NSeries.Add("A22: A22", true); // Add the second series to the chart
+
+chart.NSeries.IsColorVaried = true; // Enable varied colors for different points
+
+// Stel eigenschappen voor de eerste gegevensreeks
+chart.NSeries[s2_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s2_idx].Marker.Area.ForegroundColor = Color.Yellow; // Set marker color to yellow
+chart.NSeries[s2_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s2_idx].XValues = "A2: A21"; // Define X values for the first series
+chart.NSeries[s2_idx].Values = "B2: B21"; // Define Y values for the first series
+
+// Stel eigenschappen voor de tweede gegevensreeks
+chart.NSeries[s3_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green; // Set marker color to green
+chart.NSeries[s3_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s3_idx].XValues = "A22: A41"; // Define X values for the second series
+chart.NSeries[s3_idx].Values = "B22: B41"; // Define Y values for the second series
+
+//ExStep:6-
+workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx); // Save the workbook
+Console.WriteLine("CreateLineWithDataMarkerChart executed successfully."); // Indicate successful execution
+//ExEnd

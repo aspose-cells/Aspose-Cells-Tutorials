@@ -1,0 +1,88 @@
+//ExStart
+//ExSummaryEste código demonstra como criar um livro de trabalho e gerar um gráfico de linhas com marcadores de dados usando a biblioteca Aspose.Cells.
+//ExStepSummary:0: Inicializa o diretório de saída para salvar o manual de trabalho.
+//ExStepSummary:1: Instala um novo manual de trabalho e acessa a primeira folha de trabalho.
+//ExStepSummary:2: Configura os títulos de coluna "X" e "Y" para os dados do gráfico.
+//ExStepSummary:3: Gera dados aleatórios para duas séries e enche-os nas células apropriadas.
+//ExStepSummary:4: Adiciona um gráfico de linhas à folha de cálculo e personaliza suas propriedades.
+//ExStepSummary:5: Configura as propriedades das duas séries de dados no gráfico.
+//ExStepSummary:6: Salva o manual de trabalho com o gráfico criado.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// Configurar o diretório de saída para o manual de trabalho
+static string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Instalar um novo manual de trabalho
+Workbook workbook = new Workbook();
+// Acesse a primeira folha de cálculo
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:2-
+// Determine o título da coluna para os valores X
+worksheet.Cells[0, 0].Value = "X";
+// Determine o título da coluna para valores Y
+worksheet.Cells[0, 1].Value = "Y";
+
+//ExStep:3-
+// Criar um novo objeto aleatório para gerar dados
+Random R = new Random();
+
+// Criar dados aleatórios e salvá-los nas células
+for (int i = 1; i < 21; i++) // Loop to fill the first series data
+{
+    worksheet.Cells[i, 0].Value = i; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.8; // Fill the Y value (0.8 for the first series)
+}
+
+for (int i = 21; i < 41; i++) // Loop to fill the second series data
+{
+    worksheet.Cells[i, 0].Value = i - 20; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.9; // Fill the Y value (0.9 for the second series)
+}
+
+//ExStep:4-
+// Adicionar um novo gráfico de linhas para a folha de cálculo
+int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
+Chart chart = worksheet.Charts[idx]; // Access the newly created chart
+// Configurar o estilo do gráfico
+chart.Style = 3;
+// Ativar a escalação automática para o gráfico
+chart.AutoScaling = true;
+// Defina a cor de fundo da área do gráfico
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Defina o título do gráfico
+chart.Title.Text = "Sample Chart";
+// Defina o tipo de gráfico
+chart.Type = ChartType.LineWithDataMarkers;
+
+// Propriedades do conjunto do título do eixo da categoria
+chart.CategoryAxis.Title.Text = "Units"; // Set the title for the category axis
+
+//ExStep:5-
+int s2_idx = chart.NSeries.Add("A2: A2", true); // Add the first series to the chart
+int s3_idx = chart.NSeries.Add("A22: A22", true); // Add the second series to the chart
+
+chart.NSeries.IsColorVaried = true; // Enable varied colors for different points
+
+// Determinação das propriedades para as primeiras séries de dados
+chart.NSeries[s2_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s2_idx].Marker.Area.ForegroundColor = Color.Yellow; // Set marker color to yellow
+chart.NSeries[s2_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s2_idx].XValues = "A2: A21"; // Define X values for the first series
+chart.NSeries[s2_idx].Values = "B2: B21"; // Define Y values for the first series
+
+// Propriedades definidas para a segunda série de dados
+chart.NSeries[s3_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green; // Set marker color to green
+chart.NSeries[s3_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s3_idx].XValues = "A22: A41"; // Define X values for the second series
+chart.NSeries[s3_idx].Values = "B22: B41"; // Define Y values for the second series
+
+//ExStep:6-
+workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx); // Save the workbook
+Console.WriteLine("CreateLineWithDataMarkerChart executed successfully."); // Indicate successful execution
+//ExEnd

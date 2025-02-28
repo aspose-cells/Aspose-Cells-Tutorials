@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية تحميل دفتر عمل Excel القائم، والوصول إلى الرسم البياني، واسترداد أنواع قيم X و Y من نقاط البيانات.
+//ExStepSummary:0: هذه الخطوة تعريف المجلد المصدر حيث يقع وثيقة إكسيل.
+//ExStepSummary:1: هذه الخطوة تحميل نموذج ملف Excel يحتوي على الرسم البياني في كائن كتاب العمل.
+//ExStepSummary:2: هذه الخطوة تسمح للعمل على أول ورقة عمل في دفتر العمل للعمل مع محتوياتها.
+//ExStepSummary:3: هذه الخطوة تستعيد الرسم البياني الأول الموجود في ورقة العمل للتحليل.
+//ExStepSummary:4: هذه الخطوة تحسب نقاط البيانات والصيغ المستخدمة في الرسم البياني لاسترداد البيانات بدقة.
+//ExStepSummary:5: هذه الخطوة تستعيد أول نقطة بيانات من السلسلة الأولى من الرسم البياني لفحص خصائصها.
+//ExStepSummary:6: هذه الخطوة تقوم بطبع أنواع قيم X و Y المرتبطة بنقطة الرسم البياني المستردة، مما يوفر رؤى إلى شكل البيانات.
+//ExStepSummary:7: هذه الخطوة تؤكد تنفيذ العملية بنجاح عن طريق إصدار رسالة نجاح إلى الجهاز.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+
+//ExStep:0-
+// تحديد الإداري المصدر للوثيقة
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// تحميل نموذج ملف Excel يحتوي على الرسم البياني.
+Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx"); 
+
+//ExStep:2-
+// الوصول إلى أول ورقة عمل في دفتر العمل
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// احصل على الرسم البياني الأول من ورقة العمل
+Chart ch = ws.Charts[0]; 
+
+//ExStep:4-
+// حساب نقاط البيانات والصيغ في الرسم البياني
+ch.Calculate(); 
+
+//ExStep:5-
+// استعادة أول نقطة بيانات من السلسلة الأولى في الرسم البياني
+ChartPoint pnt = ch.NSeries[0].Points[0]; 
+
+//ExStep:6-
+// طبع أنواع قيم X و Y من نقطة الرسم البياني.
+Console.WriteLine("X Value Type: " + pnt.XValueType);
+Console.WriteLine("Y Value Type: " + pnt.YValueType);
+
+//ExStep:7-
+// تأكيد نجاح الإعدام
+Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");
+//ExEnd

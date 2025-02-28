@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryEste código demonstra como criar um arquivo do Excel usando Aspose.Cells. Inicializa um livro de trabalho, adiciona uma folha de trabalho, enche uma célula de texto, modifica o tamanho de fonte da célula e salva o livro de trabalho em um diretório especificado.
+//ExStepSummary:0: Este passo mostra como definir o caminho para o diretório de documentos.
+//ExStepSummary:1: Este passo mostra como criar um diretório se ele não já existe.
+//ExStepSummary:2: Este passo demonstra a instantiação de um objeto de Manual de Trabalho.
+//ExStepSummary:3: Esta etapa indica como adicionar uma nova folha de trabalho ao manual de trabalho e obtê-la por índice.
+//ExStepSummary:4: Este passo detalha como acessar uma célula específica e preenchê-la com um valor.
+//ExStepSummary:5: Este passo explica como obter o estilo da célula e modificar o tamanho da fonte e mostra como aplicar o estilo modificado à célula.
+//ExStepSummary:6: Este passo ilustra como salvar o manual de trabalho para um caminho de arquivo especificado.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Defina o caminho para o diretório de documentos
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Verifique se o diretório existe
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Se não existir
+if (!IsExists)
+	// Criar o diretório
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instantanear um objeto de Manual de Trabalho
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Adicionar uma nova folha de cálculo ao manual
+int i = workbook.Worksheets.Add();
+// Obter a referência da folha de cálculo recém- adicionada
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Acesse a célula "A1" da folha de cálculo
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// População da célula "A1" com um valor
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Obter o estilo da célula
+Style style = cell.GetStyle();
+// Defina o tamanho da fonte para 14
+style.Font.Size = 14;
+// Aplicar o estilo modificado à célula
+cell.SetStyle(style);
+
+//ExStep:6-
+// Salvar o manual de trabalho para o caminho de arquivo especificado
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

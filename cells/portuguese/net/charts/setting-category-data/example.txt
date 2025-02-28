@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummaryEste código demonstra como criar um manual de trabalho do Excel, preenchê-lo com dados de amostra e gerar um gráfico de coluna com base nesses dados. 
+//ExStepSummary:0: Esta etapa especifica o diretório de saída para o arquivo do Excel.
+//ExStepSummary:1: Este passo representa um novo objeto de Workbook para criar o arquivo Excel.
+//ExStepSummary:2: Esta etapa retira uma referência à primeira folha de cálculo no livro de trabalho criado.
+//ExStepSummary:3: Esta etapa popula células específicas na folha de cálculo com dados numéricos de amostra.
+//ExStepSummary:4: Esta etapa adiciona rótulos de categoria à folha de cálculo para representar diferentes grupos de dados.
+//ExStepSummary:5: Esta etapa cria um gráfico de colunas na folha de cálculo no local especificado, definindo o seu tamanho e posição.
+//ExStepSummary:6: Esta etapa acessa o gráfico recém-criado para uma configuração adicional.
+//ExStepSummary:7: Esta etapa adiciona a gráfica séries de dados, definindo a sua fonte de dados e os dados de categoria para representar adequadamente as informações.
+//ExStepSummary:8: Esta etapa salva o livro de trabalho gerado como um arquivo do Excel no diretório de saída especificado.
+//ExStepSummary:9: Esta etapa imprime uma mensagem de sucesso para o console indicando que as configurações do gráfico foram aplicadas com sucesso.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// Especifique o diretório de saída para o arquivo Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Instantanear um novo objeto de Manual de Trabalho
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Obter uma referência à primeira folha de cálculo
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Adicionar dados numéricos de amostra às células
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// Adicionar rótulos de categoria à folha de cálculo
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// Criar um gráfico de colunas
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// Acesse o gráfico recém-criado
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// Adicionar fonte de dados para o gráfico
+chart.NSeries.Add("A1:B4", true);
+// Defina dados de categoria para o gráfico
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Salvar o arquivo do Excel
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// Imprimir mensagem de sucesso
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

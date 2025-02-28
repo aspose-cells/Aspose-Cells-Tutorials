@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Este código demonstra como carregar um manual de trabalho do Excel existente, modificar o tipo de forma de rótulo de dados de um gráfico e salvar as alterações em um novo arquivo do Excel.
+//ExStepSummary:0: Este passo define o diretório de origem e saída dos arquivos do Excel.
+//ExStepSummary:1: Este passo carrega um arquivo Excel existente em um objeto de Workbook.
+//ExStepSummary:2: Esta etapa acessa a primeira folha de cálculo do manual.
+//ExStepSummary:3: Este passo recupera a primeira série do gráfico e modifica o tipo de forma de seus rótulos de dados para um disco burbuco oval.
+//ExStepSummary:4: Esta etapa salva o manual de trabalho modificado para um novo arquivo do Excel com um nome especificado.
+//ExStepSummary:5: Esta etapa confirma a execução bem sucedida do programa, imprimindo uma mensagem para o console.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Defina o diretório de origem
+string sourceDir = "Your Document Directory";
+// Defina o diretório de saída
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Carregar o arquivo Excel fonte
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// Acesse a primeira folha de cálculo
+Worksheet ws = wb.Worksheets[0];
+// Acesse o primeiro gráfico
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// Acesso à primeira série
+Series srs = ch.NSeries[0];
+// Configurar o tipo de forma dos rótulos de dados para Bubble Oval de fala
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// Salvar o arquivo de saída do Excel
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// Confirmar a execução bem-sucedida
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

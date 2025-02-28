@@ -1,0 +1,48 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit soubor Excel pomocí Aspose.Cells, 
+// při provádění několika činností, jako je vytváření adresářů, manipulace s buňkami, 
+// a uložit pracovní knihu v určitém formátu.
+
+//ExStepSummary:0: Definiovat cestu pro adresář dokumentů a zkontrolovat, zda existuje.
+//ExStepSummary:1: Vytvořte nový adresář, pokud neexistuje.
+//ExStepSummary:2: Vytvořte objekt Workbook, který představuje soubor Excel.
+//ExStepSummary:3: Získejte odkaz na první pracovní list v pracovním příručce.
+//ExStepSummary:4: Přihlaste se k buňce "A1" a přidejte jí hodnotu.
+//ExStepSummary:5: První tři sloupce v prvním řádku smíchejte do jedné buňky.
+//ExStepSummary:6: Uložte pracovní knihu ve požadovaném formátu a umístění.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Cesta do adresáře dokumentů.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Zkontrolujte, jestli ta adresář existuje.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// Vytvořte adresář, pokud neexistuje.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Vytvořte objekt Workbook pro soubor Excel.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Získejte odkaz na první pracovní list v pracovním příručce.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Přístup k buňce "A1" z pracovního listu.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Přidejte nějakou hodnotu k buňce "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Spoj první tři sloupce v prvním řádku, aby vznikla jedna buňka.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// Zachovávejte soubor Excel ve stanoveném formátu.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

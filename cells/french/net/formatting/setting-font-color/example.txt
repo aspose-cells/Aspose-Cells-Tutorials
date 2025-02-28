@@ -1,0 +1,52 @@
+//ExStart
+//ExSummaryCe code montre comment créer un carnet Excel, ajouter une feuille de calcul, modifier la valeur et le style d'une cellule, et enregistrer le carnet.
+//ExStepSummary:0: Le code suivant initiale le répertoire où se trouve le fichier Excel.
+//ExStepSummary:1: Le code initialise le chemin du répertoire de documents et vérifie s'il existe.
+//ExStepSummary:2: Le code instantané un nouvel objet de Workbook.
+//ExStepSummary:3: Une nouvelle feuille de calcul est ajoutée au manuel et une référence est obtenue.
+//ExStepSummary:4: La cellule "A1" de la feuille de calcul est consultée pour modifier sa valeur.
+//ExStepSummary:5: Le style de la cellule "A1" est obtenu et la couleur de la police est définie en bleu.
+//ExStepSummary:6: Le style modifié est appliqué à la cellule avant de sauvegarder le carnet de travail.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Le chemin vers le répertoire des documents.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Vérifiez si le répertoire existe.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Si elle n'existe pas, créez-la.
+if (!IsExists)
+	// Créer un répertoire.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Installation d'un objet de classeur.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Ajouter une nouvelle feuille de calcul à l'objet Excel.
+int i = workbook.Worksheets.Add();
+// Obtenir une référence à la feuille de calcul nouvellement ajoutée.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Accédez à la cellule "A1" depuis la feuille de calcul.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Ajouter une certaine valeur à la cellule "A1".
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Pour obtenir le style de la cellule.
+Style style = cell.GetStyle();
+// Je mets la couleur de la police en bleu.
+style.Font.Color = Color.Blue;
+// Appliquer le style à la cellule.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Je suis en train de sauvegarder le fichier Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

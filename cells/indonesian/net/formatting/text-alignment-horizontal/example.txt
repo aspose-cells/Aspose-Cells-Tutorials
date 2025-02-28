@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara membuat file Excel menggunakan Aspose.Cells, termasuk mengatur buku kerja, memodifikasi sel, dan menyimpan file ke direktori tertentu.
+//ExStepSummary:0: Kode berikut ini menginisialisasi direktori di mana file Excel berada.
+//ExStepSummary:1: Kode berikut menetapkan jalur untuk direktori dokumen dan membuatnya jika tidak ada.
+//ExStepSummary:2: Langkah ini menginisialisasikan objek Workbook untuk file Excel.
+//ExStepSummary:3: Langkah ini mengambil lembar kerja pertama dari buku kerja.
+//ExStepSummary:4: Dalam langkah ini, kita mengakses sel "A1" dari lembar kerja dan menambahkan nilai kepadanya.
+//ExStepSummary:5: Langkah ini mengatur penyelarasan horizontal teks di sel "A1" ke pusat.
+//ExStepSummary:6: Akhirnya, kode menyimpan buku kerja ke direktori yang ditentukan dalam format Excel 97-2003.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Tentukan jalur ke direktori dokumen.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Periksa apakah direktori itu ada.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// membuat direktori.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instansi objek Workbook untuk membuat file Excel baru.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Dapatkan referensi ke lembar kerja pertama.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Akses sel "A1" dari lembar kerja.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Tambahkan nilai pada sel "A1".
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Dapatkan gaya sel yang ada.
+Style style = cell.GetStyle();
+// Setel garis horizontal ke tengah.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// Tuliskan gaya yang diperbarui ke sel.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Simpan buku kerja ke direktori yang ditentukan dalam format Excel 97-2003.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

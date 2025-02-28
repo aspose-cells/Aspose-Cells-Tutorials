@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: هذا الرمز يوضح كيفية إنشاء دفتر عمل Excel، وإضافة صندوق نصي إلى ورقة عمل، وتحديد كل من الشرق الأقصى واللغة اللاتينية أسماء الخطوط للنص في صندوق النص.
+//ExStepSummary:0: يبدأ الرمز التالي الإدراج الإخراجي لملف Excel.
+//ExStepSummary:1: يخلق الرمز التالي دفتر عمل فارغ جديد.
+//ExStepSummary:2: يتوفر الرمز التالي على أول ورقة عمل في دفتر العمل.
+//ExStepSummary:3: يضيف الرمز التالي مربع نصي إلى ورقة العمل عند إحداثيات محددة.
+//ExStepSummary:4: يحدد الرمز التالي محتوى صندوق النص إلى "こんにちは 世界" (مرحبا للعالم) ويحدد أسماء الخط اللاتيني والشرق الأقصى للصندوق النصي.
+//ExStepSummary:5: الترميز التالي يحفظ دفتر العمل إلى دليل الإخراج المحدد.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// حدد الإدراج المخرج للملف
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// إعداد دفتر عمل فارغ
+var wb = new Workbook();
+
+//ExStep:2-
+// الوصول إلى أول ورقة عمل في دفتر العمل
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// إضافة صندوق نصي في الموقف (5,5) مع عرض 50 وارتفاع 200
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// الوصول إلى صندوق النص الجديد
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// حدد نص الصندوق النصي إلى "مرحباً للعالم" باليابانية
+tb.Text = "こんにちは世界";
+// تحديد اسم الخط اللاتيني
+tb.TextOptions.LatinName = "Comic Sans MS";
+// تحديد اسم الخط في الشرق الأقصى
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// حفظ دفتر العمل إلى دليل الإخراج
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// تأكيد نجاح الإعدام
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd

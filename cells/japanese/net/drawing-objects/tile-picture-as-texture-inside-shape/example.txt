@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: このコードでは Excel ファイルをロードし,特定のワークシートにアクセスし,そのワークシート内の形にタイルテクスチャを埋め込む方法を示します.変更された Excel ファイルは指定された出力ディレクトリに保存されます.
+//ExStepSummary:0: このステップでは Excel ファイル操作のためのソースと出力ディレクトリを初期化します.
+//ExStepSummary:1: このステップでは,変更する形状を含むサンプル Excel ファイルがロードされます.
+//ExStepSummary:2: このステップでは,読み込みされたワークブックの最初のワークシートにアクセスします.
+//ExStepSummary:3: このステップでは,変更のためのワークシート内の最初の形を取り出す.
+//ExStepSummary:4: このステップでは形に絵質の埋め込みを適用し,タイルを塗りやすくします.
+//ExStepSummary:5: このステップでは,変更されたワークブックを輸出ディレクトリに保存します.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// 入力 Excel ファイルが所在するソースディレクトリ
+string sourceDir = "Your Document Directory"; 
+
+// 変更された Excel ファイルが保存される輸出ディレクトリ
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// ソースディレクトリからサンプル Excel ファイルをロードする
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// 作業簿の最初の作業表にアクセスする
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// 作業表内の最初の形にアクセスする
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// 形状の内側にある質感として絵を描くので,タイルをすることができる.
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// 更新された Excel ファイルを出力ディレクトリに保存する
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// コンソールで成功を表示する
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

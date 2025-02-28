@@ -1,0 +1,48 @@
+//ExStart
+//ExSummaryDeze code toont hoe een bestaande Excel-werkmap wordt geladen, op een grafiek wordt geopend en de typen X- en Y-waarden van de gegevenspunten worden teruggevonden.
+//ExStepSummary:0: Deze stap definieert het bron directory waar het Excel-document zich bevindt.
+//ExStepSummary:1: Deze stap laadt een Excel-bestand met een grafiek in een werkboekobject.
+//ExStepSummary:2: Deze stap geeft toegang tot het eerste werkblad in het werkboek om met de inhoud ervan te werken.
+//ExStepSummary:3: In deze stap wordt de eerste grafiek in het werkblad voor analyse teruggevonden.
+//ExStepSummary:4: In deze stap worden de gegevenspunten en formules berekend die in de grafiek worden gebruikt voor het nauwkeurig ophalen van gegevens.
+//ExStepSummary:5: In deze stap wordt het eerste gegevenspunt van de eerste reeks van de grafiek teruggevonden om de eigenschappen ervan te onderzoeken.
+//ExStepSummary:6: Deze stap prints de typen X en Y-waarden af die zijn geassocieerd met het gehaalde grafiekpunt, waardoor inzichten worden gegeven in het formaat van de gegevens.
+//ExStepSummary:7: Deze stap bevestigt de succesvolle uitvoering van de operatie door een succesbericht naar de console te verzenden.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+
+//ExStep:0-
+// Definieer het bron directory voor het document
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// In het Excel-bestand met grafiek laden.
+Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx"); 
+
+//ExStep:2-
+// Toegang tot het eerste werkblad in het werkboek
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Pak de eerste grafiek van het werkblad
+Chart ch = ws.Charts[0]; 
+
+//ExStep:4-
+// Bereken de gegevenspunten en formules van de grafiek
+ch.Calculate(); 
+
+//ExStep:5-
+// Het eerste gegevenspunt van de eerste reeks in de grafiek terughalen
+ChartPoint pnt = ch.NSeries[0].Points[0]; 
+
+//ExStep:6-
+// Druk de typen X- en Y-waarden van het grafiekpunt af.
+Console.WriteLine("X Value Type: " + pnt.XValueType);
+Console.WriteLine("Y Value Type: " + pnt.YValueType);
+
+//ExStep:7-
+// Confirm de executie succesvol.
+Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");
+//ExEnd

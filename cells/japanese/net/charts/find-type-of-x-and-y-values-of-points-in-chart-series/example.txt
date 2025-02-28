@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: このコードでは,既存の Excel ワークブックをロードし,チャートにアクセスし,そのデータポイントの X と Y 値の種類を検索する方法を示します.
+//ExStepSummary:0: このステップでは Excel ドキュメントが所在するソースディレクトリを定義します.
+//ExStepSummary:1: このステップでは,ワークブックオブジェクトにチャートを含む Excel ファイルサンプルをロードします.
+//ExStepSummary:2: このステップでは,作業簿の最初の作業表にアクセスして,その内容を処理します.
+//ExStepSummary:3: このステップでは分析のためにワークシートに存在する最初のグラフを回収します.
+//ExStepSummary:4: このステップでは,正確なデータ取得のためにチャートで使用されたデータポイントと公式を計算します.
+//ExStepSummary:5: このステップでは,表の最初のシリーズから最初のデータポイントを回収し,その性質を検証します.
+//ExStepSummary:6: このステップでは,取得したチャートポイントに関連したXおよびY値の種類を印刷し,データのフォーマットについての洞察を提供します.
+//ExStepSummary:7: このステップは,コンソールに成功メッセージを送信することによって,操作の成功の実行を確認します.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+
+//ExStep:0-
+// 文書のソースディレクトリを定義する
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// 図表を含む Excel ファイルのサンプルを読み込み.
+Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx"); 
+
+//ExStep:2-
+// 作業簿の最初の作業表にアクセスする
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// 図表から最初の図を入手
+Chart ch = ws.Charts[0]; 
+
+//ExStep:4-
+// グラフのデータポイントと公式を計算する
+ch.Calculate(); 
+
+//ExStep:5-
+// 図表の最初の一連の最初のデータポイントを回収する
+ChartPoint pnt = ch.NSeries[0].Points[0]; 
+
+//ExStep:6-
+// 図点のXとY値のタイプを印刷する.
+Console.WriteLine("X Value Type: " + pnt.XValueType);
+Console.WriteLine("Y Value Type: " + pnt.YValueType);
+
+//ExStep:7-
+// 執行の成功を確認する
+Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");
+//ExEnd

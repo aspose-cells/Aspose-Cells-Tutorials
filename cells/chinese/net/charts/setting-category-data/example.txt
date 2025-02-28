@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummary: 这个代码展示了如何创建Excel工作簿,用样本数据填充它,并根据这些数据生成一张列表. 
+//ExStepSummary:0: 输出目录的输出目录.
+//ExStepSummary:1: 这个步骤将一个新的 Workbook 对象的实时化为创建Excel文件.
+//ExStepSummary:2: 通过此步骤,可以查找创建的工作簿中的第一个工作表的引用.
+//ExStepSummary:3: 通过此步骤,填充工作表中的特定细胞,并使用样本数值数据.
+//ExStepSummary:4: 这一步将类别标签添加到表格中,以表示不同的数据组.
+//ExStepSummary:5: 工作表中创建一个列表,定义其尺寸和位置.
+//ExStepSummary:6: 通过此步骤,可访问新创建的图表,以便进一步配置.
+//ExStepSummary:7: 这一步将数据系列添加到图表中,设定其数据源和类别数据以正确表示信息.
+//ExStepSummary:8: 这一步将生成的工作簿作为 Excel 文件保存在指定输出目录中.
+//ExStepSummary:9: 这一步将向控制台打印一个成功消息,表明图表设置已成功应用.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// 指定Excel文件输出目录
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 立即创建一个新的工作簿对象
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// 查看第一个工作表
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// 添加样本数值数据到单元中
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// 添加类别标签到工作表
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// 创建列表
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// 访问新创建的图表
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// 添加数据源为图表
+chart.NSeries.Add("A1:B4", true);
+// 设置图表类别数据
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// 保存Excel文件
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// 打印成功消息
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

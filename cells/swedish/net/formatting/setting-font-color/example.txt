@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar en Excel-arbetsbok, lägger till ett arbetsblad, ändrar ett cells värde och stil och sparar arbetsboken.
+//ExStepSummary:0: Följande kod initialiserar kataloget där Excel-filen är belägen.
+//ExStepSummary:1: Koden initialiserar vägen till dokumentkataloget och kontrollerar om den finns.
+//ExStepSummary:2: Koden instansierar ett nytt arbetsbokobjekt.
+//ExStepSummary:3: Ett nytt arbetsblad läggs till arbetsboken och en referens till den erhållas.
+//ExStepSummary:4: Cellen "A1" i arbetsbladet får åtkomst för att ändra dess värde.
+//ExStepSummary:5: Stylen i "A1"-cellen erhållas och teckenskärlan ställs till blått.
+//ExStepSummary:6: Den modifierade stilen appliceras på cellen innan arbetsboken sparas.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Vägen till dokumentkataloget.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Kolla om kataloget finns.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Om det inte existerar, skapar det.
+if (!IsExists)
+	// Skapa en katalog.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instansera ett arbetsbokobjekt.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Lägg till ett nytt arbetsblad till Excel-objektet.
+int i = workbook.Worksheets.Add();
+// Att få en referens till det nyligen tillförda arbetsbladet.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Tillgå cellen "A1" från arbetsbladet.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Att lägga till något värde i cellen "A1".
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// \- Att få stil i cellen.
+Style style = cell.GetStyle();
+// Ställ på blått.
+style.Font.Color = Color.Blue;
+// \- Att använda stilen på cellen.
+cell.SetStyle(style);
+
+//ExStep:6-
+// Spara Excel-filen.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

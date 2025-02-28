@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryBu kod, Excel dosyasını Aspose.Cells kullanarak nasıl oluşturulacağını gösterir. Bir çalışma defterini initialize eder, bir çalışma sayfasını ekler, bir hücreyi metinle doldurur, hücrenin yazı tipini değiştirir ve çalışma defterini belirtilen bir dizine kaydeder.
+//ExStepSummary:0: Bu adım, belgeler dizine giden yolu nasıl tanımlanacağını gösterir.
+//ExStepSummary:1: Bu adım, zaten mevcut değilse bir dizin nasıl oluşturulacağını gösterir.
+//ExStepSummary:2: Bu adım, bir Çalışma Kitabı nesnesinin örneklenmesini gösterir.
+//ExStepSummary:3: Bu adım, çalışma defterine yeni bir çalışma sayfasını nasıl ekleyeceğinizi ve indeksle nasıl elde edeceğinizi gösterir.
+//ExStepSummary:4: Bu adım belirli bir hücreye nasıl erişeceğinizi ve onu bir değerle nasıl dolduracağınızı ayrıntılı şekilde anlatır.
+//ExStepSummary:5: Bu adım hücrenin stilini nasıl elde edileceğini ve yazı tipi boyutunu nasıl değiştireceğini ve değiştirilmiş stilin hücreye nasıl uygulanacağını gösterir.
+//ExStepSummary:6: Bu adım, çalışma defterini belirli bir dosya yoluna nasıl kaydetileceğini gösterir.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Belge dizinine giden yolu tanımlayın
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Dizin var mı kontrol edin
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Eğer var değilse
+if (!IsExists)
+	// Dizin oluştur
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Çalışma Kutusu nesnesini bir anlık oluştur
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Çalışma defterine yeni bir çalışma sayfası ekle
+int i = workbook.Worksheets.Add();
+// Yeni eklenen çalışma sayfasının referansını alın
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Çalışma sayfasından "A1" hücresine eriş
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// "A1" hücresi değerle doldur
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Hücre tarzını öğren.
+Style style = cell.GetStyle();
+// Yazı tipi boyutunu 14 olarak ayarlayın
+style.Font.Size = 14;
+// Değiştirilmiş biçimi hücreye uygulayın
+cell.SetStyle(style);
+
+//ExStep:6-
+// Çalışma defterini belirtilen dosya yoluna kaydet
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

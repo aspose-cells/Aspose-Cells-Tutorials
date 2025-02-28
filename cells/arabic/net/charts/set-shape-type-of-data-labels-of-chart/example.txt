@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية تحميل دفتر عمل Excel القائم، وتعديل نوع شكل علامة بيانات الرسم البياني، وتحفظ التغييرات إلى ملف Excel الجديد.
+//ExStepSummary:0: هذه الخطوة تعريف المجلد المصدر والخروج لملفات Excel.
+//ExStepSummary:1: هذه الخطوة تحميل ملف Excel موجود في كائن كتاب العمل.
+//ExStepSummary:2: هذه الخطوة تسمح بالوصول إلى أول ورقة عمل في دفتر العمل.
+//ExStepSummary:3: هذه الخطوة تستعيد السلسلة الأولى من الرسم البياني وتقوم بتعديل نوع الشكل من علامات البيانات إلى فقاعة خطاب بيضوية.
+//ExStepSummary:4: هذه الخطوة تخفي الكتب المعدلة إلى ملف Excel الجديد مع اسم محدد.
+//ExStepSummary:5: هذه الخطوة تؤكد تنفيذ البرنامج بنجاح عن طريق طباعة رسالة إلى جهاز التحكم.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// تعريف الإداري المصدر
+string sourceDir = "Your Document Directory";
+// تعريف دليل الخروج
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// تحميل ملف Excel المصدر
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// الوصول إلى أول ورقة عمل
+Worksheet ws = wb.Worksheets[0];
+// الوصول إلى الرسم البياني الأول
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// الوصول إلى السلسلة الأولى
+Series srs = ch.NSeries[0];
+// حدد نوع الشكل من علامات البيانات إلى فقاعة الكلام البيضاء
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// حفظ ملف Excel المخرج
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// تأكيد نجاح الإعدام
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

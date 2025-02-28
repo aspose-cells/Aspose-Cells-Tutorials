@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy új Excel munkafüzetet, hozzáadni egy munkalapot, személyre szabni egy sejtet, és menteni a munkafüzetet.
+//ExStepSummary:0: A következő kód meghatározza a dokumentumok könyvtárának útját.
+//ExStepSummary:1: A következő kód ellenőrzi, hogy a könyvtár létezik-e, ha nem, akkor létrehoz egy.
+//ExStepSummary:2: A következő kód egy Workbook objektumot jelöl.
+//ExStepSummary:3: A következő kód a munkafüzet első munkalapjára utal.
+//ExStepSummary:4: A következő kód hozzáfér a "A1" sejthez a munkalapban.
+//ExStepSummary:5: A következő kód értéket ad a "A1" sejtnek.
+//ExStepSummary:6: A következő kód az "A1" cella szöveg horizontális összehangolását határozza meg, és lehetővé teszi a szöveg csomagolását.
+//ExStepSummary:7: Az alábbi kód az Excel munkafüzetet az adott címkére tárolja.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Képzeld meg a dokumentumok könyvtárába vezető utat
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ellenőrizze, hogy a könyvtár létezik-e
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Ha nem létezik, akkor hozd létre.
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Folyamatosít egy Workbook objektumot
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Kapjon hivatkozást az első munkalapra
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// A "A1" sejthez a munkalapból hozzáférhet
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+
+//ExStep:5-
+// Adjon hozzá egy kis értéket az "A1" cellához
+cell.PutValue("Visit Aspose!");
+
+//ExStep:6-
+// Kapja meg a cellának a jelenlegi stílusát.
+Style style = cell.GetStyle();
+// A cellában történő szövegcsomagolás engedélyezése
+style.IsTextWrapped = true;
+// A módosított stílust vissza kell alkalmaznunk a cellára.
+cell.SetStyle(style);
+
+//ExStep:7-
+// Az Excel fájlot a megadott formában mentse meg
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

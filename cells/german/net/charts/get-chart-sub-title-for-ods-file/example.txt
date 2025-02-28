@@ -1,0 +1,37 @@
+//ExStart
+//ExSummaryDieser Code zeigt, wie man eine ODS-Datei lädt, auf ein Diagramm zugreift und den Untertitel auf die Konsole druckt.
+//ExStepSummary:0: Der Code initialisiert das Quellverzeichnis für das Dokument.
+//ExStepSummary:1: Der Code lädt eine Excel-Datei mit Diagrammen aus dem angegebenen Verzeichnis auf.
+//ExStepSummary:2: Der Code greift auf das erste Arbeitsblatt des geladenen Arbeitsbuchs ein.
+//ExStepSummary:3: Der Code erhebt das erste Diagramm im Arbeitsblatt.
+//ExStepSummary:4: Der Code druckt den Untertitel der Karte auf die Konsole.
+//ExStepSummary:5: Der Code bestätigt die erfolgreiche Ausführung der Untertitel-Aufnahme.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Initialisieren Sie das Quellverzeichnis für den Dokumentzugriff
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Laden Sie die Excel-Datei mit Diagrammen
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// Zugriff auf das erste Arbeitsblatt des Arbeitsbuchs
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Zugriff auf die erste Tabelle im Arbeitsblatt
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Drucken Sie den Untertitel der Karte auf die Konsole
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// Bestätigen Sie die erfolgreiche Ausführung
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

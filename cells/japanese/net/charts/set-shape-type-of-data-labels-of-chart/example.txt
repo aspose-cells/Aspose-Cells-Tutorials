@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: このコードでは既存の Excel ワークブックをロードし,チャートのデータラベル形状タイプを変更し,新しい Excel ファイルに変更を保存する方法を示します.
+//ExStepSummary:0: このステップでは Excel ファイルのソースと出力ディレクトリを定義します.
+//ExStepSummary:1: このステップでは,既存の Excel ファイルを Workbook オブジェクトにロードします.
+//ExStepSummary:2: このステップでは,作業簿の最初の作業表にアクセスします.
+//ExStepSummary:3: このステップでは,チャートから最初のシリーズを取り出し,データラベルの形状タイプをスピーチバブルオバルに変更します.
+//ExStepSummary:4: このステップでは,変更されたワークブックを指定された名前を持つ新しい Excel ファイルに保存します.
+//ExStepSummary:5: このステップは,コンソールにメッセージを印刷することで,プログラムの成功の実行を確認します.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// ソースディレクトリを定義する
+string sourceDir = "Your Document Directory";
+// 出力ディレクトリを定義する
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// ソース Excel ファイルをロードする
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// 最初のワークシートにアクセスする
+Worksheet ws = wb.Worksheets[0];
+// 最初のチャートにアクセスする
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// 最初のシリーズにアクセスする
+Series srs = ch.NSeries[0];
+// データラベルの形型をスピーチバブルオバルに設定する
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// 出力 Excel ファイルを保存する
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// 実行を成功させる
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

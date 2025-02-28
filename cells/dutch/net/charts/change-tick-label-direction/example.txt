@@ -1,0 +1,44 @@
+//ExStart
+//ExSummaryDeze code toont aan hoe de richting van de kaarttikketetiketten in een Excel- werkblad te veranderen met behulp van de bibliotheek Aspose.Cells.
+//ExStepSummary:0: Laad het Excel-werkboek in de gespecificeerde bronmap.
+//ExStepSummary:1: Ga naar het eerste werkblad in het werkboek.
+//ExStepSummary:2: Laad de grafiek van het eerste werkblad.
+//ExStepSummary:3: Stel de richting van de categorie-astikketten horizontaal.
+//ExStepSummary:4: Bewaar het gewijzigde werkboek in de opgegeven output directory.
+//ExStepSummary:5: Bevestig succesvolle uitvoering met een console bericht.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// De definitie van het bron directory voor het Excel-bestand
+// Stel het pad van het bron directory
+string sourceDir = "Your Document Directory"; 
+// Stel het output directory pad in
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Laad het Excel-werkboek vanaf het gespecificeerde bronpad
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// Index 0 verwijst naar het eerste werkblad
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Laad de grafiek van het eerste werkblad
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Verander het richtingtype van de categorieastiketten naar horizontaal
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// Het gewijzigde werkboek opslaan in de output directory met een nieuwe bestandsnaam
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Printeer een succesbericht op de console
+// Vermeld het proces dat succesvol is afgerond
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

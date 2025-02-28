@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara membuat file Excel menggunakan Aspose.Cells. Ini menginisialisasi buku kerja, menambahkan lembar kerja, mengisi sel dengan teks, memodifikasi ukuran font sel, dan menyimpan buku kerja ke direktori tertentu.
+//ExStepSummary:0: Langkah ini menunjukkan bagaimana mendefinisikan jalur ke direktori dokumen.
+//ExStepSummary:1: Langkah ini menunjukkan cara membuat direktori jika tidak ada.
+//ExStepSummary:2: Langkah ini menunjukkan instansiasi objek Workbook.
+//ExStepSummary:3: Langkah ini menunjukkan cara menambahkan lembar kerja baru ke buku kerja dan mendapatkannya berdasarkan indeks.
+//ExStepSummary:4: Langkah ini menjelaskan bagaimana mengakses sel tertentu dan mengisi dengan nilai.
+//ExStepSummary:5: Langkah ini menjelaskan bagaimana mendapatkan gaya sel dan memodifikasi ukuran font dan menunjukkan bagaimana menerapkan gaya yang dimodifikasi ke sel.
+//ExStepSummary:6: Langkah ini menggambarkan cara menyimpan buku kerja ke jalur file tertentu.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Tentukan jalur ke direktori dokumen
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Periksa apakah direktori itu ada
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Jika tidak ada
+if (!IsExists)
+	// Buat direktori
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Instansify sebuah objek Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Tambahkan lembar kerja baru ke buku kerja
+int i = workbook.Worksheets.Add();
+// Dapatkan referensi dari lembar kerja yang baru ditambahkan
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// Akses sel "A1" dari lembar kerja
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Populasi sel "A1" dengan nilai
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// Dapatkan gaya sel
+Style style = cell.GetStyle();
+// Setelan ukuran font menjadi 14
+style.Font.Size = 14;
+// Menggunakan gaya yang dimodifikasi pada sel
+cell.SetStyle(style);
+
+//ExStep:6-
+// Simpan buku kerja ke jalur file yang ditentukan
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

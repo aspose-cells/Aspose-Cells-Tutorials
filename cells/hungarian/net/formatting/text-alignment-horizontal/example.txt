@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy Excel fájlt az Aspose.Cells segítségével, beleértve a munkafüzet beállítását, a sejt módosítását és a fájlt egy meghatározott címkébe való mentését.
+//ExStepSummary:0: Az alábbi kód az Excel fájl található címke indítványait indítja.
+//ExStepSummary:1: A következő kód meghatározza a dokumentumjegyzék útvonalát, és létrehozja, ha nem létezik.
+//ExStepSummary:2: Ez a lépés az Excel fájlhoz tartozó Workbook objektumot indít.
+//ExStepSummary:3: Ez a lépés az első munkalapot a munkakönyvből állítja ki.
+//ExStepSummary:4: Ebben a lépésben a "A1" sejthez lépünk a munkalapból és hozzáadunk hozzá egy értéket.
+//ExStepSummary:5: A "A1" cellaban a szöveg vízszintes összehangolását a középre helyezzük.
+//ExStepSummary:6: Végül a kód az Excel 97-2003-as formátumban az adott könyvtárba tárolja a munkafüzetet.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Tárgyaljuk meg az útvonalat a dokumentumok könyvtárába.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ellenőrizd, hogy létezik-e a könyvtár.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// \- A könyvtár létrehozása.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// A Workbook objektumot instanciálva új Excel fájlot készít.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Kapjon egy hivatkozást az első munkalapra.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// A "A1" sejthez férjen hozzá a munkalapból.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Adjon hozzá egy kis értéket az "A1" cellához.
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// Kapd meg a cellának a meglévő stílusát.
+Style style = cell.GetStyle();
+// Állítsa a vízszintes egyenlőt a középre.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// A frissített stílus alkalmazása a cellára.
+cell.SetStyle(style);
+
+//ExStep:6-
+// A munkafüzetet az Excel 97-2003-as formátumban tárolja a megadott címlapba.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

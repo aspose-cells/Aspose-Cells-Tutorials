@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: 这个代码显示如何加载Excel文件,访问特定的表格,并将纹填写到该表格内的形状.
+//ExStepSummary:0: 这个步骤将Excel文件操作的源和输出目录初始化.
+//ExStepSummary:1: 通过此步骤将包含要修改的形状的 Excel 文件样本.
+//ExStepSummary:2: 通过此步骤访问加载的工作簿中的第一个工作表.
+//ExStepSummary:3: 修改的表格中首个形状.
+//ExStepSummary:4: 这一步将图像纹理填充到形状上,使其能够被.
+//ExStepSummary:5: 这一步将修改的工作簿保存到输出目录中.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0- 
+// 输入 Excel 文件所在的源目录
+string sourceDir = "Your Document Directory"; 
+
+// 修改的Excel文件将存储的输出目录
+string outputDir = "Your Document Directory"; 
+
+//ExStep:1- 
+// 从源目录中加载样本Excel文件
+Workbook wb = new Workbook(sourceDir + "sampleTextureFill_IsTiling.xlsx");
+
+//ExStep:2- 
+// 访问工作簿中的第一个工作表
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3- 
+// 访问工作表中的第一个形状
+Shape sh = ws.Shapes[0];
+
+//ExStep:4- 
+// 造图像的结构在形状内,使造
+sh.Fill.TextureFill.IsTiling = true;
+
+//ExStep:5- 
+// 保存更新的Excel文件到输出目录
+wb.Save(outputDir + "outputTextureFill_IsTiling.xlsx");
+
+// 显示控制台中成功
+Console.WriteLine("TilePictureAsTextureInsideShape executed successfully.\r\n"); 
+//ExEnd

@@ -1,0 +1,53 @@
+//ExStart
+//ExSummaryQuesto codice mostra come manipolare il testo all'interno di una forma in un foglio di lavoro Excel utilizzando Aspose.Cells.
+//ExStepSummary:0: Il seguente codice definisce la directory sorgente per il file Excel.
+//ExStepSummary:1: Il seguente codice definisce la directory di uscita per il file Excel.
+//ExStepSummary:2: Il seguente codice carica un file Excel campione contenente i dati.
+//ExStepSummary:3: Il seguente codice accede al primo foglio di lavoro del libro di lavoro.
+//ExStepSummary:4: Il seguente codice aggiorna il valore della cella B4 con un messaggio relativo alla rotazione del testo.
+//ExStepSummary:5: Il seguente codice accede alla prima forma della foglia di lavoro.
+//ExStepSummary:6: Il seguente codice modifica l'allineamento del testo della forma per evitare la rotazione del testo.
+//ExStepSummary:7: Il seguente codice salva il libro di lavoro modificato nella directory di uscita specificata.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Definire la directory sorgente in cui si trova il file Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Definire la directory di uscita per salvare il file Excel modificato
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Caricare il file Excel campione
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// Accedere alla prima scheda di lavoro nella scheda di lavoro
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Cella di accesso B4 nella scheda di lavoro
+Cell b4 = ws.Cells["B4"];
+// Aggiornare la cella B4 con un messaggio specifico
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// Accedere alla prima forma della scheda di lavoro
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// Accedere all'allineamento del testo della forma
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// Imposta la proprietà di non ruotare il testo con la forma
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// Salvare la scheda di lavoro modificata nella directory di uscita
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// Stampa il messaggio di successo
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

@@ -1,0 +1,42 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak načítat stávající pracovní knižku Excel, upravit typ tvaru datového štítku grafu a uložit změny do nového souboru Excel.
+//ExStepSummary:0: Tento krok definuje zdrojový a výstupní adresář souborů Excel.
+//ExStepSummary:1: Tento krok načítá existující soubor Excel do objektu Workbook.
+//ExStepSummary:2: Tento krok umožňuje přístup k prvnímu pracovnímu listu v pracovní knize.
+//ExStepSummary:3: Tento krok získává první sérii z grafu a mění tvar typu svých datových štítků na ovální mrakovku.
+//ExStepSummary:4: Tento krok uloží upravený pracovní seznam do nového souboru Excel s uvedeným jménem.
+//ExStepSummary:5: Tento krok potvrzuje úspěšné provedení programu tisknutím zprávy na konzoli.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Definice zdrojového adresáře
+string sourceDir = "Your Document Directory";
+// Definice výstupního seznamu
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Vložte zdrojový soubor Excel
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// Přístup k prvnímu pracovnímu listu
+Worksheet ws = wb.Worksheets[0];
+// Přístup k prvnímu grafu
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// Přístup k první sérii
+Series srs = ch.NSeries[0];
+// Nastavte typ tvaru datových štítků na Ovalní mluvčí bublina
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// Uložte výstupní soubor Excel
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// Potvrzení úspěšného provádění
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

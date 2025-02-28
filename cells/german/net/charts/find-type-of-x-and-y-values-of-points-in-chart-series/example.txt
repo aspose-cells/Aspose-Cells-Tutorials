@@ -1,0 +1,48 @@
+//ExStart
+//ExSummaryDieser Code zeigt, wie man ein bestehendes Excel-Arbeitsbuch laden, auf ein Diagramm zugreifen und die Arten von X- und Y-Werten seiner Datenpunkte abrufen kann.
+//ExStepSummary:0: Dieser Schritt definiert das Quellverzeichnis, in dem sich das Excel-Dokument befindet.
+//ExStepSummary:1: Dieser Schritt lädt eine Excel-Datei mit einem Diagramm in ein Werkbuchobjekt ein.
+//ExStepSummary:2: In diesem Schritt wird auf das erste Arbeitsblatt des Arbeitsbuchs zugegriffen, um mit seinem Inhalt zu arbeiten.
+//ExStepSummary:3: In diesem Schritt wird das erste Diagramm im Arbeitsblatt zur Analyse abgerufen.
+//ExStepSummary:4: In diesem Schritt werden die Datenpunkte und Formeln berechnet, die in dem Diagramm für eine genaue Datenrückgewinnung verwendet werden.
+//ExStepSummary:5: In diesem Schritt wird der erste Datenpunkt aus der ersten Reihe des Diagramms zur Untersuchung seiner Eigenschaften abgerufen.
+//ExStepSummary:6: Dieser Schritt druckt die mit dem abgerufenen Chartpunkt verbundenen X- und Y-Werte aus und gibt Einblicke in das Format der Daten.
+//ExStepSummary:7: Dieser Schritt bestätigt die erfolgreiche Ausführung der Operation durch Ausgabe einer Erfolgsnachricht an die Konsole.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+
+//ExStep:0-
+// Definition des Quellverzeichnisses für das Dokument
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Lade eine Excel-Datei mit Tabelle.
+Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx"); 
+
+//ExStep:2-
+// Zugriff auf das erste Arbeitsblatt im Arbeitsbuch
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Holen Sie sich die erste Karte aus dem Arbeitsblatt
+Chart ch = ws.Charts[0]; 
+
+//ExStep:4-
+// Berechnen Sie die Datenpunkte und Formeln des Diagramms
+ch.Calculate(); 
+
+//ExStep:5-
+// Erhalten Sie den ersten Datenpunkt der ersten Reihe in der Tabelle
+ChartPoint pnt = ch.NSeries[0].Points[0]; 
+
+//ExStep:6-
+// Drucken Sie die Arten von X- und Y-Werten des Zifferpunkts.
+Console.WriteLine("X Value Type: " + pnt.XValueType);
+Console.WriteLine("Y Value Type: " + pnt.YValueType);
+
+//ExStep:7-
+// Bestätigen Sie die erfolgreiche Hinrichtung.
+Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");
+//ExEnd

@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary: このコードは,Excelファイルで oleオブジェクトのラベルをAspose.Cellsを使用してアクセスし変更する方法を示します.
+//ExStepSummary:0: 次のコードは,Excelファイルが所在するソースディレクトリを初期化します.
+//ExStepSummary:1: コードは Excel ファイルサンプルを Workbook オブジェクトに読み込みます
+//ExStepSummary:2: このステップでは,作業簿の最初の作業表にアクセスします.
+//ExStepSummary:3: ここで最初のオレーオブジェクトが 変更のためにアクセスされます
+//ExStepSummary:4: オレオブジェクトのオリジナルラベルはコンソールに表示されています.
+//ExStepSummary:5: オレオブジェクトのラベルが変更されています.
+//ExStepSummary:6: 更新されたワークブックはメモリストリームに保存されます.
+//ExStepSummary:7: ワークブック参照はリソースを解放するために null に設定されます.
+//ExStepSummary:8: 変更を確認するために作業簿はメモリストリームから再充電されます.
+//ExStepSummary:9: オレオブジェクトの変更されたラベルは再充電後に表示されます.
+//ExStepSummary:10: 実行完了を示すためにコンソールに成功メッセージが表示されます.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// Excel ファイルを含むディレクトリを指定する
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// サンプル Excel ファイルをロードする
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// 最初のワークシートにアクセスする
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// 最初のオレーオブジェクトにアクセスする
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// オレオブジェクトのオリジナルラベルを表示する
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// オレオブジェクトのラベルを変更する
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// 作業簿を保存するためにメモリストリームを作成する
+MemoryStream ms = new MemoryStream();
+// 作業簿をメモリストリームに保存する
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// ワークブック参照をゼロに設定してリソースをリリースします
+wb = null; 
+
+//ExStep:8-
+// メモリストリームからワークブックを読み込み
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// オレオブジェクトの変更されたラベルを表示する
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// 成功した実行を表示する
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

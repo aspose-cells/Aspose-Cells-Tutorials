@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Ο ακόλουθος κώδικας δείχνει πώς να δημιουργήσετε ένα νέο αρχείο Excel, να προσθέσετε ένα φύλλο εργασίας και να εισαγάγετε μια εικόνα σε ένα συγκεκριμένο κελί.
+//ExStepSummary:0: Ο ακόλουθος κωδικός αρχιτολογεί τον κατάλογο όπου βρίσκεται το αρχείο Excel.
+//ExStepSummary:1: Αυτό το βήμα ελέγχει αν υπάρχει το κατάλογο εγγράφων και το δημιουργεί αν δεν υπάρχει.
+//ExStepSummary:2: Αυτό το βήμα αναγράφει ένα αντικείμενο Workbook για τη δημιουργία ενός νέου αρχείου Excel.
+//ExStepSummary:3: Αυτό το βήμα προσθέτει ένα νέο φύλλο εργασίας στο αντικείμενο Διοικητικού βιβλίου και λαμβάνει τη αναφορά του.
+//ExStepSummary:4: Αυτό το βήμα προσθέτει μια εικόνα στο φύλλο εργασίας στις καθορισμένες συντεταγμένες κυττάρων.
+//ExStepSummary:5: Αυτό το βήμα αποθηκεύει το αρχείο Excel στην καθορισμένη διαδρομή.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Ορίστε τη διαδρομή στο κατάλογο εγγράφων
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ελέγξτε αν υπάρχει κατάλογος
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Εναρμηνεύστε ένα αντικείμενο Workbook
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// Προσθήκη νέου φύλλου εργασίας στο βιβλίο εργασίας
+int sheetIndex = workbook.Worksheets.Add(); 
+// Ανατρέξτε στο πρόσφατα προστίθεται φύλλο εργασίας
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// Προσθήκη εικόνας στο κελί "F6" (από τη σειρά 5, στήλη 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Κράτησε το αρχείο Excel στην καθορισμένη διαδρομή
+workbook.Save(dataDir + "output.xls");
+//ExEnd

@@ -1,0 +1,53 @@
+//ExStart
+//ExSummary: 这个代码显示如何在Excel工作表中操纵形状中的文本,使用Aspose.Cells. 它设置了文本对齐属性,并保存了工作簿.
+//ExStepSummary:0: 下面的代码定义了Excel文件的源目录.
+//ExStepSummary:1: 下面的代码定义了Excel文件输出目录.
+//ExStepSummary:2: 下面的代码载入包含数据的Excel文件样本.
+//ExStepSummary:3: 下面的代码访问了工作簿中的第一个工作表.
+//ExStepSummary:4: 下面的代码更新了单元B4的值,并提供了有关文字旋转的信息.
+//ExStepSummary:5: 下面的代码访问了表中的第一个形状.
+//ExStepSummary:6: 下面的代码修改了形状的文本配线,以防止文本旋转.
+//ExStepSummary:7: 下面的代码将修改的工作簿保存到指定输出目录中.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// 定义 Excel 文件所在的源目录
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// 定义输出目录以保存修改的Excel文件
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// 装载样本的 Excel 文件
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// 访问工作簿中的第一个工作表
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// 工作表中的访问单元B4
+Cell b4 = ws.Cells["B4"];
+// 更新单元B4的特定信息
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// 访问工作表中的第一个形状
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// 访问形状的文本排列
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// 设置该属性不与形状旋转文本
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// 保存修改的工作簿到输出目录
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// 打印成功消息
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

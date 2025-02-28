@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryDeze code toont hoe een grafiek in een Excel-werkboek wordt vergroot en opnieuw geplaatst met behulp van de bibliotheek Aspose.Cells.
+//ExStepSummary:0: De volgende code initialiseert de bron- en uitvoer directories voor het Excel- bestand.
+//ExStepSummary:1: De code laadt een werkboek uit de bronmap met een voorbeeld Excel-bestand.
+//ExStepSummary:2: De code gaat naar het eerste werkblad in het werkboek om met de grafieken te werken.
+//ExStepSummary:3: De code haalt de eerste grafiek uit het werkblad voor wijzigingsdoeleinden.
+//ExStepSummary:4: De code verandert de grafiek in grootte tot een breedte van 400 en een hoogte van 300 pixels.
+//ExStepSummary:5: De code zet de grafiek weer op door de X- en Y-coördinaten in te stellen.
+//ExStepSummary:6: Ten slotte wordt het gewijzigde werkboek opgeslagen in de output directory met een nieuwe bestandsnaam.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Bron directory voor het Excel-bestand
+string sourceDir = "Your Document Directory";
+// Uitgangs directory voor het opslaan van het gewijzigde Excel-bestand
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Het opgegeven werkboek laden
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// Toegang tot het eerste werkblad van het werkboek
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Laad de eerste grafiek van het werkblad
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Vergroot de grafiekbreedte tot 400 pixels
+chart.ChartObject.Width = 400;
+// Vergroot de grafiekhoogte tot 300 pixels
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// De X-coördinate van de grafiek opnieuw plaatsen
+chart.ChartObject.X = 250;
+// Verplaats de Y-coördinaten van de grafiek 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// Het gewijzigde werkboek opslaan in het output directory
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// Het gebruiker te informeren van succesvolle uitvoering
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

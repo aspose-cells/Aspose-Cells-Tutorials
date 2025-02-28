@@ -1,0 +1,68 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak získat přístup a upravit označení objektu Ole v souboru Excel pomocí Aspose.Cells.
+//ExStepSummary:0: Následující kód inicializuje zdrojový adresář, kde se soubor Excel nachází.
+//ExStepSummary:1: Kód načítá vzorek souboru Excel do objektu Workbook.
+//ExStepSummary:2: Tento krok umožňuje přístup k prvnímu pracovnímu listu v pracovní knize.
+//ExStepSummary:3: Tady je přístup k prvním objektům Ole pro změnu.
+//ExStepSummary:4: Originální nálepka objektu Ole je zobrazena na konzoli.
+//ExStepSummary:5: Naznačení objektu Ole je změněno.
+//ExStepSummary:6: Aktualizován pracovní kniha je uložena do souboru paměti.
+//ExStepSummary:7: Odkaz do pracovního seznamu je nastaven na nulní, aby se uvolnili zdroje.
+//ExStepSummary:8: Pracovní kniha se přeloží z paměťového proudu, aby bylo ověřeno změny.
+//ExStepSummary:9: Po přeložení se zobrazí upravená označení objektu Ole.
+//ExStepSummary:10: Na konzole se zobrazí úspěšná zpráva, která označuje dokončení provádění.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// Uveďte adresář obsahující soubor Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Vložte vzorek souboru Excel
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// Přístup k prvnímu pracovnímu listu
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// Přístup k prvním objektům Ole
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// Naznačení původní etikety objektu Ole
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// Změna označení objektu Ole
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// Vytvořit proud paměti k ukládání pracovního seznamu
+MemoryStream ms = new MemoryStream();
+// Uložte pracovní knižku do souboru paměti
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// Nastavte odkaz na pracovní knihu na nulní, abyste uvolnili zdroje
+wb = null; 
+
+//ExStep:8-
+// Vložte pracovní knižku z proudění paměti
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// Zobrazit upravenou značku objektu Ole
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// Uveďte úspěšné provedení
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

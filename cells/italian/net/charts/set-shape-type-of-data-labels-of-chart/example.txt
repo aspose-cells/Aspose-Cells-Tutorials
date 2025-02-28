@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Questo codice mostra come caricare un libro di lavoro Excel esistente, modificare il tipo di forma di etichetta dei dati di un grafico e salvare le modifiche in un nuovo file Excel.
+//ExStepSummary:0: Questo passo definisce la directory sorgente e uscita per i file Excel.
+//ExStepSummary:1: Questa fase carica un file Excel esistente in un oggetto Workbook.
+//ExStepSummary:2: In questo passaggio si accede al primo foglio di lavoro del libro di lavoro.
+//ExStepSummary:3: Questo passo riprende la prima serie dal grafico e modifica il tipo di forma delle etichette dei dati in una bolla di discorso ovale.
+//ExStepSummary:4: Questa fase salva la scheda di lavoro modificata in un nuovo file Excel con un nome specificato.
+//ExStepSummary:5: Questo passo conferma l'esecuzione del programma stampando un messaggio sulla console.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Definire la directory sorgente
+string sourceDir = "Your Document Directory";
+// Definire la directory di uscita
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Caricare il file Excel sorgente
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// Accedere alla prima scheda di lavoro
+Worksheet ws = wb.Worksheets[0];
+// Accedere al primo grafico
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// Accedere alla prima serie
+Series srs = ch.NSeries[0];
+// Impostare il tipo di forma delle etichette dati a Speech Bubble Oval
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// Salvare il file Excel di uscita
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// Confirma l'esecuzione con successo
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

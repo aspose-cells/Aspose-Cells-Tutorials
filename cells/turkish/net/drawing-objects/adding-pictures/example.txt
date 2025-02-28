@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Aşağıdaki kod yeni bir Excel dosyası oluşturmanın, çalışma sayfasını eklemenin ve belirli bir hücreye bir resim eklemenin nasıl yapılacağını gösterir.
+//ExStepSummary:0: Aşağıdaki kod, Excel dosyası bulunduğu dizinin başlangıcını yapar.
+//ExStepSummary:1: Bu adım belge dizininin var olup olmadığını kontrol eder ve yoksa oluşturur.
+//ExStepSummary:2: Bu adım, yeni bir Excel dosyası oluşturmak için bir Çalışma Kitabı nesnesini görüntüler.
+//ExStepSummary:3: Bu adım, İş Kitabı nesneye yeni bir çalışma sayfasını ekler ve referansını elde eder.
+//ExStepSummary:4: Bu adım, belirtilen hücre koordinatlarında çalışma sayfasına bir görüntü ekler.
+//ExStepSummary:5: Bu adım Excel dosyasını belirtilen yoluna kaydetir.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Belge dizinine giden yolu tanımlayın
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Dizin olup olmadığını kontrol edin
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Çalışma Kutusu nesnesini bir anlık oluştur
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// Çalışma Kılavuzu ' na yeni bir çalışma sayfası ekle
+int sheetIndex = workbook.Worksheets.Add(); 
+// Yeni eklenen çalışma sayfasına ulaşılabilir
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// Hücreye bir resim ekleyin "F6" (sır 5, sütun 5)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// Excel dosyasını belirtilen yolda kaydet
+workbook.Save(dataDir + "output.xls");
+//ExEnd

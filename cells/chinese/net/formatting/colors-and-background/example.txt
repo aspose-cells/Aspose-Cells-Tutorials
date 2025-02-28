@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: 本代码展示如何使用Aspose.Cells创建Excel工作簿,添加自定义风格到细胞中,并将工作簿保存在Excel 97-2003格式中.
+//ExStepSummary:0: 下面的代码初始化Excel文件所在的目录.
+//ExStepSummary:1: 下面的代码设置了文件目录的路径,如果它不存在,则创建了它.
+//ExStepSummary:2: 下面的代码将 Workbook 对象插图,并将一个新的工作表添加到 Workbook 对象中.
+//ExStepSummary:3: 下面的代码采集A1细胞风格,并应用一个垂直条纹图案的黄色前景颜色.
+//ExStepSummary:4: 下面的代码采集A2细胞风格,并应用蓝色前景颜色,黄色背景颜色和垂直条纹图案.
+//ExStepSummary:5: 下面的代码将工作簿保存在Excel 97-2003格式中.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// 文件目录的路径.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 检查有没有目录.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// 创建目录,如果它还没有存在.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 实例化一个工作簿对象.
+Workbook workbook = new Workbook();
+
+// 创建一个新的表格,并获得其索引.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// 通过通过其表格指数获取新添加的工作表的参考.
+Worksheet worksheet = workbook.Worksheets[i];
+// 定义一个风格,得到A1细胞的风格.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// 设置细胞A1风格属性
+// 设置前景颜色为黄色.
+style.ForegroundColor = Color.Yellow;
+// 设置背景图案为垂直条.
+style.Pattern = BackgroundType.VerticalStripe;
+// 应用该样式到A1细胞.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// 拿到A2细胞的样式.
+style = worksheet.Cells["A2"].GetStyle();
+
+// 设置细胞A2风格属性
+// 设置前景颜色为蓝色.
+style.ForegroundColor = Color.Blue;
+// 设置背景颜色为黄色.
+style.BackgroundColor = Color.Yellow;
+// 设置背景图案为垂直条.
+style.Pattern = BackgroundType.VerticalStripe;
+// 应用到A2细胞.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// 保存了Excel文件.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

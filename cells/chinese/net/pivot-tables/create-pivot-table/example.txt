@@ -1,0 +1,85 @@
+//ExStart
+//ExSummary编程:该代码展示如何创建Excel工作簿,添加数据,并生成一个转向表,以总结不同运动的销售数据.
+//ExStepSummary:0: 启动文件目录的路径.
+//ExStepSummary:1: 创建一个新的工作簿对象,并获取默认工作表的引用.
+//ExStepSummary:2: 填写工作表中 sports,季度和销售的标题和数据.
+//ExStepSummary:3: 添加一个转向表来总结工作表中的数据.
+//ExStepSummary:4: 设置重点表,将大总和和拖动字段设置为适当的区域.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+// 文件目录的路径
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 实例化一个工作簿对象
+Workbook workbook = new Workbook();
+// 获取新添加的工作表的参考
+Worksheet sheet = workbook.Worksheets[0];
+// 访问工作表的单元
+Cells cells = sheet.Cells;
+
+//ExStep:2-
+// 访问细胞A1
+cell = cells["A1"];
+// 运动标题的设定值
+cell.PutValue("Sport");
+// 访问细胞B1
+cell = cells["B1"];
+// 设置为四分之一标题的值
+cell.PutValue("Quarter");
+// 访问细胞C1
+cell = cells["C1"];
+// 设置销售标题值
+cell.PutValue("Sales");
+
+// 添加运动数据
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+// 增加季度数据
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+// 增加销售数据
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:3-
+// 页面中的访问旋转表
+Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
+// 添加一个转向表到表格中
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:4-
+// 访问新添加的转向表的实例
+Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+// 没有显示列的总数
+pivotTable.RowGrand = false;
+// 拖动第一个字段 (运动) 到排行区
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+// 拖动第二个字段 (四分之一) 到列区
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
+// 拖动第三个字段 (销售) 到数据区
+pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+
+//ExStep:5-
+// 保存Excel文件
+workbook.Save(dataDir + "pivotTable_test_out.xls");
+//ExEnd

@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية إنشاء دفتر عمل Excel، وإضافة ورقة عمل، وتعديل قيمة الخلية ونموذجها، وتخزين دفتر العمل.
+//ExStepSummary:0: يبدأ الرمز التالي الإداري حيث يقع ملف Excel.
+//ExStepSummary:1: يبدأ الرمز مسار دليل الوثائق ويتحقق من وجوده.
+//ExStepSummary:2: الرمز يظهر كائن جديد من دفتر العمل.
+//ExStepSummary:3: يتم إضافة ورقة عمل جديدة إلى دفتر العمل، ويتم الحصول على مرجع إليها.
+//ExStepSummary:4: يتم الوصول إلى خلية "A1" في ورقة العمل لتعديل قيمتها.
+//ExStepSummary:5: يتم الحصول على نمط الخلية "A1" ووضع لون الخط إلى الأزرق.
+//ExStepSummary:6: يتم تطبيق النمط المعدل على الخلية قبل حفظ دفتر العمل.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// الطريق إلى دليل الوثائق
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// تحقق من وجود المجلة
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// إذا لم يكن موجوداً، فخلقه
+if (!IsExists)
+	// إخلق دليل
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// تحديد كائن كتاب العمل
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// إضافة ورقة عمل جديدة إلى جسم Excel.
+int i = workbook.Worksheets.Add();
+// الحصول على إشارة إلى ورقة العمل المضافة حديثا.
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:4-
+// الوصول إلى خلية "A1" من ورقة العمل.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// إضافة بعض القيمة إلى خلية "A1"
+cell.PutValue("Hello Aspose!");
+
+//ExStep:5-
+// الحصول على نمط الخلية.
+Style style = cell.GetStyle();
+// إعداد لون الخط إلى الأزرق
+style.Font.Color = Color.Blue;
+// تطبيق النمط على الخلية.
+cell.SetStyle(style);
+
+//ExStep:6-
+// حفظ ملف Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

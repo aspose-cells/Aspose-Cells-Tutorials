@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: Bu kod mevcut bir Excel çalışma defterini nasıl yükleneceğini, bir grafikin veri etiket şekli tipini nasıl değiştirileceğini ve değişiklikleri yeni bir Excel dosyasına nasıl kaydetileceğini gösterir.
+//ExStepSummary:0: Bu adım Excel dosyaları için kaynak ve çıkış dizini tanımlar.
+//ExStepSummary:1: Bu adım mevcut bir Excel dosyasını bir Çalışma Kitabı nesneye yükler.
+//ExStepSummary:2: Bu adım, çalışma defterindeki ilk çalışma sayfasına erişir.
+//ExStepSummary:3: Bu adım, grafikten ilk serileri alır ve veriler etiketlerinin şekil türünü bir Konuşma Bubble Oval'e değiştirir.
+//ExStepSummary:4: Bu adım, değiştirilmiş çalışma defterini belirtilen bir isimle yeni bir Excel dosyasına kaydetir.
+//ExStepSummary:5: Bu adım, konsolle bir mesaj yazdırarak programın başarılı bir şekilde yürütülmesini doğruluyor.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// Kaynak dizinini tanımlayın
+string sourceDir = "Your Document Directory";
+// Çıktı Dizini Define
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Kaynak Excel dosyasını yükle
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// İlk çalışma sayfasına eriş
+Worksheet ws = wb.Worksheets[0];
+// İlk tabloya eriş
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// İlk seriye eriş
+Series srs = ch.NSeries[0];
+// Veri etiketlerinin şekil türünü Konuşma Bubble Oval'e ayarlayın
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// Çıktı Excel dosyasını kaydet
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// Başarılı bir şekilde idam edildiğini doğrulayın
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

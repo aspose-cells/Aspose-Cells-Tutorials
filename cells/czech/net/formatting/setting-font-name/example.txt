@@ -1,0 +1,55 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit Excel pracovní knižku, přidat pracovní list a formátovat buňku pomocí Aspose.Cells.
+//ExStepSummary:0: Následující kód určuje cestu adresáře dokumentů.
+//ExStepSummary:1: Následující kód ověřuje, zda adresář existuje a pokud ne, vytváří ho.
+//ExStepSummary:2: Následující kód zobrazuje objekt Workbook k vytvoření nového souboru Excel.
+//ExStepSummary:3: Následující kód přidává do pracovního seznamu nový pracovní list.
+//ExStepSummary:4: Tento kód se dostává do prvního pracovního listu pracovního seznamu.
+//ExStepSummary:5:  Následující kód vstupuje do buňky "A1" v nově přidaném pracovním listu a přidává hodnotu buňce "A1".
+//ExStepSummary:6: Následující kód získává a mění styl buňky "A1".
+//ExStepSummary:7: Následující kód uloží pracovní knihu do uvedeného adresáře.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Nastavte cestu do adresáře dokumentů
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Zkontrolujte, zda existuje adresář
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Pokud neexistuje
+if (!IsExists)
+	// Vytvořit adresář
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Vytvořte objekt Workbook
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Přidejte do pracovního seznamu nový pracovní list
+int i = workbook.Worksheets.Add();
+
+//ExStep:4-
+// Získejte odkaz na nově přidaný pracovní list
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:5-
+// Přístup k buňce "A1" v pracovním listu
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Přidejte hodnotu k buňce "A1"
+cell.PutValue("Hello Aspose!");
+
+//ExStep:6-
+// Zjisti styl buňky
+Style style = cell.GetStyle();
+// Nastavte název písma na "Times New Roman"
+style.Font.Name = "Times New Roman";
+// Aplikujte změněný styl na buňku
+cell.SetStyle(style);
+
+//ExStep:7-
+// Uložte pracovní knihu do uvedeného adresáře
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

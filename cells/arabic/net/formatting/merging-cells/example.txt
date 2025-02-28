@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية إنشاء ملف Excel باستخدام Aspose.Cells، 
+// أثناء تنفيذ العديد من الإجراءات مثل إنشاء دليل، وتلاعب الخلايا، 
+// و حفظ دفتر العمل في شكل محدد.
+
+//ExStepSummary:0: حدد المسار لديريكتورية الوثائق وتحقق من وجودها.
+//ExStepSummary:1: إنشاء دليل جديد إذا لم يكن موجوداً
+//ExStepSummary:2: قم بتثبيت كائن كتاب العمل لتمثيل ملف Excel.
+//ExStepSummary:3: الحصول على الإشارة إلى أول ورقة عمل في دفتر العمل.
+//ExStepSummary:4: الوصول إلى خلية "A1" وإضافة قيمة لها.
+//ExStepSummary:5: دمج الأعمدة الثلاثة الأولى في الصف الأول إلى خلية واحدة.
+//ExStepSummary:6: حفظ دفتر العمل في النموذج والموقع المطلوب.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// الطريق إلى دليل الوثائق
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// تحقق من وجود المجلة
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// إعداد المجلد إذا لم يكن موجودا.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// قم بتثبيت كائن كتاب العمل لملف Excel.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// الحصول على الإشارة إلى أول ورقة عمل في دفتر العمل.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// الوصول إلى خلية "A1" من ورقة العمل.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// إضافة بعض القيمة إلى خلية "A1"
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// دمج الأعمدة الثلاثة الأولى في الصف الأول لإنشاء خلية واحدة.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// حفظ ملف Excel في النموذج المحدد.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd
