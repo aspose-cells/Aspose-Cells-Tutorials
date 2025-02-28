@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummary: Этот код показывает, как создать рабочую книгу Excel, заполнить ее образцовыми данными и создать графика столбцов на основе этих данных. 
+//ExStepSummary:0: В этом шаге указывается исходный каталог для файла Excel.
+//ExStepSummary:1: Этот шаг показывает новый объект рабочей книги для создания файла Excel.
+//ExStepSummary:2: В этом шаге получается ссылка на первый рабочий лист в созданном рабочем каталоге.
+//ExStepSummary:3: Этот шаг заполняет конкретные ячейки в рабочем листе с образцовыми числовыми данными.
+//ExStepSummary:4: В этом шаге в рабочий лист добавляются этикетки категорий для представления различных групп данных.
+//ExStepSummary:5: В этом шаге в рабочем листе создается графика столбцов в указанном месте, определяя его размер и положение.
+//ExStepSummary:6: В этом шаге доступ к недавно созданной диаграмме для дальнейшей конфигурации.
+//ExStepSummary:7: Этот шаг добавляет серии данных в график, устанавливая источник данных и категории данных, чтобы правильно представлять информацию.
+//ExStepSummary:8: Этот шаг сохраняет созданную рабочую книгу в качестве файла Excel в указанном каталоге выхода.
+//ExStepSummary:9: Этот шаг печатает сообщение о успехе на консоль, указывающее на то, что настройки диаграммы успешно применены.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// Укажите исходный каталог для файла Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Включить новый объект рабочей книги
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// Получить ссылку на первый рабочий лист
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Добавление в ячейки образцов численных данных
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// Добавить этикетки категории в рабочий лист
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// Создать графика столбцов
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// Доступ к недавно созданной диаграмме
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// Добавить источник данных для диаграммы
+chart.NSeries.Add("A1:B4", true);
+// Установка данных категории для диаграммы
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// Сохранить файл Excel
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// Печать сообщения успеха
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

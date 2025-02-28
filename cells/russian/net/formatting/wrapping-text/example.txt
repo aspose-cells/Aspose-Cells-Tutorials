@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать новый рабочий справочник Excel, добавить рабочий лист, настроить ячейку и сохранить рабочий справочник.
+//ExStepSummary:0: Следующий код определяет путь каталога документов.
+//ExStepSummary:1: Следующий код проверяет, существует ли каталог; если нет, он создает его.
+//ExStepSummary:2: Следующий код представляет объект рабочей книги.
+//ExStepSummary:3: Следующий код содержит ссылку на первый рабочий лист учебника.
+//ExStepSummary:4: Следующий код получает доступ к ячейке "A1" в рабочем листе.
+//ExStepSummary:5: Следующий код добавляет значение к ячейке "A1".
+//ExStepSummary:6: Следующий код устанавливает горизонтальное выравнивание текста в ячейке "A1" и позволяет завязать текст.
+//ExStepSummary:7: Следующий код сохраняет рабочий справочник Excel в указанном каталоге.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Определить путь к каталогу документов
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Проверьте , есть ли каталог
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Если она не существует, то создайте ее.
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Установка объекта Рабочей книги
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Получить ссылку на первый рабочий лист
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// Доступ к ячейке "A1" из рабочего листа
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+
+//ExStep:5-
+// Добавить некоторое значение к ячейке "A1"
+cell.PutValue("Visit Aspose!");
+
+//ExStep:6-
+// Получить текущий стиль ячейки
+Style style = cell.GetStyle();
+// Определить вкладку текста в ячейке
+style.IsTextWrapped = true;
+// Применить измененный стиль обратно в ячейку
+cell.SetStyle(style);
+
+//ExStep:7-
+// Сохранить файл Excel в указанном формате
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

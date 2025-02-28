@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Этот код показывает, как загрузить файл ODS, получить доступ к графику и напечатать его субтитр на консоль.
+//ExStepSummary:0: Код инициирует исходный каталог документа.
+//ExStepSummary:1: Код загружает файл Excel, содержащий графики из указанного каталога.
+//ExStepSummary:2: Код получает доступ к первому рабочему листу загруженной рабочей книги.
+//ExStepSummary:3: Код восстанавливает первую таблицу в рабочем листе.
+//ExStepSummary:4: Код печатает субтитр диаграммы на консоль.
+//ExStepSummary:5: Код подтверждает успешное выполнение поиска субтитров.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// Инициализировать исходный каталог для доступа к документам
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Загрузить файл Excel , содержащий диаграммы
+Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
+
+//ExStep:2-
+// Доступ к первому рабочему листу учебника
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Доступ к первой таблице в рабочем листе
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Напечатать субтитр диаграммы на консоль
+Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
+
+//ExStep:5-
+// Подтвердить успешное исполнение
+Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
+//ExEnd

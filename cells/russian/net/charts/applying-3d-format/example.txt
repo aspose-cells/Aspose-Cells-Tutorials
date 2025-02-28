@@ -1,0 +1,136 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать новый рабочий справочник Excel, добавить данные и графики, а также применить 3D форматирование к серии графиков.
+//ExStepSummary:0: Этот шаг инициирует исходный каталог для рабочей книги и создает новый пример рабочей книги для манипуляции данными.
+//ExStepSummary:1: Этот шаг переименовывает первый рабочий лист в "Дата-схема".
+//ExStepSummary:2: В этом шаге получается "Схема данных" для дальнейшего введения данных.
+//ExStepSummary:3: Этот шаг добавляет новый рабочий лист под названием "Моя диаграмма", чтобы разместить диаграмму.
+//ExStepSummary:4: В этом шаге "Данные листы" заполняются значениями образца от B1 до B3 и этикетками от A1 до A3.
+//ExStepSummary:5: Этот шаг инициирует ChartCollection для добавления графиков в "MyChart".
+//ExStepSummary:6: Этот шаг определяет коллекцию диаграмм в "Мой диаграмме" и добавляет графу столбцов.
+//ExStepSummary:7: Этот шаг устанавливает цвета фона и foreground PlotArea и ChartArea на белый цвет.
+//ExStepSummary:8: Этот шаг скрывает легенду для прояснения в диаграмме.
+//ExStepSummary:9: Этот шаг добавляет серии данных из "DataSheet" в график.
+//ExStepSummary:10: В этом шаге определяются данные категории для диаграммы.
+//ExStepSummary:11: В этом шаге получается первая серия данных для целей форматирования.
+//ExStepSummary:12: Этот шаг дает доступ к свойствам формы серии для 3D форматирования.
+//ExStepSummary:13: Этот шаг настраивает настройки TopBevel, настройка стиля, высоты и ширины.
+//ExStepSummary:14: Этот шаг устанавливает тип поверхностного материала на теплый мат.
+//ExStepSummary:15: Этот шаг определяет тип освещения поверхности.
+//ExStepSummary:16: В этом шаге указывается угол освещения для повышения зрения.
+//ExStepSummary:17: Этот шаг устанавливает фона, первый план и граничные цвета серии на Maroon.
+//ExStepSummary:18: Этот шаг сохраняет рабочий справочник в указанном каталоге и подтверждает успешное выполнение.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// Настройка пути выходной каталога
+string dataDir = "Your Document Directory";
+// Включить новый объект рабочей книги
+Workbook book = new Workbook();
+
+//ExStep:1-
+// Переименовать первый рабочий лист в "Дата-схема"
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// Спросите "Данные листы"
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// Добавить новый рабочий лист для диаграммы
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// Население B1 с значением 1
+dataSheet.Cells["B1"].PutValue(1);
+// Население B2 с значением 2
+dataSheet.Cells["B2"].PutValue(2);
+// Население B3 с значением 3
+dataSheet.Cells["B3"].PutValue(3);
+// Население A1 с маркировкой A
+dataSheet.Cells["A1"].PutValue("A");
+// Население A2 с маркировкой B
+dataSheet.Cells["A2"].PutValue("B");
+// Население A3 с маркировкой C
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// Определите сборник графиков из "Моей графики"
+ChartCollection charts = sheet.Charts;
+// Добавить графика столбцов
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// Доступ к недавно добавленному диаграмме
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// Установка цвета фона PlotArea
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// Установка цвета фона зоны диаграммы
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// Установка цвета на первом фоне Плота
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// Установка цвета переднего плана
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// Скрыть легенду для ясности в диаграмме
+chart.ShowLegend = false;
+
+//ExStep:9-
+// Добавить серии данных из "Датафайл"
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// Укажите данные категории для диаграммы
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// Получить первую серию данных для форматирования
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// Доступ к свойствам формы серии
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// Обязательства форматирования 3D
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// Получить настройки TopBevel
+Bevel bevel = fmt3d.TopBevel;
+// Настройка стиля на круговой
+bevel.Type = BevelPresetType.Circle; 
+// Установка высоты облока
+bevel.Height = 2;
+// Установка ширины оболочки 
+bevel.Width = 5;
+
+//ExStep:14-
+// Тип материала поверхности
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// Настройка типа освещения для поверхности
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// Укажите угол освещения
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// Настройка цвета фона серии
+ser.Area.BackgroundColor = Color.Maroon;
+// Настройка цвета на первом фоне серии
+ser.Area.ForegroundColor = Color.Maroon;
+// Установка цвета границы серии
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// Сохранить справочник в указанном каталоге
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// Подтвердить успешное исполнение
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

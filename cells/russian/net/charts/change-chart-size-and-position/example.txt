@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Этот код показывает, как изменить размер и переположить график в рабочей книге Excel с использованием библиотеки Aspose.Cells.
+//ExStepSummary:0: Следующий код инициирует исходные и исходные каталоги для файла Excel.
+//ExStepSummary:1: Код загружает рабочий справочник из исходного каталога, содержащий образцовый файл Excel.
+//ExStepSummary:2: Код получает доступ к первому рабочему листу в учебнике, чтобы работать с его диаграммами.
+//ExStepSummary:3: Код извлекает первую таблицу из рабочего листа для целей модификации.
+//ExStepSummary:4: Код переразмеряет график на ширину 400 и высоту 300 пикселей.
+//ExStepSummary:5: Код размещает график, устанавливая его X и Y координаты.
+//ExStepSummary:6: Наконец, измененный рабочий справочник сохраняется в выходном каталоге с новым именем файла.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// Источник справочника для файла Excel
+string sourceDir = "Your Document Directory";
+// Справочник выхода для сохранения измененного файла Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Загрузка указанного рабочего листа
+Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
+
+//ExStep:2-
+// Доступ к первому рабочему листу учебника
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// Загрузить первую таблицу из рабочего листа
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Переоценить ширину диаграммы до 400 пикселей
+chart.ChartObject.Width = 400;
+// Переоценить высоту диаграммы до 300 пикселей
+chart.ChartObject.Height = 300;
+
+//ExStep:5-
+// Перемещение X-координаты диаграммы
+chart.ChartObject.X = 250;
+// Переположите координаты Y диаграммы 
+chart.ChartObject.Y = 150;
+
+//ExStep:6-
+// Сохранить измененный рабочий справочник в выходном каталоге
+workbook.Save(outputDir + "outputChangeChartSizeAndPosition.xlsx");
+// Уведомление пользователя о успешном выполнении
+Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
+//ExEnd

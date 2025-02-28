@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать рабочую книгу Excel с помощью Aspose.Cells, добавить настройки стилей к ячейкам и сохранить рабочую книгу в формате Excel 97-2003.
+//ExStepSummary:0: Следующий код инициирует каталог, где находится файл Excel.
+//ExStepSummary:1: Следующий код устанавливает путь для каталога документов и создает его, если он не существует.
+//ExStepSummary:2: Следующий код инстанирует объект Рабочей книги и добавляет новый рабочий лист к объекту Рабочей книги.
+//ExStepSummary:3: Следующий код отображает стиль ячейки A1 и применяет желтый цвет в первом плане с вертикальным рисунком полосы.
+//ExStepSummary:4: Следующий код восстанавливает стиль ячейки A2 и применяет синий цвет переднего плана, желтый цвет фона и вертикальный узоры полосы.
+//ExStepSummary:5: Следующий код сохраняет рабочий справочник в формате Excel 97-2003.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Путь в справочник документов.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Проверь, есть ли каталог.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// Создать каталог, если он еще не существует.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Инсталляция объекта рабочей книги.
+Workbook workbook = new Workbook();
+
+// Создайте новый рабочий лист и получите его индекс.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// Получение ссылки на недавно добавленный рабочий лист путем прохождения индекса листа.
+Worksheet worksheet = workbook.Worksheets[i];
+// Определите стиль и получите стиль ячейки А1.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// Установка свойств стиля ячейки А1
+// Настройка цвета на передний план на желтый.
+style.ForegroundColor = Color.Yellow;
+// Настройка фона на вертикальную полосу.
+style.Pattern = BackgroundType.VerticalStripe;
+// Применить стиль к ячейке А1.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// Сделайте стиль A2.
+style = worksheet.Cells["A2"].GetStyle();
+
+// Установка свойств стиля ячейки А2
+// Настройка цвета на передний план на синий.
+style.ForegroundColor = Color.Blue;
+// Настройка цвета фона на желтый.
+style.BackgroundColor = Color.Yellow;
+// Настройка фона на вертикальную полосу.
+style.Pattern = BackgroundType.VerticalStripe;
+// Применить стиль к ячейке А2.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// Записываю файл Excel.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

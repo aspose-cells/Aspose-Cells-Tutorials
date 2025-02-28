@@ -1,0 +1,53 @@
+//ExStart
+//ExSummary: Этот код демонстрирует, как манипулировать текстом внутри формы в рабочем листе Excel с помощью Aspose.Cells. Он устанавливает свойства выравнивания текста и сохраняет рабочий справочник.
+//ExStepSummary:0: Следующий код определяет исходный каталог файла Excel.
+//ExStepSummary:1: Следующий код определяет исходный каталог для файла Excel.
+//ExStepSummary:2: Следующий код загружает образец файла Excel, содержащего данные.
+//ExStepSummary:3: Следующий код открывает первый рабочий лист в учебнике.
+//ExStepSummary:4: Следующий код обновляет значение ячейки B4 с сообщением о вращении текста.
+//ExStepSummary:5: Следующий код имеет доступ к первой форме на рабочем листе.
+//ExStepSummary:6: Следующий код изменяет текст формы для предотвращения ротации текста.
+//ExStepSummary:7: Следующий код сохраняет измененный рабочий справочник в указанном каталоге выводов.
+//ExStepImage:4:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Определить исходный каталог , где расположен файл Excel
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// Определить исходный каталог для сохранения измененного файла Excel
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// Загрузить файл Excel
+Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:3-
+// Доступ к первому рабочему листу в рабочем каталоге
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// Клетка доступа B4 в рабочем листе
+Cell b4 = ws.Cells["B4"];
+// Обновление ячейки B4 с конкретным сообщением
+b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
+
+//ExStep:5-
+// Доступ к первой форме в рабочем листе
+Shape sh = ws.Shapes[0];
+
+//ExStep:6-
+// Доступ к текстовому выравниванию формы
+Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
+// Настройка свойства не вращаться текст с формой
+shapeTextAlignment.RotateTextWithShape = false;
+
+//ExStep:7-
+// Сохранить измененный рабочий справочник в выходном каталоге
+wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
+
+//ExStep:8-
+// Печать сообщения успеха
+Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
+//ExEnd

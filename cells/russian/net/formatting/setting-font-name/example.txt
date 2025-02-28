@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать рабочий справочник Excel, добавить рабочий лист и форматировать ячейку с помощью Aspose.Cells.
+//ExStepSummary:0: Следующий код определяет путь для каталога документов.
+//ExStepSummary:1: Следующий код проверяет, существует ли каталог и создает его, если нет.
+//ExStepSummary:2: Следующий код показывает объект рабочей книги для создания нового файла Excel.
+//ExStepSummary:3: Следующий код добавляет новый рабочий лист в учебник.
+//ExStepSummary:4: Этот код получает доступ к первому рабочему листу учебника.
+//ExStepSummary:5:  Следующий код получает доступ к ячейке "A1" в недавно добавленном рабочем листе и добавляет значение к ячейке "A1".
+//ExStepSummary:6: Следующий код получает и изменяет стиль ячейки "A1".
+//ExStepSummary:7: Следующий код сохраняет рабочий справочник в указанном каталоге.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Установка пути в каталог документов
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Проверьте , есть ли каталог
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// Если она не существует
+if (!IsExists)
+	// Создать каталог
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// Установка объекта Рабочей книги
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// Добавить новый рабочий лист в учебник
+int i = workbook.Worksheets.Add();
+
+//ExStep:4-
+// Получить ссылку на недавно добавленный рабочий лист
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:5-
+// Доступ к ячейке "A1" в рабочем листе
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// Добавить значение в ячейку "A1"
+cell.PutValue("Hello Aspose!");
+
+//ExStep:6-
+// Получить стиль клетки
+Style style = cell.GetStyle();
+// Назначить имя шрифта на "Times New Roman"
+style.Font.Name = "Times New Roman";
+// Применить измененный стиль к ячейке
+cell.SetStyle(style);
+
+//ExStep:7-
+// Сохранить справочник в указанном каталоге
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

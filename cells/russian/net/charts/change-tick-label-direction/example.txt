@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Этот код показывает, как изменить направление табличных теток на текетках в рабочем листе Excel с помощью библиотеки Aspose.Cells.
+//ExStepSummary:0: Загрузите образец рабочей книги Excel из указанного исходного каталога.
+//ExStepSummary:1: Доступ к первому рабочему листу в учебнике.
+//ExStepSummary:2: Загрузи таблицу с первого рабочего листа.
+//ExStepSummary:3: Установите направление маркировки опорных знаков категории на горизонтальный.
+//ExStepSummary:4: Сохранить измененную рабочую книгу в указанном каталоге выхода.
+//ExStepSummary:5: Подтвердите успешное выполнение сообщением консоли.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// Определить исходный каталог файла Excel
+// Установка пути исходного каталога
+string sourceDir = "Your Document Directory"; 
+// Настройка пути выходной каталога
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Загрузка рабочей книги Excel с указанного источника
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// Индекс 0 относится к первому рабочему листу
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// Загрузить график с первого рабочего листа
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// Изменить тип направления маркировки на осях категории на горизонтальный
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// Сохранить измененный рабочий справочник в выходном каталоге с новым именем файла
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// Напечатать сообщение успеха на консоль
+// Укажите, что процесс успешно завершен
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd
