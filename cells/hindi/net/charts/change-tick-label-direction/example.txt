@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे Aspose.Cells पुस्तकालय का उपयोग करके एक्सेल कार्यपत्रक में चार्ट टिक लेबल की दिशा बदलना है.
+//ExStepSummary:0: निर्दिष्ट स्रोत निर्देशिका से Excel कार्यपुस्तिका नमूना लोड करें.
+//ExStepSummary:1: कार्यपुस्तिका में पहली कार्यपत्रक तक पहुँचें.
+//ExStepSummary:2: पहली कार्यपत्रक से चार्ट लोड करें.
+//ExStepSummary:3: श्रेणी अक्ष के चिह्नों की दिशा क्षैतिज पर सेट करें।
+//ExStepSummary:4: संशोधित कार्यपुस्तिका को निर्दिष्ट आउटपुट निर्देशिका में सहेजें.
+//ExStepSummary:5: कंसोल संदेश के साथ सफल निष्पादन की पुष्टि करें.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+
+//ExStep:0-
+// एक्सेल फ़ाइल के लिए स्रोत निर्देशिका को परिभाषित करें
+// स्रोत निर्देशिका पथ सेट करें
+string sourceDir = "Your Document Directory"; 
+// आउटपुट निर्देशिका पथ सेट करें
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// Excel कार्यपुस्तिका को निर्दिष्ट स्रोत पथ से लोड करें
+Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
+
+//ExStep:2-
+// सूचकांक 0 पहली कार्यपत्रक को संदर्भित करता है
+Worksheet worksheet = workbook.Worksheets[0]; 
+
+//ExStep:3-
+// पहले कार्यपत्रक से चार्ट लोड करें
+Chart chart = worksheet.Charts[0];
+
+//ExStep:4-
+// श्रेणी अक्ष के दिशा प्रकार के चिह्नों को क्षैतिज में बदलें
+chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+
+//ExStep:5-
+// संशोधित कार्यपुस्तिका को नई फ़ाइल नाम के साथ आउटपुट निर्देशिका में सहेजें
+workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
+// कंसोल पर सफलता संदेश मुद्रित करें
+// सफलतापूर्वक पूरा की गई प्रक्रिया दर्शाएँ
+Console.WriteLine("ChangeTickLabelDirection executed successfully."); 
+//ExEnd

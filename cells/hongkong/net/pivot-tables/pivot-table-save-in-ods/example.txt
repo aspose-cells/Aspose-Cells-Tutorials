@@ -1,0 +1,92 @@
+//ExStart
+//ExSummary: 這個代碼展示如何使用Aspose.Cells在計算表中創建一個 PivotTable. 它初始化工作簿,添加資料,創建一個 PivotTable,設定其設定,並以 ODS 格式保存工作簿.
+//ExStepSummary:0: 這種代碼設定了ODS檔案的輸出目錄.
+//ExStepSummary:1: 這步開始工作簿對象, 創建新的計算表.
+//ExStepSummary:2: 這部分取回第一個工作表和數據操縱的細胞集合.
+//ExStepSummary:3: 這一步將各季度的運動銷售數據填寫在工作表上.
+//ExStepSummary:4: 這部分將使用填寫的數據添加一個 PivotTable.
+//ExStepSummary:5: 這一步設定了PivotTable, 設定行,列和數據的欄位,然後部分計算了PivotTable數據.
+//ExStepSummary:6: 這步將工作簿儲存到指定輸出目錄.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// 設定文件輸出目錄
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 實例化工作簿對象
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// 獲得第一個工作表的參考資料
+Worksheet sheet = workbook.Worksheets[0];
+// 獲取單元格集合
+Cells cells = sheet.Cells; 
+
+//ExStep:3-
+// 接入 A1 單元格
+cell = cells["A1"];
+// 設定運動頭條
+cell.PutValue("Sport");
+// 接入B1細胞
+cell = cells["B1"];
+// 設定頭部為四分之一
+cell.PutValue("Quarter");
+// 接入單元格C1
+cell = cells["C1"];
+// 設定出售頭條
+cell.PutValue("Sales");
+
+// 增加運動,季度和銷售數據
+cell = cells["A2"]; cell.PutValue("Golf");
+cell = cells["A3"]; cell.PutValue("Golf");
+cell = cells["A4"]; cell.PutValue("Tennis");
+cell = cells["A5"]; cell.PutValue("Tennis");
+cell = cells["A6"]; cell.PutValue("Tennis");
+cell = cells["A7"]; cell.PutValue("Tennis");
+cell = cells["A8"]; cell.PutValue("Golf");
+
+cell = cells["B2"]; cell.PutValue("Qtr3");
+cell = cells["B3"]; cell.PutValue("Qtr4");
+cell = cells["B4"]; cell.PutValue("Qtr3");
+cell = cells["B5"]; cell.PutValue("Qtr4");
+cell = cells["B6"]; cell.PutValue("Qtr3");
+cell = cells["B7"]; cell.PutValue("Qtr4");
+cell = cells["B8"]; cell.PutValue("Qtr3");
+
+cell = cells["C2"]; cell.PutValue(1500);
+cell = cells["C3"]; cell.PutValue(2000);
+cell = cells["C4"]; cell.PutValue(600);
+cell = cells["C5"]; cell.PutValue(1500);
+cell = cells["C6"]; cell.PutValue(4070);
+cell = cells["C7"]; cell.PutValue(5000);
+cell = cells["C8"]; cell.PutValue(6430);
+
+//ExStep:4-
+// 访问 PivotTable 集合
+PivotTableCollection pivotTables = sheet.PivotTables;
+// 根據數據範圍添加 PivotTable
+int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
+
+//ExStep:5-
+// 接觸新增的 PivotTable
+PivotTable pivotTable = pivotTables[index];
+// 列的總數被禁用
+pivotTable.RowGrand = false;
+// 拖動第一個欄位到行區域
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+// 拖動第二欄目到列區域
+pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+// 將第三個欄位拖到數據區域
+pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+// 計算動表的數據
+pivotTable.CalculateData();
+
+//ExStep:6-
+// 保存工作簿在 ODS 格式
+workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
+// 顯示成功執行
+Console.WriteLine("PivotTableSaveInODS executed successfully.");
+//ExEnd

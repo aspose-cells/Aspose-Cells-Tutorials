@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary這種情況是: 如何使用Aspose.Cells創建 Excel 檔案,
+//ExStepSummary:0: 這項代碼初始化了Excel檔案所在的目錄.
+//ExStepSummary:1: 該程式將文件目錄的路徑設定,
+//ExStepSummary:2: 這步開始 Excel 檔案的工作簿對象.
+//ExStepSummary:3: 這步從工作簿中取出第一個工作表.
+//ExStepSummary:4: 我們從工作表中進入"A1"單元格,
+//ExStepSummary:5: 這一步將"A1"單元格中的文字水平對齊到中心.
+//ExStepSummary:6: 該代碼將工作簿儲存在 Excel 97-2003格式的指定目錄中.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// 定義文件目錄的路徑.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 檢查目錄是否存在.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists) // If it does not exist,
+	// 建立目錄.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 實例化工作簿對象,以創建新的 Excel 檔案.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 請參考第一頁.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// 在工作表中進入"A1"單元格.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// 加入一些值到"A1"單元格.
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// 獲得細胞的現有風格.
+Style style = cell.GetStyle();
+// 設定水平對齊到中心.
+style.HorizontalAlignment = TextAlignmentType.Center;
+// 應用更新的樣式於單元格.
+cell.SetStyle(style);
+
+//ExStep:6-
+// 保存工作簿在 Excel 97-2003格式的指定目錄中.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

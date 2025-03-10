@@ -1,0 +1,136 @@
+//ExStart
+//ExSummary這種情況是非常常見的.
+//ExStepSummary:0: 這一步會初始化工作簿的輸出目錄,並創建新的工作簿實例,
+//ExStepSummary:1: 這步將第一個工作表更名為"資料表".
+//ExStepSummary:2: 這一步取出"資料表"以進一步輸入資料.
+//ExStepSummary:3: 這一步增加了名為"我的圖表"的新工作表,
+//ExStepSummary:4: 這一步填寫"資料表"以B1至B3的樣本值,並標示A1至A3.
+//ExStepSummary:5: 這一步將開始在"我的圖表"中添加圖表的圖表集合.
+//ExStepSummary:6: 這一步定義了"我的圖表"中的圖表集合,並添加了列圖.
+//ExStepSummary:7: 這一步將圖表的圖案區域和圖表區域的背景和前景顏色設定為白色.
+//ExStepSummary:8: 這一步隱藏了傳說,
+//ExStepSummary:9: 這一步將"資料表"中的數據連串添加到圖表中.
+//ExStepSummary:10: 這一步指定圖表的類別數據.
+//ExStepSummary:11: 這一步取回第一個數據序列以進行格式化.
+//ExStepSummary:12: 這一步可使用3D格式化來檢查系列的形狀特性.
+//ExStepSummary:13: 這一步設定了TopBevel設定,設定風格,高度和寬度.
+//ExStepSummary:14: 這一步將表面材料類型設定為溫抹黑.
+//ExStepSummary:15: 這一步決定了表面的照明類型.
+//ExStepSummary:16: 這一步指定了視覺增強照明的角度.
+//ExStepSummary:17: 這一步將系列背景,前景和邊界顏色設定為Maroon.
+//ExStepSummary:18: 這步將工作簿儲存到指定目錄,並確認成功執行.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:9:images/3.png
+//ExStepImage:10:images/4.png
+//ExStepImage:17:images/5.png
+//ExStep:0-
+// 設定輸出目錄路徑
+string dataDir = "Your Document Directory";
+// 建立新工作簿對象
+Workbook book = new Workbook();
+
+//ExStep:1-
+// 請將第一個工作表更名為"資料表"
+book.Worksheets[0].Name = "DataSheet"; 
+
+//ExStep:2-
+// 獲得"資料表"的參考資料
+Worksheet dataSheet = book.Worksheets["DataSheet"];
+
+//ExStep:3-
+// 添加一個新工作表
+Worksheet sheet = book.Worksheets.Add("MyChart");
+
+//ExStep:4-
+// 填充B1的數值為1
+dataSheet.Cells["B1"].PutValue(1);
+// 填充B2的數值為2
+dataSheet.Cells["B2"].PutValue(2);
+// 填充B3的數值為3
+dataSheet.Cells["B3"].PutValue(3);
+// 填充A1以A標籤
+dataSheet.Cells["A1"].PutValue("A");
+// 填充A2以B標籤
+dataSheet.Cells["A2"].PutValue("B");
+// 填寫A3標籤C
+dataSheet.Cells["A3"].PutValue("C");
+
+//ExStep:5-
+// 定義表格集合從"我的表格"
+ChartCollection charts = sheet.Charts;
+// 添加一個列圖表
+int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+
+//ExStep:6-
+// 進入新增圖表
+Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];
+
+//ExStep:7-
+// 設定地圖區域的背景顏色
+chart.PlotArea.Area.BackgroundColor = Color.White;
+// 設定圖表區域背景顏色
+chart.ChartArea.Area.BackgroundColor = Color.White;
+// 設定地圖區域的前景顏色
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// 設定圖表區域前景顏色
+chart.ChartArea.Area.ForegroundColor = Color.White;
+
+//ExStep:8-
+// 在圖表顯示中隱藏傳說以提高清晰度
+chart.ShowLegend = false;
+
+//ExStep:9-
+// 加入"資料表"中的數據系列
+chart.NSeries.Add("DataSheet!B1:B3", true);
+
+//ExStep:10-
+// 指定圖表的類別數據
+chart.NSeries.CategoryData = "DataSheet!A1:A3";
+
+//ExStep:11-
+// 取得第一個格式化數據系列
+Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+
+//ExStep:12-
+// 接觸系列的形狀屬性
+ShapePropertyCollection spPr = ser.ShapeProperties;
+// 接入3D格式化選項
+Format3D fmt3d = spPr.Format3D;
+
+//ExStep:13-
+// 獲得TopBevel設定
+Bevel bevel = fmt3d.TopBevel;
+// 設定形風格為圓
+bevel.Type = BevelPresetType.Circle; 
+// 設定角高度
+bevel.Height = 2;
+// 設定面寬度 
+bevel.Width = 5;
+
+//ExStep:14-
+// 裝置表面材料類型
+fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+
+//ExStep:15-
+// 設定表面的照明類型
+fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+
+//ExStep:16-
+// 指定照明的角度
+fmt3d.LightingAngle = 20;
+
+//ExStep:17-
+// 設定系列背景顏色
+ser.Area.BackgroundColor = Color.Maroon;
+// 設定系列前景顏色
+ser.Area.ForegroundColor = Color.Maroon;
+// 設定系列的邊界顏色
+ser.Border.Color = Color.Maroon;
+
+//ExStep:18-
+// 保存工作簿在指定目錄中
+book.Save(dataDir + "outputApplying3DFormat.xlsx");
+// 確認成功執行
+Console.WriteLine("Applying3DFormat executed successfully.");
+//ExEnd

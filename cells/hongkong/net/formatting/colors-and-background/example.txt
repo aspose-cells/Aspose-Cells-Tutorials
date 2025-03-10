@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary這個代碼展示如何使用Aspose.Cells創建 Excel 工作簿,在細胞中添加自訂風格,並將工作簿儲存到 Excel 97-2003格式.
+//ExStepSummary:0: 這項代碼初始化了Excel檔案所在的目錄.
+//ExStepSummary:1: 該文件目錄的路徑會被設定,
+//ExStepSummary:2: 以下代碼實例化工作簿對象,並添加新工作表.
+//ExStepSummary:3: 下面的代碼取出A1單元格格式,並應用黃色前景顏色,並有垂直條紋圖案.
+//ExStepSummary:4: 接下來的代碼取出A2細胞風格,並應用藍色前景色,黃色背景色和垂直條紋圖案.
+//ExStepSummary:5: 以下代碼將工作簿儲存在 Excel 97-2003 格式中.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// 文件目錄的路徑.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 檢查目錄是否存在.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// 如果沒有, 創建目錄.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 實例化工作簿對象.
+Workbook workbook = new Workbook();
+
+// 創建新工作表並取得其索引.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// 通過其表格索引取得新增工作表的參考.
+Worksheet worksheet = workbook.Worksheets[i];
+// 定義一個Style,然後得到A1細胞的Style.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// 設定 A1 單元格的樣式屬性
+// 設定前景顏色為黃色.
+style.ForegroundColor = Color.Yellow;
+// 設定背景圖案為垂直條紋.
+style.Pattern = BackgroundType.VerticalStripe;
+// 應用該樣式於 A1 單元格.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// 必須要使用A2細胞.
+style = worksheet.Cells["A2"].GetStyle();
+
+// 設定 A2 單元格的樣式屬性
+// 設定前景顏色為藍色.
+style.ForegroundColor = Color.Blue;
+// 設定背景顏色為黃色.
+style.BackgroundColor = Color.Yellow;
+// 設定背景圖案為垂直條紋.
+style.Pattern = BackgroundType.VerticalStripe;
+// 應用該樣式於 A2 單元格.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// 保存"優化"檔案.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

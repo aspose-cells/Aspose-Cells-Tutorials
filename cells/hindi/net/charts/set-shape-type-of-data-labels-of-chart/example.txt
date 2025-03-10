@@ -1,0 +1,42 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे एक मौजूदा एक्सेल कार्यपुस्तिका लोड करें, एक चार्ट के डेटा लेबल आकार प्रकार को संशोधित करें, और एक नई एक्सेल फ़ाइल में परिवर्तन सहेजें.
+//ExStepSummary:0: यह चरण एक्सेल फ़ाइलों के लिए स्रोत और आउटपुट निर्देशिका को परिभाषित करता है.
+//ExStepSummary:1: यह चरण कार्यपुस्तिका वस्तु में एक मौजूदा एक्सेल फ़ाइल लोड करता है.
+//ExStepSummary:2: यह चरण कार्यपुस्तिका में पहली कार्यपत्रक तक पहुँचता है.
+//ExStepSummary:3: यह चरण चार्ट से पहली श्रृंखला को पुनः प्राप्त करता है और इसके डेटा लेबल के आकार प्रकार को स्पीच बबल ओवल में संशोधित करता है।
+//ExStepSummary:4: यह चरण संशोधित कार्यपुस्तिका को निर्दिष्ट नाम के साथ एक नई Excel फ़ाइल में सहेजता है.
+//ExStepSummary:5: यह चरण कंसोल पर एक संदेश प्रिंट करके कार्यक्रम के सफल निष्पादन की पुष्टि करता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+
+//ExStep:0-
+// स्रोत निर्देशिका को परिभाषित करें
+string sourceDir = "Your Document Directory";
+// आउटपुट निर्देशिका को परिभाषित करें
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// स्रोत एक्सेल फ़ाइल लोड करें
+Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:2-
+// पहली कार्यपत्रक तक पहुँचें
+Worksheet ws = wb.Worksheets[0];
+// पहले चार्ट तक पहुँचें
+Chart ch = ws.Charts[0]; 
+
+//ExStep:3-
+// पहली श्रृंखला तक पहुँचें
+Series srs = ch.NSeries[0];
+// डेटा लेबल के आकार प्रकार को स्पीच बबल ओवल पर सेट करें
+srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
+
+//ExStep:4-
+// आउटपुट एक्सेल फ़ाइल सहेजें
+wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+
+//ExStep:5-
+// सफल निष्पादन की पुष्टि करें
+Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
+//ExEnd

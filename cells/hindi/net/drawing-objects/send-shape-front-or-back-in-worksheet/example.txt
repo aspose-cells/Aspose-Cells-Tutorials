@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: यह कोड एक्सेल कार्यपुस्तिका लोड करता है, कार्यपत्रक में विशिष्ट आकृतियों तक पहुँचता है, उनके Z-क्रम पदों को हेरफेर करता है, और अद्यतन कार्यपुस्तिका सहेजता है.
+//ExStepSummary:0: निम्न कोड दिखाता है कि एक्सेल फ़ाइल के लिए स्रोत निर्देशिका को कैसे परिभाषित किया जाए.
+//ExStepSummary:1: निम्न कोड दिखाता है कि एक्सेल फ़ाइल के लिए आउटपुट निर्देशिका को कैसे परिभाषित किया जाए.
+//ExStepSummary:2: निम्न कोड स्रोत Excel फ़ाइल लोड करने के लिए कैसे दिखाता है.
+//ExStepSummary:3: निम्न कोड कार्यपुस्तिका की पहली कार्यपत्रक तक पहुँचने के लिए दिखाता है.
+//ExStepSummary:4: निम्न कोड कार्यपत्रक में पहले और चौथे आकारों तक पहुँचने के तरीके को दर्शाता है.
+//ExStepSummary:5: निम्नलिखित कोड दिखाता है कि पहले आकार की Z-ऑर्डर स्थिति कैसे मुद्रित की जाए।
+//ExStepSummary:6: निम्नलिखित कोड दिखाता है कि पहले आकार को सामने कैसे भेजा जाए।
+//ExStepSummary:7: निम्नलिखित कोड दिखाता है कि चौथे आकार की Z-ऑर्डर स्थिति कैसे मुद्रित की जाए।
+//ExStepSummary:8: निम्नलिखित कोड दिखाता है कि चौथे आकार को पीछे कैसे भेजा जाए।
+//ExStepSummary:9: निम्न कोड दिखाता है कि कैसे संशोधित एक्सेल फ़ाइल को आउटपुट निर्देशिका में सहेजा जाए.
+//ExStepSummary:10: निम्नलिखित कोड में दिखाया गया है कि ऑपरेशन के निष्पादन की पुष्टि कैसे की जाती है।
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// इनपुट एक्सेल फ़ाइल के लिए स्रोत निर्देशिका
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// संशोधित एक्सेल फ़ाइल के लिए आउटपुट निर्देशिका
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// एक्सेल स्रोत फ़ाइल लोड करें
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// पहली कार्यपत्रक तक पहुँचें
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// पहले आकार तक पहुँचें
+Shape sh1 = ws.Shapes[0];
+// चौथे आकार तक पहुँचें
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// पहले आकार की Z-ऑर्डर स्थिति प्रिंट करें
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// इस पहले आकार को सामने भेजें
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// चौथे आकार की Z-ऑर्डर स्थिति प्रिंट करें
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// इस चौथे आकार को पीछे भेजें
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// आउटपुट एक्सेल फ़ाइल सहेजें
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// निष्पादन की पुष्टि
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

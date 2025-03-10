@@ -1,0 +1,71 @@
+//ExStart
+Here's a summary of the steps in the code you provided:
+//ExSummary這種情況是非常常見的. 
+//ExStepSummary:0: 這步指定了 Excel 檔案的輸出目錄.
+//ExStepSummary:1: 這一步會實例化一個新的作業簿對象,
+//ExStepSummary:2: 這步取出創建工作簿中的第一個工作表的參考.
+//ExStepSummary:3: 這一步填充工作表中的特定單元格,
+//ExStepSummary:4: 這一步將類別標籤添加到工作表中,
+//ExStepSummary:5: 這步會在指定位置上在工作表中創建一張欄位圖,
+//ExStepSummary:6: 這一步可進入新創的圖表,
+//ExStepSummary:7: 這一步將數據連串添加到圖表中,並設定其數據來源和類別數據,以正確表示資訊.
+//ExStepSummary:8: 這步將生成的作業簿保存為 Excel 檔案在指定輸出目錄中.
+//ExStepSummary:9: 這一步將向控制台印出成功訊息, 表示圖表設定已成功應用.
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+
+//ExStep:0-
+// 指定 Excel 檔案的輸出目錄
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 建立新工作簿對象
+Workbook workbook = new Workbook();
+
+//ExStep:2-
+// 獲得第一個工作表的參考
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:3-
+// 添加數字數據範例到單元格
+worksheet.Cells["A1"].PutValue(10);
+worksheet.Cells["A2"].PutValue(100);
+worksheet.Cells["A3"].PutValue(170);
+worksheet.Cells["A4"].PutValue(200);
+worksheet.Cells["B1"].PutValue(120);
+worksheet.Cells["B2"].PutValue(320);
+worksheet.Cells["B3"].PutValue(50);
+worksheet.Cells["B4"].PutValue(40);
+
+//ExStep:4-
+// 添加類別標籤到工作表
+worksheet.Cells["C1"].PutValue("Q1");
+worksheet.Cells["C2"].PutValue("Q2");
+worksheet.Cells["C3"].PutValue("Y1");
+worksheet.Cells["C4"].PutValue("Y2");
+
+//ExStep:5-
+// 建立列表
+int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+
+//ExStep:6-
+// 進入新創的圖表
+Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+//ExStep:7-
+// 添加圖表的數據來源
+chart.NSeries.Add("A1:B4", true);
+// 設定圖表類別數據
+chart.NSeries.CategoryData = "C1:C4";
+
+//ExStep:8-
+// 保存 Excel 檔案
+workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
+
+//ExStep:9-
+// 成功打印訊息
+Console.WriteLine("SettingCategoryData executed successfully.");
+//ExEnd

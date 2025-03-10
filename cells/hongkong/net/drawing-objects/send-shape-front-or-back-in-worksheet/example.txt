@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary這個代碼會加載 Excel 作業簿,訪問工作表中的特定形狀,操縱其 Z 順序位置,並儲存更新的作業簿.
+//ExStepSummary:0: 如何定義Excel檔案的源目錄.
+//ExStepSummary:1: 如何定義 Excel 檔案的輸出目錄.
+//ExStepSummary:2: 該網站的網站網站已在此處.
+//ExStepSummary:3: 下面的代碼顯示如何访问作業簿的第一個工作表.
+//ExStepSummary:4: 該程式的使用者必須記錄在下列圖片中,
+//ExStepSummary:5: 顯示如何打印第一個形狀的Z順序位置.
+//ExStepSummary:6: 該程式的使用者必須記錄在下面的程式中,
+//ExStepSummary:7: 圖表中顯示如何打印第四個形狀的Z順序位置.
+//ExStepSummary:8: 這種情況是很常見的.
+//ExStepSummary:9: 如何將已修改的 Excel 檔案保存到輸出目錄中.
+//ExStepSummary:10: 該代碼顯示如何確認操作的執行.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+
+//ExStep:0-
+// 輸入 Excel 檔案的源目錄
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// 已修改的 Excel 檔案的輸出目錄
+string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// 載入源文件
+Workbook wb = new Workbook(sourceDir + "sampleToFrontOrBack.xlsx");
+
+//ExStep:3-
+// 访问第一個工作表
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// 接觸第一個形狀
+Shape sh1 = ws.Shapes[0];
+// 接觸第四個形狀
+Shape sh4 = ws.Shapes[3];
+
+//ExStep:5-
+// 打印第一個形狀的Z順序位置
+Console.WriteLine("Z-Order Shape 1: " + sh1.ZOrderPosition);
+
+//ExStep:6-
+// 這首歌將會在
+sh1.ToFrontOrBack(2);
+
+//ExStep:7-
+// 打印第四個形狀的Z順序位置
+Console.WriteLine("Z-Order Shape 4: " + sh4.ZOrderPosition);
+
+//ExStep:8-
+// 這四個形狀要送到後面,
+sh4.ToFrontOrBack(-2);
+
+//ExStep:9-
+// 保存輸出的 Excel 檔案
+wb.Save(outputDir + "outputToFrontOrBack.xlsx");
+
+//ExStep:10-
+// 執行確認
+Console.WriteLine("SendShapeFrontOrBackInWorksheet executed successfully.\r\n");
+//ExEnd

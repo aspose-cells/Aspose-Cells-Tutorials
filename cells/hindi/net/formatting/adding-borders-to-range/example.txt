@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे एक एक्सेल कार्यपुस्तिका बनाने के लिए और Aspose का उपयोग करके स्वरूपित करें. इसमें कार्यपुस्तिका बनाने, एक सेल मान जोड़ने, एक सीमा को परिभाषित करने, और उस सीमा के लिए सीमाओं को लागू करने शामिल हैं.
+//ExStepSummary:0: यह कोड कार्यपुस्तिका को सहेजने के लिए दस्तावेज़ निर्देशिका को आरंभ करता है.
+//ExStepSummary:1: यह कोड एक नई निर्देशिका बनाने के लिए अगर यह मौजूद नहीं है.
+//ExStepSummary:2: यह कोड एक कार्यपुस्तिका वस्तु बनाता है जो एक एक्सेल कार्यपुस्तिका का प्रतिनिधित्व करता है.
+//ExStepSummary:3: यह कोड कार्यपुस्तिका की पहली कार्यपत्रक तक पहुँचता है.
+//ExStepSummary:4: यह कोड किसी मान को दर्ज करने के लिए "A1" कक्ष तक पहुँचता है।
+//ExStepSummary:5: यह कोड विभिन्न दिशाओं में परिभाषित सीमा पर मोटी सीमाओं को लागू करता है।
+//ExStepSummary:6: यह कोड निर्दिष्ट फ़ाइल पथ पर कार्यपुस्तिका सहेजता है.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// दस्तावेज़ निर्देशिका के लिए पथ परिभाषित करें.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// जाँच करें कि क्या निर्देशिका मौजूद है
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// यदि निर्देशिका मौजूद नहीं है
+if (!IsExists)
+	// निर्देशिका बनाएँ
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// कार्यपुस्तिका वस्तु का उदाहरण बनाएं
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// पहली कार्यपत्रक का संदर्भ प्राप्त करें
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// कार्यपत्रक में "A1" कक्ष तक पहुँचें
+Cell cell = worksheet.Cells["A1"];
+// "A1" कक्ष में मान जोड़ें
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// "A1" से 3 वें स्तंभ तक एक सीमा बनाएँ
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// सीमा के लिए विभिन्न सीमा शैलियों को लागू करें
+// शीर्ष सीमा सेट करें
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// निचला सीमा सेट करें
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// बाएँ सीमा सेट करें
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// सही सीमा सेट करें
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// एक्सेल फ़ाइल सहेजें
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd

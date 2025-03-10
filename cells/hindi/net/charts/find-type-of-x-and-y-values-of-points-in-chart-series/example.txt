@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary: यह कोड प्रदर्शित करता है कि कैसे एक मौजूदा एक्सेल कार्यपुस्तिका लोड करें, एक चार्ट तक पहुँचें, और इसके डेटा बिंदुओं के X और Y मानों के प्रकार प्राप्त करें.
+//ExStepSummary:0: यह चरण स्रोत निर्देशिका को परिभाषित करता है जहां एक्सेल दस्तावेज़ स्थित है.
+//ExStepSummary:1: यह चरण कार्यपुस्तिका वस्तु में एक चार्ट युक्त एक नमूना एक्सेल फ़ाइल लोड करता है.
+//ExStepSummary:2: यह चरण कार्यपुस्तिका में पहली कार्यपत्रक तक पहुँचता है और इसकी सामग्री के साथ काम करता है.
+//ExStepSummary:3: यह चरण विश्लेषण के लिए कार्यपत्रक में मौजूद पहले चार्ट को पुनः प्राप्त करता है।
+//ExStepSummary:4: यह चरण सटीक डेटा पुनर्प्राप्ति के लिए चार्ट में प्रयुक्त डेटा बिंदुओं और सूत्रों की गणना करता है।
+//ExStepSummary:5: यह चरण चार्ट की पहली श्रृंखला से पहले डेटा बिंदु को पुनर्प्राप्त करता है ताकि इसके गुणों की जांच की जा सके।
+//ExStepSummary:6: यह चरण पुनर्प्राप्त चार्ट बिंदु से जुड़े X और Y मानों के प्रकारों को प्रिंट करता है, जिससे डेटा के प्रारूप में अंतर्दृष्टि मिलती है।
+//ExStepSummary:7: यह चरण कंसोल को सफलता संदेश भेजकर ऑपरेशन के सफल निष्पादन की पुष्टि करता है।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+
+//ExStep:0-
+// दस्तावेज़ के लिए स्रोत निर्देशिका को परिभाषित करें
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// चार्ट युक्त एक्सेल फ़ाइल लोड करें।
+Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx"); 
+
+//ExStep:2-
+// कार्यपुस्तिका में पहली कार्यपत्रक तक पहुँचें
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// कार्यपत्रक से पहला चार्ट प्राप्त करें
+Chart ch = ws.Charts[0]; 
+
+//ExStep:4-
+// चार्ट के डेटा बिंदुओं और सूत्रों की गणना करें
+ch.Calculate(); 
+
+//ExStep:5-
+// चार्ट में पहली श्रृंखला का पहला डेटा बिंदु प्राप्त करें
+ChartPoint pnt = ch.NSeries[0].Points[0]; 
+
+//ExStep:6-
+// चार्ट बिंदु के X और Y मानों के प्रकार प्रिंट करें।
+Console.WriteLine("X Value Type: " + pnt.XValueType);
+Console.WriteLine("Y Value Type: " + pnt.YValueType);
+
+//ExStep:7-
+// निष्पादन की सफलता की पुष्टि करें.
+Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");
+//ExEnd

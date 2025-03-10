@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary這種情況是很常見的. 
+// 執行多項動作, 例如目錄創建,細胞操縱, 
+// 保存工作簿以指定格式.
+
+//ExStepSummary:0: 定義文件目錄的路徑,
+//ExStepSummary:1: 如果沒有, 創建新目錄.
+//ExStepSummary:2: 實例化工作簿對象表示 Excel 檔案.
+//ExStepSummary:3: 請查看本書中的第一個工作表.
+//ExStepSummary:4: 進入"A1"單元格並添加一個值.
+//ExStepSummary:5: 加入第一行的前三列,
+//ExStepSummary:6: 保存工作簿在所需格式和位置.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// 文件目錄的路徑.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 檢查目錄是否存在.
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+	// 如果沒有, 請創建目錄.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 實例化 Excel 檔案的工作簿對象.
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 請查看本書中的第一個工作表.
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// 在工作表中進入"A1"單元格.
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// 加入一些值到"A1"單元格.
+cell.PutValue("Visit Aspose!");
+
+//ExStep:5-
+// 加入第一行的前三列, 建立一個單元格.
+worksheet.Cells.Merge(0, 0, 1, 3);
+
+//ExStep:6-
+// 保存 Excel 檔案在指定格式.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

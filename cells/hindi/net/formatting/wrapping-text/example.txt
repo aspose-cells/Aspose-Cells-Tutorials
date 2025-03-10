@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे एक नई एक्सेल कार्यपुस्तिका बनाने के लिए, एक कार्यपत्रक जोड़ने के लिए, एक सेल अनुकूलित, और कार्यपुस्तिका को बचाने के लिए.
+//ExStepSummary:0: निम्नलिखित कोड दस्तावेज़ निर्देशिका के लिए पथ को परिभाषित करता है.
+//ExStepSummary:1: निम्नलिखित कोड जाँच करता है कि क्या निर्देशिका मौजूद है; यदि नहीं, तो यह एक बनाता है.
+//ExStepSummary:2: निम्न कोड कार्यपुस्तिका वस्तु का उदाहरण बनाता है.
+//ExStepSummary:3: निम्न कोड कार्यपुस्तिका की पहली कार्यपत्रक का संदर्भ प्राप्त करता है।
+//ExStepSummary:4: कार्यपत्रक में "A1" कक्ष को निम्न कोड से प्राप्त किया जाता है।
+//ExStepSummary:5: निम्नलिखित कोड से 'A1' कक्ष में एक मान जोड़ा जाता है।
+//ExStepSummary:6: निम्न कोड 'A1' कक्ष में पाठ का क्षैतिज संरेखण निर्धारित करता है और पाठ को लपेटने की अनुमति देता है।
+//ExStepSummary:7: निम्न कोड निर्दिष्ट निर्देशिका में एक्सेल कार्यपुस्तिका सहेजता है.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// दस्तावेज़ निर्देशिका का पथ परिभाषित करें
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// जाँच करें कि क्या निर्देशिका मौजूद है
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// अगर यह मौजूद नहीं है तो इसे बनाएँ
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// कार्यपुस्तिका वस्तु का उदाहरण बनाएं
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// पहली कार्यपत्रक के संदर्भ प्राप्त करें
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// कार्यपत्रक से "A1" कक्ष तक पहुँचें
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+
+//ExStep:5-
+// "A1" कक्ष में कुछ मान जोड़ें
+cell.PutValue("Visit Aspose!");
+
+//ExStep:6-
+// सेल की वर्तमान शैली प्राप्त करें
+Style style = cell.GetStyle();
+// कक्ष के भीतर पाठ लपेटने को सक्षम करें
+style.IsTextWrapped = true;
+// संशोधित शैली को वापस सेल पर लागू करें
+cell.SetStyle(style);
+
+//ExStep:7-
+// निर्दिष्ट प्रारूप में Excel फ़ाइल सहेजें
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

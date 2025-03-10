@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary如何在特定的單元格中創建新 Excel 檔案,添加工作表,並插入圖片.
+//ExStepSummary:0: 這項代碼初始化了Excel檔案所在的目錄.
+//ExStepSummary:1: 這步檢查文件目錄是否存在,
+//ExStepSummary:2: 這一步會實例化工作簿對象,
+//ExStepSummary:3: 這步將新工作表添加到工作簿對象,並獲取其參考.
+//ExStepSummary:4: 這步將在指定單元格坐標上添加圖片到工作表.
+//ExStepSummary:5: 這步將Excel檔案保存到指定的路徑.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// 定義文件目錄的路徑
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 檢查目錄是否存在
+bool IsExists = System.IO.Directory.Exists(dataDir); 
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 實例化工作簿對象
+Workbook workbook = new Workbook(); 
+
+//ExStep:3-
+// 加入新工作表到工作簿
+int sheetIndex = workbook.Worksheets.Add(); 
+// 獲得新增工作表的參考
+Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+//ExStep:4-
+// 添加一個圖片到"F6"單元格 (5行, 5列)
+worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg");
+
+//ExStep:5-
+// 保存 Excel 檔案到指定的路徑
+workbook.Save(dataDir + "output.xls");
+//ExEnd

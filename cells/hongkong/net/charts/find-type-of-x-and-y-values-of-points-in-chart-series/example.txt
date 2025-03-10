@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary這種代碼展示如何加載現有的 Excel 工作簿,訪問圖表,並取取其數據點的 X 和 Y 值類型.
+//ExStepSummary:0: 這一步定義了Excel文檔所在的源目錄.
+//ExStepSummary:1: 這步將包含圖表的範本 Excel 檔案加載到工作簿對象中.
+//ExStepSummary:2: 這步會讓您進入工作簿中的第一個工作表,
+//ExStepSummary:3: 這步將取出分析工作表中的第一個圖表.
+//ExStepSummary:4: 這一步計算出圖表中使用的數據點和公式,
+//ExStepSummary:5: 這一步從圖表的第一系列取回第一個數據點,
+//ExStepSummary:6: 這一步打印出與查找的圖點相關的 X 和 Y 值類型,提供資料格式的洞察力.
+//ExStepSummary:7: 這一步通過向控制台發出成功訊息來確認操作成功執行.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:6:images/4.png
+
+//ExStep:0-
+// 定義文件的源目錄
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// 載入包含圖表的範本 Excel 檔案.
+Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx"); 
+
+//ExStep:2-
+// 進入工作簿中的第一個工作表
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// 取出工作表中的第一個圖表
+Chart ch = ws.Charts[0]; 
+
+//ExStep:4-
+// 計算圖表的數據點和公式
+ch.Calculate(); 
+
+//ExStep:5-
+// 取出圖表中的第一個系列的第一個數據點
+ChartPoint pnt = ch.NSeries[0].Points[0]; 
+
+//ExStep:6-
+// 打印圖點的 X 和 Y 值類型.
+Console.WriteLine("X Value Type: " + pnt.XValueType);
+Console.WriteLine("Y Value Type: " + pnt.YValueType);
+
+//ExStep:7-
+// 確認執行成功.
+Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");
+//ExEnd

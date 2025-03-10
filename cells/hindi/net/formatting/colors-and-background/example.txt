@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे Aspose.Cells का उपयोग करके Excel कार्यपुस्तिका बनाने के लिए, कस्टम शैलियों को जोड़ने के लिए, और Excel 97-2003 प्रारूप में कार्यपुस्तिका को सहेजें.
+//ExStepSummary:0: निम्नलिखित कोड उस निर्देशिका को आरंभ करता है जहां एक्सेल फ़ाइल स्थित है.
+//ExStepSummary:1: निम्नलिखित कोड दस्तावेज़ निर्देशिका के लिए पथ सेट करता है और यदि यह मौजूद नहीं है तो इसे बनाता है.
+//ExStepSummary:2: निम्न कोड कार्यपुस्तिका वस्तु का उदाहरण बनाता है और कार्यपुस्तिका वस्तु में एक नई कार्यपत्रक जोड़ता है.
+//ExStepSummary:3: निम्नलिखित कोड A1 सेल शैली को पुनः प्राप्त करता है और एक ऊर्ध्वाधर पट्टी पैटर्न के साथ पीले रंग का अग्रभूमि रंग लागू करता है।
+//ExStepSummary:4: निम्न कोड A2 सेल शैली को पुनः प्राप्त करता है और नीले अग्रभूमि रंग, पीले पृष्ठभूमि रंग और एक ऊर्ध्वाधर पट्टी पैटर्न लागू करता है.
+//ExStepSummary:5: निम्न कोड कार्यपुस्तिका को Excel 97-2003 प्रारूप में सहेजता है.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// दस्तावेज़ निर्देशिका का मार्ग.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// जाँच करें कि क्या निर्देशिका मौजूद है.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+	// निर्देशिका बनाएँ यदि यह पहले से मौजूद नहीं है.
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// कार्यपुस्तिका वस्तु का उदाहरण बनाना.
+Workbook workbook = new Workbook();
+
+// एक नई कार्यपत्रक बनाएँ और उसका सूचकांक प्राप्त करें.
+int i = workbook.Worksheets.Add();
+
+//ExStep:3-
+// नई जोड़ी गई कार्यपत्रक का संदर्भ प्राप्त करना उसके कार्यपत्रक सूचकांक को पारित करके।
+Worksheet worksheet = workbook.Worksheets[i];
+// एक शैली को परिभाषित करें और A1 सेल शैली प्राप्त करें.
+Style style = worksheet.Cells["A1"].GetStyle();
+
+// कक्ष A1 शैली गुण सेट करें
+// अग्रभूमि रंग को पीला करने के लिए सेट करना.
+style.ForegroundColor = Color.Yellow;
+// पृष्ठभूमि पैटर्न को ऊर्ध्वाधर पट्टी पर सेट करना।
+style.Pattern = BackgroundType.VerticalStripe;
+// कक्ष A1 पर शैली लागू करें.
+worksheet.Cells["A1"].SetStyle(style);
+
+//ExStep:4-
+// A2 सेल शैली प्राप्त करें।
+style = worksheet.Cells["A2"].GetStyle();
+
+// कक्ष A2 शैली गुण सेट करें
+// अग्रभूमि रंग को नीले रंग पर सेट करना.
+style.ForegroundColor = Color.Blue;
+// पृष्ठभूमि रंग को पीले रंग पर सेट करना.
+style.BackgroundColor = Color.Yellow;
+// पृष्ठभूमि पैटर्न को ऊर्ध्वाधर पट्टी पर सेट करना।
+style.Pattern = BackgroundType.VerticalStripe;
+// कक्ष A2 पर शैली लागू करें.
+worksheet.Cells["A2"].SetStyle(style);
+
+//ExStep:5-
+// एक्सेल फ़ाइल सहेज रहा है.
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

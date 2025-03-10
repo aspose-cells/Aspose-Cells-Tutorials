@@ -1,0 +1,68 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे Aspose.Cells का उपयोग करके एक्सेल फ़ाइल में एक ओले ऑब्जेक्ट के लेबल तक पहुँचने और संशोधित करने के लिए।
+//ExStepSummary:0: निम्न कोड स्रोत निर्देशिका को आरंभ करता है जहां एक्सेल फ़ाइल स्थित है.
+//ExStepSummary:1: कोड एक कार्यपुस्तिका वस्तु में नमूना एक्सेल फ़ाइल लोड करता है.
+//ExStepSummary:2: यह चरण कार्यपुस्तिका में पहली कार्यपत्रक तक पहुँचता है.
+//ExStepSummary:3: यहाँ, पहली ओले वस्तु को संशोधित करने के लिए एक्सेस किया जाता है।
+//ExStepSummary:4: ओले वस्तु का मूल लेबल कंसोल में प्रदर्शित किया जाता है।
+//ExStepSummary:5: ओले वस्तु का लेबल संशोधित किया गया है।
+//ExStepSummary:6: अद्यतन कार्यपुस्तिका मेमोरी स्ट्रीम में सहेजी जाती है.
+//ExStepSummary:7: कार्यपुस्तिका संदर्भ को संसाधनों को मुक्त करने के लिए शून्य पर सेट किया गया है.
+//ExStepSummary:8: परिवर्तनों की पुष्टि के लिए कार्यपुस्तिका को मेमोरी स्ट्रीम से पुनः लोड किया जाता है.
+//ExStepSummary:9: ओले वस्तु का संशोधित लेबल पुनः लोड होने के बाद प्रदर्शित होता है।
+//ExStepSummary:10: निष्पादन पूरा होने के संकेत के लिए कंसोल में एक सफलता संदेश प्रदर्शित होता है.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+
+
+//ExStep:0-
+// एक्सेल फ़ाइल युक्त निर्देशिका निर्दिष्ट करें
+string sourceDir = "Your Document Directory";
+
+//ExStep:1-
+// नमूना एक्सेल फ़ाइल लोड करें
+Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
+
+//ExStep:2-
+// पहली कार्यपत्रक तक पहुँचें
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:3-
+// पहली ओले वस्तु तक पहुँचें
+Aspose.Cells.Drawing.OleObject oleObject = ws.OleObjects[0];
+
+//ExStep:4-
+// ओले ऑब्जेक्ट का मूल लेबल प्रदर्शित करें
+Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
+
+//ExStep:5-
+// ओले ऑब्जेक्ट के लेबल को संशोधित करें
+oleObject.Label = "Aspose APIs";
+
+//ExStep:6-
+// कार्यपुस्तिका को सहेजने के लिए मेमोरी स्ट्रीम बनाएँ
+MemoryStream ms = new MemoryStream();
+// कार्यपुस्तिका को मेमोरी स्ट्रीम में सहेजें
+wb.Save(ms, SaveFormat.Xlsx);
+
+//ExStep:7-
+// संसाधनों को रिलीज़ करने के लिए कार्यपुस्तिका संदर्भ को शून्य पर सेट करें
+wb = null; 
+
+//ExStep:8-
+// कार्यपुस्तिका मेमोरी स्ट्रीम से लोड करें
+wb = new Workbook(ms);
+ws = wb.Worksheets[0];
+oleObject = ws.OleObjects[0];
+
+//ExStep:9-
+// ओले ऑब्जेक्ट का संशोधित लेबल प्रदर्शित करें
+Console.WriteLine("Ole Object Label - After: " + oleObject.Label); 
+
+//ExStep:10-
+// सफल निष्पादन दर्शाएँ
+Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
+//ExEnd

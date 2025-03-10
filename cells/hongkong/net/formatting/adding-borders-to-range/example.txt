@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: 這個代碼展示如何使用 Aspose 創建和格式化 Excel 作業簿. 它包括創建作業簿,添加單元格值,定義範圍,並應用邊界.
+//ExStepSummary:0: 這種代碼初始化文件目錄,
+//ExStepSummary:1: 這種代碼會創建新的目錄,
+//ExStepSummary:2: 這個代碼創建出代表 Excel 工作簿的工作簿對象.
+//ExStepSummary:3: 這種代碼可訪問工作簿的第一個工作表.
+//ExStepSummary:4: 該代碼可進入"A1"單元格輸入一個值.
+//ExStepSummary:5: 這種代碼應用于不同方向的厚度邊界.
+//ExStepSummary:6: 這個代碼將工作簿保存到指定檔案路徑.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// 定義文件目錄的路徑.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 檢查目錄是否存在
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// 如果目錄不存在,
+if (!IsExists)
+	// 建立目錄
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 實例化工作簿對象
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 獲得第一個工作表的參考資料
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:4-
+// 在工作表中進入"A1"單元格
+Cell cell = worksheet.Cells["A1"];
+// 加入一個值到"A1"單元格
+cell.PutValue("Hello World From Aspose");
+
+//ExStep:5-
+// 建立從"A1"到第三列的範圍
+Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
+// 應用不同邊框風格
+// 設定上邊界
+range.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
+// 設定底部邊界
+range.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
+// 設定左邊邊
+range.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
+// 設定右邊邊
+range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
+
+//ExStep:6-
+// 保存 Excel 檔案
+workbook.Save(dataDir + "book1.out.xls");
+//ExEnd

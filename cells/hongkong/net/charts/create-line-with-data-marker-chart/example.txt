@@ -1,0 +1,88 @@
+//ExStart
+//ExSummary這種情況是很容易發生的.
+//ExStepSummary:0: 啟動儲存工作簿的輸出目錄.
+//ExStepSummary:1: 實現新工作簿並访问第一個工作表.
+//ExStepSummary:2: 設定圖表數據的"X"和"Y"列標題.
+//ExStepSummary:3: 生成兩系列的隨機數據,並填寫在適當的單元格中.
+//ExStepSummary:4: 添加行圖表到工作表,並自訂其屬性.
+//ExStepSummary:5: 設定圖表中的兩個數據序列的屬性.
+//ExStepSummary:6: 保存與創建圖表的作業簿.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// 設定工作簿的輸出目錄
+static string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// 建立新工作簿
+Workbook workbook = new Workbook();
+// 访问第一個工作表
+Worksheet worksheet = workbook.Worksheets[0];
+
+//ExStep:2-
+// 設定 X 值的列標題
+worksheet.Cells[0, 0].Value = "X";
+// 設定Y值的列標題
+worksheet.Cells[0, 1].Value = "Y";
+
+//ExStep:3-
+// 創建一個新的隨機對象來生成數據
+Random R = new Random();
+
+// 創建隨機數據並儲存在單元格中
+for (int i = 1; i < 21; i++) // Loop to fill the first series data
+{
+    worksheet.Cells[i, 0].Value = i; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.8; // Fill the Y value (0.8 for the first series)
+}
+
+for (int i = 21; i < 41; i++) // Loop to fill the second series data
+{
+    worksheet.Cells[i, 0].Value = i - 20; // Fill the X value (1 to 20)
+    worksheet.Cells[i, 1].Value = 0.9; // Fill the Y value (0.9 for the second series)
+}
+
+//ExStep:4-
+// 添加新行圖表到工作表
+int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
+Chart chart = worksheet.Charts[idx]; // Access the newly created chart
+// 設定圖表風格
+chart.Style = 3;
+// 啟用圖表自动縮小
+chart.AutoScaling = true;
+// 設定圖案區域的背景顏色
+chart.PlotArea.Area.ForegroundColor = Color.White;
+// 設定圖表的標題
+chart.Title.Text = "Sample Chart";
+// 定義圖表類型
+chart.Type = ChartType.LineWithDataMarkers;
+
+// 類別軸標題的集合特性
+chart.CategoryAxis.Title.Text = "Units"; // Set the title for the category axis
+
+//ExStep:5-
+int s2_idx = chart.NSeries.Add("A2: A2", true); // Add the first series to the chart
+int s3_idx = chart.NSeries.Add("A22: A22", true); // Add the second series to the chart
+
+chart.NSeries.IsColorVaried = true; // Enable varied colors for different points
+
+// 設定第一個數據系列的屬性
+chart.NSeries[s2_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s2_idx].Marker.Area.ForegroundColor = Color.Yellow; // Set marker color to yellow
+chart.NSeries[s2_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s2_idx].XValues = "A2: A21"; // Define X values for the first series
+chart.NSeries[s2_idx].Values = "B2: B21"; // Define Y values for the first series
+
+// 設定第二個數據系列的屬性
+chart.NSeries[s3_idx].Area.Formatting = FormattingType.Custom; // Customize area formatting
+chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green; // Set marker color to green
+chart.NSeries[s3_idx].Marker.Border.IsVisible = false; // Hide marker borders
+chart.NSeries[s3_idx].XValues = "A22: A41"; // Define X values for the second series
+chart.NSeries[s3_idx].Values = "B22: B41"; // Define Y values for the second series
+
+//ExStep:6-
+workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx); // Save the workbook
+Console.WriteLine("CreateLineWithDataMarkerChart executed successfully."); // Indicate successful execution
+//ExEnd

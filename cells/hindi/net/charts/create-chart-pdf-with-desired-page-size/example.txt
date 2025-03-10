@@ -1,0 +1,39 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि एक निर्दिष्ट पृष्ठ आकार के साथ एक एक्सेल चार्ट से एक पीडीएफ कैसे बनाया जाए. यह एक एक्सेल कार्यपुस्तिका लोड करता है, एक कार्यपत्रक और इसके चार्ट तक पहुंचता है, और अंत में वांछित लेआउट के साथ एक पीडीएफ फ़ाइल उत्पन्न करता है.
+//ExStepSummary:0: यह चरण स्रोत निर्देशिका को परिभाषित करता है जहां एक्सेल फ़ाइल संग्रहीत है.
+//ExStepSummary:1: यह चरण आउटपुट निर्देशिका को परिभाषित करता है जहां उत्पन्न पीडीएफ सहेजा जाएगा.
+//ExStepSummary:2: यह चरण कार्यपुस्तिका वस्तु में चार्ट युक्त नमूना एक्सेल फ़ाइल लोड करता है.
+//ExStepSummary:3: यह चरण लोड कार्यपुस्तिका की पहली कार्यपत्रक तक पहुँचता है.
+//ExStepSummary:4: यह चरण कार्यपत्रक में मौजूद पहले चार्ट तक पहुँचता है.
+//ExStepSummary:5: यह चरण एक निर्दिष्ट पृष्ठ आकार और संरेखण के साथ चार्ट का एक पीडीएफ बनाता है, और इसे आउटपुट निर्देशिका में सहेजता है.
+//ExStepSummary:6: यह चरण एक पुष्टिकरण संदेश देता है जो निर्माण प्रक्रिया के सफल निष्पादन को दर्शाता है.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// एक्सेल फ़ाइल युक्त स्रोत निर्देशिका
+string sourceDir = "Your Document Directory"; 
+
+//ExStep:1-
+// आउटपुट निर्देशिका जहां पीडीएफ सहेजा जाएगा
+static string outputDir = "Your Document Directory";
+
+//ExStep:2-
+// चार्ट युक्त एक्सेल फ़ाइल लोड करें
+Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
+
+//ExStep:3-
+// पहली कार्यपत्रक पहुँचें
+Worksheet ws = wb.Worksheets[0];
+
+//ExStep:4-
+// कार्यपत्रक के अंदर प्रथम चार्ट तक पहुँचें
+Chart ch = ws.Charts[0];
+
+//ExStep:5-
+// इच्छित पृष्ठ आकार के साथ चार्ट पीडीएफ बनाएँ
+ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center); 
+// पुष्टिकरण संदेश
+Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
+//ExEnd

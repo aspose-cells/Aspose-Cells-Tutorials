@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary這種程式可以使用Aspose.Cells來建立 Excel 工作簿,添加工作表,並格式化單元格.
+//ExStepSummary:0: 以下代碼設定文件目錄的路徑.
+//ExStepSummary:1: 檢查目錄是否存在, 如果沒有,
+//ExStepSummary:2: 該程式將會使用此程式進行新 Excel 檔案的創建.
+//ExStepSummary:3: 以下代碼將新工作表添加到工作簿中.
+//ExStepSummary:4: 這種代碼可訪問工作簿的第一個工作表.
+//ExStepSummary:5:  下面的代碼可進入新增工作表中的"A1"單元格,並添加一個值至"A1"單元格.
+//ExStepSummary:6: 其他股份或股份,
+//ExStepSummary:7: 以下代碼將工作簿儲存到指定目錄中.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// 設定文件目錄的路徑
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 檢查目錄是否存在
+bool IsExists = System.IO.Directory.Exists(dataDir);
+// 如果它不存在,
+if (!IsExists)
+	// 建立目錄
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:2-
+// 實例化工作簿對象
+Workbook workbook = new Workbook();
+
+//ExStep:3-
+// 添加新工作表到工作簿
+int i = workbook.Worksheets.Add();
+
+//ExStep:4-
+// 獲得新增工作表的參考資料
+Worksheet worksheet = workbook.Worksheets[i];
+
+//ExStep:5-
+// 在工作表中進入"A1"單元格
+Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+// 加入一個值到"A1"單元格
+cell.PutValue("Hello Aspose!");
+
+//ExStep:6-
+// 獲得細胞的風格
+Style style = cell.GetStyle();
+// 設定字體名為"時報新羅曼文"
+style.Font.Name = "Times New Roman";
+// 應用已修改的樣式到單元格
+cell.SetStyle(style);
+
+//ExStep:7-
+// 保存工作簿在指定目錄中
+workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
+//ExEnd

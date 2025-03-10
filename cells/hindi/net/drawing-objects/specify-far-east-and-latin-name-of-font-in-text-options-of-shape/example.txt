@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary: यह कोड एक एक्सेल कार्यपुस्तिका बनाने, कार्यपत्रक में एक पाठ बॉक्स जोड़ने, और पाठ बॉक्स में पाठ के लिए दोनों सुदूर पूर्व और लैटिन फ़ॉन्ट नाम निर्दिष्ट करने के लिए कैसे प्रदर्शित करता है।
+//ExStepSummary:0: निम्न कोड एक्सेल फ़ाइल के लिए आउटपुट निर्देशिका को आरंभ करता है.
+//ExStepSummary:1: निम्न कोड एक नई खाली कार्यपुस्तिका बनाता है.
+//ExStepSummary:2: निम्न कोड कार्यपुस्तिका में पहली कार्यपत्रक तक पहुँचता है.
+//ExStepSummary:3: निम्न कोड निर्दिष्ट निर्देशांक पर कार्यपत्रक में एक पाठ बॉक्स जोड़ता है.
+//ExStepSummary:4: निम्नलिखित कोड पाठ बॉक्स की सामग्री को "こんにちは 世界" (हैलो वर्ल्ड) पर सेट करता है और पाठ बॉक्स के लिए लैटिन और सुदूर पूर्व फ़ॉन्ट नाम निर्दिष्ट करता है।
+//ExStepSummary:5: निम्न कोड निर्दिष्ट आउटपुट निर्देशिका में कार्यपुस्तिका सहेजता है.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// फ़ाइल के लिए आउटपुट निर्देशिका निर्दिष्ट करें
+string outputDir = "Your Document Directory";
+
+//ExStep:1-
+// खाली कार्यपुस्तिका बनाएँ
+var wb = new Workbook();
+
+//ExStep:2-
+// कार्यपुस्तिका में पहली कार्यपत्रक तक पहुँचें
+var ws = wb.Worksheets[0];
+
+//ExStep:3-
+// चौड़ाई 50 और ऊंचाई 200 के साथ स्थिति (5,5) में एक पाठ बॉक्स जोड़ें
+int idx = ws.TextBoxes.Add(5, 5, 50, 200);
+// नया पाठ बॉक्स एक्सेस करें
+Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
+
+//ExStep:4-
+// पाठ बॉक्स का पाठ जापानी में "हैलो वर्ल्ड" पर सेट करें
+tb.Text = "こんにちは世界";
+// लैटिन फ़ॉन्ट नाम निर्दिष्ट करें
+tb.TextOptions.LatinName = "Comic Sans MS";
+// सुदूर पूर्व फ़ॉन्ट नाम निर्दिष्ट करें
+tb.TextOptions.FarEastName = "KaiTi";
+
+//ExStep:5-
+// कार्यपुस्तिका को आउटपुट निर्देशिका में सहेजें
+wb.Save(outputDir + "outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.Xlsx);
+// सफल निष्पादन की पुष्टि करें
+Console.WriteLine("SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape executed successfully.");
+//ExEnd
