@@ -60,10 +60,34 @@ Tìm hiểu cách áp dụng định dạng trong Aspose.Cells cho .NET, bao g�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Các bảng xoay trong Aspose.Cells cho .NET](./net/pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+Tìm hiểu cách tạo, định dạng và quản lý bảng trục trong Aspose.Cells cho .NET. Tạo báo cáo động và phân tích dữ liệu dễ dàng trong C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Tạo một bảng xoay trong Excel sử dụng Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Cung cấp bảng Pivot như ODS trong Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+Sau đây là những liên kết tới một số tài nguyên hữu ích:
+ 
+- [Bảng tính Excel](./net/excel-worksheet-csharp-tutorials/)
+- [Cài đặt hiển thị Excel](./net/excel-display-settings-csharp-tutorials)
+- [Thiết lập trang Excel](./net/excel-page-setup)
+- [Bảo vệ tập tin Excel](./net/protect-excel-file/)
+
+## Hướng dẫn sử dụng Aspose.Cells cho Java
+{{% alert color="primary" %}}
+Khám phá hướng dẫn Aspose.Cells cho Java. Làm chủ thao tác tệp Excel với các ví dụ mã. Nâng cao kỹ năng Java của bạn ngay hôm nay!
+{{% /alert %}}
+
+Sau đây là những liên kết tới một số tài nguyên hữu ích:
+- [Các hàm cơ bản của Excel](./java/basic-excel-functions/)
+- [Quy tắc xác thực dữ liệu](./java/data-validation-rules/)
+- [Phân tích dữ liệu Excel](./java/excel-data-analysis/)
+- [Bảng Pivot Excel](./java/excel-pivot-tables/)
+- [Biểu đồ Excel nâng cao](./java/advanced-excel-charts/)
+- [Xuất nhập khẩu Excel](./java/excel-import-export/)
+- [Bảo mật dữ liệu Excel](./java/excel-data-security/)
+- [Tự động hóa bảng tính](./java/spreadsheet-automation/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

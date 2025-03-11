@@ -60,10 +60,34 @@ url: /ko/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [.NET에 대한 Aspose.Cells에서 중추 테이블](./net/pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+Aspose.Cells for .NET에서 피벗 테이블을 만들고, 서식을 지정하고, 관리하는 방법을 알아보세요. C#에서 동적 보고서를 생성하고 데이터를 손쉽게 분석하세요.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Aspose.Cells을 사용하여 Excel에서 중추 테이블을 생성합니다" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Pivot Table를 ODS로 Aspose.Cells에서 저장합니다" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+다음은 유용한 자료에 대한 링크입니다.
+ 
+- [엑셀 워크시트](./net/excel-worksheet-csharp-tutorials/)
+- [Excel 디스플레이 설정](./net/excel-display-settings-csharp-tutorials)
+- [Excel 페이지 설정](./net/excel-page-setup)
+- [Excel 파일 보호](./net/protect-excel-file/)
+
+## Java 튜토리얼을 위한 Aspose.Cells
+{{% alert color="primary" %}}
+Aspose.Cells for Java 튜토리얼을 탐색하세요. 코드 예제로 Excel 파일 조작을 마스터하세요. 오늘 Java 기술을 향상시키세요!
+{{% /alert %}}
+
+다음은 유용한 자료에 대한 링크입니다.
+- [기본 Excel 함수](./java/basic-excel-functions/)
+- [데이터 검증 규칙](./java/data-validation-rules/)
+- [엑셀 데이터 분석](./java/excel-data-analysis/)
+- [Excel 피벗 테이블](./java/excel-pivot-tables/)
+- [고급 Excel 차트](./java/advanced-excel-charts/)
+- [Excel 가져오기 내보내기](./java/excel-import-export/)
+- [Excel 데이터 보안](./java/excel-data-security/)
+- [스프레드시트 자동화](./java/spreadsheet-automation/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -65,6 +65,30 @@ Aspose.Cells為.NET 視覺教程提供了全面的,一步一步的學習體驗, 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="使用Aspose.Cells在 Excel 中創建一個轉動表" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="在Aspose.Cells中將轉動表保存為ODS" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+這些是一些有用資源的連結：
+ 
+- [Excel 工作表](./net/excel-worksheet-csharp-tutorials/)
+- [Excel 顯示設定](./net/excel-display-settings-csharp-tutorials)
+- [Excel 頁面設定](./net/excel-page-setup)
+- [保護 Excel 文件](./net/protect-excel-file/)
+
+## Aspose.Cells Java 教程
+{{% alert color="primary" %}}
+探索 Aspose.Cells for Java 教學。透過程式碼範例掌握 Excel 檔案操作。立即增強您的 Java 技能！
+{{% /alert %}}
+
+這些是一些有用資源的連結：
+- [Excel 基本函數](./java/basic-excel-functions/)
+- [資料驗證規則](./java/data-validation-rules/)
+- [Excel資料分析](./java/excel-data-analysis/)
+- [Excel 資料透視表](./java/excel-pivot-tables/)
+- [進階 Excel 圖表](./java/advanced-excel-charts/)
+- [Excel 匯入匯出](./java/excel-import-export/)
+- [Excel 資料安全](./java/excel-data-security/)
+- [試算表自動化](./java/spreadsheet-automation/)
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

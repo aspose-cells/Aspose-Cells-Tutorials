@@ -65,6 +65,30 @@ Aspose.Cells का उपयोग करके .NET अनुप्रयो�
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Aspose.Cells का उपयोग करके एक्सेल में पिवोट टेबल बनाएं" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Aspose.Cells में Pivot Table को ODS के रूप में सहेजें" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+ये कुछ उपयोगी संसाधनों के लिंक हैं:
+ 
+- [एक्सेल वर्कशीट](./net/excel-worksheet-csharp-tutorials/)
+- [एक्सेल प्रदर्शन सेटिंग्स](./net/excel-display-settings-csharp-tutorials)
+- [एक्सेल पेज सेटअप](./net/excel-page-setup)
+- [एक्सेल फ़ाइल को सुरक्षित रखें](./net/protect-excel-file/)
+
+## Aspose.Cells for Java ट्यूटोरियल
+{{% alert color="primary" %}}
+Aspose.Cells for Java ट्यूटोरियल्स को एक्सप्लोर करें। कोड उदाहरणों के साथ Excel फ़ाइल मैनिपुलेशन में महारत हासिल करें। आज ही अपने Java कौशल को बेहतर बनाएँ!
+{{% /alert %}}
+
+ये कुछ उपयोगी संसाधनों के लिंक हैं:
+- [मूल एक्सेल फ़ंक्शन](./java/basic-excel-functions/)
+- [डेटा सत्यापन नियम](./java/data-validation-rules/)
+- [एक्सेल डेटा विश्लेषण](./java/excel-data-analysis/)
+- [एक्सेल पिवट टेबल्स](./java/excel-pivot-tables/)
+- [उन्नत एक्सेल चार्ट](./java/advanced-excel-charts/)
+- [एक्सेल आयात निर्यात](./java/excel-import-export/)
+- [एक्सेल डेटा सुरक्षा](./java/excel-data-security/)
+- [स्प्रेडशीट स्वचालन](./java/spreadsheet-automation/)
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

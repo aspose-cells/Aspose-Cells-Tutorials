@@ -60,10 +60,34 @@ Aprenda a aplicar el formato en Aspose.Cells para .NET, incluyendo estilos, colo
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Tablas pivotas en Aspose.Cells para .NET](./net/pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+Aprenda a crear, formatear y administrar tablas dinámicas en Aspose.Cells para .NET. Genere informes dinámicos y analice datos sin esfuerzo en C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Crea una tabla pivot en Excel usando Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Guardar la tabla pivot como ODS en Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+A continuación se muestran enlaces a algunos recursos útiles:
+ 
+- [Hoja de cálculo de Excel](./net/excel-worksheet-csharp-tutorials/)
+- [Configuración de visualización de Excel](./net/excel-display-settings-csharp-tutorials)
+- [Configuración de página de Excel](./net/excel-page-setup)
+- [Proteger archivo de Excel](./net/protect-excel-file/)
+
+## Tutoriales de Aspose.Cells para Java
+{{% alert color="primary" %}}
+Explora los tutoriales de Aspose.Cells para Java. Domina la manipulación de archivos de Excel con ejemplos de código. ¡Mejora tus habilidades con Java hoy mismo!
+{{% /alert %}}
+
+A continuación se muestran enlaces a algunos recursos útiles:
+- [Funciones básicas de Excel](./java/basic-excel-functions/)
+- [Reglas de validación de datos](./java/data-validation-rules/)
+- [Análisis de datos de Excel](./java/excel-data-analysis/)
+- [Tablas dinámicas de Excel](./java/excel-pivot-tables/)
+- [Gráficos avanzados de Excel](./java/advanced-excel-charts/)
+- [Importación y exportación de Excel](./java/excel-import-export/)
+- [Seguridad de datos de Excel](./java/excel-data-security/)
+- [Automatización de hojas de cálculo](./java/spreadsheet-automation/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

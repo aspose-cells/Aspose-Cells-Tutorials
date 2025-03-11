@@ -60,10 +60,34 @@ Naučte se, jak aplikovat formátování v Aspose.Cells pro .NET, včetně styl�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Pivotové tabulky v Aspose.Cells pro .NET](./net/pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+Naučte se vytvářet, formátovat a spravovat kontingenční tabulky v Aspose.Cells pro .NET. Vytvářejte dynamické sestavy a analyzujte data bez námahy v C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Vytvořte obrátní tabulku v programu Excel pomocí Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Uložte Pivot Table jako ODS v Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+Zde jsou odkazy na některé užitečné zdroje:
+ 
+- [Pracovní list aplikace Excel](./net/excel-worksheet-csharp-tutorials/)
+- [Nastavení zobrazení Excel](./net/excel-display-settings-csharp-tutorials)
+- [Nastavení stránky Excel](./net/excel-page-setup)
+- [Chraňte soubor Excel](./net/protect-excel-file/)
+
+## Aspose.Cells pro Java tutoriály
+{{% alert color="primary" %}}
+Prozkoumejte výukové programy Aspose.Cells for Java. Master Excel manipulace se soubory s příklady kódu. Vylepšete své dovednosti Java ještě dnes!
+{{% /alert %}}
+
+Zde jsou odkazy na některé užitečné zdroje:
+- [Základní funkce Excelu](./java/basic-excel-functions/)
+- [Pravidla ověřování dat](./java/data-validation-rules/)
+- [Analýza dat v Excelu](./java/excel-data-analysis/)
+- [Excel kontingenční tabulky](./java/excel-pivot-tables/)
+- [Pokročilé grafy Excel](./java/advanced-excel-charts/)
+- [Excel Import Export](./java/excel-import-export/)
+- [Zabezpečení dat v Excelu](./java/excel-data-security/)
+- [Tabulková automatizace](./java/spreadsheet-automation/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

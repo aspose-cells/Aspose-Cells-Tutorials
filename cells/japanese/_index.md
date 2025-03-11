@@ -60,10 +60,34 @@ Aspose.Cells を使用して .NET アプリケーションでチャートを作�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [.NET の Aspose.Cells の 旋轉表](./net/pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+Aspose.Cells for .NET でピボット テーブルを作成、書式設定、管理する方法を学びます。C# で動的なレポートを生成し、データを簡単に分析します。
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Aspose.Cellsを使用してExcelでピボットテーブルを作成する" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Aspose.CellsでPivot Table を ODS として保存する" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+以下は役に立つリソースへのリンクです:
+ 
+- [Excel ワークシート](./net/excel-worksheet-csharp-tutorials/)
+- [Excel の表示設定](./net/excel-display-settings-csharp-tutorials)
+- [Excel ページ設定](./net/excel-page-setup)
+- [Excelファイルを保護する](./net/protect-excel-file/)
+
+## Aspose.Cells for Java チュートリアル
+{{% alert color="primary" %}}
+Aspose.Cells for Java のチュートリアルをご覧ください。コード例を使用して Excel ファイルの操作をマスターします。今すぐ Java スキルを強化しましょう。
+{{% /alert %}}
+
+以下は役に立つリソースへのリンクです:
+- [基本的なExcel関数](./java/basic-excel-functions/)
+- [データ検証ルール](./java/data-validation-rules/)
+- [Excelデータ分析](./java/excel-data-analysis/)
+- [Excel ピボット テーブル](./java/excel-pivot-tables/)
+- [高度な Excel グラフ](./java/advanced-excel-charts/)
+- [Excel インポート エクスポート](./java/excel-import-export/)
+- [Excel データ セキュリティ](./java/excel-data-security/)
+- [スプレッドシートの自動化](./java/spreadsheet-automation/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

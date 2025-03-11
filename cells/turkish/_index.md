@@ -60,10 +60,34 @@ Profesyonel Excel raporları için stiller, renkler, şifreler, sınırlar ve da
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [.NET için Aspose.Cellsdaki Dönüşüm Tabloları](./net/pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+Aspose.Cells for .NET'te pivot tabloları nasıl oluşturacağınızı, biçimlendireceğinizi ve yöneteceğinizi öğrenin. C# dilinde dinamik raporlar oluşturun ve verileri zahmetsizce analiz edin.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Excel'de Aspose.Cells kullanarak bir Pivot Tablo oluşturun" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Aspose.Cells olarak Pivot Table'yi ODS olarak kaydet" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+İşte bazı yararlı kaynaklara bağlantılar:
+ 
+- [Excel Çalışma Sayfası](./net/excel-worksheet-csharp-tutorials/)
+- [Excel Görüntü Ayarları](./net/excel-display-settings-csharp-tutorials)
+- [Excel Sayfa Düzeni](./net/excel-page-setup)
+- [Excel Dosyasını Koru](./net/protect-excel-file/)
+
+## Java Eğitimleri için Aspose.Cells
+{{% alert color="primary" %}}
+Java için Aspose.Cells eğitimlerini keşfedin. Kod örnekleriyle Excel dosyası manipülasyonunda ustalaşın. Java becerilerinizi bugün geliştirin!
+{{% /alert %}}
+
+İşte bazı yararlı kaynaklara bağlantılar:
+- [Temel Excel Fonksiyonları](./java/basic-excel-functions/)
+- [Veri Doğrulama Kuralları](./java/data-validation-rules/)
+- [Excel Veri Analizi](./java/excel-data-analysis/)
+- [Excel Pivot Tabloları](./java/excel-pivot-tables/)
+- [Gelişmiş Excel Grafikleri](./java/advanced-excel-charts/)
+- [Excel İçe Aktarma Dışa Aktarma](./java/excel-import-export/)
+- [Excel Veri Güvenliği](./java/excel-data-security/)
+- [E-tablo Otomasyonu](./java/spreadsheet-automation/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

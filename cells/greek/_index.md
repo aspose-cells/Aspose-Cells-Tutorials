@@ -60,10 +60,34 @@ url: /el/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Πιότ Τάμπλοι στο Aspose.Cells για .NET](./net/pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+Μάθετε πώς να δημιουργείτε, να μορφοποιείτε και να διαχειρίζεστε συγκεντρωτικούς πίνακες στο Aspose.Cells για .NET. Δημιουργήστε δυναμικές αναφορές και αναλύστε δεδομένα χωρίς κόπο σε C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Δημιουργήστε ένα περιστροφικό πίνακα στο Excel Χρησιμοποιώντας Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Κρατήστε τον περιστρεφόμενο πίνακα ως ODS στο Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
+ 
+- [Φύλλο εργασίας του Excel](./net/excel-worksheet-csharp-tutorials/)
+- [Ρυθμίσεις οθόνης Excel](./net/excel-display-settings-csharp-tutorials)
+- [Ρύθμιση σελίδας Excel](./net/excel-page-setup)
+- [Προστατέψτε το αρχείο Excel](./net/protect-excel-file/)
+
+## Aspose.Cells for Java Tutorials
+{{% alert color="primary" %}}
+Εξερευνήστε τα μαθήματα Aspose.Cells για Java. Κύριος χειρισμός αρχείων Excel με παραδείγματα κώδικα. Βελτιώστε τις δεξιότητές σας στην Java σήμερα!
+{{% /alert %}}
+
+Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
+- [Βασικές λειτουργίες του Excel](./java/basic-excel-functions/)
+- [Κανόνες επικύρωσης δεδομένων](./java/data-validation-rules/)
+- [Ανάλυση δεδομένων Excel](./java/excel-data-analysis/)
+- [Συγκεντρωτικοί πίνακες του Excel](./java/excel-pivot-tables/)
+- [Προηγμένα γραφήματα Excel](./java/advanced-excel-charts/)
+- [Εξαγωγή εισαγωγής Excel](./java/excel-import-export/)
+- [Ασφάλεια δεδομένων Excel](./java/excel-data-security/)
+- [Αυτοματισμός υπολογιστικών φύλλων](./java/spreadsheet-automation/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

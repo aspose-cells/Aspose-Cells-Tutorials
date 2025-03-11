@@ -60,10 +60,34 @@ Aspose.Cells для .NET Visual Tutorials предоставляет компл�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Периодические таблицы в Aspose.Cells для .NET](./net/pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+Узнайте, как создавать, форматировать и управлять сводными таблицами в Aspose.Cells для .NET. Создавайте динамические отчеты и анализируйте данные без усилий в C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Создать поворотную таблицу в Excel с помощью Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Сохранить поворотную таблицу в виде ODS в Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+Вот ссылки на некоторые полезные ресурсы:
+ 
+- [Рабочий лист Excel](./net/excel-worksheet-csharp-tutorials/)
+- [Настройки отображения Excel](./net/excel-display-settings-csharp-tutorials)
+- [Параметры страницы Excel](./net/excel-page-setup)
+- [Защитить файл Excel](./net/protect-excel-file/)
+
+## Aspose.Cells для учебных пособий Java
+{{% alert color="primary" %}}
+Изучите руководства Aspose.Cells для Java. Освойте работу с файлами Excel с примерами кода. Улучшите свои навыки Java сегодня!
+{{% /alert %}}
+
+Вот ссылки на некоторые полезные ресурсы:
+- [Базовые функции Excel](./java/basic-excel-functions/)
+- [Правила проверки данных](./java/data-validation-rules/)
+- [Анализ данных Excel](./java/excel-data-analysis/)
+- [Сводные таблицы Excel](./java/excel-pivot-tables/)
+- [Расширенные диаграммы Excel](./java/advanced-excel-charts/)
+- [Excel Импорт Экспорт](./java/excel-import-export/)
+- [Безопасность данных Excel](./java/excel-data-security/)
+- [Автоматизация электронных таблиц](./java/spreadsheet-automation/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

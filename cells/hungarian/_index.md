@@ -60,10 +60,34 @@ Tanuljon meg, hogyan lehet formátálni az Aspose.Cells formátumban a .NET-hez,
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [A .NET-ben található Aspose.Cells vezérlő táblázatok](./net/pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+Ismerje meg, hogyan hozhat létre, formázhat és kezelhet pivot táblákat az Aspose.Cells for .NET alkalmazásban. Dinamikus jelentéseket készíthet és adatokat elemezhet könnyedén C# nyelven.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Készíts egy forgó táblázatot az Excelben Aspose.Cells segítségével" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Takarítsa meg a Pivot Tabelt az ODS-ként az Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+Ezek a linkek néhány hasznos forráshoz:
+ 
+- [Excel munkalap](./net/excel-worksheet-csharp-tutorials/)
+- [Excel megjelenítési beállítások](./net/excel-display-settings-csharp-tutorials)
+- [Excel oldalbeállítás](./net/excel-page-setup)
+- [Az Excel fájl védelme](./net/protect-excel-file/)
+
+## Aspose.Cells for Java oktatóanyagok
+{{% alert color="primary" %}}
+Fedezze fel az Aspose.Cells for Java oktatóanyagokat. Mester Excel fájlkezelés kódpéldákkal. Fejleszd Java-készségeidet még ma!
+{{% /alert %}}
+
+Ezek a linkek néhány hasznos forráshoz:
+- [Alapvető Excel funkciók](./java/basic-excel-functions/)
+- [Adatérvényesítési szabályok](./java/data-validation-rules/)
+- [Excel adatelemzés](./java/excel-data-analysis/)
+- [Excel Pivot táblák](./java/excel-pivot-tables/)
+- [Speciális Excel diagramok](./java/advanced-excel-charts/)
+- [Excel Import Export](./java/excel-import-export/)
+- [Excel adatbiztonság](./java/excel-data-security/)
+- [Táblázat automatizálás](./java/spreadsheet-automation/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

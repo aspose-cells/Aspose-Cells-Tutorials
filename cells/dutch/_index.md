@@ -60,10 +60,34 @@ Leer hoe je formatering in Aspose.Cells voor .NET kunt toepassen, met inbegrip v
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Pivottabel in Aspose.Cells voor .NET](./net/pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+Leer hoe u draaitabellen maakt, opmaakt en beheert in Aspose.Cells voor .NET. Genereer dynamische rapporten en analyseer gegevens moeiteloos in C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Maak een pivottabel in Excel met behulp van Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Speer Pivot Table als ODS in Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+Hieronder vindt u links naar nuttige bronnen:
+ 
+- [Excel-werkblad](./net/excel-worksheet-csharp-tutorials/)
+- [Excel-weergave-instellingen](./net/excel-display-settings-csharp-tutorials)
+- [Excel-pagina-instelling](./net/excel-page-setup)
+- [Excel-bestand beveiligen](./net/protect-excel-file/)
+
+## Aspose.Cells voor Java-zelfstudies
+{{% alert color="primary" %}}
+Ontdek Aspose.Cells voor Java tutorials. Leer Excel-bestandsmanipulatie met codevoorbeelden. Verbeter uw Java-vaardigheden vandaag nog!
+{{% /alert %}}
+
+Hieronder vindt u links naar nuttige bronnen:
+- [Basisfuncties van Excel](./java/basic-excel-functions/)
+- [Gegevensvalidatieregels](./java/data-validation-rules/)
+- [Excel-gegevensanalyse](./java/excel-data-analysis/)
+- [Excel draaitabellen](./java/excel-pivot-tables/)
+- [Geavanceerde Excel-grafieken](./java/advanced-excel-charts/)
+- [Excel importeren en exporteren](./java/excel-import-export/)
+- [Excel-gegevensbeveiliging](./java/excel-data-security/)
+- [Spreadsheet-automatisering](./java/spreadsheet-automation/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

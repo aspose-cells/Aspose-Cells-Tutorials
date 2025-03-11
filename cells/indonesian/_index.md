@@ -60,10 +60,34 @@ Pelajari cara menerapkan pemformatan dalam Aspose.Cells untuk .NET, termasuk gay
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Tabel Pivot dalam Aspose.Cells untuk .NET](./net/pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+Pelajari cara membuat, memformat, dan mengelola tabel pivot di Aspose.Cells untuk .NET. Hasilkan laporan dinamis dan analisis data dengan mudah di C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Buat Tabel Pivot di Excel Dengan Menggunakan Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Simpan Tabel Pivot sebagai ODS di Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+Berikut ini adalah tautan ke beberapa sumber daya yang bermanfaat:
+ 
+- [Lembar Kerja Excel](./net/excel-worksheet-csharp-tutorials/)
+- [Pengaturan Tampilan Excel](./net/excel-display-settings-csharp-tutorials)
+- [Pengaturan Halaman Excel](./net/excel-page-setup)
+- [Lindungi File Excel](./net/protect-excel-file/)
+
+## Aspose.Cells untuk Tutorial Java
+{{% alert color="primary" %}}
+Jelajahi tutorial Aspose.Cells untuk Java. Kuasai manipulasi file Excel dengan contoh kode. Tingkatkan keterampilan Java Anda hari ini!
+{{% /alert %}}
+
+Berikut ini adalah tautan ke beberapa sumber daya yang bermanfaat:
+- [Fungsi Dasar Excel](./java/basic-excel-functions/)
+- [Aturan Validasi Data](./java/data-validation-rules/)
+- [Analisis Data Excel](./java/excel-data-analysis/)
+- [Tabel Pivot Excel](./java/excel-pivot-tables/)
+- [Bagan Excel Lanjutan](./java/advanced-excel-charts/)
+- [Impor Ekspor Excel](./java/excel-import-export/)
+- [Keamanan Data Excel](./java/excel-data-security/)
+- [Otomatisasi Lembar Kerja](./java/spreadsheet-automation/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

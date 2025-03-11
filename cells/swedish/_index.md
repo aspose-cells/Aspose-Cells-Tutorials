@@ -60,10 +60,34 @@ Lär dig hur du tillämpar formatering i Aspose.Cells för .NET, inklusive stila
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Pivottabeller i Aspose.Cells för .NET](./net/pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+Lär dig hur du skapar, formaterar och hanterar pivottabeller i Aspose.Cells för .NET. Generera dynamiska rapporter och analysera data utan ansträngning i C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Skapa en pivottabell i Excel med hjälp av Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Spara pivottabell som ODS i Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+Det här är länkar till några användbara resurser:
+ 
+- [Excel arbetsblad](./net/excel-worksheet-csharp-tutorials/)
+- [Excel-skärminställningar](./net/excel-display-settings-csharp-tutorials)
+- [Excel sidinställningar](./net/excel-page-setup)
+- [Skydda Excel-fil](./net/protect-excel-file/)
+
+## Aspose.Cells för Java Tutorials
+{{% alert color="primary" %}}
+Utforska Aspose.Cells för Java tutorials. Master Excel-filmanipulation med kodexempel. Förbättra dina Java-kunskaper idag!
+{{% /alert %}}
+
+Det här är länkar till några användbara resurser:
+- [Grundläggande Excel-funktioner](./java/basic-excel-functions/)
+- [Regler för datavalidering](./java/data-validation-rules/)
+- [Excel dataanalys](./java/excel-data-analysis/)
+- [Excel-pivottabeller](./java/excel-pivot-tables/)
+- [Avancerade Excel-diagram](./java/advanced-excel-charts/)
+- [Excel Import Export](./java/excel-import-export/)
+- [Excel datasäkerhet](./java/excel-data-security/)
+- [Kalkylbladsautomatisering](./java/spreadsheet-automation/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

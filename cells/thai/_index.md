@@ -60,10 +60,34 @@ Aspose.Cells สําหรับบทเรียน Visual .NET ให้ป
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [ตารางหมุนใน Aspose.Cells สําหรับ .NET](./net/pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+เรียนรู้วิธีการสร้าง จัดรูปแบบ และจัดการตารางสรุปข้อมูลใน Aspose.Cells สำหรับ .NET สร้างรายงานแบบไดนามิกและวิเคราะห์ข้อมูลได้อย่างง่ายดายใน C#
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="สร้างตารางหมุนใน Excel โดยใช้ Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="เก็บตารางหมุนเป็น ODS ใน Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+เหล่านี้คือลิงก์ไปยังแหล่งข้อมูลที่มีประโยชน์:
+ 
+- [ใบงาน Excel](./net/excel-worksheet-csharp-tutorials/)
+- [การตั้งค่าการแสดงผลของ Excel](./net/excel-display-settings-csharp-tutorials)
+- [การตั้งค่าหน้า Excel](./net/excel-page-setup)
+- [ปกป้องไฟล์ Excel](./net/protect-excel-file/)
+
+## บทช่วยสอน Aspose.Cells สำหรับ Java
+{{% alert color="primary" %}}
+สำรวจบทช่วยสอน Aspose.Cells สำหรับ Java เรียนรู้การจัดการไฟล์ Excel ด้วยตัวอย่างโค้ด พัฒนาทักษะ Java ของคุณวันนี้!
+{{% /alert %}}
+
+เหล่านี้คือลิงก์ไปยังแหล่งข้อมูลที่มีประโยชน์:
+- [ฟังก์ชันพื้นฐานของ Excel](./java/basic-excel-functions/)
+- [กฎการตรวจสอบข้อมูล](./java/data-validation-rules/)
+- [การวิเคราะห์ข้อมูล Excel](./java/excel-data-analysis/)
+- [ตารางสรุปข้อมูล Excel](./java/excel-pivot-tables/)
+- [แผนภูมิ Excel ขั้นสูง](./java/advanced-excel-charts/)
+- [การนำเข้าส่งออก Excel](./java/excel-import-export/)
+- [การรักษาความปลอดภัยข้อมูล Excel](./java/excel-data-security/)
+- [การทำงานอัตโนมัติของสเปรดชีต](./java/spreadsheet-automation/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -60,10 +60,34 @@ url: /ar/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [الجداول المحورية في Aspose.Cells ل .NET](./net/pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+تعرف على كيفية إنشاء جداول محورية وتنسيقها وإدارتها في Aspose.Cells for .NET. قم بإنشاء تقارير ديناميكية وتحليل البيانات بسهولة باستخدام C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="إعداد جدول محرك في Excel باستخدام Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="حفظ الجدول المحرك كـ ODS في Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+وفيما يلي روابط لبعض الموارد المفيدة:
+ 
+- [ورقة عمل إكسل](./net/excel-worksheet-csharp-tutorials/)
+- [إعدادات العرض في Excel](./net/excel-display-settings-csharp-tutorials)
+- [إعداد صفحة Excel](./net/excel-page-setup)
+- [حماية ملف Excel](./net/protect-excel-file/)
+
+## دروس تعليمية حول Aspose.Cells لـ Java
+{{% alert color="primary" %}}
+استكشف دروس Aspose.Cells لـ Java. أتقن التعامل مع ملفات Excel باستخدام أمثلة التعليمات البرمجية. عزز مهاراتك في Java اليوم!
+{{% /alert %}}
+
+وفيما يلي روابط لبعض الموارد المفيدة:
+- [وظائف Excel الأساسية](./java/basic-excel-functions/)
+- [قواعد التحقق من صحة البيانات](./java/data-validation-rules/)
+- [تحليل بيانات Excel](./java/excel-data-analysis/)
+- [جداول محورية في برنامج Excel](./java/excel-pivot-tables/)
+- [مخططات Excel المتقدمة](./java/advanced-excel-charts/)
+- [استيراد وتصدير إكسل](./java/excel-import-export/)
+- [أمان بيانات Excel](./java/excel-data-security/)
+- [أتمتة جداول البيانات](./java/spreadsheet-automation/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
