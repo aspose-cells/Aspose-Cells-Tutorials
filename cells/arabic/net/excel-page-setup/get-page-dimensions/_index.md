@@ -1,0 +1,155 @@
+---
+title: الحصول على أبعاد الصفحة
+linktitle: الحصول على أبعاد الصفحة
+second_title: مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET
+description: تعرف على كيفية الحصول على أبعاد الصفحة باستخدام Aspose.Cells لـ .NET في هذا الدليل التفصيلي. مثالي للمطورين الذين يعملون مع ملفات Excel.
+weight: 40
+url: /ar/net/excel-page-setup/get-page-dimensions/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الحصول على أبعاد الصفحة
+
+## مقدمة
+
+عندما يتعلق الأمر بالتعامل مع جداول البيانات في تطبيقات .NET، تبرز مكتبة Aspose.Cells كأداة قوية تتيح للمطورين التعامل بسهولة مع ملفات Excel. ولكن كيف يمكنك الحصول على أبعاد الصفحة لأحجام ورق مختلفة باستخدام هذه المكتبة القوية؟ في هذا البرنامج التعليمي، سنشرح العملية خطوة بخطوة، مما يضمن لك ليس فقط اكتساب نظرة ثاقبة حول عمل Aspose.Cells ولكن أيضًا اكتساب مهارة استخدامها في مشاريعك. 
+
+## المتطلبات الأساسية 
+
+قبل أن ننتقل إلى جزء الترميز، هناك بعض الأشياء التي ستحتاج إلى وضعها في مكانها لمتابعتها بشكل فعال:
+
+### فيجوال ستوديو
+تأكد من تثبيت Visual Studio على جهازك. هذا هو المكان الذي ستكتب فيه كود .NET وتنفذه.
+
+### مكتبة Aspose.Cells
+سوف تحتاج إلى تنزيل مكتبة Aspose.Cells والرجوع إليها في مشروعك. يمكنك الحصول عليها من:
+-  رابط التحميل:[Aspose.Cells لـ .NET](https://releases.aspose.com/cells/net/)
+
+### المعرفة الأساسية بلغة C#
+سيكون من المفيد أن يكون لديك فهم أساسي للغة C#. سيستخدم هذا البرنامج التعليمي مفاهيم البرمجة الأساسية التي من المفترض أن يكون من السهل اتباعها.
+
+هل أنت مستعد للذهاب؟ فلنبدأ!
+
+## استيراد الحزم
+
+الخطوة الأولى في رحلتنا هي استيراد حزم Aspose.Cells اللازمة إلى مشروع C# الخاص بنا. إليك كيفية القيام بذلك:
+
+### إنشاء مشروع جديد
+
+ افتح Visual Studio وأنشئ مشروع تطبيق وحدة تحكم C# جديد. يمكنك تسميته بأي اسم تريده، فلنبدأ بـ`GetPageDimensions`.
+
+### إضافة المراجع
+
+لاستخدام Aspose.Cells، تحتاج إلى إضافة مراجع إلى المكتبة:
+- انقر بزر الماوس الأيمن على مشروعك في مستكشف الحلول.
+- اختر "إدارة حزم NuGet".
+- ابحث عن “Aspose.Cells” وقم بتثبيته.
+
+### إضافة باستخدام التوجيهات
+
+ في الجزء العلوي من`Program.cs` الملف، أدخل هذا باستخدام التوجيه للوصول إلى وظيفة Aspose.Cells:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+الآن بعد أن قمنا باستيراد الحزم اللازمة، أنت في الطريق الصحيح! 
+
+الآن دعونا نستكشف كيفية استرجاع أبعاد أحجام الورق المختلفة من خلال اتباع كل خطوة. 
+
+## الخطوة 1: إنشاء مثيل لفئة المصنف
+
+أول شيء عليك القيام به هو إنشاء مثيل لفئة Workbook من Aspose.Cells. تمثل هذه الفئة ملف Excel.
+
+```csharp
+Workbook book = new Workbook();
+```
+
+هنا، نقوم ببساطة بإنشاء مصنف جديد يحتوي على بيانات جدول البيانات وتكويناته.
+
+## الخطوة 2: الوصول إلى ورقة العمل الأولى
+
+بعد إنشاء مثيل من المصنف، ستحتاج إلى الوصول إلى ورقة العمل الأولى. يمكن أن يحتوي كل مصنف على أوراق عمل متعددة، ولكن في هذا العرض التوضيحي، سنلتزم بالورقة الأولى.
+
+```csharp
+Worksheet sheet = book.Worksheets[0];
+```
+
+يقوم هذا السطر بإحضار ورقة العمل الأولى، مما يسمح لنا بتعيين أحجام الورق واسترجاع أبعادها الخاصة.
+
+## الخطوة 3: ضبط حجم الورق إلى A2 واسترداد الأبعاد
+
+الآن حان الوقت لتحديد حجم الورق وتحديد الأبعاد! نبدأ بحجم ورق A2.
+
+```csharp
+sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
+Console.WriteLine("PaperA2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
+```
+
+يضبط هذا الكود حجم الورق على A2 ويعرض العرض والارتفاع على الفور. يكمن جمال Aspose.Cells في بساطته!
+
+## الخطوة 4: كرر نفس الخطوات مع أحجام الورق الأخرى
+
+قد ترغب في تكرار هذه العملية لأحجام ورق أخرى مثل A3 وA4 وLetter. وإليك كيفية القيام بذلك:
+
+بالنسبة لـ A3:
+
+```csharp
+sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
+Console.WriteLine("PaperA3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
+```
+
+للحجم A4:
+
+```csharp
+sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
+Console.WriteLine("PaperA4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
+```
+
+للرسالة:
+
+```csharp
+sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
+Console.WriteLine("PaperLetter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
+```
+
+## الخطوة 5: استنتاج الناتج
+
+أخيرًا، ستحتاج إلى التأكد من اكتمال العملية بالكامل بنجاح. يمكنك ببساطة تسجيل هذه الحالة في وحدة التحكم:
+
+```csharp
+Console.WriteLine("GetPageDimensions executed successfully.\r\n");
+```
+
+## خاتمة
+
+تهانينا! لقد تعلمت الآن بنجاح كيفية استرداد أبعاد الصفحة لأحجام ورق مختلفة باستخدام Aspose.Cells لـ .NET. سواء كنت تقوم بتطوير أدوات إعداد التقارير أو جداول البيانات الآلية أو وظائف تحليل البيانات، فإن القدرة على سحب أبعاد الصفحة لتنسيقات مختلفة يمكن أن تكون ذات قيمة لا تقدر بثمن. 
+
+## الأسئلة الشائعة
+
+### ما هو Aspose.Cells؟
+Aspose.Cells عبارة عن مكتبة .NET تستخدم لإنشاء ملفات Excel ومعالجتها وتحويلها دون الحاجة إلى Microsoft Excel.
+
+### هل أحتاج إلى تثبيت Microsoft Excel لاستخدام Aspose.Cells؟
+لا، Aspose.Cells هي مكتبة مستقلة ولا تتطلب تثبيت Excel.
+
+### أين يمكنني العثور على المزيد من الأمثلة لـ Aspose.Cells؟
+ يمكنك الاطلاع على الوثائق هنا:[توثيق Aspose.Cells](https://reference.aspose.com/cells/net/).
+
+### هل هناك نسخة تجريبية مجانية من Aspose.Cells؟
+ نعم! يمكنك الحصول على نسخة تجريبية مجانية من:[نسخة تجريبية مجانية من Aspose.Cells](https://releases.aspose.com/).
+
+### كيف يمكنني الحصول على الدعم لـ Aspose.Cells؟
+ يمكنك الحصول على المساعدة بزيارة منتدى دعم Aspose:[دعم Aspose.Cells](https://forum.aspose.com/c/cells/9).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
