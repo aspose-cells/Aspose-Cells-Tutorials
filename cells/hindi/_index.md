@@ -35,7 +35,7 @@ Aspose.Cells का उपयोग करके .NET अनुप्रयो�
 {{< tutorial-card link="./net/charts/setting-category-data/" title=".NET के लिए Aspose.Cells के साथ एक्सेल चार्ट बनाएं" imgSrc="/cells/net/charts/setting-category-data/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [.NET के लिए Aspose.Cells के साथ ऑब्जेक्ट्स ड्राइंग](./net/drawing- objects/)
+## [.NET के लिए Aspose.Cells के साथ ऑब्जेक्ट्स ड्राइंग](./net/drawing-objects/)
 Aspose.Cells का उपयोग करके .NET अनुप्रयोगों में चार्ट बनाने, अनुकूलित करने और प्रबंधित करने का तरीका जानें। आसान, कुशल उदाहरणों के साथ विभिन्न चार्ट प्रकारों का अन्वेषण करें।
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Aspose.Cells का उपयोग करके Excel में ओले ऑब्जेक्ट लेबल को संशोधित करें" imgSrc="/cells/net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}

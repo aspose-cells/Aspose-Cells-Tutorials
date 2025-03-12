@@ -35,7 +35,7 @@ Tanuljon meg, hogyan lehet létrehozni, személyre szabni és kezelni a .NET alk
 {{< tutorial-card link="./net/charts/setting-category-data/" title="Az Excel-tábla létrehozása az Aspose.Cells segítségével .NET-re" imgSrc="/cells/net/charts/setting-category-data/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## [A .NET-hez használt Aspose.Cells objektumok rajzítása](./net/drawing- objects/)
+## [A .NET-hez használt Aspose.Cells objektumok rajzítása](./net/drawing-objects/)
 Tanuljon meg, hogyan lehet létrehozni, személyre szabni és kezelni a .NET alkalmazásokban a Aspose.Cells segítségével.
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="A Aspose.Cells segítségével módosítsa az Ole objektum címkéket az Excelben" imgSrc="/cells/net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
