@@ -1,6 +1,6 @@
 ---
 title: "Access and Validate Excel Cell Properties with Aspose.Cells for .NET"
-description: "A code tutorial for Aspose.Cells Net"
+description: "Master cell property access and validation with this hands-on tutorial. Learn to retrieve and verify cell attributes like data type, formatting, and protection status using Aspose.Cells for .NET."
 date: "2025-04-05"
 weight: 1
 url: "/net/cell-operations/aspose-cells-net-access-validate-excel-cell-properties/"
