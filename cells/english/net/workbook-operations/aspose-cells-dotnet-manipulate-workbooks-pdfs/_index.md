@@ -1,6 +1,6 @@
 ---
 title: "Aspose.Cells .NET&#58; Manipulate Workbooks & PDFs"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-04"
 weight: 1
 url: "/net/workbook-operations/aspose-cells-dotnet-manipulate-workbooks-pdfs/"

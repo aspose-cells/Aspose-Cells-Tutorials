@@ -1,6 +1,6 @@
 ---
 title: "Excel File Operations with Aspose.Cells .NET"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/workbook-operations/excel-file-operations-aspose-cells-net/"

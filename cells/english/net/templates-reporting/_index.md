@@ -1,6 +1,6 @@
 ---
 title: "Templates & Reporting"
-description: "Tutorials for Templates & Reporting with Aspose.Words for Net"
+description: "Tutorials for Templates & Reporting with Aspose.Cells for Net"
 weight: 23
 url: "/net/templates-reporting/"
 ---
@@ -30,7 +30,7 @@ Learn how to create dynamic Excel reports with Aspose.Cells .NET using smart mar
 Learn how to use Aspose.Cells .NET with SmartMarkers to create dynamic Excel workbooks, automate reporting, and manage data efficiently.
 
 ### [Mastering Workbook Metadata with Aspose.Cells .NET](./mastering-workbook-metadata-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 
 

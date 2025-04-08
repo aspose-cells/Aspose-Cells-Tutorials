@@ -1,6 +1,6 @@
 ---
 title: "Create Pie Chart in .NET with Aspose.Cells&#58; A Complete Guide"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/charts-graphs/create-pie-chart-dotnet-aspose-cells-guide/"

@@ -122,7 +122,7 @@ Learn how to implement XAdES signature support in Excel workbooks using Aspose.C
 Learn how to efficiently access and manage custom document properties in Excel files using Aspose.Cells for .NET. Automate data handling with our comprehensive guide.
 
 ### [Aspose.Cells .NET&#58; Create & Manage Excel Workbooks](./aspose-cells-dotnet-create-manage-excel-workbooks)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Master Custom PDF Page Conversion in .NET with Aspose.Cells](./aspose-cells-dotnet-custom-pdf-page-conversion)
 Learn how to implement custom PDF page conversion using Aspose.Cells for .NET. Control Excel-to-PDF conversions with precise page selections.
@@ -134,7 +134,7 @@ Learn how to use Aspose.Cells for .NET to open and manipulate Excel files via Fi
 Learn how to use Aspose.Cells for .NET to efficiently convert Excel files into PDFs. This guide covers installation, dynamic file handling, and troubleshooting tips.
 
 ### [Aspose.Cells .NET&#58; Manipulate Workbooks & PDFs](./aspose-cells-dotnet-manipulate-workbooks-pdfs)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Mastering Aspose.Cells .NET&#58; Stream-Based Excel File Manipulation](./aspose-cells-dotnet-open-modify-excel-files-stream)
 Learn to efficiently open and modify Excel files using Aspose.Cells with FileStream in .NET. Automate your data handling tasks seamlessly.
@@ -164,7 +164,7 @@ Learn how to efficiently load Excel files without VBA macros using Aspose.Cells 
 Learn how to efficiently convert complex HTML layouts with div tags into organized Excel workbooks using Aspose.Cells for .NET. Dive into best practices and advanced features today!
 
 ### [Mastering Aspose.Cells .NET&#58; Remove Sheets & Handle Streams](./aspose-cells-net-java-remove-sheets-streams)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Mastering Aspose.Cells&#58; Load Excel Files and Set PDF Creation Time in .NET](./aspose-cells-net-load-excel-set-pdf-creation-time)
 Learn how to load Excel files and set custom creation times for PDFs using Aspose.Cells in .NET. Enhance your document management workflows efficiently.
@@ -185,7 +185,7 @@ Learn how to save Excel files in various formats like XLS, XLSX, PDF, and HTML u
 Learn how to efficiently convert Excel files into high-quality TIFF images using Aspose.Cells for .NET. Monitor progress, configure rendering options, and optimize performance in this comprehensive guide.
 
 ### [Avoid Blank Pages in PDF with Aspose.Cells for .NET](./avoid-blank-pages-pdf-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Combine Excel Sheets into a Single Text File Using Aspose.Cells for .NET](./combine-excel-sheets-aspose-cells-net)
 Learn how to efficiently combine multiple Excel sheets into one text file using Aspose.Cells for .NET. This guide simplifies data consolidation and reporting.
@@ -209,7 +209,7 @@ Learn how to efficiently convert Excel files into PDFs using Aspose.Cells .NET. 
 Learn how to seamlessly convert Excel sheets into high-quality images with Aspose.Cells for .NET. Follow this step-by-step guide to enhance your data presentation.
 
 ### [Convert Excel Sheets to SVG with Aspose.Cells for .NET](./convert-excel-sheets-svg-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Convert Excel Sheets to PDFs Using Aspose.Cells for .NET&#58; A Step-by-Step Guide](./convert-excel-sheets-to-pdfs-aspose-cells-net)
 Learn how to automate the conversion of Excel sheets into individual PDF files using Aspose.Cells for .NET. This guide covers all steps from setup to execution.
@@ -263,7 +263,7 @@ Learn how to convert Excel files to PDFs with ease using Aspose.Cells for .NET. 
 Learn how to seamlessly convert XLSB files to XLSM with Aspose.Cells for .NET. Follow our step-by-step guide and enhance your Excel workbook operations today.
 
 ### [Create PDF Bookmarks in Excel with Aspose.Cells for .NET](./create-pdf-bookmarks-excel-aspose-cells-dotnet)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Create PDF Bookmarks with Named Destinations Using Aspose.Cells .NET&#58; A Step-by-Step Guide](./create-pdf-bookmarks-named-destinations-aspose-cells-dotnet)
 Learn how to enhance your Excel reports by adding PDF bookmarks with named destinations using Aspose.Cells for .NET. This guide covers installation, setup, and practical code examples.
@@ -278,7 +278,7 @@ Learn how to create, customize, and save Excel files using Aspose.Cells for .NET
 Learn how to use Aspose.Cells for .NET to create and save Excel workbooks in OpenDocument Spreadsheet (ODS) format. Follow this guide for efficient data management.
 
 ### [Create & Save Excel Workbook with Aspose.Cells .NET](./create-save-excel-workbook-aspose-cells-dotnet)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Create and Save Excel Workbook as PDF in ASP.NET Using Aspose.Cells](./create-save-excel-workbook-pdf-aspnet-aspose-cells)
 Learn how to create and save an Excel workbook as a PDF using Aspose.Cells for .NET, with file download functionality in ASP.NET.
@@ -299,7 +299,7 @@ Master file format detection across Excel, Word, and PowerPoint using Aspose.Cel
 Learn how to use Aspose.Cells for .NET to detect the format of encrypted Excel files without full decryption. Enhance security and efficiency in your applications.
 
 ### [Efficient CSV Parsing with Aspose.Cells for .NET](./efficient-csv-parsing-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Load Excel Files Efficiently Using Aspose.Cells in .NET](./efficient-excel-load-aspose-cells-net)
 Learn how to optimize Excel file handling with Aspose.Cells for .NET by using LoadFilter options. Speed up loading times and reduce memory usage effectively.
@@ -320,7 +320,7 @@ Learn how to automate Excel tasks using .NET and Aspose.Cells. This guide covers
 Learn how to manage Excel files with ease using Aspose.Cells for .NET. This guide covers workbook operations, adding custom XML parts, and saving changes efficiently.
 
 ### [Excel File Operations with Aspose.Cells .NET](./excel-file-operations-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Set Default Font in Excel-to-HTML Conversion with Aspose.Cells for .NET | Workbook Operations Guide](./excel-html-conversion-default-font-aspose-cells-net)
 Learn how to set a default font when converting Excel files to HTML using Aspose.Cells for .NET, ensuring consistent typography and professional presentation.
@@ -344,7 +344,7 @@ Master converting Excel files to HTML with Aspose.Cells for .NET. Learn step-by-
 Learn how to convert Excel files to HTML using Aspose.Cells for .NET with customized options. Enhance data sharing in your applications.
 
 ### [Excel to HTML Conversion&#58; Optimize Image Quality with Aspose.Cells](./excel-to-html-conversion-aspose-cells-image-quality)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Convert Excel Files to HTML Using Aspose.Cells for .NET&#58; Hiding Overlaid Content](./excel-to-html-hide-overlaid-content-aspose-cells)
 Learn how to convert complex Excel files into web-friendly HTML formats using Aspose.Cells for .NET. This guide covers hiding overlaid content with HtmlSaveOptions, ensuring visually appealing and functional outputs.
@@ -359,7 +359,7 @@ Learn how to efficiently convert Excel spreadsheets into markdown format using A
 Learn how to convert XLSX files to MHT format using Aspose.Cells for .NET. Follow this step-by-step guide to ensure seamless data conversion.
 
 ### [Convert Excel to PDF with Aspose.Cells for .NET](./excel-to-pdf-aspose-cells-dotnet-guide)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Convert Excel to PDF Using Aspose.Cells .NET&#58; A Step-by-Step Guide](./excel-to-pdf-aspose-cells-net-guide)
 Learn how to automate the conversion of Excel workbooks to PDFs with Aspose.Cells for .NET, including workbook creation and interruption management.
@@ -371,7 +371,7 @@ Learn how to convert Excel files to high-quality PDFs using Aspose.Cells in .NET
 Learn how to convert Excel files into well-organized PDFs with perfectly fitted columns using Aspose.Cells .NET. Streamline your data conversion process today!
 
 ### [Excel to PDF with Custom Stream Provider in Aspose.Cells](./excel-to-pdf-custom-stream-provider-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Convert Excel to PDF Securely Using Aspose.Cells for .NET&#58; A Step-by-Step Guide](./excel-to-pdf-security-aspose-cells-net)
 Learn how to convert Excel files into secure PDFs using Aspose.Cells for .NET. Protect sensitive data with advanced security features in just a few steps.
@@ -395,7 +395,7 @@ Learn how to manage Excel workbook properties with Aspose.Cells .NET, including 
 Learn how to efficiently manage Excel workbooks using Aspose.Cells for .NET. This tutorial covers opening files, ungrouping rows/columns, and optimizing your environment.
 
 ### [Export Custom Properties from Excel to PDF with Aspose.Cells](./export-custom-properties-excel-pdf-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Export Excel Charts to PDF Using Aspose.Cells for .NET&#58; A Step-by-Step Guide](./export-excel-charts-pdf-aspose-cells-net)
 Learn how to export Excel charts to PDF with Aspose.Cells for .NET. This guide provides step-by-step instructions, tips on performance optimization, and practical applications.
@@ -425,7 +425,7 @@ Learn how to export Excel workbooks as web-friendly HTML files complete with gri
 Learn how to export Excel workbooks to the XML-based SpreadsheetML format using Aspose.Cells for .NET. Streamline your data management workflow with this detailed guide.
 
 ### [Export Excel to XPS with Aspose.Cells .NET](./export-excel-xps-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Export Hidden Worksheets to HTML Using Aspose.Cells for .NET&#58; A Comprehensive Guide](./export-hidden-worksheets-aspose-cells-html)
 Learn how to export hidden worksheets from Excel files to HTML using Aspose.Cells for .NET. Ensure complete data visibility with this detailed guide.
@@ -437,7 +437,7 @@ Learn how to maintain visual consistency when converting Excel files to HTML wit
 Learn how to efficiently export visible rows from an Excel workbook using Aspose.Cells for .NET. Streamline your data handling in C# with this comprehensive guide.
 
 ### [Ignore Errors in Excel to PDF Conversion with Aspose.Cells](./ignore-errors-excel-to-pdf-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Implement HTML in Excel & Auto-Fit Columns Using Aspose.Cells for .NET](./implement-html-excel-auto-fit-columns-aspose-cells)
 Learn how to integrate rich HTML content into Excel using Aspose.Cells for .NET and automatically adjust column widths for a cleaner presentation.
@@ -458,7 +458,7 @@ Learn how to load an Excel workbook excluding defined names with Aspose.Cells fo
 Learn how to load Excel workbooks and access page setup properties with Aspose.Cells for .NET, ensuring efficient workbook operations.
 
 ### [Load Excel Workbooks Without Chart Data Using Aspose.Cells](./load-excel-workbooks-without-charts-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Load HTML into Excel with Autofit Using Aspose.Cells for .NET](./load-html-into-excel-aspose-cells-autofit)
 Learn how to load HTML tables into Excel workbooks using Aspose.Cells, including autofit options. Enhance readability and streamline data analysis in Excel.
@@ -476,13 +476,13 @@ Learn how to load and print Excel workbooks as TIFF images using Aspose.Cells fo
 Learn how to efficiently convert Excel workbooks into CSV files with Aspose.Cells for .NET, including trimming leading blanks.
 
 ### [Load Workbook with CultureInfo in Aspose.Cells .NET](./load-workbook-cultureinfo-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Load an Excel Workbook & Set Printer Sizes Using Aspose.Cells for .NET](./load-workbook-set-printer-sizes-aspose-cells-dotnet)
 Learn how to load and manipulate Excel workbooks in .NET with Aspose.Cells, set custom printer sizes like A3 or A5, and export them as PDFs.
 
 ### [Manage Directories & Excel Workbooks with Aspose.Cells in .NET](./manage-directories-excel-workbooks-aspose-cells-dotnet)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Master Excel Workbook Management with Aspose.Cells for .NET&#58; A Step-by-Step Guide](./manage-excel-workbooks-aspose-cells-net)
 Learn how to manage Excel workbooks in .NET using Aspose.Cells. This guide covers instantiation, cell modification, setting active sheets, and saving as SVG.
@@ -518,7 +518,7 @@ Learn how to load, modify, and save Excel workbooks using Aspose.Cells for .NET.
 Learn how to efficiently open and manage CSV files using Aspose.Cells for .NET. This guide covers setup, usage, and performance optimization.
 
 ### [Open Excel 97-2003 Files with Aspose.Cells .NET](./open-excel-97-2003-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Efficiently Open Excel Files Using Streams in .NET with Aspose.Cells](./open-excel-files-streams-aspose-cells-dotnet)
 Learn how to open and manipulate Excel files using streams within your .NET applications using the powerful Aspose.Cells library.
@@ -545,13 +545,13 @@ Learn how to efficiently open tab-delimited files with Aspose.Cells for .NET in 
 Learn how to efficiently open and manage TSV files using Aspose.Cells for .NET, ensuring seamless data integration into your projects.
 
 ### [Optimize Excel to HTML Conversion with Aspose.Cells .NET](./optimize-excel-html-conversion-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Optimize Excel to PDF File Size Using Aspose.Cells for .NET](./optimize-excel-pdf-size-aspose-cells-dotnet)
 Learn how to efficiently convert your Excel files into compact PDFs with minimized file size using Aspose.Cells for .NET, enhancing sharing and storage performance.
 
 ### [Read Multi-Encoding CSV Files Using Aspose.Cells .NET](./read-multiple-encodings-csv-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Render an Empty Excel Sheet as PNG Using Aspose.Cells for .NET](./render-empty-excel-sheet-as-png-aspose-cells-net)
 Learn how to convert empty Excel worksheets into PNG images with Aspose.Cells for .NET. Perfect for documentation and platform compatibility.
@@ -572,7 +572,7 @@ Learn how to save Excel files as XLSB format with Aspose.Cells for .NET. This gu
 Learn how to efficiently save Excel files to streams with Aspose.Cells for .NET. This guide covers setup, implementation, and best practices.
 
 ### [Save Excel as Text File with Custom Separator using Aspose.Cells](./save-excel-text-custom-separator-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Save Excel Workbook as PDF with Custom Fonts using Aspose.Cells for .NET](./save-excel-workbook-pdf-custom-fonts-aspose-cells-net)
 Learn how to save an Excel workbook as a PDF with custom fonts using Aspose.Cells for .NET. Ensure your documents maintain font integrity across platforms.
@@ -590,7 +590,7 @@ Learn how to convert specific pages from an Excel workbook to a PDF using Aspose
 Learn how to programmatically save Excel files using Aspose.Cells for .NET. This comprehensive guide covers setup, code examples, and best practices.
 
 ### [Set Excel Document Version with Aspose.Cells in C#](./set-excel-document-version-aspose-csharp)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Comments & Annotations"
-description: "Tutorials for Comments & Annotations with Aspose.Words for Net"
+description: "Tutorials for Comments & Annotations with Aspose.Cells for Net"
 weight: 14
 url: "/net/comments-annotations/"
 ---
@@ -33,7 +33,7 @@ Learn how to change text direction in Excel comments with Aspose.Cells for .NET.
 Learn how to effortlessly create and manage threaded comments in Excel workbooks using the Aspose.Cells .NET library. Perfect for project management, financial reporting, and collaborative editing.
 
 ### [Edit Excel Threaded Comments with Aspose.Cells .NET](./edit-excel-threaded-comments-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Implement and Format Excel Comments Using Aspose.Cells for .NET&#58; A Step-by-Step Guide](./implement-format-excel-comments-aspose-cells-net)
 Master adding and formatting comments in Excel files with Aspose.Cells for .NET. Follow our comprehensive guide to enhance your spreadsheets programmatically.

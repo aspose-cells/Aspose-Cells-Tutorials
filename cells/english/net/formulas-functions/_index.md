@@ -1,6 +1,6 @@
 ---
 title: "Formulas & Functions"
-description: "Tutorials for Formulas & Functions with Aspose.Words for Net"
+description: "Tutorials for Formulas & Functions with Aspose.Cells for Net"
 weight: 7
 url: "/net/formulas-functions/"
 ---
@@ -36,7 +36,7 @@ Learn how to use Aspose.Cells .NET to display formulas in Excel workbooks effici
 Learn how to automate dynamic Excel reports using Aspose.Cells for .NET. Create named ranges, add ComboBox controls, and generate responsive formulas.
 
 ### [Excel Automation&#58; Aspose.Cells .NET for Formulas](./excel-automation-aspose-cells-net-formulas)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Excel Automation with Aspose.Cells .NET&#58; Mastering Workbook & Formula Calculations](./excel-automation-aspose-cells-net-workbook-formulas)
 Learn how to automate Excel tasks using Aspose.Cells for .NET. Create workbooks, apply formulas like IFNA and VLOOKUP, and streamline your data processes efficiently.
@@ -45,7 +45,7 @@ Learn how to automate Excel tasks using Aspose.Cells for .NET. Create workbooks,
 Learn how to efficiently perform direct calculations in Excel with Aspose.Cells for .NET. Automate your formula processing and improve data management.
 
 ### [Excel Formula Search with Aspose.Cells for .NET](./excel-formula-search-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Excel Warning Handling in .NET using Aspose.Cells Callbacks&#58; A Comprehensive Guide](./excel-warning-handling-net-aspose-cells-callbacks)
 Learn how to manage Excel warnings with Aspose.Cells for .NET. Implement IWarningCallback and enhance your application's error handling.
@@ -78,7 +78,7 @@ Learn how to master array formulas using Aspose.Cells for .NET. This guide cover
 Learn how to specify the language of your Excel files using Aspose.Cells .NET. Enhance document accessibility and compliance with this step-by-step guide.
 
 ### [Update Excel Power Query Formulas with Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 
 

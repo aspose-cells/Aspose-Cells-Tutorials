@@ -1,6 +1,6 @@
 ---
 title: "Excel to PDF with Custom Stream Provider in Aspose.Cells"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/workbook-operations/excel-to-pdf-custom-stream-provider-aspose-cells-net/"

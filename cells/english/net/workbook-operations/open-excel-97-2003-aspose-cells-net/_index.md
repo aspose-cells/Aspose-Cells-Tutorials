@@ -1,6 +1,6 @@
 ---
 title: "Open Excel 97-2003 Files with Aspose.Cells .NET"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/workbook-operations/open-excel-97-2003-aspose-cells-net/"

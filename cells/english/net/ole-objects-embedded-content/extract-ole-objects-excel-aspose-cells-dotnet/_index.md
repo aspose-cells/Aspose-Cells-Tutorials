@@ -1,6 +1,6 @@
 ---
 title: "Extract OLE Objects from Excel Using Aspose.Cells"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/ole-objects-embedded-content/extract-ole-objects-excel-aspose-cells-dotnet/"

@@ -1,6 +1,6 @@
 ---
 title: "Master Default Styles in Excel with Aspose.Cells for .NET"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/formatting/create-apply-default-styles-aspose-cells-dotnet/"

@@ -1,6 +1,6 @@
 ---
 title: "Calculation Engine"
-description: "Tutorials for Calculation Engine with Aspose.Words for Net"
+description: "Tutorials for Calculation Engine with Aspose.Cells for Net"
 weight: 22
 url: "/net/calculation-engine/"
 ---

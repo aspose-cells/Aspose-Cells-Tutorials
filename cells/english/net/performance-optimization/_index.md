@@ -1,6 +1,6 @@
 ---
 title: "Performance Optimization"
-description: "Tutorials for Performance Optimization with Aspose.Words for Net"
+description: "Tutorials for Performance Optimization with Aspose.Cells for Net"
 weight: 19
 url: "/net/performance-optimization/"
 ---
@@ -18,10 +18,10 @@ url: "/net/performance-optimization/"
 ## Performance Optimization Tutorials
 
 ### [Optimize Workbook Loading with Aspose.Cells .NET](./aspose-cells-net-custom-load-filters)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Master Workbook Enhancements with Aspose.Cells for .NET](./aspose-cells-net-mastering-workbook-enhancements)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Optimize Multi-Threading with Aspose.Cells for .NET&#58; Efficient Cell Value Reading](./aspose-cells-net-multi-threading-read-cell-values)
 Learn to enhance performance by reading cell values simultaneously using multi-threading in Aspose.Cells for .NET. Optimize your applications effectively.
@@ -45,7 +45,7 @@ Learn how to reduce Excel file sizes using Aspose.Cells .NET. This guide covers 
 Learn how to efficiently manage large datasets in Excel with Aspose.Cells for .NET using the innovative LightCells API. Boost performance and optimize memory usage seamlessly.
 
 ### [Implement Custom MemoryStream Factory with Aspose.Cells](./implement-custom-memorystream-factory-aspose-cells)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Implement a Version Checker for Aspose.Cells in C# - Performance Optimization Guide](./implement-version-checker-aspose-cells-dotnet-csharp)
 Learn how to set up and implement a version checker for Aspose.Cells using C#. Ensure your .NET applications maintain compatibility and reliability.

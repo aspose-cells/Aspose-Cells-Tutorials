@@ -1,6 +1,6 @@
 ---
 title: "Mastering Shape Manipulation in Excel with Aspose.Cells .NET"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/images-shapes/excel-shape-manipulation-aspose-cells-net/"

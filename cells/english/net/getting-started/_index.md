@@ -1,6 +1,6 @@
 ---
 title: "Getting Started"
-description: "Tutorials for Getting Started with Aspose.Words for Net"
+description: "Tutorials for Getting Started with Aspose.Cells for Net"
 weight: 1
 url: "/net/getting-started/"
 ---
@@ -30,13 +30,13 @@ Learn how to create, manage, and optimize Excel workbooks using Aspose.Cells for
 Learn how to create, configure, and manage Excel workbooks using Aspose.Cells for .NET. This guide covers installation, workbook creation, data entry, font customization, and directory management.
 
 ### [Create Workbook in Excel 97-2003 Format Using Aspose.Cells](./create-save-excel-97-2003-aspose-cells-dotnet)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Efficiently Create Excel Files Using Aspose.Cells .NET&#58; A Comprehensive Guide for Developers](./efficient-excel-files-aspose-cells-net)
 Learn how to create multiple Excel files efficiently with Aspose.Cells for .NET. This guide covers setup, implementation, and optimization for high performance.
 
 ### [Mastering Excel File Creation with Aspose.Cells for .NET](./excel-creation-aspose-cells-dotnet-guide)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Master Excel Manipulation with Aspose.Cells .NET&#58; A Comprehensive Guide](./excel-manipulation-aspose-cells-net-guide)
 Learn how to automate and refine Excel file handling using Aspose.Cells for .NET. This guide covers loading, modifying, and saving workbooks efficiently.
@@ -48,10 +48,10 @@ Learn how to create and style Excel workbooks using Aspose.Cells for .NET. This 
 Learn how to create, style, and manipulate Excel workbooks using Aspose.Cells .NET. A step-by-step guide perfect for developers seeking automation solutions.
 
 ### [Mastering Workbook Initialization & Subscript Styling with Aspose.Cells](./mastering-workbook-initialization-subscript-styling-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Set Up Directories and Create Workbooks with Aspose.Cells .NET](./set-up-directories-create-workbooks-aspose-cells-dotnet)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 
 

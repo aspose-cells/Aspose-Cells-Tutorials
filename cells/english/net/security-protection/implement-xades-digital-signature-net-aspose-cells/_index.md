@@ -1,6 +1,6 @@
 ---
 title: "Implementing XAdES Digital Signatures in .NET with Aspose.Cells"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-06"
 weight: 1
 url: "/net/security-protection/implement-xades-digital-signature-net-aspose-cells/"

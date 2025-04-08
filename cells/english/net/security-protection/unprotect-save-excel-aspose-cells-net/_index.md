@@ -1,6 +1,6 @@
 ---
 title: "Unprotect and Save Excel Workbooks with Aspose.Cells .NET"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-06"
 weight: 1
 url: "/net/security-protection/unprotect-save-excel-aspose-cells-net/"

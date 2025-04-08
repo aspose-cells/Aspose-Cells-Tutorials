@@ -1,6 +1,6 @@
 ---
 title: "Master .NET Excel Automation with Aspose.Cells for Hyperlinks"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/advanced-features/net-excel-automation-aspose-cells-hyperlinks/"

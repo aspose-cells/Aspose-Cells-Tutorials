@@ -1,6 +1,6 @@
 ---
 title: "Import & Export"
-description: "Tutorials for Import & Export with Aspose.Words for Net"
+description: "Tutorials for Import & Export with Aspose.Cells for Net"
 weight: 16
 url: "/net/import-export/"
 ---
@@ -24,22 +24,22 @@ Learn how to seamlessly connect an Access database with Excel using Aspose.Cells
 Learn how to seamlessly import HTML-formatted data from DataTables into Excel spreadsheets using Aspose.Cells for .NET, preserving all text styles and enhancing your productivity.
 
 ### [Aspose.Cells .NET&#58; Manage QueryTable Data in Excel](./aspose-cells-net-querytable-data-management)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Master Aspose.Cells .NET Smart Markers & DataTable Integration for Efficient Data Management in Excel](./aspose-cells-net-smart-markers-data-table-integration)
 Learn how to integrate data efficiently into Excel spreadsheets using Aspose.Cells for .NET, featuring Smart Markers and DataTable functionalities. Automate reports and manage datasets with ease.
 
 ### [Map XML to Excel with Aspose.Cells .NET](./create-workbook-add-xml-map-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Implement a Custom Stream Provider for HTML Export in Aspose.Cells .NET](./custom-stream-provider-html-export-aspose-cells-net)
 Learn how to implement a custom stream provider for exporting Excel workbooks to HTML using Aspose.Cells .NET. This guide covers setup, configuration, and real-world applications.
 
 ### [Enhance Excel with XML and Aspose.Cells](./excel-customization-aspose-cells-xml)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Excel Smart Markers with Aspose.Cells for .NET](./excel-smart-markers-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Export Data from Excel Using Aspose.Cells for .NET&#58; A Complete Guide](./export-data-excel-aspose-cells-dotnet)
 Learn how to efficiently export data from Excel files with Aspose.Cells for .NET. This guide covers setup, implementation, and best practices.
@@ -66,7 +66,7 @@ Learn how to export XML maps from Excel files using Aspose.Cells for .NET. This 
 Learn how to export HTML strings from Excel cells into a DataTable using Aspose.Cells for .NET. This comprehensive guide covers installation, setup, and implementation.
 
 ### [Export Print Area to HTML with Aspose.Cells for .NET](./export-print-area-html-aspose-cells-dot-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Extract Embedded Molecule Files from Excel Using Aspose.Cells .NET](./extract-molecule-files-excel-aspose-cells-net)
 Learn how to efficiently extract embedded molecule files (.mol) from Excel workbooks using Aspose.Cells for .NET with this step-by-step guide.
@@ -90,13 +90,13 @@ Learn how to seamlessly import an ArrayList into Excel with Aspose.Cells for .NE
 Learn how to automate data import from arrays into Excel using Aspose.Cells for .NET. This guide covers setup, implementation, and saving your workbooks efficiently.
 
 ### [Import Custom Objects to Merged Cells in Excel with Aspose.Cells](./import-custom-objects-to-merged-cells-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Import Data with Formulas into Excel using Aspose.Cells .NET&#58; A Comprehensive Guide](./import-data-formulas-excel-aspose-cells-net)
 Learn how to efficiently import data with formulas into Excel worksheets using Aspose.Cells for .NET. This guide covers setup, custom objects in C#, and formula integration.
 
 ### [Import DataGrid into Excel with Aspose.Cells for .NET](./import-datagrid-excel-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Import DataTable into Excel Using Aspose.Cells for .NET (Step-by-Step Guide)](./import-datatable-excel-aspose-cells-net)
 Learn how to seamlessly import a DataTable into an Excel worksheet using Aspose.Cells for .NET. Follow this step-by-step guide with code examples and best practices.

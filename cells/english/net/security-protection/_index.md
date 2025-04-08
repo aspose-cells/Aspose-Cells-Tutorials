@@ -1,6 +1,6 @@
 ---
 title: "Security & Protection"
-description: "Tutorials for Security & Protection with Aspose.Words for Net"
+description: "Tutorials for Security & Protection with Aspose.Cells for Net"
 weight: 13
 url: "/net/security-protection/"
 ---
@@ -33,7 +33,7 @@ Learn how to secure your Excel workbooks with write protection and author attrib
 Learn to detect file formats and check encryption in Excel files using Aspose.Cells for .NET. Streamline data management and ensure security compliance.
 
 ### [Lock and Unlock Excel Cells with Aspose.Cells .NET](./aspose-cells-net-lock-unlock-excel-cells-guide)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Unlock and Protect Excel Worksheets Using Aspose.Cells for .NET](./aspose-cells-net-unlock-protect-spreadsheets)
 Master unlocking columns, locking rows, and protecting worksheets in Excel with Aspose.Cells for .NET. Ensure data security while optimizing spreadsheet flexibility.
@@ -69,7 +69,7 @@ Master Excel file security by learning how to load encrypted workbooks and valid
 Learn how to securely implement and validate digital signatures in .NET with Aspose.Cells. This guide covers setup, signing, validation, and best practices.
 
 ### [Implementing XAdES Digital Signatures in .NET with Aspose.Cells](./implement-xades-digital-signature-net-aspose-cells)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Mastering Excel Document Properties with Aspose.Cells for .NET&#58; A Comprehensive Guide](./mastering-excel-document-properties-aspose-cells-net)
 Learn how to manage and customize document properties in Excel files using Aspose.Cells for .NET. This guide covers everything from setup to advanced usage.
@@ -117,10 +117,10 @@ Learn how to unlock and protect Excel sheets with Aspose.Cells in C#. This guide
 Learn how to unprotect and manage Excel worksheets using Aspose.Cells for .NET. Follow our step-by-step guide to streamline data access and processing.
 
 ### [Unprotect and Save Excel Workbooks with Aspose.Cells .NET](./unprotect-save-excel-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Verify Encrypted Excel File Password with Aspose.Cells .NET](./verify-encrypted-excel-file-password-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Verify and Protect Worksheet Passwords Using Aspose.Cells for .NET](./verify-password-protection-aspose-cells-net)
 Learn how to verify password protection of Excel worksheets using Aspose.Cells for .NET. This guide covers setup, implementation, and troubleshooting.

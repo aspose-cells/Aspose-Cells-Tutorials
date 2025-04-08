@@ -1,6 +1,6 @@
 ---
 title: "Charts & Graphs"
-description: "Tutorials for Charts & Graphs with Aspose.Words for Net"
+description: "Tutorials for Charts & Graphs with Aspose.Cells for Net"
 weight: 9
 url: "/net/charts-graphs/"
 ---
@@ -63,7 +63,7 @@ Learn how to automate Excel chart manipulation using Aspose.Cells for .NET. This
 Learn how to adjust chart tick label directions using Aspose.Cells for .NET, enhancing your data visualization skills with this easy-to-follow guide.
 
 ### [Convert Excel Chart to Image with Aspose.Cells .NET](./convert-excel-chart-image-aspose-cells-dotnet)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Convert Excel Charts to SVG Using Aspose.Cells for .NET (Step-by-Step Guide)](./convert-excel-chart-to-svg-aspose-cells-net)
 Learn how to convert Excel charts to SVG using Aspose.Cells for .NET with this step-by-step guide. Enhance web applications by embedding high-quality, scalable vector graphics.
@@ -99,13 +99,13 @@ Learn how to create, configure, and export Excel charts with Aspose.Cells for .N
 Learn how to create dynamic line charts in Excel using Aspose.Cells for .NET. This step-by-step guide covers setup, data population, chart customization, and saving your work.
 
 ### [Create Pie Chart in .NET with Aspose.Cells&#58; A Complete Guide](./create-pie-chart-dotnet-aspose-cells-guide)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Creating Pie Charts with Leader Lines in Aspose.Cells .NET&#58; A Comprehensive Guide](./create-pie-charts-aspose-cells-net)
 Learn how to create dynamic pie charts with leader lines using Aspose.Cells for .NET. Follow this guide to enhance your data visualization skills.
 
 ### [Create Pivot Charts in Excel Using Aspose.Cells .NET](./create-pivot-charts-aspose-cells-dotnet)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Create a Pyramid Chart in Excel using Aspose.Cells for .NET&#58; A Step-by-Step Guide](./create-pyramid-chart-aspose-cells-net)
 Learn how to create dynamic pyramid charts in Excel with Aspose.Cells for .NET. Follow this step-by-step guide to enhance your data visualization skills and automate chart creation.
@@ -156,7 +156,7 @@ Learn how to create and customize Excel charts using Aspose.Cells for .NET. Enha
 Learn how to streamline data management and chart creation in Excel using Aspose.Cells for .NET. This guide provides step-by-step instructions on integrating data and charts efficiently.
 
 ### [Master Excel Sparklines in .NET with Aspose.Cells](./excel-sparklines-aspose-cells-dotnet-guide)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Extract Trendline Equations from Excel Charts Using C# and Aspose.Cells .NET](./extract-trendline-equations-excel-charts-csharp-asposecells-net)
 Learn how to automate the extraction of trendline equations from Excel charts using C# with Aspose.Cells. Streamline your data analysis workflow effortlessly.
@@ -174,7 +174,7 @@ Learn how to efficiently load, access, and analyze Excel charts using Aspose.Cel
 Learn how to detect chart axes with Aspose.Cells for .NET. This guide covers setting up, identifying primary and secondary axes in C#, and best practices.
 
 ### [Master Chart Creation in .NET with Aspose.Cells](./master-chart-creation-net-aspose-cells-guide)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Mastering Aspose.Cells .NET&#58; Workbooks & Line Charts in C#](./mastering-aspose-cells-net-workbooks-charts)
 Learn how to automate Excel tasks using Aspose.Cells for .NET. This guide covers creating workbooks and adding customizable line charts with comprehensive code examples.

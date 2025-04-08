@@ -1,6 +1,6 @@
 ---
 title: "Data Analysis"
-description: "Tutorials for Data Analysis with Aspose.Words for Net"
+description: "Tutorials for Data Analysis with Aspose.Cells for Net"
 weight: 10
 url: "/net/data-analysis/"
 ---
@@ -24,10 +24,10 @@ Learn how to access pivot table external data sources with Aspose.Cells for .NET
 Learn how to use Aspose.Cells .NET to efficiently access and display pivot table refresh information, enhancing your data analysis processes.
 
 ### [Aspose.Cells .NET&#58; Filter Hidden Rows in Excel](./aspose-cells-dotnet-filter-hidden-rows-excel)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Applying Advanced Excel Filters with Aspose.Cells .NET](./aspose-cells-net-advanced-excel-filters)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Custom Sorting in PivotTables using Aspose.Cells for .NET&#58; A Step-by-Step Guide](./aspose-cells-net-custom-sort-pivot-tables)
 Learn how to implement custom sorting in PivotTables with Aspose.Cells for .NET. Follow this comprehensive guide for enhanced data analysis and decision-making.
@@ -72,7 +72,7 @@ Learn how to customize pivot table labels with Aspose.Cells for .NET. This guide
 Learn how to disable the pivot table ribbon in Excel using Aspose.Cells for .NET, enhancing data security and UI simplicity.
 
 ### [Excel Workbook Grouping with Aspose.Cells .NET](./excel-aspose-cells-net-workbook-grouping)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Automate Excel Filtering for Non-Blanks Using Aspose.Cells .NET&#58; A Comprehensive Guide](./excel-automation-aspose-cells-net-filtering-non-blanks)
 Learn how to automate filtering non-blank cells in Excel with Aspose.Cells for .NET. Enhance data analysis efficiency by streamlining your workflow.
@@ -141,10 +141,10 @@ Learn how to rank data within PivotTables using Aspose.Cells for .NET. This guid
 Learn how to efficiently refresh nested pivot tables using Aspose.Cells for .NET. Streamline your data analysis workflow and enhance productivity with our step-by-step guide.
 
 ### [Sort Excel Data with Custom Lists Using Aspose.Cells .NET](./sort-excel-data-aspose-cells-net-custom-lists)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Styling Pivot Tables with Aspose.Cells for .NET](./styling-pivot-tables-aspose-cells-dotnet)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 
 

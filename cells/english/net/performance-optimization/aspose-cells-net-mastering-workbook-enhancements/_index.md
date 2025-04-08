@@ -1,6 +1,6 @@
 ---
 title: "Master Workbook Enhancements with Aspose.Cells for .NET"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/performance-optimization/aspose-cells-net-mastering-workbook-enhancements/"

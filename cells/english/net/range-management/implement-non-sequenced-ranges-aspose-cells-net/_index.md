@@ -1,6 +1,6 @@
 ---
 title: "Implement Non-Sequenced Ranges with Aspose.Cells for .NET"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/range-management/implement-non-sequenced-ranges-aspose-cells-net/"

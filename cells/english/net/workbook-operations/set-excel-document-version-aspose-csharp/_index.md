@@ -1,6 +1,6 @@
 ---
 title: "Set Excel Document Version with Aspose.Cells in C#"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/workbook-operations/set-excel-document-version-aspose-csharp/"

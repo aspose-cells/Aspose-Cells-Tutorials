@@ -100,7 +100,7 @@ Learn how to configure text alignment in Excel cells with Aspose.Cells for .NET.
 Learn how to configure line spacing for text boxes in Excel using Aspose.Cells .NET. This guide covers setting up, formatting text, and saving your changes.
 
 ### [Master Default Styles in Excel with Aspose.Cells for .NET](./create-apply-default-styles-aspose-cells-dotnet)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Create and Style Excel Workbooks Using Aspose.Cells for .NET (2023 Guide)](./create-style-excel-workbooks-aspose-cells-dotnet)
 Learn how to create, style, and manipulate Excel workbooks programmatically using Aspose.Cells for .NET. This guide covers workbook creation, styling techniques, and saving formats.
@@ -139,7 +139,7 @@ Learn how to dynamically adjust row heights in Excel files using Aspose.Cells fo
 Learn how to efficiently adjust all row heights in Excel with Aspose.Cells .NET using C#. Perfect for standardizing reports and enhancing data presentation.
 
 ### [Master Excel Styles & HTML Export with Aspose.Cells .NET](./excel-styles-html-export-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Mastering Excel Styling and Management with Aspose.Cells for .NET&#58; A Comprehensive Guide](./excel-styling-management-aspose-cells-net)
 Learn to create and apply styles in Excel using Aspose.Cells for .NET. Manage file directories efficiently with this detailed guide, designed for both beginners and advanced users.
@@ -184,7 +184,7 @@ Learn how to apply built-in number formats using Aspose.Cells for .NET. This gui
 Learn how to apply custom pattern formatting using Aspose.Cells for .NET. This guide covers practical examples and techniques for financial reporting and automated report generation.
 
 ### [Mastering Number Precision with Aspose.Cells for .NET](./master-number-precision-aspose-cells-dotnet)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Master Rich Text Updates in Excel Using Aspose.Cells for .NET](./master-rich-text-updates-excel-aspose-cells-net)
 Learn how to automate rich text updates in Excel with Aspose.Cells for .NET, streamline your workflow, and enhance data presentation efficiently.
@@ -196,7 +196,7 @@ Learn to apply dynamic conditional formatting in Excel with Aspose.Cells for .NE
 Learn how to manage custom fonts efficiently with Aspose.Cells .NET, ensuring consistent rendering and formatting across platforms.
 
 ### [Mastering Cell Styles with Aspose.Cells for .NET](./mastering-cell-styles-aspose-cells-dotnet)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Mastering Data Presentation with Aspose.Cells .NET&#58; A Step-by-Step Guide to Formatting Excel Cells in C#](./mastering-excel-formatting-aspose-cells-net-csharp)
 Learn how to automate and enhance your Excel spreadsheets using Aspose.Cells for .NET. This step-by-step guide covers formatting, conditional styling, and performance tips.
@@ -205,7 +205,7 @@ Learn how to automate and enhance your Excel spreadsheets using Aspose.Cells for
 Learn to automate Excel row and column styling using Aspose.Cells for .NET, enhancing productivity with C# code. Discover techniques for text alignment, font coloring, borders, and more.
 
 ### [Mastering Workbook Creation & Styling with Aspose.Cells .NET](./mastering-workbook-creation-styling-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Modify Excel Styles Using Aspose.Cells in .NET | C# Tutorial](./modify-excel-styles-aspose-cells-dotnet)
 Learn how to modify and customize Excel styles using Aspose.Cells for .NET with this detailed C# tutorial. Enhance your spreadsheets' readability and aesthetics today.
@@ -217,7 +217,7 @@ Learn how to automate style modifications in Excel files with Aspose.Cells for .
 Learn how to optimize Excel workbooks using Aspose.Cells for .NET by removing unused styles, reducing file size, and improving application performance. Perfect for data analytics, financial reporting, and automated workflows.
 
 ### [Optimize Style Reuse in Excel with Aspose.Cells](./optimize-style-reuse-excel-aspose-cells-dotnet)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Rotate Text in Excel Cells Using Aspose.Cells for .NET&#58; A Complete Guide](./rotate-text-net-excel-aspose-cells)
 Learn how to rotate text in Excel cells using Aspose.Cells for .NET. This guide covers setup, implementation, and practical applications.
@@ -232,7 +232,7 @@ Learn how to set column width in pixels using Aspose.Cells .NET with this compre
 Learn how to precisely set column widths in pixels using Aspose.Cells for .NET with this comprehensive guide. Perfect your automated Excel reports today.
 
 ### [Set Font Color in .NET Excel with Aspose.Cells](./set-font-color-net-excel-aspose-cells)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Apply Strikeout Text in Excel Using Aspose.Cells .NET with C# - Formatting Guide](./strikeout-text-excel-aspose-cells-net)
 Learn how to programmatically apply a strikeout effect in Excel using Aspose.Cells for .NET. This guide covers setup, implementation, and practical applications.

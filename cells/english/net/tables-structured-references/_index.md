@@ -1,6 +1,6 @@
 ---
 title: "Tables & Structured References"
-description: "Tutorials for Tables & Structured References with Aspose.Words for Net"
+description: "Tutorials for Tables & Structured References with Aspose.Cells for Net"
 weight: 11
 url: "/net/tables-structured-references/"
 ---
@@ -24,7 +24,7 @@ Learn how to access named ranges in Excel files with Aspose.Cells for .NET. This
 Learn how to efficiently create and style Excel tables using Aspose.Cells for .NET. This step-by-step guide covers everything from setup to advanced styling techniques.
 
 ### [Convert Excel Tables to Ranges Using Aspose.Cells .NET](./convert-excel-tables-ranges-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Create Excel List Objects Using Aspose.Cells .NET&#58; A Step-by-Step Guide](./create-excel-list-objects-aspose-cells-net)
 Learn how to create and configure dynamic list objects in Excel using Aspose.Cells for .NET. Follow this step-by-step guide to enhance your data analysis and reporting.

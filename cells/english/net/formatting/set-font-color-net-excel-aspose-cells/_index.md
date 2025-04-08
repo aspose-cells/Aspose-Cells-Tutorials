@@ -1,6 +1,6 @@
 ---
 title: "Set Font Color in .NET Excel with Aspose.Cells"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/formatting/set-font-color-net-excel-aspose-cells/"

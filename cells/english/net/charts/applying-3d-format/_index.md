@@ -3,7 +3,7 @@ title: Create and Format 3D Charts in Excel Using Aspose.Cells for .NET
 weight: 7700
 limit: 
 description: Aspose.Cells for .NET, Excel chart 3D formatting, create Excel workbook C#, add chart in Excel C#, format Excel chart C#, Aspose.Cells tutorial, .NET Excel library  
-keywords: [Aspose.Words for .NET, create chart in Word, customize Y-axis, DOCX chart creation, Word document chart tutorial, .NET Word chart example]
+keywords: [Aspose.Cells for .NET, create chart in Word, customize Y-axis, DOCX chart creation, Word document chart tutorial, .NET Word chart example]
 url: /net/charts/applying-3d-format/
 ---
 {{< blocks/products/pf/main-wrap-class >}}

@@ -1,6 +1,6 @@
 ---
 title: "Integration & Interoperability"
-description: "Tutorials for Integration & Interoperability with Aspose.Words for Net"
+description: "Tutorials for Integration & Interoperability with Aspose.Cells for Net"
 weight: 20
 url: "/net/integration-interoperability/"
 ---
@@ -24,7 +24,7 @@ Learn how to seamlessly add registered references to your Excel VBA projects usi
 Learn how to efficiently extract version information from Excel files using Aspose.Cells .NET. This guide covers setup, implementation, and best practices in C#.
 
 ### [Link Document Properties in Excel with Aspose.Cells .NET](./link-document-properties-excel-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Master Aspose.Cells .NET for Excel Web Extensions&#58; A Comprehensive Guide](./master-aspose-cells-net-web-extensions-excel)
 Learn how to access and manage web extension information in Excel using Aspose.Cells for .NET. Enhance your Excel applications with powerful automation features.

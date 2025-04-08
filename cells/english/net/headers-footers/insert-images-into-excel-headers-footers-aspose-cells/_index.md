@@ -1,6 +1,6 @@
 ---
 title: "Insert Images into Excel Headers/Footers with Aspose.Cells"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-06"
 weight: 1
 url: "/net/headers-footers/insert-images-into-excel-headers-footers-aspose-cells/"

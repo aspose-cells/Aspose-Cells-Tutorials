@@ -1,6 +1,6 @@
 ---
 title: "Range Management"
-description: "Tutorials for Range Management with Aspose.Words for Net"
+description: "Tutorials for Range Management with Aspose.Cells for Net"
 weight: 5
 url: "/net/range-management/"
 ---
@@ -27,7 +27,7 @@ Learn how to access and manipulate the maximum display range of a worksheet usin
 Learn how to efficiently copy a single column across multiple columns in an Excel file using C#. This guide covers setting up Aspose.Cells for .NET, loading Excel files programmatically, and automating data manipulation tasks.
 
 ### [Copy Excel Rows with Aspose.Cells for .NET Guide](./aspose-cells-net-copy-excel-rows-guide)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Hide Rows and Columns in Excel Using Aspose.Cells .NET&#58; A Comprehensive Guide](./aspose-cells-net-hide-rows-columns-excel)
 Learn how to hide rows and columns in Excel with Aspose.Cells for .NET. This guide covers setup, implementation, and best practices.
@@ -54,7 +54,7 @@ Learn how to manage merged cells in Excel with Aspose.Cells for .NET. This guide
 Learn how to efficiently copy data between ranges in Excel using Aspose.Cells for .NET. Master data manipulation without altering source formatting.
 
 ### [Excel Automation with Aspose.Cells&#58; Create & Merge Ranges](./excel-automation-aspose-cells-create-merge-ranges)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Excel Automation&#58; Aspose.Cells .NET for Efficient Range Manipulation in Excel Workbooks](./excel-automation-aspose-cells-net-range-manipulation)
 Master Excel range manipulation with Aspose.Cells for .NET. This guide covers creating, accessing, and managing ranges efficiently.
@@ -78,7 +78,7 @@ Learn how to easily highlight intersecting ranges in Excel with Aspose.Cells for
 Learn how to efficiently identify and manage cells within named ranges using Aspose.Cells for .NET, enhancing your Excel automation tasks.
 
 ### [Implement Non-Sequenced Ranges with Aspose.Cells for .NET](./implement-non-sequenced-ranges-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Create and Manage Allow Edit Ranges in Excel using Aspose.Cells .NET](./manage-allow-edit-ranges-aspose-cells-net)
 Learn how to create and manage 'Allow Edit Ranges' in Excel with Aspose.Cells for .NET. Enhance your Excel workflows with this comprehensive tutorial.

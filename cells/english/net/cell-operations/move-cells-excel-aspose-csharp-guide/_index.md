@@ -1,6 +1,6 @@
 ---
 title: "Move Cells in Excel with Aspose.Cells and C#"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/cell-operations/move-cells-excel-aspose-csharp-guide/"

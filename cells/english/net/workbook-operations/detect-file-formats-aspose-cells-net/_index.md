@@ -174,7 +174,7 @@ Ready to elevate your .NET applications? Try implementing these techniques today
 ## FAQ Section
 
 1. **Can I detect file formats for non-Microsoft Office documents using Aspose.Cells?**
-   - While primarily designed for Microsoft Office documents, Aspose.Cells may support limited functionality with other formats through related libraries like Aspose.Words or Aspose.Slides.
+   - While primarily designed for Microsoft Office documents, Aspose.Cells may support limited functionality with other formats through related libraries like Aspose.Cells or Aspose.Slides.
 
 2. **Is there a performance difference when detecting encrypted files?**
    - Detecting file formats of encrypted documents might take slightly longer due to the decryption process but generally remains efficient.

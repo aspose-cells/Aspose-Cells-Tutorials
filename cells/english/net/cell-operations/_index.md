@@ -1,6 +1,6 @@
 ---
 title: "Cell Operations"
-description: "Tutorials for Cell Operations with Aspose.Words for Net"
+description: "Tutorials for Cell Operations with Aspose.Cells for Net"
 weight: 4
 url: "/net/cell-operations/"
 ---
@@ -33,7 +33,7 @@ Learn how to dynamically adjust cell sizes in Excel using Aspose.Cells for .NET.
 Learn how to populate data in Excel cells using Aspose.Cells for .NET. This guide covers setup, code examples, and performance tips.
 
 ### [Access and Validate Excel Cell Properties with Aspose.Cells for .NET](./aspose-cells-net-access-validate-excel-cell-properties)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Master Autofit Rows in Merged Cells Using Aspose.Cells for .NET](./aspose-cells-net-autofit-rows-merged-cells)
 Learn how to efficiently autofit rows in merged cells using Aspose.Cells for .NET with this comprehensive C# tutorial.
@@ -66,10 +66,10 @@ Learn how to convert cell indices into Excel references using Aspose.Cells for .
 Learn how to efficiently search and extract data in Excel files using Aspose.Cells for .NET. This guide covers setup, implementation, and advanced techniques.
 
 ### [Excel Cell Searches with Aspose.Cells in .NET](./excel-cell-searches-aspose-cells-dotnet)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Set Column Widths in Excel with Aspose.Cells .NET](./excel-column-width-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Master Excel Data Extraction Using Aspose.Cells for .NET | C# Guide](./excel-data-extraction-aspose-cells-net-guide)
 Learn how to extract data from Excel files into DataTables using Aspose.Cells in C#. Streamline your workflows with efficient file operations and best practices.
@@ -84,16 +84,16 @@ Learn how to automate managing custom content type properties in Excel workbooks
 Learn how to use Aspose.Cells for .NET to find maximum rows and columns supported by Excel formats, enhancing data management.
 
 ### [Modify Excel Cells with Aspose.Cells .NET](./modify-excel-cells-aspose-cells-dotnet-guide)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Move Cells in Excel with Aspose.Cells and C#](./move-cells-excel-aspose-csharp-guide)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Unmerge Merged Cells in Excel using Aspose.Cells for .NET | Cell Operations Guide](./unmerge-cells-excel-aspose-net)
 Learn how to unmerge merged cells in Excel with Aspose.Cells for .NET. This guide covers setup, implementation, and practical applications.
 
 ### [Update Revision Log Days in Shared Excel with Aspose.Cells](./update-revision-logs-days-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 
 

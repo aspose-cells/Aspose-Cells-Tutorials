@@ -1,6 +1,6 @@
 ---
 title: "Automation & Batch Processing"
-description: "Tutorials for Automation & Batch Processing with Aspose.Words for Net"
+description: "Tutorials for Automation & Batch Processing with Aspose.Cells for Net"
 weight: 24
 url: "/net/automation-batch-processing/"
 ---
@@ -24,16 +24,16 @@ Learn how to create dynamic workbooks and tables using Aspose.Cells for .NET. Au
 Learn how to automate Excel file modifications using Aspose.Cells for .NET. This guide covers loading, inserting columns, and saving spreadsheets efficiently.
 
 ### [Dynamic Excel Workbooks with Aspose.Cells .NET](./aspose-cells-net-named-ranges-complex-formulas)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Automate Data Sorting in Excel with Aspose.Cells for .NET](./automate-data-sorting-excel-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Automate Excel Tasks in .NET Using Aspose.Cells&#58; A Comprehensive Guide](./automate-excel-aspose-cells-dotnet)
 Learn how to automate Excel tasks using Aspose.Cells for .NET. This guide covers creating workbooks, applying formulas, and more.
 
 ### [Automate Excel with Aspose.Cells for .NET](./automate-excel-aspose-cells-dotnet-guide)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Automate Excel Tasks with Aspose.Cells for .NET&#58; A Comprehensive Guide](./automate-excel-aspose-cells-net)
 Learn how to automate and manipulate Excel tasks using Aspose.Cells for .NET. This guide covers workbook manipulation, custom data sources, and best practices.
@@ -54,7 +54,7 @@ Learn how to automate filtering blank cells in Excel using Aspose.Cells for .NET
 Learn how to automate exporting data from Excel using Aspose.Cells for .NET. This guide covers instantiating workbooks, accessing named ranges, and exporting data with options.
 
 ### [Automate Excel Printing with Aspose.Cells.NET](./automate-excel-printing-aspose-cells-net-sheetrender)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Automate Excel Reports with Aspose.Cells .NET&#58; A Step-by-Step Guide](./automate-excel-reports-aspose-cells-net)
 Learn how to automate dynamic Excel report generation using Aspose.Cells for .NET. This guide covers installation, template processing, and practical applications.
@@ -72,7 +72,7 @@ Master Excel automation with Aspose.Cells .NET. Learn to automate repetitive tas
 Learn how to automate Excel tasks using Aspose.Cells for .NET. This guide covers creating workbooks, populating data, and setting external links efficiently.
 
 ### [Excel Automation with Aspose.Cells .NET](./excel-automation-aspose-cells-net-guide)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Automate Excel Insertion & Saving with Aspose.Cells .NET&#58; A Step-by-Step Guide](./excel-automation-aspose-cells-net-insert-save)
 Learn to automate Excel tasks using Aspose.Cells for .NET. This guide covers inserting rows and saving workbooks efficiently, perfect for streamlining data management.
@@ -93,10 +93,10 @@ Master row copying in Excel with Aspose.Cells for .NET. Learn to automate tasks,
 Learn how to automate and manipulate Excel workbooks using Aspose.Cells for .NET. This guide covers workbook creation, custom cell formatting, formula application, and more.
 
 ### [Automate Excel Workbooks with Aspose.Cells .NET](./excel-workbooks-aspose-cells-net-subscripting-directory)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Implement Aspose.Cells for .NET in Excel Automation](./implement-aspose-cells-net-excel-automation)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Implement Aspose.Cells Smart Markers in C# for Dynamic Excel Reporting](./implement-aspose-cells-smart-markers-with-csharp)
 Learn how to automate dynamic Excel report generation using Aspose.Cells smart markers with this comprehensive guide. Master the setup and configuration of WorkbookDesigner in C#.

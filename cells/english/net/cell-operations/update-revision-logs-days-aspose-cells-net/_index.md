@@ -1,6 +1,6 @@
 ---
 title: "Update Revision Log Days in Shared Excel with Aspose.Cells"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-06"
 weight: 1
 url: "/net/cell-operations/update-revision-logs-days-aspose-cells-net/"

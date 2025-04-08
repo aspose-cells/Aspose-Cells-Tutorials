@@ -1,6 +1,6 @@
 ---
 title: "Mastering Workbook Creation & Styling with Aspose.Cells .NET"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/formatting/mastering-workbook-creation-styling-aspose-cells-net/"

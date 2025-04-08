@@ -1,6 +1,6 @@
 ---
 title: "Lock and Unlock Excel Cells with Aspose.Cells .NET"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-06"
 weight: 1
 url: "/net/security-protection/aspose-cells-net-lock-unlock-excel-cells-guide/"

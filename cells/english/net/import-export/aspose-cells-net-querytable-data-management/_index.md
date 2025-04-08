@@ -1,6 +1,6 @@
 ---
 title: "Aspose.Cells .NET&#58; Manage QueryTable Data in Excel"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-06"
 weight: 1
 url: "/net/import-export/aspose-cells-net-querytable-data-management/"

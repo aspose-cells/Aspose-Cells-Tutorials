@@ -1,6 +1,6 @@
 ---
 title: "Images & Shapes"
-description: "Tutorials for Images & Shapes with Aspose.Words for Net"
+description: "Tutorials for Images & Shapes with Aspose.Cells for Net"
 weight: 12
 url: "/net/images-shapes/"
 ---
@@ -42,13 +42,13 @@ Learn how to add a spinner control in Excel using Aspose.Cells for .NET. This st
 Learn how to programmatically add Word Art Text to Excel files using Aspose.Cells for .NET. Enhance your spreadsheets with built-in styles and save them efficiently.
 
 ### [Add WordArt Watermark to Excel with Aspose.Cells](./add-wordart-watermark-excel-aspose-cells)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Add Image Hyperlinks in .NET Workbooks Using Aspose.Cells for Enhanced Interactivity](./adding-image-hyperlinks-net-workbooks-aspose-cells)
 Learn how to add interactive image hyperlinks to .NET workbooks using Aspose.Cells, enhancing collaboration and communication in your Excel spreadsheets.
 
 ### [Apply 3D Effects in Excel with Aspose.Cells for .NET](./apply-3d-effects-excel-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Enhance Excel Visuals&#58; Apply Reflection Effects to Shapes Using Aspose.Cells for .NET](./apply-reflection-effects-excel-shapes-aspose-cells)
 Learn how to apply reflection effects to shapes in Excel using Aspose.Cells for .NET. Follow this guide to improve your Excel presentations with dynamic visuals.
@@ -99,7 +99,7 @@ Learn how to automate the process of copying images, charts, and shapes between 
 Learn how to automate Excel tasks by adding text, comments, and images using Aspose.Cells for .NET. Streamline your data management process efficiently.
 
 ### [Mastering Shape Manipulation in Excel with Aspose.Cells .NET](./excel-shape-manipulation-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Master Text Boxes in Excel with Aspose.Cells .NET&#58; A Comprehensive Guide](./excel-text-boxes-aspose-cells-net)
 Learn how to create and customize text boxes in Excel using Aspose.Cells for .NET, enhancing interactivity and functionality.
@@ -168,7 +168,7 @@ Learn how to convert an Excel worksheet into an image using Aspose.Cells for .NE
 Learn how to rotate text within shapes in Excel using Aspose.Cells for .NET. This step-by-step guide enhances your data presentation skills.
 
 ### [Set Background Picture in Excel with Aspose.Cells .NET](./set-background-picture-excel-aspose-cells-dotnet)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [How to Tile a Picture as Texture Inside Shapes Using Aspose.Cells .NET | Step-by-Step Guide](./tile-picture-texture-shapes-aspose-cells-net)
 Learn how to enhance your Excel documents by tiling images as textures inside shapes using Aspose.Cells for .NET. Follow this step-by-step guide for branding and aesthetic enhancements.

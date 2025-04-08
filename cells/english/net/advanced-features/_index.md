@@ -1,6 +1,6 @@
 ---
 title: "Advanced Features"
-description: "Tutorials for Advanced Features with Aspose.Words for Net"
+description: "Tutorials for Advanced Features with Aspose.Cells for Net"
 weight: 18
 url: "/net/advanced-features/"
 ---
@@ -30,7 +30,7 @@ Learn how to efficiently add hyperlinks within Excel workbooks using Aspose.Cell
 Learn how to seamlessly copy VBA macros and user forms between Excel files using Aspose.Cells .NET. Enhance your Excel automation workflows with this comprehensive guide.
 
 ### [Mastering Custom Properties in Aspose.Cells.NET Workbooks](./aspose-cells-net-custom-properties-tutorial)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Mastering Aspose.Cells .NET&#58; Implement Smart Markers and Custom Labels for Dynamic Excel Reports](./aspose-cells-net-smart-markers-custom-labels)
 Learn how to use Aspose.Cells for .NET to implement Smart Markers and customize labels in Excel reports. Streamline report generation with dynamic data binding.
@@ -84,7 +84,7 @@ Enhance your .NET application with advanced Excel features using Aspose.Cells. L
 Learn to manage and extract data from Excel workbooks using Aspose.Cells for .NET. This guide covers loading, inspecting, and printing details of workbook connections.
 
 ### [Master Workbook Instantiation & Hyperlinks in Aspose.Cells](./mastering-workbook-instantiation-hyperlink-management-aspose-cells-net)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Master XML Map Queries in Excel with Aspose.Cells for .NET - A Comprehensive Guide](./mastering-xml-map-queries-aspose-cells-excel-net)
 Learn how to effectively query XML maps in Excel using Aspose.Cells for .NET. This guide covers setup, implementation, and optimization tips.
@@ -93,7 +93,7 @@ Learn how to effectively query XML maps in Excel using Aspose.Cells for .NET. Th
 Learn how to automate and modify VBA macros in Excel with Aspose.Cells for .NET. This guide covers checking signatures, modifying modules, and best practices.
 
 ### [Master .NET Excel Automation with Aspose.Cells for Hyperlinks](./net-excel-automation-aspose-cells-hyperlinks)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Optimize Excel Slicers Using Aspose.Cells for .NET&#58; A Step-by-Step Guide](./optimize-excel-slicers-aspose-cells-net)
 Learn how to optimize Excel slicers with Aspose.Cells for .NET. This guide covers loading workbooks, configuring slicer properties, and saving files.

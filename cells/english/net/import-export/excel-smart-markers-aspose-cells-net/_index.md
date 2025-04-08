@@ -1,6 +1,6 @@
 ---
 title: "Excel Smart Markers with Aspose.Cells for .NET"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-06"
 weight: 1
 url: "/net/import-export/excel-smart-markers-aspose-cells-net/"

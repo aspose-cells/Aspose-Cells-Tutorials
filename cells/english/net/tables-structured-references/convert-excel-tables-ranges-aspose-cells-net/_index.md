@@ -1,6 +1,6 @@
 ---
 title: "Convert Excel Tables to Ranges Using Aspose.Cells .NET"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-06"
 weight: 1
 url: "/net/tables-structured-references/convert-excel-tables-ranges-aspose-cells-net/"

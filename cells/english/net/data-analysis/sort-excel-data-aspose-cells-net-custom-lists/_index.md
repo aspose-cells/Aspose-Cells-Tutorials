@@ -1,6 +1,6 @@
 ---
 title: "Sort Excel Data with Custom Lists Using Aspose.Cells .NET"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/data-analysis/sort-excel-data-aspose-cells-net-custom-lists/"

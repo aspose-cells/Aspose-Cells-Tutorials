@@ -1,6 +1,6 @@
 ---
 title: "Headers & Footers"
-description: "Tutorials for Headers & Footers with Aspose.Words for Net"
+description: "Tutorials for Headers & Footers with Aspose.Cells for Net"
 weight: 15
 url: "/net/headers-footers/"
 ---
@@ -78,7 +78,7 @@ Learn how to adjust the zoom factor of Excel worksheets with Aspose.Cells in a .
 Learn how to hide row and column headers in Excel with Aspose.Cells for .NET. This guide covers setup, implementation, and practical applications.
 
 ### [Insert Images into Excel Headers/Footers with Aspose.Cells](./insert-images-into-excel-headers-footers-aspose-cells)
-A code tutorial for Aspose.Words Net
+A code tutorial for Aspose.Cells Net
 
 ### [Master Aspose.Cells .NET&#58; Automate Print Titles in Excel Workbooks](./master-aspose-cells-net-print-titles-excel)
 Learn how to use Aspose.Cells for .NET to automate setting print titles in Excel, ensuring headers stay visible on every printed page.

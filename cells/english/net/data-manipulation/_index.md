@@ -1,6 +1,6 @@
 ---
 title: "Data Manipulation"
-description: "Tutorials for Data Manipulation with Aspose.Words for Net"
+description: "Tutorials for Data Manipulation with Aspose.Cells for Net"
 weight: 17
 url: "/net/data-manipulation/"
 ---

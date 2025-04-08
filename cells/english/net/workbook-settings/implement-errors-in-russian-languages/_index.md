@@ -105,7 +105,7 @@ Yes, the `RussianGlobalization` class can be used in conjunction with other Aspo
 ### How can I extend the `RussianGlobalization` class to support more error values and boolean values?
 To extend the `RussianGlobalization` class to support more error values and boolean values, you can simply add more cases to the `GetErrorValueString` and `GetBooleanValueString` methods. For example, you can add cases for other common error values, such as `"#DIV/0!"` or `"#REF!"`, and provide the corresponding Russian translations.
 ### Is it possible to use the `RussianGlobalization` class with other Aspose products?
-Yes, the `GlobalizationSettings` class is a common feature across various Aspose products, including Aspose.Cells for .NET, Aspose.Words for .NET, and Aspose.PDF for .NET. You can create a similar custom globalization settings class and use it with other Aspose products to ensure a consistent language experience across your applications.
+Yes, the `GlobalizationSettings` class is a common feature across various Aspose products, including Aspose.Cells for .NET, Aspose.Cells for .NET, and Aspose.PDF for .NET. You can create a similar custom globalization settings class and use it with other Aspose products to ensure a consistent language experience across your applications.
 ### Where can I find more information and resources on Aspose.Cells for .NET?
 You can find more information and resources on Aspose.Cells for .NET on the [Aspose documentation website](https://reference.aspose.com/cells/net/). Here, you can find detailed API references, user guides, examples, and other helpful resources to assist you in your development journey.
 

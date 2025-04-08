@@ -1,6 +1,6 @@
 ---
 title: "Applying Advanced Excel Filters with Aspose.Cells .NET"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/data-analysis/aspose-cells-net-advanced-excel-filters/"

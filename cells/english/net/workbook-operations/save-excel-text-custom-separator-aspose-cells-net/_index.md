@@ -1,6 +1,6 @@
 ---
 title: "Save Excel as Text File with Custom Separator using Aspose.Cells"
-description: "A code tutorial for Aspose.Words Net"
+description: "A code tutorial for Aspose.Cells Net"
 date: "2025-04-05"
 weight: 1
 url: "/net/workbook-operations/save-excel-text-custom-separator-aspose-cells-net/"
