@@ -77,7 +77,7 @@ Want to perform a regex (regular expression) replace across your Excel workbook?
 
 If you’re processing large Excel files, sometimes you need to halt a conversion or loading operation due to time constraints or unexpected issues. Aspose.Cells for .NET offers an Interrupt Monitor that lets you safely pause or cancel processes on demand. This tutorial shows you how to manage workbook processes effectively, ensuring you maintain control even during intensive data handling. [Read more](./stop-conversion-or-loading/)
 
-## Aspose.Cells Workbook Operations Tutorials
+## More Aspose.Cells Workbook Operations Tutorials
 ### [Access Excel Web Extension Information using Aspose.Cells](./access-web-extension-information/)
 Unlock Excel web extension data effortlessly with Aspose.Cells for .NET. Step-by-step guide for developers seeking automation solutions.
 ### [Add Custom XML Parts with ID to Workbook](./add-custom-xml-parts-with-id/)
