@@ -1,6 +1,6 @@
 ---
-title: "Mastering Workbook Initialization & Subscript Styling with Aspose.Cells"
-description: "A code tutorial for Aspose.Cells Net"
+title: "Workbook Init & Subscript Styling with Aspose.Cells .NET"
+description: "Learn to create Excel workbooks and apply subscript styles using Aspose.Cells for .NET in this simple step-by-step C# tutorial."
 date: "2025-04-05"
 weight: 1
 url: "/net/getting-started/mastering-workbook-initialization-subscript-styling-aspose-cells-net/"

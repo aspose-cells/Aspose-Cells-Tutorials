@@ -1,6 +1,6 @@
 ---
-title: "Mastering Excel File Creation with Aspose.Cells for .NET"
-description: "A code tutorial for Aspose.Cells Net"
+title: "Excel Generation & Styling with Aspose.Cells for .NET"
+description: "Learn how to create, format, and manage Excel files in .NET using Aspose.Cells. Improve data handling and speed up your workflow in minutes."
 date: "2025-04-05"
 weight: 1
 url: "/net/getting-started/excel-creation-aspose-cells-dotnet-guide/"
