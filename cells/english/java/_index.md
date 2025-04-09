@@ -32,7 +32,8 @@ The final section focuses on integration and exporting. Learn how to seamlessly 
 Start your journey with Aspose.Cells for Java tutorials today and unlock the full potential of Excel file manipulation in your Java applications.
 
 ## Aspose.Cells for Java Tutorials
-
+### [Getting Started](./getting-started/)
+Step-by-step tutorials for Aspose.Cells installation, licensing, setup, and creating your first spreadsheet in Java applications.
 ### [Basic Excel Functions](./basic-excel-functions/)
 Explore essential Excel functions using Aspose.Cells for Java. Our tutorials cover the basics step-by-step. Get started with spreadsheet manipulation
 ### [Data Validation Rules](./data-validation-rules/)
@@ -49,6 +50,74 @@ Effortlessly import and export Excel files with Aspose.Cells for Java. Explore s
 Enhance Excel data security with Aspose.Cells for Java. Learn step by step how to protect your spreadsheets, encrypt files, and ensure data integrity.
 ### [Spreadsheet Automation](./spreadsheet-automation/)
 Unlock the power of Aspose.Cells for Java with our comprehensive tutorials. Learn spreadsheet automation step by step for efficient Java development.
+### [Workbook Operations](./workbook-operations/)
+Learn how to load, save, and convert Excel files between formats (XLS, XLSX, CSV, PDF, HTML) with these Aspose.Cells for Java tutorials.
+
+### [Worksheet Management](./worksheet-management/)
+Complete tutorials for adding, modifying, copying, moving, and managing worksheets in Excel files using Aspose.Cells for Java.
+
+### [Cell Operations](./cell-operations/)
+Step-by-step tutorials for working with Excel cells, cell types, values, formulas, and references using Aspose.Cells for Java.
+
+### [Range Management](./range-management/)
+Learn to work with cell ranges, selections, and perform bulk operations in Excel spreadsheets with these Aspose.Cells Java tutorials.
+
+### [Formatting](./formatting/)
+Complete tutorials for cell formatting, styles, conditional formatting, themes, and number formats in Excel using Aspose.Cells for Java.
+
+### [Formulas & Functions](./formulas-functions/)
+Step-by-step tutorials for creating, calculating, and working with Excel formulas and functions in Aspose.Cells for Java.
+
+### [Data Validation](./data-validation/)
+Learn to implement data validation rules, input messages, and error alerts in Excel spreadsheets with Aspose.Cells Java tutorials.
+
+### [Charts & Graphs](./charts-graphs/)
+Complete tutorials for creating, customizing, and managing Excel charts and graphs using Aspose.Cells for Java.
+
+### [Data Analysis](./data-analysis/)
+Step-by-step tutorials for implementing PivotTables, data filtering, sorting, grouping, and analytical tools with Aspose.Cells for Java.
+
+### [Tables & Structured References](./tables-structured-references/)
+Learn to create and manage Excel tables, named ranges, and structured references with these Aspose.Cells Java tutorials.
+
+### [Images & Shapes](./images-shapes/)
+Complete tutorials for adding and manipulating images, shapes, charts, and visual elements in Excel using Aspose.Cells for Java.
+
+### [Security & Protection](./security-protection/)
+Step-by-step tutorials for implementing workbook protection, password security, and access controls in Excel using Aspose.Cells for Java.
+
+### [Comments & Annotations](./comments-annotations/)
+Learn to add, edit, and manage cell comments, notes, and review features in Excel spreadsheets with Aspose.Cells Java tutorials.
+
+### [Headers & Footers](./headers-footers/)
+Complete tutorials for implementing page setup, headers, footers, and print settings in Excel documents with Aspose.Cells for Java.
+
+### [Import & Export](./import-export/)
+Step-by-step tutorials for importing and exporting data between Excel and various formats using Aspose.Cells for Java.
+
+### [Data Manipulation](./data-manipulation/)
+Learn data cleansing, transformation, merging, and text operations in Excel spreadsheets with these Aspose.Cells Java tutorials.
+
+### [Advanced Features](./advanced-features/)
+Complete tutorials for implementing AutoFilters, slicers, hyperlinks, external connections, and advanced Excel functionality with Aspose.Cells for Java.
+
+### [Performance Optimization](./performance-optimization/)
+Step-by-step tutorials for optimizing memory usage, improving execution speed, and handling large Excel files with Aspose.Cells for Java.
+
+### [Integration & Interoperability](./integration-interoperability/)
+Complete tutorials for integrating Aspose.Cells with other Aspose products, third-party libraries, and external systems in Java.
+
+### [OLE Objects & Embedded Content](./ole-objects-embedded-content/)
+Learn to work with OLE objects, embedded documents, linked files, and attachments in Excel using Aspose.Cells for Java.
+
+### [Calculation Engine](./calculation-engine/)
+Step-by-step tutorials for configuring and customizing the Aspose.Cells calculation engine for Excel formula processing in Java.
+
+### [Templates & Reporting](./templates-reporting/)
+Complete tutorials for creating report templates, generating documents, and implementing mail merge with Aspose.Cells for Java.
+
+### [Automation & Batch Processing](./automation-batch-processing/)
+Step-by-step tutorials for automating Excel tasks, batch processing multiple files, and scheduling operations with Aspose.Cells for Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
