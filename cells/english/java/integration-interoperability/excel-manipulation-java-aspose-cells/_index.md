@@ -19,7 +19,7 @@ keywords:
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Automate Excel with Java: Create Tables & Interactive Charts using Aspose.Cells
+# Automate Excel with Java - Create Tables & Interactive Charts using Aspose.Cells
 
 **Unlock the power of Java to automate Excel tasks!** This comprehensive tutorial guides you through using Aspose.Cells for Java to programmatically create professional Excel tables and generate dynamic, interactive charts from your data. Learn how to streamline your workflows and enhance your data visualization capabilities.
 
