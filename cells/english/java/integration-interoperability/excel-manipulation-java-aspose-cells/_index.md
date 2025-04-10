@@ -123,9 +123,11 @@ public class CreatingExcelTables {
 
         // Sample data for categories and food items
         String[] categories = {"Fruit", "Vegetables", "Beverages"};
-        String[][] foods = {{"{{"}}"Apple", "Banana", "Apricot", "Grapes"},
+        String[][] foods = {
+                            {"Apple", "Banana", "Apricot", "Grapes"},
                             {"Carrot", "Onion", "Cabbage", "Potatoe"},
-                            {"Coke", "Coladas", "Fizz"{{"}}"}};
+                            {"Coke", "Coladas", "Fizz"}
+                        };
 
         // Populate data rows
         for (int i = 0; i < categories.length; i++) {
