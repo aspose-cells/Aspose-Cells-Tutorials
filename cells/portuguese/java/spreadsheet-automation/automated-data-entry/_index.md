@@ -115,7 +115,7 @@ Automatizar a entrada de dados com o Aspose.Cells para Java simplifica seus proc
    Você pode explorar a documentação em [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 Agora você tem o conhecimento e as ferramentas para automatizar a entrada de dados de forma eficaz usando o Aspose.Cells para Java. Comece a aprimorar seus processos de tratamento de dados e aumente a eficiência do seu negócio.
-{{< /blocos/produtos/pf/seção-da-página-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

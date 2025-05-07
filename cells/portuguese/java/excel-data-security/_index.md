@@ -40,7 +40,7 @@ Aprenda técnicas eficazes de mascaramento de dados usando Aspose.Cells para Jav
 Aprenda a auditar o acesso a arquivos usando o Aspose.Cells para API Java. Guia passo a passo com código-fonte e perguntas frequentes.
 ### [Validação de dados para segurança](./data-validation-for-security/)
 Aprimore a segurança de dados com Aspose.Cells para Java. Explore técnicas abrangentes de validação de dados. Aprenda a implementar validação e proteção robustas.
-{{< /blocos/produtos/pf/seção-da-página-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

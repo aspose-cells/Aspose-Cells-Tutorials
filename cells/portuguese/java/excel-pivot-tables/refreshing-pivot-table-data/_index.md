@@ -90,7 +90,7 @@ Atualizar os dados da Tabela Dinâmica no Aspose.Cells para Java é um processo 
    - Sim, você pode agendar atualizações automáticas de dados usando o Aspose.Cells e as bibliotecas de agendamento Java. Isso permite que você mantenha suas Tabelas Dinâmicas atualizadas sem intervenção manual.
 
 Agora você tem o conhecimento necessário para atualizar dados de tabelas dinâmicas no Aspose.Cells para Java. Mantenha suas análises precisas e esteja à frente em suas decisões baseadas em dados.
-{{< /blocos/produtos/pf/seção-da-página-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

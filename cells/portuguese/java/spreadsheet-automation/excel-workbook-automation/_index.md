@@ -110,7 +110,7 @@ Aqui estão algumas perguntas comuns relacionadas à automação de pastas de tr
    Você pode consultar a documentação da API em [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) para informações detalhadas e exemplos de código.
 
 Sinta-se à vontade para explorar recursos e funcionalidades mais avançados do Aspose.Cells para Java para personalizar suas necessidades de automação do Excel. Se tiver alguma dúvida específica ou precisar de mais ajuda, não hesite em nos contatar.
-{{< /blocos/produtos/pf/seção-da-página-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -107,7 +107,7 @@ Sim, você pode aplicar filtros a tabelas dinâmicas para exibir subconjuntos de
 ### P5: O Aspose.Cells oferece suporte aos recursos avançados de tabela dinâmica do Excel?
 
 Sim, o Aspose.Cells oferece amplo suporte para os recursos avançados de tabela dinâmica do Excel, permitindo que você crie tabelas dinâmicas complexas.
-{{< /blocos/produtos/pf/seção-da-página-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

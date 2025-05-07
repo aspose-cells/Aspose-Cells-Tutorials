@@ -99,7 +99,7 @@ Com certeza! O Aspose.Cells para Java suporta importação e exportação de dad
 Sim, revise as informações de licenciamento no site da Aspose para obter detalhes sobre licenciamento e preços.
 
 Sinta-se à vontade para explorar mais e adaptar os exemplos de código para atender às suas necessidades específicas. Boa programação!
-{{< /blocos/produtos/pf/seção-da-página-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

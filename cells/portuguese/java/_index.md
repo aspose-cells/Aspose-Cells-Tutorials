@@ -118,7 +118,7 @@ Tutoriais completos para criar modelos de relatórios, gerar documentos e implem
 
 ### [Automação e Processamento em Lote](./automation-batch-processing/)
 Tutoriais passo a passo para automatizar tarefas do Excel, processar vários arquivos em lote e agendar operações com o Aspose.Cells para Java.
-{{< /blocos/produtos/pf/seção-da-página-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

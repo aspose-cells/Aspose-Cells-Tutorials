@@ -47,7 +47,7 @@ Aprenda a criar animações gráficas cativantes com o Aspose.Cells para Java. G
 Aprenda a criar gráficos em cascata impressionantes com o Aspose.Cells para Java. Guia passo a passo com código-fonte para uma visualização de dados eficaz.
 ### [Interatividade do gráfico](./chart-interactivity/)
 Aprenda a criar gráficos interativos usando Aspose.Cells para Java. Aprimore sua visualização de dados com interatividade.
-{{< /blocos/produtos/pf/seção-da-página-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
