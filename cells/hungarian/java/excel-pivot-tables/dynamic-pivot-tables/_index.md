@@ -107,7 +107,7 @@ Igen, szűrőket alkalmazhat a kimutatástáblákra bizonyos adathalmazok megjel
 ### 5. kérdés: Az Aspose.Cells támogatja az Excel speciális pivot tábla funkcióit?
 
 Igen, az Aspose.Cells széleskörű támogatást nyújt az Excel speciális pivot tábla funkcióihoz, lehetővé téve összetett pivot táblák létrehozását.
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

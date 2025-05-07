@@ -87,7 +87,7 @@ Az Aspose.Cells for Java API-ban a pivot tábla stílusok testreszabása egyszer
    Az API dokumentációját itt tekintheti meg: [Aspose.Cells Java API-hivatkozásokhoz](https://reference.aspose.com/cells/java/) részletes információkért.
 
 Most már rendelkezik a szükséges tudással ahhoz, hogy pivot táblastílusokat hozzon létre és testreszabjon az Aspose.Cells for Java programban. Fedezze fel a további lehetőségeket, és tegye adatprezentációit valóban kivételessé!
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

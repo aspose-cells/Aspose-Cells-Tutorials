@@ -102,7 +102,7 @@ workbook.save("output.xlsx");
    이 튜토리얼에서 보여주는 것처럼 Aspose.Cells for Java API를 사용하여 Java에서 피벗 테이블 생성을 자동화할 수 있습니다.
 
 이제 Aspose.Cells를 사용하여 Java에서 강력한 피벗 테이블을 만드는 지식과 코드를 갖추었습니다. 다양한 데이터 소스와 구성을 실험하여 특정 요구에 맞게 피벗 테이블을 맞춤 설정해 보세요. 즐거운 데이터 분석 되시길 바랍니다!
-{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

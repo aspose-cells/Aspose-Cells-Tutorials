@@ -107,7 +107,7 @@ Ya, Anda dapat menerapkan filter ke tabel pivot untuk menampilkan subset data te
 ### Q5: Apakah Aspose.Cells mendukung fitur tabel pivot tingkat lanjut Excel?
 
 Ya, Aspose.Cells menyediakan dukungan luas untuk fitur tabel pivot Excel yang canggih, memungkinkan Anda membuat tabel pivot yang kompleks.
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

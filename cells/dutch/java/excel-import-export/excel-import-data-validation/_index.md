@@ -80,7 +80,7 @@ Ja, Aspose.Cells voor Java is geschikt voor het verwerken van complexe gegevensv
 In deze uitgebreide handleiding hebben we het proces van het implementeren van Excel-importgegevensvalidatie met Aspose.Cells voor Java onderzocht. Door de stappen in dit artikel te volgen, kunt u de nauwkeurigheid en betrouwbaarheid van geïmporteerde gegevens in uw Java-applicaties garanderen. Gegevensvalidatie is een cruciaal aspect van gegevensbeheer en Aspose.Cells voor Java vereenvoudigt het proces.
 
 Nu u over de aangeleverde kennis en broncode beschikt, bent u klaar om uw datavalidatiemogelijkheden te verbeteren en de gebruikerservaring te verbeteren. Veel plezier met coderen!
-{{< /blocks/producten/pf/tutorial-pagina-sectie >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

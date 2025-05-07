@@ -111,7 +111,7 @@ Aspose.Cells for Java를 사용하여 데이터 추출을 자동화하면 Excel 
    API 문서를 탐색하세요 [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 자세한 정보와 예를 보려면 여기를 클릭하세요.
 
 오늘부터 Aspose.Cells for Java를 사용하여 데이터 추출 작업을 자동화하고 데이터 검색 프로세스를 간소화하세요.
-{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

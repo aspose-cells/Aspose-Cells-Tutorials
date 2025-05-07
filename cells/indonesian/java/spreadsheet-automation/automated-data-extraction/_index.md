@@ -111,7 +111,7 @@ Mengotomatiskan ekstraksi data dengan Aspose.Cells untuk Java menyederhanakan pr
    Jelajahi dokumentasi API di [https://reference.aspose.com/sel/java/](https://reference.aspose.com/cells/java/) untuk informasi dan contoh yang mendalam.
 
 Mulailah mengotomatiskan tugas ekstraksi data Anda hari ini dengan Aspose.Cells untuk Java dan sederhanakan proses pengambilan data Anda.
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

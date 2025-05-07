@@ -109,7 +109,7 @@ Mengotomatiskan pemrosesan batch Excel dengan Aspose.Cells untuk Java menyederha
    Jelajahi dokumentasi API di [https://reference.aspose.com/sel/java/](https://reference.aspose.com/cells/java/) untuk informasi dan contoh yang mendalam.
 
 Optimalkan tugas pemrosesan Excel batch Anda dan tingkatkan produktivitas menggunakan Aspose.Cells untuk Java.
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

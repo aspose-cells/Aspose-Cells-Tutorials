@@ -40,7 +40,7 @@ Pelajari Teknik Penyamaran Data yang efektif menggunakan Aspose.Cells untuk Java
 Pelajari cara mengaudit akses file menggunakan Aspose.Cells untuk API Java. Panduan langkah demi langkah dengan kode sumber dan Tanya Jawab Umum.
 ### [Validasi Data untuk Keamanan](./data-validation-for-security/)
 Tingkatkan Keamanan Data dengan Aspose.Cells untuk Java. Jelajahi Teknik Validasi Data yang Komprehensif. Pelajari Cara Menerapkan Validasi & Perlindungan yang Kuat.
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

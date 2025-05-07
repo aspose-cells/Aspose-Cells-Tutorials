@@ -99,7 +99,7 @@ Abszolút! Az Aspose.Cells for Java támogatja az adatok importálását és exp
 Igen, kérjük, tekintse át az Aspose weboldalán található licencelési információkat a licenceléssel és az árakkal kapcsolatos részletekért.
 
 Nyugodtan fedezd fel tovább, és igazítsd a kódpéldákat a saját igényeidhez. Jó kódolást!
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

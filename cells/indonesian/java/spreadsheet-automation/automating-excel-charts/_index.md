@@ -117,7 +117,7 @@ Mengotomatiskan bagan Excel dengan Aspose.Cells untuk Java menyederhanakan prose
    Jelajahi dokumentasi API di [https://reference.aspose.com/sel/java/](https://reference.aspose.com/cells/java/) untuk informasi dan contoh yang mendalam.
 
 Otomatisasi tugas pembuatan grafik Excel Anda dengan mudah menggunakan Aspose.Cells untuk Java dan tingkatkan kemampuan visualisasi data Anda.
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

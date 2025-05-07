@@ -115,7 +115,7 @@ Aspose.Cells for Java를 사용하여 데이터 입력을 자동화하면 데이
    설명서를 다음에서 탐색할 수 있습니다. [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 이제 Aspose.Cells for Java를 사용하여 데이터 입력을 효과적으로 자동화하는 지식과 도구를 갖추게 되었습니다. 데이터 처리 프로세스를 개선하고 비즈니스 효율성을 높여 보세요.
-{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

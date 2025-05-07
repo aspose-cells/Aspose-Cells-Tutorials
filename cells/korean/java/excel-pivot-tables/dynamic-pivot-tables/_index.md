@@ -107,7 +107,7 @@ pivotTable.calculateData();
 ### 질문 5: Aspose.Cells는 Excel의 고급 피벗 테이블 기능을 지원합니까?
 
 네, Aspose.Cells는 Excel의 고급 피벗 테이블 기능에 대한 광범위한 지원을 제공하여 복잡한 피벗 테이블을 만들 수 있습니다.
-{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

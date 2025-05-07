@@ -118,7 +118,7 @@ Aspose.Cells for Java를 사용하여 보고서 템플릿을 만들고, 문서�
 
 ### [자동화 및 일괄 처리](./automation-batch-processing/)
 Aspose.Cells for Java를 사용하여 Excel 작업을 자동화하고, 여러 파일을 일괄 처리하고, 작업을 예약하는 방법에 대한 단계별 자습서입니다.
-{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

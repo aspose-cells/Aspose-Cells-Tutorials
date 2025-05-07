@@ -48,7 +48,7 @@ Fedezd fel a MIN függvény erejét Excelben az Aspose.Cells for Java segítség
 Fedezd fel az Excel szövegfüggvényeinek titkait az Aspose.Cells for Java segítségével. Tanuld meg, hogyan manipulálhatod, kinyerheted és átalakíthatod a szöveget Excelben könnyedén.
 ### [Excel dátumfüggvények bemutatója](./excel-date-functions-tutorial/)
 Tanulj dátumfüggvényeket az Excelben az Aspose.Cells for Java használatával. Fedezz fel lépésről lépésre szóló oktatóanyagokat forráskóddal.
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

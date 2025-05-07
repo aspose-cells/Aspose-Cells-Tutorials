@@ -40,7 +40,7 @@ Leer effectieve datamaskeringstechnieken met Aspose.Cells voor Java. Bescherm ge
 Leer hoe u bestandstoegang kunt controleren met Aspose.Cells voor Java API. Stapsgewijze handleiding met broncode en veelgestelde vragen.
 ### [Gegevensvalidatie voor beveiliging](./data-validation-for-security/)
 Verbeter de gegevensbeveiliging met Aspose.Cells voor Java. Ontdek uitgebreide technieken voor gegevensvalidatie. Leer hoe u robuuste validatie en bescherming implementeert.
-{{< /blocks/producten/pf/tutorial-pagina-sectie >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

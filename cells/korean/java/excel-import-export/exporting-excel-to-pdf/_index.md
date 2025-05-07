@@ -106,7 +106,7 @@ Aspose.Cells는 대용량 Excel 파일을 효율적으로 처리하도록 최적
 질문 5: Aspose.Cells에 대한 추가 문서와 예제는 어디에서 찾을 수 있나요?
 
 Aspose.Cells API 문서를 탐색하세요. [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 더욱 폭넓은 지식을 제공하기 위한 포괄적인 문서와 풍부한 예를 제공합니다.
-{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

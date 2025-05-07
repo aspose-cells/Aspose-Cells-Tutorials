@@ -118,7 +118,7 @@ Volledige tutorials voor het maken van rapportsjablonen, het genereren van docum
 
 ### [Automatisering en batchverwerking](./automation-batch-processing/)
 Stapsgewijze handleidingen voor het automatiseren van Excel-taken, het batchverwerken van meerdere bestanden en het plannen van bewerkingen met Aspose.Cells voor Java.
-{{< /blocks/producten/pf/tutorial-pagina-sectie >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

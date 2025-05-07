@@ -102,7 +102,7 @@ Ebben az oktatóanyagban végigvezettük a pivot táblák létrehozásának foly
    A Java nyelven a Pivot tábla létrehozását automatizálhatod az Aspose.Cells for Java API használatával, ahogy az ebben az oktatóanyagban is látható.
 
 Most már rendelkezel a szükséges tudással és kóddal ahhoz, hogy hatékony Java pivot táblákat hozz létre az Aspose.Cells segítségével. Kísérletezz különböző adatforrásokkal és konfigurációkkal, hogy a pivot tábláidat a saját igényeidhez igazítsd. Jó adatelemzést!
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

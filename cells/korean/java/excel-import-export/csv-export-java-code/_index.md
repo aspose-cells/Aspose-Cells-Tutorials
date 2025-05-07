@@ -94,7 +94,7 @@ IDE에서 Java 코드를 컴파일하고 실행하세요. 프로젝트 디렉터
    Aspose.Cells 문서를 방문하세요 [여기](https://reference.aspose.com/cells/java/) 포괄적인 자료와 사례를 확인하세요.
 
 자유롭게 탐색하고 이 코드를 자신의 특정 요구 사항에 맞게 수정해 보세요. 즐거운 코딩 되세요!
-{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

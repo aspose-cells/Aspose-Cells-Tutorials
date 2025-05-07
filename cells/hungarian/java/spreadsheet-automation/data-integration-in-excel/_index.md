@@ -109,7 +109,7 @@ Abszolút! Az Aspose.Cells for Java egy hatékony automatizálási API-t biztos�
 Míg az Aspose.Cells for Java egy robusztus választás, az olyan alternatívák, mint az Apache POI, szintén biztosítanak Excel integrációs lehetőségeket.
 
 Ez az átfogó útmutató segít elsajátítani az adatintegrációt Excelben az Aspose.Cells for Java használatával. Nyugodtan böngésszen tovább, és igazítsa ezeket a lépéseket az Ön igényeihez. Jó adatintegrációt!
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

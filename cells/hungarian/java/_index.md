@@ -118,7 +118,7 @@ Teljes körű oktatóanyagok jelentéssablonok létrehozásához, dokumentumok g
 
 ### [Automatizálás és kötegelt feldolgozás](./automation-batch-processing/)
 Lépésről lépésre bemutatott oktatóanyagok Excel-feladatok automatizálásához, több fájl kötegelt feldolgozásához és műveletek ütemezéséhez az Aspose.Cells for Java segítségével.
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

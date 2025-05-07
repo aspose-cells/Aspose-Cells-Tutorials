@@ -48,7 +48,7 @@ Temukan Kekuatan Fungsi MIN di Excel dengan Aspose.Cells untuk Java. Pelajari Ca
 Ungkap rahasia fungsi teks Excel dengan Aspose.Cells untuk Java. Pelajari cara memanipulasi, mengekstrak, dan mengubah teks di Excel dengan mudah.
 ### [Tutorial Fungsi Tanggal Excel](./excel-date-functions-tutorial/)
 Pelajari Fungsi Tanggal Excel menggunakan Aspose.Cells untuk Java. Jelajahi tutorial langkah demi langkah dengan kode sumber.
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

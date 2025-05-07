@@ -109,7 +109,7 @@ Az Aspose.Cells for Java segítségével automatizált kötegelt Excel-feldolgoz
    Tekintse meg az API dokumentációját a következő címen: [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) részletes információkért és példákért.
 
 Optimalizálja kötegelt Excel-feldolgozási feladatait és növelje a termelékenységet az Aspose.Cells for Java használatával.
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

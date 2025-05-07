@@ -111,7 +111,7 @@ Az Aspose.Cells for Java segítségével automatizált adatkinyerés leegyszerű
    Tekintse meg az API dokumentációját a következő címen: [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) részletes információkért és példákért.
 
 Kezdje el automatizálni adatkinyerési feladatait még ma az Aspose.Cells for Java segítségével, és egyszerűsítse adatkinyerési folyamatait.
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

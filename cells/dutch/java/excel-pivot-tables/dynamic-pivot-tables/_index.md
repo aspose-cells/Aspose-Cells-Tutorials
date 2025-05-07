@@ -107,7 +107,7 @@ Ja, u kunt filters toepassen op draaitabellen om specifieke subsets van gegevens
 ### V5: Ondersteunt Aspose.Cells de geavanceerde draaitabelfuncties van Excel?
 
 Ja, Aspose.Cells biedt uitgebreide ondersteuning voor de geavanceerde draaitabelfuncties van Excel, zodat u complexe draaitabellen kunt maken.
-{{< /blocks/producten/pf/tutorial-pagina-sectie >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

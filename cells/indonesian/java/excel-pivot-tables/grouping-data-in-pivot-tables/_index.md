@@ -108,7 +108,7 @@ Anda dapat menyesuaikan pengelompokan data dalam tabel pivot menggunakan `PivotF
 ### 3. Dapatkah saya mengotomatiskan pembuatan tabel pivot menggunakan Aspose.Cells untuk Java?
 
 Ya, Anda dapat mengotomatiskan pembuatan tabel pivot di Excel menggunakan Aspose.Cells untuk Java, seperti yang ditunjukkan dalam contoh kode sumber yang disediakan.
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

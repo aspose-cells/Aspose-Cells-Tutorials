@@ -117,7 +117,7 @@ Aspose.Cells for Java를 사용하여 Excel 차트를 자동화하면 Excel 파�
    API 문서를 탐색하세요 [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 자세한 정보와 예를 보려면 여기를 클릭하세요.
 
 Aspose.Cells for Java를 사용하여 Excel 차트 작업을 손쉽게 자동화하고 데이터 시각화 기능을 향상시키세요.
-{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

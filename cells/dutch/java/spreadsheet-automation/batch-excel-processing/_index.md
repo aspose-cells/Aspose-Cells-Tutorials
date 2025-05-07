@@ -109,7 +109,7 @@ Automatisering van batchverwerking in Excel met Aspose.Cells voor Java vereenvou
    Bekijk de API-documentatie op [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) voor diepgaande informatie en voorbeelden.
 
 Optimaliseer uw batchverwerking van Excel en verhoog uw productiviteit met Aspose.Cells voor Java.
-{{< /blocks/producten/pf/tutorial-pagina-sectie >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

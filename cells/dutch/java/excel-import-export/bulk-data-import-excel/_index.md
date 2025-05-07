@@ -99,7 +99,7 @@ Absoluut! Aspose.Cells voor Java ondersteunt zowel het importeren als exporteren
 Ja, bekijk de licentie-informatie op de Aspose-website voor meer informatie over licenties en prijzen.
 
 Voel je vrij om verder te kijken en de codevoorbeelden aan te passen aan je specifieke eisen. Veel plezier met coderen!
-{{< /blocks/producten/pf/tutorial-pagina-sectie >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

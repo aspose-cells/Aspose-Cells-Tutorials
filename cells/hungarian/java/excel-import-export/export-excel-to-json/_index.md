@@ -76,7 +76,7 @@ Gratulálunk! Sikeresen exportálta az Excel-adatokat JSON-ba az Aspose.Cells fo
    Igen, letöltheted az Aspose.Cells for Java próbaverzióját a weboldalukról, hogy kiértékelhesd a funkcióit.
 
 Fedezze fel az Aspose.Cells for Java további lehetőségeit, hogy továbbfejlessze adatfeldolgozási képességeit.
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

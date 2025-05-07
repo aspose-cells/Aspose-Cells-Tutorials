@@ -42,7 +42,7 @@ Pelajari Validasi Data di Excel menggunakan Aspose.Cells untuk Java. Terapkan at
 Pelajari cara menerapkan validasi data bersyarat menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber untuk penanganan data yang akurat dalam lembar kerja Excel.
 ### [Pesan Input dalam Validasi Data](./input-message-in-data-validation/)
 Pelajari cara meningkatkan validasi data di Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode untuk meningkatkan akurasi data dan panduan pengguna.
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

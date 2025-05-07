@@ -80,7 +80,7 @@ Aspose.Cells for Java는 정수, 소수, 날짜, 텍스트 길이 등 다양한 
 이 종합 가이드에서는 Aspose.Cells for Java를 사용하여 Excel 가져오기 데이터 유효성 검사를 구현하는 과정을 살펴보았습니다. 이 문서에 설명된 단계를 따르면 Java 애플리케이션에서 가져온 데이터의 정확성과 안정성을 보장할 수 있습니다. 데이터 유효성 검사는 데이터 관리의 중요한 측면이며, Aspose.Cells for Java는 이 과정을 간소화합니다.
 
 이제 제공된 지식과 소스 코드를 바탕으로 데이터 검증 역량을 강화하고 사용자 경험을 개선할 준비가 되었습니다. 즐거운 코딩 되세요!
-{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

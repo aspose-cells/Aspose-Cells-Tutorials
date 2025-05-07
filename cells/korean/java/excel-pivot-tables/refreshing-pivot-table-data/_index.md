@@ -90,7 +90,7 @@ Aspose.Cells for Java에서 피벗 테이블 데이터를 새로 고치는 것�
    - 네, Aspose.Cells와 Java 스케줄링 라이브러리를 사용하여 자동 데이터 새로 고침을 예약할 수 있습니다. 이를 통해 수동 작업 없이 피벗 테이블을 최신 상태로 유지할 수 있습니다.
 
 이제 Aspose.Cells for Java에서 피벗 테이블 데이터를 새로 고치는 방법을 익혔습니다. 분석의 정확성을 유지하고 데이터 기반 의사 결정에서 앞서 나가세요.
-{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

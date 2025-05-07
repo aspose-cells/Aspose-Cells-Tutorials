@@ -110,7 +110,7 @@ Berikut adalah beberapa pertanyaan umum terkait Otomatisasi Buku Kerja Excel:
    Anda dapat merujuk ke dokumentasi API di [https://reference.aspose.com/sel/java/](https://reference.aspose.com/cells/java/) untuk informasi mendalam dan contoh kode.
 
 Jangan ragu untuk menjelajahi fitur dan kemampuan Aspose.Cells for Java yang lebih canggih untuk menyesuaikan kebutuhan otomatisasi Excel Anda. Jika Anda memiliki pertanyaan khusus atau memerlukan bantuan lebih lanjut, jangan ragu untuk bertanya.
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -96,7 +96,7 @@ Anda kini telah mempelajari cara mengimpor data dari Excel menggunakan Aspose.Ce
    Kunjungi dokumentasi Aspose.Cells [Di Sini](https://reference.aspose.com/cells/java/) untuk sumber daya dan contoh yang mendalam.
 
 Jangan ragu untuk mengeksplorasi lebih jauh dan mengadaptasi kode ini agar sesuai dengan kebutuhan impor data spesifik Anda. Selamat membuat kode!
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

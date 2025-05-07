@@ -40,7 +40,7 @@ Tanuljon meg hatékony adatmaszkolási technikákat az Aspose.Cells for Java has
 Ismerd meg, hogyan auditálhatod a fájlhozzáférést az Aspose.Cells for Java API használatával. Lépésről lépésre útmutató forráskóddal és GYIK-kel.
 ### [Adatellenőrzés a biztonság érdekében](./data-validation-for-security/)
 Növelje az adatbiztonságot az Aspose.Cells for Java segítségével. Fedezze fel az átfogó adatérvényesítési technikákat. Tanulja meg, hogyan valósíthat meg robusztus érvényesítést és védelmet.
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

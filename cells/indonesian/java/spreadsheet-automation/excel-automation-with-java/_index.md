@@ -124,7 +124,7 @@ Aspose.Cells untuk Java memungkinkan Anda mengotomatiskan tugas Excel secara efi
 ---
 
 Panduan langkah demi langkah dengan contoh kode sumber ini akan memberi Anda dasar yang kuat untuk otomatisasi Excel di Java menggunakan Aspose.Cells. Selamat membuat kode dan mengotomatiskan tugas Excel Anda!
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

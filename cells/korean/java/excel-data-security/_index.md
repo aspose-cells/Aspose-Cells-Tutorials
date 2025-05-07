@@ -40,7 +40,7 @@ Aspose.Cells for Java를 사용하여 효과적인 데이터 마스킹 기법을
 Aspose.Cells for Java API를 사용하여 파일 접근을 감사하는 방법을 알아보세요. 소스 코드와 FAQ가 포함된 단계별 가이드입니다.
 ### [보안을 위한 데이터 검증](./data-validation-for-security/)
 Aspose.Cells for Java를 사용하여 데이터 보안을 강화하세요. 포괄적인 데이터 검증 기술을 살펴보고, 강력한 검증 및 보호 기능을 구현하는 방법을 알아보세요.
-{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

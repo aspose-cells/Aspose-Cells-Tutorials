@@ -115,7 +115,7 @@ Mengotomatiskan entri data dengan Aspose.Cells untuk Java akan menyederhanakan p
    Anda dapat menjelajahi dokumentasi di [https://reference.aspose.com/sel/java/](https://reference.aspose.com/cells/java/).
 
 Sekarang Anda memiliki pengetahuan dan alat untuk mengotomatiskan entri data secara efektif menggunakan Aspose.Cells untuk Java. Mulailah meningkatkan proses penanganan data Anda dan tingkatkan efisiensi bisnis Anda.
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

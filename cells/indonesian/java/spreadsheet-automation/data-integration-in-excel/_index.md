@@ -109,7 +109,7 @@ Tentu saja! Aspose.Cells untuk Java menyediakan API yang canggih untuk otomatisa
 Meskipun Aspose.Cells untuk Java merupakan pilihan yang tangguh, alternatif seperti Apache POI juga menyediakan kemampuan integrasi Excel.
 
 Panduan lengkap ini akan membantu Anda menguasai integrasi data di Excel menggunakan Aspose.Cells untuk Java. Jangan ragu untuk menjelajahi lebih jauh dan menyesuaikan langkah-langkah ini dengan kebutuhan spesifik Anda. Selamat mengintegrasikan data!
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

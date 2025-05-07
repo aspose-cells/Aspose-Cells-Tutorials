@@ -76,7 +76,7 @@ Gefeliciteerd! Je hebt Excel-gegevens succesvol geëxporteerd naar JSON met Aspo
    Ja, u kunt een proefversie van Aspose.Cells voor Java downloaden van hun website om de functies ervan te evalueren.
 
 Ontdek gerust de verdere mogelijkheden van Aspose.Cells voor Java om uw gegevensverwerkingscapaciteiten te verbeteren.
-{{< /blocks/producten/pf/tutorial-pagina-sectie >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

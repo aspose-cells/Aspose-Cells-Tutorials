@@ -87,7 +87,7 @@ Menyesuaikan gaya tabel pivot di Aspose.Cells untuk API Java mudah dan memungkin
    Anda dapat merujuk ke dokumentasi API di [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/) untuk informasi lebih rinci.
 
 Sekarang Anda memiliki pengetahuan untuk membuat dan menyesuaikan gaya tabel pivot di Aspose.Cells untuk Java. Jelajahi lebih jauh dan buat presentasi data Anda benar-benar luar biasa!
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

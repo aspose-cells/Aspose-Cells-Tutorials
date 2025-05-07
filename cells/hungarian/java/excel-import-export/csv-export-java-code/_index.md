@@ -94,7 +94,7 @@ Gratulálunk! Megtanultad, hogyan exportálhatsz adatokat CSV formátumba az Asp
    Látogassa meg az Aspose.Cells dokumentációját [itt](https://reference.aspose.com/cells/java/) átfogó forrásokért és példákért.
 
 Nyugodtan fedezd fel tovább, és igazítsd ezt a kódot a saját igényeidhez. Jó kódolást!
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

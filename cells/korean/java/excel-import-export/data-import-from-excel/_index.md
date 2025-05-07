@@ -96,7 +96,7 @@ IDE에서 Java 코드를 컴파일하고 실행하세요. 프로젝트 디렉터
    Aspose.Cells 문서를 방문하세요 [여기](https://reference.aspose.com/cells/java/) 자세한 자료와 예시를 보려면 여기를 클릭하세요.
 
 자유롭게 탐색하고 특정 데이터 가져오기 요구 사항에 맞게 이 코드를 수정해 보세요. 즐거운 코딩 되세요!
-{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

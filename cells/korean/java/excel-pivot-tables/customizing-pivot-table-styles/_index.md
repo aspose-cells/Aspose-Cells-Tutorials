@@ -87,7 +87,7 @@ Aspose.Cells for Java API에서 피벗 테이블 스타일을 사용자 지정�
    API 설명서를 참조할 수 있습니다. [Java API 참조용 Aspose.Cells](https://reference.aspose.com/cells/java/) 자세한 내용은.
 
 이제 Aspose.Cells for Java에서 피벗 테이블 스타일을 만들고 사용자 지정하는 방법을 익혔습니다. 더 깊이 있게 살펴보고 데이터 프레젠테이션을 더욱 특별하게 만들어 보세요!
-{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

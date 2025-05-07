@@ -90,7 +90,7 @@ A Pivot Table adatok frissítése az Aspose.Cells for Java programban egy egysze
    - Igen, az Aspose.Cells és a Java ütemezési könyvtárak segítségével ütemezheti az automatikus adatfrissítéseket. Ez lehetővé teszi, hogy manuális beavatkozás nélkül naprakészen tartsa a pivot tábláit.
 
 Most már rendelkezik a szükséges tudással a Pivot Table adatok frissítéséhez az Aspose.Cells for Java programban. Tartsa pontos elemzéseit, és legyen előrébb az adatvezérelt döntéseiben.
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

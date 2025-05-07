@@ -80,7 +80,7 @@ Igen, az Aspose.Cells for Java alkalmas összetett adatérvényesítési forgat�
 Ebben az átfogó útmutatóban az Excel import adatellenőrzésének megvalósítási folyamatát vizsgáltuk meg az Aspose.Cells for Java használatával. A cikkben ismertetett lépések követésével biztosíthatja az importált adatok pontosságát és megbízhatóságát Java alkalmazásaiban. Az adatellenőrzés az adatkezelés kritikus aspektusa, és az Aspose.Cells for Java leegyszerűsíti a folyamatot.
 
 Most, a rendelkezésre álló tudással és forráskóddal felvértezve, készen állsz arra, hogy fejlesszd az adatellenőrzési képességeidet és javítsd a felhasználói élményt. Jó kódolást!
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -106,7 +106,7 @@ Hoewel Aspose.Cells is geoptimaliseerd voor efficiënte verwerking van grote Exc
 V5: Waar kan ik meer documentatie en voorbeelden voor Aspose.Cells vinden?
 
 Ontdek de Aspose.Cells API-documentatie op [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) voor uitgebreide documentatie en een schat aan voorbeelden om uw kennis verder uit te breiden.
-{{< /blocks/producten/pf/tutorial-pagina-sectie >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

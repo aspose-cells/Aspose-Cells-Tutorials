@@ -109,7 +109,7 @@ Aspose.Cells for Java를 사용하여 일괄 Excel 처리를 자동화하면 여
    API 문서를 탐색하세요 [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 자세한 정보와 예를 보려면 여기를 클릭하세요.
 
 Aspose.Cells for Java를 사용하여 일괄 Excel 처리 작업을 최적화하고 생산성을 높이세요.
-{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

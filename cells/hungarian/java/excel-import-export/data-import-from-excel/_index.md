@@ -96,7 +96,7 @@ Most már megtanultad, hogyan importálhatsz adatokat Excelből az Aspose.Cells 
    Látogassa meg az Aspose.Cells dokumentációját [itt](https://reference.aspose.com/cells/java/) részletes forrásokért és példákért.
 
 Nyugodtan fedezd fel tovább, és igazítsd ezt a kódot az adatimportálási igényeidhez. Jó kódolást!
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

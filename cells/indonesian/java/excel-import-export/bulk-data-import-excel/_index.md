@@ -99,7 +99,7 @@ Tentu saja! Aspose.Cells untuk Java mendukung impor dan ekspor data ke dan dari 
 Ya, silakan tinjau informasi lisensi di situs web Aspose untuk detail tentang lisensi dan harga.
 
 Jangan ragu untuk mengeksplorasi lebih jauh dan mengadaptasi contoh kode untuk memenuhi kebutuhan spesifik Anda. Selamat membuat kode!
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

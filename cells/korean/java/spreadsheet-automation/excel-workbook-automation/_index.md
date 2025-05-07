@@ -110,7 +110,7 @@ Excel 통합 문서 자동화와 관련된 몇 가지 일반적인 질문은 다
    API 설명서를 참조할 수 있습니다. [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 자세한 정보와 코드 샘플을 보려면 클릭하세요.
 
 Aspose.Cells for Java의 고급 기능을 살펴보고 Excel 자동화 요구 사항을 맞춤 설정해 보세요. 궁금한 점이 있거나 추가 지원이 필요하시면 언제든지 문의해 주세요.
-{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

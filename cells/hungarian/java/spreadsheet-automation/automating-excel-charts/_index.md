@@ -117,7 +117,7 @@ Az Excel-diagramok automatizálása az Aspose.Cells for Java segítségével lee
    Tekintse meg az API dokumentációját a következő címen: [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) részletes információkért és példákért.
 
 Automatizálja Excel diagramkészítési feladatait könnyedén az Aspose.Cells for Java segítségével, és emelje adatvizualizációs képességeit.
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

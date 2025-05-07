@@ -118,7 +118,7 @@ Tutorial lengkap untuk membuat templat laporan, menghasilkan dokumen, dan menera
 
 ### [Otomasi & Pemrosesan Batch](./automation-batch-processing/)
 Tutorial langkah demi langkah untuk mengotomatiskan tugas Excel, memproses banyak file secara batch, dan menjadwalkan operasi dengan Aspose.Cells untuk Java.
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

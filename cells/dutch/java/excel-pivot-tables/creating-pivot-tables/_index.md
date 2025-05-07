@@ -102,7 +102,7 @@ In deze tutorial hebben we het proces van het maken van draaitabellen met behulp
    U kunt het maken van draaitabellen in Java automatiseren met behulp van de Aspose.Cells voor Java API, zoals in deze tutorial wordt gedemonstreerd.
 
 Nu beschikt u over de kennis en code om krachtige draaitabellen in Java te maken met Aspose.Cells. Experimenteer met verschillende gegevensbronnen en configuraties om uw draaitabellen aan te passen aan uw specifieke behoeften. Veel plezier met uw data-analyse!
-{{< /blocks/producten/pf/tutorial-pagina-sectie >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

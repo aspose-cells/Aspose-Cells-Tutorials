@@ -108,7 +108,7 @@ kimutatástáblázatban lévő adatok csoportosítását testreszabhatja a `Pivo
 ### 3. Automatizálhatom a pivot táblák létrehozását az Aspose.Cells for Java használatával?
 
 Igen, automatizálhatja a pivot táblák létrehozását Excelben az Aspose.Cells for Java használatával, ahogy azt a megadott forráskód példák is mutatják.
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

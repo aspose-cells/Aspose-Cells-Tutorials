@@ -108,7 +108,7 @@ kunt de groepering van gegevens in een draaitabel aanpassen met behulp van de `P
 ### 3. Kan ik het maken van draaitabellen automatiseren met Aspose.Cells voor Java?
 
 Ja, u kunt het maken van draaitabellen in Excel automatiseren met Aspose.Cells voor Java, zoals wordt gedemonstreerd in de meegeleverde broncodevoorbeelden.
-{{< /blocks/producten/pf/tutorial-pagina-sectie >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

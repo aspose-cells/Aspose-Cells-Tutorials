@@ -47,7 +47,7 @@ Pelajari cara membuat animasi grafik yang menarik dengan Aspose.Cells untuk Java
 Pelajari cara membuat Diagram Waterfall yang menakjubkan dengan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber untuk visualisasi data yang efektif.
 ### [Interaktivitas Bagan](./chart-interactivity/)
 Pelajari cara membuat bagan interaktif menggunakan Aspose.Cells untuk Java. Tingkatkan visualisasi data Anda dengan interaktivitas.
-{{< /blok/produk/pf/bagian-halaman-tutorial >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -115,7 +115,7 @@ Automatisering van gegevensinvoer met Aspose.Cells voor Java stroomlijnt uw gege
    U kunt de documentatie bekijken op [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 Nu beschikt u over de kennis en tools om gegevensinvoer effectief te automatiseren met Aspose.Cells voor Java. Begin met het verbeteren van uw gegevensverwerkingsprocessen en verhoog uw bedrijfsefficiëntie.
-{{< /blocks/producten/pf/tutorial-pagina-sectie >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

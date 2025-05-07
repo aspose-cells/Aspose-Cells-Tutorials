@@ -115,7 +115,7 @@ Az adatbevitel automatizálása az Aspose.Cells for Java segítségével leegysz
    A dokumentációt a következő címen tekintheti meg: [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 Most már rendelkezik a szükséges tudással és eszközökkel az adatbevitel hatékony automatizálásához az Aspose.Cells for Java használatával. Kezdje el fejleszteni adatkezelési folyamatait, és növelje üzleti hatékonyságát.
-{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
