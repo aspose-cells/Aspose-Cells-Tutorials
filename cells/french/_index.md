@@ -183,7 +183,7 @@ Voici des liens vers des ressources utiles :
 ## Tutoriels Aspose.Cells pour Java
 {{% alert color="primary" %}}
 Explorez les tutoriels Aspose.Cells pour Java. Maîtrisez la manipulation de fichiers Excel grâce à des exemples de code. Améliorez vos compétences Java dès aujourd'hui !
-{{% /alerte %}}
+{{% /alert %}}
 
 Voici des liens vers des ressources utiles :
 - [Commencer](./java/getting-started/)

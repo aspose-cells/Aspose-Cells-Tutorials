@@ -183,7 +183,7 @@ Aspose.Cells for .NET Visual Tutorials 為希望在 .NET 應用程式中自動�
 ## Aspose.Cells for Java教程
 {{% alert color="primary" %}}
 探索 Aspose.Cells for Java 教學。透過程式碼範例掌握 Excel 檔案操作。今天就提升您的 Java 技能！
-{{％ /警報 ％}}
+{{% /alert %}}
 
 以下是一些有用資源的連結：
 - [入門](./java/getting-started/)

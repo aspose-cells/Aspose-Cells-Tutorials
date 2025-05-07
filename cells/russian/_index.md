@@ -183,7 +183,7 @@ Aspose.Cells for .NET Visual Tutorials предоставляет комплек
 ## Aspose.Cells для учебных пособий Java
 {{% alert color="primary" %}}
 Изучите руководства Aspose.Cells для Java. Освойте работу с файлами Excel с примерами кода. Улучшите свои навыки Java сегодня!
-{{% /тревога %}}
+{{% /alert %}}
 
 Вот ссылки на некоторые полезные ресурсы:
 - [Начиная](./java/getting-started/)

@@ -183,7 +183,7 @@ Här är länkar till några användbara resurser:
 ## Aspose.Cells för Java-handledningar
 {{% alert color="primary" %}}
 Utforska handledningar om Aspose.Cells för Java. Bemästra manipulation av Excel-filer med kodexempel. Förbättra dina Java-kunskaper idag!
-{{% /varning %}}
+{{% /alert %}}
 
 Här är länkar till några användbara resurser:
 - [Komma igång](./java/getting-started/)

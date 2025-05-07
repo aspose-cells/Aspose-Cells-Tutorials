@@ -183,7 +183,7 @@ Ezek néhány hasznos forráshoz vezető linkek:
 ## Aspose.Cells Java-hoz oktatóanyagok
 {{% alert color="primary" %}}
 Fedezd fel az Aspose.Cells Java-hoz készült oktatóanyagokat. Sajátítsd el az Excel fájlok kezelését kódpéldákkal. Fejleszd Java-tudásodat még ma!
-{{% /riasztás %}}
+{{% /alert %}}
 
 Ezek néhány hasznos forráshoz vezető linkek:
 - [Első lépések](./java/getting-started/)

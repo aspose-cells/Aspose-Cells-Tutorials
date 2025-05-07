@@ -183,7 +183,7 @@ Berikut ini adalah tautan ke beberapa sumber daya yang bermanfaat:
 ## Aspose.Cells untuk Tutorial Java
 {{% alert color="primary" %}}
 Jelajahi tutorial Aspose.Cells untuk Java. Kuasai manipulasi file Excel dengan contoh kode. Tingkatkan keterampilan Java Anda hari ini!
-{{% /peringatan %}}
+{{% /alert %}}
 
 Berikut ini adalah tautan ke beberapa sumber daya yang bermanfaat:
 - [Memulai](./java/getting-started/)

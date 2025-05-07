@@ -183,7 +183,7 @@ Aspose.Cells for .NET でピボットテーブルを作成、書式設定、管�
 ## Aspose.Cells for Java チュートリアル
 {{% alert color="primary" %}}
 Aspose.Cells for Javaのチュートリアルをご覧ください。コードサンプルを使ってExcelファイルの操作をマスターしましょう。今すぐJavaスキルを磨きましょう！
-{{% /アラート %}}
+{{% /alert %}}
 
 以下は役に立つリソースへのリンクです:
 - [はじめる](./java/getting-started/)

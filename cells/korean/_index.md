@@ -183,7 +183,7 @@ Aspose.Cells for .NET에서 피벗 테이블을 만들고, 서식을 지정하�
 ## Java 튜토리얼을 위한 Aspose.Cells
 {{% alert color="primary" %}}
 Aspose.Cells for Java 튜토리얼을 살펴보세요. 코드 예제를 통해 Excel 파일 조작을 마스터하세요. 오늘 바로 Java 실력을 향상시켜 보세요!
-{{% /알리다 %}}
+{{% /alert %}}
 
 다음은 유용한 자료에 대한 링크입니다.
 - [시작하기](./java/getting-started/)
