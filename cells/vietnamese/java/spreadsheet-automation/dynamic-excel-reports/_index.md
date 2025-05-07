@@ -1,10 +1,10 @@
 ---
-title: Báo cáo Excel động
-linktitle: Báo cáo Excel động
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tạo báo cáo Excel động dễ dàng với Aspose.Cells for Java. Tự động cập nhật dữ liệu, áp dụng định dạng và tiết kiệm thời gian.
-weight: 12
-url: /vi/java/spreadsheet-automation/dynamic-excel-reports/
+"description": "Tạo báo cáo Excel động dễ dàng với Aspose.Cells for Java. Tự động cập nhật dữ liệu, áp dụng định dạng và tiết kiệm thời gian."
+"linktitle": "Báo cáo Excel động"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Báo cáo Excel động"
+"url": "/vi/java/spreadsheet-automation/dynamic-excel-reports/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Báo cáo động rất cần thiết cho các doanh nghiệp và tổ chức x�
 
 ## Bước 1: Thiết lập môi trường phát triển
 
- Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Cells for Java. Bạn có thể tải xuống thư viện từ[Trang tải xuống Aspose.Cells cho Java](https://releases.aspose.com/cells/java/). Làm theo hướng dẫn cài đặt để thiết lập môi trường phát triển của bạn.
+Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Cells for Java. Bạn có thể tải xuống thư viện từ [Trang tải xuống Aspose.Cells cho Java](https://releases.aspose.com/cells/java/). Làm theo hướng dẫn cài đặt để thiết lập môi trường phát triển của bạn.
 
 ## Bước 2: Tạo một bảng tính Excel mới
 
@@ -59,7 +59,7 @@ worksheet.getCells().get("C2").setFormula("=B2*1.1"); // Tính toán mức tăng
 
 ## Bước 5: Áp dụng Kiểu và Định dạng
 
-Để làm cho báo cáo của bạn hấp dẫn về mặt trực quan, bạn có thể áp dụng kiểu và định dạng cho ô, hàng và cột. Ví dụ, bạn có thể thay đổi màu nền ô hoặc đặt phông chữ:
+Để làm cho báo cáo của bạn hấp dẫn về mặt trực quan, bạn có thể áp dụng kiểu và định dạng cho các ô, hàng và cột. Ví dụ, bạn có thể thay đổi màu nền ô hoặc đặt phông chữ:
 
 ```java
 // Áp dụng kiểu dáng và định dạng
@@ -71,7 +71,7 @@ worksheet.getCells().applyStyle(style, new StyleFlag());
 
 ## Bước 6: Tự động làm mới dữ liệu
 
-Chìa khóa của báo cáo động là khả năng tự động làm mới dữ liệu. Bạn có thể lên lịch quy trình này hoặc kích hoạt thủ công. Ví dụ: bạn có thể làm mới dữ liệu từ cơ sở dữ liệu theo định kỳ hoặc khi người dùng nhấp vào nút.
+Chìa khóa cho báo cáo động là khả năng tự động làm mới dữ liệu. Bạn có thể lên lịch quy trình này hoặc kích hoạt thủ công. Ví dụ: bạn có thể làm mới dữ liệu từ cơ sở dữ liệu theo định kỳ hoặc khi người dùng nhấp vào nút.
 
 ```java
 // Làm mới dữ liệu
@@ -108,6 +108,7 @@ Kích thước báo cáo động của bạn có thể bị giới hạn bởi b
 ### 5. Tôi có thể xuất báo cáo động sang các định dạng khác không?
 
 Có, Aspose.Cells for Java cho phép bạn xuất các báo cáo Excel động sang nhiều định dạng khác nhau, bao gồm PDF, HTML, v.v., để dễ dàng chia sẻ và phân phối.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,10 +1,10 @@
 ---
-title: การนำเข้าส่งออก Excel
-linktitle: การนำเข้าส่งออก Excel
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: นำเข้าและส่งออกไฟล์ Excel ได้อย่างง่ายดายด้วย Aspose.Cells สำหรับ Java สำรวจบทช่วยสอนแบบทีละขั้นตอนสำหรับการแลกเปลี่ยนข้อมูลอย่างราบรื่น เชี่ยวชาญการจัดการ Excel วันนี้!
-weight: 16
-url: /th/java/excel-import-export/
+"description": "นำเข้าและส่งออกไฟล์ Excel ได้อย่างง่ายดายด้วย Aspose.Cells สำหรับ Java เรียนรู้บทช่วยสอนทีละขั้นตอนสำหรับการแลกเปลี่ยนข้อมูลอย่างราบรื่น เชี่ยวชาญการจัดการ Excel วันนี้!"
+"linktitle": "การนำเข้าส่งออก Excel"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การนำเข้าส่งออก Excel"
+"url": "/th/java/excel-import-export/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

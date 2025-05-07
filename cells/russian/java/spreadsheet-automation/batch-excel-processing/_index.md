@@ -1,10 +1,10 @@
 ---
-title: Пакетная обработка Excel
-linktitle: Пакетная обработка Excel
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как оптимизировать задачи пакетной обработки Excel с помощью Aspose.Cells для Java. Автоматизируйте обработку данных, преобразование и манипуляцию с примерами исходного кода.
-weight: 10
-url: /ru/java/spreadsheet-automation/batch-excel-processing/
+"description": "Узнайте, как оптимизировать задачи пакетной обработки Excel с помощью Aspose.Cells для Java. Автоматизируйте обработку данных, преобразование и манипуляцию с примерами исходного кода."
+"linktitle": "Пакетная обработка Excel"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Пакетная обработка Excel"
+"url": "/ru/java/spreadsheet-automation/batch-excel-processing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -29,7 +29,7 @@ url: /ru/java/spreadsheet-automation/batch-excel-processing/
 
 ### 1. Создание среды
 
- Для начала убедитесь, что у вас установлен Aspose.Cells for Java. Его можно скачать здесь[здесь](https://releases.aspose.com/cells/java/).
+Для начала убедитесь, что у вас установлен Aspose.Cells for Java. Его можно скачать здесь [здесь](https://releases.aspose.com/cells/java/).
 
 ### 2. Инициализация Aspose.Cells
 
@@ -59,7 +59,7 @@ for (String filePath : excelFiles) {
     // Загрузите файл Excel
     Workbook fileWorkbook = new Workbook(filePath);
     
-    //Выполнение задач по обработке файлаWorkbook
+    // Выполнение задач по обработке файлаWorkbook
 }
 ```
 
@@ -82,7 +82,7 @@ String data = fileWorkbook.getWorksheets().get(0).getCells().get("A1").getString
 Если вам необходимо преобразовать файлы Excel в другие форматы, вы можете автоматизировать процесс конвертации:
 
 ```java
-// Сохранить файл Excel как PDF
+// Сохраните файл Excel как PDF
 fileWorkbook.save("output.pdf", SaveFormat.PDF);
 ```
 
@@ -106,10 +106,10 @@ fileWorkbook.save("output.pdf", SaveFormat.PDF);
    Да, для использования Aspose.Cells для Java в ваших проектах вам понадобится действующая лицензия.
 
 ### 4. Где я могу найти дополнительные ресурсы и документацию по Aspose.Cells для Java?
-    Изучите документацию API по адресу[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения подробной информации и примеров.
+   Изучите документацию API по адресу [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения подробной информации и примеров.
 
 Оптимизируйте задачи пакетной обработки Excel и повысьте производительность с помощью Aspose.Cells для Java.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

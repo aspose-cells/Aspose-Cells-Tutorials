@@ -1,10 +1,10 @@
 ---
-title: Bảng Pivot động
-linktitle: Bảng Pivot động
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tạo bảng trục động dễ dàng bằng Aspose.Cells for Java. Phân tích và tóm tắt dữ liệu dễ dàng. Tăng cường khả năng phân tích dữ liệu của bạn.
-weight: 13
-url: /vi/java/excel-pivot-tables/dynamic-pivot-tables/
+"description": "Tạo bảng trục động dễ dàng bằng Aspose.Cells for Java. Phân tích và tóm tắt dữ liệu dễ dàng. Tăng cường khả năng phân tích dữ liệu của bạn."
+"linktitle": "Bảng Pivot động"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Bảng Pivot động"
+"url": "/vi/java/excel-pivot-tables/dynamic-pivot-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Pivot table là bảng tương tác cho phép bạn tóm tắt và phân tích d
 
 ## Bước 1: Nhập thư viện Aspose.Cells
 
- Trước khi chúng ta có thể tạo các bảng trục động, chúng ta cần nhập thư viện Aspose.Cells vào dự án Java của mình. Bạn có thể tải xuống thư viện từ các bản phát hành Aspose[đây](https://releases.aspose.com/cells/java/).
+Trước khi chúng ta có thể tạo các bảng trục động, chúng ta cần nhập thư viện Aspose.Cells vào dự án Java của mình. Bạn có thể tải xuống thư viện từ các bản phát hành Aspose [đây](https://releases.aspose.com/cells/java/).
 
 Sau khi tải xuống thư viện, hãy thêm nó vào đường dẫn xây dựng dự án của bạn.
 
@@ -35,7 +35,7 @@ Sau khi tải xuống thư viện, hãy thêm nó vào đường dẫn xây dự
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Thay thế`"your_excel_file.xlsx"` bằng đường dẫn đến tệp Excel của bạn.
+Thay thế `"your_excel_file.xlsx"` bằng đường dẫn đến tệp Excel của bạn.
 
 ## Bước 3: Tạo bảng Pivot
 
@@ -84,7 +84,7 @@ pivotTable.calculateData();
 
 Trong hướng dẫn này, chúng ta đã học cách tạo bảng trục động bằng cách sử dụng Aspose.Cells for Java API. Bảng trục là một công cụ hữu ích để phân tích dữ liệu và với Aspose.Cells, bạn có thể tự động tạo và thao tác bảng trục trong các ứng dụng Java của mình.
 
-Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ thêm, hãy liên hệ với chúng tôi. Chúc bạn lập trình vui vẻ!
+Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ thêm, hãy liên hệ với chúng tôi. Chúc bạn viết mã vui vẻ!
 
 ## Câu hỏi thường gặp
 

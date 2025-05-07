@@ -1,10 +1,10 @@
 ---
-title: कस्टम डेटा सत्यापन बनाना
-linktitle: कस्टम डेटा सत्यापन बनाना
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: Java के लिए Aspose.Cells का उपयोग करके कस्टम डेटा सत्यापन बनाना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/java/data-validation-rules/creating-custom-data-validation/
+"description": "जावा के लिए Aspose.Cells का उपयोग करके कस्टम डेटा सत्यापन बनाना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "कस्टम डेटा सत्यापन बनाना"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "कस्टम डेटा सत्यापन बनाना"
+"url": "/hi/java/data-validation-rules/creating-custom-data-validation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /hi/java/data-validation-rules/creating-custom-data-validation/
 
 कोड में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 
--  Aspose.Cells for Java: लाइब्रेरी को डाउनलोड करें और इंस्टॉल करें[यहाँ](https://releases.aspose.com/cells/java/).
+- Aspose.Cells for Java: लाइब्रेरी को डाउनलोड करें और इंस्टॉल करें [यहाँ](https://releases.aspose.com/cells/java/).
 
 ## चरण 1: अपना जावा प्रोजेक्ट सेट अप करना
 
@@ -95,7 +95,7 @@ workbook.save("CustomDataValidation.xlsx");
 
 ### मैं Java के लिए Aspose.Cells कैसे डाउनलोड करूं?
 
- आप वेबसाइट से Java के लिए Aspose.Cells डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/java/).
+आप वेबसाइट से Java के लिए Aspose.Cells डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/java/).
 
 ### क्या मैं एक ही वर्कशीट में एकाधिक श्रेणियों पर कस्टम डेटा सत्यापन लागू कर सकता हूँ?
 
@@ -107,11 +107,12 @@ workbook.save("CustomDataValidation.xlsx");
 
 ### डेटा सत्यापन विफल होने पर प्रदर्शित त्रुटि संदेश को मैं कैसे अनुकूलित कर सकता हूं?
 
- आप त्रुटि संदेश को संशोधित करके अनुकूलित कर सकते हैं`setErrorMessage` चरण 4 में विधि, जहाँ आप सत्यापन मानदंड परिभाषित करते हैं।
+आप त्रुटि संदेश को संशोधित करके अनुकूलित कर सकते हैं `setErrorMessage` चरण 4 में विधि, जहाँ आप सत्यापन मानदंड परिभाषित करते हैं।
 
 ### क्या Aspose.Cells for Java विभिन्न प्रारूपों में Excel फ़ाइलों के साथ काम करता है?
 
 हां, Java के लिए Aspose.Cells XLS, XLSX, XLSM, और अधिक सहित एक्सेल फ़ाइल स्वरूपों की एक विस्तृत श्रृंखला का समर्थन करता है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

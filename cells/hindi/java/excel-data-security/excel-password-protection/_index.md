@@ -1,10 +1,10 @@
 ---
-title: एक्सेल पासवर्ड सुरक्षा
-linktitle: एक्सेल पासवर्ड सुरक्षा
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: जावा के लिए Aspose.Cells का उपयोग करके Excel पासवर्ड सुरक्षा के साथ डेटा सुरक्षा को बढ़ाने का तरीका जानें। अंतिम डेटा गोपनीयता के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/java/excel-data-security/excel-password-protection/
+"description": "जावा के लिए Aspose.Cells का उपयोग करके Excel पासवर्ड सुरक्षा के साथ डेटा सुरक्षा को बढ़ाने का तरीका जानें। अंतिम डेटा गोपनीयता के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "एक्सेल पासवर्ड सुरक्षा"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "एक्सेल पासवर्ड सुरक्षा"
+"url": "/hi/java/excel-data-security/excel-password-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ url: /hi/java/excel-data-security/excel-password-protection/
 Aspose.Cells for Java के साथ Excel पासवर्ड सुरक्षा की दुनिया में गोता लगाने से पहले, आपको यह सुनिश्चित करना होगा कि आपके पास आवश्यक उपकरण और ज्ञान है:
 
 - जावा विकास पर्यावरण
--  Aspose.Cells for Java API (आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/java/)
+- Aspose.Cells for Java API (आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/java/)
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान
 
 ## वातावरण की स्थापना
@@ -79,7 +79,7 @@ import com.aspose.cells.*;
 
 public class ExcelPasswordProtection {
     public static void main(String[] args) {
-        //मौजूदा कार्यपुस्तिका लोड करें
+        // मौजूदा कार्यपुस्तिका लोड करें
         Workbook workbook;
         try {
             workbook = new Workbook("Sample.xlsx");
@@ -102,7 +102,7 @@ public class ExcelPasswordProtection {
 }
 ```
 
- इस कोड में, हम पहले से बनाई गई एक्सेल फ़ाइल को लोड करते हैं, पासवर्ड सेट करते हैं, और वर्कबुक को सुरक्षित करते हैं।`"MySecretPassword"` अपने इच्छित पासवर्ड के साथ.
+इस कोड में, हम पहले से बनाई गई एक्सेल फ़ाइल को लोड करते हैं, पासवर्ड सेट करते हैं, और वर्कबुक को सुरक्षित करते हैं। `"MySecretPassword"` अपने इच्छित पासवर्ड के साथ.
 
 ## निष्कर्ष
 
@@ -116,7 +116,7 @@ public class ExcelPasswordProtection {
 
 ### क्या मैं एक ही एक्सेल फ़ाइल में अलग-अलग वर्कशीट के लिए अलग-अलग पासवर्ड सेट कर सकता हूँ?
 
-हां, आप Java के लिए Aspose.Cells का उपयोग करके एक ही Excel फ़ाइल के भीतर अलग-अलग वर्कशीट के लिए अलग-अलग पासवर्ड सेट कर सकते हैं।
+हां, आप Aspose.Cells for Java का उपयोग करके एक ही Excel फ़ाइल में अलग-अलग वर्कशीट के लिए अलग-अलग पासवर्ड सेट कर सकते हैं।
 
 ### क्या एक्सेल वर्कशीट में विशिष्ट कक्षों या श्रेणियों को सुरक्षित करना संभव है?
 
@@ -129,6 +129,7 @@ public class ExcelPasswordProtection {
 ### क्या एक्सेल फाइलों में पासवर्ड सुरक्षा की कोई सीमाएं हैं?
 
 एक्सेल फाइलों में पासवर्ड सुरक्षा एक मजबूत सुरक्षा उपाय है, लेकिन सुरक्षा को अधिकतम करने के लिए मजबूत पासवर्ड चुनना और उन्हें गोपनीय रखना आवश्यक है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

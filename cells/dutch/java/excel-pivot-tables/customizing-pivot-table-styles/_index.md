@@ -1,10 +1,10 @@
 ---
-title: Draaitabelstijlen aanpassen
-linktitle: Draaitabelstijlen aanpassen
-second_title: Aspose.Cells Java Excel-verwerkings-API
-description: Leer hoe u draaitabelstijlen in Aspose.Cells voor Java API kunt aanpassen. Maak eenvoudig visueel aantrekkelijke draaitabellen.
-weight: 18
-url: /nl/java/excel-pivot-tables/customizing-pivot-table-styles/
+"description": "Leer hoe u draaitabelstijlen kunt aanpassen in Aspose.Cells voor Java API. Maak eenvoudig visueel aantrekkelijke draaitabellen."
+"linktitle": "Draaitabelstijlen aanpassen"
+"second_title": "Aspose.Cells Java Excel-verwerkings-API"
+"title": "Draaitabelstijlen aanpassen"
+"url": "/nl/java/excel-pivot-tables/customizing-pivot-table-styles/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,15 +14,15 @@ url: /nl/java/excel-pivot-tables/customizing-pivot-table-styles/
 # Draaitabelstijlen aanpassen
 
 
-Draaitabellen zijn krachtige tools voor het samenvatten en analyseren van gegevens in een spreadsheet. Met Aspose.Cells voor Java API kunt u niet alleen draaitabellen maken, maar ook hun stijlen aanpassen om uw gegevenspresentatie visueel aantrekkelijk te maken. In deze stapsgewijze handleiding laten we u zien hoe u dit kunt bereiken met broncodevoorbeelden.
+Draaitabellen zijn krachtige tools voor het samenvatten en analyseren van gegevens in een spreadsheet. Met Aspose.Cells voor Java API kunt u niet alleen draaitabellen maken, maar ook de stijl ervan aanpassen om uw gegevenspresentatie visueel aantrekkelijk te maken. In deze stapsgewijze handleiding laten we u zien hoe u dit kunt doen met behulp van broncodevoorbeelden.
 
 ## Aan de slag
 
- Voordat u draaitabelstijlen aanpast, moet u ervoor zorgen dat u de Aspose.Cells voor Java-bibliotheek in uw project hebt geïntegreerd. U kunt deze downloaden van[hier](https://releases.aspose.com/cells/java/).
+Voordat u draaitabelstijlen aanpast, moet u ervoor zorgen dat de Aspose.Cells voor Java-bibliotheek in uw project is geïntegreerd. U kunt deze downloaden van [hier](https://releases.aspose.com/cells/java/).
 
 ## Stap 1: Een draaitabel maken
 
-Om stijlen aan te passen, hebt u een draaitabel nodig. Hier is een eenvoudig voorbeeld van hoe u er een kunt maken:
+Om stijlen aan te passen, heb je een draaitabel nodig. Hier is een eenvoudig voorbeeld van hoe je er een maakt:
 
 ```java
 // Een werkmap instantiëren
@@ -37,9 +37,9 @@ int index = pivotTables.add("=A1:D6", "E3", "PivotTable1");
 PivotTable pivotTable = pivotTables.get(index);
 ```
 
-## Stap 2: Pas draaitabelstijlen aan
+## Stap 2: draaitabelstijlen aanpassen
 
-Laten we nu naar het aanpassingsgedeelte gaan. U kunt verschillende aspecten van de stijl van de draaitabel wijzigen, waaronder lettertypen, kleuren en opmaak. Hier is een voorbeeld van het wijzigen van het lettertype en de achtergrondkleur van de draaitabelkop:
+Laten we nu eens kijken naar de aanpassingsmogelijkheden. Je kunt verschillende aspecten van de stijl van de draaitabel aanpassen, zoals lettertypen, kleuren en opmaak. Hier is een voorbeeld van hoe je het lettertype en de achtergrondkleur van de koptekst van de draaitabel kunt wijzigen:
 
 ```java
 // Pas de stijl van de draaitabelkop aan
@@ -67,7 +67,7 @@ workbook.save("output.xlsx");
 
 ## Conclusie
 
-Het aanpassen van draaitabelstijlen in Aspose.Cells voor Java API is eenvoudig en stelt u in staat visueel verbluffende rapporten en presentaties van uw gegevens te maken. Experimenteer met verschillende stijlen en laat uw draaitabellen opvallen.
+Het aanpassen van draaitabelstijlen in Aspose.Cells voor Java API is eenvoudig en stelt u in staat visueel aantrekkelijke rapporten en presentaties van uw gegevens te maken. Experimenteer met verschillende stijlen en laat uw draaitabellen opvallen.
 
 ## Veelgestelde vragen
 
@@ -84,10 +84,10 @@ Het aanpassen van draaitabelstijlen in Aspose.Cells voor Java API is eenvoudig e
    Met Aspose.Cells voor Java kunt u uw draaitabellen opslaan in verschillende formaten, waaronder Excel, PDF en meer.
 
 ### Waar kan ik meer documentatie vinden over het aanpassen van draaitabellen?
-    U kunt de API-documentatie raadplegen op[Aspose.Cells voor Java API-referenties](https://reference.aspose.com/cells/java/) voor gedetailleerde informatie.
+   U kunt de API-documentatie raadplegen op [Aspose.Cells voor Java API-referenties](https://reference.aspose.com/cells/java/) voor gedetailleerde informatie.
 
-Nu hebt u de kennis om draaitabelstijlen te maken en aan te passen in Aspose.Cells voor Java. Ontdek verder en maak uw datapresentaties echt uitzonderlijk!
-{{< /blocks/products/pf/tutorial-page-section >}}
+Nu weet u hoe u draaitabelstijlen in Aspose.Cells voor Java kunt maken en aanpassen. Ontdek meer en maak uw datapresentaties echt uitzonderlijk!
+{{< /blocks/producten/pf/tutorial-pagina-sectie >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

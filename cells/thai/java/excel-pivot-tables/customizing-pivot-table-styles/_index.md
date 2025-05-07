@@ -1,10 +1,10 @@
 ---
-title: การปรับแต่งสไตล์ตารางสรุปข้อมูล
-linktitle: การปรับแต่งสไตล์ตารางสรุปข้อมูล
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีปรับแต่งรูปแบบตารางสรุปข้อมูลใน Aspose.Cells สำหรับ Java API สร้างตารางสรุปข้อมูลที่น่าสนใจได้อย่างง่ายดาย
-weight: 18
-url: /th/java/excel-pivot-tables/customizing-pivot-table-styles/
+"description": "เรียนรู้วิธีปรับแต่งรูปแบบตารางสรุปข้อมูลใน Aspose.Cells สำหรับ Java API สร้างตารางสรุปข้อมูลที่น่าสนใจได้อย่างง่ายดาย"
+"linktitle": "การปรับแต่งสไตล์ตารางสรุปข้อมูล"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การปรับแต่งสไตล์ตารางสรุปข้อมูล"
+"url": "/th/java/excel-pivot-tables/customizing-pivot-table-styles/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -18,7 +18,7 @@ url: /th/java/excel-pivot-tables/customizing-pivot-table-styles/
 
 ## การเริ่มต้น
 
- ก่อนปรับแต่งสไตล์ของตารางสรุปข้อมูล ตรวจสอบให้แน่ใจว่าคุณได้รวมไลบรารี Aspose.Cells สำหรับ Java ไว้ในโปรเจ็กต์ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/java/).
+ก่อนปรับแต่งสไตล์ของตารางสรุปข้อมูล ตรวจสอบให้แน่ใจว่าคุณได้รวมไลบรารี Aspose.Cells สำหรับ Java ไว้ในโปรเจ็กต์ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ## ขั้นตอนที่ 1: สร้างตารางสรุปข้อมูล
 
@@ -59,7 +59,7 @@ pivotTable.setStyleType(StyleType.PIVOT_TABLE_STYLE_LIGHT_16);
 
 ## ขั้นตอนที่ 4: บันทึกสมุดงาน
 
-อย่าลืมบันทึกเวิร์กบุ๊กของคุณเพื่อดูตารางสรุปข้อมูลที่กำหนดเอง:
+อย่าลืมบันทึกสมุดงานของคุณเพื่อดูตารางสรุปข้อมูลที่กำหนดเอง:
 
 ```java
 workbook.save("output.xlsx");
@@ -84,7 +84,7 @@ workbook.save("output.xlsx");
    Aspose.Cells สำหรับ Java ช่วยให้คุณสามารถบันทึกตารางสรุปข้อมูลในรูปแบบต่างๆ รวมถึง Excel, PDF และอื่นๆ อีกมากมาย
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับการปรับแต่งตารางสรุปข้อมูลได้ที่ไหน
-    คุณสามารถดูเอกสาร API ได้ที่[การอ้างอิง API ของ Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/) เพื่อดูข้อมูลโดยละเอียด
+   คุณสามารถดูเอกสาร API ได้ที่ [การอ้างอิง API ของ Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/) เพื่อดูข้อมูลโดยละเอียด
 
 ตอนนี้คุณมีความรู้ในการสร้างและปรับแต่งรูปแบบตารางสรุปข้อมูลใน Aspose.Cells สำหรับ Java แล้ว สำรวจเพิ่มเติมและทำให้การนำเสนอข้อมูลของคุณโดดเด่นอย่างแท้จริง!
 {{< /blocks/products/pf/tutorial-page-section >}}

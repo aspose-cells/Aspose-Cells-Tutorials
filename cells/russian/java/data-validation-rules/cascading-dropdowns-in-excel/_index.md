@@ -1,10 +1,10 @@
 ---
-title: Каскадные раскрывающиеся списки в Excel
-linktitle: Каскадные раскрывающиеся списки в Excel
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как создавать каскадные раскрывающиеся списки в Excel с помощью Aspose.Cells для Java. Это пошаговое руководство содержит исходный код и советы экспертов по эффективному манипулированию электронными таблицами Excel.
-weight: 13
-url: /ru/java/data-validation-rules/cascading-dropdowns-in-excel/
+"description": "Узнайте, как создавать каскадные раскрывающиеся списки в Excel с помощью Aspose.Cells для Java. Это пошаговое руководство содержит исходный код и советы экспертов по эффективной работе с электронными таблицами Excel."
+"linktitle": "Каскадные раскрывающиеся списки в Excel"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Каскадные раскрывающиеся списки в Excel"
+"url": "/ru/java/data-validation-rules/cascading-dropdowns-in-excel/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /ru/java/data-validation-rules/cascading-dropdowns-in-excel/
 
 Прежде чем отправиться в это путешествие, убедитесь, что у вас выполнены следующие предварительные условия:
 
--  Aspose.Cells для Java: загрузите и установите его с сайта[здесь](https://releases.aspose.com/cells/java/).
+- Aspose.Cells для Java: загрузите и установите его с сайта [здесь](https://releases.aspose.com/cells/java/).
 - Среда разработки Java: на вашем компьютере должна быть настроена среда разработки Java.
 - Базовые знания Excel: знакомство с Excel и его основными концепциями будет полезным.
 
@@ -47,7 +47,7 @@ Worksheet citySheet = workbook.getWorksheets().add("Cities");
 Теперь нам нужно заполнить наши рабочие листы данными. На листе «Страны» мы перечислим страны, а лист «Города» мы изначально оставим пустым, так как позже мы будем заполнять его динамически.
 
 ```java
-//Код Java для заполнения листа «Страны»
+// Код Java для заполнения листа «Страны»
 countrySheet.getCells().get("A1").putValue("Country");
 countrySheet.getCells().get("A2").putValue("USA");
 countrySheet.getCells().get("A3").putValue("Canada");
@@ -69,7 +69,7 @@ validation.setFormula1("Countries!$A$2:$A$4"); // Ссылка на список
 
 ## Шаг 4: Реализация каскадных раскрывающихся списков
 
-Теперь наступает самое интересное: реализация каскадных раскрывающихся списков. Мы будем использовать Aspose.Cells для Java для динамического обновления раскрывающегося списка городов на основе выбранной страны.
+Теперь наступает самое интересное: реализация каскадных выпадающих списков. Мы будем использовать Aspose.Cells для Java для динамического обновления выпадающего списка городов на основе выбранной страны.
 
 ```java
 // Код Java для реализации каскадных раскрывающихся списков
@@ -125,7 +125,8 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
 
 ### Где я могу найти дополнительные ресурсы и документацию по Aspose.Cells для Java?
 
- Вы можете получить доступ к полной документации и ресурсам по Aspose.Cells для Java по адресу[здесь](https://reference.aspose.com/cells/java/).
+Вы можете получить доступ к полной документации и ресурсам по Aspose.Cells для Java по адресу [здесь](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

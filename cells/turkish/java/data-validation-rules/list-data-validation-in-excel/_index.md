@@ -1,10 +1,10 @@
 ---
-title: Excel'de Liste Veri Doğrulaması
-linktitle: Excel'de Liste Veri Doğrulaması
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java kullanarak Excel'de Veri Doğrulamayı öğrenin. Kuralları, hata mesajlarını ve daha fazlasını uygulayın.
-weight: 16
-url: /tr/java/data-validation-rules/list-data-validation-in-excel/
+"description": "Aspose.Cells for Java kullanarak Excel'de Veri Doğrulamayı öğrenin. Kuralları, hata mesajlarını ve daha fazlasını uygulayın."
+"linktitle": "Excel'de Liste Veri Doğrulaması"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Excel'de Liste Veri Doğrulaması"
+"url": "/tr/java/data-validation-rules/list-data-validation-in-excel/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -52,7 +52,7 @@ Aspose.Cells for Java'yı kullanmaya başlamadan önce geliştirme ortamınızı
 
 ### Adım 2: Yeni bir Excel Çalışma Kitabı Oluşturun
 
- Başlamak için Aspose.Cells for Java kullanarak yeni bir Excel çalışma kitabı oluşturun. Bunu bir örnek oluşturarak yapabilirsiniz`Workbook` nesne:
+Başlamak için Aspose.Cells for Java kullanarak yeni bir Excel çalışma kitabı oluşturun. Bunu bir örnek oluşturarak yapabilirsiniz `Workbook` nesne:
 
 ```java
 Workbook workbook = new Workbook();
@@ -60,7 +60,7 @@ Workbook workbook = new Workbook();
 
 ### Adım 3: Veri Doğrulama Kurallarını Tanımlayın
 
-Ardından, Excel çalışma sayfanızdaki belirli hücreler için veri doğrulama kurallarını tanımlayın. Aşağıdakiler gibi çeşitli doğrulama ölçütleri ayarlayabilirsiniz:
+Ardından, Excel çalışma sayfanızdaki belirli hücreler için veri doğrulama kurallarını tanımlayın. Çeşitli doğrulama ölçütleri ayarlayabilirsiniz, örneğin:
 
 - Tam sayılar
 - Ondalık sayılar
@@ -134,6 +134,7 @@ Evet, Aspose.Cells for Java çok yönlüdür ve hem basit hem de karmaşık veri
 ### Excel'de hata mesajlarının görünümünü özelleştirebilir miyim?
 
 Evet, kullanıcılar geçersiz veri girdiğinde görüntülenen hata mesajlarını özelleştirebilirsiniz. Java için Aspose.Cells, kullanıcılara net talimatlar sağlamak için özel hata mesajları ayarlamanıza olanak tanır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

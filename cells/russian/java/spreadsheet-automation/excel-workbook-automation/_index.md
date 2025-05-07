@@ -1,10 +1,10 @@
 ---
-title: Автоматизация рабочих книг Excel
-linktitle: Автоматизация рабочих книг Excel
-second_title: API обработки Java Excel Aspose.Cells
-description: Изучите автоматизацию Excel Workbook на Java с Aspose.Cells. Создавайте, читайте, обновляйте файлы Excel программно. Начните прямо сейчас!
-weight: 16
-url: /ru/java/spreadsheet-automation/excel-workbook-automation/
+"description": "Изучите автоматизацию Excel Workbook на Java с помощью Aspose.Cells. Создавайте, читайте, обновляйте файлы Excel программно. Начните прямо сейчас!"
+"linktitle": "Автоматизация рабочих книг Excel"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Автоматизация рабочих книг Excel"
+"url": "/ru/java/spreadsheet-automation/excel-workbook-automation/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -18,7 +18,7 @@ url: /ru/java/spreadsheet-automation/excel-workbook-automation/
 В этом уроке мы рассмотрим, как автоматизировать операции с книгами Excel с помощью библиотеки Aspose.Cells для Java. Aspose.Cells — это мощный API Java, который позволяет вам создавать, изменять и управлять файлами Excel программным способом.
 
 ## Предпосылки
- Прежде чем начать, убедитесь, что в ваш проект добавлена библиотека Aspose.Cells for Java. Вы можете загрузить ее с[здесь](https://releases.aspose.com/cells/java/).
+Прежде чем начать, убедитесь, что в ваш проект добавлена библиотека Aspose.Cells for Java. Вы можете загрузить ее с [здесь](https://releases.aspose.com/cells/java/).
 
 ## Шаг 1: Создайте новую книгу Excel
 Давайте начнем с создания новой книги Excel с помощью Aspose.Cells. Ниже приведен пример того, как это сделать:
@@ -107,10 +107,10 @@ public class UpdateExcelData {
    Конечно! Aspose.Cells обеспечивает обширную поддержку расширенных функций Excel, включая создание диаграмм, работу со сводными таблицами и многое другое.
 
 ### Где я могу найти дополнительную документацию и ресурсы по Aspose.Cells для Java?
-    Вы можете обратиться к документации API по адресу[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения подробной информации и примеров кода.
+   Вы можете обратиться к документации API по адресу [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения подробной информации и примеров кода.
 
 Не стесняйтесь исследовать более продвинутые функции и возможности Aspose.Cells for Java, чтобы адаптировать ваши потребности в автоматизации Excel. Если у вас есть какие-либо конкретные вопросы или вам нужна дополнительная помощь, не стесняйтесь спрашивать.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

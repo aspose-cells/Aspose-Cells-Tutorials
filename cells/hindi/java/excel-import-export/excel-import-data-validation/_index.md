@@ -1,10 +1,10 @@
 ---
-title: एक्सेल आयात डेटा सत्यापन
-linktitle: एक्सेल आयात डेटा सत्यापन
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: इस विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ Java के लिए Aspose.Cells का उपयोग करके Excel आयात डेटा सत्यापन को लागू करना सीखें। डेटा सटीकता सुनिश्चित करें और उपयोगकर्ता अनुभव को बेहतर बनाएँ।
-weight: 18
-url: /hi/java/excel-import-export/excel-import-data-validation/
+"description": "इस विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ Java के लिए Aspose.Cells का उपयोग करके Excel आयात डेटा सत्यापन को लागू करना सीखें। डेटा सटीकता सुनिश्चित करें और उपयोगकर्ता अनुभव को बेहतर बनाएँ।"
+"linktitle": "एक्सेल आयात डेटा सत्यापन"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "एक्सेल आयात डेटा सत्यापन"
+"url": "/hi/java/excel-import-export/excel-import-data-validation/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -25,7 +25,7 @@ url: /hi/java/excel-import-export/excel-import-data-validation/
 
 1. जावा डेवलपमेंट किट (JDK) इंस्टॉल करें: सुनिश्चित करें कि आपके सिस्टम पर JDK इंस्टॉल है। आप इसे Oracle वेबसाइट से डाउनलोड कर सकते हैं।
 
-2.  Aspose.Cells डाउनलोड करें: यहाँ जाएँ[Aspose.Cells for Java डाउनलोड पृष्ठ](https://releases.aspose.com/cells/java/) लाइब्रेरी प्राप्त करने के लिए दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+2. Aspose.Cells डाउनलोड करें: यहाँ जाएँ [Aspose.Cells for Java डाउनलोड पृष्ठ](https://releases.aspose.com/cells/java/) लाइब्रेरी प्राप्त करने के लिए दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 
 3. जावा प्रोजेक्ट बनाएं: अपने पसंदीदा एकीकृत विकास वातावरण (IDE) में एक नया जावा प्रोजेक्ट सेट करें।
 

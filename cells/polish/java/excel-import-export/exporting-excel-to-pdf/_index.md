@@ -1,10 +1,10 @@
 ---
-title: Eksportowanie Excela do PDF
-linktitle: Eksportowanie Excela do PDF
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak bez wysiłku eksportować pliki Excel do PDF za pomocą Aspose.Cells for Java. Nasz przewodnik krok po kroku upraszcza ten proces. Zacznij konwertować już dziś!
-weight: 14
-url: /pl/java/excel-import-export/exporting-excel-to-pdf/
+"description": "Dowiedz się, jak bez wysiłku eksportować pliki Excel do PDF za pomocą Aspose.Cells for Java. Nasz przewodnik krok po kroku upraszcza ten proces. Zacznij konwertować już dziś!"
+"linktitle": "Eksportowanie Excela do PDF"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Eksportowanie Excela do PDF"
+"url": "/pl/java/excel-import-export/exporting-excel-to-pdf/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,7 +14,7 @@ url: /pl/java/excel-import-export/exporting-excel-to-pdf/
 # Eksportowanie Excela do PDF
 
 
-tym kompleksowym przewodniku przeprowadzimy Cię przez proces eksportowania pliku Excel do dokumentu PDF przy użyciu biblioteki Aspose.Cells for Java. Ta biblioteka umożliwia programistom Java pracę z plikami Excel programowo i zapewnia solidne wsparcie dla różnych formatów plików, w tym PDF. Postępując zgodnie z tymi szczegółowymi krokami, zdobędziesz głębokie zrozumienie, jak płynnie konwertować pliki Excel do formatu PDF.
+W tym kompleksowym przewodniku przeprowadzimy Cię przez proces eksportowania pliku Excel do dokumentu PDF przy użyciu biblioteki Aspose.Cells for Java. Ta biblioteka umożliwia programistom Java pracę z plikami Excel programowo i zapewnia solidne wsparcie dla różnych formatów plików, w tym PDF. Postępując zgodnie z tymi szczegółowymi krokami, zdobędziesz głębokie zrozumienie, jak płynnie konwertować pliki Excel do formatu PDF.
 
 ## Wymagania wstępne
 
@@ -26,7 +26,7 @@ Zanim przejdziemy do szczegółów procesu, upewnij się, że spełnione są nas
 
 ## Krok 1: Utwórz projekt Java
 
-Zacznij od utworzenia nowego projektu Java w wybranym Zintegrowanym Środowisku Programistycznym (IDE) lub edytorze tekstu. Skonfiguruj swój projekt, aby wykorzystać bibliotekę Aspose.Cells for Java.
+Zacznij od utworzenia nowego projektu Java w wybranym zintegrowanym środowisku programistycznym (IDE) lub edytorze tekstu. Skonfiguruj swój projekt, aby wykorzystać bibliotekę Aspose.Cells for Java.
 
 ## Krok 2: Załaduj plik Excel
 
@@ -46,7 +46,7 @@ public class ExcelToPdfConverter {
             // Załaduj plik Excel
             Workbook workbook = new Workbook(excelFilePath);
 
-            // W razie potrzeby można tutaj dodać dodatkowy kod umożliwiający manipulowanie danymi w programie Excel.
+            // W razie potrzeby można tutaj dodać dodatkowy kod, aby manipulować danymi w programie Excel.
 
             // Zapisz skoroszyt programu Excel jako plik PDF
             String pdfFilePath = "path/to/output/pdf/file.pdf";
@@ -61,7 +61,7 @@ public class ExcelToPdfConverter {
 }
 ```
 
- Upewnij się, że wymieniasz`"path/to/your/excel/file.xlsx"` z rzeczywistą ścieżką do pliku Excel.
+Upewnij się, że wymieniasz `"path/to/your/excel/file.xlsx"` z rzeczywistą ścieżką do pliku Excel.
 
 ## Krok 3: Konwersja Excela do PDF
 
@@ -73,7 +73,7 @@ String pdfFilePath = "path/to/output/pdf/file.pdf";
 workbook.save(pdfFilePath, SaveFormat.PDF);
 ```
 
- Zastępować`"path/to/output/pdf/file.pdf"` z preferowaną ścieżką wyjściową i nazwą pliku wynikowego dokumentu PDF.
+Zastępować `"path/to/output/pdf/file.pdf"` z preferowaną ścieżką wyjściową i nazwą pliku wynikowego dokumentu PDF.
 
 ## Krok 4: Ulepsz swoją aplikację Java
 
@@ -105,7 +105,7 @@ Chociaż Aspose.Cells jest zoptymalizowany pod kątem wydajnej obsługi dużych 
 
 P5: Gdzie mogę znaleźć więcej dokumentacji i przykładów dla Aspose.Cells?
 
- Zapoznaj się z dokumentacją API Aspose.Cells na stronie[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) gdzie znajdziesz kompleksową dokumentację i bogactwo przykładów, które pozwolą Ci poszerzyć swoją wiedzę.
+Zapoznaj się z dokumentacją API Aspose.Cells na stronie [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) gdzie znajdziesz kompleksową dokumentację i bogactwo przykładów, które pozwolą Ci poszerzyć swoją wiedzę.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

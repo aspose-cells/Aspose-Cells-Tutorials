@@ -1,10 +1,10 @@
 ---
-title: Bezpieczeństwo danych w programie Excel
-linktitle: Bezpieczeństwo danych w programie Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Zwiększ bezpieczeństwo danych w programie Excel dzięki Aspose.Cells for Java. Dowiedz się krok po kroku, jak chronić arkusze kalkulacyjne, szyfrować pliki i zapewnić integralność danych.
-weight: 17
-url: /pl/java/excel-data-security/
+"description": "Zwiększ bezpieczeństwo danych w programie Excel dzięki Aspose.Cells for Java. Dowiedz się krok po kroku, jak chronić arkusze kalkulacyjne, szyfrować pliki i zapewnić integralność danych."
+"linktitle": "Bezpieczeństwo danych w programie Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Bezpieczeństwo danych w programie Excel"
+"url": "/pl/java/excel-data-security/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -31,13 +31,13 @@ Zapewnienie integralności danych jest kluczowe. Przyjrzymy się, jak używać r
 ### [Ochrona hasłem programu Excel](./excel-password-protection/)
 Dowiedz się, jak zwiększyć bezpieczeństwo danych dzięki ochronie hasłem w programie Excel za pomocą Aspose.Cells for Java. Przewodnik krok po kroku z kodem źródłowym dla najwyższej poufności danych.
 ### [Strategie blokowania komórek](./cell-locking-strategies/)
-Poznaj skuteczne strategie blokowania komórek za pomocą Aspose.Cells dla Java. Zwiększ bezpieczeństwo danych i integralność w plikach Excel dzięki przewodnikowi krok po kroku.
+Poznaj skuteczne strategie blokowania komórek za pomocą Aspose.Cells for Java. Zwiększ bezpieczeństwo danych i integralność w plikach Excel dzięki przewodnikowi krok po kroku.
 ### [Metody szyfrowania skoroszytu](./workbook-encryption-methods/)
 Zwiększ bezpieczeństwo danych dzięki Aspose.Cells do szyfrowania skoroszytów Java. Dowiedz się, jak szyfrować skoroszyty Excela krok po kroku.
 ### [Techniki maskowania danych](./data-masking-techniques/)
 Poznaj skuteczne techniki maskowania danych przy użyciu Aspose.Cells dla Java. Zabezpiecz poufne informacje, zachowując integralność danych.
 ### [Audyt dostępu do plików](./auditing-file-access/)
-Dowiedz się, jak audytować dostęp do plików za pomocą Aspose.Cells for Java API. Przewodnik krok po kroku z kodem źródłowym i często zadawanymi pytaniami.
+Dowiedz się, jak audytować dostęp do plików za pomocą Aspose.Cells for Java API. Przewodnik krok po kroku z kodem źródłowym i FAQ.
 ### [Walidacja danych dla bezpieczeństwa](./data-validation-for-security/)
 Zwiększ bezpieczeństwo danych dzięki Aspose.Cells dla Java. Poznaj kompleksowe techniki walidacji danych. Dowiedz się, jak wdrożyć solidną walidację i ochronę.
 {{< /blocks/products/pf/tutorial-page-section >}}

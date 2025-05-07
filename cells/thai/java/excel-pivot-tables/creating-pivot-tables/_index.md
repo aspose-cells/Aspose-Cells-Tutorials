@@ -1,10 +1,10 @@
 ---
-title: การสร้างตารางสรุปข้อมูล
-linktitle: การสร้างตารางสรุปข้อมูล
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีการสร้าง Pivot Table อันทรงพลังใน Java ด้วย Aspose.Cells เพื่อการวิเคราะห์และการแสดงข้อมูลที่ได้รับการปรับปรุง
-weight: 10
-url: /th/java/excel-pivot-tables/creating-pivot-tables/
+"description": "เรียนรู้วิธีการสร้าง Pivot Table อันทรงพลังใน Java ด้วย Aspose.Cells เพื่อการวิเคราะห์และการแสดงข้อมูลที่ได้รับการปรับปรุง"
+"linktitle": "การสร้างตารางสรุปข้อมูล"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การสร้างตารางสรุปข้อมูล"
+"url": "/th/java/excel-pivot-tables/creating-pivot-tables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -17,7 +17,7 @@ url: /th/java/excel-pivot-tables/creating-pivot-tables/
 Pivot Table เป็นเครื่องมือที่ขาดไม่ได้สำหรับการวิเคราะห์และแสดงข้อมูล ในบทช่วยสอนนี้ เราจะมาเรียนรู้วิธีสร้าง Pivot Table โดยใช้ Aspose.Cells for Java API เราจะให้คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดต้นฉบับเพื่อให้กระบวนการนี้ราบรื่น
 
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Cells สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/java/).
+ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Cells สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ## ขั้นตอนที่ 1: สร้างสมุดงาน
 ```java
@@ -69,7 +69,7 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 2);  // เพิ่มค่า
 คุณสามารถปรับแต่งลักษณะที่ปรากฏและพฤติกรรมของ Pivot Table ได้ตามต้องการ
 
 ```java
-//ปรับแต่งตารางสรุปข้อมูล
+// ปรับแต่งตารางสรุปข้อมูล
 pivotTable.refreshData();
 pivotTable.calculateData();
 ```
@@ -95,7 +95,7 @@ workbook.save("output.xlsx");
 ### Aspose.Cells เข้ากันได้กับรูปแบบข้อมูลที่แตกต่างกันหรือไม่
    ใช่ Aspose.Cells รองรับรูปแบบข้อมูลหลากหลาย รวมถึง Excel, CSV และอื่นๆ อีกมากมาย
 
-### ฉันสามารถปรับแต่งการจัดรูปแบบของตาราง Pivot ได้หรือไม่
+### ฉันสามารถปรับแต่งการจัดรูปแบบของตารางสรุปข้อมูลได้หรือไม่
    แน่นอน คุณสามารถปรับแต่งลักษณะที่ปรากฏและการจัดรูปแบบของ Pivot Table ให้ตรงตามความต้องการของคุณได้
 
 ### ฉันสามารถสร้าง Pivot Table แบบอัตโนมัติในแอปพลิเคชัน Java ได้อย่างไร

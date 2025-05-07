@@ -1,10 +1,10 @@
 ---
-title: Grupowanie danych w tabelach przestawnych
-linktitle: Grupowanie danych w tabelach przestawnych
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak tworzyć tabele przestawne w programie Excel przy użyciu Aspose.Cells dla języka Java. Zautomatyzuj grupowanie i analizę danych za pomocą przykładów kodu źródłowego.
-weight: 14
-url: /pl/java/excel-pivot-tables/grouping-data-in-pivot-tables/
+"description": "Dowiedz się, jak tworzyć tabele przestawne w programie Excel za pomocą Aspose.Cells dla języka Java. Zautomatyzuj grupowanie i analizę danych za pomocą przykładów kodu źródłowego."
+"linktitle": "Grupowanie danych w tabelach przestawnych"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Grupowanie danych w tabelach przestawnych"
+"url": "/pl/java/excel-pivot-tables/grouping-data-in-pivot-tables/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -58,13 +58,13 @@ workbook.save("output.xlsx");
 
 ## Krok 2: Dane grupowe
 
- W Aspose.Cells for Java możesz grupować dane w tabeli przestawnej za pomocą`PivotField` klasa. Oto przykład, jak grupować pole w tabeli przestawnej:
+W Aspose.Cells for Java możesz grupować dane w tabeli przestawnej za pomocą `PivotField` klasa. Oto przykład, jak grupować pole w tabeli przestawnej:
 
 ```java
 // Uzyskaj dostęp do pola „Produkt” w tabeli przestawnej
 PivotField productField = pivotTable.getPivotFields().get("Product");
 
-//Grupuj pole „Produkt” według określonego kryterium, np. według litery początkowej
+// Grupuj pole „Produkt” według określonego kryterium, np. według litery początkowej
 productField.setIsAutoSubtotals(false);
 productField.setBaseField("Product");
 productField.setAutoSort(true);
@@ -103,7 +103,7 @@ Tabele przestawne w programie Excel służą do podsumowywania i analizowania du
 
 ### 2. Jak mogę dostosować grupowanie danych w tabeli przestawnej?
 
- Możesz dostosować grupowanie danych w tabeli przestawnej za pomocą`PivotField` Klasa w Aspose.Cells dla Java. Pozwala to określić kryteria grupowania, takie jak przedziały oparte na dacie lub reguły niestandardowe.
+Możesz dostosować grupowanie danych w tabeli przestawnej za pomocą `PivotField` Klasa w Aspose.Cells dla Java. Pozwala to określić kryteria grupowania, takie jak przedziały oparte na dacie lub reguły niestandardowe.
 
 ### 3. Czy mogę zautomatyzować tworzenie tabel przestawnych za pomocą Aspose.Cells dla Java?
 

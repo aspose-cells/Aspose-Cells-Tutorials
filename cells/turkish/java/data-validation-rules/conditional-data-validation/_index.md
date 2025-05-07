@@ -1,10 +1,10 @@
 ---
-title: Koşullu Veri Doğrulaması
-linktitle: Koşullu Veri Doğrulaması
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java için Aspose.Cells'i kullanarak koşullu veri doğrulamasını nasıl uygulayacağınızı öğrenin. Excel elektronik tablolarında doğru veri işleme için kaynak kodlu adım adım kılavuz.
-weight: 17
-url: /tr/java/data-validation-rules/conditional-data-validation/
+"description": "Java için Aspose.Cells'i kullanarak koşullu veri doğrulamasını nasıl uygulayacağınızı öğrenin. Excel elektronik tablolarında doğru veri işleme için kaynak kodlu adım adım kılavuz."
+"linktitle": "Koşullu Veri Doğrulaması"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Koşullu Veri Doğrulaması"
+"url": "/tr/java/data-validation-rules/conditional-data-validation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ Koşullu veri doğrulamasının ayrıntılarına dalmadan önce, Java için Aspo
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
--  Java kütüphanesi için Aspose.Cells. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/).
+- Java kütüphanesi için Aspose.Cells. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/cells/java/).
 
 ## Adım 1: Yeni bir Java Projesi Oluşturun
 
@@ -52,7 +52,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Adım 4: Doğrulama Kriterlerini Tanımlayın
 
-Koşullu veri doğrulaması, belirli hücrelerdeki veriler için ölçütler belirlemeyi içerir. Örneğin, bir hücredeki girdiyi 1 ile 100 arasında bir sayı olacak şekilde sınırlamak isteyebilirsiniz. Bu tür ölçütleri şu şekilde tanımlayabilirsiniz:
+Koşullu veri doğrulaması, belirli hücrelerdeki veriler için ölçütler ayarlamayı içerir. Örneğin, bir hücredeki girdiyi 1 ile 100 arasında bir sayı olacak şekilde sınırlamak isteyebilirsiniz. Bu tür ölçütleri şu şekilde tanımlayabilirsiniz:
 
 ```java
 DataValidation dataValidation = worksheet.getValidations().addDataValidation("A1:A10", DataValidationType.WHOLE, DataValidationOperator.BETWEEN, "1", "100");
@@ -95,7 +95,7 @@ Bu eğitimde, Aspose.Cells for Java kullanarak koşullu veri doğrulamasının n
 
 ### Java için Aspose.Cells'i nasıl yüklerim?
 
- Java için Aspose.Cells, web sitesinden kütüphaneyi indirerek kurulabilir.[Burada](https://releases.aspose.com/cells/java/).
+Java için Aspose.Cells, web sitesinden kütüphaneyi indirerek kurulabilir. [Burada](https://releases.aspose.com/cells/java/).
 
 ### Koşullu veri doğrulamasını aynı anda birden fazla hücreye uygulayabilir miyim?
 
@@ -112,6 +112,7 @@ Kesinlikle! Uygulamanızın gereksinimlerine uyacak şekilde hata mesajını, ba
 ### Java için Aspose.Cells'de koşullu veri doğrulamasının herhangi bir sınırlaması var mı?
 
 Java için Aspose.Cells güçlü veri doğrulama özellikleri sağlasa da, karmaşık doğrulama kurallarını uygularken herhangi bir özel sınırlama veya husus olup olmadığını görmek için belgeleri incelemek önemlidir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

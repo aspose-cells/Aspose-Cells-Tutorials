@@ -1,10 +1,10 @@
 ---
-title: Zrozumienie funkcji MAX w programie Excel
-linktitle: Zrozumienie funkcji MAX w programie Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak używać funkcji Excel MAX z Aspose.Cells dla Java. Odkryj wskazówki krok po kroku, przykłady kodu i FAQ w tym kompleksowym samouczku.
-weight: 16
-url: /pl/java/basic-excel-functions/understanding-excel-max-function/
+"description": "Dowiedz się, jak używać funkcji Excel MAX z Aspose.Cells dla Java. Odkryj wskazówki krok po kroku, przykłady kodu i FAQ w tym kompleksowym samouczku."
+"linktitle": "Zrozumienie funkcji MAX w programie Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Zrozumienie funkcji MAX w programie Excel"
+"url": "/pl/java/basic-excel-functions/understanding-excel-max-function/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ url: /pl/java/basic-excel-functions/understanding-excel-max-function/
 
 ## Wstęp
 
-Funkcja MAX w programie Excel jest cennym narzędziem do analizy danych. Umożliwia szybkie znalezienie największej wartości w określonym zakresie komórek. Niezależnie od tego, czy pracujesz z danymi finansowymi, liczbami sprzedaży czy innymi danymi liczbowymi, funkcja MAX może pomóc Ci z łatwością zidentyfikować najwyższą wartość.
+Funkcja MAX w programie Excel jest cennym narzędziem do analizy danych. Pozwala szybko znaleźć największą wartość w określonym zakresie komórek. Niezależnie od tego, czy pracujesz z danymi finansowymi, liczbami sprzedaży czy innymi danymi liczbowymi, funkcja MAX może pomóc Ci z łatwością zidentyfikować najwyższą wartość.
 
 ## Wymagania wstępne
 
@@ -88,7 +88,7 @@ Podczas pracy z plikami Excela istotne jest radzenie sobie z potencjalnymi błę
 
 ## Wniosek
 
-tym artykule przyjrzeliśmy się, jak używać funkcji Excel MAX przy użyciu Aspose.Cells for Java. Dowiedzieliśmy się, jak załadować plik Excel, określić zakres komórek i znaleźć maksymalną wartość w tym zakresie. Ta wiedza jest cenna dla każdego, kto zajmuje się analizą danych i manipulacją w aplikacjach Java.
+W tym artykule przyjrzeliśmy się, jak używać funkcji Excel MAX przy użyciu Aspose.Cells for Java. Dowiedzieliśmy się, jak załadować plik Excel, określić zakres komórek i znaleźć maksymalną wartość w tym zakresie. Ta wiedza jest cenna dla każdego, kto zajmuje się analizą danych i manipulacją w aplikacjach Java.
 
 ## Najczęściej zadawane pytania
 
@@ -110,7 +110,8 @@ Tak, Aspose.Cells for Java jest zaprojektowany do wydajnej obsługi dużych plik
 
 ### Gdzie mogę znaleźć więcej dokumentacji i przykładów dla Aspose.Cells dla Java?
 
- Dokumentację Aspose.Cells for Java można znaleźć pod adresem[Tutaj](https://reference.aspose.com/cells/java/) aby uzyskać kompleksowe informacje i przykłady.
+Dokumentację Aspose.Cells for Java można znaleźć pod adresem [Tutaj](https://reference.aspose.com/cells/java/) aby uzyskać szczegółowe informacje i przykłady.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

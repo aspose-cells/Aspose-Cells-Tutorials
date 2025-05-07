@@ -1,10 +1,10 @@
 ---
-title: การตรวจสอบข้อมูลแบบมีเงื่อนไข
-linktitle: การตรวจสอบข้อมูลแบบมีเงื่อนไข
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีนำการตรวจสอบข้อมูลแบบมีเงื่อนไขมาใช้โดยใช้ Aspose.Cells สำหรับ Java คำแนะนำแบบทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการจัดการข้อมูลอย่างแม่นยำในสเปรดชีต Excel
-weight: 17
-url: /th/java/data-validation-rules/conditional-data-validation/
+"description": "เรียนรู้วิธีนำการตรวจสอบข้อมูลแบบมีเงื่อนไขมาใช้โดยใช้ Aspose.Cells สำหรับ Java คำแนะนำแบบทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการจัดการข้อมูลอย่างแม่นยำในสเปรดชีต Excel"
+"linktitle": "การตรวจสอบข้อมูลแบบมีเงื่อนไข"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การตรวจสอบข้อมูลแบบมีเงื่อนไข"
+"url": "/th/java/data-validation-rules/conditional-data-validation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ url: /th/java/data-validation-rules/conditional-data-validation/
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
--  ไลบรารี Aspose.Cells สำหรับ Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/java/).
+- ไลบรารี Aspose.Cells สำหรับ Java คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ## ขั้นตอนที่ 1: สร้างโครงการ Java ใหม่
 
@@ -35,7 +35,7 @@ url: /th/java/data-validation-rules/conditional-data-validation/
 
 ## ขั้นตอนที่ 2: นำเข้า Aspose.Cells สำหรับ Java
 
-ในโปรเจ็กต์ Java ของคุณ คุณต้องนำเข้าไลบรารี Aspose.Cells สำหรับ Java เพื่อเข้าถึงฟีเจอร์ต่างๆ ของโปรเจ็กต์นี้ โดยคุณสามารถทำได้ดังนี้:
+ในโปรเจ็กต์ Java ของคุณ คุณต้องนำเข้าไลบรารี Aspose.Cells สำหรับ Java เพื่อเข้าถึงฟีเจอร์ต่างๆ ของไลบรารีนี้ คุณสามารถทำได้ดังนี้:
 
 ```java
 import com.aspose.cells.*;
@@ -95,7 +95,7 @@ workbook.save("ConditionalValidationExample.xlsx");
 
 ### ฉันจะติดตั้ง Aspose.Cells สำหรับ Java ได้อย่างไร?
 
- สามารถติดตั้ง Aspose.Cells สำหรับ Java ได้โดยดาวน์โหลดไลบรารีจากเว็บไซต์ที่[ที่นี่](https://releases.aspose.com/cells/java/).
+สามารถติดตั้ง Aspose.Cells สำหรับ Java ได้โดยดาวน์โหลดไลบรารีจากเว็บไซต์ที่ [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ### ฉันสามารถใช้การตรวจสอบข้อมูลแบบมีเงื่อนไขกับเซลล์หลายเซลล์พร้อมกันได้หรือไม่
 
@@ -112,6 +112,7 @@ workbook.save("ConditionalValidationExample.xlsx");
 ### มีข้อจำกัดใด ๆ ในการตรวจสอบข้อมูลแบบมีเงื่อนไขใน Aspose.Cells สำหรับ Java หรือไม่
 
 แม้ว่า Aspose.Cells สำหรับ Java จะมีคุณลักษณะการตรวจสอบข้อมูลที่แข็งแกร่ง แต่การตรวจสอบเอกสารเพื่อดูข้อจำกัดหรือข้อควรพิจารณาเฉพาะใดๆ เมื่อใช้กฎการตรวจสอบที่ซับซ้อน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

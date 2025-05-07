@@ -1,10 +1,10 @@
 ---
-title: Kaskadowe listy rozwijane w programie Excel
-linktitle: Kaskadowe listy rozwijane w programie Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak tworzyć kaskadowe listy rozwijane w programie Excel przy użyciu Aspose.Cells for Java. Ten przewodnik krok po kroku zawiera kod źródłowy i porady ekspertów dotyczące wydajnej manipulacji arkuszami kalkulacyjnymi w programie Excel.
-weight: 13
-url: /pl/java/data-validation-rules/cascading-dropdowns-in-excel/
+"description": "Dowiedz się, jak tworzyć kaskadowe listy rozwijane w programie Excel przy użyciu Aspose.Cells for Java. Ten przewodnik krok po kroku zawiera kod źródłowy i porady ekspertów dotyczące wydajnej manipulacji arkuszami kalkulacyjnymi w programie Excel."
+"linktitle": "Kaskadowe listy rozwijane w programie Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Kaskadowe listy rozwijane w programie Excel"
+"url": "/pl/java/data-validation-rules/cascading-dropdowns-in-excel/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,13 +16,13 @@ url: /pl/java/data-validation-rules/cascading-dropdowns-in-excel/
 
 ## Wprowadzenie do kaskadowych menu rozwijanych w programie Excel
 
-W świecie manipulacji arkuszami kalkulacyjnymi Aspose.Cells for Java jest potężnym zestawem narzędzi, który umożliwia programistom wydajną pracę z plikami Excel. Jedną z intrygujących funkcji, jakie oferuje, jest możliwość tworzenia kaskadowych list rozwijanych w Excelu, umożliwiając użytkownikom dynamiczny wybór opcji na podstawie poprzedniego wyboru. W tym przewodniku krok po kroku zagłębimy się w proces implementacji kaskadowych list rozwijanych przy użyciu Aspose.Cells for Java. Więc zaczynajmy!
+świecie manipulacji arkuszami kalkulacyjnymi Aspose.Cells for Java jest potężnym zestawem narzędzi, który umożliwia programistom wydajną pracę z plikami Excel. Jedną z intrygujących funkcji, jakie oferuje, jest możliwość tworzenia kaskadowych list rozwijanych w Excelu, umożliwiając użytkownikom dynamiczny wybór opcji na podstawie poprzedniego wyboru. W tym przewodniku krok po kroku zagłębimy się w proces implementacji kaskadowych list rozwijanych przy użyciu Aspose.Cells for Java. Więc zaczynajmy!
 
 ## Wymagania wstępne
 
 Zanim wyruszysz w tę podróż, upewnij się, że spełnione są następujące warunki wstępne:
 
--  Aspose.Cells dla Java: Pobierz i zainstaluj ze strony[Tutaj](https://releases.aspose.com/cells/java/).
+- Aspose.Cells dla Java: Pobierz i zainstaluj ze strony [Tutaj](https://releases.aspose.com/cells/java/).
 - Środowisko programistyczne Java: Na swoim komputerze powinieneś mieć skonfigurowane środowisko programistyczne Java.
 - Podstawowa znajomość programu Excel: Znajomość programu Excel i jego podstawowych koncepcji będzie pomocna.
 
@@ -47,7 +47,7 @@ Worksheet citySheet = workbook.getWorksheets().add("Cities");
 Teraz musimy wypełnić nasze arkusze danymi. W arkuszu „Kraje” wymienimy kraje, a w arkuszu „Miasta” początkowo pozostawimy go pustym, ponieważ wypełnimy go dynamicznie później.
 
 ```java
-//Kod Java do wypełniania arkusza „Kraje”
+// Kod Java do wypełniania arkusza „Kraje”
 countrySheet.getCells().get("A1").putValue("Country");
 countrySheet.getCells().get("A2").putValue("USA");
 countrySheet.getCells().get("A3").putValue("Canada");
@@ -125,7 +125,8 @@ Chociaż podstawowa znajomość Javy jest pomocna, Aspose.Cells for Java zapewni
 
 ### Gdzie mogę znaleźć więcej materiałów i dokumentacji dla Aspose.Cells dla Java?
 
- Pełną dokumentację i zasoby dotyczące Aspose.Cells dla języka Java można uzyskać pod adresem[Tutaj](https://reference.aspose.com/cells/java/).
+Pełną dokumentację i zasoby dotyczące Aspose.Cells dla języka Java można uzyskać pod adresem [Tutaj](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

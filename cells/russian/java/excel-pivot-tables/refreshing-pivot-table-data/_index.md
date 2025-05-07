@@ -1,10 +1,10 @@
 ---
-title: Обновление данных сводной таблицы
-linktitle: Обновление данных сводной таблицы
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как обновить данные сводной таблицы в Aspose.Cells для Java. Поддерживайте актуальность данных без усилий.
-weight: 16
-url: /ru/java/excel-pivot-tables/refreshing-pivot-table-data/
+"description": "Узнайте, как обновить данные сводной таблицы в Aspose.Cells для Java. Поддерживайте актуальность данных без усилий."
+"linktitle": "Обновление данных сводной таблицы"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Обновление данных сводной таблицы"
+"url": "/ru/java/excel-pivot-tables/refreshing-pivot-table-data/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /ru/java/excel-pivot-tables/refreshing-pivot-table-data/
 
 ## Шаг 1: Инициализация Aspose.Cells
 
- Для начала вам нужно настроить Java-среду с Aspose.Cells. Если вы еще этого не сделали, загрузите и установите библиотеку из[Aspose.Cells для загрузки Java](https://releases.aspose.com/cells/java/) страница.
+Для начала вам нужно настроить Java-среду с Aspose.Cells. Если вы еще этого не сделали, загрузите и установите библиотеку с [Aspose.Cells для загрузки Java](https://releases.aspose.com/cells/java/) страница.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -77,7 +77,7 @@ workbook.save(outputFilePath);
 ### Почему моя сводная таблица не обновляется автоматически?
    - Сводные таблицы в Excel могут не обновляться автоматически, если источник данных не настроен на обновление при открытии файла. Обязательно включите эту опцию в настройках сводной таблицы.
 
-### Можно ли обновлять сводные таблицы в пакетном режиме для нескольких рабочих книг?
+### Можно ли обновлять сводные таблицы пакетно для нескольких книг?
    - Да, вы можете автоматизировать процесс обновления сводных таблиц для нескольких рабочих книг с помощью Aspose.Cells для Java. Создайте скрипт или программу для итерации по вашим файлам и примените шаги обновления.
 
 ### Совместим ли Aspose.Cells с различными источниками данных?
@@ -90,7 +90,7 @@ workbook.save(outputFilePath);
    - Да, вы можете запланировать автоматическое обновление данных с помощью библиотек планирования Aspose.Cells и Java. Это позволяет вам поддерживать сводные таблицы в актуальном состоянии без ручного вмешательства.
 
 Теперь у вас есть знания, как обновить данные сводной таблицы в Aspose.Cells для Java. Сохраняйте точность анализов и опережайте свои решения, основанные на данных.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

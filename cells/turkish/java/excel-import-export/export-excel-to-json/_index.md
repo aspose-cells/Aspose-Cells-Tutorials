@@ -1,10 +1,10 @@
 ---
-title: Excel'i JSON'a aktar
-linktitle: Excel'i JSON'a aktar
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java kullanarak Excel verilerini JSON'a nasıl aktaracağınızı öğrenin. Sorunsuz dönüşüm için kaynak koduyla bu adım adım kılavuzu izleyin.
-weight: 17
-url: /tr/java/excel-import-export/export-excel-to-json/
+"description": "Aspose.Cells for Java kullanarak Excel verilerini JSON'a nasıl aktaracağınızı öğrenin. Sorunsuz dönüşüm için kaynak koduyla bu adım adım kılavuzu izleyin."
+"linktitle": "Excel'i JSON'a aktar"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Excel'i JSON'a aktar"
+"url": "/tr/java/excel-import-export/export-excel-to-json/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,7 +20,7 @@ Bu eğitimde, Aspose.Cells for Java kütüphanesini kullanarak Excel verilerini 
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Ortamı: Sisteminizde Java'nın yüklü olduğundan emin olun.
--  Java için Aspose.Cells: Java için Aspose.Cells kitaplığını indirin ve yükleyin[Burada](https://releases.aspose.com/cells/java/).
+- Java için Aspose.Cells: Java için Aspose.Cells kitaplığını indirin ve yükleyin [Burada](https://releases.aspose.com/cells/java/).
 - Excel Dosyası: JSON'a dönüştürmek istediğiniz Excel dosyasını hazırlayın.
 
 ## Adım 1: Java için Aspose.Cells'i içe aktarın
@@ -38,7 +38,7 @@ Sonra, JSON'a aktarmak istediğiniz Excel dosyasını yükleyin. Bunu başarmak 
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Yer değiştirmek`"your_excel_file.xlsx"` Excel dosyanızın yolunu belirtin.
+Yer değiştirmek `"your_excel_file.xlsx"` Excel dosyanızın yolunu belirtin.
 
 ## Adım 3: JSON'a dönüştürün
 Şimdi Excel verilerini JSON formatına dönüştürelim. Dönüştürmeyi gerçekleştirmek için aşağıdaki kodu kullanın:
@@ -51,7 +51,7 @@ JsonSaveOptions jsonSaveOptions = new JsonSaveOptions();
 workbook.save("output.json", jsonSaveOptions);
 ```
 
-Bu kod Excel verilerini proje dizininize "output.json" adında bir JSON dosyası olarak kaydedecektir.
+Bu kod Excel verilerini "output.json" adında bir JSON dosyası olarak proje dizininize kaydedecektir.
 
 ## Adım 4: JSON Verilerinin İşlenmesi
 Artık JSON verileriyle gerektiği gibi çalışabilirsiniz. Bunları ayrıştırabilir, düzenleyebilir veya uygulamalarınızda kullanabilirsiniz.

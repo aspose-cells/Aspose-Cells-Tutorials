@@ -1,10 +1,10 @@
 ---
-title: Автоматизация диаграмм Excel
-linktitle: Автоматизация диаграмм Excel
-second_title: API обработки Java Excel Aspose.Cells
-description: Изучите, как автоматизировать создание и настройку диаграмм Excel с помощью Aspose.Cells для Java с примерами исходного кода. Оптимизируйте свои задачи по построению диаграмм.
-weight: 17
-url: /ru/java/spreadsheet-automation/automating-excel-charts/
+"description": "Изучите, как автоматизировать создание и настройку диаграмм Excel с помощью Aspose.Cells для Java с примерами исходного кода. Оптимизируйте свои задачи по построению диаграмм."
+"linktitle": "Автоматизация диаграмм Excel"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Автоматизация диаграмм Excel"
+"url": "/ru/java/spreadsheet-automation/automating-excel-charts/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -29,7 +29,7 @@ url: /ru/java/spreadsheet-automation/automating-excel-charts/
 
 ### 1. Создание среды
 
-Прежде чем начать, убедитесь, что у вас установлен Aspose.Cells for Java. Вы можете загрузить его с[здесь](https://releases.aspose.com/cells/java/).
+Прежде чем начать, убедитесь, что у вас установлен Aspose.Cells for Java. Вы можете загрузить его с [здесь](https://releases.aspose.com/cells/java/).
 
 ### 2. Инициализация Aspose.Cells
 
@@ -114,10 +114,10 @@ chart.getValueAxis().getTitle().setText("Sales (USD)");
    Да, для использования Aspose.Cells для Java в ваших проектах вам понадобится действующая лицензия.
 
 ### 4. Где я могу найти дополнительные ресурсы и документацию по Aspose.Cells для Java?
-    Изучите документацию API по адресу[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения подробной информации и примеров.
+   Изучите документацию API по адресу [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения подробной информации и примеров.
 
 С легкостью автоматизируйте задачи по построению диаграмм Excel с помощью Aspose.Cells для Java и расширьте свои возможности визуализации данных.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

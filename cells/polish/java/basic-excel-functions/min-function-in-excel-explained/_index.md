@@ -1,10 +1,10 @@
 ---
-title: Funkcja MIN w programie Excel wyjaśniona
-linktitle: Funkcja MIN w programie Excel wyjaśniona
-second_title: Aspose.Cells Java Excel Processing API
-description: Odkryj moc funkcji MIN w programie Excel z Aspose.Cells dla Javy. Naucz się bez wysiłku znajdować wartości minimalne.
-weight: 17
-url: /pl/java/basic-excel-functions/min-function-in-excel-explained/
+"description": "Odkryj moc funkcji MIN w programie Excel z Aspose.Cells dla Javy. Naucz się bez wysiłku znajdować wartości minimalne."
+"linktitle": "Funkcja MIN w programie Excel wyjaśniona"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Funkcja MIN w programie Excel wyjaśniona"
+"url": "/pl/java/basic-excel-functions/min-function-in-excel-explained/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ url: /pl/java/basic-excel-functions/min-function-in-excel-explained/
 
 ## Wprowadzenie do funkcji MIN w programie Excel wyjaśnione przy użyciu Aspose.Cells dla języka Java
 
-świecie manipulacji danymi i analizy Excel jest niezawodnym narzędziem. Oferuje różne funkcje, które pomagają użytkownikom wykonywać złożone obliczenia z łatwością. Jedną z takich funkcji jest funkcja MIN, która umożliwia znalezienie wartości minimalnej w zakresie komórek. W tym artykule zagłębimy się w funkcję MIN w programie Excel, a co ważniejsze, jak skutecznie jej używać z Aspose.Cells for Java.
+W świecie manipulacji danymi i analizy Excel jest niezawodnym narzędziem. Oferuje różne funkcje, które pomagają użytkownikom wykonywać złożone obliczenia z łatwością. Jedną z takich funkcji jest funkcja MIN, która umożliwia znalezienie wartości minimalnej w zakresie komórek. W tym artykule zagłębimy się w funkcję MIN w programie Excel, a co ważniejsze, jak skutecznie jej używać z Aspose.Cells for Java.
 
 ## Zrozumienie funkcji MIN
 
@@ -31,7 +31,7 @@ Zanim przejdziemy do praktycznej implementacji przy użyciu Aspose.Cells dla Jav
 ```
 
 - `number1`:To jest pierwsza liczba lub zakres, dla którego chcesz znaleźć wartość minimalną.
-- `[number2]`, `[number3]`... (opcjonalnie): Są to dodatkowe liczby lub zakresy, które można uwzględnić w celu znalezienia wartości minimalnej.
+- `[number2]`, `[number3]`, ... (opcjonalnie): Są to dodatkowe liczby lub zakresy, które można uwzględnić w celu znalezienia wartości minimalnej.
 
 ## Jak działa funkcja MIN
 
@@ -43,7 +43,7 @@ Teraz, gdy dobrze rozumiemy, co funkcja MIN robi w programie Excel, przyjrzyjmy 
 
 ### Krok 1: Skonfiguruj środowisko programistyczne
 
- Zanim zaczniesz kodować, upewnij się, że masz zainstalowany i skonfigurowany Aspose.Cells for Java w swoim środowisku programistycznym. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/cells/java/).
+Zanim zaczniesz kodować, upewnij się, że masz zainstalowany i skonfigurowany Aspose.Cells for Java w swoim środowisku programistycznym. Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/cells/java/).
 
 ### Krok 2: Utwórz projekt Java
 
@@ -86,12 +86,12 @@ Po zastosowaniu wzoru należy ponownie obliczyć arkusz, aby uzyskać wynik:
 workbook.calculateFormula();
 ```
 
-### Krok 7: Otrzymaj wynik
+### Krok 7: Uzyskaj wynik
 
 Na koniec pobierz wynik funkcji MIN:
 
 ```java
-//Pobierz wynik z komórki B1
+// Pobierz wynik z komórki B1
 double minValue = cell.getDoubleValue();
 System.out.println("The minimum value is: " + minValue);
 ```
@@ -120,7 +120,8 @@ Funkcja MIN w programie Excel ma pewne ograniczenia, takie jak maksymalnie 255 a
 
 ### Jak radzić sobie z błędami podczas korzystania z funkcji MIN w programie Excel?
 
-Aby obsłużyć błędy podczas korzystania z funkcji MIN w programie Excel, możesz użyć funkcji IFERROR, aby zwrócić niestandardową wiadomość lub wartość, gdy wystąpi błąd. Może to pomóc w poprawie doświadczenia użytkownika podczas pracy z potencjalnie problematycznymi danymi.
+Aby obsługiwać błędy podczas korzystania z funkcji MIN w programie Excel, możesz użyć funkcji IFERROR, aby zwrócić niestandardową wiadomość lub wartość, gdy wystąpi błąd. Może to pomóc w poprawie doświadczenia użytkownika podczas pracy z potencjalnie problematycznymi danymi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

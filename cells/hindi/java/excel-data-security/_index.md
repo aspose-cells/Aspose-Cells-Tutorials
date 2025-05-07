@@ -1,10 +1,10 @@
 ---
-title: एक्सेल डेटा सुरक्षा
-linktitle: एक्सेल डेटा सुरक्षा
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: Java के लिए Aspose.Cells के साथ Excel डेटा सुरक्षा को बेहतर बनाएँ। अपनी स्प्रेडशीट की सुरक्षा, फ़ाइलों को एन्क्रिप्ट करने और डेटा अखंडता सुनिश्चित करने के तरीके को चरण दर चरण जानें।
-weight: 17
-url: /hi/java/excel-data-security/
+"description": "Java के लिए Aspose.Cells के साथ Excel डेटा सुरक्षा को बेहतर बनाएँ। अपनी स्प्रेडशीट की सुरक्षा, फ़ाइलों को एन्क्रिप्ट करने और डेटा अखंडता सुनिश्चित करने के तरीके को चरण दर चरण जानें।"
+"linktitle": "एक्सेल डेटा सुरक्षा"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "एक्सेल डेटा सुरक्षा"
+"url": "/hi/java/excel-data-security/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

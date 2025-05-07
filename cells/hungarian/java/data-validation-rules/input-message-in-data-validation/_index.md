@@ -1,56 +1,56 @@
 ---
-title: Beviteli üzenet az adatellenőrzésben
-linktitle: Beviteli üzenet az adatellenőrzésben
-second_title: Aspose.Cells Java Excel Processing API
-description: Ismerje meg, hogyan javíthatja az adatok érvényesítését az Excelben az Aspose.Cells for Java használatával. Lépésről lépésre kódpéldákkal ellátott útmutató az adatok pontosságának és a felhasználói útmutatás javításához.
-weight: 18
-url: /hu/java/data-validation-rules/input-message-in-data-validation/
+"description": "Ismerje meg, hogyan javíthatja az adatellenőrzést Excelben az Aspose.Cells for Java használatával. Lépésről lépésre útmutató kódpéldákkal az adatok pontosságának javításához és felhasználói útmutatás."
+"linktitle": "Beviteli üzenet az adatellenőrzés során"
+"second_title": "Aspose.Cells Java Excel feldolgozási API"
+"title": "Beviteli üzenet az adatellenőrzés során"
+"url": "/hu/java/data-validation-rules/input-message-in-data-validation/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Beviteli üzenet az adatellenőrzésben
+# Beviteli üzenet az adatellenőrzés során
 
 
 ## Bevezetés az adatérvényesítésbe
 
-Az adatellenőrzés az Excel olyan funkciója, amely segít megőrizni az adatok pontosságát és konzisztenciáját azáltal, hogy korlátozza a cellába beírható adatok típusát. Biztosítja, hogy a felhasználók érvényes információkat adjanak meg, csökkentve a hibákat és javítva az adatminőséget.
+Az adatérvényesítés az Excel egy olyan funkciója, amely segít fenntartani az adatok pontosságát és konzisztenciáját azáltal, hogy korlátozza a cellákba beírható adattípusokat. Biztosítja, hogy a felhasználók érvényes információkat adjanak meg, csökkentve a hibákat és javítva az adatminőséget.
 
-## Mi az Aspose.Cells for Java?
+## Mi az Aspose.Cells Java-hoz?
 
-Az Aspose.Cells for Java egy Java-alapú API, amely lehetővé teszi a fejlesztők számára, hogy Microsoft Excel nélkül készítsenek, kezeljenek és kezeljenek Excel-táblázatokat. Funkciók széles skáláját kínálja az Excel fájlokkal való programozott munkavégzéshez, így értékes eszköz a Java fejlesztők számára.
+Az Aspose.Cells for Java egy Java-alapú API, amely lehetővé teszi a fejlesztők számára, hogy Excel-táblázatokat hozzanak létre, manipuláljanak és kezeljenek Microsoft Excel nélkül. Számos funkciót kínál az Excel-fájlokkal való programozott munkához, így értékes eszköz a Java-fejlesztők számára.
 
-## Fejlesztői környezet beállítása
+## A fejlesztői környezet beállítása
 
-Mielőtt elkezdené, győződjön meg arról, hogy a rendszeren be van állítva Java fejlesztői környezet. Új Java projekt létrehozásához használhatja kedvenc IDE-jét, például az Eclipse-t vagy az IntelliJ IDEA-t.
+Mielőtt elkezdenénk, győződjünk meg róla, hogy van beállítva egy Java fejlesztői környezet a rendszerünkön. Használhatjuk kedvenc IDE-nket, például az Eclipse-t vagy az IntelliJ IDEA-t, hogy új Java projektet hozzunk létre.
 
 ## Új Java projekt létrehozása
 
-Kezdje új Java-projekt létrehozásával a kiválasztott IDE-ben. Adjon neki értelmes nevet, például "DataValidationDemo".
+Kezdésként hozz létre egy új Java projektet a kiválasztott IDE-ben. Adj neki egy értelmes nevet, például "DataValidationDemo".
 
-## Aspose.Cells for Java hozzáadása projektjéhez
+## Aspose.Cells hozzáadása Java-hoz a projektedhez
 
-Az Aspose.Cells for Java használatához a projektben hozzá kell adni az Aspose.Cells könyvtárat. Letöltheti a könyvtárat a webhelyről, és hozzáadhatja a projekt osztályútjához.
+Az Aspose.Cells for Java használatához a projektedben hozzá kell adnod az Aspose.Cells könyvtárat. A könyvtárat letöltheted a weboldalról, és hozzáadhatod a projekted osztályútvonalához.
 
-## Adatellenőrzés hozzáadása egy munkalaphoz
+## Adatérvényesítés hozzáadása egy munkalaphoz
 
-Most, hogy beállította a projektet, kezdjük el az adatok érvényesítésének hozzáadását egy munkalaphoz. Először hozzon létre egy új Excel-munkafüzetet és egy munkalapot.
+Most, hogy beállította a projektjét, kezdjük el adatérvényesítést hozzáadni egy munkalaphoz. Először hozzon létre egy új Excel-munkafüzetet és egy munkalapot.
 
 ```java
-// Hozzon létre egy új munkafüzetet
+// Új munkafüzet létrehozása
 Workbook workbook = new Workbook();
-// Nyissa meg az első munkalapot
+// Hozzáférés az első munkalaphoz
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
 ## Érvényesítési kritériumok meghatározása
 
-Érvényesítési feltételek megadásával korlátozhatja a cellába beírható adatok típusát. Például csak 1 és 100 közötti egész számokat engedélyezhet.
+Érvényesítési kritériumokat definiálhat a cellába beírható adattípusok korlátozására. Például csak 1 és 100 közötti egész számokat engedélyezhet.
 
 ```java
-// Határozza meg az adatérvényesítési feltételeket
+// Adatérvényesítési kritériumok meghatározása
 DataValidation validation = worksheet.getValidations().addDataValidation("A1");
 validation.setType(DataValidationType.WHOLE);
 validation.setOperator(OperatorType.BETWEEN);
@@ -58,21 +58,21 @@ validation.setFormula1("1");
 validation.setFormula2("100");
 ```
 
-## Bemeneti üzenet az adatok érvényesítéséhez
+## Bemeneti üzenet az adatellenőrzéshez
 
-A beviteli üzenetek útmutatást adnak a felhasználóknak a beírandó adatok típusával kapcsolatban. Az Aspose.Cells for Java segítségével bemeneti üzeneteket adhat hozzá adatellenőrzési szabályaihoz.
+A bemeneti üzenetek útmutatást nyújtanak a felhasználóknak a megadandó adattípusról. Az Aspose.Cells for Java használatával bemeneti üzeneteket adhat hozzá az adatérvényesítési szabályokhoz.
 
 ```java
-// Állítsa be a bemeneti üzenetet az adatok ellenőrzéséhez
+// Bemeneti üzenet beállítása az adatellenőrzéshez
 validation.setInputMessage("Please enter a number between 1 and 100.");
 ```
 
-## Hibafigyelmeztetések az adatok érvényesítéséhez
+## Hibajelzések az adatellenőrzéshez
 
-A beviteli üzeneteken kívül hibariasztásokat is beállíthat, hogy értesítse a felhasználókat, ha érvénytelen adatokat adnak meg.
+A beviteli üzenetek mellett hibajelzéseket is beállíthat, amelyek értesítik a felhasználókat, ha érvénytelen adatokat adnak meg.
 
 ```java
-// Állítsa be a hibajelzést az adatok ellenőrzéséhez
+// Hibajelzés beállítása az adatellenőrzéshez
 validation.setShowError(true);
 validation.setErrorTitle("Invalid Data");
 validation.setErrorMessage("Please enter a valid number between 1 and 100.");
@@ -80,10 +80,10 @@ validation.setErrorMessage("Please enter a valid number between 1 and 100.");
 
 ## Adatérvényesítés alkalmazása cellákra
 
-Most, hogy meghatározta az adatérvényesítési szabályokat, alkalmazhatja azokat a munkalap adott celláira.
+Most, hogy definiálta az adatérvényesítési szabályokat, alkalmazhatja azokat a munkalap adott celláira.
 
 ```java
-// Alkalmazzon adatérvényesítést egy cellatartományra
+// Adatérvényesítés alkalmazása cellatartományra
 CellArea area = new CellArea();
 area.startRow = 0;
 area.endRow = 9;
@@ -94,61 +94,62 @@ validation.addArea(area);
 
 ## Különböző adattípusokkal való munka
 
-Az Aspose.Cells for Java lehetővé teszi, hogy különböző adattípusokkal dolgozzon az adatok ellenőrzéséhez, beleértve az egész számokat, decimális számokat, dátumokat és szöveget.
+Az Aspose.Cells for Java lehetővé teszi különféle adattípusok használatát az adatok érvényesítéséhez, beleértve az egész számokat, a tizedes számokat, a dátumokat és a szöveget.
 
 ```java
-// Az adatellenőrzés típusának beállítása decimálisra
+// Adatérvényesítési típus beállítása decimálisra
 validation.setType(DataValidationType.DECIMAL);
 ```
 
-## Adatellenőrzési üzenetek testreszabása
+## Adatérvényesítési üzenetek testreszabása
 
-Testreszabhatja a beviteli üzeneteket és a hibajelzéseket, hogy konkrét utasításokat és útmutatást adjon a felhasználóknak.
+Testreszabhatja a beviteli üzeneteket és a hibajelzéseket, hogy konkrét utasításokat és útmutatást nyújtson a felhasználóknak.
 
 ```java
-// A beviteli üzenet és a hibaüzenet testreszabása
+// Beviteli üzenet és hibaüzenet testreszabása
 validation.setInputMessage("Please enter a decimal number.");
 validation.setErrorMessage("Invalid input. Please enter a valid decimal number.");
 ```
 
 ## Dátumbejegyzések érvényesítése
 
-Az adatellenőrzés arra is használható, hogy a dátumbejegyzések egy adott tartományon vagy formátumon belül legyenek.
+Az adatellenőrzéssel azt is ellenőrizhetjük, hogy a dátumbejegyzések egy adott tartományon vagy formátumon belül vannak-e.
 
 ```java
-// Állítsa be az adatellenőrzés típusát a dátumra
+// Adatérvényesítési típus beállítása dátumra
 validation.setType(DataValidationType.DATE);
 ```
 
 ## Speciális adatérvényesítési technikák
 
-Az Aspose.Cells for Java fejlett technikákat kínál az adatok ellenőrzéséhez, például egyéni képleteket és lépcsőzetes érvényesítést.
+Az Aspose.Cells for Java fejlett adatérvényesítési technikákat kínál, például egyéni képleteket és kaszkádos érvényesítést.
 
 ## Következtetés
 
-Ebben a cikkben megvizsgáltuk, hogyan adhatunk bemeneti üzeneteket az adatellenőrzési szabályokhoz az Aspose.Cells for Java használatával. Az adatellenőrzés kulcsfontosságú szempont az adatok pontosságának megőrzésében az Excelben, az Aspose.Cells pedig megkönnyíti ezeknek a szabályoknak a Java-alkalmazásokban való megvalósítását és testreszabását. Az ebben az útmutatóban ismertetett lépések követésével javíthatja Excel-munkafüzeteinek használhatóságát és adatminőségét.
+Ebben a cikkben azt vizsgáltuk meg, hogyan adhatunk hozzá bemeneti üzeneteket az adatérvényesítési szabályokhoz az Aspose.Cells for Java használatával. Az adatérvényesítés kulcsfontosságú szempont az adatok pontosságának megőrzésében az Excelben, és az Aspose.Cells megkönnyíti ezen szabályok megvalósítását és testreszabását a Java-alkalmazásokban. Az útmutatóban ismertetett lépéseket követve javíthatja Excel-munkafüzetei használhatóságát és adatminőségét.
 
 ## GYIK
 
-### Hogyan adhatok hozzá adatérvényesítést egyszerre több cellához?
+### Hogyan adhatok hozzá adatellenőrzést egyszerre több cellához?
 
- Ha több cellához szeretne adatellenőrzést hozzáadni, megadhat egy cellatartományt, és erre a tartományra alkalmazhatja az érvényesítési szabályokat. Az Aspose.Cells for Java segítségével megadhat egy cellatartományt a`CellArea` osztály.
+Több cellához adatérvényesítés hozzáadásához definiálhat egy cellatartományt, és alkalmazhatja az érvényesítési szabályokat erre a tartományra. Az Aspose.Cells for Java lehetővé teszi cellatartomány megadását a következő használatával: `CellArea` osztály.
 
-### Használhatok egyéni képleteket az adatok ellenőrzéséhez?
+### Használhatok egyéni képleteket az adatellenőrzéshez?
 
-Igen, használhat egyéni képleteket az adatok ellenőrzéséhez az Aspose.Cells for Java programban. Ez lehetővé teszi összetett érvényesítési szabályok létrehozását az Ön egyedi követelményei alapján.
+Igen, az Aspose.Cells for Java programban egyéni képleteket használhatsz az adatellenőrzéshez. Ez lehetővé teszi összetett ellenőrzési szabályok létrehozását az adott igények alapján.
 
 ### Hogyan távolíthatom el az adatellenőrzést egy cellából?
 
- Az adatellenőrzés eltávolításához egy cellából egyszerűen hívja meg a`removeDataValidation`módszer a cellán. Ezzel eltávolítja az adott cellára vonatkozó minden meglévő érvényesítési szabályt.
+Az adatellenőrzés eltávolításához egy cellából egyszerűen meghívhatja a `removeDataValidation` metódust a cellán. Ez eltávolítja az adott cellára vonatkozó összes meglévő érvényesítési szabályt.
 
 ### Beállíthatok különböző hibaüzeneteket a különböző érvényesítési szabályokhoz?
 
-Igen, az Aspose.Cells for Java alkalmazásban különböző hibaüzeneteket állíthat be a különböző érvényesítési szabályokhoz. Minden adatellenőrzési szabálynak saját bemeneti üzenet- és hibaüzenet-tulajdonságai vannak, amelyeket személyre szabhat.
+Igen, az Aspose.Cells for Java programban beállíthat különböző hibaüzeneteket a különböző érvényesítési szabályokhoz. Minden adatérvényesítési szabályhoz tartozik saját bemeneti üzenet és hibaüzenet-tulajdonság, amelyeket testreszabhat.
 
-### Hol találok több információt az Aspose.Cells for Java-ról?
+### Hol találok további információt az Aspose.Cells for Java-ról?
 
- Az Aspose.Cells for Java programról és szolgáltatásairól további információért keresse fel a dokumentációt a címen[itt](https://reference.aspose.com/cells/java/).
+Az Aspose.Cells for Java programról és annak funkcióiról további információt a dokumentációban talál a következő címen: [itt](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

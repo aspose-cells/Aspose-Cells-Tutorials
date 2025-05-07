@@ -1,10 +1,10 @@
 ---
-title: Понимание функции Excel MAX
-linktitle: Понимание функции Excel MAX
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как использовать функцию Excel MAX с Aspose.Cells для Java. Откройте для себя пошаговое руководство, примеры кода и часто задаваемые вопросы в этом всеобъемлющем руководстве.
-weight: 16
-url: /ru/java/basic-excel-functions/understanding-excel-max-function/
+"description": "Узнайте, как использовать функцию Excel MAX с Aspose.Cells для Java. Откройте для себя пошаговое руководство, примеры кода и часто задаваемые вопросы в этом всеобъемлющем руководстве."
+"linktitle": "Понимание функции Excel MAX"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Понимание функции Excel MAX"
+"url": "/ru/java/basic-excel-functions/understanding-excel-max-function/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -32,7 +32,7 @@ url: /ru/java/basic-excel-functions/understanding-excel-max-function/
 
 ## Загрузка файла Excel
 
-Прежде чем мы сможем использовать функцию MAX, нам нужно загрузить файл Excel в наше приложение Java. Вы можете сделать это с помощью класса Aspose.Cells Workbook, который предоставляет различные методы для работы с файлами Excel.
+Прежде чем использовать функцию MAX, нам нужно загрузить файл Excel в наше приложение Java. Это можно сделать с помощью класса Workbook Aspose.Cells, который предоставляет различные методы для работы с файлами Excel.
 
 ```java
 // Загрузите файл Excel
@@ -110,7 +110,8 @@ System.out.println("The maximum sales value is: " + maxSales);
 
 ### Где я могу найти дополнительную документацию и примеры по Aspose.Cells для Java?
 
- Вы можете обратиться к документации Aspose.Cells для Java по адресу[здесь](https://reference.aspose.com/cells/java/) для получения исчерпывающей информации и примеров.
+Вы можете обратиться к документации Aspose.Cells для Java по адресу [здесь](https://reference.aspose.com/cells/java/) для получения исчерпывающей информации и примеров.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

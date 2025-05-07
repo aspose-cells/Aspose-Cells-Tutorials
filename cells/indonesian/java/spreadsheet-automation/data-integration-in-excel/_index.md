@@ -1,10 +1,10 @@
 ---
-title: Integrasi Data di Excel
-linktitle: Integrasi Data di Excel
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara mengintegrasikan data secara efisien di Excel untuk mendapatkan wawasan dan pengambilan keputusan yang lebih baik. Panduan langkah demi langkah dengan kode sumber menggunakan Aspose.Cells untuk Java.
-weight: 19
-url: /id/java/spreadsheet-automation/data-integration-in-excel/
+"description": "Pelajari cara mengintegrasikan data secara efisien di Excel untuk mendapatkan wawasan dan pengambilan keputusan yang lebih baik. Panduan langkah demi langkah dengan kode sumber menggunakan Aspose.Cells untuk Java."
+"linktitle": "Integrasi Data di Excel"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Integrasi Data di Excel"
+"url": "/id/java/spreadsheet-automation/data-integration-in-excel/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Excel adalah alat serbaguna untuk manipulasi data, tetapi mengintegrasikan data 
 
 ## 2. Menyiapkan Aspose.Cells untuk Java
 
- Sebelum menyelami integrasi data, Anda perlu menyiapkan Aspose.Cells untuk Java. Anda dapat mengunduh pustaka dari[Di Sini](https://releases.aspose.com/cells/java/)Ikuti petunjuk instalasi untuk memulai.
+Sebelum menyelami integrasi data, Anda perlu menyiapkan Aspose.Cells untuk Java. Anda dapat mengunduh pustaka dari [Di Sini](https://releases.aspose.com/cells/java/)Ikuti petunjuk instalasi untuk memulai.
 
 ## 3. Memuat Data ke Excel
 
@@ -109,7 +109,7 @@ Tentu saja! Aspose.Cells untuk Java menyediakan API yang canggih untuk otomatisa
 Meskipun Aspose.Cells untuk Java merupakan pilihan yang tangguh, alternatif seperti Apache POI juga menyediakan kemampuan integrasi Excel.
 
 Panduan lengkap ini akan membantu Anda menguasai integrasi data di Excel menggunakan Aspose.Cells untuk Java. Jangan ragu untuk menjelajahi lebih jauh dan menyesuaikan langkah-langkah ini dengan kebutuhan spesifik Anda. Selamat mengintegrasikan data!
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blok/produk/pf/bagian-halaman-tutorial >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

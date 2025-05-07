@@ -1,10 +1,10 @@
 ---
-title: Excel Metin Fonksiyonları Açıklandı
-linktitle: Excel Metin Fonksiyonları Açıklandı
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java ile Excel metin fonksiyonlarının sırlarını açığa çıkarın. Excel'de metni zahmetsizce düzenlemeyi, çıkarmayı ve dönüştürmeyi öğrenin.
-weight: 18
-url: /tr/java/basic-excel-functions/excel-text-functions-demystified/
+"description": "Aspose.Cells for Java ile Excel metin fonksiyonlarının sırlarını açığa çıkarın. Excel'de metni zahmetsizce düzenlemeyi, çıkarmayı ve dönüştürmeyi öğrenin."
+"linktitle": "Excel Metin Fonksiyonları Açıklandı"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Excel Metin Fonksiyonları Açıklandı"
+"url": "/tr/java/basic-excel-functions/excel-text-functions-demystified/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,11 +20,11 @@ Bu eğitimde, Aspose.Cells for Java API'sini kullanarak Excel'de metin düzenlem
 
 ## Başlarken
 
- Başlamadan önce, Java için Aspose.Cells'in yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/cells/java/). Kurulumunuzu tamamladıktan sonra Excel metin fonksiyonlarının büyüleyici dünyasına dalalım.
+Başlamadan önce, Java için Aspose.Cells'in yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/cells/java/). Kurulumunuzu tamamladıktan sonra Excel metin fonksiyonlarının büyüleyici dünyasına dalalım.
 
 ## CONCATENATE - Metni Birleştirme
 
- The`CONCATENATE`fonksiyonu farklı hücrelerden metinleri birleştirmenize olanak tanır. Bunu Java için Aspose.Cells ile nasıl yapacağınızı görelim:
+The `CONCATENATE` fonksiyonu farklı hücrelerden metinleri birleştirmenize olanak tanır. Bunu Java için Aspose.Cells ile nasıl yapacağınızı görelim:
 
 ```java
 // Aspose.Cells kullanarak metni birleştirmek için Java kodu
@@ -47,7 +47,7 @@ Artık C1 hücresi "Merhaba Dünya!" ifadesini içerecek.
 
 ## SOL ve SAĞ - Metin Çıkarma
 
- The`LEFT` Ve`RIGHT` fonksiyonlar, bir metin dizesinin solundan veya sağından belirtilen sayıda karakteri çıkarmanıza olanak tanır. Bunları nasıl kullanabileceğiniz aşağıda açıklanmıştır:
+The `LEFT` Ve `RIGHT` fonksiyonlar, bir metin dizesinin solundan veya sağından belirtilen sayıda karakteri çıkarmanıza olanak tanır. Bunları nasıl kullanabileceğiniz aşağıda açıklanmıştır:
 
 ```java
 // Aspose.Cells kullanarak metin çıkarmak için Java kodu
@@ -69,10 +69,10 @@ B2 hücresinde "Excel" yazacak ve C2 hücresinde "Rocks!" yazacak.
 
 ## LEN - Karakterleri Sayma
 
- The`LEN` fonksiyon bir metin dizesindeki karakter sayısını sayar. Java için Aspose.Cells ile nasıl kullanılacağını görelim:
+The `LEN` fonksiyon bir metin dizesindeki karakter sayısını sayar. Java için Aspose.Cells ile nasıl kullanılacağını görelim:
 
 ```java
-// Aspose.Cells kullanarak karakterleri saymak için Java kodu
+// Aspose.Cells kullanarak karakter saymak için Java kodu
 Cell cell = worksheet.getCells().get("A3");
 cell.putValue("Excel");
 
@@ -87,7 +87,7 @@ workbook.calculateFormula();
 
 ## ÜST ve ALT - Durum Değiştirme
 
- The`UPPER` Ve`LOWER` fonksiyonları metni büyük harfe veya küçük harfe dönüştürmenize olanak tanır. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+The `UPPER` Ve `LOWER` fonksiyonları metni büyük harfe veya küçük harfe dönüştürmenize olanak tanır. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```java
 // Aspose.Cells kullanarak büyük/küçük harf değiştirmeye yarayan Java kodu
@@ -109,7 +109,7 @@ B4 hücresi "JAVA PROGRAMLAMA", C4 hücresi ise "java programlama" içerecektir.
 
 ## BUL ve DEĞİŞTİR - Metni Bulma ve Değiştirme
 
- The`FIND` işlevi, bir dize içindeki belirli bir karakterin veya metnin konumunu bulmanıza olanak tanırken,`REPLACE` fonksiyonu metni değiştirmenize yardımcı olur. Bunları eylem halinde görelim:
+The `FIND` işlevi, bir dize içindeki belirli bir karakterin veya metnin konumunu bulmanıza olanak tanırken, `REPLACE` fonksiyonu metni değiştirmenize yardımcı olur. Bunları eylem halinde görelim:
 
 ```java
 // Aspose.Cells kullanarak bulma ve değiştirme için Java kodu
@@ -137,7 +137,7 @@ Excel'deki metin işlevleri, metin verilerini işlemek ve analiz etmek için gü
 
 ### Birden fazla hücredeki metni nasıl birleştiririm?
 
- Birden fazla hücreden gelen metni birleştirmek için şunu kullanın:`CONCATENATE` fonksiyon. Örneğin:
+Birden fazla hücreden gelen metni birleştirmek için şunu kullanın: `CONCATENATE` fonksiyon. Örneğin:
 ```java
 Cell cell = worksheet.getCells().get("A1");
 cell.setFormula("=CONCATENATE(A1, B1)");
@@ -145,7 +145,7 @@ cell.setFormula("=CONCATENATE(A1, B1)");
 
 ### Bir metin dizesinin ilk ve son karakterlerini çıkarabilir miyim?
 
- Evet, kullanabilirsiniz`LEFT` Ve`RIGHT` Bir metin dizesinin başından veya sonundan karakterleri çıkarmak için kullanılan işlevler. Örneğin:
+Evet, kullanabilirsiniz `LEFT` Ve `RIGHT` Bir metin dizesinin başından veya sonundan karakterleri çıkarmak için kullanılan işlevler. Örneğin:
 ```java
 Cell cell = worksheet.getCells().get("A2");
 cell.setFormula("=LEFT(A2, 5)");
@@ -153,7 +153,7 @@ cell.setFormula("=LEFT(A2, 5)");
 
 ### Bir metin dizisindeki karakterleri nasıl sayabilirim?
 
- Kullanın`LEN` Bir metin dizisindeki karakterleri saymak için kullanılan fonksiyon. Örneğin:
+Kullanın `LEN` Bir metin dizisindeki karakterleri saymak için kullanılan fonksiyon. Örneğin:
 ```java
 Cell cell = worksheet.getCells().get("A3");
 cell.setFormula("=LEN(A3)");
@@ -161,7 +161,7 @@ cell.setFormula("=LEN(A3)");
 
 ### Metnin büyük/küçük harf durumunu değiştirmek mümkün mü?
 
- Evet, metni büyük veya küçük harfe dönüştürebilirsiniz.`UPPER` Ve`LOWER` Fonksiyonlar. Örneğin:
+Evet, metni büyük veya küçük harfe dönüştürebilirsiniz. `UPPER` Ve `LOWER` Fonksiyonlar. Örneğin:
 ```java
 Cell cell = worksheet.getCells().get("A4");
 cell.setFormula("=UPPER(A4)");
@@ -169,7 +169,7 @@ cell.setFormula("=UPPER(A4)");
 
 ### Bir dize içindeki metni nasıl bulabilir ve değiştirebilirim?
 
-Bir dize içindeki metni bulmak ve değiştirmek için şunu kullanın:`FIND` Ve`REPLACE` Fonksiyonlar. Örneğin:
+Bir dize içindeki metni bulmak ve değiştirmek için şunu kullanın: `FIND` Ve `REPLACE` Fonksiyonlar. Örneğin:
 ```java
 Cell cell = worksheet.getCells().get("A5");
 cell.setFormula("=FIND(\"for\", A5)");

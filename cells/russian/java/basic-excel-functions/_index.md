@@ -1,10 +1,10 @@
 ---
-title: Базовые функции Excel
-linktitle: Базовые функции Excel
-second_title: API обработки Java Excel Aspose.Cells
-description: Изучите основные функции Excel с помощью Aspose.Cells для Java. Наши руководства охватывают основы шаг за шагом. Начните работу с электронными таблицами
-weight: 10
-url: /ru/java/basic-excel-functions/
+"description": "Изучите основные функции Excel с помощью Aspose.Cells для Java. Наши руководства охватывают основы шаг за шагом. Начните работу с электронными таблицами"
+"linktitle": "Базовые функции Excel"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Базовые функции Excel"
+"url": "/ru/java/basic-excel-functions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -19,7 +19,7 @@ url: /ru/java/basic-excel-functions/
 
 ## Начало работы с Aspose.Cells для Java:
 
-Прежде чем углубляться в функции Excel, давайте начнем с настройки среды разработки с Aspose.Cells для Java. Убедитесь, что библиотека интегрирована в ваш проект Java. После этого вы будете готовы использовать мощь Aspose.Cells для выполнения широкого спектра операций Excel.
+Прежде чем углубляться в функции Excel, давайте начнем с настройки среды разработки с Aspose.Cells для Java. Убедитесь, что библиотека интегрирована в ваш проект Java. Как только это будет сделано, вы будете готовы использовать мощь Aspose.Cells для выполнения широкого спектра операций Excel.
 
 ## Изучение основных функций Excel:
 
@@ -32,8 +32,8 @@ url: /ru/java/basic-excel-functions/
 Раскройте потенциал формулы SUM в Excel с помощью Aspose.Cells для Java — вашего всеобъемлющего руководства по автоматизации Excel.
 ### [Как использовать функцию ЕСЛИ в Excel](./how-to-use-excel-if-function/)
 Откройте для себя мощь функции IF в Excel с помощью Aspose.Cells для Java. Научитесь легко реализовывать условную логику.
-### [Учебник Excel VLOOKUP](./excel-vlookup-tutorial/)
-Раскройте потенциал функции ВПР Excel с помощью Aspose.Cells для Java — вашего полного руководства по простому извлечению данных.
+### [Учебник по использованию ВПР в Excel](./excel-vlookup-tutorial/)
+Раскройте потенциал функции VLOOKUP в Excel с помощью Aspose.Cells для Java — вашего полного руководства по простому извлечению данных.
 ### [Функция СЦЕПИТЬ в Excel](./excel-concatenate-function/)
 Узнайте, как объединить текст в Excel с помощью Aspose.Cells для Java. Это пошаговое руководство включает примеры исходного кода для бесшовной обработки текста.
 ### [Функция СЧЁТЕСЛИ в Excel](./countif-function-in-excel/)
@@ -48,7 +48,7 @@ url: /ru/java/basic-excel-functions/
 Раскройте секреты текстовых функций Excel с помощью Aspose.Cells для Java. Научитесь без усилий манипулировать, извлекать и преобразовывать текст в Excel.
 ### [Учебник по функциям даты в Excel](./excel-date-functions-tutorial/)
 Изучите функции даты Excel с помощью Aspose.Cells для Java. Изучите пошаговые руководства с исходным кодом.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

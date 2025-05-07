@@ -1,10 +1,10 @@
 ---
-title: Excel'i HTML Java'ya Aktar
-linktitle: Excel'i HTML Java'ya Aktar
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java kullanarak Excel'i Java'da HTML'ye nasıl aktaracağınızı öğrenin. Excel dosyalarınızı zahmetsizce HTML'ye dönüştürmek için kaynak kodlu bu adım adım kılavuzu izleyin.
-weight: 19
-url: /tr/java/excel-import-export/export-excel-to-html-java/
+"description": "Aspose.Cells for Java kullanarak Excel'i Java'da HTML'ye nasıl aktaracağınızı öğrenin. Excel dosyalarınızı zahmetsizce HTML'ye dönüştürmek için kaynak kodlu bu adım adım kılavuzu izleyin."
+"linktitle": "Excel'i HTML Java'ya Aktar"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Excel'i HTML Java'ya Aktar"
+"url": "/tr/java/excel-import-export/export-excel-to-html-java/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -33,11 +33,11 @@ Tercih ettiğiniz Entegre Geliştirme Ortamında (IDE) yeni bir Java projesi olu
 
 ## Adım 2: Aspose.Cells Kütüphanesini Ekleyin
 
- Aspose.Cells for Java kütüphanesini projenizin sınıf yoluna ekleyin. Maven kullanıyorsanız, kütüphaneyi şuraya ekleyin:`pom.xml` dosya.
+Aspose.Cells for Java kütüphanesini projenizin sınıf yoluna ekleyin. Maven kullanıyorsanız, kütüphaneyi projenize ekleyin. `pom.xml` dosya.
 
 ## Adım 3: Excel Dosyasını Yükle
 
- Bu adımda, HTML'ye aktarmak istediğiniz Excel dosyasını yükleyeceksiniz. Bunu, bir`Workbook` nesne ve yolunu kullanarak Excel dosyasını yükleme.
+Bu adımda, HTML'ye aktarmak istediğiniz Excel dosyasını yükleyeceksiniz. Bunu, bir `Workbook` nesne ve yolunu kullanarak Excel dosyasını yükleme.
 
 ```java
 // Excel dosyasını yükleyin
@@ -80,6 +80,7 @@ Daha gelişmiş özellikler ve özelleştirme seçenekleri için Aspose.Cells fo
 
 ### S: Aspose.Cells for Java için daha fazla örnek ve kaynağı nerede bulabilirim?
    - A: Çok sayıda örnek, eğitim ve destek için Aspose.Cells belgelerini ve forumlarını ziyaret edin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Lista walidacji danych w programie Excel
-linktitle: Lista walidacji danych w programie Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Poznaj walidację danych w programie Excel przy użyciu Aspose.Cells dla Java. Wdrażaj reguły, komunikaty o błędach i wiele więcej.
-weight: 16
-url: /pl/java/data-validation-rules/list-data-validation-in-excel/
+"description": "Poznaj walidację danych w programie Excel za pomocą Aspose.Cells dla Java. Wdrażaj reguły, komunikaty o błędach i wiele więcej."
+"linktitle": "Lista walidacji danych w programie Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Lista walidacji danych w programie Excel"
+"url": "/pl/java/data-validation-rules/list-data-validation-in-excel/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -36,7 +36,7 @@ Walidacja danych jest istotna, ponieważ pomaga w:
 
 - Zapobieganie wprowadzaniu nieprawidłowych danych: Użytkownicy są informowani o konieczności wprowadzania wyłącznie prawidłowych danych, co zmniejsza ryzyko wystąpienia błędów.
 - Zapewnienie integralności danych: Pomaga zachować integralność i niezawodność danych w programie Excel.
-- Usprawnienie przetwarzania danych: Zweryfikowane dane można przetwarzać wydajniej, co pozwala zaoszczędzić czas i wysiłek.
+- Usprawnienie przetwarzania danych: Zweryfikowane dane można przetwarzać wydajniej, oszczędzając czas i wysiłek.
 
 Teraz, gdy omówiliśmy podstawy, możemy przejść do praktycznej implementacji walidacji danych za pomocą Aspose.Cells dla Java.
 
@@ -52,7 +52,7 @@ Zanim zaczniesz używać Aspose.Cells for Java, musisz skonfigurować środowisk
 
 ### Krok 2: Utwórz nowy skoroszyt programu Excel
 
- Aby rozpocząć, utwórz nowy skoroszyt programu Excel przy użyciu Aspose.Cells dla języka Java. Możesz to zrobić, tworząc instancję`Workbook` obiekt:
+Aby rozpocząć, utwórz nowy skoroszyt programu Excel przy użyciu Aspose.Cells dla języka Java. Możesz to zrobić, tworząc instancję `Workbook` obiekt:
 
 ```java
 Workbook workbook = new Workbook();
@@ -125,7 +125,7 @@ Tak, możesz zastosować walidację danych do wielu komórek w arkuszu kalkulacy
 
 ### Jakie typy kryteriów walidacji danych obsługuje Aspose.Cells for Java?
 
-Aspose.Cells for Java obsługuje różne kryteria walidacji danych, w tym liczby całkowite, liczby dziesiętne, długość tekstu, zakresy dat i formuły niestandardowe. Możesz wybrać kryteria, które najlepiej odpowiadają Twoim potrzebom.
+Aspose.Cells for Java obsługuje różne kryteria walidacji danych, w tym liczby całkowite, liczby dziesiętne, długość tekstu, zakresy dat i niestandardowe formuły. Możesz wybrać kryteria, które najlepiej odpowiadają Twoim potrzebom.
 
 ### Czy Aspose.Cells for Java nadaje się zarówno do prostych, jak i złożonych scenariuszy walidacji danych?
 
@@ -134,6 +134,7 @@ Tak, Aspose.Cells for Java jest wszechstronny i może obsługiwać zarówno pros
 ### Czy mogę dostosować wygląd komunikatów o błędach w programie Excel?
 
 Tak, możesz dostosować komunikaty o błędach wyświetlane, gdy użytkownicy wprowadzają nieprawidłowe dane. Aspose.Cells for Java umożliwia ustawienie niestandardowych komunikatów o błędach, aby zapewnić użytkownikom jasne instrukcje.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

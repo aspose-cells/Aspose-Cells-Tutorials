@@ -1,10 +1,10 @@
 ---
-title: एक्सेल को JSON में निर्यात करें
-linktitle: एक्सेल को JSON में निर्यात करें
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: जावा के लिए Aspose.Cells का उपयोग करके Excel डेटा को JSON में निर्यात करना सीखें। सहज रूपांतरण के लिए स्रोत कोड के साथ इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 17
-url: /hi/java/excel-import-export/export-excel-to-json/
+"description": "जावा के लिए Aspose.Cells का उपयोग करके Excel डेटा को JSON में निर्यात करना सीखें। सहज रूपांतरण के लिए स्रोत कोड के साथ इस चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "एक्सेल को JSON में निर्यात करें"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "एक्सेल को JSON में निर्यात करें"
+"url": "/hi/java/excel-import-export/export-excel-to-json/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,7 +20,7 @@ url: /hi/java/excel-import-export/export-excel-to-json/
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - जावा डेवलपमेंट एनवायरनमेंट: सुनिश्चित करें कि आपके सिस्टम पर जावा स्थापित है।
--  Aspose.Cells for Java: Aspose.Cells for Java लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/cells/java/).
+- Aspose.Cells for Java: Aspose.Cells for Java लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/cells/java/).
 - एक्सेल फ़ाइल: वह एक्सेल फ़ाइल तैयार करें जिसे आप JSON में बदलना चाहते हैं।
 
 ## चरण 1: Java के लिए Aspose.Cells आयात करें
@@ -38,7 +38,7 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- प्रतिस्थापित करें`"your_excel_file.xlsx"` अपनी एक्सेल फ़ाइल के पथ के साथ.
+प्रतिस्थापित करें `"your_excel_file.xlsx"` अपनी एक्सेल फ़ाइल के पथ के साथ.
 
 ## चरण 3: JSON में कनवर्ट करें
 अब, Excel डेटा को JSON फ़ॉर्मेट में बदलें। रूपांतरण करने के लिए निम्न कोड का उपयोग करें:
@@ -51,7 +51,7 @@ JsonSaveOptions jsonSaveOptions = new JsonSaveOptions();
 workbook.save("output.json", jsonSaveOptions);
 ```
 
-यह कोड एक्सेल डेटा को आपकी प्रोजेक्ट निर्देशिका में "output.json" नामक JSON फ़ाइल के रूप में सहेज देगा।
+यह कोड एक्सेल डेटा को आपकी प्रोजेक्ट निर्देशिका में "output.json" नामक JSON फ़ाइल के रूप में सहेज लेगा।
 
 ## चरण 4: JSON डेटा को संभालना
 अब आप JSON डेटा के साथ आवश्यकतानुसार काम कर सकते हैं। आप इसे पार्स कर सकते हैं, इसमें बदलाव कर सकते हैं या अपने अनुप्रयोगों में इसका उपयोग कर सकते हैं।

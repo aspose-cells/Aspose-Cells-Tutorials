@@ -1,10 +1,10 @@
 ---
-title: Excel Импорт Экспорт
-linktitle: Excel Импорт Экспорт
-second_title: API обработки Java Excel Aspose.Cells
-description: Легко импортируйте и экспортируйте файлы Excel с помощью Aspose.Cells для Java. Изучите пошаговые руководства для бесперебойного обмена данными. Освойте работу с Excel уже сегодня!
-weight: 16
-url: /ru/java/excel-import-export/
+"description": "Легко импортируйте и экспортируйте файлы Excel с помощью Aspose.Cells для Java. Изучите пошаговые руководства для бесперебойного обмена данными. Освойте работу с Excel уже сегодня!"
+"linktitle": "Excel Импорт Экспорт"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Excel Импорт Экспорт"
+"url": "/ru/java/excel-import-export/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -44,8 +44,8 @@ url: /ru/java/excel-import-export/
 ### [Проверка данных импорта Excel](./excel-import-data-validation/)
 Узнайте, как реализовать проверку данных импорта Excel с помощью Aspose.Cells для Java с помощью этого всеобъемлющего пошагового руководства. Обеспечьте точность данных и улучшите пользовательский опыт. 
 ### [Экспорт Excel в HTML Java](./export-excel-to-html-java/)
-Узнайте, как экспортировать Excel в HTML в Java с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству с исходным кодом, чтобы легко конвертировать файлы Excel в HTML без усилий.
-{{< /blocks/products/pf/tutorial-page-section >}}
+Узнайте, как экспортировать Excel в HTML в Java с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству с исходным кодом, чтобы легко и без усилий преобразовать файлы Excel в HTML.
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,10 +1,10 @@
 ---
-title: Tạo Xác thực Dữ liệu Tùy chỉnh
-linktitle: Tạo Xác thực Dữ liệu Tùy chỉnh
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách tạo xác thực dữ liệu tùy chỉnh bằng Aspose.Cells cho Java. Hướng dẫn từng bước có mã nguồn.
-weight: 10
-url: /vi/java/data-validation-rules/creating-custom-data-validation/
+"description": "Tìm hiểu cách tạo xác thực dữ liệu tùy chỉnh bằng Aspose.Cells cho Java. Hướng dẫn từng bước có mã nguồn."
+"linktitle": "Tạo Xác thực Dữ liệu Tùy chỉnh"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Tạo Xác thực Dữ liệu Tùy chỉnh"
+"url": "/vi/java/data-validation-rules/creating-custom-data-validation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Xác thực dữ liệu giúp duy trì tính toàn vẹn của dữ liệu bằn
 
 Trước khi tìm hiểu về mã, hãy đảm bảo bạn có đủ các điều kiện tiên quyết sau:
 
--  Aspose.Cells cho Java: Tải xuống và cài đặt thư viện từ[đây](https://releases.aspose.com/cells/java/).
+- Aspose.Cells cho Java: Tải xuống và cài đặt thư viện từ [đây](https://releases.aspose.com/cells/java/).
 
 ## Bước 1: Thiết lập dự án Java của bạn
 
@@ -30,7 +30,7 @@ Trước khi tìm hiểu về mã, hãy đảm bảo bạn có đủ các điề
 
 ## Bước 2: Tạo một bảng tính Excel
 
-Chúng ta hãy bắt đầu bằng cách tạo một bảng tính Excel mới bằng Aspose.Cells cho Java.
+Chúng ta hãy bắt đầu bằng cách tạo một bảng tính Excel mới bằng Aspose.Cells for Java.
 
 ```java
 // Mã Java để tạo một bảng tính Excel mới
@@ -95,7 +95,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách tạo quy tắc xá
 
 ### Làm thế nào để tải xuống Aspose.Cells cho Java?
 
- Bạn có thể tải xuống Aspose.Cells cho Java từ trang web tại[đây](https://releases.aspose.com/cells/java/).
+Bạn có thể tải xuống Aspose.Cells cho Java từ trang web tại [đây](https://releases.aspose.com/cells/java/).
 
 ### Tôi có thể áp dụng xác thực dữ liệu tùy chỉnh cho nhiều phạm vi trong cùng một bảng tính không?
 
@@ -107,11 +107,12 @@ Có, Aspose.Cells for Java hỗ trợ nhiều loại xác thực dữ liệu, ba
 
 ### Làm thế nào để tùy chỉnh thông báo lỗi hiển thị khi xác thực dữ liệu không thành công?
 
- Bạn có thể tùy chỉnh thông báo lỗi bằng cách sửa đổi`setErrorMessage` phương pháp ở Bước 4, nơi bạn xác định tiêu chí xác thực.
+Bạn có thể tùy chỉnh thông báo lỗi bằng cách sửa đổi `setErrorMessage` phương pháp ở Bước 4, nơi bạn xác định tiêu chí xác thực.
 
 ### Aspose.Cells for Java có hoạt động với các tệp Excel có định dạng khác nhau không?
 
 Có, Aspose.Cells for Java hỗ trợ nhiều định dạng tệp Excel, bao gồm XLS, XLSX, XLSM, v.v.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

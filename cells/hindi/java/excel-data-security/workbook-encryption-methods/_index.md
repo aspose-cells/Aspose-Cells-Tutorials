@@ -1,10 +1,10 @@
 ---
-title: कार्यपुस्तिका एन्क्रिप्शन विधियाँ
-linktitle: कार्यपुस्तिका एन्क्रिप्शन विधियाँ
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: जावा वर्कबुक एन्क्रिप्शन के लिए Aspose.Cells के साथ डेटा सुरक्षा बढ़ाएँ। Excel वर्कबुक को चरण दर चरण एन्क्रिप्ट करना सीखें।
-weight: 12
-url: /hi/java/excel-data-security/workbook-encryption-methods/
+"description": "जावा वर्कबुक एन्क्रिप्शन के लिए Aspose.Cells के साथ डेटा सुरक्षा बढ़ाएँ। Excel वर्कबुक को चरण दर चरण एन्क्रिप्ट करना सीखें।"
+"linktitle": "कार्यपुस्तिका एन्क्रिप्शन विधियाँ"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "कार्यपुस्तिका एन्क्रिप्शन विधियाँ"
+"url": "/hi/java/excel-data-security/workbook-encryption-methods/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -27,7 +27,7 @@ url: /hi/java/excel-data-security/workbook-encryption-methods/
 इससे पहले कि हम Java और एन्क्रिप्शन के लिए Aspose.Cells के साथ काम करना शुरू करें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Cells for Java लाइब्रेरी, जिसे आप यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/java/).
+- Aspose.Cells for Java लाइब्रेरी, जिसे आप यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/java/).
 
 ## शुरू करना
 
@@ -102,6 +102,7 @@ Aspose.Cells for Java आपकी कार्यपुस्तिकाओं
 ### क्या Aspose.Cells for Java अन्य फ़ाइल स्वरूपों के लिए एन्क्रिप्शन का समर्थन करता है?
 
 Aspose.Cells for Java मुख्य रूप से Excel वर्कबुक पर केंद्रित है, लेकिन यह अन्य फ़ाइल स्वरूपों के लिए भी एन्क्रिप्शन समर्थन प्रदान कर सकता है। अधिक जानकारी के लिए दस्तावेज़ देखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

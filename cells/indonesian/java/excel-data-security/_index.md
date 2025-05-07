@@ -1,10 +1,10 @@
 ---
-title: Keamanan Data Excel
-linktitle: Keamanan Data Excel
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Tingkatkan keamanan data Excel dengan Aspose.Cells untuk Java. Pelajari langkah demi langkah cara melindungi lembar kerja, mengenkripsi file, dan memastikan integritas data.
-weight: 17
-url: /id/java/excel-data-security/
+"description": "Tingkatkan keamanan data Excel dengan Aspose.Cells untuk Java. Pelajari langkah demi langkah cara melindungi lembar kerja, mengenkripsi file, dan memastikan integritas data."
+"linktitle": "Keamanan Data Excel"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Keamanan Data Excel"
+"url": "/id/java/excel-data-security/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -40,7 +40,7 @@ Pelajari Teknik Penyamaran Data yang efektif menggunakan Aspose.Cells untuk Java
 Pelajari cara mengaudit akses file menggunakan Aspose.Cells untuk API Java. Panduan langkah demi langkah dengan kode sumber dan Tanya Jawab Umum.
 ### [Validasi Data untuk Keamanan](./data-validation-for-security/)
 Tingkatkan Keamanan Data dengan Aspose.Cells untuk Java. Jelajahi Teknik Validasi Data yang Komprehensif. Pelajari Cara Menerapkan Validasi & Perlindungan yang Kuat.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blok/produk/pf/bagian-halaman-tutorial >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

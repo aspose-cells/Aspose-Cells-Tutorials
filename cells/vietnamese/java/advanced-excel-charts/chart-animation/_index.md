@@ -1,10 +1,10 @@
 ---
-title: Biểu đồ hoạt hình
-linktitle: Biểu đồ hoạt hình
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách tạo hoạt ảnh biểu đồ hấp dẫn bằng Aspose.Cells for Java. Hướng dẫn từng bước và mã nguồn kèm theo để trực quan hóa dữ liệu động.
-weight: 17
-url: /vi/java/advanced-excel-charts/chart-animation/
+"description": "Tìm hiểu cách tạo hoạt ảnh biểu đồ hấp dẫn bằng Aspose.Cells for Java. Hướng dẫn từng bước và mã nguồn kèm theo để trực quan hóa dữ liệu động."
+"linktitle": "Biểu đồ hoạt hình"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Biểu đồ hoạt hình"
+"url": "/vi/java/advanced-excel-charts/chart-animation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách tạo hoạt ảnh bi
 
 Trước khi bắt đầu tạo hoạt ảnh biểu đồ, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
 
-1.  Aspose.Cells for Java: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells for Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
+1. Aspose.Cells for Java: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells for Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/java/).
 
 2. Môi trường phát triển Java: Bạn nên thiết lập môi trường phát triển Java trên hệ thống của mình.
 
@@ -88,15 +88,16 @@ Trong hướng dẫn này, chúng ta đã học cách tạo hoạt ảnh biểu 
 
 ### Làm thế nào để tôi có thể thay đổi kiểu hoạt hình?
 
- Để thay đổi kiểu hoạt hình, hãy sử dụng`setAnimationType` phương pháp trên đối tượng biểu đồ. Bạn có thể chọn từ nhiều loại khác nhau như`SLIDE`, `FADE` , Và`GROW_SHRINK`.
+Để thay đổi kiểu hoạt hình, hãy sử dụng `setAnimationType` phương pháp trên đối tượng biểu đồ. Bạn có thể chọn từ nhiều loại khác nhau như `SLIDE`, `FADE`, Và `GROW_SHRINK`.
 
 ### Tôi có thể tùy chỉnh thời lượng hoạt ảnh không?
 
- Có, bạn có thể tùy chỉnh thời lượng hoạt hình bằng cách sử dụng`setAnimationDuration` phương pháp. Chỉ định thời lượng tính bằng mili giây.
+Có, bạn có thể tùy chỉnh thời lượng hoạt hình bằng cách sử dụng `setAnimationDuration` phương pháp. Chỉ định thời lượng tính bằng mili giây.
 
 ### Mục đích của việc trì hoãn hoạt ảnh là gì?
 
- Độ trễ hoạt hình xác định khoảng thời gian trước khi hoạt hình biểu đồ bắt đầu. Sử dụng`setAnimationDelay` phương pháp thiết lập độ trễ tính bằng mili giây.
+Độ trễ hoạt hình xác định khoảng thời gian trước khi hoạt hình biểu đồ bắt đầu. Sử dụng `setAnimationDelay` phương pháp thiết lập độ trễ tính bằng mili giây.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

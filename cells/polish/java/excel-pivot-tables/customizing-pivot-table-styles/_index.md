@@ -1,10 +1,10 @@
 ---
-title: Dostosowywanie stylów tabeli przestawnej
-linktitle: Dostosowywanie stylów tabeli przestawnej
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak dostosować style tabeli przestawnej w Aspose.Cells for Java API. Twórz wizualnie atrakcyjne tabele przestawne z łatwością.
-weight: 18
-url: /pl/java/excel-pivot-tables/customizing-pivot-table-styles/
+"description": "Dowiedz się, jak dostosować style tabeli przestawnej w Aspose.Cells for Java API. Twórz wizualnie atrakcyjne tabele przestawne z łatwością."
+"linktitle": "Dostosowywanie stylów tabeli przestawnej"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Dostosowywanie stylów tabeli przestawnej"
+"url": "/pl/java/excel-pivot-tables/customizing-pivot-table-styles/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -18,7 +18,7 @@ Tabele przestawne to potężne narzędzia do podsumowywania i analizowania danyc
 
 ## Pierwsze kroki
 
- Przed dostosowaniem stylów tabeli przestawnej upewnij się, że biblioteka Aspose.Cells for Java jest zintegrowana z projektem. Możesz ją pobrać ze strony[Tutaj](https://releases.aspose.com/cells/java/).
+Przed dostosowaniem stylów tabeli przestawnej upewnij się, że biblioteka Aspose.Cells for Java jest zintegrowana z projektem. Możesz ją pobrać ze strony [Tutaj](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Utwórz tabelę przestawną
 
@@ -84,7 +84,7 @@ Dostosowywanie stylów tabeli przestawnej w Aspose.Cells for Java API jest prost
    Aspose.Cells for Java umożliwia zapisywanie tabel przestawnych w różnych formatach, w tym Excel, PDF i innych.
 
 ### Gdzie mogę znaleźć więcej dokumentacji dotyczącej dostosowywania tabel przestawnych?
-    Dokumentację API można znaleźć pod adresem[Aspose.Cells dla API Java Odwołania](https://reference.aspose.com/cells/java/) Aby uzyskać szczegółowe informacje.
+   Dokumentację API można znaleźć pod adresem [Aspose.Cells dla API Java Odwołania](https://reference.aspose.com/cells/java/) Aby uzyskać szczegółowe informacje.
 
 Teraz masz wiedzę, jak tworzyć i dostosowywać style tabeli przestawnej w Aspose.Cells dla Java. Poznaj więcej i spraw, aby Twoje prezentacje danych były naprawdę wyjątkowe!
 {{< /blocks/products/pf/tutorial-page-section >}}

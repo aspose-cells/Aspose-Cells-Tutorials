@@ -1,10 +1,10 @@
 ---
-title: การส่งออกรหัส Java CSV
-linktitle: การส่งออกรหัส Java CSV
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีส่งออกข้อมูลเป็นรูปแบบ CSV โดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการส่งออก CSV ได้อย่างราบรื่น
-weight: 12
-url: /th/java/excel-import-export/csv-export-java-code/
+"description": "เรียนรู้วิธีส่งออกข้อมูลเป็นรูปแบบ CSV โดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการส่งออก CSV ได้อย่างราบรื่น"
+"linktitle": "การส่งออกรหัส Java CSV"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การส่งออกรหัส Java CSV"
+"url": "/th/java/excel-import-export/csv-export-java-code/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /th/java/excel-import-export/csv-export-java-code/
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 1. สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java JDK ในระบบของคุณแล้ว
-2.  Aspose.Cells สำหรับ Java: ดาวน์โหลดและรวมไลบรารี Aspose.Cells สำหรับ Java ไว้ในโปรเจ็กต์ของคุณ คุณสามารถค้นหาลิงก์ดาวน์โหลด[ที่นี่](https://releases.aspose.com/cells/java/).
+2. Aspose.Cells สำหรับ Java: ดาวน์โหลดและรวมไลบรารี Aspose.Cells สำหรับ Java ไว้ในโปรเจ็กต์ของคุณ คุณสามารถค้นหาลิงก์ดาวน์โหลด [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ## การสร้างโครงการ Java
 
@@ -33,7 +33,7 @@ url: /th/java/excel-import-export/csv-export-java-code/
 
 หากต้องการเพิ่ม Aspose.Cells สำหรับ Java ลงในโปรเจ็กต์ของคุณ ให้ทำตามขั้นตอนเหล่านี้:
 
-1.  ดาวน์โหลดไลบรารี Aspose.Cells สำหรับ Java จากเว็บไซต์[ที่นี่](https://releases.aspose.com/cells/java/).
+1. ดาวน์โหลดไลบรารี Aspose.Cells สำหรับ Java จากเว็บไซต์ [ที่นี่](https://releases-aspose.com/cells/java/).
 2. รวมไฟล์ JAR ที่ดาวน์โหลดไว้ใน classpath ของโปรเจ็กต์ของคุณ
 
 ## การเขียนโค้ดส่งออก CSV
@@ -79,7 +79,7 @@ public class CsvExportExample {
 ## คำถามที่พบบ่อย
 
 ### 1. ฉันสามารถปรับแต่งอักขระคั่น CSV ได้หรือไม่
-    ใช่ คุณสามารถปรับแต่งอักขระตัวคั่นได้โดยการแก้ไข`options.setSeparator(',')` บรรทัดในโค้ด แทนที่`','` ด้วยตัวคั่นที่คุณต้องการ
+   ใช่ คุณสามารถปรับแต่งอักขระตัวคั่นได้โดยการแก้ไข `options.setSeparator(',')` บรรทัดในโค้ด แทนที่ `','` ด้วยตัวคั่นที่คุณต้องการ
 
 ### 2. Aspose.Cells เหมาะกับชุดข้อมูลขนาดใหญ่หรือไม่
    ใช่ Aspose.Cells สามารถจัดการชุดข้อมูลขนาดใหญ่ได้อย่างมีประสิทธิภาพและมีตัวเลือกการเพิ่มประสิทธิภาพต่างๆ
@@ -91,7 +91,7 @@ public class CsvExportExample {
    ใช่ Aspose.Cells รองรับรูปแบบการส่งออกต่างๆ รวมถึง XLS, XLSX, PDF และอื่นๆ อีกมากมาย
 
 ### 5. ฉันสามารถหาเอกสารและตัวอย่างเพิ่มเติมได้ที่ไหน
-    เยี่ยมชมเอกสาร Aspose.Cells[ที่นี่](https://reference.aspose.com/cells/java/) สำหรับแหล่งข้อมูลและตัวอย่างที่ครอบคลุม
+   เยี่ยมชมเอกสาร Aspose.Cells [ที่นี่](https://reference.aspose.com/cells/java/) สำหรับแหล่งข้อมูลและตัวอย่างที่ครอบคลุม
 
 อย่าลังเลที่จะสำรวจเพิ่มเติมและปรับใช้โค้ดนี้ให้เหมาะกับความต้องการของคุณ ขอให้สนุกกับการเขียนโค้ด!
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,10 +1,10 @@
 ---
-title: Funkcje analizy danych Excel
-linktitle: Funkcje analizy danych Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Odblokuj moc analizy danych w programie Excel dzięki Aspose.Cells dla języka Java. Poznaj sortowanie, filtrowanie, obliczenia i tabele przestawne.
-weight: 10
-url: /pl/java/excel-data-analysis/data-analysis-functions-excel/
+"description": "Odblokuj moc analizy danych w programie Excel dzięki Aspose.Cells dla języka Java. Poznaj sortowanie, filtrowanie, obliczenia i tabele przestawne."
+"linktitle": "Funkcje analizy danych Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Funkcje analizy danych Excel"
+"url": "/pl/java/excel-data-analysis/data-analysis-functions-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 - [Pobierz Aspose.Cells dla Java](https://releases.aspose.com/cells/java/): Będziesz potrzebować biblioteki Aspose.Cells dla Javy. Kliknij link, aby ją pobrać i skonfigurować w swoim projekcie.
 
 ## Ładowanie pliku Excel
-Najpierw potrzebujesz pliku Excel, z którym będziesz pracować. Możesz utworzyć nowy plik lub załadować istniejący plik za pomocą Aspose.Cells. Oto jak załadować plik Excel:
+Najpierw potrzebujesz pliku Excel, z którym możesz pracować. Możesz utworzyć nowy plik lub załadować istniejący plik za pomocą Aspose.Cells. Oto jak załadować plik Excel:
 
 ```java
 // Załaduj istniejący plik Excel
@@ -40,7 +40,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Zdefiniuj zakres sortowania
 CellArea cellArea = new CellArea();
-cellArea.startRow = 1; //Zacznij od drugiego rzędu (zakładając, że pierwszy rząd to nagłówki)
+cellArea.startRow = 1; // Zacznij od drugiego rzędu (zakładając, że pierwszy rząd to nagłówki)
 cellArea.startColumn = 0; // Zacznij od pierwszej kolumny
 cellArea.endRow = worksheet.getCells().getMaxDataRow(); // Pobierz ostatni wiersz z danymi
 cellArea.endColumn = worksheet.getCells().getMaxDataColumn(); // Pobierz ostatnią kolumnę z danymi
@@ -112,7 +112,8 @@ Możesz dostosować wygląd tabeli przestawnej, modyfikując różne właściwo�
 
 ### Gdzie mogę znaleźć bardziej zaawansowane przykłady i materiały?
 
- Aby uzyskać bardziej zaawansowane przykłady, samouczki i zasoby dotyczące Aspose.Cells dla języka Java, odwiedź stronę[Dokumentacja Aspose.Cells dla języka Java](https://reference.aspose.com/cells/java/). Znajdziesz tu bogactwo informacji, które pomogą Ci opanować analizę danych w programie Excel za pomocą Aspose.Cells.
+Aby uzyskać bardziej zaawansowane przykłady, samouczki i zasoby dotyczące Aspose.Cells dla języka Java, odwiedź stronę [Dokumentacja Aspose.Cells dla języka Java](https://reference.aspose.com/cells/java/). Znajdziesz tu bogactwo informacji, które pomogą Ci opanować analizę danych w programie Excel za pomocą Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

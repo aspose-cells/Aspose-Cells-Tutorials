@@ -1,10 +1,10 @@
 ---
-title: Công thức Excel Phân tích dữ liệu
-linktitle: Công thức Excel Phân tích dữ liệu
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Mở khóa sức mạnh của phân tích dữ liệu trong Excel với Aspose.Cells cho Java. Tìm hiểu các công thức và kỹ thuật thiết yếu.
-weight: 16
-url: /vi/java/excel-data-analysis/data-analysis-excel-formulas/
+"description": "Mở khóa sức mạnh của phân tích dữ liệu trong Excel với Aspose.Cells cho Java. Tìm hiểu các công thức và kỹ thuật thiết yếu."
+"linktitle": "Công thức Excel Phân tích dữ liệu"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Công thức Excel Phân tích dữ liệu"
+"url": "/vi/java/excel-data-analysis/data-analysis-excel-formulas/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Trước khi đi sâu vào phân tích dữ liệu, chúng ta hãy giới thiệ
 
 Để bắt đầu với Aspose.Cells for Java, bạn cần thiết lập môi trường Java và đưa thư viện Aspose.Cells vào dự án của mình. Sau đây là các bước để thực hiện:
 
-1.  Tải xuống Aspose.Cells: Truy cập[Aspose.Cells cho Java](https://releases.aspose.com/cells/java/) để tải xuống phiên bản mới nhất của thư viện.
+1. Tải xuống Aspose.Cells: Truy cập [Aspose.Cells cho Java](https://releases.aspose.com/cells/java/) để tải xuống phiên bản mới nhất của thư viện.
 
 2. Thêm Aspose.Cells vào dự án của bạn: Bao gồm tệp JAR Aspose.Cells vào đường dẫn xây dựng dự án Java của bạn.
 
@@ -98,13 +98,13 @@ Trong bài viết này, chúng tôi đã khám phá phân tích dữ liệu tron
 
 ### Aspose.Cells cho Java có miễn phí không?
 
- Không, Aspose.Cells for Java là một thư viện thương mại có phí cấp phép. Bạn có thể truy cập[Trang web Aspose](https://www.aspose.com/) để tìm hiểu thêm về giá của họ.
+Không, Aspose.Cells for Java là một thư viện thương mại có phí cấp phép. Bạn có thể truy cập [Trang web Aspose](https://www.aspose.com/) để tìm hiểu thêm về giá của họ.
 
 ### Tôi có thể sử dụng Aspose.Cells for Java trên cả ứng dụng máy tính để bàn và web không?
 
 Có, bạn có thể sử dụng Aspose.Cells for Java trong cả ứng dụng máy tính để bàn và web để làm việc với các tệp Excel.
 
-### Có giới hạn nào về kích thước tệp Excel mà tôi có thể xử lý bằng Aspose.Cells không?
+### Có giới hạn nào về kích thước tệp Excel mà tôi có thể thao tác bằng Aspose.Cells không?
 
 Aspose.Cells for Java có thể xử lý các tệp Excel lớn một cách dễ dàng, do đó bạn không cần phải lo lắng về giới hạn kích thước.
 
@@ -114,7 +114,8 @@ Có, Aspose.Cells hỗ trợ các công thức Excel bằng nhiều ngôn ngữ 
 
 ### Tôi có thể tìm thêm hướng dẫn và tài nguyên về Aspose.Cells cho Java ở đâu?
 
- Bạn có thể khám phá thêm các hướng dẫn và tài liệu về Aspose.Cells cho Java tại[Tài liệu tham khảo Java API Aspose.Cells](https://reference.aspose.com/cells/java/).
+Bạn có thể khám phá thêm các hướng dẫn và tài liệu về Aspose.Cells cho Java tại [Tài liệu tham khảo Java API Aspose.Cells](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

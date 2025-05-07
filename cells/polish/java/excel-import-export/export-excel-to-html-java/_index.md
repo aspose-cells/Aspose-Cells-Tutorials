@@ -1,10 +1,10 @@
 ---
-title: Eksportuj Excela do HTML Java
-linktitle: Eksportuj Excela do HTML Java
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak eksportować Excel do HTML w Javie za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby bezproblemowo przekonwertować pliki Excel do HTML.
-weight: 19
-url: /pl/java/excel-import-export/export-excel-to-html-java/
+"description": "Dowiedz się, jak eksportować Excel do HTML w Javie za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby bezproblemowo przekonwertować pliki Excel do HTML."
+"linktitle": "Eksportuj Excela do HTML Java"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Eksportuj Excela do HTML Java"
+"url": "/pl/java/excel-import-export/export-excel-to-html-java/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -33,11 +33,11 @@ Zacznij od utworzenia nowego projektu Java w preferowanym zintegrowanym środowi
 
 ## Krok 2: Dodaj bibliotekę Aspose.Cells
 
- Dodaj bibliotekę Aspose.Cells for Java do ścieżki klas swojego projektu. Jeśli używasz Maven, uwzględnij bibliotekę w swoim`pom.xml` plik.
+Dodaj bibliotekę Aspose.Cells for Java do ścieżki klas swojego projektu. Jeśli używasz Maven, uwzględnij bibliotekę w swoim `pom.xml` plik.
 
 ## Krok 3: Załaduj plik Excel
 
- W tym kroku załadujesz plik Excel, który chcesz wyeksportować do HTML. Możesz to zrobić, tworząc`Workbook` obiekt i załadowanie pliku Excel przy użyciu jego ścieżki.
+W tym kroku załadujesz plik Excel, który chcesz wyeksportować do HTML. Możesz to zrobić, tworząc `Workbook` obiekt i załadowanie pliku Excel przy użyciu jego ścieżki.
 
 ```java
 // Załaduj plik Excel
@@ -80,6 +80,7 @@ Aby zapoznać się z bardziej zaawansowanymi funkcjami i opcjami dostosowywania,
 
 ### P: Gdzie mogę znaleźć więcej przykładów i zasobów dla Aspose.Cells dla Java?
    - A: Odwiedź dokumentację i fora Aspose.Cells. Znajdziesz tam mnóstwo przykładów, samouczków i pomocy.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

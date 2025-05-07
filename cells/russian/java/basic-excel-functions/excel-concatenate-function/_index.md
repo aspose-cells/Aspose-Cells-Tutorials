@@ -1,10 +1,10 @@
 ---
-title: Функция СЦЕПИТЬ в Excel
-linktitle: Функция СЦЕПИТЬ в Excel
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как объединить текст в Excel с помощью Aspose.Cells для Java. Это пошаговое руководство включает примеры исходного кода для бесшовной обработки текста.
-weight: 13
-url: /ru/java/basic-excel-functions/excel-concatenate-function/
+"description": "Узнайте, как объединить текст в Excel с помощью Aspose.Cells для Java. Это пошаговое руководство включает примеры исходного кода для бесшовной обработки текста."
+"linktitle": "Функция СЦЕПИТЬ в Excel"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Функция СЦЕПИТЬ в Excel"
+"url": "/ru/java/basic-excel-functions/excel-concatenate-function/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,7 +14,7 @@ url: /ru/java/basic-excel-functions/excel-concatenate-function/
 # Функция СЦЕПИТЬ в Excel
 
 
-## Введение в функцию СЦЕПИТЬ в Excel с использованием Aspose.Cells для Java
+## Введение в функцию CONCATENATE в Excel с использованием Aspose.Cells для Java
 
 В этом уроке мы рассмотрим, как использовать функцию CONCATENATE в Excel с помощью Aspose.Cells for Java. CONCATENATE — это удобная функция Excel, которая позволяет объединять или сцеплять несколько текстовых строк в одну. С помощью Aspose.Cells for Java вы можете добиться той же функциональности программным путем в своих приложениях Java.
 
@@ -24,7 +24,7 @@ url: /ru/java/basic-excel-functions/excel-concatenate-function/
 
 1. Среда разработки Java: в вашей системе должна быть установлена Java, а также подходящая интегрированная среда разработки (IDE), например Eclipse или IntelliJ IDEA.
 
-2. Aspose.Cells for Java: Вам необходимо установить библиотеку Aspose.Cells for Java. Вы можете загрузить ее с[здесь](https://releases.aspose.com/cells/java/).
+2. Aspose.Cells for Java: Вам необходимо установить библиотеку Aspose.Cells for Java. Вы можете загрузить ее с [здесь](https://releases.aspose.com/cells/java/).
 
 ## Шаг 1: Создайте новый проект Java
 
@@ -91,7 +91,7 @@ workbook.save("concatenated_text.xlsx");
 
 ## Заключение
 
- В этом уроке мы узнали, как объединить текст в Excel с помощью Aspose.Cells для Java. Мы рассмотрели основные шаги, от инициализации Workbook до сохранения файла Excel. Кроме того, мы изучили альтернативный метод объединения текста с помощью`Cell.putValue` метод. Теперь вы можете использовать Aspose.Cells для Java для легкого выполнения конкатенации текста в ваших приложениях Java.
+В этом уроке мы узнали, как объединить текст в Excel с помощью Aspose.Cells для Java. Мы рассмотрели основные шаги, от инициализации Workbook до сохранения файла Excel. Кроме того, мы изучили альтернативный метод объединения текста с помощью `Cell.putValue` метод. Теперь вы можете использовать Aspose.Cells для Java для легкого выполнения конкатенации текста в ваших приложениях Java.
 
 ## Часто задаваемые вопросы
 
@@ -103,9 +103,9 @@ workbook.save("concatenated_text.xlsx");
 
 2. Введите текстовые данные в нужные ячейки.
 
-3.  Используйте`setFormula` метод создания формулы СЦЕПИТЬ, которая объединяет текст из ячеек.
+3. Используйте `setFormula` метод создания формулы СЦЕПИТЬ, которая объединяет текст из ячеек.
 
-4.  Пересчитайте формулы на рабочем листе, используя`workbook.calculateFormula()`.
+4. Пересчитайте формулы на рабочем листе, используя `workbook.calculateFormula()`.
 
 5. Сохраните файл Excel.
 
@@ -117,7 +117,7 @@ workbook.save("concatenated_text.xlsx");
 
 ### Есть ли альтернатива CONCATENATE в Aspose.Cells для Java?
 
- Да, Aspose.Cells для Java предоставляет альтернативный способ объединения текста с помощью`Cell.putValue` метод. Вы можете объединить текст из нескольких ячеек и установить результат в другой ячейке без использования формул.
+Да, Aspose.Cells для Java предоставляет альтернативный способ объединения текста с помощью `Cell.putValue` метод. Вы можете объединить текст из нескольких ячеек и поместить результат в другую ячейку без использования формул.
 
 ```java
 // Объединить текст из ячеек A1, B1 и C1 в D1 без использования формул
@@ -126,6 +126,7 @@ worksheet.getCells().get("D1").putValue(concatenatedText);
 ```
 
 Этот подход может быть полезен, если вы хотите объединить текст, не прибегая к формулам Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,78 +1,78 @@
 ---
-title: Dinamikus kimutatástáblák
-linktitle: Dinamikus kimutatástáblák
-second_title: Aspose.Cells Java Excel Processing API
-description: Az Aspose.Cells for Java segítségével könnyedén hozhat létre dinamikus pivot táblákat. Egyszerűen elemezheti és összegezheti az adatokat. Növelje adatelemzési képességeit.
-weight: 13
-url: /hu/java/excel-pivot-tables/dynamic-pivot-tables/
+"description": "Dinamikus pivot táblázatok létrehozása könnyedén az Aspose.Cells for Java használatával. Adatok egyszerű elemzése és összefoglalása. Adatelemzési képességeinek bővítése."
+"linktitle": "Dinamikus pivot táblázatok"
+"second_title": "Aspose.Cells Java Excel feldolgozási API"
+"title": "Dinamikus pivot táblázatok"
+"url": "/hu/java/excel-pivot-tables/dynamic-pivot-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dinamikus kimutatástáblák
+# Dinamikus pivot táblázatok
 
 
-A kimutatástáblák hatékony eszközt jelentenek az adatelemzésben, lehetővé téve az adatok összegzését és kezelését egy táblázatban. Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre dinamikus pivot táblákat az Aspose.Cells for Java API használatával.
+A pivot táblák hatékony eszközök az adatelemzésben, lehetővé téve az adatok táblázatban történő összegzését és kezelését. Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhatunk létre dinamikus pivot táblákat az Aspose.Cells for Java API használatával.
 
-## Bevezetés a kimutatásokba
+## Bevezetés a kimutatástáblákba
 
-A kimutatástáblák olyan interaktív táblák, amelyek lehetővé teszik az adatok táblázatban történő összegzését és elemzését. Dinamikus módot biztosítanak az adatok rendszerezésére és elemzésére, megkönnyítve a betekintést és a megalapozott döntések meghozatalát.
+A pivot táblázatok interaktív táblázatok, amelyek lehetővé teszik az adatok táblázatban történő összefoglalását és elemzését. Dinamikus módot kínálnak az adatok rendszerezésére és elemzésére, megkönnyítve a betekintést és a megalapozott döntések meghozatalát.
 
-## 1. lépés: Az Aspose.Cells Library importálása
+## 1. lépés: Az Aspose.Cells könyvtár importálása
 
- Mielőtt dinamikus pivot táblákat hozhatnánk létre, importálnunk kell az Aspose.Cells könyvtárat a Java projektünkbe. A könyvtár letölthető az Aspose kiadásaiból[itt](https://releases.aspose.com/cells/java/).
+Mielőtt dinamikus pivot táblákat hozhatnánk létre, importálnunk kell az Aspose.Cells könyvtárat a Java projektünkbe. A könyvtárat az Aspose kiadásaiból töltheti le. [itt](https://releases.aspose.com/cells/java/).
 
-Miután letöltötte a könyvtárat, adja hozzá a projekt felépítési útvonalához.
+Miután letöltötted a könyvtárat, add hozzá a projekted építési útvonalához.
 
 ## 2. lépés: Munkafüzet betöltése
 
-pivot táblákkal való munkavégzéshez először be kell töltenünk egy munkafüzetet, amely tartalmazza az elemezni kívánt adatokat. Ezt a következő kóddal teheti meg:
+A pivot táblázatokkal való munkához először be kell töltenünk egy munkafüzetet, amely tartalmazza az elemezni kívánt adatokat. Ezt a következő kóddal teheti meg:
 
 ```java
-// Töltse be az Excel fájlt
+// Töltsd be az Excel fájlt
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Cserélje ki`"your_excel_file.xlsx"` az Excel-fájl elérési útjával.
+Csere `"your_excel_file.xlsx"` az Excel-fájl elérési útjával.
 
 ## 3. lépés: Pivot tábla létrehozása
 
-Most, hogy betöltöttük a munkafüzetet, hozzunk létre egy pivot táblát. Meg kell adnunk a pivot tábla forrásadat-tartományát és azt a helyet, ahová el szeretnénk helyezni a munkalapon. Íme egy példa:
+Most, hogy betöltöttük a munkafüzetet, hozzunk létre egy kimutatástáblát. Meg kell adnunk a kimutatástábla forrásadat-tartományát és azt a helyet, ahová a munkalapon el szeretnénk helyezni. Íme egy példa:
 
 ```java
 // Szerezd meg az első munkalapot
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Adja meg a pivot tábla adattartományát
-String sourceData = "A1:D10"; // Cserélje ki az adattartományával
+String sourceData = "A1:D10"; // Cserélje le az adattartományra
 
 // Adja meg a pivot tábla helyét
 int firstRow = 1;
 int firstColumn = 5;
 
-// Hozd létre a kimutatástáblát
+// Hozd létre a pivot táblát
 PivotTable pivotTable = worksheet.getPivotTables().add(sourceData, worksheet.getCells().get(firstRow, firstColumn), "PivotTable1");
 ```
 
-## 4. lépés: A Pivot Table konfigurálása
+## 4. lépés: A pivot tábla konfigurálása
 
-Most, hogy létrehoztuk a pivot táblát, beállíthatjuk úgy, hogy szükség szerint összegezze és elemezze az adatokat. Beállíthat sormezőket, oszlopmezőket, adatmezőket, és különféle számításokat alkalmazhat. Íme egy példa:
+Most, hogy létrehoztuk a kimutatástáblát, beállíthatjuk úgy, hogy szükség szerint összegezze és elemezze az adatokat. Beállíthatunk sormezőket, oszlopmezőket, adatmezőket, és alkalmazhatunk különféle számításokat. Íme egy példa:
 
 ```java
-// Adjon hozzá mezőket a kimutatáshoz
+// Mezők hozzáadása a kimutatástáblához
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0); // Sormező
-pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1); // Oszlop mező
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1); // Oszlopmező
 pivotTable.addFieldToArea(PivotFieldType.DATA, 2); // Adatmező
 
-// Állítson be számítást az adatmezőhöz
+// Számítás beállítása az adatmezőhöz
 pivotTable.getDataFields().get(0).setFunction(PivotFieldFunction.SUM);
 ```
 
-## 5. lépés: A Pivot Table frissítése
+## 5. lépés: A pivottábla frissítése
 
-kimutatások dinamikusak lehetnek, ami azt jelenti, hogy automatikusan frissülnek, amikor a forrásadatok megváltoznak. A pivot tábla frissítéséhez a következő kódot használhatja:
+A pivot táblák lehetnek dinamikusak, ami azt jelenti, hogy automatikusan frissülnek, amikor a forrásadatok megváltoznak. A pivot tábla frissítéséhez a következő kódot használhatja:
 
 ```java
 // Frissítse a pivot táblát
@@ -82,32 +82,32 @@ pivotTable.calculateData();
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan hozhat létre dinamikus pivot táblákat az Aspose.Cells for Java API használatával. A pivot táblák értékes eszközt jelentenek az adatok elemzéséhez, és az Aspose.Cells segítségével automatizálhatja létrehozásukat és manipulálásukat a Java-alkalmazásokban.
+Ebben az oktatóanyagban megtanultuk, hogyan hozhatunk létre dinamikus pivot táblákat az Aspose.Cells for Java API használatával. A pivot táblák értékes eszközök az adatelemzéshez, és az Aspose.Cells segítségével automatizálhatjuk létrehozásukat és kezelésüket a Java alkalmazásokban.
 
-Ha bármilyen kérdése van, vagy további segítségre van szüksége, forduljon bizalommal. Boldog kódolást!
+Ha bármilyen kérdésed van, vagy további segítségre van szükséged, nyugodtan keress minket. Jó kódolást!
 
 ## GYIK
 
 ### 1. kérdés: Alkalmazhatok egyéni számításokat a kimutatástábla adatmezőire?
 
-Igen, egyéni számításokat alkalmazhat az adatmezőkre saját logikájának megvalósításával.
+Igen, egyéni számításokat alkalmazhat az adatmezőkre saját logika megvalósításával.
 
-### 2. kérdés: Hogyan változtathatom meg a pivot tábla formázását?
+### 2. kérdés: Hogyan módosíthatom a pivot tábla formázását?
 
-A pivot tábla formázását módosíthatja a stílustulajdonságok elérésével és a kívánt formázás alkalmazásával.
+A pivot tábla formázását a stílustulajdonságok elérésével és a kívánt formázás alkalmazásával módosíthatja.
 
-### 3. kérdés: Létrehozhat több pivot táblát ugyanazon a munkalapon?
+### 3. kérdés: Lehetséges több pivot táblát létrehozni ugyanazon a munkalapon?
 
-Igen, ugyanazon a munkalapon több pivot táblát is létrehozhat különböző célhelyek megadásával.
+Igen, több pivottáblát is létrehozhat ugyanazon a munkalapon különböző célhelyek megadásával.
 
-### 4. kérdés: Szűrhetek adatokat egy kimutatástáblázatban?
+### 4. kérdés: Szűrhetek adatokat egy kimutatástáblában?
 
-Igen, alkalmazhat szűrőket a kimutatástáblákra, hogy megjelenítse az adott adatrészhalmazokat.
+Igen, szűrőket alkalmazhat a kimutatástáblákra bizonyos adathalmazok megjelenítéséhez.
 
-### 5. kérdés: Támogatja az Aspose.Cells az Excel fejlett pivot tábla funkcióit?
+### 5. kérdés: Az Aspose.Cells támogatja az Excel speciális pivot tábla funkcióit?
 
-Igen, az Aspose.Cells széleskörű támogatást nyújt az Excel fejlett kimutatástábla szolgáltatásaihoz, lehetővé téve összetett kimutatástáblák létrehozását.
-{{< /blocks/products/pf/tutorial-page-section >}}
+Igen, az Aspose.Cells széleskörű támogatást nyújt az Excel speciális pivot tábla funkcióihoz, lehetővé téve összetett pivot táblák létrehozását.
+{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

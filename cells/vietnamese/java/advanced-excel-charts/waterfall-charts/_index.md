@@ -1,10 +1,10 @@
 ---
-title: Biểu đồ thác nước
-linktitle: Biểu đồ thác nước
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách tạo Biểu đồ thác nước tuyệt đẹp với Aspose.Cells cho Java. Hướng dẫn từng bước với mã nguồn để trực quan hóa dữ liệu hiệu quả.
-weight: 18
-url: /vi/java/advanced-excel-charts/waterfall-charts/
+"description": "Tìm hiểu cách tạo Biểu đồ thác nước tuyệt đẹp với Aspose.Cells cho Java. Hướng dẫn từng bước với mã nguồn để trực quan hóa dữ liệu hiệu quả."
+"linktitle": "Biểu đồ thác nước"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Biểu đồ thác nước"
+"url": "/vi/java/advanced-excel-charts/waterfall-charts/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Biểu đồ thác nước là một công cụ thiết yếu trong trực quan 
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
--  Aspose.Cells cho Java: Bạn sẽ cần phải cài đặt Aspose.Cells cho Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
+- Aspose.Cells cho Java: Bạn sẽ cần phải cài đặt Aspose.Cells cho Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/java/).
 
 - Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
 
@@ -97,7 +97,7 @@ Tạo biểu đồ thác nước bằng Aspose.Cells for Java rất đơn giản
 
 ### Làm thế nào để tùy chỉnh giao diện biểu đồ thác nước của tôi?
 
-Bạn có thể tùy chỉnh giao diện của biểu đồ thác nước bằng cách sửa đổi các thuộc tính như màu sắc, nhãn dữ liệu và nhãn trục. Tham khảo tài liệu Aspose.Cells để biết hướng dẫn chi tiết.
+Bạn có thể tùy chỉnh giao diện biểu đồ thác nước của mình bằng cách sửa đổi các thuộc tính như màu sắc, nhãn dữ liệu và nhãn trục. Tham khảo tài liệu Aspose.Cells để biết hướng dẫn chi tiết.
 
 ### Tôi có thể tạo nhiều biểu đồ thác nước trong cùng một bảng tính không?
 
@@ -113,7 +113,8 @@ Chắc chắn, bạn có thể thêm nhiều chuỗi dữ liệu hơn vào biể
 
 ### Tôi có thể tìm thêm tài nguyên và ví dụ về Aspose.Cells cho Java ở đâu?
 
- Bạn có thể khám phá tài liệu về Aspose.Cells cho Java tại[tham khảo.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) để biết thông tin chi tiết và ví dụ mã.
+Bạn có thể khám phá tài liệu về Aspose.Cells cho Java tại [tham khảo.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) để biết thông tin chi tiết và ví dụ mã.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

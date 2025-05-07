@@ -1,10 +1,10 @@
 ---
-title: Thông báo lỗi xác thực dữ liệu
-linktitle: Thông báo lỗi xác thực dữ liệu
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tối ưu hóa thông báo lỗi xác thực dữ liệu của bạn với Aspose.Cells cho Java. Tìm hiểu cách tạo, tùy chỉnh và cải thiện trải nghiệm người dùng.
-weight: 12
-url: /vi/java/data-validation-rules/data-validation-error-messages/
+"description": "Tối ưu hóa thông báo lỗi xác thực dữ liệu của bạn với Aspose.Cells cho Java. Tìm hiểu cách tạo, tùy chỉnh và cải thiện trải nghiệm người dùng."
+"linktitle": "Thông báo lỗi xác thực dữ liệu"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Thông báo lỗi xác thực dữ liệu"
+"url": "/vi/java/data-validation-rules/data-validation-error-messages/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -107,6 +107,7 @@ Có, bạn có thể tự động hóa quy trình tạo thông báo lỗi dựa 
 ### Làm thế nào tôi có thể xử lý lỗi xác thực một cách khéo léo trong ứng dụng của mình?
 
 Bạn có thể phát hiện lỗi xác thực và hiển thị thông báo lỗi tùy chỉnh cho người dùng, hướng dẫn họ sửa lỗi nhập liệu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

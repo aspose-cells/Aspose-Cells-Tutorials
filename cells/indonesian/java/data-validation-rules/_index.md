@@ -1,10 +1,10 @@
 ---
-title: Aturan Validasi Data
-linktitle: Aturan Validasi Data
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Aturan Validasi Data Master dengan Aspose.Cells untuk Java. Buat lembar Excel bebas kesalahan. Jelajahi tutorial lengkap sekarang!
-weight: 11
-url: /id/java/data-validation-rules/
+"description": "Aturan Validasi Data Master dengan Aspose.Cells untuk Java. Buat lembar Excel bebas kesalahan. Jelajahi tutorial lengkap sekarang!"
+"linktitle": "Aturan Validasi Data"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Aturan Validasi Data"
+"url": "/id/java/data-validation-rules/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -42,7 +42,7 @@ Pelajari Validasi Data di Excel menggunakan Aspose.Cells untuk Java. Terapkan at
 Pelajari cara menerapkan validasi data bersyarat menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber untuk penanganan data yang akurat dalam lembar kerja Excel.
 ### [Pesan Input dalam Validasi Data](./input-message-in-data-validation/)
 Pelajari cara meningkatkan validasi data di Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode untuk meningkatkan akurasi data dan panduan pengguna.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blok/produk/pf/bagian-halaman-tutorial >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

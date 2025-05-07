@@ -1,10 +1,10 @@
 ---
-title: แดชบอร์ดแบบโต้ตอบ
-linktitle: แดชบอร์ดแบบโต้ตอบ
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้การสร้างแดชบอร์ดแบบโต้ตอบด้วย Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการสร้างการแสดงภาพข้อมูลแบบไดนามิก
-weight: 10
-url: /th/java/advanced-excel-charts/interactive-dashboards/
+"description": "เรียนรู้การสร้างแดชบอร์ดแบบโต้ตอบด้วย Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการสร้างการแสดงภาพข้อมูลแบบไดนามิก"
+"linktitle": "แดชบอร์ดแบบโต้ตอบ"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "แดชบอร์ดแบบโต้ตอบ"
+"url": "/th/java/advanced-excel-charts/interactive-dashboards/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /th/java/advanced-excel-charts/interactive-dashboards/
 
 ก่อนที่เราจะเจาะลึกรายละเอียด โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
--  Aspose.Cells สำหรับ Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.Cells สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/cells/java/).
+- Aspose.Cells สำหรับ Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.Cells สำหรับ Java จาก [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ## การตั้งค่าโครงการของคุณ
 
@@ -57,7 +57,7 @@ worksheet.getCells().get("A3").putValue("February");
 
 ## การสร้างองค์ประกอบแบบโต้ตอบ
 
-ตอนนี้เรามาเพิ่มองค์ประกอบแบบโต้ตอบ เช่น แผนภูมิ ปุ่ม และรายการดรอปดาวน์ ลงในแดชบอร์ดของเรากัน
+ตอนนี้ มาเพิ่มองค์ประกอบแบบโต้ตอบ เช่น แผนภูมิ ปุ่ม และรายการดรอปดาวน์ ลงในแดชบอร์ดของเรากัน
 
 ### การเพิ่มแผนภูมิ
 
@@ -84,7 +84,7 @@ chart.getNSeries().add("A2:A13", true);
 worksheet.getShapes().addShape(MsoDrawingType.BUTTON, 1, 1, 3, 1);
 Button button = (Button) worksheet.getShapes().get(0);
 
-//ปรับแต่งลักษณะที่ปรากฏและพฤติกรรมของปุ่ม
+// ปรับแต่งลักษณะที่ปรากฏและพฤติกรรมของปุ่ม
 button.setText("Update Chart");
 button.setActionType(MsoButtonActionType.HYPERLINK);
 button.setHyperlink("Sheet1!A2");
@@ -112,7 +112,7 @@ workbook.save("InteractiveDashboard.xlsx");
 
 ### ฉันสามารถรวมข้อมูลจากแหล่งภายนอกเข้าในแดชบอร์ดของฉันได้หรือไม่
 
-ใช่ Aspose.Cells สำหรับ Java ช่วยให้คุณนำเข้าข้อมูลจากแหล่งต่าง ๆ รวมทั้งฐานข้อมูลและไฟล์ภายนอก และรวมไว้ในแดชบอร์ดของคุณ
+ใช่ Aspose.Cells สำหรับ Java ช่วยให้คุณสามารถนำเข้าข้อมูลจากแหล่งต่าง ๆ รวมทั้งฐานข้อมูลและไฟล์ภายนอก และรวมไว้ในแดชบอร์ดของคุณได้
 
 ### มีข้อจำกัดใด ๆ เกี่ยวกับจำนวนองค์ประกอบแบบโต้ตอบที่ฉันสามารถเพิ่มได้หรือไม่
 
@@ -125,6 +125,7 @@ workbook.save("InteractiveDashboard.xlsx");
 ### Aspose.Cells สำหรับ Java เหมาะกับโครงการแสดงภาพข้อมูลขนาดใหญ่หรือไม่
 
 ใช่ Aspose.Cells สำหรับ Java เหมาะอย่างยิ่งสำหรับโครงการสร้างภาพข้อมูลทั้งขนาดเล็กและขนาดใหญ่ ความยืดหยุ่นและชุดคุณสมบัติที่ครอบคลุมทำให้เป็นตัวเลือกที่มั่นคงสำหรับความต้องการที่หลากหลาย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

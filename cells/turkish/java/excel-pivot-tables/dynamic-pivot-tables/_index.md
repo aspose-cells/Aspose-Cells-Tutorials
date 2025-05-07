@@ -1,10 +1,10 @@
 ---
-title: Dinamik Pivot Tablolar
-linktitle: Dinamik Pivot Tablolar
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java için Aspose.Cells'i kullanarak dinamik pivot tabloları zahmetsizce oluşturun. Verileri kolaylıkla analiz edin ve özetleyin. Veri analizi yeteneklerinizi artırın.
-weight: 13
-url: /tr/java/excel-pivot-tables/dynamic-pivot-tables/
+"description": "Java için Aspose.Cells'i kullanarak dinamik pivot tabloları zahmetsizce oluşturun. Verileri kolaylıkla analiz edin ve özetleyin. Veri analizi yeteneklerinizi artırın."
+"linktitle": "Dinamik Pivot Tablolar"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Dinamik Pivot Tablolar"
+"url": "/tr/java/excel-pivot-tables/dynamic-pivot-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,9 +22,9 @@ Pivot tablolar, bir elektronik tabloda verileri özetlemenize ve analiz etmenize
 
 ## Adım 1: Aspose.Cells Kitaplığını İçe Aktarma
 
- Dinamik pivot tabloları oluşturmadan önce, Aspose.Cells kütüphanesini Java projemize aktarmamız gerekir. Kütüphaneyi Aspose sürümlerinden indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/).
+Dinamik pivot tabloları oluşturmadan önce, Aspose.Cells kütüphanesini Java projemize aktarmamız gerekir. Kütüphaneyi Aspose sürümlerinden indirebilirsiniz [Burada](https://releases.aspose.com/cells/java/).
 
-Kütüphaneyi indirdikten sonra onu projenizin derleme yoluna ekleyin.
+Kütüphaneyi indirdikten sonra projenizin derleme yoluna ekleyin.
 
 ## Adım 2: Bir Çalışma Kitabını Yükleme
 
@@ -35,7 +35,7 @@ Pivot tablolarla çalışmak için öncelikle analiz etmek istediğimiz verileri
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Yer değiştirmek`"your_excel_file.xlsx"` Excel dosyanızın yolunu belirtin.
+Yer değiştirmek `"your_excel_file.xlsx"` Excel dosyanızın yolunu belirtin.
 
 ## Adım 3: Pivot Tablo Oluşturma
 

@@ -1,10 +1,10 @@
 ---
-title: एक्सेल आयात निर्यात
-linktitle: एक्सेल आयात निर्यात
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: Aspose.Cells for Java के साथ Excel फ़ाइलों को आसानी से आयात और निर्यात करें। निर्बाध डेटा एक्सचेंज के लिए चरण-दर-चरण ट्यूटोरियल देखें। आज ही Excel हैंडलिंग में महारत हासिल करें!
-weight: 16
-url: /hi/java/excel-import-export/
+"description": "Aspose.Cells for Java के साथ Excel फ़ाइलों को आसानी से आयात और निर्यात करें। निर्बाध डेटा एक्सचेंज के लिए चरण-दर-चरण ट्यूटोरियल देखें। आज ही Excel हैंडलिंग में महारत हासिल करें!"
+"linktitle": "एक्सेल आयात निर्यात"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "एक्सेल आयात निर्यात"
+"url": "/hi/java/excel-import-export/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

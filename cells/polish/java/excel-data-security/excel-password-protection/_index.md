@@ -1,10 +1,10 @@
 ---
-title: Ochrona hasłem programu Excel
-linktitle: Ochrona hasłem programu Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak zwiększyć bezpieczeństwo danych dzięki ochronie hasłem w programie Excel za pomocą Aspose.Cells for Java. Przewodnik krok po kroku z kodem źródłowym dla najwyższej poufności danych.
-weight: 10
-url: /pl/java/excel-data-security/excel-password-protection/
+"description": "Dowiedz się, jak zwiększyć bezpieczeństwo danych dzięki ochronie hasłem w programie Excel za pomocą Aspose.Cells for Java. Przewodnik krok po kroku z kodem źródłowym dla najwyższej poufności danych."
+"linktitle": "Ochrona hasłem programu Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Ochrona hasłem programu Excel"
+"url": "/pl/java/excel-data-security/excel-password-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ W erze cyfrowej zabezpieczenie poufnych danych jest najważniejsze. Arkusze kalk
 Zanim zagłębisz się w świat ochrony hasłem w programie Excel za pomocą Aspose.Cells for Java, upewnij się, że dysponujesz niezbędnymi narzędziami i wiedzą:
 
 - Środowisko programistyczne Java
--  Aspose.Cells dla API Java (Można go pobrać)[Tutaj](https://releases.aspose.com/cells/java/)
+- Aspose.Cells dla API Java (Można go pobrać) [Tutaj](https://releases.aspose.com/cells/java/)
 - Podstawowa znajomość programowania w Javie
 
 ## Konfigurowanie środowiska
@@ -79,7 +79,7 @@ import com.aspose.cells.*;
 
 public class ExcelPasswordProtection {
     public static void main(String[] args) {
-        //Załaduj istniejący skoroszyt
+        // Załaduj istniejący skoroszyt
         Workbook workbook;
         try {
             workbook = new Workbook("Sample.xlsx");
@@ -102,7 +102,7 @@ public class ExcelPasswordProtection {
 }
 ```
 
- W tym kodzie ładujemy wcześniej utworzony plik Excela, ustawiamy hasło i chronimy skoroszyt. Możesz zastąpić`"MySecretPassword"` z wybranym przez Ciebie hasłem.
+W tym kodzie ładujemy wcześniej utworzony plik Excela, ustawiamy hasło i chronimy skoroszyt. Możesz zastąpić `"MySecretPassword"` z wybranym przez Ciebie hasłem.
 
 ## Wniosek
 
@@ -129,6 +129,7 @@ Tak, możesz zmienić hasło dla pliku Excel, który jest już zabezpieczony. W 
 ### Czy istnieją jakieś ograniczenia dotyczące ochrony hasłem plików Excel?
 
 Ochrona hasłem plików programu Excel to skuteczny sposób zabezpieczenia, jednak dla zapewnienia maksymalnego bezpieczeństwa ważne jest, aby wybierać silne hasła i zachowywać ich poufność.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

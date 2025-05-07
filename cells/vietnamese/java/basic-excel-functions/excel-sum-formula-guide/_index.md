@@ -1,10 +1,10 @@
 ---
-title: Hướng dẫn công thức Excel SUM
-linktitle: Hướng dẫn công thức Excel SUM
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Mở khóa sức mạnh của công thức SUM trong Excel với Aspose.Cells cho Java - Hướng dẫn toàn diện về tự động hóa Excel.
-weight: 10
-url: /vi/java/basic-excel-functions/excel-sum-formula-guide/
+"description": "Mở khóa sức mạnh của công thức SUM trong Excel với Aspose.Cells cho Java - Hướng dẫn toàn diện về tự động hóa Excel."
+"linktitle": "Hướng dẫn công thức Excel SUM"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Hướng dẫn công thức Excel SUM"
+"url": "/vi/java/basic-excel-functions/excel-sum-formula-guide/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Aspose.Cells for Java là một Java API mạnh mẽ cho phép các nhà phát t
 
 ## Thiết lập môi trường
 
- Trước khi tìm hiểu công thức Excel, điều quan trọng là phải thiết lập môi trường phát triển của bạn. Đảm bảo bạn đã cài đặt Java, tải xuống thư viện Aspose.Cells for Java và đưa nó vào dự án của bạn. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/cells/java/).
+Trước khi tìm hiểu công thức Excel, điều quan trọng là phải thiết lập môi trường phát triển của bạn. Đảm bảo bạn đã cài đặt Java, tải xuống thư viện Aspose.Cells for Java và đưa nó vào dự án của bạn. Bạn có thể tìm thấy liên kết tải xuống [đây](https://releases.aspose.com/cells/java/).
 
 ## Tạo một Workbook mới
 
@@ -60,7 +60,7 @@ Trong ví dụ này, chúng tôi đã thêm số 10 vào ô A1.
 
 ## Hiểu công thức SUM
 
- Công thức SUM được sử dụng để tính tổng của một dãy số trong Excel. Cú pháp cơ bản của nó là`=SUM(range)`, trong đó "phạm vi" biểu thị các ô bạn muốn cộng lại với nhau.
+Công thức SUM được sử dụng để tính tổng của một dãy số trong Excel. Cú pháp cơ bản của nó là `=SUM(range)`, trong đó "phạm vi" biểu thị các ô bạn muốn cộng lại với nhau.
 
 ## Sử dụng chức năng SUM với Aspose.Cells
 
@@ -76,7 +76,7 @@ workbook.calculateFormula();
 workbook.save("sample.xlsx");
 ```
 
- Trong ví dụ này, chúng tôi đã sử dụng`setFormula`phương pháp áp dụng công thức SUM vào ô B1, tính tổng các giá trị trong các ô từ A1 đến A10.
+Trong ví dụ này, chúng tôi đã sử dụng `setFormula` phương pháp áp dụng công thức SUM vào ô B1, tính tổng các giá trị trong các ô từ A1 đến A10.
 
 ## Áp dụng SUM trên các phạm vi khác nhau
 
@@ -99,7 +99,7 @@ workbook.save("sample.xlsx");
 
 ## Tổng có điều kiện với Aspose.Cells
 
- Aspose.Cells cũng cho phép bạn triển khai các công thức SUM có điều kiện, có thể cực kỳ hữu ích cho việc phân tích dữ liệu phức tạp. Bạn có thể sử dụng các hàm như`SUMIF` Và`SUMIFS` để áp dụng các điều kiện vào tổng của bạn.
+Aspose.Cells cũng cho phép bạn triển khai các công thức SUM có điều kiện, có thể cực kỳ hữu ích cho việc phân tích dữ liệu phức tạp. Bạn có thể sử dụng các hàm như `SUMIF` Và `SUMIFS` để áp dụng các điều kiện vào tổng của bạn.
 
 ```java
 // Tổng có điều kiện
@@ -129,7 +129,7 @@ Trong hướng dẫn toàn diện này, chúng tôi đã khám phá công thức
 
 ### Làm thế nào để tải xuống Aspose.Cells cho Java?
 
- Bạn có thể tải xuống Aspose.Cells cho Java từ trang web tại[đây](https://releases.aspose.com/cells/java/)Chọn phiên bản phù hợp với nhu cầu của bạn và làm theo hướng dẫn cài đặt.
+Bạn có thể tải xuống Aspose.Cells cho Java từ trang web tại [đây](https://releases.aspose.com/cells/java/). Chọn phiên bản phù hợp với nhu cầu của bạn và làm theo hướng dẫn cài đặt.
 
 ### Tôi có thể sử dụng Aspose.Cells cho Java trong các dự án thương mại không?
 
@@ -141,11 +141,12 @@ Aspose.Cells cung cấp hỗ trợ mạnh mẽ cho các công thức Excel, bao 
 
 ### Tôi có thể tự động hóa các hàm Excel khác bằng Aspose.Cells không?
 
-Hoàn toàn có thể! Aspose.Cells for Java hỗ trợ nhiều hàm Excel, khiến nó trở thành công cụ đa năng để tự động hóa nhiều tác vụ khác nhau, bao gồm tính toán, trích xuất dữ liệu và định dạng.
+Hoàn toàn đúng! Aspose.Cells for Java hỗ trợ nhiều hàm Excel, khiến nó trở thành công cụ đa năng để tự động hóa nhiều tác vụ khác nhau, bao gồm tính toán, trích xuất dữ liệu và định dạng.
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
 
- Bạn có thể truy cập tài liệu toàn diện và các tài nguyên bổ sung cho Aspose.Cells cho Java tại[đây](https://reference.aspose.com/cells/java/)Khám phá tài liệu để tìm hiểu các tính năng và ví dụ nâng cao.
+Bạn có thể truy cập tài liệu toàn diện và các tài nguyên bổ sung cho Aspose.Cells cho Java tại [đây](https://reference.aspose.com/cells/java/). Khám phá tài liệu để tìm hiểu các tính năng và ví dụ nâng cao.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Wykresy 3D
-linktitle: Wykresy 3D
-second_title: Aspose.Cells Java Excel Processing API
-description: Naucz się tworzyć oszałamiające wykresy 3D w Javie za pomocą Aspose.Cells. Przewodnik krok po kroku po wizualizacji danych w programie Excel.
-weight: 13
-url: /pl/java/advanced-excel-charts/3d-charts/
+"description": "Naucz się tworzyć oszałamiające wykresy 3D w Javie za pomocą Aspose.Cells. Przewodnik krok po kroku po wizualizacji danych w programie Excel."
+"linktitle": "Wykresy 3D"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Wykresy 3D"
+"url": "/pl/java/advanced-excel-charts/3d-charts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -39,7 +39,7 @@ Możesz pobrać bibliotekę Aspose.Cells for Java ze strony internetowej. Po pob
 Aby użyć Aspose.Cells dla Java, musisz zainicjować swoją licencję. Ten krok jest niezbędny, aby usunąć wszelkie ograniczenia ewaluacyjne i odblokować pełny potencjał biblioteki.
 
 ```java
-//Zainicjuj licencję Aspose.Cells
+// Zainicjuj licencję Aspose.Cells
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -144,13 +144,13 @@ Aspose.Cells for Java pozwala na integrację danych z różnych źródeł w wykr
 
 ## Wniosek
 
-tym artykule przyjrzeliśmy się sposobowi tworzenia wykresów 3D przy użyciu Aspose.Cells for Java. Omówiliśmy konfigurację, podstawowe tworzenie wykresów, dostosowywanie i zaawansowane funkcje pracy z wykresami 3D. Aspose.Cells for Java zapewnia solidną i przyjazną dla użytkownika platformę do generowania wizualnie atrakcyjnych i informacyjnych wykresów 3D w programie Excel.
+tym artykule przyjrzeliśmy się sposobowi tworzenia wykresów 3D przy użyciu Aspose.Cells for Java. Omówiliśmy konfigurację, podstawowe tworzenie wykresów, dostosowywanie i zaawansowane funkcje pracy z wykresami 3D. Aspose.Cells for Java zapewnia solidną i przyjazną dla użytkownika platformę do generowania atrakcyjnych wizualnie i informacyjnych wykresów 3D w programie Excel.
 
 ## Najczęściej zadawane pytania
 
 ### Jak mogę dodać wiele serii danych do wykresu 3D?
 
- Aby dodać wiele serii danych do wykresu 3D, możesz użyć`chart.getNSeries().add()` metodę i określ zakres danych dla każdej serii. Upewnij się, że ustawiłeś odpowiedni typ wykresu dla każdej serii, aby je odróżnić.
+Aby dodać wiele serii danych do wykresu 3D, możesz użyć `chart.getNSeries().add()` metodę i określ zakres danych dla każdej serii. Upewnij się, że ustawiłeś odpowiedni typ wykresu dla każdej serii, aby je odróżnić.
 
 ### Czy mogę eksportować wykresy 3D utworzone za pomocą Aspose.Cells for Java do innych formatów?
 
@@ -166,7 +166,8 @@ Tak, możesz zautomatyzować proces aktualizacji danych na wykresach 3D, integru
 
 ### Gdzie mogę znaleźć więcej materiałów i dokumentacji dla Aspose.Cells dla Java?
 
- Pełną dokumentację i zasoby dotyczące Aspose.Cells dla języka Java można znaleźć na stronie internetowej:[Dokumentacja Aspose.Cells dla języka Java](https://reference.aspose.com/cells/java/).
+Pełną dokumentację i zasoby dotyczące Aspose.Cells dla języka Java można znaleźć na stronie internetowej: [Dokumentacja Aspose.Cells dla Java](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

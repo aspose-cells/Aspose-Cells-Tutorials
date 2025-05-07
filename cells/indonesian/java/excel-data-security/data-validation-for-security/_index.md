@@ -1,10 +1,10 @@
 ---
-title: Validasi Data untuk Keamanan
-linktitle: Validasi Data untuk Keamanan
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Tingkatkan Keamanan Data dengan Aspose.Cells untuk Java. Jelajahi Teknik Validasi Data yang Komprehensif. Pelajari Cara Menerapkan Validasi & Perlindungan yang Kuat.
-weight: 17
-url: /id/java/excel-data-security/data-validation-for-security/
+"description": "Tingkatkan Keamanan Data dengan Aspose.Cells untuk Java. Jelajahi Teknik Validasi Data yang Komprehensif. Pelajari Cara Menerapkan Validasi & Perlindungan yang Kuat."
+"linktitle": "Validasi Data untuk Keamanan"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Validasi Data untuk Keamanan"
+"url": "/id/java/excel-data-security/data-validation-for-security/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -31,7 +31,7 @@ Validasi data penting karena melindungi integritas dan keamanan data Anda. Denga
 Sebelum kita menyelami validasi data, mari kita siapkan lingkungan pengembangan kita dengan Aspose.Cells untuk Java. Ikuti langkah-langkah berikut untuk memulai:
 
 ### Instalasi
-1.  Unduh pustaka Aspose.Cells untuk Java dari[Di Sini](https://releases.aspose.com/cells/java/).
+1. Unduh pustaka Aspose.Cells untuk Java dari [Di Sini](https://releases.aspose.com/cells/java/).
 2. Tambahkan perpustakaan ke proyek Java Anda.
 
 ### Inisialisasi
@@ -152,6 +152,7 @@ Ya, Anda dapat membuat aturan validasi data khusus menggunakan Aspose.Cells untu
 ### Apa sajakah teknik validasi data tingkat lanjut?
 
 Teknik tingkat lanjut mencakup pembuatan daftar drop-down dan penggunaan rumus untuk validasi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Biểu đồ tương tác
-linktitle: Biểu đồ tương tác
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách tạo biểu đồ tương tác bằng Aspose.Cells for Java. Nâng cao khả năng trực quan hóa dữ liệu của bạn bằng tính tương tác.
-weight: 19
-url: /vi/java/advanced-excel-charts/chart-interactivity/
+"description": "Tìm hiểu cách tạo biểu đồ tương tác bằng Aspose.Cells for Java. Nâng cao khả năng trực quan hóa dữ liệu của bạn bằng tính tương tác."
+"linktitle": "Biểu đồ tương tác"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Biểu đồ tương tác"
+"url": "/vi/java/advanced-excel-charts/chart-interactivity/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Biểu đồ tương tác bổ sung một chiều hướng mới cho trực quan
 
 Trước khi bắt đầu, hãy đảm bảo bạn đáp ứng các điều kiện tiên quyết sau:
 - Môi trường phát triển Java
-- Aspose.Cells cho Thư viện Java (Tải xuống từ[đây](https://releases.aspose.com/cells/java/)
+- Aspose.Cells cho Thư viện Java (Tải xuống từ [đây](https://releases.aspose.com/cells/java/)
 
 ## Bước 1: Thiết lập dự án Java của bạn
 
@@ -94,7 +94,7 @@ Trong hướng dẫn này, chúng tôi đã chỉ cho bạn cách tạo biểu �
 
 ### Làm thế nào để tôi có thể thay đổi loại biểu đồ?
 
- Bạn có thể thay đổi loại biểu đồ bằng cách sửa đổi`ChartType` tham số khi tạo biểu đồ. Ví dụ, thay thế`ChartType.COLUMN` với`ChartType.LINE` để tạo biểu đồ đường.
+Bạn có thể thay đổi loại biểu đồ bằng cách sửa đổi `ChartType` tham số khi tạo biểu đồ. Ví dụ, thay thế `ChartType.COLUMN` với `ChartType.LINE` để tạo biểu đồ đường.
 
 ### Tôi có thể tùy chỉnh giao diện của chú giải công cụ không?
 
@@ -106,7 +106,8 @@ Có, bạn có thể tùy chỉnh giao diện của chú giải công cụ bằn
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
 
- Bạn có thể khám phá thêm các ví dụ và tài liệu chi tiết về việc sử dụng Aspose.Cells cho Java tại[Tài liệu tham khảo Java API Aspose.Cells](https://reference.aspose.com/cells/java/).
+Bạn có thể khám phá thêm các ví dụ và tài liệu chi tiết về việc sử dụng Aspose.Cells cho Java tại [Tài liệu tham khảo Java API Aspose.Cells](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

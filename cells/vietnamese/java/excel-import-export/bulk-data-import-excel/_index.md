@@ -1,10 +1,10 @@
 ---
-title: Nhập dữ liệu hàng loạt Excel
-linktitle: Nhập dữ liệu hàng loạt Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách thực hiện nhập dữ liệu hàng loạt từ Excel bằng Aspose.Cells for Java API. Tối ưu hóa quá trình xử lý dữ liệu của bạn với hướng dẫn từng bước này.
-weight: 10
-url: /vi/java/excel-import-export/bulk-data-import-excel/
+"description": "Tìm hiểu cách thực hiện nhập dữ liệu hàng loạt từ Excel bằng Aspose.Cells for Java API. Tối ưu hóa quá trình xử lý dữ liệu của bạn với hướng dẫn từng bước này."
+"linktitle": "Nhập dữ liệu hàng loạt Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Nhập dữ liệu hàng loạt Excel"
+"url": "/vi/java/excel-import-export/bulk-data-import-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Nhập dữ liệu hàng loạt từ Excel là yêu cầu chung trong nhiều �
 
 Trước khi bắt đầu triển khai, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
--  Thư viện Aspose.Cells cho Java: Tải xuống và cài đặt thư viện từ[đây](https://releases.aspose.com/cells/java/).
+- Thư viện Aspose.Cells cho Java: Tải xuống và cài đặt thư viện từ [đây](https://releases.aspose.com/cells/java/).
 
 - Môi trường phát triển Java: Đảm bảo bạn đã thiết lập môi trường phát triển Java trên hệ thống của mình.
 
@@ -92,7 +92,7 @@ Có, Aspose.Cells for Java rất phù hợp cho các tác vụ xử lý hàng lo
 
 ### 4. Tôi có thể xuất dữ liệu sang Excel bằng cùng một thư viện không?
 
-Chắc chắn rồi! Aspose.Cells for Java hỗ trợ cả việc nhập và xuất dữ liệu vào và ra khỏi tệp Excel.
+Hoàn toàn có thể! Aspose.Cells for Java hỗ trợ cả việc nhập và xuất dữ liệu vào và ra khỏi tệp Excel.
 
 ### 5. Có yêu cầu cấp phép nào khi sử dụng Aspose.Cells cho Java không?
 

@@ -1,28 +1,28 @@
 ---
-title: 피벗 테이블 스타일 사용자 정의
-linktitle: 피벗 테이블 스타일 사용자 정의
-second_title: Aspose.Cells Java Excel 처리 API
-description: Java API용 Aspose.Cells에서 피벗 테이블 스타일을 사용자 지정하는 방법을 알아보세요. 시각적으로 매력적인 피벗 테이블을 쉽게 만드세요.
-weight: 18
-url: /ko/java/excel-pivot-tables/customizing-pivot-table-styles/
+"description": "Aspose.Cells for Java API에서 피벗 테이블 스타일을 사용자 지정하는 방법을 알아보세요. 시각적으로 매력적인 피벗 테이블을 쉽게 만들 수 있습니다."
+"linktitle": "피벗 테이블 스타일 사용자 지정"
+"second_title": "Aspose.Cells Java Excel 처리 API"
+"title": "피벗 테이블 스타일 사용자 지정"
+"url": "/ko/java/excel-pivot-tables/customizing-pivot-table-styles/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 피벗 테이블 스타일 사용자 정의
+# 피벗 테이블 스타일 사용자 지정
 
 
-피벗 테이블은 스프레드시트에서 데이터를 요약하고 분석하는 강력한 도구입니다. Aspose.Cells for Java API를 사용하면 피벗 테이블을 만들 수 있을 뿐만 아니라 스타일을 사용자 지정하여 데이터 프레젠테이션을 시각적으로 매력적으로 만들 수 있습니다. 이 단계별 가이드에서는 소스 코드 예제를 사용하여 이를 달성하는 방법을 보여드리겠습니다.
+피벗 테이블은 스프레드시트의 데이터를 요약하고 분석하는 강력한 도구입니다. Aspose.Cells for Java API를 사용하면 피벗 테이블을 만들 수 있을 뿐만 아니라 스타일을 사용자 지정하여 데이터 표현을 시각적으로 멋지게 만들 수 있습니다. 이 단계별 가이드에서는 소스 코드 예제를 통해 피벗 테이블을 만드는 방법을 보여드리겠습니다.
 
 ## 시작하기
 
- 피벗 테이블 스타일을 사용자 지정하기 전에 Aspose.Cells for Java 라이브러리가 프로젝트에 통합되어 있는지 확인하세요. 여기에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/java/).
+피벗 테이블 스타일을 사용자 지정하기 전에 Aspose.Cells for Java 라이브러리가 프로젝트에 통합되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다. [여기](https://releases.aspose.com/cells/java/).
 
 ## 1단계: 피벗 테이블 만들기
 
-스타일 사용자 정의를 시작하려면 피벗 테이블이 필요합니다. 다음은 피벗 테이블을 만드는 기본 예입니다.
+스타일 사용자 지정을 시작하려면 피벗 테이블이 필요합니다. 다음은 피벗 테이블을 만드는 기본적인 예입니다.
 
 ```java
 // 통합 문서 인스턴스화
@@ -39,17 +39,17 @@ PivotTable pivotTable = pivotTables.get(index);
 
 ## 2단계: 피벗 테이블 스타일 사용자 지정
 
-이제 사용자 정의 부분으로 들어가겠습니다. 글꼴, 색상, 서식을 포함하여 피벗 테이블 스타일의 다양한 측면을 변경할 수 있습니다. 다음은 피벗 테이블 헤더의 글꼴과 배경색을 변경하는 예입니다.
+이제 사용자 지정 부분을 살펴보겠습니다. 글꼴, 색상, 서식 등 피벗 테이블 스타일의 다양한 측면을 변경할 수 있습니다. 다음은 피벗 테이블 머리글의 글꼴과 배경색을 변경하는 예입니다.
 
 ```java
-// 피벗 테이블 헤더 스타일 사용자 정의
+// 피벗 테이블 헤더 스타일 사용자 지정
 Style pivotTableHeaderStyle = pivotTable.getTableStyleOption().getFirstRowStyle();
 pivotTableHeaderStyle.getFont().setBold(true);
 pivotTableHeaderStyle.getFont().setColor(Color.getBlue());
 pivotTableHeaderStyle.setForegroundColor(Color.getLightGray());
 ```
 
-## 3단계: 피벗 테이블에 사용자 정의 스타일 적용
+## 3단계: 피벗 테이블에 사용자 지정 스타일 적용
 
 스타일을 사용자 지정한 후 피벗 테이블에 적용합니다.
 
@@ -67,14 +67,14 @@ workbook.save("output.xlsx");
 
 ## 결론
 
-Aspose.Cells for Java API에서 피벗 테이블 스타일을 사용자 지정하는 것은 간단하며 시각적으로 멋진 데이터 보고서와 프레젠테이션을 만들 수 있습니다. 다양한 스타일을 실험하고 피벗 테이블을 돋보이게 하세요.
+Aspose.Cells for Java API에서 피벗 테이블 스타일을 사용자 지정하는 것은 간단하며, 시각적으로 멋진 보고서와 데이터 프레젠테이션을 만들 수 있습니다. 다양한 스타일을 적용하여 피벗 테이블을 돋보이게 만들어 보세요.
 
 ## 자주 묻는 질문
 
 ### 피벗 테이블 데이터의 글꼴 크기를 사용자 정의할 수 있나요?
-   네, 기본 설정에 따라 글꼴 크기와 기타 서식 속성을 조정할 수 있습니다.
+   네, 기본 설정에 따라 글꼴 크기 및 기타 서식 속성을 조정할 수 있습니다.
 
-### 피벗 테이블에 사용할 수 있는 미리 정의된 스타일이 있습니까?
+### 피벗 테이블에 미리 정의된 스타일을 사용할 수 있나요?
    네, Aspose.Cells for Java는 선택할 수 있는 여러 가지 기본 스타일을 제공합니다.
 
 ### 피벗 테이블에 조건부 서식을 추가할 수 있나요?
@@ -83,11 +83,11 @@ Aspose.Cells for Java API에서 피벗 테이블 스타일을 사용자 지정�
 ### 피벗 테이블을 다른 파일 형식으로 내보낼 수 있나요?
    Java용 Aspose.Cells를 사용하면 Excel, PDF 등 다양한 형식으로 피벗 테이블을 저장할 수 있습니다.
 
-### 피벗 테이블 사용자 지정에 대한 자세한 문서는 어디에서 찾을 수 있나요?
-    API 설명서는 다음에서 참조할 수 있습니다.[Java API 참조를 위한 Aspose.Cells](https://reference.aspose.com/cells/java/) 자세한 내용은
+### 피벗 테이블 사용자 정의에 대한 자세한 문서는 어디에서 찾을 수 있나요?
+   API 설명서를 참조할 수 있습니다. [Java API 참조용 Aspose.Cells](https://reference.aspose.com/cells/java/) 자세한 내용은.
 
-이제 Aspose.Cells for Java에서 피벗 테이블 스타일을 만들고 사용자 정의하는 방법을 알게 되었습니다. 더 탐구하고 데이터 프레젠테이션을 진정으로 특별하게 만들어 보세요!
-{{< /blocks/products/pf/tutorial-page-section >}}
+이제 Aspose.Cells for Java에서 피벗 테이블 스타일을 만들고 사용자 지정하는 방법을 익혔습니다. 더 깊이 있게 살펴보고 데이터 프레젠테이션을 더욱 특별하게 만들어 보세요!
+{{< /블록/제품/pf/튜토리얼-페이지-섹션 >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,10 +1,10 @@
 ---
-title: Paneles interactivos
-linktitle: Paneles interactivos
-second_title: API de procesamiento de Excel en Java Aspose.Cells
-description: Aprenda a crear paneles interactivos con Aspose.Cells para Java. Guía paso a paso para crear visualizaciones de datos dinámicas.
-weight: 10
-url: /es/java/advanced-excel-charts/interactive-dashboards/
+"description": "Aprenda a crear paneles interactivos con Aspose.Cells para Java. Guía paso a paso para crear visualizaciones de datos dinámicas."
+"linktitle": "Paneles interactivos"
+"second_title": "API de procesamiento de Excel en Java de Aspose.Cells"
+"title": "Paneles interactivos"
+"url": "/es/java/advanced-excel-charts/interactive-dashboards/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,17 +16,17 @@ url: /es/java/advanced-excel-charts/interactive-dashboards/
 
 ## Introducción
 
-En el vertiginoso mundo de la toma de decisiones basada en datos, los paneles interactivos desempeñan un papel fundamental. Proporcionan una forma dinámica e intuitiva de visualizar los datos, lo que facilita a las empresas la obtención de información y la toma de decisiones informadas. Aspose.Cells para Java ofrece un potente conjunto de herramientas para crear paneles interactivos que pueden transformar datos sin procesar en visualizaciones interactivas y significativas. En esta guía paso a paso, exploraremos cómo aprovechar Aspose.Cells para Java para crear paneles interactivos desde cero.
+En el acelerado mundo de la toma de decisiones basada en datos, los paneles interactivos desempeñan un papel fundamental. Ofrecen una forma dinámica e intuitiva de visualizar datos, lo que facilita a las empresas la obtención de información y la toma de decisiones informadas. Aspose.Cells para Java ofrece un potente conjunto de herramientas para crear paneles interactivos que transforman datos sin procesar en visualizaciones significativas e interactivas. En esta guía paso a paso, exploraremos cómo aprovechar Aspose.Cells para Java para crear paneles interactivos desde cero.
 
 ## Prerrequisitos
 
 Antes de profundizar en los detalles, asegúrese de tener los siguientes requisitos previos:
 
--  Aspose.Cells para Java: Descargue e instale la biblioteca Aspose.Cells para Java desde[aquí](https://releases.aspose.com/cells/java/).
+- Aspose.Cells para Java: Descargue e instale la biblioteca Aspose.Cells para Java desde [aquí](https://releases.aspose.com/cells/java/).
 
 ## Configuración de su proyecto
 
-Para comenzar, cree un nuevo proyecto Java en su entorno de desarrollo integrado (IDE) preferido y agregue la biblioteca Aspose.Cells para Java a la ruta de clases de su proyecto.
+Para comenzar, cree un nuevo proyecto Java en su entorno de desarrollo integrado (IDE) preferido y agregue la biblioteca Aspose.Cells para Java a la ruta de clase de su proyecto.
 
 ## Crear un libro de trabajo en blanco
 
@@ -40,15 +40,15 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 ```
 
-## Añadiendo datos
+## Agregar datos
 
-Para que nuestro panel sea interactivo, necesitamos datos. Puedes generar datos de muestra o buscarlos desde una fuente externa. Para este ejemplo, crearemos algunos datos de muestra.
+Para que nuestro panel sea interactivo, necesitamos datos. Puedes generar datos de muestra o obtenerlos de una fuente externa. En este ejemplo, crearemos algunos datos de muestra.
 
 ```java
 // Acceda a la primera hoja de trabajo
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Llene la hoja de cálculo con datos
+// Rellene la hoja de cálculo con datos
 worksheet.getCells().get("A1").putValue("Month");
 worksheet.getCells().get("A2").putValue("January");
 worksheet.getCells().get("A3").putValue("February");
@@ -77,14 +77,14 @@ chart.getNSeries().add("A2:A13", true);
 
 ### Agregar botones
 
-Los botones pueden activar acciones en nuestro panel. Agreguemos un botón que actualice los datos del gráfico cuando se hace clic en él.
+Los botones pueden activar acciones en nuestro panel. Agreguemos un botón que actualice los datos del gráfico al hacer clic.
 
 ```java
 // Agregar un botón a la hoja de cálculo
 worksheet.getShapes().addShape(MsoDrawingType.BUTTON, 1, 1, 3, 1);
 Button button = (Button) worksheet.getShapes().get(0);
 
-//Personaliza la apariencia y el comportamiento de los botones
+// Personalice la apariencia y el comportamiento del botón
 button.setText("Update Chart");
 button.setActionType(MsoButtonActionType.HYPERLINK);
 button.setHyperlink("Sheet1!A2");
@@ -93,7 +93,7 @@ button.setLinkedCell("Sheet1!A3");
 
 ## Guardar y ver el panel de control
 
-Una vez que haya personalizado su panel, guárdelo como un archivo Excel y véalo para interactuar con los elementos que ha agregado.
+Una vez que haya personalizado su panel, guárdelo como un archivo Excel y véalo para interactuar con los elementos que haya agregado.
 
 ```java
 // Guardar el libro de trabajo como un archivo de Excel
@@ -102,7 +102,7 @@ workbook.save("InteractiveDashboard.xlsx");
 
 ## Conclusión
 
-¡Felicitaciones! Aprendió a crear paneles interactivos con Aspose.Cells para Java. Esta potente biblioteca le permite crear visualizaciones de datos dinámicas y atractivas, mejorando sus procesos de toma de decisiones. Experimente con distintos tipos de gráficos, opciones de interactividad y elementos de diseño para crear paneles adaptados a sus necesidades específicas.
+¡Felicitaciones! Has aprendido a crear paneles interactivos con Aspose.Cells para Java. Esta potente biblioteca te permite crear visualizaciones de datos dinámicas y atractivas, optimizando tus procesos de toma de decisiones. Experimenta con distintos tipos de gráficos, opciones de interactividad y elementos de diseño para crear paneles a la medida de tus necesidades.
 
 ## Preguntas frecuentes
 
@@ -116,15 +116,16 @@ Sí, Aspose.Cells para Java le permite importar datos de varias fuentes, incluid
 
 ### ¿Existe algún límite en la cantidad de elementos interactivos que puedo agregar?
 
-La cantidad de elementos interactivos que puede agregar a su panel está limitada por la memoria disponible y los recursos del sistema. Tenga en cuenta las consideraciones de rendimiento al diseñar su panel.
+La cantidad de elementos interactivos que puede agregar a su panel está limitada por la memoria disponible y los recursos del sistema. Tenga en cuenta el rendimiento al diseñar su panel.
 
 ### ¿Puedo exportar mi panel interactivo a otros formatos, como PDF o HTML?
 
-Sí, Aspose.Cells para Java ofrece la posibilidad de exportar su panel interactivo a varios formatos, incluidos PDF y HTML, lo que lo hace accesible a un público más amplio.
+Sí, Aspose.Cells para Java ofrece la capacidad de exportar su panel interactivo a varios formatos, incluidos PDF y HTML, lo que lo hace accesible a un público más amplio.
 
 ### ¿Es Aspose.Cells para Java adecuado para proyectos de visualización de datos a gran escala?
 
-Sí, Aspose.Cells para Java es ideal para proyectos de visualización de datos tanto a pequeña como a gran escala. Su flexibilidad y su amplio conjunto de funciones lo convierten en una opción sólida para diversos requisitos.
+Sí, Aspose.Cells para Java es ideal para proyectos de visualización de datos tanto a pequeña como a gran escala. Su flexibilidad y su amplio conjunto de funciones lo convierten en una opción robusta para diversos requisitos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

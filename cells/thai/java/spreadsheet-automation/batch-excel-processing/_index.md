@@ -1,10 +1,10 @@
 ---
-title: การประมวลผลแบบแบตช์ Excel
-linktitle: การประมวลผลแบบแบตช์ Excel
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: ค้นพบวิธีการปรับปรุงงานการประมวลผล Excel แบบแบตช์ให้มีประสิทธิภาพด้วย Aspose.Cells สำหรับ Java จัดการข้อมูล แปลงข้อมูล และปรับเปลี่ยนข้อมูลโดยอัตโนมัติด้วยตัวอย่างโค้ดต้นฉบับ
-weight: 10
-url: /th/java/spreadsheet-automation/batch-excel-processing/
+"description": "ค้นพบวิธีการปรับปรุงงานการประมวลผล Excel แบบแบตช์ให้มีประสิทธิภาพด้วย Aspose.Cells สำหรับ Java จัดการข้อมูล แปลงข้อมูล และปรับเปลี่ยนข้อมูลโดยอัตโนมัติด้วยตัวอย่างโค้ดต้นฉบับ"
+"linktitle": "การประมวลผลแบบแบตช์ Excel"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การประมวลผลแบบแบตช์ Excel"
+"url": "/th/java/spreadsheet-automation/batch-excel-processing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -29,7 +29,7 @@ url: /th/java/spreadsheet-automation/batch-excel-processing/
 
 ### 1. การจัดเตรียมสภาพแวดล้อม
 
- ในการเริ่มต้น ให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Cells สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/java/).
+ในการเริ่มต้น ให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Cells สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ### 2. การเริ่มต้น Aspose.Cells
 
@@ -48,7 +48,7 @@ public class BatchExcelProcessing {
 
 ### 3. การโหลดไฟล์ Excel
 
-หากต้องการประมวลผลไฟล์ Excel หลายไฟล์ คุณจะต้องโหลดไฟล์เหล่านั้นลงในแอปพลิเคชันของคุณ คุณสามารถใช้ลูปหรือรายการเพื่อจัดการไฟล์ได้:
+หากต้องการประมวลผลไฟล์ Excel หลายไฟล์ คุณต้องโหลดไฟล์เหล่านั้นลงในแอปพลิเคชันของคุณ คุณสามารถใช้ลูปหรือรายการเพื่อจัดการไฟล์ได้:
 
 ```java
 // กำหนดรายการเส้นทางไฟล์ Excel
@@ -59,7 +59,7 @@ for (String filePath : excelFiles) {
     // โหลดไฟล์ Excel
     Workbook fileWorkbook = new Workbook(filePath);
     
-    //ดำเนินการประมวลผลงานบนไฟล์เวิร์กบุ๊ก
+    // ดำเนินการประมวลผลงานบนไฟล์เวิร์กบุ๊ก
 }
 ```
 
@@ -106,7 +106,7 @@ fileWorkbook.save("output.pdf", SaveFormat.PDF);
    ใช่ คุณจะต้องมีใบอนุญาตที่ถูกต้องเพื่อใช้ Aspose.Cells สำหรับ Java ในโปรเจ็กต์ของคุณ
 
 ### 4. ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.Cells สำหรับ Java ได้ที่ไหน
-    สำรวจเอกสาร API ได้ที่[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) เพื่อข้อมูลเชิงลึกและตัวอย่าง
+   สำรวจเอกสาร API ได้ที่ [https://reference.aspose.com/เซลล์/จาวา/](https://reference.aspose.com/cells/java/) เพื่อข้อมูลเชิงลึกและตัวอย่าง
 
 เพิ่มประสิทธิภาพงานประมวลผล Excel แบบแบตช์ของคุณและเพิ่มประสิทธิภาพการทำงานด้วย Aspose.Cells สำหรับ Java
 {{< /blocks/products/pf/tutorial-page-section >}}

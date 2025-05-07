@@ -1,10 +1,10 @@
 ---
-title: Teknik Penyamaran Data
-linktitle: Teknik Penyamaran Data
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari Teknik Penyamaran Data yang efektif menggunakan Aspose.Cells untuk Java. Lindungi informasi sensitif sambil menjaga integritas data.
-weight: 13
-url: /id/java/excel-data-security/data-masking-techniques/
+"description": "Pelajari Teknik Penyamaran Data yang efektif menggunakan Aspose.Cells untuk Java. Lindungi informasi sensitif sambil menjaga integritas data."
+"linktitle": "Teknik Penyamaran Data"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Teknik Penyamaran Data"
+"url": "/id/java/excel-data-security/data-masking-techniques/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -46,7 +46,7 @@ Sebelum kita dapat menerapkan teknik penyembunyian data, mari siapkan lingkungan
 
 1. Unduh Aspose.Cells untuk Java:
 
- Untuk memulai, unduh pustaka Aspose.Cells untuk Java dari[Di Sini](https://releases.aspose.com/cells/java/).
+Untuk memulai, unduh pustaka Aspose.Cells untuk Java dari [Di Sini](https://releases.aspose.com/cells/java/).
 
 2. Integrasikan Aspose.Cells ke dalam Proyek Java Anda:
 
@@ -77,7 +77,7 @@ Sekarang, mari kita jelajahi beberapa teknik penyembunyian data umum menggunakan
 Redaksi melibatkan penggantian data sensitif dengan placeholder atau nilai acak. Ini memastikan bahwa informasi asli tidak dapat disimpulkan.
 
 ```java
-// Menyunting nilai sel
+// Redaksi nilai sel
 cell.putValue("Sensitive Data");
 cell.setFormulaLocal("REDACT()");
 ```
@@ -94,7 +94,7 @@ cell.setFormulaLocal("SUBSTITUTE()");
 
 ### 3. Mengacak
 
-Pengacakan melibatkan penataan ulang data secara acak dalam satu kumpulan data.
+Pengacakan melibatkan penataan ulang data secara acak dalam satu set data.
 
 ```java
 // Mengacak rentang sel
@@ -116,9 +116,9 @@ Aspose menawarkan berbagai opsi lisensi untuk Aspose.Cells for Java, termasuk uj
 
 ### Dapatkah saya menggunakan Aspose.Cells untuk Java dengan bahasa pemrograman lain?
 
-Aspose.Cells terutama menargetkan Java, tetapi Aspose juga menyediakan pustaka untuk bahasa lain seperti .NET, CBahasa Indonesia: ++, dan banyak lagi.
+Aspose.Cells terutama menargetkan Java, tetapi Aspose juga menyediakan pustaka untuk bahasa lain seperti .NET, C++, dan banyak lagi.
 
-### Apakah penyembunyian data dapat dibatalkan?
+### Apakah penyembunyian data dapat dikembalikan seperti semula?
 
 Teknik penyembunyian data biasanya dirancang agar tidak dapat diubah kembali, memastikan bahwa informasi sensitif tidak dapat ditemukan dengan mudah.
 
@@ -129,6 +129,7 @@ Dampak kinerja dari penyamaran data sangat bergantung pada kompleksitas kumpulan
 ### Bagaimana saya dapat mempelajari lebih lanjut tentang praktik terbaik penyembunyian data?
 
 Untuk mengeksplorasi praktik terbaik untuk penyembunyian data dan keamanan data, pertimbangkan untuk merujuk pada pedoman khusus industri dan berkonsultasi dengan pakar keamanan data.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

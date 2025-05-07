@@ -1,10 +1,10 @@
 ---
-title: Çalışma Kitabı Şifreleme Yöntemleri
-linktitle: Çalışma Kitabı Şifreleme Yöntemleri
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java Çalışma Kitabı Şifrelemesi için Aspose.Cells ile Veri Güvenliğini Geliştirin. Excel Çalışma Kitaplarını Adım Adım Nasıl Şifreleyeceğinizi Öğrenin.
-weight: 12
-url: /tr/java/excel-data-security/workbook-encryption-methods/
+"description": "Java Çalışma Kitabı Şifrelemesi için Aspose.Cells ile Veri Güvenliğini Geliştirin. Excel Çalışma Kitaplarını Adım Adım Nasıl Şifreleyeceğinizi Öğrenin."
+"linktitle": "Çalışma Kitabı Şifreleme Yöntemleri"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Çalışma Kitabı Şifreleme Yöntemleri"
+"url": "/tr/java/excel-data-security/workbook-encryption-methods/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -27,7 +27,7 @@ Uygulama ayrıntılarına dalmadan önce, çalışma kitabı şifrelemesinin ne 
 Aspose.Cells for Java ve şifreleme ile çalışmaya başlamadan önce, aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
--  Java için Aspose.Cells kütüphanesini buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/).
+- Java için Aspose.Cells kütüphanesini buradan indirebilirsiniz [Burada](https://releases.aspose.com/cells/java/).
 
 ## Başlarken
 
@@ -102,6 +102,7 @@ Hayır, doğru şifre olmadan şifrelenmiş bir çalışma kitabının şifresin
 ### Aspose.Cells for Java diğer dosya formatları için şifrelemeyi destekliyor mu?
 
 Java için Aspose.Cells öncelikle Excel çalışma kitaplarına odaklanır, ancak diğer dosya biçimleri için de şifreleme desteği sunabilir. Daha fazla ayrıntı için belgelere bakın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

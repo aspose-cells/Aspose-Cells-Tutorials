@@ -1,10 +1,10 @@
 ---
-title: डेटा विश्लेषण एक्सेल फ़ार्मुले
-linktitle: डेटा विश्लेषण एक्सेल फ़ार्मुले
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: जावा के लिए Aspose.Cells के साथ Excel में डेटा विश्लेषण की शक्ति अनलॉक करें। आवश्यक सूत्र और तकनीक सीखें।
-weight: 16
-url: /hi/java/excel-data-analysis/data-analysis-excel-formulas/
+"description": "जावा के लिए Aspose.Cells के साथ Excel में डेटा विश्लेषण की शक्ति अनलॉक करें। आवश्यक सूत्र और तकनीक सीखें।"
+"linktitle": "डेटा विश्लेषण एक्सेल फ़ार्मुले"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "डेटा विश्लेषण एक्सेल फ़ार्मुले"
+"url": "/hi/java/excel-data-analysis/data-analysis-excel-formulas/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /hi/java/excel-data-analysis/data-analysis-excel-formulas/
 
 Aspose.Cells for Java के साथ आरंभ करने के लिए, आपको अपना Java वातावरण सेट करना होगा और अपने प्रोजेक्ट में Aspose.Cells लाइब्रेरी शामिल करनी होगी। ऐसा करने के लिए ये चरण दिए गए हैं:
 
-1.  Aspose.Cells डाउनलोड करें: पर जाएँ[जावा के लिए Aspose.Cells](https://releases.aspose.com/cells/java/) लाइब्रेरी का नवीनतम संस्करण डाउनलोड करने के लिए.
+1. Aspose.Cells डाउनलोड करें: पर जाएँ [जावा के लिए Aspose.Cells](https://releases.aspose.com/cells/java/) लाइब्रेरी का नवीनतम संस्करण डाउनलोड करने के लिए.
 
 2. अपने प्रोजेक्ट में Aspose.Cells जोड़ें: अपने जावा प्रोजेक्ट के निर्माण पथ में Aspose.Cells JAR फ़ाइल शामिल करें।
 
@@ -98,7 +98,7 @@ pivotTable.calculateData();
 
 ### क्या Aspose.Cells for Java का उपयोग निःशुल्क है?
 
- नहीं, Aspose.Cells for Java एक व्यावसायिक लाइब्रेरी है, जिस पर लाइसेंस शुल्क लगता है। आप यहाँ जा सकते हैं[Aspose वेबसाइट](https://www.aspose.com/) उनके मूल्य निर्धारण के बारे में अधिक जानने के लिए.
+नहीं, Aspose.Cells for Java एक व्यावसायिक लाइब्रेरी है, जिस पर लाइसेंस शुल्क लगता है। आप यहाँ जा सकते हैं [Aspose वेबसाइट](https://www.aspose.com/) उनके मूल्य निर्धारण के बारे में अधिक जानने के लिए.
 
 ### क्या मैं डेस्कटॉप और वेब अनुप्रयोगों दोनों में Java के लिए Aspose.Cells का उपयोग कर सकता हूँ?
 
@@ -108,13 +108,14 @@ pivotTable.calculateData();
 
 Aspose.Cells for Java बड़ी Excel फ़ाइलों को आसानी से संभाल सकता है, इसलिए आपको आकार सीमाओं के बारे में चिंता करने की आवश्यकता नहीं है।
 
-### क्या Aspose.Cells विभिन्न भाषाओं में Excel सूत्रों का समर्थन करता है?
+### क्या Aspose.Cells विभिन्न भाषाओं में एक्सेल सूत्रों का समर्थन करता है?
 
 हां, Aspose.Cells विभिन्न भाषाओं में एक्सेल फ़ार्मुलों का समर्थन करता है, जिससे यह अंतर्राष्ट्रीय उपयोगकर्ताओं के लिए बहुमुखी बन जाता है।
 
 ### मैं Aspose.Cells for Java के लिए और अधिक ट्यूटोरियल और संसाधन कहां पा सकता हूं?
 
- आप Aspose.Cells for Java पर अतिरिक्त ट्यूटोरियल और दस्तावेज़ देख सकते हैं[Aspose.Cells जावा API संदर्भ](https://reference.aspose.com/cells/java/).
+आप Aspose.Cells for Java पर अतिरिक्त ट्यूटोरियल और दस्तावेज़ देख सकते हैं [Aspose.Cells जावा API संदर्भ](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

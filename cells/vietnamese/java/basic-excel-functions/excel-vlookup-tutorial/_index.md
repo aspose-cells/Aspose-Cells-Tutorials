@@ -1,10 +1,10 @@
 ---
-title: Hướng dẫn sử dụng Excel VLOOKUP
-linktitle: Hướng dẫn sử dụng Excel VLOOKUP
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Mở khóa sức mạnh của hàm VLOOKUP trong Excel với Aspose.Cells cho Java - Hướng dẫn tối ưu để truy xuất dữ liệu dễ dàng.
-weight: 12
-url: /vi/java/basic-excel-functions/excel-vlookup-tutorial/
+"description": "Mở khóa sức mạnh của hàm VLOOKUP trong Excel với Aspose.Cells cho Java - Hướng dẫn tối ưu để truy xuất dữ liệu dễ dàng."
+"linktitle": "Hướng dẫn sử dụng Excel VLOOKUP"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Hướng dẫn sử dụng Excel VLOOKUP"
+"url": "/vi/java/basic-excel-functions/excel-vlookup-tutorial/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ Trong hướng dẫn toàn diện này, chúng ta sẽ đi sâu vào thế giớ
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java JDK trên hệ thống của mình.
--  Aspose.Cells cho Java: Tải xuống và cài đặt Aspose.Cells cho Java từ[đây](https://releases.aspose.com/cells/java/).
+- Aspose.Cells cho Java: Tải xuống và cài đặt Aspose.Cells cho Java từ [đây](https://releases.aspose.com/cells/java/).
 
 ## Bắt đầu
 
@@ -91,7 +91,7 @@ Bây giờ, hãy tiếp tục và khám phá những khả năng vô tận của
 
 ### Làm thế nào để cài đặt Aspose.Cells cho Java?
 
- Để cài đặt Aspose.Cells cho Java, chỉ cần tải xuống thư viện từ[liên kết này](https://releases.aspose.com/cells/java/) và làm theo hướng dẫn cài đặt được cung cấp trên trang web Aspose.
+Để cài đặt Aspose.Cells cho Java, chỉ cần tải xuống thư viện từ [liên kết này](https://releases.aspose.com/cells/java/) và làm theo hướng dẫn cài đặt được cung cấp trên trang web Aspose.
 
 ### Tôi có thể sử dụng Aspose.Cells cho Java với các ngôn ngữ lập trình khác không?
 
@@ -107,7 +107,8 @@ Có, Excel cung cấp nhiều hàm khác nhau như HLOOKUP, INDEX MATCH và nhi�
 
 ### Tôi có thể tìm thêm tài liệu về Aspose ở đâu?
 
- Để có tài liệu toàn diện về Aspose.Cells cho Java, hãy truy cập trang tài liệu của họ tại[đây](https://reference.aspose.com/cells/java/).
+Để có tài liệu toàn diện về Aspose.Cells cho Java, hãy truy cập trang tài liệu của họ tại [đây](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

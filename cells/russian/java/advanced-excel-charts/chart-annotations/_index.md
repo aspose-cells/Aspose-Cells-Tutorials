@@ -1,10 +1,10 @@
 ---
-title: Аннотации к диаграммам
-linktitle: Аннотации к диаграммам
-second_title: API обработки Java Excel Aspose.Cells
-description: Улучшите свои диаграммы с помощью аннотаций диаграмм с помощью Aspose.Cells для Java — пошаговое руководство. Узнайте, как добавлять аннотации для информативной визуализации данных.
-weight: 16
-url: /ru/java/advanced-excel-charts/chart-annotations/
+"description": "Улучшите свои диаграммы с помощью аннотаций диаграмм с помощью Aspose.Cells для Java — пошаговое руководство. Узнайте, как добавлять аннотации для информативной визуализации данных."
+"linktitle": "Аннотации к диаграммам"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Аннотации к диаграммам"
+"url": "/ru/java/advanced-excel-charts/chart-annotations/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -28,7 +28,7 @@ url: /ru/java/advanced-excel-charts/chart-annotations/
 
 ## Настройка Aspose.Cells для Java
 
-Для начала вам необходимо настроить Aspose.Cells for Java в вашем проекте. Вы можете скачать библиотеку с сайта Aspose[здесь](https://releases.aspose.com/cells/java/). После загрузки добавьте библиотеку в свой проект Java.
+Для начала вам необходимо настроить Aspose.Cells for Java в вашем проекте. Вы можете скачать библиотеку с сайта Aspose [здесь](https://releases.aspose.com/cells/java/). После загрузки добавьте библиотеку в свой проект Java.
 
 ## Создание книги Excel
 
@@ -74,7 +74,7 @@ chart.getNSeries().setCategoryData("A2:A13");
 
 ## Добавление аннотаций к диаграмме
 
- Чтобы добавить аннотации к диаграмме, мы можем использовать`TextFrame` класс в Aspose.Cells.
+Чтобы добавить аннотации к диаграмме, мы можем использовать `TextFrame` класс в Aspose.Cells.
 
 ```java
 // Добавление аннотаций к диаграмме
@@ -106,7 +106,7 @@ textFrame.getText().getCharacters().setColor(Color.getRed());
 
 ### Как загрузить Aspose.Cells для Java?
 
- Вы можете загрузить Aspose.Cells для Java с веб-сайта Aspose.[здесь](https://releases.aspose.com/cells/java/).
+Вы можете загрузить Aspose.Cells для Java с веб-сайта Aspose. [здесь](https://releases.aspose.com/cells/java/).
 
 ### Могу ли я настроить внешний вид аннотаций?
 
@@ -122,7 +122,8 @@ textFrame.getText().getCharacters().setColor(Color.getRed());
 
 ### Где я могу найти больше руководств по Aspose.Cells для Java?
 
- Дополнительные руководства и документацию по Aspose.Cells для Java можно найти на сайте[здесь](https://reference.aspose.com/cells/java/).
+Дополнительные руководства и документацию по Aspose.Cells для Java можно найти на сайте [здесь](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

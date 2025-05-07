@@ -1,10 +1,10 @@
 ---
-title: Pivot Tablo Stillerini Özelleştirme
-linktitle: Pivot Tablo Stillerini Özelleştirme
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java API'de pivot tablo stillerini nasıl özelleştireceğinizi öğrenin. Görsel olarak çekici pivot tabloları kolayca oluşturun.
-weight: 18
-url: /tr/java/excel-pivot-tables/customizing-pivot-table-styles/
+"description": "Aspose.Cells for Java API'de pivot tablo stillerini nasıl özelleştireceğinizi öğrenin. Görsel olarak çekici pivot tabloları kolayca oluşturun."
+"linktitle": "Pivot Tablo Stillerini Özelleştirme"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Pivot Tablo Stillerini Özelleştirme"
+"url": "/tr/java/excel-pivot-tables/customizing-pivot-table-styles/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -18,7 +18,7 @@ Pivot tablolar, bir elektronik tablodaki verileri özetlemek ve analiz etmek iç
 
 ## Başlarken
 
- Pivot tablo stillerini özelleştirmeden önce, projenize Aspose.Cells for Java kütüphanesinin entegre olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/java/).
+Pivot tablo stillerini özelleştirmeden önce, projenize Aspose.Cells for Java kütüphanesinin entegre olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/cells/java/).
 
 ## Adım 1: Pivot Tablo Oluşturun
 
@@ -84,7 +84,7 @@ Aspose.Cells for Java API'de pivot tablo stillerini özelleştirmek basittir ve 
    Java için Aspose.Cells, pivot tablolarınızı Excel, PDF ve daha fazlası dahil olmak üzere çeşitli formatlarda kaydetmenize olanak tanır.
 
 ### Pivot tablo özelleştirmesi hakkında daha fazla dokümanı nerede bulabilirim?
-    API belgelerine şu adresten ulaşabilirsiniz:[Java API Referansları için Aspose.Cells](https://reference.aspose.com/cells/java/) Detaylı bilgi için.
+   API belgelerine şu adresten ulaşabilirsiniz: [Java API Referansları için Aspose.Cells](https://reference.aspose.com/cells/java/) Detaylı bilgi için.
 
 Artık Aspose.Cells for Java'da pivot tablo stilleri oluşturma ve özelleştirme bilgisine sahipsiniz. Daha fazlasını keşfedin ve veri sunumlarınızı gerçekten olağanüstü hale getirin!
 {{< /blocks/products/pf/tutorial-page-section >}}

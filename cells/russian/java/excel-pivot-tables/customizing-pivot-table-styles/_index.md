@@ -1,10 +1,10 @@
 ---
-title: Настройка стилей сводной таблицы
-linktitle: Настройка стилей сводной таблицы
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как настроить стили сводных таблиц в API Aspose.Cells для Java. Создавайте визуально привлекательные сводные таблицы с легкостью.
-weight: 18
-url: /ru/java/excel-pivot-tables/customizing-pivot-table-styles/
+"description": "Узнайте, как настроить стили сводных таблиц в API Aspose.Cells для Java. Создавайте визуально привлекательные сводные таблицы с легкостью."
+"linktitle": "Настройка стилей сводной таблицы"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Настройка стилей сводной таблицы"
+"url": "/ru/java/excel-pivot-tables/customizing-pivot-table-styles/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -18,7 +18,7 @@ url: /ru/java/excel-pivot-tables/customizing-pivot-table-styles/
 
 ## Начиная
 
- Перед настройкой стилей сводной таблицы убедитесь, что в ваш проект интегрирована библиотека Aspose.Cells for Java. Вы можете загрузить ее с[здесь](https://releases.aspose.com/cells/java/).
+Перед настройкой стилей сводной таблицы убедитесь, что в ваш проект интегрирована библиотека Aspose.Cells for Java. Вы можете загрузить ее с [здесь](https://releases.aspose.com/cells/java/).
 
 ## Шаг 1: Создание сводной таблицы
 
@@ -84,10 +84,10 @@ workbook.save("output.xlsx");
    Aspose.Cells для Java позволяет сохранять сводные таблицы в различных форматах, включая Excel, PDF и другие.
 
 ### Где я могу найти дополнительную документацию по настройке сводных таблиц?
-    Вы можете обратиться к документации API по адресу[Ссылки на API Aspose.Cells для Java](https://reference.aspose.com/cells/java/) для получения подробной информации.
+   Вы можете обратиться к документации API по адресу [Ссылки на API Aspose.Cells для Java](https://reference.aspose.com/cells/java/) для получения подробной информации.
 
 Теперь у вас есть знания для создания и настройки стилей сводных таблиц в Aspose.Cells для Java. Исследуйте дальше и сделайте свои презентации данных действительно исключительными!
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

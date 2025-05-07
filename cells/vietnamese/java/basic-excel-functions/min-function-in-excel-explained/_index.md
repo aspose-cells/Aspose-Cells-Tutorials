@@ -1,10 +1,10 @@
 ---
-title: Giải thích về hàm MIN trong Excel
-linktitle: Giải thích về hàm MIN trong Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Khám phá sức mạnh của hàm MIN trong Excel với Aspose.Cells cho Java. Học cách tìm giá trị tối thiểu một cách dễ dàng.
-weight: 17
-url: /vi/java/basic-excel-functions/min-function-in-excel-explained/
+"description": "Khám phá sức mạnh của hàm MIN trong Excel với Aspose.Cells cho Java. Học cách tìm giá trị tối thiểu một cách dễ dàng."
+"linktitle": "Giải thích về hàm MIN trong Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Giải thích về hàm MIN trong Excel"
+"url": "/vi/java/basic-excel-functions/min-function-in-excel-explained/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -31,7 +31,7 @@ Trước khi đi sâu vào cách triển khai thực tế bằng Aspose.Cells ch
 ```
 
 - `number1`:Đây là số hoặc phạm vi đầu tiên mà bạn muốn tìm giá trị nhỏ nhất.
-- `[number2]`, `[number3]`... (tùy chọn): Đây là các số hoặc phạm vi bổ sung mà bạn có thể đưa vào để tìm giá trị nhỏ nhất.
+- `[number2]`, `[number3]`, ... (tùy chọn): Đây là các số hoặc phạm vi bổ sung mà bạn có thể đưa vào để tìm giá trị nhỏ nhất.
 
 ## Hàm MIN hoạt động như thế nào
 
@@ -43,7 +43,7 @@ Bây giờ chúng ta đã nắm rõ chức năng của hàm MIN trong Excel, hã
 
 ### Bước 1: Thiết lập môi trường phát triển của bạn
 
- Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã cài đặt và thiết lập Aspose.Cells for Java trong môi trường phát triển của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
+Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã cài đặt và thiết lập Aspose.Cells for Java trong môi trường phát triển của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/java/).
 
 ### Bước 2: Tạo một dự án Java
 
@@ -72,7 +72,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 Bây giờ, giả sử bạn có một dãy số trong các ô từ A1 đến A10 và bạn muốn tìm giá trị nhỏ nhất trong số đó. Bạn có thể sử dụng Aspose.Cells for Java để áp dụng hàm MIN như sau:
 
 ```java
-// Áp dụng hàm MIN cho phạm vi A1:A10 và lưu kết quả vào ô B1
+// Áp dụng hàm MIN vào phạm vi A1:A10 và lưu kết quả vào ô B1
 Cell cell = worksheet.getCells().get("B1");
 cell.setFormula("=MIN(A1:A10)");
 ```
@@ -91,7 +91,7 @@ workbook.calculateFormula();
 Cuối cùng, lấy kết quả của hàm MIN:
 
 ```java
-//Lấy kết quả từ ô B1
+// Lấy kết quả từ ô B1
 double minValue = cell.getDoubleValue();
 System.out.println("The minimum value is: " + minValue);
 ```
@@ -121,6 +121,7 @@ Hàm MIN trong Excel có một số hạn chế, chẳng hạn như tối đa 25
 ### Làm thế nào để xử lý lỗi khi sử dụng hàm MIN trong Excel?
 
 Để xử lý lỗi khi sử dụng hàm MIN trong Excel, bạn có thể sử dụng hàm IFERROR để trả về thông báo hoặc giá trị tùy chỉnh khi xảy ra lỗi. Điều này có thể giúp cải thiện trải nghiệm của người dùng khi xử lý dữ liệu có khả năng gây ra sự cố.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Phân tích dữ liệu Excel Pivot
-linktitle: Phân tích dữ liệu Excel Pivot
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Học Phân tích dữ liệu trong Excel với Aspose.Cells cho Java. Hướng dẫn từng bước để sử dụng bảng trục hiệu quả.
-weight: 13
-url: /vi/java/excel-data-analysis/data-analysis-excel-pivot/
+"description": "Học Phân tích dữ liệu trong Excel với Aspose.Cells cho Java. Hướng dẫn từng bước để sử dụng bảng trục hiệu quả."
+"linktitle": "Phân tích dữ liệu Excel Pivot"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Phân tích dữ liệu Excel Pivot"
+"url": "/vi/java/excel-data-analysis/data-analysis-excel-pivot/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ Trước khi đi sâu vào phân tích dữ liệu, chúng ta hãy làm quen v�
 Để thực hiện theo hướng dẫn này, bạn sẽ cần những thứ sau:
 
 - Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
--  Aspose.Cells for Java: Tải xuống và bao gồm thư viện Aspose.Cells for Java trong dự án của bạn. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/cells/java/).
+- Aspose.Cells for Java: Tải xuống và bao gồm thư viện Aspose.Cells for Java trong dự án của bạn. Bạn có thể tìm thấy liên kết tải xuống [đây](https://releases.aspose.com/cells/java/).
 - Dữ liệu mẫu: Chuẩn bị dữ liệu Excel mà bạn muốn phân tích.
 
 ## Tạo một bảng tính Excel mới
@@ -99,7 +99,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách thực hiện phân
 
 ### Làm thế nào để cài đặt Aspose.Cells cho Java?
 
- Bạn có thể tải xuống Aspose.Cells cho Java từ trang web[đây](https://releases.aspose.com/cells/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp để thiết lập nó trong dự án Java của bạn.
+Bạn có thể tải xuống Aspose.Cells cho Java từ trang web [đây](https://releases.aspose.com/cells/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp để thiết lập nó trong dự án Java của bạn.
 
 ### Tôi có thể thực hiện các phép tính nâng cao trong bảng trục không?
 
@@ -116,6 +116,7 @@ Chắc chắn rồi! Aspose.Cells for Java cho phép bạn tự động hóa cá
 ### Có yêu cầu cấp phép nào cho Aspose.Cells dành cho Java không?
 
 Có, Aspose.Cells for Java là một thư viện thương mại và bạn sẽ cần giấy phép hợp lệ để sử dụng trong các dự án của mình. Truy cập trang web Aspose để biết thông tin chi tiết về cấp phép và giá cả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -90,7 +90,7 @@ Workbook book = new Workbook(sourceDir + "sampleRenderGradientFillToHTML.xlsx");
 #### Overview
 Save your workbook in HTML format, preserving its visual formatting:
 ```csharp
-// Save the workbook in HTML formatook.Save(outputDir + "outputRenderGradientFillToHTML.html");
+// Save the workbook in HTML format book.Save(outputDir + "outputRenderGradientFillToHTML.html");
 ```
 
 #### Explanation

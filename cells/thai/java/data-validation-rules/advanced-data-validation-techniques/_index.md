@@ -1,10 +1,10 @@
 ---
-title: เทคนิคการตรวจสอบข้อมูลขั้นสูง
-linktitle: เทคนิคการตรวจสอบข้อมูลขั้นสูง
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: ปลดล็อกเทคนิคการตรวจสอบข้อมูลขั้นสูงใน Excel ด้วย Aspose.Cells สำหรับ Java เรียนรู้การสร้างกฎที่กำหนดเอง รายการดร็อปดาวน์ และอื่นๆ เพื่อการควบคุมข้อมูลที่แม่นยำ
-weight: 19
-url: /th/java/data-validation-rules/advanced-data-validation-techniques/
+"description": "ปลดล็อกเทคนิคการตรวจสอบข้อมูลขั้นสูงใน Excel ด้วย Aspose.Cells สำหรับ Java เรียนรู้การสร้างกฎที่กำหนดเอง รายการดร็อปดาวน์ และอื่นๆ เพื่อการควบคุมข้อมูลที่แม่นยำ"
+"linktitle": "เทคนิคการตรวจสอบข้อมูลขั้นสูง"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "เทคนิคการตรวจสอบข้อมูลขั้นสูง"
+"url": "/th/java/data-validation-rules/advanced-data-validation-techniques/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,7 +20,7 @@ url: /th/java/data-validation-rules/advanced-data-validation-techniques/
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
- ก่อนที่เราจะเจาะลึกเทคนิคขั้นสูง เรามาเริ่มต้นด้วย Aspose.Cells สำหรับ Java กันก่อน คุณสามารถดาวน์โหลดไลบรารีได้จาก[ลิงค์ดาวน์โหลด Aspose.Cells สำหรับ Java](https://releases.aspose.com/cells/java/) . ตรวจสอบให้แน่ใจว่าปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสารประกอบที่[การอ้างอิง API ของ Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/).
+ก่อนที่เราจะเจาะลึกเทคนิคขั้นสูง เรามาเริ่มต้นด้วย Aspose.Cells สำหรับ Java กันก่อน คุณสามารถดาวน์โหลดไลบรารีได้จาก [ลิงค์ดาวน์โหลด Aspose.Cells สำหรับ Java](https://releases.aspose.com/cells/java/). ตรวจสอบให้แน่ใจว่าปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสารประกอบที่ [การอ้างอิง API ของ Aspose.Cells สำหรับ Java](https://reference-aspose.com/cells/java/).
 
 ## การตรวจสอบข้อมูลพื้นฐาน
 
@@ -54,7 +54,7 @@ dataValidation.setFormula2("100");
 
 ### สูตรตรวจสอบที่กำหนดเอง
 
-ในบางกรณี คุณอาจจำเป็นต้องใช้ตรรกะการตรวจสอบแบบกำหนดเอง Aspose.Cells สำหรับ Java ช่วยให้คุณสามารถกำหนดสูตรแบบกำหนดเองสำหรับการตรวจสอบข้อมูลได้
+ในบางกรณี คุณอาจจำเป็นต้องใช้ตรรกะการตรวจสอบแบบกำหนดเอง Aspose.Cells สำหรับ Java ช่วยให้คุณกำหนดสูตรแบบกำหนดเองสำหรับการตรวจสอบข้อมูลได้
 
 ```java
 // รหัส Java สำหรับสูตรตรวจสอบที่กำหนดเอง
@@ -92,7 +92,7 @@ dataValidation.setFormula2("12/31/2023");
 
 ### ฉันจะดาวน์โหลด Aspose.Cells สำหรับ Java ได้อย่างไร?
 
- คุณสามารถดาวน์โหลด Aspose.Cells สำหรับ Java ได้จาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/cells/java/).
+คุณสามารถดาวน์โหลด Aspose.Cells สำหรับ Java ได้จาก [ลิงค์ดาวน์โหลด](https://releases-aspose.com/cells/java/).
 
 ### ฉันสามารถสร้างกฎการตรวจสอบแบบกำหนดเองโดยใช้ Aspose.Cells สำหรับ Java ได้หรือไม่
 
@@ -108,7 +108,8 @@ dataValidation.setFormula2("12/31/2023");
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Cells สำหรับ Java ได้ที่ไหน
 
-คุณสามารถค้นหาเอกสารและข้อมูลอ้างอิงโดยละเอียดได้ที่[การอ้างอิง API ของ Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/).
+คุณสามารถค้นหาเอกสารและข้อมูลอ้างอิงโดยละเอียดได้ที่ [การอ้างอิง API ของ Aspose.Cells สำหรับ Java](https://reference-aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Phân tích đường xu hướng
-linktitle: Phân tích đường xu hướng
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Làm chủ Phân tích đường xu hướng trong Java với Aspose.Cells. Học cách tạo thông tin chi tiết dựa trên dữ liệu với hướng dẫn từng bước và ví dụ mã.
-weight: 15
-url: /vi/java/advanced-excel-charts/trendline-analysis/
+"description": "Làm chủ Phân tích đường xu hướng trong Java với Aspose.Cells. Học cách tạo thông tin chi tiết dựa trên dữ liệu với hướng dẫn từng bước và ví dụ về mã."
+"linktitle": "Phân tích đường xu hướng"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Phân tích đường xu hướng"
+"url": "/vi/java/advanced-excel-charts/trendline-analysis/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách thực hiện Phân t
 Trước khi bắt đầu, hãy đảm bảo bạn đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Java đã được cài đặt trên hệ thống của bạn.
--  Aspose.Cells cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
+- Aspose.Cells cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/java/).
 
 ## Bước 1: Thiết lập dự án
 
@@ -74,7 +74,7 @@ chart.getTitle().setText("Trendline Analysis");
 chart.getCategoryAxis().getTitle().setText("X-Axis");
 chart.getValueAxis().getTitle().setText("Y-Axis");
 
-//Lưu tệp Excel có biểu đồ
+// Lưu tệp Excel có biểu đồ
 workbook.save("output.xlsx");
 ```
 
@@ -90,15 +90,16 @@ Trong hướng dẫn này, chúng ta đã học cách thực hiện Phân tích 
 
 ### Làm thế nào để tôi có thể thay đổi loại đường xu hướng?
 
- Để thay đổi loại đường xu hướng, hãy sửa đổi`TrendlineType` liệt kê khi thêm đường xu hướng. Ví dụ, sử dụng`TrendlineType.POLYNOMIAL` cho đường xu hướng đa thức.
+Để thay đổi loại đường xu hướng, hãy sửa đổi `TrendlineType` liệt kê khi thêm đường xu hướng. Ví dụ, sử dụng `TrendlineType.POLYNOMIAL` cho đường xu hướng đa thức.
 
 ### Tôi có thể tùy chỉnh giao diện đường xu hướng không?
 
- Có, bạn có thể tùy chỉnh giao diện đường xu hướng bằng cách truy cập các thuộc tính như`setLineFormat()` Và`setWeight()` của đối tượng đường xu hướng.
+Có, bạn có thể tùy chỉnh giao diện đường xu hướng bằng cách truy cập các thuộc tính như `setLineFormat()` Và `setWeight()` của đối tượng đường xu hướng.
 
 ### Làm thế nào để xuất biểu đồ sang dạng hình ảnh hoặc PDF?
 
 Bạn có thể xuất biểu đồ sang nhiều định dạng khác nhau bằng Aspose.Cells. Tham khảo tài liệu để biết hướng dẫn chi tiết.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

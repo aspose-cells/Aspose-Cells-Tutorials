@@ -1,10 +1,10 @@
 ---
-title: Otomatik Veri Çıkarımı
-linktitle: Otomatik Veri Çıkarımı
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java için Aspose.Cells'i kullanarak kaynak kod örnekleriyle veri çıkarmayı nasıl verimli bir şekilde otomatikleştireceğinizi öğrenin. Excel dosyalarından zahmetsizce veri çıkarın.
-weight: 14
-url: /tr/java/spreadsheet-automation/automated-data-extraction/
+"description": "Java için Aspose.Cells'i kullanarak kaynak kod örnekleriyle veri çıkarmayı nasıl verimli bir şekilde otomatikleştireceğinizi öğrenin. Excel dosyalarından zahmetsizce veri çıkarın."
+"linktitle": "Otomatik Veri Çıkarımı"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Otomatik Veri Çıkarımı"
+"url": "/tr/java/spreadsheet-automation/automated-data-extraction/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -32,7 +32,7 @@ Veri çıkarma işleminin otomatikleştirilmesi birçok avantaj sunar:
 
 ### 1. Ortamın Kurulması
 
- Öncelikle, Java için Aspose.Cells'in yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/java/).
+Öncelikle, Java için Aspose.Cells'in yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/cells/java/).
 
 ### 2. Aspose.Cells'i Başlatma
 
@@ -108,7 +108,7 @@ Java için Aspose.Cells ile veri çıkarmayı otomatikleştirmek, Excel dosyalar
    Evet, projelerinizde Aspose.Cells for Java'yı kullanmak için geçerli bir lisansa ihtiyacınız olacak.
 
 ### 5. Aspose.Cells for Java için daha fazla kaynak ve belgeyi nerede bulabilirim?
-    API belgelerini şu adreste inceleyin:[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) Ayrıntılı bilgi ve örnekler için.
+   API belgelerini şu adreste inceleyin: [https://reference.aspose.com/hücreler/java/](https://reference.aspose.com/cells/java/) Ayrıntılı bilgi ve örnekler için.
 
 Aspose.Cells for Java ile veri çıkarma görevlerinizi bugün otomatikleştirmeye başlayın ve veri alma süreçlerinizi kolaylaştırın.
 {{< /blocks/products/pf/tutorial-page-section >}}

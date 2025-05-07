@@ -1,10 +1,10 @@
 ---
-title: Excel'den Veri Aktarımı
-linktitle: Excel'den Veri Aktarımı
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java kullanarak Excel'den veri içe aktarmayı öğrenin. Sorunsuz veri alımı için kaynak kodlu kapsamlı bir kılavuz.
-weight: 16
-url: /tr/java/excel-import-export/data-import-from-excel/
+"description": "Aspose.Cells for Java kullanarak Excel'den veri içe aktarmayı öğrenin. Sorunsuz veri alma için kaynak kodlu kapsamlı bir kılavuz."
+"linktitle": "Excel'den Veri Aktarımı"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Excel'den Veri Aktarımı"
+"url": "/tr/java/excel-import-export/data-import-from-excel/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -21,7 +21,7 @@ Bu kapsamlı kılavuzda, güçlü Aspose.Cells for Java kütüphanesini kullanar
 Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 1. Java Geliştirme Ortamı: Sisteminizde Java JDK'nın yüklü olduğundan emin olun.
-2.  Aspose.Cells for Java: Aspose.Cells for Java kütüphanesini indirin ve projenize ekleyin. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/cells/java/).
+2. Aspose.Cells for Java: Aspose.Cells for Java kütüphanesini indirin ve projenize ekleyin. İndirme bağlantısını bulabilirsiniz [Burada](https://releases.aspose.com/cells/java/).
 
 ## Bir Java Projesi Oluşturma
 
@@ -32,7 +32,7 @@ Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 Projenize Aspose.Cells for Java'yı eklemek için şu adımları izleyin:
 
-1.  Web sitesinden Aspose.Cells for Java kütüphanesini indirin[Burada](https://releases.aspose.com/cells/java/).
+1. Web sitesinden Aspose.Cells for Java kütüphanesini indirin [Burada](https://releases.aspose.com/cells/java/).
 2. İndirdiğiniz JAR dosyasını projenizin sınıf yoluna ekleyin.
 
 ## Excel'den Veri Okuma
@@ -51,7 +51,7 @@ public class ExcelDataImport {
         // Çalışma sayfasına erişin
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        //Hücre verilerine erişim (örneğin, A1)
+        // Hücre verilerine erişim (örneğin, A1)
         Cell cell = worksheet.getCells().get("A1");
         System.out.println("Data in cell A1: " + cell.getStringValue());
 
@@ -93,7 +93,7 @@ Artık Aspose.Cells for Java kullanarak Excel'den veri içe aktarmayı öğrendi
    Aspose.Cells, büyük Excel dosyalarının verimli bir şekilde işlenmesi için optimize edilmiştir.
 
 ### 5. Daha fazla doküman ve örneği nerede bulabilirim?
-    Aspose.Cells belgelerini ziyaret edin[Burada](https://reference.aspose.com/cells/java/) Ayrıntılı kaynaklar ve örnekler için.
+   Aspose.Cells belgelerini ziyaret edin [Burada](https://reference.aspose.com/cells/java/) Ayrıntılı kaynaklar ve örnekler için.
 
 Daha fazlasını keşfetmekten ve bu kodu kendi özel veri içe aktarma gereksinimlerinize uyacak şekilde uyarlamaktan çekinmeyin. İyi kodlamalar!
 {{< /blocks/products/pf/tutorial-page-section >}}

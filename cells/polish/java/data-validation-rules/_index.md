@@ -1,10 +1,10 @@
 ---
-title: Reguły walidacji danych
-linktitle: Reguły walidacji danych
-second_title: Aspose.Cells Java Excel Processing API
-description: Reguły walidacji danych głównych z Aspose.Cells dla Java. Twórz arkusze Excela bez błędów. Przeglądaj kompleksowe samouczki już teraz!
-weight: 11
-url: /pl/java/data-validation-rules/
+"description": "Reguły walidacji danych głównych z Aspose.Cells dla Java. Twórz arkusze Excela bez błędów. Przeglądaj kompleksowe samouczki już teraz!"
+"linktitle": "Reguły walidacji danych"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Reguły walidacji danych"
+"url": "/pl/java/data-validation-rules/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -37,11 +37,11 @@ Dowiedz się, jak wykonywać walidację daty w arkuszach kalkulacyjnych programu
 ### [Wskazówki dotyczące walidacji danych liczbowych](./numeric-data-validation-tips/)
 Opanuj walidację danych numerycznych z Aspose.Cells dla Java. Dowiedz się, jak zapewnić dokładność danych i zapobiegać błędom w aplikacjach Java.
 ### [Lista walidacji danych w programie Excel](./list-data-validation-in-excel/)
-Poznaj walidację danych w programie Excel przy użyciu Aspose.Cells dla Java. Wdrażaj reguły, komunikaty o błędach i wiele więcej.
+Poznaj walidację danych w programie Excel za pomocą Aspose.Cells dla Java. Wdrażaj reguły, komunikaty o błędach i wiele więcej.
 ### [Warunkowa walidacja danych](./conditional-data-validation/)
 Dowiedz się, jak wdrożyć warunkową walidację danych za pomocą Aspose.Cells dla Java. Przewodnik krok po kroku z kodem źródłowym do dokładnej obsługi danych w arkuszach kalkulacyjnych Excel.
 ### [Wiadomość wejściowa w walidacji danych](./input-message-in-data-validation/)
-Dowiedz się, jak ulepszyć walidację danych w programie Excel za pomocą Aspose.Cells dla Java. Przewodnik krok po kroku z przykładami kodu, aby poprawić dokładność danych i wskazówkami dla użytkownika.
+Dowiedz się, jak ulepszyć walidację danych w programie Excel za pomocą Aspose.Cells for Java. Przewodnik krok po kroku z przykładami kodu, aby poprawić dokładność danych i wskazówkami dla użytkownika.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

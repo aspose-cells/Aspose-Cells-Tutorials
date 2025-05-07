@@ -1,10 +1,10 @@
 ---
-title: E-Tablolarda Tarih Doğrulaması
-linktitle: E-Tablolarda Tarih Doğrulaması
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java kullanarak Excel elektronik tablolarında tarih doğrulamasının nasıl gerçekleştirileceğini öğrenin. Adım adım kılavuzumuzla veri doğruluğunu ve bütünlüğünü sağlayın. Güçlü Excel işleme tekniklerini keşfedin.
-weight: 14
-url: /tr/java/data-validation-rules/date-validation-in-spreadsheets/
+"description": "Aspose.Cells for Java kullanarak Excel elektronik tablolarında tarih doğrulamasının nasıl gerçekleştirileceğini öğrenin. Adım adım kılavuzumuzla veri doğruluğunu ve bütünlüğünü sağlayın. Güçlü Excel işleme tekniklerini keşfedin."
+"linktitle": "E-Tablolarda Tarih Doğrulaması"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "E-Tablolarda Tarih Doğrulaması"
+"url": "/tr/java/data-validation-rules/date-validation-in-spreadsheets/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,14 +22,14 @@ Veri işleme dünyasında, elektronik tablolar vazgeçilmez araçlardır ve Java
 
 Tarih doğrulama işlemine geçmeden önce aşağıdakilerin mevcut olduğundan emin olun:
 - Java geliştirme ortamı kuruldu.
--  Java için Aspose.Cells kütüphanesi şu adresten indirildi:[Burada](https://releases.aspose.com/cells/java/).
+- Java için Aspose.Cells kütüphanesi şu adresten indirildi: [Burada](https://releases.aspose.com/cells/java/).
 - Java'da Excel dosyalarıyla çalışmaya ilişkin temel bilgiler.
 
 ## Java için Aspose.Cells Kurulumu
 
 Başlamak için, Java projenize Aspose.Cells kütüphanesini eklemeniz gerekir. Şu adımları izleyin:
 
-1.  Sağlanan kaynaktan Aspose.Cells for Java kitaplığını indirin[bağlantı](https://releases.aspose.com/cells/java/).
+1. Sağlanan kaynaktan Aspose.Cells for Java kitaplığını indirin [bağlantı](https://releases.aspose.com/cells/java/).
 
 2. İndirdiğiniz JAR dosyasını projenizin sınıf yoluna ekleyin.
 
@@ -112,7 +112,8 @@ Evet, Java için Aspose.Cells, Excel dosyalarıyla çalışmak için okuma, yazm
 
 ### Java için Aspose.Cells hakkında daha fazla kaynak ve örneği nerede bulabilirim?
 
- Şuraya başvurabilirsiniz:[Java API Referansı için Aspose.Cells](https://reference.aspose.com/cells/java/) kapsamlı dokümantasyon ve örnekler için.
+Şuraya başvurabilirsiniz: [Java API Referansı için Aspose.Cells](https://reference.aspose.com/cells/java/) kapsamlı dokümantasyon ve örnekler için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

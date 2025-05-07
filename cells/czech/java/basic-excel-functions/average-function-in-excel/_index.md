@@ -1,77 +1,77 @@
 ---
-title: AVERAGE Funkce v Excelu
-linktitle: AVERAGE Funkce v Excelu
-second_title: Aspose.Cells Java Excel Processing API
-description: Naučte se používat funkci AVERAGE v Excelu s Aspose.Cells for Java. Podrobný průvodce, ukázky kódu a tipy pro efektivní automatizaci Excelu.
-weight: 15
-url: /cs/java/basic-excel-functions/average-function-in-excel/
+"description": "Naučte se, jak používat funkci AVERAGE v Excelu s Aspose.Cells pro Javu. Podrobný návod, ukázky kódu a tipy pro efektivní automatizaci Excelu."
+"linktitle": "Funkce AVERAGE v Excelu"
+"second_title": "Rozhraní API pro zpracování Excelu v Javě od Aspose.Cells"
+"title": "Funkce AVERAGE v Excelu"
+"url": "/cs/java/basic-excel-functions/average-function-in-excel/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# AVERAGE Funkce v Excelu
+# Funkce AVERAGE v Excelu
 
 
 ## Úvod do funkce AVERAGE v Excelu
 
-Excelové tabulky jsou široce používány pro analýzu dat a výpočty. Jednou z nejčastěji používaných funkcí pro numerickou analýzu je funkce AVERAGE, která vám umožňuje najít průměr řady čísel. V tomto článku prozkoumáme, jak používat funkci AVERAGE v Excelu pomocí Aspose.Cells for Java, výkonného API pro programovou práci se soubory Excelu.
+Tabulky aplikace Excel se široce používají pro analýzu dat a výpočty. Jednou z nejčastěji používaných funkcí pro numerickou analýzu je funkce AVERAGE, která umožňuje najít průměr z rozsahu čísel. V tomto článku se podíváme na to, jak používat funkci AVERAGE v Excelu pomocí Aspose.Cells pro Javu, což je výkonné API pro programovou práci s excelovými soubory.
 
-## Nastavení Aspose.Cells pro Java
+## Nastavení Aspose.Cells pro Javu
 
-Než se vrhneme na používání funkce AVERAGE, musíme nastavit naše vývojové prostředí. Chcete-li začít, postupujte takto:
+Než se pustíme do používání funkce AVERAGE, musíme si nastavit vývojové prostředí. Začněte takto:
 
-1.  Stáhněte si Aspose.Cells pro Java: Navštivte[Aspose.Cells pro Javu](https://releases.aspose.com/cells/java/) ke stažení knihovny.
+1. Stáhněte si Aspose.Cells pro Javu: Navštivte [Aspose.Cells pro Javu](https://releases.aspose.com/cells/java/) ke stažení knihovny.
 
-2.  Instalace Aspose.Cells: Postupujte podle pokynů k instalaci uvedených v dokumentaci Aspose[zde](https://reference.aspose.com/cells/java/).
+2. Instalace Aspose.Cells: Postupujte podle pokynů k instalaci uvedených v dokumentaci k Aspose. [zde](https://reference.aspose.com/cells/java/).
 
-Jakmile máte nainstalovaný Aspose.Cells for Java, jste připraveni začít pracovat se soubory Excel.
+Jakmile máte nainstalovaný Aspose.Cells pro Javu, můžete začít pracovat se soubory aplikace Excel.
 
-## Vytvoření nového sešitu Excel
+## Vytvoření nového sešitu aplikace Excel
 
-K použití funkce PRŮMĚR potřebujeme nejprve sešit Excel. Pojďme si jeden vytvořit programově pomocí Aspose.Cells:
+Pro použití funkce AVERAGE potřebujeme nejprve sešit aplikace Excel. Vytvořme si ho programově pomocí Aspose.Cells:
 
 ```java
-// Java kód pro vytvoření nového excelového sešitu
+// Kód v Javě pro vytvoření nového sešitu aplikace Excel
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-tomto kódu vytvoříme nový sešit a přistoupíme k prvnímu listu.
+V tomto kódu vytvoříme nový sešit a přistupujeme k prvnímu listu.
 
-## Přidání dat do sešitu
+## Přidávání dat do sešitu
 
-Nyní, když máme sešit, přidáme do něj nějaká data. Budeme simulovat datovou sadu čísel:
+Nyní, když máme sešit, pojďme do něj přidat nějaká data. Budeme simulovat datovou sadu čísel:
 
 ```java
-// Java kód pro přidání dat do excelového sešitu
+// Kód v Javě pro přidání dat do sešitu aplikace Excel
 worksheet.getCells().get("A1").putValue(10);
 worksheet.getCells().get("A2").putValue(20);
 worksheet.getCells().get("A3").putValue(30);
 worksheet.getCells().get("A4").putValue(40);
 ```
 
-Zde naplníme buňky A1 až A4 číselnými hodnotami.
+Zde vyplníme buňky A1 až A4 číselnými hodnotami.
 
 ## Použití funkce AVERAGE
 
-Funkce PRŮMĚR v Excelu vypočítá průměr z rozsahu čísel. S Aspose.Cells for Java toho můžete snadno dosáhnout programově:
+Funkce AVERAGE v Excelu vypočítává průměr z rozsahu čísel. S Aspose.Cells pro Javu toho můžete snadno programově dosáhnout:
 
 ```java
-// Java kód pro výpočet průměru pomocí Aspose.Cells
+// Kód v Javě pro výpočet průměru pomocí Aspose.Cells
 Cell cell = worksheet.getCells().get("B1");
 cell.setFormula("=AVERAGE(A1:A4)");
 ```
 
 V tomto kódu nastavíme vzorec pro buňku B1 pro výpočet průměru čísel v buňkách A1 až A4.
 
-## Formátování listu Excel
+## Formátování excelového listu
 
-List Excel můžete formátovat podle svých požadavků. Změňte písma, barvy a styly snadno pomocí Aspose.Cells. Například:
+Tabulku Excelu můžete formátovat podle svých požadavků. Pomocí Aspose.Cells můžete snadno měnit písma, barvy a styly. Například:
 
 ```java
-// Java kód pro formátování listu Excel
+// Kód v Javě pro formátování excelového listu
 Style style = cell.getStyle();
 style.getFont().setName("Arial");
 style.getFont().setSize(12);
@@ -83,10 +83,10 @@ Tento kód změní písmo, velikost a barvu popředí buňky.
 
 ## Ukládání a export souborů aplikace Excel
 
-Jakmile vytvoříte a naformátujete svůj excelový list, můžete jej uložit na konkrétní místo nebo exportovat do různých formátů, jako je PDF nebo CSV. Zde je návod, jak jej uložit jako PDF:
+Jakmile vytvoříte a naformátujete excelový list, můžete jej uložit do určitého umístění nebo exportovat do různých formátů, jako je PDF nebo CSV. Zde je návod, jak jej uložit jako PDF:
 
 ```java
-// Java kód pro uložení sešitu jako PDF
+// Kód v Javě pro uložení sešitu jako PDF
 workbook.save("output.pdf", SaveFormat.PDF);
 ```
 
@@ -94,10 +94,10 @@ Tento kód uloží sešit jako soubor PDF.
 
 ## Zpracování chyb
 
-Při práci se soubory aplikace Excel je nezbytné zpracovat chyby s grácií. Mezi běžné chyby patří nesprávné odkazy na buňky nebo chyby vzorců. Zde je příklad zpracování chyb:
+Při práci se soubory aplikace Excel je nezbytné správně ošetřovat chyby. Mezi běžné chyby patří nesprávné odkazy na buňky nebo chyby ve vzorcích. Zde je příklad ošetření chyb:
 
 ```java
-// Java kód pro zpracování chyb
+// Kód v Javě pro ošetření chyb
 try {
     // Váš kód zde
 } catch (Exception e) {
@@ -105,37 +105,38 @@ try {
 }
 ```
 
-Vždy zabalte svůj kód do bloku try-catch, aby bylo možné efektivně zpracovat výjimky.
+Pro efektivní zpracování výjimek vždy zabalte kód do bloku try-catch.
 
 ## Další funkce
 
-Aspose.Cells for Java nabízí širokou škálu funkcí nad rámec toho, co jsme popsali v tomto článku. Můžete vytvářet grafy, kontingenční tabulky, provádět pokročilé výpočty a mnoho dalšího. Kompletní informace najdete v dokumentaci.
+Aspose.Cells pro Javu nabízí širokou škálu funkcí nad rámec toho, co jsme v tomto článku probrali. Můžete vytvářet grafy, kontingenční tabulky, provádět pokročilé výpočty a mnoho dalšího. Pro podrobné informace si prohlédněte dokumentaci.
 
 ## Závěr
 
-tomto článku jsme prozkoumali, jak používat funkci AVERAGE v Excelu pomocí Aspose.Cells for Java. Začali jsme nastavením vývojového prostředí, vytvořením nového excelového sešitu, přidáním dat, použitím funkce PRŮMĚR, formátováním listu a zpracováním chyb. Aspose.Cells for Java poskytuje robustní řešení pro automatizaci úloh Excelu programově, což z něj činí cenný nástroj pro manipulaci a analýzu dat.
+V tomto článku jsme prozkoumali, jak používat funkci AVERAGE v Excelu pomocí Aspose.Cells pro Javu. Začali jsme nastavením vývojového prostředí, vytvořením nového sešitu Excelu, přidáním dat, použitím funkce AVERAGE, formátováním listu a zpracováním chyb. Aspose.Cells pro Javu poskytuje robustní řešení pro programovou automatizaci úloh v Excelu, což z něj činí cenný nástroj pro manipulaci s daty a jejich analýzu.
 
-## FAQ
+## Často kladené otázky
 
-### Jak nainstaluji Aspose.Cells for Java?
+### Jak nainstaluji Aspose.Cells pro Javu?
 
- Chcete-li nainstalovat Aspose.Cells for Java, navštivte web na adrese[zde](https://reference.aspose.com/cells/java/) a postupujte podle pokynů k instalaci.
+Chcete-li nainstalovat Aspose.Cells pro Javu, navštivte webové stránky na adrese [zde](https://reference.aspose.com/cells/java/) a postupujte podle pokynů k instalaci.
 
-### Mohu exportovat sešit Excel do jiných formátů než PDF?
+### Mohu exportovat sešit aplikace Excel do jiných formátů než PDF?
 
-Ano, Aspose.Cells for Java umožňuje exportovat sešity Excelu do různých formátů, včetně CSV, XLSX, HTML a dalších.
+Ano, Aspose.Cells pro Javu umožňuje exportovat sešity aplikace Excel do různých formátů, včetně CSV, XLSX, HTML a dalších.
 
-### Jaká je výhoda použití Aspose.Cells pro Java oproti ruční manipulaci s Excelem?
+### Jaká je výhoda použití Aspose.Cells pro Javu oproti ruční manipulaci s Excelem?
 
-Aspose.Cells for Java zjednodušuje automatizaci Excelu a šetří vám čas a námahu. Poskytuje pokročilé funkce a možnosti zpracování chyb, což z něj činí výkonný nástroj pro automatizaci Excelu.
+Aspose.Cells pro Javu zjednodušuje automatizaci Excelu a šetří vám čas a úsilí. Nabízí pokročilé funkce a možnosti ošetřování chyb, což z něj činí výkonný nástroj pro automatizaci Excelu.
 
-### Jak mohu přizpůsobit vzhled buněk aplikace Excel?
+### Jak mohu přizpůsobit vzhled buněk v Excelu?
 
-Vzhled buněk si můžete přizpůsobit změnou písem, barev a stylů pomocí Aspose.Cells for Java. Podrobné pokyny naleznete v dokumentaci.
+Vzhled buněk si můžete přizpůsobit změnou písma, barev a stylů pomocí Aspose.Cells pro Javu. Podrobné pokyny naleznete v dokumentaci.
 
-### Kde mohu získat přístup k pokročilejším funkcím Aspose.Cells for Java?
+### Kde mohu získat přístup k pokročilejším funkcím Aspose.Cells pro Javu?
 
-Úplný seznam funkcí a pokročilých funkcí naleznete v dokumentaci Aspose.Cells for Java.
+Úplný seznam funkcí a pokročilých funkcí naleznete v dokumentaci k Aspose.Cells pro Javu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

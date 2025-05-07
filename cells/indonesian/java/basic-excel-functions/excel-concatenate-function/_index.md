@@ -1,10 +1,10 @@
 ---
-title: Fungsi CONCATENATE Excel
-linktitle: Fungsi CONCATENATE Excel
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara menggabungkan teks di Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah ini mencakup contoh kode sumber untuk manipulasi teks yang lancar.
-weight: 13
-url: /id/java/basic-excel-functions/excel-concatenate-function/
+"description": "Pelajari cara menggabungkan teks di Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah ini mencakup contoh kode sumber untuk manipulasi teks yang lancar."
+"linktitle": "Fungsi CONCATENATE Excel"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Fungsi CONCATENATE Excel"
+"url": "/id/java/basic-excel-functions/excel-concatenate-function/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 1. Lingkungan Pengembangan Java: Anda harus menginstal Java pada sistem Anda bersama dengan Lingkungan Pengembangan Terpadu (IDE) yang sesuai seperti Eclipse atau IntelliJ IDEA.
 
-2. Aspose.Cells untuk Java: Anda perlu menginstal pustaka Aspose.Cells untuk Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/java/).
+2. Aspose.Cells untuk Java: Anda perlu menginstal pustaka Aspose.Cells untuk Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
 
 ## Langkah 1: Buat Proyek Java Baru
 
@@ -91,7 +91,7 @@ workbook.save("concatenated_text.xlsx");
 
 ## Kesimpulan
 
- Dalam tutorial ini, kita mempelajari cara menggabungkan teks di Excel menggunakan Aspose.Cells untuk Java. Kita membahas langkah-langkah dasar, mulai dari menginisialisasi Workbook hingga menyimpan file Excel. Selain itu, kita juga mempelajari metode alternatif untuk menggabungkan teks menggunakan`Cell.putValue` metode. Kini Anda dapat menggunakan Aspose.Cells untuk Java untuk melakukan penggabungan teks dalam aplikasi Java Anda dengan mudah.
+Dalam tutorial ini, kita mempelajari cara menggabungkan teks di Excel menggunakan Aspose.Cells untuk Java. Kita membahas langkah-langkah dasar, mulai dari menginisialisasi Workbook hingga menyimpan file Excel. Selain itu, kita juga mempelajari metode alternatif untuk menggabungkan teks menggunakan `Cell.putValue` metode. Kini Anda dapat menggunakan Aspose.Cells untuk Java untuk melakukan penggabungan teks dalam aplikasi Java Anda dengan mudah.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -103,9 +103,9 @@ Untuk menggabungkan teks dari sel yang berbeda di Excel menggunakan Aspose.Cells
 
 2. Masukkan data teks ke dalam sel yang diinginkan.
 
-3.  Gunakan`setFormula` metode untuk membuat rumus CONCATENATE yang menggabungkan teks dari sel.
+3. Gunakan `setFormula` metode untuk membuat rumus CONCATENATE yang menggabungkan teks dari sel.
 
-4.  Hitung ulang rumus di lembar kerja menggunakan`workbook.calculateFormula()`.
+4. Hitung ulang rumus di lembar kerja menggunakan `workbook.calculateFormula()`.
 
 5. Simpan berkas Excel.
 
@@ -117,7 +117,7 @@ Ya, Anda dapat menggabungkan lebih dari tiga string teks menggunakan CONCATENATE
 
 ### Apakah ada alternatif untuk CONCATENATE di Aspose.Cells untuk Java?
 
- Ya, Aspose.Cells untuk Java menyediakan cara alternatif untuk menggabungkan teks menggunakan`Cell.putValue` metode. Anda dapat menggabungkan teks dari beberapa sel dan mengatur hasilnya di sel lain tanpa menggunakan rumus.
+Ya, Aspose.Cells untuk Java menyediakan cara alternatif untuk menggabungkan teks menggunakan `Cell.putValue` metode. Anda dapat menggabungkan teks dari beberapa sel dan mengatur hasilnya di sel lain tanpa menggunakan rumus.
 
 ```java
 // Gabungkan teks dari sel A1, B1, dan C1 ke D1 tanpa menggunakan rumus
@@ -126,6 +126,7 @@ worksheet.getCells().get("D1").putValue(concatenatedText);
 ```
 
 Pendekatan ini dapat berguna jika Anda ingin menggabungkan teks tanpa bergantung pada rumus Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

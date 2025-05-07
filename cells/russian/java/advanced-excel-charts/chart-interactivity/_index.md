@@ -1,10 +1,10 @@
 ---
-title: Интерактивность диаграммы
-linktitle: Интерактивность диаграммы
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как создавать интерактивные диаграммы с помощью Aspose.Cells для Java. Улучшите визуализацию данных с помощью интерактивности.
-weight: 19
-url: /ru/java/advanced-excel-charts/chart-interactivity/
+"description": "Узнайте, как создавать интерактивные диаграммы с помощью Aspose.Cells для Java. Улучшите визуализацию данных с помощью интерактивности."
+"linktitle": "Интерактивность диаграммы"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Интерактивность диаграммы"
+"url": "/ru/java/advanced-excel-charts/chart-interactivity/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /ru/java/advanced-excel-charts/chart-interactivity/
 
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 - Среда разработки Java
-- Библиотека Aspose.Cells для Java (скачать с[здесь](https://releases.aspose.com/cells/java/)
+- Библиотека Aspose.Cells для Java (скачать с [здесь](https://releases.aspose.com/cells/java/)
 
 ## Шаг 1: Настройка вашего проекта Java
 
@@ -94,7 +94,7 @@ workbook.save("interactive_chart_output.xlsx");
 
 ### Как изменить тип диаграммы?
 
- Вы можете изменить тип диаграммы, изменив`ChartType` параметр при создании диаграммы. Например, замените`ChartType.COLUMN` с`ChartType.LINE` для создания линейной диаграммы.
+Вы можете изменить тип диаграммы, изменив `ChartType` параметр при создании диаграммы. Например, замените `ChartType.COLUMN` с `ChartType.LINE` для создания линейной диаграммы.
 
 ### Могу ли я настроить внешний вид всплывающих подсказок?
 
@@ -106,7 +106,8 @@ workbook.save("interactive_chart_output.xlsx");
 
 ### Где я могу найти больше примеров и документации?
 
- Вы можете изучить больше примеров и подробную документацию по использованию Aspose.Cells для Java по адресу[Справочник по API Java Aspose.Cells](https://reference.aspose.com/cells/java/).
+Вы можете изучить больше примеров и подробную документацию по использованию Aspose.Cells для Java по адресу [Справочник по API Java Aspose.Cells](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

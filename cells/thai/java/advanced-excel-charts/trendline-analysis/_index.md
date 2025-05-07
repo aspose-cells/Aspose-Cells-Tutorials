@@ -1,10 +1,10 @@
 ---
-title: การวิเคราะห์เส้นแนวโน้ม
-linktitle: การวิเคราะห์เส้นแนวโน้ม
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้การวิเคราะห์เส้นแนวโน้มใน Java ด้วย Aspose.Cells เรียนรู้การสร้างข้อมูลเชิงลึกโดยใช้ข้อมูลพร้อมคำแนะนำทีละขั้นตอนและตัวอย่างโค้ด
-weight: 15
-url: /th/java/advanced-excel-charts/trendline-analysis/
+"description": "เรียนรู้การวิเคราะห์เส้นแนวโน้มใน Java ด้วย Aspose.Cells เรียนรู้การสร้างข้อมูลเชิงลึกโดยใช้ข้อมูลพร้อมคำแนะนำทีละขั้นตอนและตัวอย่างโค้ด"
+"linktitle": "การวิเคราะห์เส้นแนวโน้ม"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การวิเคราะห์เส้นแนวโน้ม"
+"url": "/th/java/advanced-excel-charts/trendline-analysis/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ url: /th/java/advanced-excel-charts/trendline-analysis/
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - Java ติดตั้งอยู่บนระบบของคุณ
--  ไลบรารี Aspose.Cells สำหรับ Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/java/).
+- ไลบรารี Aspose.Cells สำหรับ Java คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ## ขั้นตอนที่ 1: การตั้งค่าโครงการ
 
@@ -74,7 +74,7 @@ chart.getTitle().setText("Trendline Analysis");
 chart.getCategoryAxis().getTitle().setText("X-Axis");
 chart.getValueAxis().getTitle().setText("Y-Axis");
 
-//บันทึกไฟล์ Excel พร้อมแผนภูมิ
+// บันทึกไฟล์ Excel พร้อมแผนภูมิ
 workbook.save("output.xlsx");
 ```
 
@@ -90,15 +90,16 @@ workbook.save("output.xlsx");
 
 ### ฉันจะเปลี่ยนประเภทเส้นแนวโน้มได้อย่างไร
 
- หากต้องการเปลี่ยนประเภทเส้นแนวโน้ม ให้แก้ไข`TrendlineType` การนับเมื่อเพิ่มเส้นแนวโน้ม ตัวอย่างเช่น ใช้`TrendlineType.POLYNOMIAL` สำหรับเส้นแนวโน้มพหุนาม
+หากต้องการเปลี่ยนประเภทเส้นแนวโน้ม ให้แก้ไข `TrendlineType` การนับเมื่อเพิ่มเส้นแนวโน้ม ตัวอย่างเช่น ใช้ `TrendlineType.POLYNOMIAL` สำหรับเส้นแนวโน้มพหุนาม
 
 ### ฉันสามารถปรับแต่งรูปลักษณ์ของเส้นแนวโน้มได้หรือไม่
 
- ใช่ คุณสามารถปรับแต่งรูปลักษณ์ของเส้นแนวโน้มได้โดยการเข้าถึงคุณสมบัติ เช่น`setLineFormat()` และ`setWeight()` ของวัตถุเส้นแนวโน้ม
+ใช่ คุณสามารถปรับแต่งรูปลักษณ์ของเส้นแนวโน้มได้โดยการเข้าถึงคุณสมบัติ เช่น `setLineFormat()` และ `setWeight()` ของวัตถุเส้นแนวโน้ม
 
 ### ฉันจะส่งออกแผนภูมิเป็นรูปภาพหรือ PDF ได้อย่างไร
 
 คุณสามารถส่งออกแผนภูมิเป็นรูปแบบต่างๆ ได้โดยใช้ Aspose.Cells โปรดดูคำแนะนำโดยละเอียดในเอกสารประกอบ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

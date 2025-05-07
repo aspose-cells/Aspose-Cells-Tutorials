@@ -1,10 +1,10 @@
 ---
-title: Функции анализа данных Excel
-linktitle: Функции анализа данных Excel
-second_title: API обработки Java Excel Aspose.Cells
-description: Откройте для себя мощь анализа данных в Excel с помощью Aspose.Cells для Java. Изучите сортировку, фильтрацию, вычисления и сводные таблицы.
-weight: 10
-url: /ru/java/excel-data-analysis/data-analysis-functions-excel/
+"description": "Откройте для себя мощь анализа данных в Excel с помощью Aspose.Cells для Java. Изучите сортировку, фильтрацию, вычисления и сводные таблицы."
+"linktitle": "Функции анализа данных Excel"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Функции анализа данных Excel"
+"url": "/ru/java/excel-data-analysis/data-analysis-functions-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -40,7 +40,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Определить диапазон сортировки
 CellArea cellArea = new CellArea();
-cellArea.startRow = 1; //Начните со второй строки (предполагая, что первая строка — это заголовки)
+cellArea.startRow = 1; // Начните со второй строки (предполагая, что первая строка — это заголовки)
 cellArea.startColumn = 0; // Начните с первого столбца
 cellArea.endRow = worksheet.getCells().getMaxDataRow(); // Получить последнюю строку с данными
 cellArea.endColumn = worksheet.getCells().getMaxDataColumn(); // Получить последний столбец с данными
@@ -65,7 +65,7 @@ worksheet.getAutoFilter().filter(0, "Filter Criteria");
 Вы можете вычислять различные статистические данные по вашим данным, такие как сумма, среднее, минимальное и максимальное значения. Aspose.Cells упрощает этот процесс. Вот пример вычисления суммы столбца:
 
 ```java
-// Рассчитать сумму столбца
+// Вычислить сумму столбца
 double sum = worksheet.getCells().calculateSum(1, 1, worksheet.getCells().getMaxDataRow(), 1);
 ```
 
@@ -101,7 +101,7 @@ sorter.sort(worksheet, cellArea, new int[] {0, 1}, new int[] {SortOrder.ASCENDIN
 Да, вы можете применять сложные фильтры, используя логические операторы, такие как AND и OR. Вы можете объединять условия фильтра вместе, чтобы создавать сложные выражения фильтра. Вот пример применения фильтра с оператором AND:
 
 ```java
-// Применить фильтр с помощью оператора AND
+// Применить фильтр с помощью оператора И
 worksheet.getAutoFilter().filter(0, "Filter Condition 1");
 worksheet.getAutoFilter().filter(1, "Filter Condition 2");
 ```
@@ -112,7 +112,8 @@ worksheet.getAutoFilter().filter(1, "Filter Condition 2");
 
 ### Где я могу найти более продвинутые примеры и ресурсы?
 
- Для получения дополнительных примеров, учебных пособий и ресурсов по Aspose.Cells для Java посетите веб-сайт[Документация по Aspose.Cells для Java](https://reference.aspose.com/cells/java/). Вы найдете массу информации, которая поможет вам освоить анализ данных Excel с помощью Aspose.Cells.
+Для получения более подробных примеров, руководств и ресурсов по Aspose.Cells для Java посетите сайт [Документация по Aspose.Cells для Java](https://reference.aspose.com/cells/java/). Вы найдете массу информации, которая поможет вам освоить анализ данных Excel с помощью Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

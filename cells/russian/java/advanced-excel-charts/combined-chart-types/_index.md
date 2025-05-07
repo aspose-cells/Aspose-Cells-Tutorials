@@ -1,10 +1,10 @@
 ---
-title: Комбинированные типы диаграмм
-linktitle: Комбинированные типы диаграмм
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как создавать комбинированные типы диаграмм с помощью Aspose.Cells для Java. Это пошаговое руководство содержит исходный код и советы по эффективной визуализации данных.
-weight: 12
-url: /ru/java/advanced-excel-charts/combined-chart-types/
+"description": "Узнайте, как создавать комбинированные типы диаграмм с помощью Aspose.Cells для Java. Это пошаговое руководство содержит исходный код и советы по эффективной визуализации данных."
+"linktitle": "Комбинированные типы диаграмм"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Комбинированные типы диаграмм"
+"url": "/ru/java/advanced-excel-charts/combined-chart-types/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ url: /ru/java/advanced-excel-charts/combined-chart-types/
 
 ## Начиная
 
- Чтобы начать создавать комбинированные диаграммы, вам понадобится установить и настроить Aspose.Cells for Java в вашем проекте Java. Вы можете загрузить библиотеку с веб-сайта Aspose, используя следующую ссылку:[Загрузить Aspose.Cells для Java](https://releases.aspose.com/cells/java/).
+Чтобы начать создавать комбинированные диаграммы, вам понадобится установить и настроить Aspose.Cells for Java в вашем проекте Java. Вы можете загрузить библиотеку с веб-сайта Aspose, используя следующую ссылку: [Загрузить Aspose.Cells для Java](https://releases.aspose.com/cells/java/).
 
 Подготовив библиотеку, вы можете приступить к следующим шагам по созданию комбинированных диаграмм.
 
@@ -116,7 +116,7 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 
 ### Как установить Aspose.Cells для Java?
 
- Чтобы установить Aspose.Cells для Java, посетите веб-сайт Aspose и загрузите библиотеку с сайта[эта ссылка](https://releases.aspose.com/cells/java/). Следуйте инструкциям по установке, приведенным в документации.
+Чтобы установить Aspose.Cells для Java, посетите веб-сайт Aspose и загрузите библиотеку с сайта [эта ссылка](https://releases.aspose.com/cells/java/). Следуйте инструкциям по установке, приведенным в документации.
 
 ### Могу ли я создавать другие типы диаграмм с помощью Aspose.Cells для Java?
 
@@ -132,7 +132,8 @@ Aspose.Cells для Java разработан так, чтобы быть удо
 
 ### Где я могу найти больше ресурсов и примеров по Aspose.Cells для Java?
 
- Подробную документацию и множество примеров кода можно найти на веб-сайте Aspose по адресу[здесь](https://reference.aspose.com/cells/java/).
+Подробную документацию и множество примеров кода можно найти на веб-сайте Aspose по адресу [здесь](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

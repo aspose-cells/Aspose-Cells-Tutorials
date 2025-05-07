@@ -1,10 +1,10 @@
 ---
-title: Dynamiczne tabele przestawne
-linktitle: Dynamiczne tabele przestawne
-second_title: Aspose.Cells Java Excel Processing API
-description: Twórz dynamiczne tabele przestawne bez wysiłku, używając Aspose.Cells dla Java. Analizuj i podsumowuj dane z łatwością. Zwiększ swoje możliwości analizy danych.
-weight: 13
-url: /pl/java/excel-pivot-tables/dynamic-pivot-tables/
+"description": "Twórz dynamiczne tabele przestawne bez wysiłku, używając Aspose.Cells dla Java. Analizuj i podsumowuj dane z łatwością. Zwiększ swoje możliwości analizy danych."
+"linktitle": "Dynamiczne tabele przestawne"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Dynamiczne tabele przestawne"
+"url": "/pl/java/excel-pivot-tables/dynamic-pivot-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Tabele przestawne to interaktywne tabele, które umożliwiają podsumowywanie i 
 
 ## Krok 1: Importowanie biblioteki Aspose.Cells
 
- Zanim będziemy mogli tworzyć dynamiczne tabele przestawne, musimy zaimportować bibliotekę Aspose.Cells do naszego projektu Java. Możesz pobrać bibliotekę z wydań Aspose[Tutaj](https://releases.aspose.com/cells/java/).
+Zanim będziemy mogli tworzyć dynamiczne tabele przestawne, musimy zaimportować bibliotekę Aspose.Cells do naszego projektu Java. Możesz pobrać bibliotekę z wydań Aspose [Tutaj](https://releases.aspose.com/cells/java/).
 
 Po pobraniu biblioteki dodaj ją do ścieżki kompilacji swojego projektu.
 
@@ -35,7 +35,7 @@ Aby pracować z tabelami przestawnymi, najpierw musimy załadować skoroszyt zaw
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Zastępować`"your_excel_file.xlsx"` ze ścieżką do pliku Excel.
+Zastępować `"your_excel_file.xlsx"` ze ścieżką do pliku Excel.
 
 ## Krok 3: Tworzenie tabeli przestawnej
 

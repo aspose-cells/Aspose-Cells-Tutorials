@@ -1,10 +1,10 @@
 ---
-title: Validasi Tanggal dalam Spreadsheet
-linktitle: Validasi Tanggal dalam Spreadsheet
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara melakukan validasi tanggal di lembar kerja Excel menggunakan Aspose.Cells untuk Java. Pastikan keakuratan dan integritas data dengan panduan langkah demi langkah kami. Jelajahi teknik manipulasi Excel yang canggih.
-weight: 14
-url: /id/java/data-validation-rules/date-validation-in-spreadsheets/
+"description": "Pelajari cara melakukan validasi tanggal di lembar kerja Excel menggunakan Aspose.Cells untuk Java. Pastikan keakuratan dan integritas data dengan panduan langkah demi langkah kami. Jelajahi teknik manipulasi Excel yang canggih."
+"linktitle": "Validasi Tanggal dalam Spreadsheet"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Validasi Tanggal dalam Spreadsheet"
+"url": "/id/java/data-validation-rules/date-validation-in-spreadsheets/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,14 +22,14 @@ Dalam dunia pemrosesan data, spreadsheet merupakan alat yang sangat diperlukan, 
 
 Sebelum kita masuk ke validasi tanggal, pastikan Anda telah menyiapkan hal berikut:
 - Lingkungan pengembangan Java telah disiapkan.
--  Aspose.Cells untuk pustaka Java diunduh dari[Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk pustaka Java diunduh dari [Di Sini](https://releases.aspose.com/cells/java/).
 - Pengetahuan dasar tentang cara bekerja dengan file Excel di Java.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
 Untuk memulai, Anda perlu menambahkan pustaka Aspose.Cells ke proyek Java Anda. Ikuti langkah-langkah berikut:
 
-1.  Unduh pustaka Aspose.Cells untuk Java dari sumber yang disediakan[link](https://releases.aspose.com/cells/java/).
+1. Unduh pustaka Aspose.Cells untuk Java dari sumber yang disediakan [link](https://releases.aspose.com/cells/java/).
 
 2. Sertakan file JAR yang diunduh dalam classpath proyek Anda.
 
@@ -112,7 +112,8 @@ Ya, Aspose.Cells untuk Java menawarkan berbagai fitur untuk bekerja dengan file 
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan contoh untuk Aspose.Cells untuk Java?
 
- Anda dapat merujuk ke[Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/) untuk dokumentasi dan contoh yang lengkap.
+Anda dapat merujuk ke [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/) untuk dokumentasi dan contoh yang lengkap.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: แผนภูมิน้ำตก
-linktitle: แผนภูมิน้ำตก
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีสร้าง Waterfall Charts ที่สวยงามด้วย Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการแสดงภาพข้อมูลอย่างมีประสิทธิภาพ
-weight: 18
-url: /th/java/advanced-excel-charts/waterfall-charts/
+"description": "เรียนรู้วิธีสร้าง Waterfall Charts ที่สวยงามด้วย Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการแสดงภาพข้อมูลอย่างมีประสิทธิภาพ"
+"linktitle": "แผนภูมิน้ำตก"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "แผนภูมิน้ำตก"
+"url": "/th/java/advanced-excel-charts/waterfall-charts/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,7 +14,7 @@ url: /th/java/advanced-excel-charts/waterfall-charts/
 # แผนภูมิน้ำตก
 
 
-## การแนะนำการสร้างแผนภูมิแบบน้ำตกโดยใช้ Aspose.Cells สำหรับ Java
+## การแนะนำ Waterfall Charts โดยใช้ Aspose.Cells สำหรับ Java
 
 แผนภูมิน้ำตกเป็นเครื่องมือสำคัญในการแสดงข้อมูล ช่วยให้คุณติดตามผลสะสมของค่าบวกหรือลบที่ป้อนเข้ามาตามลำดับ ในคู่มือนี้ เราจะสำรวจวิธีการสร้างแผนภูมิน้ำตกที่สวยงามโดยใช้ Aspose.Cells สำหรับ Java API ไม่ว่าคุณจะทำงานเกี่ยวกับรายงานทางการเงิน การวิเคราะห์การขาย หรือโครงการที่ขับเคลื่อนด้วยข้อมูลใดๆ แผนภูมิน้ำตกสามารถให้ข้อมูลเชิงลึกอันมีค่าเกี่ยวกับข้อมูลของคุณได้
 
@@ -22,7 +22,7 @@ url: /th/java/advanced-excel-charts/waterfall-charts/
 
 ก่อนที่เราจะเจาะลึกรายละเอียด โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
--  Aspose.Cells สำหรับ Java: คุณจะต้องติดตั้ง Aspose.Cells สำหรับ Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/java/).
+- Aspose.Cells สำหรับ Java: คุณจะต้องติดตั้ง Aspose.Cells สำหรับ Java คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/java/).
 
 - สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ไว้ในระบบของคุณแล้ว
 
@@ -34,7 +34,7 @@ url: /th/java/advanced-excel-charts/waterfall-charts/
 import com.aspose.cells.*;
 ```
 
-ขั้นแรก คุณต้องนำเข้าไลบรารี Aspose.Cells ไปยังโปรเจ็กต์ Java ของคุณ ไลบรารีนี้ให้ฟังก์ชันมากมายสำหรับการทำงานกับไฟล์ Excel รวมถึงการสร้างแผนภูมิ
+ขั้นแรก คุณต้องนำเข้าไลบรารี Aspose.Cells เข้าสู่โปรเจ็กต์ Java ของคุณ ไลบรารีนี้ให้ฟังก์ชันมากมายสำหรับการทำงานกับไฟล์ Excel รวมถึงการสร้างแผนภูมิ
 
 ## ขั้นตอนที่ 2: เริ่มต้นเวิร์กบุ๊กและเวิร์กชีต
 
@@ -113,7 +113,8 @@ workbook.save("WaterfallChart.xlsx");
 
 ### ฉันสามารถหาทรัพยากรและตัวอย่างเพิ่มเติมสำหรับ Aspose.Cells สำหรับ Java ได้ที่ไหน
 
- คุณสามารถสำรวจเอกสารสำหรับ Aspose.Cells สำหรับ Java ได้ที่[Reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) สำหรับข้อมูลเชิงลึกและตัวอย่างโค้ด
+คุณสามารถสำรวจเอกสารสำหรับ Aspose.Cells สำหรับ Java ได้ที่ [อ้างอิง.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) สำหรับข้อมูลเชิงลึกและตัวอย่างโค้ด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

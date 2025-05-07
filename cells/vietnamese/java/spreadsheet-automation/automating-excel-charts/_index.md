@@ -1,10 +1,10 @@
 ---
-title: Tự động hóa biểu đồ Excel
-linktitle: Tự động hóa biểu đồ Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Khám phá cách tự động tạo và tùy chỉnh biểu đồ Excel bằng Aspose.Cells for Java với các ví dụ về mã nguồn. Đơn giản hóa các tác vụ lập biểu đồ của bạn.
-weight: 17
-url: /vi/java/spreadsheet-automation/automating-excel-charts/
+"description": "Khám phá cách tự động tạo và tùy chỉnh biểu đồ Excel bằng Aspose.Cells for Java với các ví dụ về mã nguồn. Đơn giản hóa các tác vụ lập biểu đồ của bạn."
+"linktitle": "Tự động hóa biểu đồ Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Tự động hóa biểu đồ Excel"
+"url": "/vi/java/spreadsheet-automation/automating-excel-charts/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -29,7 +29,7 @@ Việc tự động hóa biểu đồ Excel mang lại một số lợi ích:
 
 ### 1. Thiết lập môi trường
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Cells for Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
+Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Cells for Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/java/).
 
 ### 2. Khởi tạo Aspose.Cells
 
@@ -114,7 +114,7 @@ Tự động hóa biểu đồ Excel với Aspose.Cells for Java giúp đơn gi�
    Có, bạn cần có giấy phép hợp lệ để sử dụng Aspose.Cells for Java trong các dự án của mình.
 
 ### 4. Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
-    Khám phá tài liệu API tại[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) để biết thông tin chi tiết và ví dụ.
+   Khám phá tài liệu API tại [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) để biết thông tin chi tiết và ví dụ.
 
 Tự động hóa tác vụ lập biểu đồ Excel của bạn một cách dễ dàng bằng Aspose.Cells for Java và nâng cao khả năng trực quan hóa dữ liệu của bạn.
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,10 +1,10 @@
 ---
-title: Excel Tarih Fonksiyonları Eğitimi
-linktitle: Excel Tarih Fonksiyonları Eğitimi
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java kullanarak Excel Tarih Fonksiyonlarını öğrenin. Kaynak kodlu adım adım öğreticileri keşfedin.
-weight: 19
-url: /tr/java/basic-excel-functions/excel-date-functions-tutorial/
+"description": "Java için Aspose.Cells kullanarak Excel Tarih Fonksiyonlarını öğrenin. Kaynak kodlu adım adım öğreticileri keşfedin."
+"linktitle": "Excel Tarih Fonksiyonları Eğitimi"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Excel Tarih Fonksiyonları Eğitimi"
+"url": "/tr/java/basic-excel-functions/excel-date-functions-tutorial/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -46,7 +46,7 @@ Excel tarih fonksiyonlarının temellerini ele aldığımıza göre, şimdi bu f
 
 Kodlamaya başlamadan önce projemizde Java için Aspose.Cells'i kurmamız gerekiyor. Başlamak için şu adımları izleyin.
 
-1. Aspose.Cells'i indirin ve yükleyin: Ziyaret edin[Java için Aspose.Cells](https://releases.aspose.com/cells/java/) ve en son sürümü indirin.
+1. Aspose.Cells'i indirin ve yükleyin: Ziyaret edin [Java için Aspose.Cells](https://releases.aspose.com/cells/java/) ve en son sürümü indirin.
 
 2. Projenize Aspose.Cells'i Ekleyin: Aspose.Cells kütüphanesini Java projenize ekleyin.
 
@@ -112,7 +112,7 @@ worksheet.getCells().get("A2").putValue("2023-08-01");
 // Farkı DATEDIF kullanarak hesaplayın
 worksheet.getCells().get("A3").setFormula("=DATEDIF(A1, A2, \"d\")");
 
-//Günlerdeki farkı alın
+// Günlerdeki farkı alın
 int daysDifference = worksheet.getCells().get("A3").getIntValue();
 
 // Sonucu yazdır
@@ -151,7 +151,7 @@ Bu eğitim, Excel tarih işlevlerine ve Java için Aspose.Cells kullanarak bunla
 
 ### Java için Aspose.Cells'de tarihleri nasıl biçimlendiririm?
 
- Aspose.Cells'de tarihleri biçimlendirmek basittir. Şunu kullanabilirsiniz:`Style` tarih biçimlerini tanımlamak ve bunları hücrelere uygulamak için sınıf. Örneğin, tarihleri "gg-AA-yyyy" biçiminde görüntülemek için:
+Aspose.Cells'de tarihleri biçimlendirmek basittir. Şunu kullanabilirsiniz: `Style` tarih biçimlerini tanımlamak ve bunları hücrelere uygulamak için sınıf. Örneğin, tarihleri "gg-AA-yyyy" biçiminde görüntülemek için:
 
 ```java
 // Bir tarih stili oluşturun
@@ -172,11 +172,12 @@ Java için Aspose.Cells hem küçük ölçekli hem de büyük ölçekli tarih i�
 
 ### Aspose.Cells for Java için daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Java için Aspose.Cells'e ilişkin kapsamlı belgelere ve kaynaklara şu adresten erişebilirsiniz:[Burada](https://reference.aspose.com/cells/java/).
+Java için Aspose.Cells'e ilişkin kapsamlı belgelere ve kaynaklara şu adresten erişebilirsiniz: [Burada](https://reference.aspose.com/cells/java/).
 
 ### Java için Aspose.Cells'i nasıl kullanmaya başlayabilirim?
 
- Java için Aspose.Cells'i kullanmaya başlamak için kitaplığı şu adresten indirin:[Burada](https://releases.aspose.com/cells/java/) ve kurulum için belgelere bakın ve
+Java için Aspose.Cells'i kullanmaya başlamak için kitaplığı şu adresten indirin: [Burada](https://releases.aspose.com/cells/java/) ve kurulum için belgelere bakın ve
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

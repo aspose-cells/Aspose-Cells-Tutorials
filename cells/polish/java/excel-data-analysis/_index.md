@@ -1,10 +1,10 @@
 ---
-title: Analiza danych w programie Excel
-linktitle: Analiza danych w programie Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Odblokuj potężną analizę danych Excela dzięki Aspose.Cells dla Java. Poznaj samouczki krok po kroku dla programistów Java. Poznaj wgląd w dane już dziś.
-weight: 12
-url: /pl/java/excel-data-analysis/
+"description": "Odblokuj potężną analizę danych Excela dzięki Aspose.Cells dla Java. Poznaj samouczki krok po kroku dla programistów Java. Poznaj wgląd w dane już dziś."
+"linktitle": "Analiza danych w programie Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Analiza danych w programie Excel"
+"url": "/pl/java/excel-data-analysis/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ url: /pl/java/excel-data-analysis/
 
 ## Wprowadzenie do analizy danych w programie Excel z Aspose.Cells dla języka Java
 
-dziedzinie analizy danych Excel pozostaje podstawowym narzędziem dla profesjonalistów z różnych branż. Dzięki solidnym możliwościom Aspose.Cells for Java programiści Java mogą wznieść swoją grę w analizę danych na nowe wyżyny. Ten zestaw bogatych w funkcje interfejsów API umożliwia łatwe przetwarzanie, manipulowanie i wyciąganie wniosków z arkuszy kalkulacyjnych Excel.
+W dziedzinie analizy danych Excel pozostaje podstawowym narzędziem dla profesjonalistów z różnych branż. Dzięki solidnym możliwościom Aspose.Cells for Java programiści Java mogą wznieść swoją grę w analizę danych na nowe wyżyny. Ten zestaw bogatych w funkcje interfejsów API umożliwia łatwe przetwarzanie, manipulowanie i wyciąganie wniosków z arkuszy kalkulacyjnych Excel.
 
 ## Samouczki krok po kroku dla programistów Java
 
@@ -32,11 +32,12 @@ Odblokuj moc analizy danych w programie Excel dzięki Aspose.Cells dla języka J
 ### [Zaawansowana analiza danych Excel](./advanced-data-analysis-excel/)
 Opanuj zaawansowaną analizę danych w programie Excel z Aspose.Cells dla Java. Ucz się krok po kroku, korzystając z przykładów kodu źródłowego.
 ### [Analiza danych w programie Excel Pivot](./data-analysis-excel-pivot/)
-Poznaj analizę danych w programie Excel z Aspose.Cells dla Java: przewodnik krok po kroku dotyczący efektywnego korzystania z tabeli przestawnej.
+Poznaj analizę danych w programie Excel z Aspose.Cells dla języka Java: przewodnik krok po kroku dotyczący efektywnego korzystania z tabeli przestawnej.
 ### [Wykresy analizy danych w programie Excel](./data-analysis-excel-charts/)
 Odblokuj doskonałość analizy danych dzięki Aspose.Cells dla Java. Twórz oszałamiające wykresy i raporty w programie Excel.
 ### [Formuły analizy danych w programie Excel](./data-analysis-excel-formulas/)
 Odblokuj moc analizy danych w programie Excel dzięki Aspose.Cells dla języka Java. Poznaj podstawowe formuły i techniki.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

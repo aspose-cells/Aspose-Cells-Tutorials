@@ -1,10 +1,10 @@
 ---
-title: एक्सेल पिवट टेबल्स
-linktitle: एक्सेल पिवट टेबल्स
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: Java के लिए Aspose.Cells के साथ Excel पिवट टेबल्स में महारत हासिल करें। आसानी से डेटा बनाने, कस्टमाइज़ करने और उसका विश्लेषण करने का तरीका जानें।
-weight: 13
-url: /hi/java/excel-pivot-tables/
+"description": "Java के लिए Aspose.Cells के साथ Excel पिवट टेबल्स में महारत हासिल करें। आसानी से डेटा बनाने, कस्टमाइज़ करने और उसका विश्लेषण करने का तरीका जानें।"
+"linktitle": "एक्सेल पिवट टेबल्स"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "एक्सेल पिवट टेबल्स"
+"url": "/hi/java/excel-pivot-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

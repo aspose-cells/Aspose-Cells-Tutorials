@@ -1,10 +1,10 @@
 ---
-title: उन्नत डेटा सत्यापन तकनीकें
-linktitle: उन्नत डेटा सत्यापन तकनीकें
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: Java के लिए Aspose.Cells के साथ Excel में उन्नत डेटा सत्यापन तकनीकों को अनलॉक करें। सटीक डेटा नियंत्रण के लिए कस्टम नियम, ड्रॉपडाउन सूचियाँ और बहुत कुछ बनाना सीखें।
-weight: 19
-url: /hi/java/data-validation-rules/advanced-data-validation-techniques/
+"description": "Java के लिए Aspose.Cells के साथ Excel में उन्नत डेटा सत्यापन तकनीकों को अनलॉक करें। सटीक डेटा नियंत्रण के लिए कस्टम नियम, ड्रॉपडाउन सूचियाँ और बहुत कुछ बनाना सीखें।"
+"linktitle": "उन्नत डेटा सत्यापन तकनीकें"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "उन्नत डेटा सत्यापन तकनीकें"
+"url": "/hi/java/data-validation-rules/advanced-data-validation-techniques/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,7 +20,7 @@ url: /hi/java/data-validation-rules/advanced-data-validation-techniques/
 
 ## Java के लिए Aspose.Cells सेट अप करना
 
- इससे पहले कि हम उन्नत तकनीकों में गोता लगाएँ, आइए Aspose.Cells for Java के साथ शुरुआत करें। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[Aspose.Cells for Java डाउनलोड लिंक](https://releases.aspose.com/cells/java/) . दस्तावेज़ में दिए गए इंस्टॉलेशन निर्देशों का पालन करना सुनिश्चित करें[Aspose.Cells for Java API संदर्भ](https://reference.aspose.com/cells/java/).
+इससे पहले कि हम उन्नत तकनीकों में गोता लगाएँ, आइए Aspose.Cells for Java के साथ शुरुआत करें। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [Aspose.Cells for Java डाउनलोड लिंक](https://releases.aspose.com/cells/java/). दस्तावेज़ में दिए गए इंस्टॉलेशन निर्देशों का पालन करना सुनिश्चित करें [Aspose.Cells for Java API संदर्भ](https://reference.aspose.com/cells/java/).
 
 ## बुनियादी डेटा सत्यापन
 
@@ -92,7 +92,7 @@ dataValidation.setFormula2("12/31/2023");
 
 ### मैं Java के लिए Aspose.Cells कैसे डाउनलोड करूं?
 
- आप Java के लिए Aspose.Cells को यहाँ से डाउनलोड कर सकते हैं[लिंक को डाउनलोड करें](https://releases.aspose.com/cells/java/).
+आप Java के लिए Aspose.Cells को यहाँ से डाउनलोड कर सकते हैं [लिंक को डाउनलोड करें](https://releases.aspose.com/cells/java/).
 
 ### क्या मैं Java के लिए Aspose.Cells का उपयोग करके कस्टम सत्यापन नियम बना सकता हूँ?
 
@@ -108,7 +108,8 @@ dataValidation.setFormula2("12/31/2023");
 
 ### मैं Java के लिए Aspose.Cells पर अधिक दस्तावेज़ कहां पा सकता हूं?
 
-आप विस्तृत दस्तावेज और संदर्भ यहां पा सकते हैं[Aspose.Cells for Java API संदर्भ](https://reference.aspose.com/cells/java/).
+आप विस्तृत दस्तावेज और संदर्भ यहां पा सकते हैं [Aspose.Cells for Java API संदर्भ](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

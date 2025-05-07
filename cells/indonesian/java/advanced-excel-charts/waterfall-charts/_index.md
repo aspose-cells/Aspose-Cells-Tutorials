@@ -1,10 +1,10 @@
 ---
-title: Bagan Air Terjun
-linktitle: Bagan Air Terjun
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara membuat Diagram Waterfall yang menakjubkan dengan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber untuk visualisasi data yang efektif.
-weight: 18
-url: /id/java/advanced-excel-charts/waterfall-charts/
+"description": "Pelajari cara membuat Diagram Waterfall yang menakjubkan dengan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber untuk visualisasi data yang efektif."
+"linktitle": "Bagan Air Terjun"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Bagan Air Terjun"
+"url": "/id/java/advanced-excel-charts/waterfall-charts/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,13 +16,13 @@ url: /id/java/advanced-excel-charts/waterfall-charts/
 
 ## Pengenalan Grafik Waterfall menggunakan Aspose.Cells untuk Java
 
-Bagan waterfall merupakan alat penting dalam visualisasi data, yang memungkinkan Anda melacak efek kumulatif dari nilai positif atau negatif yang dimasukkan secara berurutan. Dalam panduan ini, kita akan menjelajahi cara membuat bagan waterfall yang menakjubkan menggunakan Aspose.Cells untuk API Java. Baik Anda mengerjakan laporan keuangan, analisis penjualan, atau proyek berbasis data apa pun, bagan waterfall dapat memberikan wawasan berharga tentang data Anda.
+Bagan waterfall merupakan alat penting dalam visualisasi data, yang memungkinkan Anda melacak efek kumulatif dari nilai positif atau negatif yang dimasukkan secara berurutan. Dalam panduan ini, kita akan menjelajahi cara membuat bagan waterfall yang menakjubkan menggunakan Aspose.Cells for Java API. Baik Anda mengerjakan laporan keuangan, analisis penjualan, atau proyek berbasis data apa pun, bagan waterfall dapat memberikan wawasan berharga tentang data Anda.
 
 ## Prasyarat
 
 Sebelum kita membahas detailnya, pastikan Anda telah memenuhi prasyarat berikut:
 
--  Aspose.Cells untuk Java: Anda harus menginstal Aspose.Cells untuk Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk Java: Anda harus menginstal Aspose.Cells untuk Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
 
@@ -68,7 +68,7 @@ cells.get("B5").putValue(15);
 cells.get("B6").putValue(25);
 ```
 
-Dalam contoh ini, kita memiliki kategori di kolom A dan nilai yang sesuai di kolom B. Anda dapat mengganti data ini dengan kumpulan data Anda sendiri.
+Dalam contoh ini, kita memiliki kategori di kolom A dan nilai terkait di kolom B. Anda dapat mengganti data ini dengan kumpulan data Anda sendiri.
 
 ## Langkah 4: Buat Bagan Air Terjun
 
@@ -101,7 +101,7 @@ Anda dapat menyesuaikan tampilan diagram waterfall dengan mengubah properti sepe
 
 ### Bisakah saya membuat beberapa diagram air terjun dalam lembar kerja yang sama?
 
-Ya, Anda dapat membuat beberapa diagram air terjun dalam lembar kerja yang sama dengan mengikuti langkah-langkah yang sama dengan rentang data yang berbeda.
+Ya, Anda dapat membuat beberapa bagan air terjun dalam lembar kerja yang sama dengan mengikuti langkah-langkah yang sama dengan rentang data yang berbeda.
 
 ### Apakah Aspose.Cells kompatibel dengan lingkungan pengembangan Java yang berbeda?
 
@@ -113,7 +113,8 @@ Tentu saja, Anda dapat menambahkan lebih banyak rangkaian data ke bagan air terj
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan contoh untuk Aspose.Cells untuk Java?
 
- Anda dapat menjelajahi dokumentasi untuk Aspose.Cells untuk Java di[referensi.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) untuk informasi mendalam dan contoh kode.
+Anda dapat menjelajahi dokumentasi untuk Aspose.Cells untuk Java di [referensi.aspose.com/sel/java/](https://reference.aspose.com/cells/java/) untuk informasi mendalam dan contoh kode.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

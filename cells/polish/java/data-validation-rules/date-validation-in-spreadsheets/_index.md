@@ -1,10 +1,10 @@
 ---
-title: Walidacja dat w arkuszach kalkulacyjnych
-linktitle: Walidacja dat w arkuszach kalkulacyjnych
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak wykonywać walidację daty w arkuszach kalkulacyjnych programu Excel przy użyciu Aspose.Cells for Java. Zapewnij dokładność i integralność danych dzięki naszemu przewodnikowi krok po kroku. Poznaj potężne techniki manipulacji w programie Excel.
-weight: 14
-url: /pl/java/data-validation-rules/date-validation-in-spreadsheets/
+"description": "Dowiedz się, jak wykonywać walidację daty w arkuszach kalkulacyjnych programu Excel przy użyciu Aspose.Cells for Java. Zapewnij dokładność i integralność danych dzięki naszemu przewodnikowi krok po kroku. Poznaj potężne techniki manipulacji w programie Excel."
+"linktitle": "Walidacja dat w arkuszach kalkulacyjnych"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Walidacja dat w arkuszach kalkulacyjnych"
+"url": "/pl/java/data-validation-rules/date-validation-in-spreadsheets/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,14 +22,14 @@ url: /pl/java/data-validation-rules/date-validation-in-spreadsheets/
 
 Zanim przejdziemy do weryfikacji daty, upewnij się, że masz spełnione następujące warunki:
 - Konfiguracja środowiska programistycznego Java.
--  Biblioteka Aspose.Cells dla Java pobrana z[Tutaj](https://releases.aspose.com/cells/java/).
+- Biblioteka Aspose.Cells dla Java pobrana z [Tutaj](https://releases.aspose.com/cells/java/).
 - Podstawowa znajomość pracy z plikami Excel w języku Java.
 
 ## Konfigurowanie Aspose.Cells dla Java
 
 Na początek musisz dodać bibliotekę Aspose.Cells do swojego projektu Java. Wykonaj następujące kroki:
 
-1.  Pobierz bibliotekę Aspose.Cells dla Java z dostarczonego pliku[połączyć](https://releases.aspose.com/cells/java/).
+1. Pobierz bibliotekę Aspose.Cells dla Java z dostarczonego pliku [połączyć](https://releases.aspose.com/cells/java/).
 
 2. Dodaj pobrany plik JAR do ścieżki klas swojego projektu.
 
@@ -90,7 +90,7 @@ workbook.save("updated_excel_file.xlsx");
 
 ## Wniosek
 
-tym przewodniku nauczyliśmy się, jak wykonywać walidację daty w arkuszach kalkulacyjnych przy użyciu Aspose.Cells dla Java. Zapewnienie dokładności danych dotyczących daty jest kluczowe w różnych aplikacjach, a dzięki Aspose.Cells masz do dyspozycji potężne narzędzie, aby to osiągnąć.
+W tym przewodniku nauczyliśmy się, jak wykonywać walidację daty w arkuszach kalkulacyjnych przy użyciu Aspose.Cells dla Java. Zapewnienie dokładności danych dotyczących daty jest kluczowe w różnych aplikacjach, a dzięki Aspose.Cells masz do dyspozycji potężne narzędzie, aby to osiągnąć.
 
 ## Najczęściej zadawane pytania
 
@@ -104,7 +104,7 @@ Oczywiście! Możesz dostosować logikę walidacji daty do swoich konkretnych wy
 
 ### Czy istnieją jakieś wymagania licencyjne dotyczące korzystania z Aspose.Cells dla Java?
 
-Tak, Aspose.Cells for Java może wymagać licencji w przypadku niektórych scenariuszy użytkowania. Sprawdź stronę internetową Aspose, aby uzyskać szczegółowe informacje o licencjonowaniu.
+Tak, Aspose.Cells for Java może wymagać licencji w przypadku niektórych scenariuszy użytkowania. Sprawdź stronę internetową Aspose, aby uzyskać szczegóły dotyczące licencji.
 
 ### Czy Aspose.Cells for Java obsługuje inne operacje programu Excel?
 
@@ -112,7 +112,8 @@ Tak, Aspose.Cells for Java oferuje szeroki zakres funkcji do pracy z plikami Exc
 
 ### Gdzie mogę znaleźć więcej materiałów i przykładów dla Aspose.Cells dla Java?
 
- Możesz zapoznać się z[Aspose.Cells dla API Java Referencja](https://reference.aspose.com/cells/java/) aby uzyskać pełną dokumentację i przykłady.
+Możesz zapoznać się z [Aspose.Cells dla API Java Odniesienie](https://reference.aspose.com/cells/java/) aby uzyskać pełną dokumentację i przykłady.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

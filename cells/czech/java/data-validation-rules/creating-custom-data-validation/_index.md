@@ -1,57 +1,57 @@
 ---
-title: Vytváření vlastních ověřování dat
-linktitle: Vytváření vlastních ověřování dat
-second_title: Aspose.Cells Java Excel Processing API
-description: Naučte se vytvářet vlastní ověřování dat pomocí Aspose.Cells for Java. Průvodce krok za krokem se zdrojovým kódem.
-weight: 10
-url: /cs/java/data-validation-rules/creating-custom-data-validation/
+"description": "Naučte se, jak vytvořit vlastní validaci dat pomocí Aspose.Cells pro Javu. Podrobný návod se zdrojovým kódem."
+"linktitle": "Vytvoření vlastního ověřování dat"
+"second_title": "Rozhraní API pro zpracování Excelu v Javě od Aspose.Cells"
+"title": "Vytvoření vlastního ověřování dat"
+"url": "/cs/java/data-validation-rules/creating-custom-data-validation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytváření vlastních ověřování dat
+# Vytvoření vlastního ověřování dat
 
 
 ## Zavedení
 
-Ověřování dat pomáhá udržovat integritu dat tím, že zabraňuje uživatelům zadávat nesprávná nebo neplatná data do tabulek aplikace Excel. Přestože Excel nabízí vestavěné možnosti ověřování dat, existují scénáře, kdy je potřeba definovat vlastní pravidla ověřování. Aspose.Cells for Java vám umožňuje dosáhnout toho efektivně.
+Ověřování dat pomáhá udržovat integritu dat tím, že brání uživatelům v zadávání nesprávných nebo neplatných dat do tabulek aplikace Excel. Excel sice nabízí vestavěné možnosti ověřování dat, ale existují scénáře, kdy je potřeba definovat vlastní ověřovací pravidla. Aspose.Cells pro Javu vám umožňuje toho efektivně dosáhnout.
 
 ## Předpoklady
 
 Než se ponoříte do kódu, ujistěte se, že máte následující předpoklady:
 
--  Aspose.Cells for Java: Stáhněte a nainstalujte knihovnu z[zde](https://releases.aspose.com/cells/java/).
+- Aspose.Cells pro Javu: Stáhněte a nainstalujte knihovnu z [zde](https://releases.aspose.com/cells/java/).
 
-## Krok 1: Nastavení vašeho projektu Java
+## Krok 1: Nastavení projektu v jazyce Java
 
-Chcete-li začít, vytvořte nový projekt Java ve vašem preferovaném integrovaném vývojovém prostředí (IDE). Přidejte knihovnu Aspose.Cells for Java do cesty třídy vašeho projektu.
+Chcete-li začít, vytvořte nový projekt Java ve vašem preferovaném integrovaném vývojovém prostředí (IDE). Přidejte knihovnu Aspose.Cells for Java do cesty tříd vašeho projektu.
 
 ## Krok 2: Vytvoření sešitu aplikace Excel
 
-Začněme vytvořením nového excelového sešitu pomocí Aspose.Cells for Java.
+Začněme vytvořením nového sešitu aplikace Excel pomocí Aspose.Cells pro Javu.
 
 ```java
-// Java kód pro vytvoření nového excelového sešitu
+// Kód v Javě pro vytvoření nového sešitu aplikace Excel
 Workbook workbook = new Workbook();
 ```
 
-## Krok 3: Přidání listu
+## Krok 3: Přidání pracovního listu
 
-Nyní přidejte do sešitu list, kde použijeme vlastní ověření dat.
+Nyní přidejme do sešitu list, kde použijeme naše vlastní ověření dat.
 
 ```java
-// Java kód pro přidání listu
+// Kód v Javě pro přidání pracovního listu
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Krok 4: Definování vlastních ověřovacích kritérií
+## Krok 4: Definování vlastních kritérií ověření
 
-V tomto kroku definujeme vlastní ověřovací kritéria, která musí naše data splňovat. Řekněme, že chceme omezit věk zadaný do buňky na 18 až 60 let.
+V tomto kroku definujeme vlastní ověřovací kritéria, která musí naše data splňovat. Řekněme, že chceme omezit věk zadaný v buňce na hodnotu mezi 18 a 60 lety.
 
 ```java
-// Java kód pro definování vlastních ověřovacích kritérií
+// Kód Java pro definování vlastních ověřovacích kritérií
 Validation validation = worksheet.getValidations().add();
 validation.setType(ValidationType.WHOLE);
 validation.setOperator(OperatorType.BETWEEN);
@@ -65,14 +65,14 @@ validation.setErrorMessage("Age must be between 18 and 60.");
 
 ## Krok 5: Použití ověření dat na rozsah
 
-Nyní, když jsme definovali naše vlastní ověřovací kritéria, pojďme je aplikovat na konkrétní rozsah buněk.
+Nyní, když jsme definovali vlastní ověřovací kritéria, pojďme je aplikovat na konkrétní rozsah buněk.
 
 ```java
-// Java kód pro použití ověření dat na rozsah
+// Kód v Javě pro použití ověření dat na rozsah
 CellArea area = new CellArea();
 area.startRow = 0;
 area.startColumn = 0;
-area.endRow = 9; // Použijte ověření na prvních deset řádků
+area.endRow = 9; // Použít ověření na prvních deset řádků
 area.endColumn = 0;
 
 validation.addArea(area);
@@ -80,38 +80,39 @@ validation.addArea(area);
 
 ## Krok 6: Uložení souboru Excel
 
-Nakonec uložte soubor aplikace Excel s použitými pravidly ověřování vlastních dat.
+Nakonec uložte soubor Excel s použitými vlastními pravidly ověřování dat.
 
 ```java
-// Java kód pro uložení souboru Excel
+// Kód v Javě pro uložení souboru Excelu
 workbook.save("CustomDataValidation.xlsx");
 ```
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak vytvořit vlastní pravidla ověřování dat pomocí Aspose.Cells for Java. Pomocí těchto kroků můžete zajistit, aby vaše data aplikace Excel dodržovala konkrétní kritéria, čímž se zvýší integrita a přesnost dat.
+tomto tutoriálu jsme prozkoumali, jak vytvořit vlastní pravidla pro ověřování dat pomocí Aspose.Cells pro Javu. Dodržením těchto kroků můžete zajistit, aby vaše data v Excelu splňovala specifická kritéria, a zvýšit tak integritu a přesnost dat.
 
-## FAQ
+## Často kladené otázky
 
-### Jak si stáhnu Aspose.Cells for Java?
+### Jak si stáhnu Aspose.Cells pro Javu?
 
- Aspose.Cells for Java si můžete stáhnout z webové stránky na adrese[zde](https://releases.aspose.com/cells/java/).
+Aspose.Cells pro Javu si můžete stáhnout z webových stránek na adrese [zde](https://releases.aspose.com/cells/java/).
 
-### Mohu použít vlastní ověření dat na více rozsahů ve stejném listu?
+### Mohu použít vlastní ověření dat na více oblastí ve stejném listu?
 
-Ano, můžete použít vlastní ověření dat na více rozsahů v rámci stejného listu opakováním kroku 5 pro každý požadovaný rozsah.
+Ano, vlastní ověření dat můžete použít na více rozsahů v rámci stejného listu opakováním kroku 5 pro každý požadovaný rozsah.
 
-### Existují další typy ověřování dat podporované Aspose.Cells for Java?
+### Podporuje Aspose.Cells pro Javu i jiné typy ověřování dat?
 
-Ano, Aspose.Cells for Java podporuje různé typy ověřování dat, včetně celého čísla, desetinného čísla, data, času, délky textu a dalších.
+Ano, Aspose.Cells pro Javu podporuje různé typy ověřování dat, včetně ověřování celých čísel, desetinných čísel, data, času, délky textu a dalších.
 
-### Jak mohu přizpůsobit chybovou zprávu zobrazenou při selhání ověření dat?
+### Jak si mohu přizpůsobit chybovou zprávu zobrazenou při selhání ověření dat?
 
- Chybovou zprávu můžete upravit úpravou souboru`setErrorMessage` metodou v kroku 4, kde definujete ověřovací kritéria.
+Chybovou zprávu můžete přizpůsobit úpravou `setErrorMessage` metodu v kroku 4, kde definujete validační kritéria.
 
-### Funguje Aspose.Cells for Java se soubory aplikace Excel v různých formátech?
+### Funguje Aspose.Cells pro Javu s Excelovými soubory v různých formátech?
 
-Ano, Aspose.Cells for Java podporuje širokou škálu formátů souborů Excel, včetně XLS, XLSX, XLSM a dalších.
+Ano, Aspose.Cells pro Javu podporuje širokou škálu formátů souborů Excelu, včetně XLS, XLSX, XLSM a dalších.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

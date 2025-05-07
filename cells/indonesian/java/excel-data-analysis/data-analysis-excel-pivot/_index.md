@@ -1,10 +1,10 @@
 ---
-title: Analisis Data Excel Pivot
-linktitle: Analisis Data Excel Pivot
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari Analisis Data di Excel dengan Aspose.Cells untuk Java. Panduan langkah demi langkah untuk penggunaan tabel pivot yang efektif.
-weight: 13
-url: /id/java/excel-data-analysis/data-analysis-excel-pivot/
+"description": "Pelajari Analisis Data di Excel dengan Aspose.Cells untuk Java. Panduan langkah demi langkah untuk penggunaan tabel pivot yang efektif."
+"linktitle": "Analisis Data Excel Pivot"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Analisis Data Excel Pivot"
+"url": "/id/java/excel-data-analysis/data-analysis-excel-pivot/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ Sebelum menyelami seluk-beluk analisis data, mari berkenalan dengan Aspose.Cells
 Untuk mengikuti panduan ini, Anda memerlukan hal berikut:
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
--  Aspose.Cells untuk Java: Unduh dan sertakan pustaka Aspose.Cells untuk Java dalam proyek Anda. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk Java: Unduh dan sertakan pustaka Aspose.Cells untuk Java dalam proyek Anda. Anda dapat menemukan tautan unduhan [Di Sini](https://releases.aspose.com/cells/java/).
 - Contoh Data: Siapkan data Excel yang ingin Anda analisis.
 
 ## Membuat Buku Kerja Excel Baru
@@ -59,7 +59,7 @@ PivotTable pivotTable = pivotTables.get(index);
 
 ## Menentukan Bidang Tabel Pivot
 
-Untuk melakukan analisis data secara efektif, kita perlu menentukan kolom mana yang akan disertakan dalam tabel pivot kita. Kolom ini dapat berupa kolom dari data yang kita impor.
+Untuk melakukan analisis data secara efektif, kita perlu menentukan kolom mana yang akan disertakan dalam tabel pivot. Kolom ini dapat berupa kolom dari data yang kita impor.
 
 ```java
 // Kode Java untuk menentukan bidang tabel pivot
@@ -99,11 +99,11 @@ Dalam panduan ini, kami telah menjajaki cara melakukan analisis data di Excel me
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
- Anda dapat mengunduh Aspose.Cells untuk Java dari situs web[Di Sini](https://releases.aspose.com/cells/java/)Ikuti petunjuk instalasi yang diberikan untuk mengaturnya di proyek Java Anda.
+Anda dapat mengunduh Aspose.Cells untuk Java dari situs web [Di Sini](https://releases.aspose.com/cells/java/)Ikuti petunjuk instalasi yang diberikan untuk mengaturnya di proyek Java Anda.
 
 ### Dapatkah saya melakukan perhitungan tingkat lanjut dalam tabel pivot?
 
-Ya, Anda dapat melakukan berbagai perhitungan dalam tabel pivot, termasuk jumlah, rata-rata, hitungan, dan lainnya. Aspose.Cells untuk Java menawarkan dukungan yang luas untuk menyesuaikan perhitungan tabel pivot.
+Ya, Anda dapat melakukan berbagai perhitungan dalam tabel pivot, termasuk jumlah, rata-rata, hitungan, dan banyak lagi. Aspose.Cells untuk Java menawarkan dukungan yang luas untuk menyesuaikan perhitungan tabel pivot.
 
 ### Apakah Aspose.Cells untuk Java cocok untuk kumpulan data besar?
 
@@ -116,6 +116,7 @@ Tentu saja! Aspose.Cells untuk Java memungkinkan Anda mengotomatiskan tugas anal
 ### Apakah ada persyaratan lisensi untuk Aspose.Cells untuk Java?
 
 Ya, Aspose.Cells untuk Java adalah pustaka komersial, dan Anda memerlukan lisensi yang valid untuk menggunakannya dalam proyek Anda. Kunjungi situs web Aspose untuk mengetahui detail lisensi dan informasi harga.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

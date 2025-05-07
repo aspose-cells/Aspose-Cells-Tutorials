@@ -1,10 +1,10 @@
 ---
-title: Tích hợp dữ liệu trong Excel
-linktitle: Tích hợp dữ liệu trong Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách tích hợp dữ liệu hiệu quả trong Excel để có thông tin chi tiết và ra quyết định tốt hơn. Hướng dẫn từng bước với mã nguồn sử dụng Aspose.Cells cho Java.
-weight: 19
-url: /vi/java/spreadsheet-automation/data-integration-in-excel/
+"description": "Tìm hiểu cách tích hợp dữ liệu hiệu quả trong Excel để có thông tin chi tiết và ra quyết định tốt hơn. Hướng dẫn từng bước với mã nguồn sử dụng Aspose.Cells cho Java."
+"linktitle": "Tích hợp dữ liệu trong Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Tích hợp dữ liệu trong Excel"
+"url": "/vi/java/spreadsheet-automation/data-integration-in-excel/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Excel là một công cụ đa năng để xử lý dữ liệu, nhưng việc t
 
 ## 2. Thiết lập Aspose.Cells cho Java
 
- Trước khi đi sâu vào tích hợp dữ liệu, bạn cần thiết lập Aspose.Cells cho Java. Bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/cells/java/). Làm theo hướng dẫn cài đặt để bắt đầu.
+Trước khi đi sâu vào tích hợp dữ liệu, bạn cần thiết lập Aspose.Cells cho Java. Bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/cells/java/). Làm theo hướng dẫn cài đặt để bắt đầu.
 
 ## 3. Tải dữ liệu vào Excel
 
@@ -66,7 +66,7 @@ Trước khi phân tích, dữ liệu thường cần được chuyển đổi v
 
 ## 7. Trực quan hóa dữ liệu
 
-Để có được thông tin chi tiết, bạn cần có khả năng trực quan hóa dữ liệu hiệu quả. Excel cung cấp nhiều loại biểu đồ khác nhau để biểu diễn dữ liệu tích hợp của bạn:
+Để có được thông tin chi tiết, bạn cần trực quan hóa dữ liệu hiệu quả. Excel cung cấp nhiều loại biểu đồ khác nhau để biểu diễn dữ liệu tích hợp của bạn:
 
 ```java
 // Mã Java để tạo biểu đồ

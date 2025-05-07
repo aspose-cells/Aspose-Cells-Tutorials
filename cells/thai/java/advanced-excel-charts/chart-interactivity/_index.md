@@ -1,10 +1,10 @@
 ---
-title: การโต้ตอบของแผนภูมิ
-linktitle: การโต้ตอบของแผนภูมิ
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีการสร้างแผนภูมิแบบโต้ตอบโดยใช้ Aspose.Cells สำหรับ Java เพิ่มประสิทธิภาพการแสดงภาพข้อมูลของคุณด้วยการโต้ตอบ
-weight: 19
-url: /th/java/advanced-excel-charts/chart-interactivity/
+"description": "เรียนรู้วิธีการสร้างแผนภูมิแบบโต้ตอบโดยใช้ Aspose.Cells สำหรับ Java เพิ่มประสิทธิภาพการแสดงภาพข้อมูลของคุณด้วยการโต้ตอบ"
+"linktitle": "การโต้ตอบของแผนภูมิ"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การโต้ตอบของแผนภูมิ"
+"url": "/th/java/advanced-excel-charts/chart-interactivity/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /th/java/advanced-excel-charts/chart-interactivity/
 
 ก่อนที่เราจะเริ่มต้น โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 - สภาพแวดล้อมการพัฒนา Java
-- Aspose.Cells สำหรับไลบรารี Java (ดาวน์โหลดจาก[ที่นี่](https://releases.aspose.com/cells/java/)
+- Aspose.Cells สำหรับไลบรารี Java (ดาวน์โหลดจาก [ที่นี่](https://releases.aspose.com/cells/java/)
 
 ## ขั้นตอนที่ 1: การตั้งค่าโครงการ Java ของคุณ
 
@@ -94,7 +94,7 @@ workbook.save("interactive_chart_output.xlsx");
 
 ### ฉันจะเปลี่ยนประเภทแผนภูมิได้อย่างไร
 
- คุณสามารถเปลี่ยนประเภทแผนภูมิได้โดยการแก้ไข`ChartType` พารามิเตอร์เมื่อสร้างแผนภูมิ ตัวอย่างเช่น แทนที่`ChartType.COLUMN` กับ`ChartType.LINE` เพื่อสร้างแผนภูมิเส้น
+คุณสามารถเปลี่ยนประเภทแผนภูมิได้โดยการแก้ไข `ChartType` พารามิเตอร์เมื่อสร้างแผนภูมิ ตัวอย่างเช่น แทนที่ `ChartType.COLUMN` กับ `ChartType.LINE` เพื่อสร้างแผนภูมิเส้น
 
 ### ฉันสามารถปรับแต่งลักษณะของคำแนะนำเครื่องมือได้หรือไม่
 
@@ -106,7 +106,8 @@ workbook.save("interactive_chart_output.xlsx");
 
 ### ฉันสามารถหาตัวอย่างและเอกสารเพิ่มเติมได้ที่ไหน
 
- คุณสามารถสำรวจตัวอย่างเพิ่มเติมและเอกสารโดยละเอียดเกี่ยวกับการใช้ Aspose.Cells สำหรับ Java ได้ที่[เอกสารอ้างอิง Java API ของ Aspose.Cells](https://reference.aspose.com/cells/java/).
+คุณสามารถสำรวจตัวอย่างเพิ่มเติมและเอกสารโดยละเอียดเกี่ยวกับการใช้ Aspose.Cells สำหรับ Java ได้ที่ [เอกสารอ้างอิง Java API ของ Aspose.Cells](https://reference-aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

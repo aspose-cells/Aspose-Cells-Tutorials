@@ -1,10 +1,10 @@
 ---
-title: Экспорт CSV-кода Java
-linktitle: Экспорт CSV-кода Java
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как экспортировать данные в формат CSV с помощью Aspose.Cells для Java. Пошаговое руководство с исходным кодом для бесшовного экспорта CSV.
-weight: 12
-url: /ru/java/excel-import-export/csv-export-java-code/
+"description": "Узнайте, как экспортировать данные в формат CSV с помощью Aspose.Cells для Java. Пошаговое руководство с исходным кодом для бесшовного экспорта CSV."
+"linktitle": "Экспорт CSV-кода Java"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Экспорт CSV-кода Java"
+"url": "/ru/java/excel-import-export/csv-export-java-code/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /ru/java/excel-import-export/csv-export-java-code/
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 
 1. Среда разработки Java: убедитесь, что в вашей системе установлен Java JDK.
-2.  Aspose.Cells for Java: Загрузите и включите библиотеку Aspose.Cells for Java в свой проект. Ссылку на скачивание можно найти[здесь](https://releases.aspose.com/cells/java/).
+2. Aspose.Cells for Java: Загрузите и включите библиотеку Aspose.Cells for Java в свой проект. Ссылку на скачивание можно найти [здесь](https://releases.aspose.com/cells/java/).
 
 ## Создание проекта Java
 
@@ -33,7 +33,7 @@ url: /ru/java/excel-import-export/csv-export-java-code/
 
 Чтобы добавить Aspose.Cells для Java в свой проект, выполните следующие действия:
 
-1.  Загрузите библиотеку Aspose.Cells для Java с сайта[здесь](https://releases.aspose.com/cells/java/).
+1. Загрузите библиотеку Aspose.Cells для Java с сайта [здесь](https://releases.aspose.com/cells/java/).
 2. Включите загруженный JAR-файл в classpath вашего проекта.
 
 ## Написание кода экспорта CSV
@@ -68,7 +68,7 @@ public class CsvExportExample {
 
 ## Выполнение кода
 
-Скомпилируйте и запустите код Java в вашей IDE. Убедитесь, что в каталоге вашего проекта есть файл Excel с именем "input.xlsx". После запуска кода вы найдете экспортированный файл CSV как "output.csv" в том же каталоге.
+Скомпилируйте и запустите код Java в вашей IDE. Убедитесь, что в каталоге вашего проекта есть файл Excel с именем "input.xlsx". После запуска кода вы найдете экспортированный файл CSV под именем "output.csv" в том же каталоге.
 
 ## Заключение
 
@@ -79,7 +79,7 @@ public class CsvExportExample {
 ## Часто задаваемые вопросы
 
 ### 1. Могу ли я настроить символ-разделитель CSV?
-    Да, вы можете настроить символ разделителя, изменив`options.setSeparator(',')` строка в коде. Заменить`','` с нужным вам разделителем.
+   Да, вы можете настроить символ разделителя, изменив `options.setSeparator(',')` строку в коде. Заменить `','` с нужным вам разделителем.
 
 ### 2. Подходит ли Aspose.Cells для больших наборов данных?
    Да, Aspose.Cells может эффективно обрабатывать большие наборы данных и предоставляет различные варианты оптимизации.
@@ -91,10 +91,10 @@ public class CsvExportExample {
    Да, Aspose.Cells поддерживает различные форматы экспорта, включая XLS, XLSX, PDF и другие.
 
 ### 5. Где я могу найти больше документации и примеров?
-    Посетите документацию Aspose.Cells[здесь](https://reference.aspose.com/cells/java/) для получения исчерпывающих ресурсов и примеров.
+   Посетите документацию Aspose.Cells [здесь](https://reference.aspose.com/cells/java/) для получения исчерпывающих ресурсов и примеров.
 
 Не стесняйтесь исследовать дальше и адаптировать этот код под свои конкретные нужды. Удачного кодирования!
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

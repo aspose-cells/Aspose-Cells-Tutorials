@@ -1,10 +1,10 @@
 ---
-title: Импорт данных из Excel
-linktitle: Импорт данных из Excel
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как импортировать данные из Excel с помощью Aspose.Cells для Java. Подробное руководство с исходным кодом для бесперебойного извлечения данных.
-weight: 16
-url: /ru/java/excel-import-export/data-import-from-excel/
+"description": "Узнайте, как импортировать данные из Excel с помощью Aspose.Cells для Java. Подробное руководство с исходным кодом для бесперебойного извлечения данных."
+"linktitle": "Импорт данных из Excel"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Импорт данных из Excel"
+"url": "/ru/java/excel-import-export/data-import-from-excel/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -21,7 +21,7 @@ url: /ru/java/excel-import-export/data-import-from-excel/
 Прежде чем приступить к изучению кода, убедитесь, что выполнены следующие предварительные условия:
 
 1. Среда разработки Java: убедитесь, что в вашей системе установлен Java JDK.
-2.  Aspose.Cells for Java: Загрузите и включите библиотеку Aspose.Cells for Java в свой проект. Ссылку на скачивание можно найти[здесь](https://releases.aspose.com/cells/java/).
+2. Aspose.Cells for Java: Загрузите и включите библиотеку Aspose.Cells for Java в свой проект. Ссылку на скачивание можно найти [здесь](https://releases.aspose.com/cells/java/).
 
 ## Создание проекта Java
 
@@ -32,7 +32,7 @@ url: /ru/java/excel-import-export/data-import-from-excel/
 
 Чтобы добавить Aspose.Cells для Java в свой проект, выполните следующие действия:
 
-1.  Загрузите библиотеку Aspose.Cells для Java с сайта[здесь](https://releases.aspose.com/cells/java/).
+1. Загрузите библиотеку Aspose.Cells для Java с сайта [здесь](https://releases.aspose.com/cells/java/).
 2. Включите загруженный JAR-файл в classpath вашего проекта.
 
 ## Чтение данных из Excel
@@ -51,7 +51,7 @@ public class ExcelDataImport {
         // Доступ к рабочему листу
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        //Доступ к данным ячейки (например, A1)
+        // Доступ к данным ячейки (например, A1)
         Cell cell = worksheet.getCells().get("A1");
         System.out.println("Data in cell A1: " + cell.getStringValue());
 
@@ -93,10 +93,10 @@ public class ExcelDataImport {
    Aspose.Cells оптимизирован для эффективной обработки больших файлов Excel.
 
 ### 5. Где я могу найти больше документации и примеров?
-    Посетите документацию Aspose.Cells[здесь](https://reference.aspose.com/cells/java/) для получения подробных ресурсов и примеров.
+   Посетите документацию Aspose.Cells [здесь](https://reference.aspose.com/cells/java/) для получения подробных ресурсов и примеров.
 
 Не стесняйтесь исследовать дальше и адаптировать этот код в соответствии с вашими конкретными требованиями к импорту данных. Удачного кодирования!
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

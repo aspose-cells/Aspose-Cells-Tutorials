@@ -1,10 +1,10 @@
 ---
-title: Fungsi Dasar Excel
-linktitle: Fungsi Dasar Excel
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Jelajahi fungsi Excel penting menggunakan Aspose.Cells untuk Java. Tutorial kami mencakup dasar-dasarnya langkah demi langkah. Mulai dengan manipulasi spreadsheet
-weight: 10
-url: /id/java/basic-excel-functions/
+"description": "Jelajahi fungsi Excel penting menggunakan Aspose.Cells untuk Java. Tutorial kami mencakup dasar-dasarnya langkah demi langkah. Mulailah dengan manipulasi spreadsheet"
+"linktitle": "Fungsi Dasar Excel"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Fungsi Dasar Excel"
+"url": "/id/java/basic-excel-functions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -48,7 +48,7 @@ Temukan Kekuatan Fungsi MIN di Excel dengan Aspose.Cells untuk Java. Pelajari Ca
 Ungkap rahasia fungsi teks Excel dengan Aspose.Cells untuk Java. Pelajari cara memanipulasi, mengekstrak, dan mengubah teks di Excel dengan mudah.
 ### [Tutorial Fungsi Tanggal Excel](./excel-date-functions-tutorial/)
 Pelajari Fungsi Tanggal Excel menggunakan Aspose.Cells untuk Java. Jelajahi tutorial langkah demi langkah dengan kode sumber.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blok/produk/pf/bagian-halaman-tutorial >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

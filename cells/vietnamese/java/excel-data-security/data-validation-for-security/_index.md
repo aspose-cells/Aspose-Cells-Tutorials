@@ -1,10 +1,10 @@
 ---
-title: Xác thực dữ liệu để bảo mật
-linktitle: Xác thực dữ liệu để bảo mật
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tăng cường bảo mật dữ liệu với Aspose.Cells cho Java. Khám phá các kỹ thuật xác thực dữ liệu toàn diện. Tìm hiểu cách triển khai xác thực và bảo vệ mạnh mẽ.
-weight: 17
-url: /vi/java/excel-data-security/data-validation-for-security/
+"description": "Tăng cường bảo mật dữ liệu với Aspose.Cells cho Java. Khám phá các kỹ thuật xác thực dữ liệu toàn diện. Tìm hiểu cách triển khai xác thực và bảo vệ mạnh mẽ."
+"linktitle": "Xác thực dữ liệu để bảo mật"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Xác thực dữ liệu để bảo mật"
+"url": "/vi/java/excel-data-security/data-validation-for-security/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -31,7 +31,7 @@ Xác thực dữ liệu quan trọng vì nó bảo vệ tính toàn vẹn và b�
 Trước khi đi sâu vào xác thực dữ liệu, hãy thiết lập môi trường phát triển của chúng ta với Aspose.Cells for Java. Thực hiện theo các bước sau để bắt đầu:
 
 ### Cài đặt
-1.  Tải xuống thư viện Aspose.Cells cho Java từ[đây](https://releases.aspose.com/cells/java/).
+1. Tải xuống thư viện Aspose.Cells cho Java từ [đây](https://releases.aspose.com/cells/java/).
 2. Thêm thư viện vào dự án Java của bạn.
 
 ### Khởi tạo
@@ -103,7 +103,7 @@ validationList.setFormula1("List1"); // Xác định nguồn danh sách của b�
 validationList.setShowDropDown(true);
 ```
 
-## Bảo vệ các trang tính và sổ làm việc
+## Bảo vệ Worksheet và Workbook
 
 Để tăng cường bảo mật hơn nữa, hãy bảo vệ các bảng tính và sổ làm việc của bạn. Aspose.Cells for Java cung cấp các cơ chế bảo vệ mạnh mẽ.
 
@@ -152,6 +152,7 @@ Có, bạn có thể tạo các quy tắc xác thực dữ liệu tùy chỉnh b
 ### Một số kỹ thuật xác thực dữ liệu nâng cao là gì?
 
 Các kỹ thuật nâng cao bao gồm danh sách thả xuống dạng tầng và sử dụng công thức để xác thực.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

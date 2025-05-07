@@ -1,10 +1,10 @@
 ---
-title: Przetwarzanie wsadowe w programie Excel
-linktitle: Przetwarzanie wsadowe w programie Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Odkryj, jak usprawnić zadania przetwarzania wsadowego w programie Excel za pomocą Aspose.Cells dla języka Java. Zautomatyzuj obsługę danych, konwersję i manipulację za pomocą przykładów kodu źródłowego.
-weight: 10
-url: /pl/java/spreadsheet-automation/batch-excel-processing/
+"description": "Odkryj, jak usprawnić zadania przetwarzania wsadowego w programie Excel za pomocą Aspose.Cells dla języka Java. Zautomatyzuj obsługę danych, konwersję i manipulację za pomocą przykładów kodu źródłowego."
+"linktitle": "Przetwarzanie wsadowe w programie Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Przetwarzanie wsadowe w programie Excel"
+"url": "/pl/java/spreadsheet-automation/batch-excel-processing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -29,7 +29,7 @@ Automatyzacja przetwarzania wsadowego w programie Excel oferuje szereg korzyści
 
 ### 1. Konfigurowanie środowiska
 
- Na początek upewnij się, że masz zainstalowany Aspose.Cells for Java. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/cells/java/).
+Na początek upewnij się, że masz zainstalowany Aspose.Cells for Java. Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/cells/java/).
 
 ### 2. Inicjalizacja Aspose.Cells
 
@@ -48,7 +48,7 @@ public class BatchExcelProcessing {
 
 ### 3. Ładowanie plików Excel
 
-Aby przetworzyć wiele plików Excel, musisz załadować je do swojej aplikacji. Możesz użyć pętli lub list, aby zarządzać plikami:
+Aby przetworzyć wiele plików Excel, musisz załadować je do swojej aplikacji. Możesz użyć pętli lub list do zarządzania plikami:
 
 ```java
 // Zdefiniuj listę ścieżek plików programu Excel
@@ -59,7 +59,7 @@ for (String filePath : excelFiles) {
     // Załaduj plik Excel
     Workbook fileWorkbook = new Workbook(filePath);
     
-    //Wykonaj zadania przetwarzania na plikuWorkbook
+    // Wykonaj zadania przetwarzania na plikuWorkbook
 }
 ```
 
@@ -106,7 +106,7 @@ Automatyzacja przetwarzania wsadowego Excela za pomocą Aspose.Cells for Java up
    Tak, aby używać Aspose.Cells for Java w swoich projektach, musisz posiadać ważną licencję.
 
 ### 4. Gdzie mogę znaleźć więcej materiałów i dokumentacji dla Aspose.Cells dla Java?
-    Zapoznaj się z dokumentacją API na stronie[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) aby uzyskać szczegółowe informacje i przykłady.
+   Zapoznaj się z dokumentacją API na stronie [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) aby uzyskać szczegółowe informacje i przykłady.
 
 Zoptymalizuj zadania przetwarzania wsadowego w programie Excel i zwiększ produktywność, korzystając z Aspose.Cells for Java.
 {{< /blocks/products/pf/tutorial-page-section >}}

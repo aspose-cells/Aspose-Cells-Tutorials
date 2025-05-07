@@ -1,10 +1,10 @@
 ---
-title: Feltételes adatérvényesítés
-linktitle: Feltételes adatérvényesítés
-second_title: Aspose.Cells Java Excel Processing API
-description: Ismerje meg, hogyan valósíthat meg feltételes adatellenőrzést az Aspose.Cells for Java használatával. Lépésről lépésre útmutató forráskóddal a pontos adatkezeléshez Excel-táblázatokban.
-weight: 17
-url: /hu/java/data-validation-rules/conditional-data-validation/
+"description": "Ismerje meg, hogyan valósíthat meg feltételes adatellenőrzést az Aspose.Cells for Java használatával. Lépésről lépésre útmutató forráskóddal a pontos adatkezeléshez Excel-táblázatokban."
+"linktitle": "Feltételes adatérvényesítés"
+"second_title": "Aspose.Cells Java Excel feldolgozási API"
+"title": "Feltételes adatérvényesítés"
+"url": "/hu/java/data-validation-rules/conditional-data-validation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,55 +14,55 @@ url: /hu/java/data-validation-rules/conditional-data-validation/
 # Feltételes adatérvényesítés
 
 
-## Az Aspose.Cells for Java bemutatása
+## Bevezetés az Aspose.Cells Java-ba
 
-Mielőtt belemerülnénk a feltételes adatérvényesítés részleteibe, röviden mutassuk be az Aspose.Cells for Java-t. Az Aspose.Cells egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy Microsoft Excel nélkül készítsenek, kezeljenek és kezeljenek Excel-táblázatokat. A szolgáltatások széles skáláját kínálja az Excel-fájlokkal való munkavégzéshez, beleértve az adatellenőrzést is.
+Mielőtt belemerülnénk a feltételes adatérvényesítés részleteibe, röviden mutassuk be az Aspose.Cells Java-hoz készült változatát. Az Aspose.Cells egy hatékony Java könyvtár, amely lehetővé teszi a fejlesztők számára, hogy Excel-táblázatokat hozzanak létre, manipuláljanak és kezeljenek Microsoft Excel nélkül. Számos funkciót kínál az Excel-fájlokkal való munkához, beleértve az adatérvényesítést is.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belekezdenénk, győződjünk meg róla, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve a rendszerére.
--  Aspose.Cells for Java könyvtár. Letöltheti innen[itt](https://releases.aspose.com/cells/java/).
+- Java fejlesztőkészlet (JDK) telepítve van a rendszerére.
+- Aspose.Cells Java könyvtárhoz. Letöltheted innen: [itt](https://releases.aspose.com/cells/java/).
 
-## 1. lépés: Hozzon létre egy új Java projektet
+## 1. lépés: Új Java projekt létrehozása
 
-Kezdésként hozzunk létre egy új Java-projektet, amelyben megvalósítjuk a feltételes adatok érvényesítését. Ehhez használhatja kedvenc Java Integrated Development Environment (IDE)-ét. Íme a lépések:
+Kezdésként hozzunk létre egy új Java projektet, ahol feltételes adatellenőrzést fogunk megvalósítani. Ehhez használhatod a kedvenc Java integrált fejlesztői környezetedet (IDE). Íme a lépések:
 
-1. Nyissa meg az IDE-jét.
-2. Hozzon létre egy új Java projektet.
-3. Állítsa be a projektet a szükséges függőségekkel, beleértve az Aspose.Cells for Java könyvtárat.
+1. Nyisd meg az IDE-det.
+2. Hozz létre egy új Java projektet.
+3. Állítsa be a projektet a szükséges függőségekkel, beleértve az Aspose.Cells for Java könyvtárat is.
 
-## 2. lépés: Importálja az Aspose.Cells for Java fájlt
+## 2. lépés: Aspose.Cells importálása Java-hoz
 
-Java-projektjében importálnia kell az Aspose.Cells for Java könyvtárat, hogy elérje szolgáltatásait. A következőképpen teheti meg:
+A Java projektedben importálnod kell az Aspose.Cells for Java könyvtárat a funkcióinak eléréséhez. Így teheted meg:
 
 ```java
 import com.aspose.cells.*;
 ```
 
-## 3. lépés: Hozzon létre egy Excel-munkafüzetet
+## 3. lépés: Excel-munkafüzet létrehozása
 
-Ezután hozzunk létre egy Excel-munkafüzetet, ahol feltételes adatérvényesítést fogunk alkalmazni. Új munkafüzetet a következő kóddal hozhat létre:
+Következő lépésként hozzunk létre egy Excel-munkafüzetet, amelyben feltételes adatérvényesítést fogunk alkalmazni. Új munkafüzetet a következő kóddal hozhat létre:
 
 ```java
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## 4. lépés: Határozza meg az érvényesítési kritériumokat
+## 4. lépés: Érvényesítési kritériumok meghatározása
 
-A feltételes adatellenőrzés magában foglalja a meghatározott cellákban lévő adatokra vonatkozó kritériumok beállítását. Például korlátozhatja a cellában a bevitelt 1 és 100 közötti számra. Ilyen feltételeket a következőképpen határozhat meg:
+feltételes adatérvényesítés feltételek meghatározását jelenti adott cellákban lévő adatokra vonatkozóan. Előfordulhat például, hogy egy cella bemenetét 1 és 100 közötti számra szeretné korlátozni. Az ilyen feltételeket a következőképpen definiálhatja:
 
 ```java
 DataValidation dataValidation = worksheet.getValidations().addDataValidation("A1:A10", DataValidationType.WHOLE, DataValidationOperator.BETWEEN, "1", "100");
 ```
 
-Ebben a példában adatellenőrzést alkalmazunk az A1-A10 cellákra, meghatározva, hogy az adatok 1 és 100 közötti egész számok legyenek.
+Ebben a példában adatellenőrzést alkalmazunk az A1-től A10-ig terjedő cellákra, megadva, hogy az adatnak 1 és 100 közötti egész számnak kell lennie.
 
-## 5. lépés: Állítsa be az érvényesítési üzenetet és a hibajelzést
+## 5. lépés: Érvényesítési üzenet és hibajelzés beállítása
 
-Érvényesítési üzenetet és hibafigyelmeztetést biztosíthat a felhasználóknak, amikor olyan adatokat adnak meg, amelyek nem felelnek meg a feltételeknek. A következőképpen teheti meg:
+Megadhat egy érvényesítési üzenetet és egy hibaüzenetet, amely tájékoztatja a felhasználókat, amikor olyan adatokat adnak meg, amelyek nem felelnek meg a kritériumoknak. Így teheti meg:
 
 ```java
 dataValidation.setErrorMessage("Please enter a number between 1 and 100.");
@@ -70,18 +70,18 @@ dataValidation.setErrorTitle("Invalid Input");
 dataValidation.setShowError(true);
 ```
 
-## 6. lépés: Alkalmazza az érvényesítést a cellákra
+## 6. lépés: Érvényesítés alkalmazása cellákra
 
-Most, hogy meghatározta az érvényesítési feltételeket, alkalmazza azokat a kívánt cellákra:
+Most, hogy meghatározta az érvényesítési kritériumokat, alkalmazza azokat a kívánt cellákra:
 
 ```java
 worksheet.getCells().get("A1").setValue(50); // Érvényes bevitel
 worksheet.getCells().get("A2").setValue(150); // Érvénytelen bevitel
 ```
 
-## 7. lépés: Mentse el a munkafüzetet
+## 7. lépés: A munkafüzet mentése
 
-Végül mentse el a munkafüzetet a feltételes adatok érvényesítésének működés közbeni megtekintéséhez:
+Végül mentse el a munkafüzetet, hogy működés közben lássa a feltételes adatérvényesítést:
 
 ```java
 workbook.save("ConditionalValidationExample.xlsx");
@@ -89,29 +89,30 @@ workbook.save("ConditionalValidationExample.xlsx");
 
 ## Következtetés
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan valósíthatjuk meg a feltételes adatok érvényesítését az Aspose.Cells for Java használatával. A fent vázolt lépések követésével biztosíthatja, hogy az Excel-táblázataiba bevitt adatok megfeleljenek bizonyos kritériumoknak, javítva az adatok pontosságát és megbízhatóságát.
+Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan valósítható meg a feltételes adatellenőrzés az Aspose.Cells for Java használatával. A fent vázolt lépéseket követve biztosíthatja, hogy az Excel-táblázatokba bevitt adatok megfeleljenek bizonyos kritériumoknak, növelve az adatok pontosságát és megbízhatóságát.
 
 ## GYIK
 
-### Hogyan telepíthetem az Aspose.Cells for Java programot?
+### Hogyan telepíthetem az Aspose.Cells-t Java-hoz?
 
- Az Aspose.Cells for Java a könyvtár letöltésével telepíthető a következő webhelyről[itt](https://releases.aspose.com/cells/java/).
+Az Aspose.Cells for Java telepíthető a könyvtár letöltésével a következő weboldalról: [itt](https://releases.aspose.com/cells/java/).
 
 ### Alkalmazhatok feltételes adatellenőrzést egyszerre több cellára?
 
-Igen, több cellára is alkalmazhat feltételes adatellenőrzést, ha megadja a cellatartományt az érvényesítési feltételekben.
+Igen, feltételes adatérvényesítést alkalmazhat több cellára is a cellatartomány megadásával az ellenőrzési feltételekben.
 
-### Az Aspose.Cells for Java kompatibilis a különböző Excel formátumokkal?
+### Kompatibilis az Aspose.Cells for Java különböző Excel formátumokkal?
 
-Igen, az Aspose.Cells for Java különféle Excel-formátumokat támogat, beleértve az XLS-t, az XLSX-et és egyebeket.
+Igen, az Aspose.Cells for Java számos Excel formátumot támogat, beleértve az XLS-t, az XLSX-et és egyebeket.
 
-### Testreszabhatom a hibaüzeneteket az adatok ellenőrzéséhez?
+### Testreszabhatom az adatellenőrzés hibaüzeneteit?
 
-Teljesen! Testreszabhatja a hibaüzeneteket, a hibajelzések címét és megjelenését az alkalmazás követelményeinek megfelelően.
+Természetesen! A hibaüzenetet, a címet és a hibariasztások megjelenését az alkalmazás igényeinek megfelelően testreszabhatja.
 
-### Vannak korlátai a feltételes adatok érvényesítésének az Aspose.Cells for Java programban?
+### Vannak-e korlátozások a feltételes adatérvényesítésre az Aspose.Cells for Java-ban?
 
-Míg az Aspose.Cells for Java robusztus adatellenőrzési szolgáltatásokat nyújt, elengedhetetlen, hogy áttekintse a dokumentációt az esetleges korlátozások vagy szempontok tekintetében az összetett érvényesítési szabályok megvalósítása során.
+Bár az Aspose.Cells for Java robusztus adatérvényesítési funkciókat kínál, elengedhetetlen a dokumentáció áttekintése az esetleges korlátozások vagy szempontok figyelembevételével összetett érvényesítési szabályok implementálásakor.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

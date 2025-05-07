@@ -1,10 +1,10 @@
 ---
-title: Excel Şifre Koruması
-linktitle: Excel Şifre Koruması
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java kullanarak Excel parola korumasıyla veri güvenliğini nasıl artıracağınızı öğrenin. Nihai veri gizliliği için kaynak kodlu adım adım kılavuz.
-weight: 10
-url: /tr/java/excel-data-security/excel-password-protection/
+"description": "Aspose.Cells for Java kullanarak Excel parola korumasıyla veri güvenliğini nasıl artıracağınızı öğrenin. Nihai veri gizliliği için kaynak kodlu adım adım kılavuz."
+"linktitle": "Excel Şifre Koruması"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Excel Şifre Koruması"
+"url": "/tr/java/excel-data-security/excel-password-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ Dijital çağda, hassas verilerinizi güvence altına almak çok önemlidir. Exc
 Aspose.Cells for Java ile Excel parola koruması dünyasına dalmadan önce, gerekli araçlara ve bilgiye sahip olduğunuzdan emin olmanız gerekir:
 
 - Java Geliştirme Ortamı
--  Java API için Aspose.Cells (Bunu indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/)
+- Java API için Aspose.Cells (Bunu indirebilirsiniz [Burada](https://releases.aspose.com/cells/java/)
 - Java programlamanın temel bilgisi
 
 ## Ortamın Kurulması
@@ -79,7 +79,7 @@ import com.aspose.cells.*;
 
 public class ExcelPasswordProtection {
     public static void main(String[] args) {
-        //Mevcut çalışma kitabını yükleyin
+        // Mevcut çalışma kitabını yükleyin
         Workbook workbook;
         try {
             workbook = new Workbook("Sample.xlsx");
@@ -102,7 +102,7 @@ public class ExcelPasswordProtection {
 }
 ```
 
- Bu kodda, daha önce oluşturulan Excel dosyasını yüklüyoruz, bir parola belirliyoruz ve çalışma kitabını koruyoruz. Şunu değiştirebilirsiniz:`"MySecretPassword"` İstediğiniz şifreyle.
+Bu kodda, daha önce oluşturulan Excel dosyasını yüklüyoruz, bir parola belirliyoruz ve çalışma kitabını koruyoruz. Şunu değiştirebilirsiniz: `"MySecretPassword"` İstediğiniz şifreyle.
 
 ## Çözüm
 
@@ -129,6 +129,7 @@ Evet, zaten korunan bir Excel dosyasının şifresini, dosyayı yükleyip, yeni 
 ### Excel dosyalarında parola korumasının herhangi bir sınırlaması var mı?
 
 Excel dosyalarında parola koruması güçlü bir güvenlik önlemidir, ancak güvenliği en üst düzeye çıkarmak için güçlü parolalar seçmek ve bunları gizli tutmak önemlidir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

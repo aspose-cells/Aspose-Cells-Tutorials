@@ -1,10 +1,10 @@
 ---
-title: Защита паролем Excel
-linktitle: Защита паролем Excel
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как повысить безопасность данных с помощью защиты паролем Excel с помощью Aspose.Cells для Java. Пошаговое руководство с исходным кодом для максимальной конфиденциальности данных.
-weight: 10
-url: /ru/java/excel-data-security/excel-password-protection/
+"description": "Узнайте, как повысить безопасность данных с помощью защиты паролем Excel с помощью Aspose.Cells для Java. Пошаговое руководство с исходным кодом для максимальной конфиденциальности данных."
+"linktitle": "Защита паролем Excel"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Защита паролем Excel"
+"url": "/ru/java/excel-data-security/excel-password-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ url: /ru/java/excel-data-security/excel-password-protection/
 Прежде чем окунуться в мир защиты паролей Excel с помощью Aspose.Cells для Java, вам необходимо убедиться, что у вас есть необходимые инструменты и знания:
 
 - Среда разработки Java
--  Aspose.Cells для Java API (Вы можете скачать его[здесь](https://releases.aspose.com/cells/java/)
+- Aspose.Cells для Java API (Вы можете скачать его [здесь](https://releases.aspose.com/cells/java/)
 - Базовые знания программирования на Java
 
 ## Создание среды
@@ -79,7 +79,7 @@ import com.aspose.cells.*;
 
 public class ExcelPasswordProtection {
     public static void main(String[] args) {
-        //Загрузить существующую рабочую книгу
+        // Загрузить существующую рабочую книгу
         Workbook workbook;
         try {
             workbook = new Workbook("Sample.xlsx");
@@ -102,7 +102,7 @@ public class ExcelPasswordProtection {
 }
 ```
 
- В этом коде мы загружаем ранее созданный файл Excel, устанавливаем пароль и защищаем книгу. Вы можете заменить`"MySecretPassword"` с желаемым паролем.
+В этом коде мы загружаем ранее созданный файл Excel, устанавливаем пароль и защищаем книгу. Вы можете заменить `"MySecretPassword"` с желаемым паролем.
 
 ## Заключение
 
@@ -129,6 +129,7 @@ public class ExcelPasswordProtection {
 ### Существуют ли какие-либо ограничения по защите паролем файлов Excel?
 
 Защита паролем файлов Excel — надежная мера безопасности, но для максимальной безопасности важно выбирать надежные пароли и хранить их в тайне.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

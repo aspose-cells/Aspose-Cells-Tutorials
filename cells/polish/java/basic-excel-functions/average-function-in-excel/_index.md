@@ -1,10 +1,10 @@
 ---
-title: Funkcja ŚREDNIA w programie Excel
-linktitle: Funkcja ŚREDNIA w programie Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak używać funkcji AVERAGE w programie Excel z Aspose.Cells dla Java. Przewodnik krok po kroku, przykłady kodu i wskazówki dotyczące wydajnej automatyzacji programu Excel.
-weight: 15
-url: /pl/java/basic-excel-functions/average-function-in-excel/
+"description": "Dowiedz się, jak używać funkcji AVERAGE w programie Excel z Aspose.Cells dla Java. Przewodnik krok po kroku, przykłady kodu i wskazówki dotyczące wydajnej automatyzacji programu Excel."
+"linktitle": "Funkcja ŚREDNIA w programie Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Funkcja ŚREDNIA w programie Excel"
+"url": "/pl/java/basic-excel-functions/average-function-in-excel/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,11 +20,11 @@ Arkusze kalkulacyjne programu Excel są szeroko stosowane do analizy danych i ob
 
 ## Konfigurowanie Aspose.Cells dla Java
 
-Zanim zagłębimy się w używanie funkcji AVERAGE, musimy skonfigurować nasze środowisko programistyczne. Aby rozpocząć, wykonaj następujące kroki:
+Zanim przejdziemy do używania funkcji AVERAGE, musimy skonfigurować nasze środowisko programistyczne. Aby rozpocząć, wykonaj następujące kroki:
 
-1.  Pobierz Aspose.Cells dla Java: Odwiedź[Aspose.Cells dla Javy](https://releases.aspose.com/cells/java/) aby pobrać bibliotekę.
+1. Pobierz Aspose.Cells dla Java: Odwiedź [Aspose.Cells dla Javy](https://releases.aspose.com/cells/java/) aby pobrać bibliotekę.
 
-2.  Zainstaluj Aspose.Cells: Postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji Aspose[Tutaj](https://reference.aspose.com/cells/java/).
+2. Zainstaluj Aspose.Cells: Postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji Aspose [Tutaj](https://reference.aspose.com/cells/java/).
 
 Po zainstalowaniu Aspose.Cells for Java możesz zacząć pracować z plikami Excela.
 
@@ -38,7 +38,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-tym kodzie tworzymy nowy skoroszyt i uzyskujemy dostęp do pierwszego arkusza.
+W tym kodzie tworzymy nowy skoroszyt i uzyskujemy dostęp do pierwszego arkusza.
 
 ## Dodawanie danych do skoroszytu
 
@@ -113,13 +113,13 @@ Aspose.Cells for Java oferuje szeroki zakres funkcji wykraczających poza to, co
 
 ## Wniosek
 
-tym artykule przyjrzeliśmy się sposobowi używania funkcji AVERAGE w programie Excel przy użyciu Aspose.Cells for Java. Zaczęliśmy od skonfigurowania środowiska programistycznego, utworzenia nowego skoroszytu programu Excel, dodania danych, użycia funkcji AVERAGE, sformatowania arkusza i obsługi błędów. Aspose.Cells for Java zapewnia solidne rozwiązanie do automatyzacji zadań programu Excel programowo, co czyni go cennym narzędziem do manipulacji danymi i ich analizy.
+W tym artykule przyjrzeliśmy się sposobowi używania funkcji AVERAGE w programie Excel przy użyciu Aspose.Cells for Java. Zaczęliśmy od skonfigurowania środowiska programistycznego, utworzenia nowego skoroszytu programu Excel, dodania danych, użycia funkcji AVERAGE, sformatowania arkusza i obsługi błędów. Aspose.Cells for Java zapewnia solidne rozwiązanie do automatyzacji zadań programu Excel programowo, co czyni go cennym narzędziem do manipulacji danymi i ich analizy.
 
 ## Najczęściej zadawane pytania
 
 ### Jak zainstalować Aspose.Cells dla Java?
 
- Aby zainstalować Aspose.Cells dla Java, odwiedź witrynę internetową pod adresem[Tutaj](https://reference.aspose.com/cells/java/) i postępuj zgodnie z instrukcją instalacji.
+Aby zainstalować Aspose.Cells dla Java, odwiedź witrynę internetową pod adresem [Tutaj](https://reference.aspose.com/cells/java/) i postępuj zgodnie z instrukcją instalacji.
 
 ### Czy mogę wyeksportować skoroszyt programu Excel do innych formatów niż PDF?
 
@@ -136,6 +136,7 @@ Możesz dostosować wygląd komórki, zmieniając czcionki, kolory i style za po
 ### Gdzie mogę uzyskać dostęp do bardziej zaawansowanych funkcji Aspose.Cells dla Java?
 
 Pełną listę funkcji i zaawansowanych funkcjonalności można znaleźć w dokumentacji Aspose.Cells for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

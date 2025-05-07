@@ -1,10 +1,10 @@
 ---
-title: Экспорт Excel в JSON
-linktitle: Экспорт Excel в JSON
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как экспортировать данные Excel в JSON с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству с исходным кодом для бесшовного преобразования.
-weight: 17
-url: /ru/java/excel-import-export/export-excel-to-json/
+"description": "Узнайте, как экспортировать данные Excel в JSON с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству с исходным кодом для бесшовного преобразования."
+"linktitle": "Экспорт Excel в JSON"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Экспорт Excel в JSON"
+"url": "/ru/java/excel-import-export/export-excel-to-json/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,7 +20,7 @@ url: /ru/java/excel-import-export/export-excel-to-json/
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 
 - Среда разработки Java: убедитесь, что в вашей системе установлена Java.
--  Aspose.Cells для Java: Загрузите и установите библиотеку Aspose.Cells для Java с сайта[здесь](https://releases.aspose.com/cells/java/).
+- Aspose.Cells для Java: Загрузите и установите библиотеку Aspose.Cells для Java с сайта [здесь](https://releases.aspose.com/cells/java/).
 - Файл Excel: подготовьте файл Excel, который вы хотите преобразовать в JSON.
 
 ## Шаг 1: Импорт Aspose.Cells для Java
@@ -38,7 +38,7 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Заменять`"your_excel_file.xlsx"` с путем к вашему файлу Excel.
+Заменять `"your_excel_file.xlsx"` с путем к вашему файлу Excel.
 
 ## Шаг 3: Преобразование в JSON
 Теперь давайте преобразуем данные Excel в формат JSON. Используйте следующий код для выполнения преобразования:
@@ -70,13 +70,13 @@ workbook.save("output.json", jsonSaveOptions);
    API Aspose.Cells можно использовать для навигации и манипулирования сложными структурами данных Excel перед экспортом в JSON.
 
 ### Могу ли я настроить формат вывода JSON?
-   Да, вы можете настроить формат вывода JSON, используя параметры, предоставляемые JsonSaveOptions в Aspose.Cells for Java.
+   Да, вы можете настроить формат вывода JSON с помощью параметров, предоставляемых JsonSaveOptions в Aspose.Cells for Java.
 
 ### Доступна ли пробная версия Aspose.Cells для Java?
    Да, вы можете загрузить пробную версию Aspose.Cells для Java с их веб-сайта, чтобы оценить ее возможности.
 
 Не стесняйтесь исследовать дополнительные возможности Aspose.Cells для Java, чтобы расширить свои возможности обработки данных.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

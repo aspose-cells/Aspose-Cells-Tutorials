@@ -1,10 +1,10 @@
 ---
-title: Zaawansowana analiza danych Excel
-linktitle: Zaawansowana analiza danych Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Opanuj zaawansowaną analizę danych w programie Excel z Aspose.Cells dla Java. Ucz się krok po kroku, korzystając z przykładów kodu źródłowego.
-weight: 12
-url: /pl/java/excel-data-analysis/advanced-data-analysis-excel/
+"description": "Opanuj zaawansowaną analizę danych w programie Excel z Aspose.Cells dla Java. Ucz się krok po kroku, korzystając z przykładów kodu źródłowego."
+"linktitle": "Zaawansowana analiza danych Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Zaawansowana analiza danych Excel"
+"url": "/pl/java/excel-data-analysis/advanced-data-analysis-excel/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,11 +20,11 @@ Excel jest niewątpliwie wszechstronnym narzędziem do analizy danych, ale jeśl
 
 ## Wymagania wstępne
 
-Zanim zagłębimy się w świat zaawansowanej analizy danych z Aspose.Cells for Java, musisz spełnić kilka warunków wstępnych:
+Zanim zagłębimy się w świat zaawansowanej analizy danych z Aspose.Cells dla Java, musisz spełnić kilka warunków wstępnych:
 
 - Podstawowa znajomość programowania w Javie.
 - Środowisko programistyczne zawierające Javę i preferowane przez Ciebie środowisko IDE.
--  Biblioteka Aspose.Cells for Java, którą można pobrać ze strony[Tutaj](https://releases.aspose.com/cells/java/).
+- Biblioteka Aspose.Cells dla Java, którą można pobrać ze strony [Tutaj](https://releases.aspose.com/cells/java/).
 - Arkusz kalkulacyjny programu Excel z przykładowymi danymi do pracy.
 
 ## Konfigurowanie Aspose.Cells dla Java
@@ -187,7 +187,7 @@ Dzięki Aspose.Cells for Java możesz podnieść swoje możliwości analizy dany
 
 Aby zainstalować Aspose.Cells dla Java, wykonaj następujące kroki:
 
-1.  Pobierz bibliotekę z[Tutaj](https://releases.aspose.com/cells/java/).
+1. Pobierz bibliotekę z [Tutaj](https://releases.aspose.com/cells/java/).
 2. Dodaj bibliotekę do swojego projektu Java.
 3. Zaimportuj niezbędne pakiety do swojego kodu.
 
@@ -206,6 +206,7 @@ Tak, zadania programu Excel, w tym uruchamianie makr, można automatyzować przy
 ### Do jakich formatów mogę eksportować wyniki analizy?
 
 Aspose.Cells for Java obsługuje eksportowanie wyników analiz do różnych formatów, w tym PDF i CSV.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

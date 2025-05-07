@@ -1,10 +1,10 @@
 ---
-title: Hàm CONCATENATE của Excel
-linktitle: Hàm CONCATENATE của Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách nối văn bản trong Excel bằng Aspose.Cells for Java. Hướng dẫn từng bước này bao gồm các ví dụ về mã nguồn để thao tác văn bản liền mạch.
-weight: 13
-url: /vi/java/basic-excel-functions/excel-concatenate-function/
+"description": "Tìm hiểu cách nối văn bản trong Excel bằng Aspose.Cells for Java. Hướng dẫn từng bước này bao gồm các ví dụ về mã nguồn để thao tác văn bản liền mạch."
+"linktitle": "Hàm CONCATENATE của Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Hàm CONCATENATE của Excel"
+"url": "/vi/java/basic-excel-functions/excel-concatenate-function/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 
 1. Môi trường phát triển Java: Bạn nên cài đặt Java trên hệ thống của mình cùng với Môi trường phát triển tích hợp (IDE) phù hợp như Eclipse hoặc IntelliJ IDEA.
 
-2. Aspose.Cells cho Java: Bạn cần cài đặt thư viện Aspose.Cells cho Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
+2. Aspose.Cells cho Java: Bạn cần cài đặt thư viện Aspose.Cells cho Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/java/).
 
 ## Bước 1: Tạo một dự án Java mới
 
@@ -91,7 +91,7 @@ workbook.save("concatenated_text.xlsx");
 
 ## Phần kết luận
 
- Trong hướng dẫn này, chúng ta đã học cách nối văn bản trong Excel bằng Aspose.Cells for Java. Chúng tôi đã đề cập đến các bước cơ bản, từ việc khởi tạo Workbook đến lưu tệp Excel. Ngoài ra, chúng tôi đã khám phá một phương pháp thay thế để nối văn bản bằng cách sử dụng`Cell.putValue` phương pháp. Bây giờ bạn có thể sử dụng Aspose.Cells for Java để thực hiện nối văn bản trong các ứng dụng Java của mình một cách dễ dàng.
+Trong hướng dẫn này, chúng ta đã học cách nối văn bản trong Excel bằng Aspose.Cells for Java. Chúng tôi đã đề cập đến các bước cơ bản, từ việc khởi tạo Workbook đến lưu tệp Excel. Ngoài ra, chúng tôi đã khám phá một phương pháp thay thế để nối văn bản bằng cách sử dụng `Cell.putValue` phương pháp. Bây giờ bạn có thể sử dụng Aspose.Cells for Java để thực hiện nối văn bản trong các ứng dụng Java của mình một cách dễ dàng.
 
 ## Câu hỏi thường gặp
 
@@ -103,9 +103,9 @@ workbook.save("concatenated_text.xlsx");
 
 2. Nhập dữ liệu văn bản vào các ô mong muốn.
 
-3.  Sử dụng`setFormula` phương pháp tạo công thức CONCATENATE nối văn bản từ các ô.
+3. Sử dụng `setFormula` phương pháp tạo công thức CONCATENATE nối văn bản từ các ô.
 
-4.  Tính toán lại các công thức trong bảng tính bằng cách sử dụng`workbook.calculateFormula()`.
+4. Tính toán lại các công thức trong bảng tính bằng cách sử dụng `workbook.calculateFormula()`.
 
 5. Lưu tệp Excel.
 
@@ -117,7 +117,7 @@ Có, bạn có thể nối nhiều hơn ba chuỗi văn bản bằng cách sử 
 
 ### Có giải pháp thay thế cho CONCATENATE trong Aspose.Cells cho Java không?
 
- Có, Aspose.Cells for Java cung cấp một cách thay thế để nối văn bản bằng cách sử dụng`Cell.putValue` phương pháp. Bạn có thể nối văn bản từ nhiều ô và đặt kết quả vào ô khác mà không cần sử dụng công thức.
+Có, Aspose.Cells for Java cung cấp một cách thay thế để nối văn bản bằng cách sử dụng `Cell.putValue` phương pháp. Bạn có thể nối văn bản từ nhiều ô và đặt kết quả vào ô khác mà không cần sử dụng công thức.
 
 ```java
 // Nối văn bản từ các ô A1, B1 và C1 vào D1 mà không cần sử dụng công thức
@@ -126,6 +126,7 @@ worksheet.getCells().get("D1").putValue(concatenatedText);
 ```
 
 Cách tiếp cận này có thể hữu ích nếu bạn muốn nối văn bản mà không cần sử dụng công thức Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

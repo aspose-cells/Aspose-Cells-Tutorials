@@ -1,10 +1,10 @@
 ---
-title: Validasi Data Daftar di Excel
-linktitle: Validasi Data Daftar di Excel
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari Validasi Data di Excel menggunakan Aspose.Cells untuk Java. Terapkan aturan, pesan kesalahan, dan banyak lagi.
-weight: 16
-url: /id/java/data-validation-rules/list-data-validation-in-excel/
+"description": "Pelajari Validasi Data di Excel menggunakan Aspose.Cells untuk Java. Terapkan aturan, pesan kesalahan, dan banyak lagi."
+"linktitle": "Validasi Data Daftar di Excel"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Validasi Data Daftar di Excel"
+"url": "/id/java/data-validation-rules/list-data-validation-in-excel/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ url: /id/java/data-validation-rules/list-data-validation-in-excel/
 
 ## Pengenalan Validasi Data Daftar di Excel
 
-Di era digital saat ini, validasi data memegang peranan penting dalam memastikan keakuratan dan integritas informasi yang tersimpan dalam lembar kerja Excel. Baik Anda mengelola data keuangan, melacak inventaris, atau mengumpulkan respons survei, sangat penting untuk memvalidasi masukan guna mencegah kesalahan dan ketidakkonsistenan. Aspose.Cells untuk Java menyediakan solusi yang hebat untuk menerapkan validasi data di Excel, yang memungkinkan Anda membuat file Excel dengan data terstruktur dan tervalidasi dengan mudah.
+Di era digital saat ini, validasi data memegang peranan penting dalam memastikan keakuratan dan integritas informasi yang tersimpan dalam lembar kerja Excel. Baik Anda mengelola data keuangan, melacak inventaris, atau mengumpulkan respons survei, penting untuk memvalidasi masukan guna mencegah kesalahan dan ketidakkonsistenan. Aspose.Cells untuk Java menyediakan solusi yang hebat untuk menerapkan validasi data di Excel, yang memungkinkan Anda membuat file Excel dengan data terstruktur dan tervalidasi dengan mudah.
 
 ## Memahami Validasi Data
 
@@ -52,7 +52,7 @@ Sebelum Anda dapat mulai menggunakan Aspose.Cells untuk Java, Anda perlu menyiap
 
 ### Langkah 2: Buat Buku Kerja Excel Baru
 
- Untuk memulai, buat buku kerja Excel baru menggunakan Aspose.Cells untuk Java. Anda dapat melakukannya dengan membuat instance`Workbook` obyek:
+Untuk memulai, buat buku kerja Excel baru menggunakan Aspose.Cells untuk Java. Anda dapat melakukannya dengan membuat instance `Workbook` obyek:
 
 ```java
 Workbook workbook = new Workbook();
@@ -134,6 +134,7 @@ Ya, Aspose.Cells untuk Java bersifat serbaguna dan dapat menangani skenario vali
 ### Bisakah saya menyesuaikan tampilan pesan kesalahan di Excel?
 
 Ya, Anda dapat menyesuaikan pesan kesalahan yang ditampilkan saat pengguna memasukkan data yang tidak valid. Aspose.Cells untuk Java memungkinkan Anda mengatur pesan kesalahan khusus untuk memberikan instruksi yang jelas kepada pengguna.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

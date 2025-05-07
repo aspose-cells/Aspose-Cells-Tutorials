@@ -1,10 +1,10 @@
 ---
-title: ฟิลด์ที่คำนวณในตารางสรุปข้อมูล
-linktitle: ฟิลด์ที่คำนวณในตารางสรุปข้อมูล
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีการสร้างฟิลด์คำนวณใน Pivot Table โดยใช้ Aspose.Cells สำหรับ Java เพิ่มประสิทธิภาพการวิเคราะห์ข้อมูลของคุณด้วยการคำนวณแบบกำหนดเองใน Excel
-weight: 15
-url: /th/java/excel-pivot-tables/calculated-fields-in-pivot-tables/
+"description": "เรียนรู้วิธีการสร้างฟิลด์คำนวณใน Pivot Table โดยใช้ Aspose.Cells สำหรับ Java เพิ่มประสิทธิภาพการวิเคราะห์ข้อมูลของคุณด้วยการคำนวณแบบกำหนดเองใน Excel"
+"linktitle": "ฟิลด์ที่คำนวณในตารางสรุปข้อมูล"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "ฟิลด์ที่คำนวณในตารางสรุปข้อมูล"
+"url": "/th/java/excel-pivot-tables/calculated-fields-in-pivot-tables/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /th/java/excel-pivot-tables/calculated-fields-in-pivot-tables/
 - ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 
 ## ขั้นตอนที่ 1: การตั้งค่าโครงการ Java ของคุณ
- ขั้นแรก ให้สร้างโปรเจ็กต์ Java ใหม่ใน IDE ที่คุณชื่นชอบ และรวมไลบรารี Aspose.Cells สำหรับ Java คุณสามารถดาวน์โหลดไลบรารีได้จาก[ที่นี่](https://releases.aspose.com/cells/java/).
+ขั้นแรก ให้สร้างโปรเจ็กต์ Java ใหม่ใน IDE ที่คุณชื่นชอบ และรวมไลบรารี Aspose.Cells สำหรับ Java คุณสามารถดาวน์โหลดไลบรารีได้จาก [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ## ขั้นตอนที่ 2: นำเข้าคลาสที่จำเป็น
 ในโค้ด Java ของคุณ ให้โหลดคลาสที่จำเป็นจาก Aspose.Cells คลาสเหล่านี้จะช่วยให้คุณทำงานกับ Pivot Table และฟิลด์ที่คำนวณได้
@@ -32,7 +32,7 @@ import com.aspose.cells.*;
 ```
 
 ## ขั้นตอนที่ 3: โหลดไฟล์ Excel ของคุณ
- โหลดไฟล์ Excel ของคุณที่มีตารางสรุปข้อมูลลงในแอปพลิเคชัน Java ของคุณ แทนที่`"your-file.xlsx"` พร้อมเส้นทางไปยังไฟล์ Excel ของคุณ
+โหลดไฟล์ Excel ของคุณที่มีตารางสรุปข้อมูลลงในแอปพลิเคชัน Java ของคุณ แทนที่ `"your-file.xlsx"` พร้อมเส้นทางไปยังไฟล์ Excel ของคุณ
 
 ```java
 Workbook workbook = new Workbook("your-file.xlsx");
@@ -73,7 +73,7 @@ pivotTable.calculateData();
    คุณสามารถสร้างสูตรที่ซับซ้อนมากขึ้นได้โดยการรวมฟังก์ชันและการอ้างอิงฟิลด์ในฟิลด์ที่คำนวณได้
 
 ### ฉันสามารถลบฟิลด์ที่คำนวณได้หากไม่ต้องการมันอีกต่อไปได้หรือไม่
-   ใช่ คุณสามารถลบฟิลด์ที่คำนวณจากตารางสรุปข้อมูลได้โดยเข้าถึง`pivotFields` การรวบรวมและการลบฟิลด์ตามชื่อ
+   ใช่ คุณสามารถลบฟิลด์ที่คำนวณจากตารางสรุปข้อมูลได้โดยเข้าถึง `pivotFields` การรวบรวมและการลบฟิลด์ตามชื่อ
 
 ### Aspose.Cells สำหรับ Java เหมาะกับชุดข้อมูลขนาดใหญ่หรือไม่
    ใช่ Aspose.Cells สำหรับ Java ได้รับการออกแบบมาเพื่อจัดการไฟล์ Excel และชุดข้อมูลขนาดใหญ่อย่างมีประสิทธิภาพ
@@ -82,7 +82,8 @@ pivotTable.calculateData();
    ฟิลด์ที่คำนวณได้มีข้อจำกัดบางประการ เช่น ไม่รองรับการคำนวณบางประเภท โปรดตรวจสอบรายละเอียดในเอกสารประกอบ
 
 ### ฉันสามารถหาทรัพยากรเพิ่มเติมเกี่ยวกับ Aspose.Cells สำหรับ Java ได้ที่ไหน
-    คุณสามารถสำรวจเอกสาร API ได้ที่[เอกสารประกอบ Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/).
+   คุณสามารถสำรวจเอกสาร API ได้ที่ [เอกสารประกอบ Aspose.Cells สำหรับ Java](https://reference-aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

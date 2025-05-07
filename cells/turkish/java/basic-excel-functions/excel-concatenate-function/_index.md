@@ -1,10 +1,10 @@
 ---
-title: Excel BİRLEŞTİRME İşlevi
-linktitle: Excel BİRLEŞTİRME İşlevi
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java kullanarak Excel'de metin birleştirmeyi öğrenin. Bu adım adım kılavuz, sorunsuz metin işleme için kaynak kodu örnekleri içerir.
-weight: 13
-url: /tr/java/basic-excel-functions/excel-concatenate-function/
+"description": "Aspose.Cells for Java kullanarak Excel'de metin birleştirmeyi öğrenin. Bu adım adım kılavuz, sorunsuz metin işleme için kaynak kodu örnekleri içerir."
+"linktitle": "Excel BİRLEŞTİRME İşlevi"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Excel BİRLEŞTİRME İşlevi"
+"url": "/tr/java/basic-excel-functions/excel-concatenate-function/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 1. Java Geliştirme Ortamı: Sisteminizde Java'nın yanı sıra Eclipse veya IntelliJ IDEA gibi uygun bir Entegre Geliştirme Ortamı (IDE) yüklü olmalıdır.
 
-2. Java için Aspose.Cells: Java için Aspose.Cells kütüphanesinin yüklü olması gerekir. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/).
+2. Java için Aspose.Cells: Java için Aspose.Cells kütüphanesinin yüklü olması gerekir. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/cells/java/).
 
 ## Adım 1: Yeni bir Java Projesi Oluşturun
 
@@ -91,7 +91,7 @@ workbook.save("concatenated_text.xlsx");
 
 ## Çözüm
 
- Bu eğitimde, Java için Aspose.Cells kullanarak Excel'de metin birleştirmeyi öğrendik. Bir Çalışma Kitabı başlatmaktan Excel dosyasını kaydetmeye kadar temel adımları ele aldık. Ayrıca, metin birleştirme için alternatif bir yöntemi kullanarak`Cell.putValue` yöntem. Artık Java uygulamalarınızda metin birleştirmeyi kolaylıkla gerçekleştirmek için Aspose.Cells for Java'yı kullanabilirsiniz.
+Bu eğitimde, Java için Aspose.Cells kullanarak Excel'de metin birleştirmeyi öğrendik. Bir Çalışma Kitabı başlatmaktan Excel dosyasını kaydetmeye kadar temel adımları ele aldık. Ayrıca, metin birleştirme için alternatif bir yöntemi kullanarak `Cell.putValue` yöntem. Artık Java uygulamalarınızda metin birleştirmeyi kolaylıkla gerçekleştirmek için Aspose.Cells for Java'yı kullanabilirsiniz.
 
 ## SSS
 
@@ -103,9 +103,9 @@ Aspose.Cells for Java'yı kullanarak Excel'deki farklı hücrelerdeki metni birl
 
 2. İstediğiniz hücrelere metin verilerini girin.
 
-3.  Kullanın`setFormula` Hücrelerdeki metni birleştiren bir CONCATENATE formülü oluşturma yöntemi.
+3. Kullanın `setFormula` Hücrelerdeki metni birleştiren bir CONCATENATE formülü oluşturma yöntemi.
 
-4.  Çalışma sayfasındaki formülleri kullanarak yeniden hesaplayın`workbook.calculateFormula()`.
+4. Çalışma sayfasındaki formülleri kullanarak yeniden hesaplayın `workbook.calculateFormula()`.
 
 5. Excel dosyasını kaydedin.
 
@@ -113,11 +113,11 @@ Aspose.Cells for Java'yı kullanarak Excel'deki farklı hücrelerdeki metni birl
 
 ### CONCATENATE kullanarak üçten fazla metin dizesini birleştirebilir miyim?
 
-Evet, Excel'de ve Java için Aspose.Cells'de CONCATENATE kullanarak üçten fazla metin dizesini birleştirebilirsiniz. Gerektiğinde ek hücre başvurularını eklemek için formülü genişletmeniz yeterlidir.
+Evet, Excel ve Java için Aspose.Cells'de CONCATENATE kullanarak üçten fazla metin dizesini birleştirebilirsiniz. Gerektiğinde ek hücre başvurularını eklemek için formülü genişletmeniz yeterlidir.
 
 ### Java için Aspose.Cells'de CONCATENATE'e bir alternatif var mı?
 
- Evet, Java için Aspose.Cells, metni birleştirmenin alternatif bir yolunu sunar`Cell.putValue` yöntem. Formül kullanmadan birden fazla hücreden metinleri birleştirebilir ve sonucu başka bir hücreye ayarlayabilirsiniz.
+Evet, Java için Aspose.Cells, metni birleştirmenin alternatif bir yolunu sunar `Cell.putValue` yöntem. Formül kullanmadan birden fazla hücreden metinleri birleştirebilir ve sonucu başka bir hücreye ayarlayabilirsiniz.
 
 ```java
 // Formül kullanmadan A1, B1 ve C1 hücrelerindeki metni D1'e bağlayın
@@ -126,6 +126,7 @@ worksheet.getCells().get("D1").putValue(concatenatedText);
 ```
 
 Excel formüllerine güvenmeden metinleri birleştirmek istiyorsanız bu yaklaşım yararlı olabilir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

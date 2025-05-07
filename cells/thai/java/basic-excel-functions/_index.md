@@ -1,10 +1,10 @@
 ---
-title: ฟังก์ชันพื้นฐานของ Excel
-linktitle: ฟังก์ชันพื้นฐานของ Excel
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: สำรวจฟังก์ชันสำคัญของ Excel โดยใช้ Aspose.Cells สำหรับ Java บทช่วยสอนของเราครอบคลุมพื้นฐานทีละขั้นตอน เริ่มต้นด้วยการจัดการสเปรดชีต
-weight: 10
-url: /th/java/basic-excel-functions/
+"description": "สำรวจฟังก์ชันสำคัญของ Excel โดยใช้ Aspose.Cells สำหรับ Java บทช่วยสอนของเราครอบคลุมพื้นฐานทีละขั้นตอน เริ่มต้นด้วยการจัดการสเปรดชีต"
+"linktitle": "ฟังก์ชันพื้นฐานของ Excel"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "ฟังก์ชันพื้นฐานของ Excel"
+"url": "/th/java/basic-excel-functions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -33,7 +33,7 @@ url: /th/java/basic-excel-functions/
 ### [วิธีใช้ฟังก์ชัน IF ของ Excel](./how-to-use-excel-if-function/)
 ปลดล็อกพลังของฟังก์ชัน IF ของ Excel ด้วย Aspose.Cells สำหรับ Java เรียนรู้การนำตรรกะแบบมีเงื่อนไขมาใช้ได้อย่างราบรื่น
 ### [บทช่วยสอน Excel VLOOKUP](./excel-vlookup-tutorial/)
-ปลดล็อกพลังของ Excel VLOOKUP ด้วย Aspose.Cells สำหรับ Java - คู่มือฉบับสมบูรณ์สำหรับการดึงข้อมูลอย่างง่ายดาย
+ปลดล็อกพลังของ Excel VLOOKUP ด้วย Aspose.Cells สำหรับ Java - คู่มือขั้นสุดยอดสำหรับการดึงข้อมูลอย่างง่ายดาย
 ### [ฟังก์ชัน CONCATENATE ของ Excel](./excel-concatenate-function/)
 เรียนรู้วิธีต่อข้อความใน Excel โดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนนี้ประกอบด้วยตัวอย่างโค้ดต้นฉบับสำหรับการจัดการข้อความอย่างราบรื่น
 ### [ฟังก์ชัน COUNTIF ใน Excel](./countif-function-in-excel/)

@@ -1,10 +1,10 @@
 ---
-title: Xuất nhập khẩu Excel
-linktitle: Xuất nhập khẩu Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Dễ dàng nhập và xuất các tệp Excel với Aspose.Cells for Java. Khám phá hướng dẫn từng bước để trao đổi dữ liệu liền mạch. Làm chủ cách xử lý Excel ngay hôm nay!
-weight: 16
-url: /vi/java/excel-import-export/
+"description": "Dễ dàng nhập và xuất các tệp Excel với Aspose.Cells for Java. Khám phá hướng dẫn từng bước để trao đổi dữ liệu liền mạch. Làm chủ cách xử lý Excel ngay hôm nay!"
+"linktitle": "Xuất nhập khẩu Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Xuất nhập khẩu Excel"
+"url": "/vi/java/excel-import-export/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -38,7 +38,7 @@ Tìm hiểu cách xuất tệp Excel sang PDF dễ dàng bằng Aspose.Cells for
 ### [Xuất Excel sang XML Java](./export-excel-to-xml-java/)
 Tìm hiểu cách xuất Excel sang XML trong Java bằng Aspose.Cells for Java. Hướng dẫn từng bước với mã nguồn để chuyển đổi dữ liệu liền mạch.
 ### [Nhập dữ liệu từ Excel](./data-import-from-excel/)
-Tìm hiểu cách nhập dữ liệu từ Excel bằng Aspose.Cells for Java. Hướng dẫn toàn diện với mã nguồn để truy xuất dữ liệu liền mạch.
+Tìm hiểu cách nhập dữ liệu từ Excel bằng Aspose.Cells cho Java. Hướng dẫn toàn diện với mã nguồn để truy xuất dữ liệu liền mạch.
 ### [Xuất Excel sang JSON](./export-excel-to-json/)
 Tìm hiểu cách xuất dữ liệu Excel sang JSON bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này với mã nguồn để chuyển đổi liền mạch.
 ### [Xác thực dữ liệu nhập Excel](./excel-import-data-validation/)

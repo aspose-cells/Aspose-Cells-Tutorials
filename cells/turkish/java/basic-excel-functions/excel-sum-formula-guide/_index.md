@@ -1,10 +1,10 @@
 ---
-title: Excel SUM Formül Kılavuzu
-linktitle: Excel SUM Formül Kılavuzu
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java ile Excel SUM Formülünün Gücünü Açığa Çıkarın - Excel Otomasyonuna Yönelik Kapsamlı Kılavuzunuz.
-weight: 10
-url: /tr/java/basic-excel-functions/excel-sum-formula-guide/
+"description": "Aspose.Cells for Java ile Excel SUM Formülünün Gücünü Açığa Çıkarın - Excel Otomasyonuna Yönelik Kapsamlı Kılavuzunuz."
+"linktitle": "Excel SUM Formül Kılavuzu"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Excel SUM Formül Kılavuzu"
+"url": "/tr/java/basic-excel-functions/excel-sum-formula-guide/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Java için Aspose.Cells, geliştiricilerin Excel elektronik tablolarıyla progra
 
 ## Ortamın Kurulması
 
- Excel formüllerine dalmadan önce, geliştirme ortamınızı kurmanız çok önemlidir. Java'nın yüklü olduğundan emin olun, Java için Aspose.Cells kütüphanesini indirin ve projenize ekleyin. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/cells/java/).
+Excel formüllerine dalmadan önce, geliştirme ortamınızı kurmanız çok önemlidir. Java'nın yüklü olduğundan emin olun, Java için Aspose.Cells kütüphanesini indirin ve projenize ekleyin. İndirme bağlantısını bulabilirsiniz [Burada](https://releases.aspose.com/cells/java/).
 
 ## Yeni Bir Çalışma Kitabı Oluşturma
 
@@ -60,7 +60,7 @@ Bu örnekte A1 hücresine 10 sayısını ekledik.
 
 ## SUM Formülünü Anlamak
 
- SUM formülü Excel'de bir sayı aralığının toplamını hesaplamak için kullanılır. Temel sözdizimi şudur:`=SUM(range)`Burada "aralık", toplamak istediğiniz hücreleri temsil eder.
+SUM formülü Excel'de bir sayı aralığının toplamını hesaplamak için kullanılır. Temel sözdizimi şudur: `=SUM(range)`Burada "aralık", toplamak istediğiniz hücreleri temsil eder.
 
 ## Aspose.Cells ile SUM İşlevselliğini Kullanma
 
@@ -76,7 +76,7 @@ workbook.calculateFormula();
 workbook.save("sample.xlsx");
 ```
 
- Bu örnekte şunu kullandık:`setFormula`A1 ile A10 hücrelerindeki değerleri toplayarak, SUM formülünü B1 hücresine uygulama yöntemi.
+Bu örnekte şunu kullandık: `setFormula` A1 ile A10 arasındaki hücrelerdeki değerleri toplayarak, SUM formülünü B1 hücresine uygulama yöntemi.
 
 ## SUM'u Farklı Aralıklarda Uygulama
 
@@ -99,7 +99,7 @@ Burada, A1 ila A10 ve D1 ila D10 hücrelerindeki değerlerin toplamını hesapla
 
 ## Aspose.Cells ile Koşullu TOPLA
 
- Aspose.Cells ayrıca karmaşık veri analizleri için son derece yararlı olabilen koşullu SUM formüllerini uygulamanıza da olanak tanır. Şu gibi işlevleri kullanabilirsiniz:`SUMIF` Ve`SUMIFS` toplamlarınıza koşullar uygulamak.
+Aspose.Cells ayrıca karmaşık veri analizleri için son derece yararlı olabilen koşullu SUM formüllerini uygulamanıza da olanak tanır. Şu gibi işlevleri kullanabilirsiniz: `SUMIF` Ve `SUMIFS` toplamlarınıza koşullar uygulamak.
 
 ```java
 // Koşullu TOPLAM
@@ -129,7 +129,7 @@ Bu kapsamlı kılavuzda, Excel SUM formülünü ve Aspose.Cells for Java kullana
 
 ### Java için Aspose.Cells'i nasıl indirebilirim?
 
- Java için Aspose.Cells'i şu web sitesinden indirebilirsiniz:[Burada](https://releases.aspose.com/cells/java/)İhtiyaçlarınıza uygun sürümü seçin ve kurulum talimatlarını izleyin.
+Java için Aspose.Cells'i şu web sitesinden indirebilirsiniz: [Burada](https://releases.aspose.com/cells/java/)İhtiyaçlarınıza uygun sürümü seçin ve kurulum talimatlarını izleyin.
 
 ### Aspose.Cells for Java'yı ticari projelerde kullanabilir miyim?
 
@@ -145,7 +145,8 @@ Kesinlikle! Aspose.Cells for Java, Excel işlevlerinin geniş bir yelpazesini de
 
 ### Aspose.Cells for Java için daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Java için Aspose.Cells'e ilişkin kapsamlı belgelere ve ek kaynaklara şu adresten erişebilirsiniz:[Burada](https://reference.aspose.com/cells/java/)Gelişmiş özellikleri ve örnekleri keşfetmek için belgeleri inceleyin.
+Java için Aspose.Cells'e ilişkin kapsamlı belgelere ve ek kaynaklara şu adresten erişebilirsiniz: [Burada](https://reference.aspose.com/cells/java/)Gelişmiş özellikleri ve örnekleri keşfetmek için belgeleri inceleyin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

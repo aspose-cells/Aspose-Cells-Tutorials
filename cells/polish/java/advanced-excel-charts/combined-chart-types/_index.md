@@ -1,10 +1,10 @@
 ---
-title: Połączone typy wykresów
-linktitle: Połączone typy wykresów
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak tworzyć połączone typy wykresów za pomocą Aspose.Cells dla Java. Ten przewodnik krok po kroku zawiera kod źródłowy i wskazówki dotyczące efektywnej wizualizacji danych.
-weight: 12
-url: /pl/java/advanced-excel-charts/combined-chart-types/
+"description": "Dowiedz się, jak tworzyć połączone typy wykresów za pomocą Aspose.Cells dla Java. Ten przewodnik krok po kroku zawiera kod źródłowy i wskazówki dotyczące efektywnej wizualizacji danych."
+"linktitle": "Połączone typy wykresów"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Połączone typy wykresów"
+"url": "/pl/java/advanced-excel-charts/combined-chart-types/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Zanim przejdziemy do tworzenia połączonych wykresów, krótko wyjaśnijmy, czy
 
 ## Pierwsze kroki
 
- Aby rozpocząć tworzenie połączonych wykresów, musisz mieć zainstalowany i skonfigurowany Aspose.Cells for Java w swoim projekcie Java. Możesz pobrać bibliotekę ze strony internetowej Aspose, korzystając z następującego łącza:[Pobierz Aspose.Cells dla Java](https://releases.aspose.com/cells/java/).
+Aby rozpocząć tworzenie połączonych wykresów, musisz mieć zainstalowany i skonfigurowany Aspose.Cells for Java w swoim projekcie Java. Możesz pobrać bibliotekę ze strony internetowej Aspose, korzystając z następującego łącza: [Pobierz Aspose.Cells dla Java](https://releases.aspose.com/cells/java/).
 
 Gdy biblioteka jest już gotowa, możesz wykonać poniższe kroki, aby utworzyć wykresy łączone.
 
@@ -116,7 +116,7 @@ W tym artykule przyjrzeliśmy się sposobom tworzenia połączonych typów wykre
 
 ### Jak zainstalować Aspose.Cells dla Java?
 
- Aby zainstalować Aspose.Cells dla Java, odwiedź witrynę Aspose i pobierz bibliotekę z[ten link](https://releases.aspose.com/cells/java/). Postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji.
+Aby zainstalować Aspose.Cells dla Java, odwiedź witrynę Aspose i pobierz bibliotekę z [ten link](https://releases.aspose.com/cells/java/). Postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji.
 
 ### Czy mogę tworzyć inne typy wykresów za pomocą Aspose.Cells dla Java?
 
@@ -132,7 +132,8 @@ Oczywiście! Aspose.Cells for Java oferuje rozbudowane opcje dostosowywania. Mo�
 
 ### Gdzie mogę znaleźć więcej materiałów i przykładów dla Aspose.Cells dla Java?
 
- Pełną dokumentację i bogactwo przykładów kodu można znaleźć na stronie internetowej Aspose pod adresem[Tutaj](https://reference.aspose.com/cells/java/).
+Pełną dokumentację i bogactwo przykładów kodu można znaleźć na stronie internetowej Aspose pod adresem [Tutaj](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

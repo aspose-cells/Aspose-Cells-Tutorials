@@ -1,10 +1,10 @@
 ---
-title: Chú thích biểu đồ
-linktitle: Chú thích biểu đồ
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Cải thiện biểu đồ của bạn bằng chú thích biểu đồ bằng Aspose.Cells cho Java - Hướng dẫn từng bước. Tìm hiểu cách thêm chú thích để trực quan hóa dữ liệu mang tính thông tin.
-weight: 16
-url: /vi/java/advanced-excel-charts/chart-annotations/
+"description": "Cải thiện biểu đồ của bạn bằng chú thích biểu đồ bằng Aspose.Cells cho Java - Hướng dẫn từng bước. Tìm hiểu cách thêm chú thích để trực quan hóa dữ liệu mang tính thông tin."
+"linktitle": "Chú thích biểu đồ"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Chú thích biểu đồ"
+"url": "/vi/java/advanced-excel-charts/chart-annotations/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -28,7 +28,7 @@ Trước khi bắt đầu triển khai, hãy đảm bảo bạn đã đáp ứng
 
 ## Thiết lập Aspose.Cells cho Java
 
-Để bắt đầu, bạn cần thiết lập Aspose.Cells for Java trong dự án của mình. Bạn có thể tải xuống thư viện từ trang web Aspose[đây](https://releases.aspose.com/cells/java/). Sau khi tải xuống, hãy thêm thư viện vào dự án Java của bạn.
+Để bắt đầu, bạn cần thiết lập Aspose.Cells for Java trong dự án của mình. Bạn có thể tải xuống thư viện từ trang web Aspose [đây](https://releases.aspose.com/cells/java/). Sau khi tải xuống, hãy thêm thư viện vào dự án Java của bạn.
 
 ## Tạo một bảng tính Excel
 
@@ -74,7 +74,7 @@ chart.getNSeries().setCategoryData("A2:A13");
 
 ## Thêm chú thích vào biểu đồ
 
- Để thêm chú thích vào biểu đồ, chúng ta có thể sử dụng`TextFrame` lớp trong Aspose.Cells.
+Để thêm chú thích vào biểu đồ, chúng ta có thể sử dụng `TextFrame` lớp trong Aspose.Cells.
 
 ```java
 // Thêm chú thích vào biểu đồ
@@ -106,7 +106,7 @@ Trong hướng dẫn này, chúng ta đã học cách thêm chú thích biểu �
 
 ### Làm thế nào để tải xuống Aspose.Cells cho Java?
 
- Bạn có thể tải xuống Aspose.Cells cho Java từ trang web Aspose[đây](https://releases.aspose.com/cells/java/).
+Bạn có thể tải xuống Aspose.Cells cho Java từ trang web Aspose [đây](https://releases.aspose.com/cells/java/).
 
 ### Tôi có thể tùy chỉnh giao diện của chú thích không?
 
@@ -122,7 +122,8 @@ Chắc chắn rồi! Aspose.Cells for Java cung cấp một bộ công cụ và 
 
 ### Tôi có thể tìm thêm hướng dẫn về Aspose.Cells cho Java ở đâu?
 
- Bạn có thể tìm thêm hướng dẫn và tài liệu về Aspose.Cells cho Java tại[đây](https://reference.aspose.com/cells/java/).
+Bạn có thể tìm thêm hướng dẫn và tài liệu về Aspose.Cells cho Java tại [đây](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

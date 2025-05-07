@@ -1,10 +1,10 @@
 ---
-title: Hướng dẫn sử dụng hàm ngày tháng trong Excel
-linktitle: Hướng dẫn sử dụng hàm ngày tháng trong Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu các hàm ngày tháng của Excel bằng Aspose.Cells cho Java. Khám phá hướng dẫn từng bước với mã nguồn.
-weight: 19
-url: /vi/java/basic-excel-functions/excel-date-functions-tutorial/
+"description": "Tìm hiểu các hàm ngày tháng của Excel bằng Aspose.Cells cho Java. Khám phá hướng dẫn từng bước với mã nguồn."
+"linktitle": "Hướng dẫn sử dụng hàm ngày tháng trong Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Hướng dẫn sử dụng hàm ngày tháng trong Excel"
+"url": "/vi/java/basic-excel-functions/excel-date-functions-tutorial/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -46,7 +46,7 @@ Bây giờ chúng ta đã tìm hiểu những kiến thức cơ bản về hàm 
 
 Trước khi chúng ta có thể bắt đầu viết mã, chúng ta cần thiết lập Aspose.Cells cho Java trong dự án của mình. Thực hiện theo các bước sau để bắt đầu.
 
-1. Tải xuống và cài đặt Aspose.Cells: Truy cập[Aspose.Cells cho Java](https://releases.aspose.com/cells/java/) và tải xuống phiên bản mới nhất.
+1. Tải xuống và cài đặt Aspose.Cells: Truy cập [Aspose.Cells cho Java](https://releases.aspose.com/cells/java/) và tải xuống phiên bản mới nhất.
 
 2. Bao gồm Aspose.Cells vào dự án của bạn: Thêm thư viện Aspose.Cells vào dự án Java của bạn.
 
@@ -112,7 +112,7 @@ worksheet.getCells().get("A2").putValue("2023-08-01");
 // Tính toán sự khác biệt bằng cách sử dụng DATEDIF
 worksheet.getCells().get("A3").setFormula("=DATEDIF(A1, A2, \"d\")");
 
-//Nhận được sự khác biệt trong ngày
+// Nhận được sự khác biệt trong ngày
 int daysDifference = worksheet.getCells().get("A3").getIntValue();
 
 // In kết quả
@@ -151,7 +151,7 @@ Hướng dẫn này cung cấp tổng quan toàn diện về các hàm ngày th�
 
 ### Làm thế nào để định dạng ngày tháng trong Aspose.Cells cho Java?
 
- Định dạng ngày tháng trong Aspose.Cells rất đơn giản. Bạn có thể sử dụng`Style` lớp để xác định định dạng ngày tháng và áp dụng chúng vào các ô. Ví dụ, để hiển thị ngày tháng theo định dạng "dd-MM-yyyy":
+Định dạng ngày tháng trong Aspose.Cells rất đơn giản. Bạn có thể sử dụng `Style` lớp để xác định định dạng ngày tháng và áp dụng chúng vào các ô. Ví dụ, để hiển thị ngày tháng theo định dạng "dd-MM-yyyy":
 
 ```java
 // Tạo kiểu ngày tháng
@@ -168,15 +168,16 @@ Có, bạn có thể thực hiện các phép tính ngày nâng cao với Aspose
 
 ### Aspose.Cells có phù hợp để xử lý dữ liệu quy mô lớn không?
 
-Aspose.Cells for Java phù hợp cho cả xử lý ngày quy mô nhỏ và lớn. Nó cung cấp hiệu suất và độ tin cậy cao, khiến nó trở thành lựa chọn tuyệt vời để xử lý dữ liệu liên quan đến ngày trong nhiều ứng dụng khác nhau.
+Aspose.Cells for Java phù hợp cho cả xử lý ngày tháng quy mô nhỏ và quy mô lớn. Nó cung cấp hiệu suất và độ tin cậy cao, khiến nó trở thành lựa chọn tuyệt vời để xử lý dữ liệu liên quan đến ngày tháng trong nhiều ứng dụng khác nhau.
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
 
- Bạn có thể truy cập tài liệu và tài nguyên toàn diện cho Aspose.Cells cho Java tại[đây](https://reference.aspose.com/cells/java/).
+Bạn có thể truy cập tài liệu và tài nguyên toàn diện cho Aspose.Cells cho Java tại [đây](https://reference.aspose.com/cells/java/).
 
 ### Tôi có thể bắt đầu sử dụng Aspose.Cells cho Java như thế nào?
 
- Để bắt đầu với Aspose.Cells cho Java, hãy tải xuống thư viện từ[đây](https://releases.aspose.com/cells/java/) và tham khảo tài liệu hướng dẫn cài đặt và
+Để bắt đầu với Aspose.Cells cho Java, hãy tải xuống thư viện từ [đây](https://releases.aspose.com/cells/java/) và tham khảo tài liệu hướng dẫn cài đặt và
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

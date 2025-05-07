@@ -1,10 +1,10 @@
 ---
-title: ส่งออก Excel เป็น JSON
-linktitle: ส่งออก Excel เป็น JSON
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีส่งออกข้อมูล Excel เป็น JSON โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้พร้อมโค้ดต้นฉบับเพื่อการแปลงที่ราบรื่น
-weight: 17
-url: /th/java/excel-import-export/export-excel-to-json/
+"description": "เรียนรู้วิธีส่งออกข้อมูล Excel เป็น JSON โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้พร้อมโค้ดต้นฉบับเพื่อการแปลงที่ราบรื่น"
+"linktitle": "ส่งออก Excel เป็น JSON"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "ส่งออก Excel เป็น JSON"
+"url": "/th/java/excel-import-export/export-excel-to-json/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,7 +20,7 @@ url: /th/java/excel-import-export/export-excel-to-json/
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ไว้ในระบบของคุณแล้ว
--  Aspose.Cells สำหรับ Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.Cells สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/cells/java/).
+- Aspose.Cells สำหรับ Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.Cells สำหรับ Java จาก [ที่นี่](https://releases-aspose.com/cells/java/).
 - ไฟล์ Excel: เตรียมไฟล์ Excel ที่คุณต้องการแปลงเป็น JSON
 
 ## ขั้นตอนที่ 1: นำเข้า Aspose.Cells สำหรับ Java
@@ -38,7 +38,7 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- แทนที่`"your_excel_file.xlsx"` พร้อมเส้นทางไปยังไฟล์ Excel ของคุณ
+แทนที่ `"your_excel_file.xlsx"` พร้อมเส้นทางไปยังไฟล์ Excel ของคุณ
 
 ## ขั้นตอนที่ 3: แปลงเป็น JSON
 ตอนนี้เรามาแปลงข้อมูล Excel เป็นรูปแบบ JSON กัน ใช้โค้ดต่อไปนี้เพื่อดำเนินการแปลง:

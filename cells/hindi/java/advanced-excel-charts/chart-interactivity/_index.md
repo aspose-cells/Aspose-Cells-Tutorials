@@ -1,10 +1,10 @@
 ---
-title: चार्ट अन्तरक्रियाशीलता
-linktitle: चार्ट अन्तरक्रियाशीलता
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: Java के लिए Aspose.Cells का उपयोग करके इंटरैक्टिव चार्ट बनाना सीखें। इंटरैक्टिविटी के साथ अपने डेटा विज़ुअलाइज़ेशन को बेहतर बनाएँ।
-weight: 19
-url: /hi/java/advanced-excel-charts/chart-interactivity/
+"description": "Java के लिए Aspose.Cells का उपयोग करके इंटरैक्टिव चार्ट बनाना सीखें। इंटरैक्टिविटी के साथ अपने डेटा विज़ुअलाइज़ेशन को बेहतर बनाएँ।"
+"linktitle": "चार्ट अन्तरक्रियाशीलता"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "चार्ट अन्तरक्रियाशीलता"
+"url": "/hi/java/advanced-excel-charts/chart-interactivity/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /hi/java/advanced-excel-charts/chart-interactivity/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 - जावा विकास पर्यावरण
-- Aspose.Cells for Java लाइब्रेरी (डाउनलोड करें[यहाँ](https://releases.aspose.com/cells/java/)
+- Aspose.Cells for Java लाइब्रेरी (डाउनलोड करें [यहाँ](https://releases.aspose.com/cells/java/)
 
 ## चरण 1: अपना जावा प्रोजेक्ट सेट अप करना
 
@@ -94,7 +94,7 @@ workbook.save("interactive_chart_output.xlsx");
 
 ### मैं चार्ट का प्रकार कैसे बदल सकता हूँ?
 
- आप चार्ट प्रकार को संशोधित करके बदल सकते हैं`ChartType` चार्ट बनाते समय पैरामीटर। उदाहरण के लिए, प्रतिस्थापित करें`ChartType.COLUMN` साथ`ChartType.LINE` एक लाइन चार्ट बनाने के लिए.
+आप चार्ट प्रकार को संशोधित करके बदल सकते हैं `ChartType` चार्ट बनाते समय पैरामीटर। उदाहरण के लिए, प्रतिस्थापित करें `ChartType.COLUMN` साथ `ChartType.LINE` एक लाइन चार्ट बनाने के लिए.
 
 ### क्या मैं टूलटिप्स के स्वरूप को अनुकूलित कर सकता हूँ?
 
@@ -106,7 +106,8 @@ workbook.save("interactive_chart_output.xlsx");
 
 ### मैं और अधिक उदाहरण और दस्तावेज कहां पा सकता हूं?
 
- आप Java के लिए Aspose.Cells का उपयोग करने पर अधिक उदाहरण और विस्तृत दस्तावेज़ देख सकते हैं[Aspose.Cells जावा API संदर्भ](https://reference.aspose.com/cells/java/).
+आप Java के लिए Aspose.Cells का उपयोग करने पर अधिक उदाहरण और विस्तृत दस्तावेज़ देख सकते हैं [Aspose.Cells जावा API संदर्भ](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

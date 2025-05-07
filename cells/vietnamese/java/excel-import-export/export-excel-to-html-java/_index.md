@@ -1,10 +1,10 @@
 ---
-title: Xuất Excel sang HTML Java
-linktitle: Xuất Excel sang HTML Java
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách xuất Excel sang HTML trong Java bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này với mã nguồn để chuyển đổi liền mạch các tệp Excel của bạn sang HTML một cách dễ dàng.
-weight: 19
-url: /vi/java/excel-import-export/export-excel-to-html-java/
+"description": "Tìm hiểu cách xuất Excel sang HTML trong Java bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này với mã nguồn để chuyển đổi liền mạch các tệp Excel của bạn sang HTML một cách dễ dàng."
+"linktitle": "Xuất Excel sang HTML Java"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Xuất Excel sang HTML Java"
+"url": "/vi/java/excel-import-export/export-excel-to-html-java/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -33,11 +33,11 @@ Bắt đầu bằng cách tạo một dự án Java mới trong Môi trường p
 
 ## Bước 2: Thêm thư viện Aspose.Cells
 
- Thêm thư viện Aspose.Cells cho Java vào classpath của dự án. Nếu bạn đang sử dụng Maven, hãy bao gồm thư viện trong`pom.xml` tài liệu.
+Thêm thư viện Aspose.Cells cho Java vào classpath của dự án. Nếu bạn đang sử dụng Maven, hãy bao gồm thư viện trong `pom.xml` tài liệu.
 
 ## Bước 3: Tải tệp Excel
 
- Trong bước này, bạn sẽ tải tệp Excel mà bạn muốn xuất sang HTML. Bạn có thể thực hiện việc này bằng cách tạo`Workbook` đối tượng và tải tệp Excel bằng đường dẫn của nó.
+Trong bước này, bạn sẽ tải tệp Excel mà bạn muốn xuất sang HTML. Bạn có thể thực hiện việc này bằng cách tạo `Workbook` đối tượng và tải tệp Excel bằng đường dẫn của nó.
 
 ```java
 // Tải tệp Excel
@@ -79,7 +79,8 @@ Xin chúc mừng! Bạn đã xuất thành công tệp Excel sang HTML bằng As
    - A: Có, bạn có thể xuất các trang tính cụ thể bằng cách chỉ định tên trang tính hoặc chỉ mục trong mã của bạn.
 
 ### H: Tôi có thể tìm thêm ví dụ và tài nguyên về Aspose.Cells cho Java ở đâu?
-   - A: Truy cập tài liệu và diễn đàn Aspose.Cells để biết thêm nhiều ví dụ, hướng dẫn và hỗ trợ.
+   - A: Truy cập tài liệu và diễn đàn Aspose.Cells để xem nhiều ví dụ, hướng dẫn và hỗ trợ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

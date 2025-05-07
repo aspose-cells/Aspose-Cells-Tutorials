@@ -1,10 +1,10 @@
 ---
-title: การป้อนข้อมูลอัตโนมัติ
-linktitle: การป้อนข้อมูลอัตโนมัติ
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีการป้อนข้อมูลอัตโนมัติอย่างมีประสิทธิภาพด้วยตัวอย่างโค้ดต้นฉบับโดยใช้ Aspose.Cells สำหรับ Java เพิ่มประสิทธิภาพและความแม่นยำในการจัดการข้อมูล
-weight: 11
-url: /th/java/spreadsheet-automation/automated-data-entry/
+"description": "เรียนรู้วิธีการป้อนข้อมูลอัตโนมัติอย่างมีประสิทธิภาพด้วยตัวอย่างโค้ดต้นฉบับโดยใช้ Aspose.Cells สำหรับ Java เพิ่มประสิทธิภาพและความแม่นยำในการจัดการข้อมูล"
+"linktitle": "การป้อนข้อมูลอัตโนมัติ"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การป้อนข้อมูลอัตโนมัติ"
+"url": "/th/java/spreadsheet-automation/automated-data-entry/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -29,7 +29,7 @@ url: /th/java/spreadsheet-automation/automated-data-entry/
 
 ### 1. การจัดเตรียมสภาพแวดล้อม
 
- ในการเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Cells สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/java/).
+ในการเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Cells สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ### 2. การเริ่มต้น Aspose.Cells
 
@@ -109,10 +109,10 @@ validation.setFormula2("100");
    ใช่ คุณจะต้องมีใบอนุญาตที่ถูกต้องเพื่อใช้ Aspose.Cells สำหรับ Java ในโปรเจ็กต์ของคุณ
 
 ### ฉันจะจัดการการตรวจสอบข้อมูลในไฟล์ Excel ได้อย่างไร
-   คุณสามารถใช้กฎการตรวจสอบข้อมูลได้โดยใช้ Aspose.Cells ตามที่สาธิตในบทความ
+   คุณสามารถใช้กฎการตรวจสอบข้อมูลได้โดยใช้ Aspose.Cells ดังที่แสดงในบทความ
 
 ### ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.Cells สำหรับ Java ได้จากที่ไหน
-    คุณสามารถสำรวจเอกสารได้ที่[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
+   คุณสามารถสำรวจเอกสารได้ที่ [https://reference.aspose.com/เซลล์/จาวา/](https://reference-aspose.com/cells/java/).
 
 ตอนนี้คุณมีความรู้และเครื่องมือในการป้อนข้อมูลอัตโนมัติอย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java เริ่มปรับปรุงกระบวนการจัดการข้อมูลของคุณและเพิ่มประสิทธิภาพทางธุรกิจของคุณ
 {{< /blocks/products/pf/tutorial-page-section >}}

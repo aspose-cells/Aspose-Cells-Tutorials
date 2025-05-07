@@ -1,33 +1,33 @@
 ---
-title: Textové funkce Excelu zbaveny mýtů
-linktitle: Textové funkce Excelu zbaveny mýtů
-second_title: Aspose.Cells Java Excel Processing API
-description: Odhalte tajemství textových funkcí aplikace Excel s Aspose.Cells for Java. Naučte se snadno manipulovat, extrahovat a transformovat text v Excelu.
-weight: 18
-url: /cs/java/basic-excel-functions/excel-text-functions-demystified/
+"description": "Odhalte tajemství textových funkcí Excelu s Aspose.Cells pro Javu. Naučte se bez námahy manipulovat s textem v Excelu, extrahovat ho a transformovat."
+"linktitle": "Textové funkce v Excelu odhaleny"
+"second_title": "Rozhraní API pro zpracování Excelu v Javě od Aspose.Cells"
+"title": "Textové funkce v Excelu odhaleny"
+"url": "/cs/java/basic-excel-functions/excel-text-functions-demystified/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Textové funkce Excelu zbaveny mýtů
+# Textové funkce v Excelu odhaleny
 
 
-# Textové funkce aplikace Excel byly zbaveny mýtů pomocí Aspose.Cells for Java
+# Demystifikované textové funkce Excelu pomocí Aspose.Cells pro Javu
 
-V tomto tutoriálu se ponoříme do světa manipulace s textem v Excelu pomocí Aspose.Cells for Java API. Ať už jste zkušený uživatel Excelu nebo teprve začínáte, porozumění textovým funkcím může výrazně zlepšit vaše tabulkové dovednosti. Prozkoumáme různé textové funkce a poskytneme praktické příklady pro ilustraci jejich použití.
+V tomto tutoriálu se ponoříme do světa manipulace s textem v Excelu pomocí rozhraní Aspose.Cells pro Java API. Ať už jste zkušený uživatel Excelu, nebo s ním teprve začínáte, pochopení textových funkcí může výrazně zlepšit vaše dovednosti v oblasti práce s tabulkami. Prozkoumáme různé textové funkce a uvedeme praktické příklady ilustrující jejich použití.
 
 ## Začínáme
 
- Než začneme, ujistěte se, že máte nainstalovaný Aspose.Cells for Java. Můžete si jej stáhnout[zde](https://releases.aspose.com/cells/java/). Jakmile to budete mít nastaveno, pojďme se ponořit do fascinujícího světa textových funkcí Excelu.
+Než začneme, ujistěte se, že máte nainstalovaný Aspose.Cells pro Javu. Můžete si ho stáhnout [zde](https://releases.aspose.com/cells/java/)Jakmile to máte nastavené, pojďme se ponořit do fascinujícího světa textových funkcí Excelu.
 
-## CONCATENATE - Kombinování textu
+## CONCATENATE - Slučování textu
 
- The`CONCATENATE`Funkce umožňuje sloučit text z různých buněk. Podívejme se, jak to udělat s Aspose.Cells pro Java:
+Ten/Ta/To `CONCATENATE` Funkce umožňuje sloučit text z různých buněk. Podívejme se, jak to udělat s Aspose.Cells pro Javu:
 
 ```java
-// Java kód pro zřetězení textu pomocí Aspose.Cells
+// Kód v Javě pro zřetězení textu pomocí Aspose.Cells
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cell cell = worksheet.getCells().get("A1");
@@ -36,21 +36,21 @@ cell.putValue("Hello, ");
 cell = worksheet.getCells().get("B1");
 cell.putValue("World!");
 
-// Spojte A1 a B1 do C1
+// Zřetězení A1 a B1 do C1
 cell = worksheet.getCells().get("C1");
 cell.setFormula("=CONCATENATE(A1,B1)");
 
 workbook.calculateFormula();
 ```
 
-Nyní bude buňka C1 obsahovat "Hello, World!".
+Buňka C1 bude nyní obsahovat text „Ahoj světe!“.
 
-## VLEVO a VPRAVO - Extrahování textu
+## VLEVO a VPRAVO - Extrakce textu
 
- The`LEFT` a`RIGHT` funkce umožňují extrahovat zadaný počet znaků zleva nebo zprava z textového řetězce. Můžete je použít takto:
+Ten/Ta/To `LEFT` a `RIGHT` Funkce umožňují extrahovat zadaný počet znaků zleva nebo zprava v textovém řetězci. Zde je návod, jak je použít:
 
 ```java
-// Java kód pro extrakci textu pomocí Aspose.Cells
+// Kód v Javě pro extrakci textu pomocí Aspose.Cells
 Cell cell = worksheet.getCells().get("A2");
 cell.putValue("Excel Rocks!");
 
@@ -65,14 +65,14 @@ cell.setFormula("=RIGHT(A2, 5)");
 workbook.calculateFormula();
 ```
 
-Buňka B2 bude mít "Excel" a buňka C2 bude mít "Rocks!".
+Buňka B2 bude obsahovat text „Excel“ a buňka C2 bude obsahovat text „Skvělé!“.
 
 ## LEN - Počítání znaků
 
- The`LEN` Funkce počítá počet znaků v textovém řetězci. Podívejme se, jak jej používat s Aspose.Cells pro Java:
+Ten/Ta/To `LEN` Funkce počítá počet znaků v textovém řetězci. Podívejme se, jak ji použít s Aspose.Cells pro Javu:
 
 ```java
-// Java kód pro počítání znaků pomocí Aspose.Cells
+// Kód v Javě pro počítání znaků pomocí Aspose.Cells
 Cell cell = worksheet.getCells().get("A3");
 cell.putValue("Excel");
 
@@ -83,11 +83,11 @@ cell.setFormula("=LEN(A3)");
 workbook.calculateFormula();
 ```
 
-Buňka B3 bude obsahovat "5", protože v "Excelu" je 5 znaků.
+Buňka B3 bude obsahovat „5“, protože v „Excelu“ je 5 znaků.
 
-## HORNÍ a DOLNÍ - Přebalovací pouzdro
+## HORNÍ a DOLNÍ - Změna velikosti písmen
 
- The`UPPER` a`LOWER` funkce umožňují převádět text na velká nebo malá písmena. Můžete to udělat takto:
+Ten/Ta/To `UPPER` a `LOWER` Funkce umožňují převést text na velká nebo malá písmena. Zde je návod, jak to udělat:
 
 ```java
 // Java kód pro změnu velikosti písmen pomocí Aspose.Cells
@@ -105,47 +105,47 @@ cell.setFormula("=LOWER(A4)");
 workbook.calculateFormula();
 ```
 
-Buňka B4 bude obsahovat "JAVA PROGRAMMING" a buňka C4 bude obsahovat "Java programming".
+Buňka B4 bude obsahovat „PROGRAMOVÁNÍ V JAVĚ“ a buňka C4 bude obsahovat „programování v Javě“.
 
-## FIND and REPLACE - Vyhledání a nahrazení textu
+## NAJÍT a NAHRADIT - Vyhledávání a nahrazování textu
 
- The`FIND` Funkce vám umožňuje najít pozici určitého znaku nebo textu v řetězci, zatímco`REPLACE` Funkce vám pomůže nahradit text. Pojďme je vidět v akci:
+Ten/Ta/To `FIND` Funkce umožňuje vyhledat pozici konkrétního znaku nebo textu v řetězci, zatímco `REPLACE` Funkce vám pomůže nahradit text. Podívejme se na ně v akci:
 
 ```java
-// Java kód najít a nahradit pomocí Aspose.Cells
+// Kód v Javě pro nalezení a nahrazení pomocí Aspose.Cells
 Cell cell = worksheet.getCells().get("A5");
 cell.putValue("Search for me");
 
-// Najděte pozici "pro"
+// Najděte pozici slova „pro“
 cell = worksheet.getCells().get("B5");
 cell.setFormula("=FIND(\"for\", A5)");
 
-// Nahradit "pro" za "s"
+// Nahraďte „pro“ za „s“
 cell = worksheet.getCells().get("C5");
 cell.setFormula("=REPLACE(A5, B5, 3, \"with\")");
 
 workbook.calculateFormula();
 ```
 
-Buňka B5 bude obsahovat "9" (pozice "pro") a buňka C5 bude obsahovat "Search with me".
+Buňka B5 bude obsahovat „9“ (pozice „pro“) a buňka C5 bude obsahovat „Hledat se mnou“.
 
 ## Závěr
 
-Textové funkce v Excelu jsou výkonnými nástroji pro manipulaci a analýzu textových dat. S Aspose.Cells for Java můžete tyto funkce snadno začlenit do svých aplikací Java, automatizovat úlohy související s textem a rozšiřovat možnosti aplikace Excel. Prozkoumejte více textových funkcí a uvolněte plný potenciál Excelu s Aspose.Cells for Java.
+Textové funkce v Excelu jsou výkonné nástroje pro manipulaci s textovými daty a jejich analýzu. S Aspose.Cells pro Javu můžete tyto funkce snadno začlenit do svých Java aplikací, automatizovat úkoly související s textem a vylepšit možnosti Excelu. Prozkoumejte další textové funkce a uvolněte plný potenciál Excelu s Aspose.Cells pro Javu.
 
-## Nejčastější dotazy
+## Často kladené otázky
 
-### Jak mohu zřetězit text z více buněk?
+### Jak zřetězím text z více buněk?
 
- Chcete-li zřetězit text z více buněk, použijte`CONCATENATE` funkce. Například:
+Chcete-li zřetězit text z více buněk, použijte `CONCATENATE` funkce. Například:
 ```java
 Cell cell = worksheet.getCells().get("A1");
 cell.setFormula("=CONCATENATE(A1, B1)");
 ```
 
-### Mohu extrahovat první a poslední znak z textového řetězce?
+### Mohu z textového řetězce extrahovat první a poslední znak?
 
- Ano, můžete použít`LEFT` a`RIGHT` funkce pro extrahování znaků ze začátku nebo konce textového řetězce. Například:
+Ano, můžete použít `LEFT` a `RIGHT` funkce pro extrakci znaků ze začátku nebo konce textového řetězce. Například:
 ```java
 Cell cell = worksheet.getCells().get("A2");
 cell.setFormula("=LEFT(A2, 5)");
@@ -153,15 +153,15 @@ cell.setFormula("=LEFT(A2, 5)");
 
 ### Jak mohu spočítat znaky v textovém řetězci?
 
- Použijte`LEN` funkce pro počítání znaků v textovém řetězci. Například:
+Použijte `LEN` funkce pro počítání znaků v textovém řetězci. Například:
 ```java
 Cell cell = worksheet.getCells().get("A3");
 cell.setFormula("=LEN(A3)");
 ```
 
-### Je možné změnit velikost písmen?
+### Je možné změnit velká a malá písmena v textu?
 
- Ano, text můžete převést na velká nebo malá písmena pomocí`UPPER` a`LOWER` funkcí. Například:
+Ano, text můžete převést na velká nebo malá písmena pomocí `UPPER` a `LOWER` funkce. Například:
 ```java
 Cell cell = worksheet.getCells().get("A4");
 cell.setFormula("=UPPER(A4)");
@@ -169,7 +169,7 @@ cell.setFormula("=UPPER(A4)");
 
 ### Jak najdu a nahradím text v řetězci?
 
-Chcete-li najít a nahradit text v řetězci, použijte`FIND` a`REPLACE` funkcí. Například:
+Chcete-li najít a nahradit text v řetězci, použijte `FIND` a `REPLACE` funkce. Například:
 ```java
 Cell cell = worksheet.getCells().get("A5");
 cell.setFormula("=FIND(\"for\", A5)");

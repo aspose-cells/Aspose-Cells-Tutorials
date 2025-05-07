@@ -1,10 +1,10 @@
 ---
-title: Teknik Validasi Data Lanjutan
-linktitle: Teknik Validasi Data Lanjutan
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Buka teknik validasi data tingkat lanjut di Excel dengan Aspose.Cells untuk Java. Pelajari cara membuat aturan khusus, daftar dropdown, dan lainnya untuk kontrol data yang tepat.
-weight: 19
-url: /id/java/data-validation-rules/advanced-data-validation-techniques/
+"description": "Buka teknik validasi data tingkat lanjut di Excel dengan Aspose.Cells untuk Java. Pelajari cara membuat aturan khusus, daftar dropdown, dan lainnya untuk kontrol data yang tepat."
+"linktitle": "Teknik Validasi Data Lanjutan"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Teknik Validasi Data Lanjutan"
+"url": "/id/java/data-validation-rules/advanced-data-validation-techniques/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,7 +20,7 @@ Validasi data adalah proses mendefinisikan aturan dan batasan untuk mencegah dat
 
 ## Menyiapkan Aspose.Cells untuk Java
 
- Sebelum kita menyelami teknik lanjutan, mari kita mulai dengan Aspose.Cells untuk Java. Anda dapat mengunduh pustaka dari[Tautan unduhan Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/) Pastikan untuk mengikuti petunjuk instalasi yang disediakan dalam dokumentasi di[Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/).
+Sebelum kita menyelami teknik lanjutan, mari kita mulai dengan Aspose.Cells untuk Java. Anda dapat mengunduh pustaka dari [Tautan unduhan Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)Pastikan untuk mengikuti petunjuk instalasi yang disediakan dalam dokumentasi di [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/).
 
 ## Validasi Data Dasar
 
@@ -92,7 +92,7 @@ Validasi data merupakan aspek penting dalam menjaga kualitas data dalam lembar k
 
 ### Bagaimana cara mengunduh Aspose.Cells untuk Java?
 
- Anda dapat mengunduh Aspose.Cells untuk Java dari[tautan unduhan](https://releases.aspose.com/cells/java/).
+Anda dapat mengunduh Aspose.Cells untuk Java dari [tautan unduhan](https://releases.aspose.com/cells/java/).
 
 ### Bisakah saya membuat aturan validasi khusus menggunakan Aspose.Cells untuk Java?
 
@@ -108,7 +108,8 @@ Ya, Anda dapat menentukan daftar dropdown dengan opsi yang telah ditetapkan sebe
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Cells untuk Java?
 
-Anda dapat menemukan dokumentasi dan referensi terperinci di[Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/).
+Anda dapat menemukan dokumentasi dan referensi terperinci di [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

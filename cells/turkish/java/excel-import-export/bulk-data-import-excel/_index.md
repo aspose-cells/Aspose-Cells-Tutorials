@@ -1,10 +1,10 @@
 ---
-title: Toplu Veri İçe Aktarma Excel
-linktitle: Toplu Veri İçe Aktarma Excel
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java API'yi kullanarak Excel'den toplu veri aktarımının nasıl gerçekleştirileceğini öğrenin. Bu adım adım kılavuzla veri işlemenizi kolaylaştırın.
-weight: 10
-url: /tr/java/excel-import-export/bulk-data-import-excel/
+"description": "Aspose.Cells for Java API'yi kullanarak Excel'den toplu veri aktarımının nasıl gerçekleştirileceğini öğrenin. Bu adım adım kılavuzla veri işlemenizi kolaylaştırın."
+"linktitle": "Toplu Veri İçe Aktarma Excel"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Toplu Veri İçe Aktarma Excel"
+"url": "/tr/java/excel-import-export/bulk-data-import-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Excel'den toplu veri aktarımı birçok Java uygulamasında yaygın bir gereksin
 
 Uygulamaya geçmeden önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
--  Java Kütüphanesi için Aspose.Cells: Kütüphaneyi şu adresten indirin ve yükleyin:[Burada](https://releases.aspose.com/cells/java/).
+- Java Kütüphanesi için Aspose.Cells: Kütüphaneyi şu adresten indirin ve yükleyin: [Burada](https://releases.aspose.com/cells/java/).
 
 - Java Geliştirme Ortamı: Sisteminizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
 
@@ -55,7 +55,7 @@ Artık çalışma sayfasına erişiminiz olduğuna göre, verileri almak için s
 int maxRows = worksheet.getCells().getMaxDataRow() + 1;
 int maxCols = worksheet.getCells().getMaxDataColumn() + 1;
 
-// Satırlarda ve sütunlarda yineleme yapın
+// Satır ve sütunlar arasında yineleme yapın
 for (int row = 0; row < maxRows; row++) {
     for (int col = 0; col < maxCols; col++) {
         // Hücre değerini al

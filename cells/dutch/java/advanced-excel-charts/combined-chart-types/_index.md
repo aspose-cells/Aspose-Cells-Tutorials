@@ -1,10 +1,10 @@
 ---
-title: Gecombineerde grafiektypen
-linktitle: Gecombineerde grafiektypen
-second_title: Aspose.Cells Java Excel-verwerkings-API
-description: Leer hoe u gecombineerde diagramtypen maakt met Aspose.Cells voor Java. Deze stapsgewijze handleiding biedt broncode en tips voor effectieve datavisualisatie.
-weight: 12
-url: /nl/java/advanced-excel-charts/combined-chart-types/
+"description": "Leer hoe u gecombineerde diagrammen maakt met Aspose.Cells voor Java. Deze stapsgewijze handleiding biedt broncode en tips voor effectieve datavisualisatie."
+"linktitle": "Gecombineerde grafiektypen"
+"second_title": "Aspose.Cells Java Excel-verwerkings-API"
+"title": "Gecombineerde grafiektypen"
+"url": "/nl/java/advanced-excel-charts/combined-chart-types/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,15 +16,15 @@ url: /nl/java/advanced-excel-charts/combined-chart-types/
 
 ## Inleiding tot gecombineerde grafiektypen met Aspose.Cells voor Java
 
-In de wereld van datavisualisatie spelen diagrammen een cruciale rol om ons te helpen complexe datasets te begrijpen. Aspose.Cells voor Java is een krachtige Java API waarmee u verschillende typen diagrammen kunt maken, manipuleren en aanpassen, inclusief gecombineerde diagramtypen. In dit artikel onderzoeken we hoe u gecombineerde diagramtypen kunt maken met Aspose.Cells voor Java.
+In de wereld van datavisualisatie spelen diagrammen een cruciale rol bij het begrijpen van complexe datasets. Aspose.Cells voor Java is een krachtige Java API waarmee u verschillende soorten diagrammen kunt maken, bewerken en aanpassen, waaronder gecombineerde diagrammen. In dit artikel onderzoeken we hoe u gecombineerde diagrammen kunt maken met Aspose.Cells voor Java.
 
-## Begrijpen van Aspose.Cells voor Java
+## Aspose.Cells voor Java begrijpen
 
-Voordat we ingaan op het maken van gecombineerde grafieken, moeten we kort uitleggen wat Aspose.Cells voor Java is. Het is een Java-gebaseerde bibliotheek die uitgebreide functionaliteit biedt voor het werken met Excel-spreadsheets. Dit omvat de mogelijkheid om grafieken in uw Excel-bestanden programmatisch te maken, bewerken en verbeteren.
+Voordat we ingaan op het maken van gecombineerde grafieken, leggen we kort uit wat Aspose.Cells voor Java is. Het is een Java-bibliotheek die uitgebreide functionaliteit biedt voor het werken met Excel-spreadsheets. Dit omvat de mogelijkheid om grafieken in uw Excel-bestanden programmatisch te maken, te bewerken en te verbeteren.
 
 ## Aan de slag
 
- Om te beginnen met het maken van gecombineerde grafieken, moet u Aspose.Cells voor Java geïnstalleerd en ingesteld hebben in uw Java-project. U kunt de bibliotheek downloaden van de Aspose-website via de volgende link:[Download Aspose.Cells voor Java](https://releases.aspose.com/cells/java/).
+Om te beginnen met het maken van gecombineerde grafieken, moet u Aspose.Cells voor Java geïnstalleerd en ingesteld hebben in uw Java-project. U kunt de bibliotheek downloaden van de Aspose-website via de volgende link: [Download Aspose.Cells voor Java](https://releases.aspose.com/cells/java/).
 
 Zodra u de bibliotheek gereed hebt, kunt u de volgende stappen uitvoeren om gecombineerde grafieken te maken.
 
@@ -57,7 +57,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 
 ## Gegevens toevoegen aan de grafiek
 
-Nu we een gecombineerd diagram hebben gemaakt, kunnen we er wat gegevens aan toevoegen.
+Nu we een gecombineerd diagram hebben gemaakt, kunnen we er gegevens aan toevoegen.
 
 ### Stap 5: Maak een gegevensreeks voor de grafiek.
 
@@ -75,7 +75,7 @@ chart.getNSeries().setCategoryData("C1:C5");
 
 ## Het diagram aanpassen
 
-U kunt het uiterlijk en gedrag van de gecombineerde grafiek aanpassen aan uw specifieke vereisten.
+U kunt het uiterlijk en gedrag van het gecombineerde diagram aanpassen aan uw specifieke vereisten.
 
 ### Stap 7: Pas de grafiektitel en aslabels aan.
 
@@ -85,16 +85,16 @@ chart.getCategoryAxis().getTitle().setText("Categories");
 chart.getValueAxis().getTitle().setText("Values");
 ```
 
-2. Stap 8: Pas het uiterlijk van de grafiek aan.
+2. Stap 8: Pas het uiterlijk van het diagram aan.
 
 ```java
 chart.getLegend().setPosition(LegendPositionType.BOTTOM);
 chart.getLegend().setOverlay(true);
 ```
 
-## Het diagram opslaan en exporteren
+## De grafiek opslaan en exporteren
 
-Nadat u uw gecombineerde grafiek hebt gemaakt en aangepast, kunt u deze opslaan in een Excel-bestand of exporteren naar verschillende indelingen.
+Nadat u uw gecombineerde grafiek hebt gemaakt en aangepast, kunt u deze opslaan in een Excel-bestand of exporteren naar diverse indelingen.
 
 ### Stap 9: Sla de werkmap op in een Excel-bestand.
 
@@ -102,7 +102,7 @@ Nadat u uw gecombineerde grafiek hebt gemaakt en aangepast, kunt u deze opslaan 
 workbook.save("CombinedChart.xlsx");
 ```
 
-### Stap 10: Exporteer de grafiek naar een afbeeldingsbestand.
+### Stap 10: Exporteer het diagram naar een afbeeldingsbestand.
 
 ```java
 chart.toImage("CombinedChart.png", ImageFormat.getPng());
@@ -110,29 +110,30 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 
 ## Conclusie
 
-In dit artikel hebben we onderzocht hoe u gecombineerde diagramtypen kunt maken met Aspose.Cells voor Java. We begonnen met het begrijpen van wat Aspose.Cells voor Java is en gingen vervolgens verder met stapsgewijze instructies voor het maken van een gecombineerd diagram, het toevoegen van gegevens, het aanpassen van het uiterlijk en het opslaan/exporteren ervan. Met Aspose.Cells voor Java kunt u de kracht van datavisualisatie in uw Java-toepassingen ontketenen.
+In dit artikel hebben we besproken hoe je gecombineerde diagrammen kunt maken met Aspose.Cells voor Java. We begonnen met wat Aspose.Cells voor Java inhoudt en gaven vervolgens stapsgewijze instructies voor het maken van een gecombineerd diagram, het toevoegen van gegevens, het aanpassen van de weergave en het opslaan/exporteren ervan. Met Aspose.Cells voor Java kun je de kracht van datavisualisatie in je Java-applicaties benutten.
 
 ## Veelgestelde vragen
 
 ### Hoe installeer ik Aspose.Cells voor Java?
 
- Om Aspose.Cells voor Java te installeren, gaat u naar de Aspose-website en downloadt u de bibliotheek van[deze link](https://releases.aspose.com/cells/java/)Volg de installatie-instructies in de documentatie.
+Om Aspose.Cells voor Java te installeren, gaat u naar de Aspose-website en downloadt u de bibliotheek van [deze link](https://releases.aspose.com/cells/java/)Volg de installatie-instructies in de documentatie.
 
-### Kan ik andere soorten grafieken maken met Aspose.Cells voor Java?
+### Kan ik andere typen grafieken maken met Aspose.Cells voor Java?
 
-Ja, Aspose.Cells voor Java ondersteunt een breed scala aan diagramtypen, waaronder staafdiagrammen, cirkeldiagrammen, spreidingsdiagrammen en meer. U kunt de documentatie raadplegen voor voorbeelden en gebruik.
+Ja, Aspose.Cells voor Java ondersteunt een breed scala aan diagramtypen, waaronder staafdiagrammen, cirkeldiagrammen, spreidingsdiagrammen en meer. Raadpleeg de documentatie voor voorbeelden en gebruiksmogelijkheden.
 
 ### Is Aspose.Cells voor Java geschikt voor zowel beginners als ervaren Java-ontwikkelaars?
 
-Aspose.Cells voor Java is ontworpen om gebruiksvriendelijk te zijn, waardoor het geschikt is voor zowel beginners als ervaren ontwikkelaars. Het biedt een API op hoog niveau voor eenvoudig gebruik en biedt geavanceerde functies voor degenen met meer ervaring.
+Aspose.Cells voor Java is gebruiksvriendelijk ontworpen, waardoor het geschikt is voor zowel beginners als ervaren ontwikkelaars. Het biedt een geavanceerde API voor gebruiksgemak en geavanceerde functies voor ervaren ontwikkelaars.
 
 ### Kan ik het uiterlijk van mijn gecombineerde grafiek verder aanpassen?
 
-Absoluut! Aspose.Cells voor Java biedt uitgebreide aanpassingsopties. U kunt kleuren, lettertypen, stijlen en meer wijzigen om het uiterlijk van de grafiek naar wens aan te passen.
+Absoluut! Aspose.Cells voor Java biedt uitgebreide aanpassingsmogelijkheden. Je kunt kleuren, lettertypen, stijlen en meer wijzigen om het uiterlijk van de grafiek naar wens aan te passen.
 
 ### Waar kan ik meer bronnen en voorbeelden vinden voor Aspose.Cells voor Java?
 
- Uitgebreide documentatie en een schat aan codevoorbeelden vindt u op de Aspose-website op[hier](https://reference.aspose.com/cells/java/).
+Uitgebreide documentatie en een schat aan codevoorbeelden vindt u op de Aspose-website op [hier](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

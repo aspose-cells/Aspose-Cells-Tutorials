@@ -1,10 +1,10 @@
 ---
-title: Tabele przestawne programu Excel
-linktitle: Tabele przestawne programu Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Opanuj tabele przestawne programu Excel z Aspose.Cells dla Javy. Dowiedz się, jak bez wysiłku tworzyć, dostosowywać i analizować dane.
-weight: 13
-url: /pl/java/excel-pivot-tables/
+"description": "Opanuj tabele przestawne programu Excel z Aspose.Cells dla Javy. Dowiedz się, jak bez wysiłku tworzyć, dostosowywać i analizować dane."
+"linktitle": "Tabele przestawne programu Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Tabele przestawne programu Excel"
+"url": "/pl/java/excel-pivot-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -19,7 +19,7 @@ Tabele przestawne programu Excel to potężne narzędzia do analizy danych i rap
 Tabele przestawne programu Excel to prawdziwy przełom dla każdego, kto zajmuje się analizą danych. Umożliwiają przekształcanie wierszy i kolumn danych w sensowne spostrzeżenia, dzięki czemu złożone informacje stają się zrozumiałe. Aspose.Cells for Java jeszcze bardziej upraszcza ten proces, zapewniając solidną funkcjonalność do pracy z tabelami przestawnymi programowo. Niezależnie od tego, czy jesteś początkującym, czy doświadczonym użytkownikiem, ta seria samouczków pomoże Ci skutecznie wykorzystać moc tabel przestawnych.
 
 ## Tworzenie tabel przestawnych
-Pierwszym krokiem do opanowania tabel przestawnych jest nauczenie się, jak je tworzyć. Dzięki Aspose.Cells for Java możesz programowo generować tabele przestawne ze swoich źródeł danych. Poprowadzimy Cię przez proces wybierania odpowiednich danych, definiowania pól wierszy i kolumn oraz podsumowywania informacji. Dowiesz się, jak tworzyć tabele przestawne, które odpowiadają Twoim konkretnym potrzebom analitycznym, niezależnie od tego, czy są to raporty sprzedaży, podsumowania finansowe czy jakiekolwiek inne zadania oparte na danych.
+Pierwszym krokiem do opanowania tabel przestawnych jest nauczenie się, jak je tworzyć. Dzięki Aspose.Cells for Java możesz programowo generować tabele przestawne ze swoich źródeł danych. Poprowadzimy Cię przez proces wybierania odpowiednich danych, definiowania pól wierszy i kolumn oraz podsumowywania informacji. Dowiesz się, jak tworzyć tabele przestawne, które odpowiadają Twoim konkretnym potrzebom analitycznym, niezależnie od tego, czy są to raporty sprzedaży, podsumowania finansowe, czy jakiekolwiek inne zadania oparte na danych.
 
 ## Dostosowywanie i analizowanie danych
 Tabele przestawne programu Excel oferują ogromną elastyczność, jeśli chodzi o dostosowywanie i analizowanie danych. W tej serii samouczków zagłębisz się w zaawansowane opcje dostosowywania. Dowiedz się, jak stosować filtry, dodawać pola obliczeniowe i formatować tabele przestawne, aby uzyskać profesjonalnie wyglądające raporty. Pokażemy Ci również, jak wykonywać dogłębną analizę danych, w tym sortowanie, grupowanie i tworzenie interaktywnych pulpitów nawigacyjnych, które mogą odkrywać ukryte wzorce i trendy.
@@ -33,7 +33,7 @@ Dowiedz się, jak tworzyć zaawansowane tabele przestawne w języku Java za pomo
 ### [Dynamiczne tabele przestawne](./dynamic-pivot-tables/)
 Twórz dynamiczne tabele przestawne bez wysiłku, używając Aspose.Cells dla Java. Analizuj i podsumowuj dane z łatwością. Zwiększ swoje możliwości analizy danych.
 ### [Grupowanie danych w tabelach przestawnych](./grouping-data-in-pivot-tables/)
-Dowiedz się, jak tworzyć tabele przestawne w programie Excel przy użyciu Aspose.Cells dla języka Java. Zautomatyzuj grupowanie i analizę danych za pomocą przykładów kodu źródłowego.
+Dowiedz się, jak tworzyć tabele przestawne w programie Excel za pomocą Aspose.Cells dla języka Java. Zautomatyzuj grupowanie i analizę danych za pomocą przykładów kodu źródłowego.
 ### [Pola obliczeniowe w tabelach przestawnych](./calculated-fields-in-pivot-tables/)
 Dowiedz się, jak tworzyć pola obliczeniowe w tabelach przestawnych za pomocą Aspose.Cells dla Java. Ulepsz analizę danych dzięki niestandardowym obliczeniom w programie Excel.
 ### [Odświeżanie danych tabeli przestawnej](./refreshing-pivot-table-data/)

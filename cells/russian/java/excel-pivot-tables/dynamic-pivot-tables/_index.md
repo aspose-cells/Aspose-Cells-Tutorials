@@ -1,10 +1,10 @@
 ---
-title: Динамические сводные таблицы
-linktitle: Динамические сводные таблицы
-second_title: API обработки Java Excel Aspose.Cells
-description: Создавайте динамические сводные таблицы без усилий с помощью Aspose.Cells для Java. Анализируйте и суммируйте данные с легкостью. Расширьте свои возможности анализа данных.
-weight: 13
-url: /ru/java/excel-pivot-tables/dynamic-pivot-tables/
+"description": "Создавайте динамические сводные таблицы без усилий с помощью Aspose.Cells для Java. Анализируйте и суммируйте данные с легкостью. Расширьте свои возможности анализа данных."
+"linktitle": "Динамические сводные таблицы"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Динамические сводные таблицы"
+"url": "/ru/java/excel-pivot-tables/dynamic-pivot-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /ru/java/excel-pivot-tables/dynamic-pivot-tables/
 
 ## Шаг 1: Импорт библиотеки Aspose.Cells
 
- Прежде чем мы сможем создать динамические сводные таблицы, нам нужно импортировать библиотеку Aspose.Cells в наш проект Java. Вы можете загрузить библиотеку из релизов Aspose[здесь](https://releases.aspose.com/cells/java/).
+Прежде чем мы сможем создать динамические сводные таблицы, нам нужно импортировать библиотеку Aspose.Cells в наш проект Java. Вы можете загрузить библиотеку из релизов Aspose [здесь](https://releases.aspose.com/cells/java/).
 
 После загрузки библиотеки добавьте ее в путь сборки вашего проекта.
 
@@ -35,7 +35,7 @@ url: /ru/java/excel-pivot-tables/dynamic-pivot-tables/
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Заменять`"your_excel_file.xlsx"` с путем к вашему файлу Excel.
+Заменять `"your_excel_file.xlsx"` с путем к вашему файлу Excel.
 
 ## Шаг 3: Создание сводной таблицы
 
@@ -107,7 +107,7 @@ pivotTable.calculateData();
 ### В5: Поддерживает ли Aspose.Cells расширенные функции сводных таблиц Excel?
 
 Да, Aspose.Cells обеспечивает расширенную поддержку расширенных функций сводных таблиц Excel, позволяя создавать сложные сводные таблицы.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

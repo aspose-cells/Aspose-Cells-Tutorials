@@ -1,10 +1,10 @@
 ---
-title: Excel'de ORTALAMA İşlevi
-linktitle: Excel'de ORTALAMA İşlevi
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Excel'de AVERAGE işlevini Aspose.Cells for Java ile nasıl kullanacağınızı öğrenin. Adım adım kılavuz, kod örnekleri ve verimli Excel otomasyonu için ipuçları.
-weight: 15
-url: /tr/java/basic-excel-functions/average-function-in-excel/
+"description": "Aspose.Cells for Java ile Excel'de AVERAGE işlevini nasıl kullanacağınızı öğrenin. Adım adım kılavuz, kod örnekleri ve verimli Excel otomasyonu için ipuçları."
+"linktitle": "Excel'de ORTALAMA İşlevi"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Excel'de ORTALAMA İşlevi"
+"url": "/tr/java/basic-excel-functions/average-function-in-excel/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,9 +22,9 @@ Excel elektronik tabloları veri analizi ve hesaplamaları için yaygın olarak 
 
 AVERAGE işlevini kullanmaya başlamadan önce geliştirme ortamımızı kurmamız gerekiyor. Başlamak için şu adımları izleyin:
 
-1.  Java için Aspose.Cells'i indirin: Ziyaret edin[Java için Aspose.Cells](https://releases.aspose.com/cells/java/) Kütüphaneyi indirmek için.
+1. Java için Aspose.Cells'i indirin: Ziyaret edin [Java için Aspose.Cells](https://releases.aspose.com/cells/java/) Kütüphaneyi indirmek için.
 
-2.  Aspose.Cells'i yükleyin: Aspose belgelerinde sağlanan kurulum talimatlarını izleyin[Burada](https://reference.aspose.com/cells/java/).
+2. Aspose.Cells'i yükleyin: Aspose belgelerinde sağlanan kurulum talimatlarını izleyin [Burada](https://reference.aspose.com/cells/java/).
 
 Aspose.Cells for Java'yı yükledikten sonra Excel dosyalarıyla çalışmaya başlayabilirsiniz.
 
@@ -64,7 +64,7 @@ Cell cell = worksheet.getCells().get("B1");
 cell.setFormula("=AVERAGE(A1:A4)");
 ```
 
-Bu kodda, A1 ile A4 hücrelerindeki sayıların ortalamasını hesaplamak için B1 hücresine formül ayarlıyoruz.
+Bu kodda, A1'den A4'e kadar olan hücrelerdeki sayıların ortalamasını hesaplamak için B1 hücresine formül ayarlıyoruz.
 
 ## Excel Sayfasını Biçimlendirme
 
@@ -119,13 +119,13 @@ Bu makalede, Aspose.Cells for Java kullanarak Excel'de AVERAGE işlevinin nasıl
 
 ### Java için Aspose.Cells'i nasıl yüklerim?
 
- Java için Aspose.Cells'i yüklemek için şu web sitesini ziyaret edin:[Burada](https://reference.aspose.com/cells/java/) ve kurulum talimatlarını izleyin.
+Java için Aspose.Cells'i yüklemek için şu web sitesini ziyaret edin: [Burada](https://reference.aspose.com/cells/java/) ve kurulum talimatlarını izleyin.
 
 ### Excel çalışma kitabını PDF dışında başka formatlara da aktarabilir miyim?
 
 Evet, Java için Aspose.Cells, Excel çalışma kitaplarını CSV, XLSX, HTML ve daha fazlası dahil olmak üzere çeşitli biçimlere aktarmanıza olanak tanır.
 
-### Java için Aspose.Cells'i kullanmanın Excel'de manuel düzenlemeye göre avantajı nedir?
+### Excel'de manuel işlem yapmaktan ziyade Java için Aspose.Cells kullanmanın avantajı nedir?
 
 Java için Aspose.Cells, Excel otomasyonunu basitleştirerek size zaman ve emek kazandırır. Gelişmiş özellikler ve hata işleme yetenekleri sunarak Excel otomasyonu için güçlü bir araç haline getirir.
 
@@ -136,6 +136,7 @@ Aspose.Cells for Java'yı kullanarak yazı tiplerini, renkleri ve stilleri deği
 ### Aspose.Cells for Java'nın daha gelişmiş özelliklerine nereden erişebilirim?
 
 Özelliklerin ve gelişmiş işlevlerin kapsamlı bir listesi için Aspose.Cells for Java belgelerine bakın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Gelişmiş Excel Grafikleri
-linktitle: Gelişmiş Excel Grafikleri
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java için Aspose.Cells ile Gelişmiş Excel Grafik Eğitimlerini keşfedin. Veri görselleştirme becerilerinizi adım adım geliştirin. Bugün grafik konusunda ustalaşın!
-weight: 15
-url: /tr/java/advanced-excel-charts/
+"description": "Java için Aspose.Cells ile Gelişmiş Excel Grafik Eğitimlerini keşfedin. Veri görselleştirme becerilerinizi adım adım geliştirin. Bugün grafik konusunda ustalaşın!"
+"linktitle": "Gelişmiş Excel Grafikleri"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Gelişmiş Excel Grafikleri"
+"url": "/tr/java/advanced-excel-charts/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -37,14 +37,14 @@ Java için Aspose.Cells kullanarak birleşik grafik türlerinin nasıl oluşturu
 Aspose.Cells ile Java'da Çarpıcı 3D Grafikler Oluşturmayı Öğrenin. Excel Veri Görselleştirmesi için Adım Adım Kılavuz.
 ### [Veri Etiketleme](./data-labeling/)
 Java için Aspose.Cells ile Veri Etiketlemenin Potansiyelini Açığa Çıkarın. Adım Adım Teknikleri Öğrenin.
-### [Trend Çizgisi Analizi](./trendline-analysis/)
+### [Trend çizgisi analizi](./trendline-analysis/)
 Aspose.Cells ile Java'da Trendline Analizinde Ustalaşın. Adım adım talimatlar ve kod örnekleriyle veri odaklı içgörüler oluşturmayı öğrenin.
 ### [Grafik Açıklamaları](./chart-annotations/)
 Java için Aspose.Cells'i kullanarak Grafik Açıklamalarıyla Grafiklerinizi Geliştirin - Adım Adım Kılavuz. Bilgilendirici Veri Görselleştirmesi için Açıklamaların Nasıl Ekleneceği Öğrenin.
 ### [Grafik Animasyonu](./chart-animation/)
 Java için Aspose.Cells ile büyüleyici grafik animasyonları oluşturmayı öğrenin. Dinamik veri görselleştirme için adım adım kılavuz ve kaynak kodu dahildir.
 ### [Şelale Grafikleri](./waterfall-charts/)
-Java için Aspose.Cells ile çarpıcı Şelale Grafikleri oluşturmayı öğrenin. Etkili veri görselleştirmesi için kaynak kodlu adım adım kılavuz.
+Java için Aspose.Cells ile çarpıcı Şelale Grafikleri oluşturmayı öğrenin. Etkili veri görselleştirme için kaynak kodlu adım adım kılavuz.
 ### [Grafik Etkileşimi](./chart-interactivity/)
 Java için Aspose.Cells'i kullanarak etkileşimli grafiklerin nasıl oluşturulacağını öğrenin. Veri görselleştirmenizi etkileşimle geliştirin.
 {{< /blocks/products/pf/tutorial-page-section >}}

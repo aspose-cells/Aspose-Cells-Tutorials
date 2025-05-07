@@ -1,10 +1,10 @@
 ---
-title: Eksportuj Excela do JSON
-linktitle: Eksportuj Excela do JSON
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak eksportować dane Excela do JSON za pomocą Aspose.Cells dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby zapewnić bezproblemową konwersję.
-weight: 17
-url: /pl/java/excel-import-export/export-excel-to-json/
+"description": "Dowiedz się, jak eksportować dane Excela do JSON za pomocą Aspose.Cells dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby zapewnić bezproblemową konwersję."
+"linktitle": "Eksportuj Excela do JSON"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Eksportuj Excela do JSON"
+"url": "/pl/java/excel-import-export/export-excel-to-json/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,7 +20,7 @@ W tym samouczku przeprowadzimy Cię przez proces eksportowania danych Excela do 
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowana Java.
--  Aspose.Cells dla Java: Pobierz i zainstaluj bibliotekę Aspose.Cells dla Java ze strony[Tutaj](https://releases.aspose.com/cells/java/).
+- Aspose.Cells dla Java: Pobierz i zainstaluj bibliotekę Aspose.Cells dla Java ze strony [Tutaj](https://releases.aspose.com/cells/java/).
 - Plik Excela: Przygotuj plik Excela, który chcesz przekonwertować do formatu JSON.
 
 ## Krok 1: Importuj Aspose.Cells dla Java
@@ -38,7 +38,7 @@ Następnie załaduj plik Excel, który chcesz wyeksportować do JSON. Możesz u�
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Zastępować`"your_excel_file.xlsx"` ze ścieżką do pliku Excel.
+Zastępować `"your_excel_file.xlsx"` ze ścieżką do pliku Excel.
 
 ## Krok 3: Konwersja do JSON
 Teraz przekonwertujmy dane Excela do formatu JSON. Użyj następującego kodu, aby wykonać konwersję:
@@ -54,7 +54,7 @@ workbook.save("output.json", jsonSaveOptions);
 Ten kod zapisze dane programu Excel jako plik JSON o nazwie „output.json” w katalogu projektu.
 
 ## Krok 4: Obsługa danych JSON
-Teraz możesz pracować z danymi JSON według potrzeb. Możesz je analizować, manipulować nimi lub używać ich w swoich aplikacjach.
+Teraz możesz pracować z danymi JSON w razie potrzeby. Możesz je analizować, manipulować nimi lub używać ich w swoich aplikacjach.
 
 ## Wniosek
 Gratulacje! Udało Ci się wyeksportować dane Excela do JSON przy użyciu Aspose.Cells for Java. Ten przewodnik krok po kroku dostarczył Ci niezbędnego kodu źródłowego, aby usprawnić proces. Teraz możesz skutecznie konwertować pliki Excela do JSON w swoich aplikacjach Java.

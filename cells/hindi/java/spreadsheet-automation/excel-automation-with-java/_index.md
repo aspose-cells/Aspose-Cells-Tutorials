@@ -1,10 +1,10 @@
 ---
-title: जावा के साथ एक्सेल स्वचालन
-linktitle: जावा के साथ एक्सेल स्वचालन
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: एक्सेल हेरफेर के लिए एक शक्तिशाली लाइब्रेरी, Aspose.Cells का उपयोग करके स्रोत कोड उदाहरणों के साथ जावा में एक्सेल कार्यों को स्वचालित करने का तरीका जानें।
-weight: 18
-url: /hi/java/spreadsheet-automation/excel-automation-with-java/
+"description": "एक्सेल हेरफेर के लिए एक शक्तिशाली लाइब्रेरी, Aspose.Cells का उपयोग करके स्रोत कोड उदाहरणों के साथ जावा में एक्सेल कार्यों को स्वचालित करने का तरीका जानें।"
+"linktitle": "जावा के साथ एक्सेल स्वचालन"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "जावा के साथ एक्सेल स्वचालन"
+"url": "/hi/java/spreadsheet-automation/excel-automation-with-java/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ url: /hi/java/spreadsheet-automation/excel-automation-with-java/
 
 ## 2. अपना जावा प्रोजेक्ट सेट अप करना
 
- आरंभ करने के लिए, Java के लिए Aspose.Cells को यहां से डाउनलोड करें[यहाँ](https://releases.aspose.com/cells/java/). अपने जावा प्रोजेक्ट में लाइब्रेरी शामिल करें। अपने Gradle प्रोजेक्ट में Aspose.Cells जोड़ने के लिए यहाँ एक कोड स्निपेट दिया गया है:
+आरंभ करने के लिए, Java के लिए Aspose.Cells को यहां से डाउनलोड करें [यहाँ](https://releases.aspose.com/cells/java/). अपने जावा प्रोजेक्ट में लाइब्रेरी शामिल करें। अपने Gradle प्रोजेक्ट में Aspose.Cells जोड़ने के लिए यहाँ एक कोड स्निपेट दिया गया है:
 
 ```gradle
 dependencies {

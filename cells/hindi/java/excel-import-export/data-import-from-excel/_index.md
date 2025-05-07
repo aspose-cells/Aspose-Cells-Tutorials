@@ -1,10 +1,10 @@
 ---
-title: एक्सेल से डेटा आयात करें
-linktitle: एक्सेल से डेटा आयात करें
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: जावा के लिए Aspose.Cells का उपयोग करके Excel से डेटा आयात करना सीखें। निर्बाध डेटा पुनर्प्राप्ति के लिए स्रोत कोड के साथ एक व्यापक गाइड।
-weight: 16
-url: /hi/java/excel-import-export/data-import-from-excel/
+"description": "जावा के लिए Aspose.Cells का उपयोग करके Excel से डेटा आयात करना सीखें। निर्बाध डेटा पुनर्प्राप्ति के लिए स्रोत कोड के साथ एक व्यापक गाइड।"
+"linktitle": "एक्सेल से डेटा आयात करें"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "एक्सेल से डेटा आयात करें"
+"url": "/hi/java/excel-import-export/data-import-from-excel/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -21,7 +21,7 @@ url: /hi/java/excel-import-export/data-import-from-excel/
 कोड में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 1. जावा डेवलपमेंट एनवायरनमेंट: सुनिश्चित करें कि आपके सिस्टम पर जावा JDK स्थापित है।
-2.  Aspose.Cells for Java: Aspose.Cells for Java लाइब्रेरी को डाउनलोड करें और अपने प्रोजेक्ट में शामिल करें। आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/cells/java/).
+2. Aspose.Cells for Java: Aspose.Cells for Java लाइब्रेरी को डाउनलोड करें और अपने प्रोजेक्ट में शामिल करें। आप डाउनलोड लिंक पा सकते हैं [यहाँ](https://releases.aspose.com/cells/java/).
 
 ## जावा प्रोजेक्ट बनाना
 
@@ -32,7 +32,7 @@ url: /hi/java/excel-import-export/data-import-from-excel/
 
 अपने प्रोजेक्ट में Aspose.Cells for Java जोड़ने के लिए, इन चरणों का पालन करें:
 
-1.  वेबसाइट से Aspose.Cells for Java लाइब्रेरी डाउनलोड करें[यहाँ](https://releases.aspose.com/cells/java/).
+1. वेबसाइट से Aspose.Cells for Java लाइब्रेरी डाउनलोड करें [यहाँ](https://releases.aspose.com/cells/java/).
 2. डाउनलोड की गई JAR फ़ाइल को अपने प्रोजेक्ट के क्लासपाथ में शामिल करें।
 
 ## एक्सेल से डेटा पढ़ना
@@ -51,7 +51,7 @@ public class ExcelDataImport {
         // वर्कशीट तक पहुंचें
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        //सेल डेटा तक पहुँचें (उदाहरणार्थ, A1)
+        // सेल डेटा तक पहुँचें (उदाहरणार्थ, A1)
         Cell cell = worksheet.getCells().get("A1");
         System.out.println("Data in cell A1: " + cell.getStringValue());
 
@@ -87,13 +87,13 @@ public class ExcelDataImport {
    हां, Aspose.Cells XLS, XLSX, CSV, आदि सहित विभिन्न Excel फ़ाइल स्वरूपों का समर्थन करता है।
 
 ### 3. मैं आयातित डेटा में एक्सेल फ़ार्मुलों को कैसे संभाल सकता हूँ?
-   Aspose.Cells डेटा आयात के दौरान Excel सूत्रों के मूल्यांकन और उनके साथ कार्य करने की विधियाँ प्रदान करता है।
+   Aspose.Cells डेटा आयात के दौरान Excel सूत्रों के मूल्यांकन और उनके साथ कार्य करने के लिए विधियाँ प्रदान करता है।
 
 ### 4. क्या बड़ी एक्सेल फ़ाइलों को आयात करने के लिए प्रदर्शन संबंधी विचारणीय बातें हैं?
    Aspose.Cells बड़ी Excel फ़ाइलों को कुशलतापूर्वक संभालने के लिए अनुकूलित है।
 
 ### 5. मुझे अधिक दस्तावेज और उदाहरण कहां मिल सकते हैं?
-    Aspose.Cells दस्तावेज़ देखें[यहाँ](https://reference.aspose.com/cells/java/) गहन संसाधनों और उदाहरणों के लिए.
+   Aspose.Cells दस्तावेज़ देखें [यहाँ](https://reference.aspose.com/cells/java/) गहन संसाधनों और उदाहरणों के लिए.
 
 आगे की खोज करने और अपनी विशिष्ट डेटा आयात आवश्यकताओं के अनुरूप इस कोड को अनुकूलित करने के लिए स्वतंत्र महसूस करें। हैप्पी कोडिंग!
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,10 +1,10 @@
 ---
-title: Etkileşimli Panolar
-linktitle: Etkileşimli Panolar
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java için Aspose.Cells ile Etkileşimli Panolar Oluşturmayı Öğrenin. Dinamik veri görselleştirmeleri oluşturmak için adım adım kılavuz.
-weight: 10
-url: /tr/java/advanced-excel-charts/interactive-dashboards/
+"description": "Java için Aspose.Cells ile Etkileşimli Panolar Oluşturmayı Öğrenin. Dinamik veri görselleştirmeleri oluşturmak için adım adım kılavuz."
+"linktitle": "Etkileşimli Panolar"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Etkileşimli Panolar"
+"url": "/tr/java/advanced-excel-charts/interactive-dashboards/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Veri odaklı karar alma süreçlerinin hızlı dünyasında, etkileşimli göste
 
 Ayrıntılara girmeden önce, aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
--  Java için Aspose.Cells: Java için Aspose.Cells kitaplığını indirin ve yükleyin[Burada](https://releases.aspose.com/cells/java/).
+- Java için Aspose.Cells: Java için Aspose.Cells kitaplığını indirin ve yükleyin [Burada](https://releases.aspose.com/cells/java/).
 
 ## Projenizi Kurma
 
@@ -42,7 +42,7 @@ Workbook workbook = new Workbook();
 
 ## Veri Ekleme
 
-Pano'muzu etkileşimli hale getirmek için verilere ihtiyacımız var. Örnek verileri üretebilir veya harici bir kaynaktan alabilirsiniz. Bu örnek için bazı örnek veriler oluşturacağız.
+Panomuzu etkileşimli hale getirmek için verilere ihtiyacımız var. Örnek verileri oluşturabilir veya harici bir kaynaktan alabilirsiniz. Bu örnek için bazı örnek veriler oluşturacağız.
 
 ```java
 // İlk çalışma sayfasına erişin
@@ -84,7 +84,7 @@ Düğmeler panomuzda eylemleri tetikleyebilir. Tıklandığında grafik verileri
 worksheet.getShapes().addShape(MsoDrawingType.BUTTON, 1, 1, 3, 1);
 Button button = (Button) worksheet.getShapes().get(0);
 
-//Düğmenin görünümünü ve davranışını özelleştirin
+// Düğme görünümünü ve davranışını özelleştirin
 button.setText("Update Chart");
 button.setActionType(MsoButtonActionType.HYPERLINK);
 button.setHyperlink("Sheet1!A2");
@@ -125,6 +125,7 @@ Evet, Aspose.Cells for Java, etkileşimli panonuzu PDF ve HTML dahil olmak üzer
 ### Aspose.Cells for Java büyük ölçekli veri görselleştirme projeleri için uygun mudur?
 
 Evet, Aspose.Cells for Java hem küçük ölçekli hem de büyük ölçekli veri görselleştirme projeleri için oldukça uygundur. Esnekliği ve kapsamlı özellik seti onu çeşitli gereksinimler için sağlam bir seçim haline getirir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

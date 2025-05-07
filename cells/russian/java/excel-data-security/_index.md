@@ -1,10 +1,10 @@
 ---
-title: Безопасность данных Excel
-linktitle: Безопасность данных Excel
-second_title: API обработки Java Excel Aspose.Cells
-description: Повысьте безопасность данных Excel с помощью Aspose.Cells для Java. Узнайте шаг за шагом, как защитить свои электронные таблицы, зашифровать файлы и обеспечить целостность данных.
-weight: 17
-url: /ru/java/excel-data-security/
+"description": "Повысьте безопасность данных Excel с помощью Aspose.Cells для Java. Узнайте шаг за шагом, как защитить свои электронные таблицы, зашифровать файлы и обеспечить целостность данных."
+"linktitle": "Безопасность данных Excel"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Безопасность данных Excel"
+"url": "/ru/java/excel-data-security/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -40,7 +40,7 @@ url: /ru/java/excel-data-security/
 Узнайте, как проводить аудит доступа к файлам с помощью API Aspose.Cells для Java. Пошаговое руководство с исходным кодом и часто задаваемыми вопросами.
 ### [Проверка данных для безопасности](./data-validation-for-security/)
 Повысьте безопасность данных с помощью Aspose.Cells для Java. Изучите комплексные методы проверки данных. Узнайте, как реализовать надежную проверку и защиту.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

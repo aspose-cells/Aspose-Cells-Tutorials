@@ -1,10 +1,10 @@
 ---
-title: Экспорт Excel в PDF
-linktitle: Экспорт Excel в PDF
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как легко экспортировать файлы Excel в PDF с помощью Aspose.Cells для Java. Наше пошаговое руководство упрощает процесс. Начните конвертацию сегодня!
-weight: 14
-url: /ru/java/excel-import-export/exporting-excel-to-pdf/
+"description": "Узнайте, как легко экспортировать файлы Excel в PDF с помощью Aspose.Cells для Java. Наше пошаговое руководство упрощает процесс. Начните конвертацию сегодня!"
+"linktitle": "Экспорт Excel в PDF"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Экспорт Excel в PDF"
+"url": "/ru/java/excel-import-export/exporting-excel-to-pdf/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -61,7 +61,7 @@ public class ExcelToPdfConverter {
 }
 ```
 
- Обязательно замените`"path/to/your/excel/file.xlsx"` с фактическим путем к вашему файлу Excel.
+Обязательно замените `"path/to/your/excel/file.xlsx"` с фактическим путем к вашему файлу Excel.
 
 ## Шаг 3: Преобразование Excel в PDF
 
@@ -73,7 +73,7 @@ String pdfFilePath = "path/to/output/pdf/file.pdf";
 workbook.save(pdfFilePath, SaveFormat.PDF);
 ```
 
- Заменять`"path/to/output/pdf/file.pdf"` укажите предпочитаемый вами выходной путь и имя файла для итогового PDF-документа.
+Заменять `"path/to/output/pdf/file.pdf"` укажите предпочитаемый вами выходной путь и имя файла для итогового PDF-документа.
 
 ## Шаг 4: Улучшите свое Java-приложение
 
@@ -105,8 +105,8 @@ workbook.save(pdfFilePath, SaveFormat.PDF);
 
 В5: Где я могу найти дополнительную документацию и примеры для Aspose.Cells?
 
- Изучите документацию API Aspose.Cells по адресу[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения исчерпывающей документации и множества примеров для дальнейшего расширения ваших знаний.
-{{< /blocks/products/pf/tutorial-page-section >}}
+Изучите документацию API Aspose.Cells по адресу [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения исчерпывающей документации и множества примеров для дальнейшего расширения ваших знаний.
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

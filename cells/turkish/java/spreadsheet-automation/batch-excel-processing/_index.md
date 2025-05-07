@@ -1,10 +1,10 @@
 ---
-title: Toplu Excel İşleme
-linktitle: Toplu Excel İşleme
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java ile toplu Excel işleme görevlerini nasıl kolaylaştıracağınızı keşfedin. Kaynak kod örnekleriyle veri işleme, dönüştürme ve düzenlemeyi otomatikleştirin.
-weight: 10
-url: /tr/java/spreadsheet-automation/batch-excel-processing/
+"description": "Aspose.Cells for Java ile toplu Excel işleme görevlerini nasıl kolaylaştıracağınızı keşfedin. Kaynak kod örnekleriyle veri işleme, dönüştürme ve düzenlemeyi otomatikleştirin."
+"linktitle": "Toplu Excel İşleme"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Toplu Excel İşleme"
+"url": "/tr/java/spreadsheet-automation/batch-excel-processing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -29,7 +29,7 @@ Toplu Excel işlemlerinin otomatikleştirilmesi birçok avantaj sunar:
 
 ### 1. Ortamın Kurulması
 
- Başlamak için, Java için Aspose.Cells'in yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/java/).
+Başlamak için, Java için Aspose.Cells'in yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/cells/java/).
 
 ### 2. Aspose.Cells'i Başlatma
 
@@ -59,13 +59,13 @@ for (String filePath : excelFiles) {
     // Excel dosyasını yükleyin
     Workbook fileWorkbook = new Workbook(filePath);
     
-    //DosyaWorkbook üzerinde işlem görevlerini gerçekleştirin
+    // DosyaWorkbook üzerinde işlem görevlerini gerçekleştirin
 }
 ```
 
 ## Toplu Excel İşlemlerinin Otomatikleştirilmesi
 
-### 4. Veri İşleme ve Manipülasyonu
+### 4. Veri İşleme ve Manipülasyon
 
 Yüklenen her Excel dosyası için veri işleme ve düzenleme görevlerini otomatikleştirebilirsiniz. Örneğin, belirli verileri çıkarmak veya hesaplamalar yapmak isteyebilirsiniz:
 
@@ -105,8 +105,8 @@ Aspose.Cells for Java ile toplu Excel işlemeyi otomatikleştirmek, birden fazla
 ### 3. Aspose.Cells for Java için herhangi bir lisanslama gereksinimi var mı?
    Evet, projelerinizde Aspose.Cells for Java'yı kullanmak için geçerli bir lisansa ihtiyacınız olacak.
 
-### 4. Java için Aspose.Cells hakkında daha fazla kaynak ve belgeyi nerede bulabilirim?
-    API belgelerini şu adreste inceleyin:[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) Ayrıntılı bilgi ve örnekler için.
+### 4. Aspose.Cells for Java için daha fazla kaynak ve belgeyi nerede bulabilirim?
+   API belgelerini şu adreste inceleyin: [https://reference.aspose.com/hücreler/java/](https://reference.aspose.com/cells/java/) Ayrıntılı bilgi ve örnekler için.
 
 Aspose.Cells for Java'yı kullanarak toplu Excel işleme görevlerinizi optimize edin ve üretkenliğinizi artırın.
 {{< /blocks/products/pf/tutorial-page-section >}}

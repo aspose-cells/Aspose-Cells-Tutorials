@@ -1,10 +1,10 @@
 ---
-title: इंटरैक्टिव डैशबोर्ड
-linktitle: इंटरैक्टिव डैशबोर्ड
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: Aspose.Cells के साथ Java के लिए इंटरैक्टिव डैशबोर्ड बनाना सीखें। गतिशील डेटा विज़ुअलाइज़ेशन बनाने के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/java/advanced-excel-charts/interactive-dashboards/
+"description": "Aspose.Cells के साथ Java के लिए इंटरैक्टिव डैशबोर्ड बनाना सीखें। गतिशील डेटा विज़ुअलाइज़ेशन बनाने के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "इंटरैक्टिव डैशबोर्ड"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "इंटरैक्टिव डैशबोर्ड"
+"url": "/hi/java/advanced-excel-charts/interactive-dashboards/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /hi/java/advanced-excel-charts/interactive-dashboards/
 
 इससे पहले कि हम विवरण में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
--  Aspose.Cells for Java: Aspose.Cells for Java लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/cells/java/).
+- Aspose.Cells for Java: Aspose.Cells for Java लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/cells/java/).
 
 ## अपना प्रोजेक्ट सेट अप करना
 
@@ -61,7 +61,7 @@ worksheet.getCells().get("A3").putValue("February");
 
 ### चार्ट जोड़ना
 
-चार्ट डेटा को विज़ुअली दिखाने का एक बेहतरीन तरीका है। चलिए एक सरल कॉलम चार्ट जोड़ते हैं।
+चार्ट डेटा को विज़ुअली दिखाने का एक बेहतरीन तरीका है। आइए एक सरल कॉलम चार्ट जोड़ें।
 
 ```java
 // वर्कशीट में कॉलम चार्ट जोड़ें
@@ -84,7 +84,7 @@ chart.getNSeries().add("A2:A13", true);
 worksheet.getShapes().addShape(MsoDrawingType.BUTTON, 1, 1, 3, 1);
 Button button = (Button) worksheet.getShapes().get(0);
 
-//बटन की उपस्थिति और व्यवहार को अनुकूलित करें
+// बटन की उपस्थिति और व्यवहार को अनुकूलित करें
 button.setText("Update Chart");
 button.setActionType(MsoButtonActionType.HYPERLINK);
 button.setHyperlink("Sheet1!A2");
@@ -125,6 +125,7 @@ workbook.save("InteractiveDashboard.xlsx");
 ### क्या Aspose.Cells for Java बड़े पैमाने पर डेटा विज़ुअलाइज़ेशन परियोजनाओं के लिए उपयुक्त है?
 
 हां, Aspose.Cells for Java छोटे पैमाने और बड़े पैमाने के डेटा विज़ुअलाइज़ेशन प्रोजेक्ट दोनों के लिए उपयुक्त है। इसकी लचीलापन और व्यापक फीचर सेट इसे विविध आवश्यकताओं के लिए एक मजबूत विकल्प बनाते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

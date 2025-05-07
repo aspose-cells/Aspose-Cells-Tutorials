@@ -1,10 +1,10 @@
 ---
-title: Analiza linii trendu
-linktitle: Analiza linii trendu
-second_title: Aspose.Cells Java Excel Processing API
-description: Opanuj analizę trendów w Javie z Aspose.Cells. Naucz się tworzyć spostrzeżenia oparte na danych dzięki instrukcjom krok po kroku i przykładom kodu.
-weight: 15
-url: /pl/java/advanced-excel-charts/trendline-analysis/
+"description": "Opanuj analizę trendów w Javie z Aspose.Cells. Naucz się tworzyć spostrzeżenia oparte na danych dzięki instrukcjom krok po kroku i przykładom kodu."
+"linktitle": "Analiza linii trendu"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Analiza linii trendu"
+"url": "/pl/java/advanced-excel-charts/trendline-analysis/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ W tym samouczku pokażemy, jak wykonać analizę linii trendu przy użyciu Aspos
 Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 
 - Java zainstalowana w Twoim systemie.
--  Biblioteka Aspose.Cells dla Java. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/java/).
+- Biblioteka Aspose.Cells dla Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Konfigurowanie projektu
 
@@ -74,7 +74,7 @@ chart.getTitle().setText("Trendline Analysis");
 chart.getCategoryAxis().getTitle().setText("X-Axis");
 chart.getValueAxis().getTitle().setText("Y-Axis");
 
-//Zapisz plik Excel z wykresem
+// Zapisz plik Excel z wykresem
 workbook.save("output.xlsx");
 ```
 
@@ -84,21 +84,22 @@ Teraz masz wykres z dodaną linią trendu. Możesz dalej analizować linię tren
 
 ##Wniosek
 
-W tym samouczku nauczyliśmy się, jak wykonać analizę linii trendu przy użyciu Aspose.Cells dla Java. Stworzyliśmy przykładowy skoroszyt programu Excel, dodaliśmy dane, utworzyliśmy wykres i dodaliśmy linię trendu, aby wizualizować i analizować dane. Teraz możesz użyć tych technik, aby wykonać analizę linii trendu na własnych zestawach danych.
+tym samouczku nauczyliśmy się, jak wykonać analizę linii trendu przy użyciu Aspose.Cells dla Java. Stworzyliśmy przykładowy skoroszyt programu Excel, dodaliśmy dane, stworzyliśmy wykres i dodaliśmy linię trendu, aby wizualizować i analizować dane. Teraz możesz użyć tych technik, aby wykonać analizę linii trendu na własnych zestawach danych.
 
 ## Najczęściej zadawane pytania
 
 ### Jak mogę zmienić typ linii trendu?
 
- Aby zmienić typ linii trendu, zmodyfikuj`TrendlineType` wyliczenie podczas dodawania linii trendu. Na przykład użyj`TrendlineType.POLYNOMIAL` dla linii trendu wielomianowego.
+Aby zmienić typ linii trendu, zmodyfikuj `TrendlineType` wyliczenie podczas dodawania linii trendu. Na przykład użyj `TrendlineType.POLYNOMIAL` dla linii trendu wielomianowego.
 
 ### Czy mogę dostosować wygląd linii trendu?
 
- Tak, możesz dostosować wygląd linii trendu, uzyskując dostęp do właściwości, takich jak`setLineFormat()` I`setWeight()` obiektu linii trendu.
+Tak, możesz dostosować wygląd linii trendu, uzyskując dostęp do właściwości, takich jak `setLineFormat()` I `setWeight()` obiektu linii trendu.
 
 ### Jak wyeksportować wykres do obrazu lub pliku PDF?
 
 Możesz eksportować wykres do różnych formatów za pomocą Aspose.Cells. Zapoznaj się z dokumentacją, aby uzyskać szczegółowe instrukcje.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

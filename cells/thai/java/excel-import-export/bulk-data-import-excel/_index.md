@@ -1,10 +1,10 @@
 ---
-title: นำเข้าข้อมูลจำนวนมากใน Excel
-linktitle: นำเข้าข้อมูลจำนวนมากใน Excel
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีการนำเข้าข้อมูลจำนวนมากจาก Excel โดยใช้ Aspose.Cells สำหรับ Java API ปรับปรุงการประมวลผลข้อมูลของคุณด้วยคู่มือทีละขั้นตอนนี้
-weight: 10
-url: /th/java/excel-import-export/bulk-data-import-excel/
+"description": "เรียนรู้วิธีการนำเข้าข้อมูลจำนวนมากจาก Excel โดยใช้ Aspose.Cells สำหรับ Java API ปรับปรุงการประมวลผลข้อมูลของคุณด้วยคู่มือทีละขั้นตอนนี้"
+"linktitle": "นำเข้าข้อมูลจำนวนมากใน Excel"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "นำเข้าข้อมูลจำนวนมากใน Excel"
+"url": "/th/java/excel-import-export/bulk-data-import-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ url: /th/java/excel-import-export/bulk-data-import-excel/
 
 ก่อนที่จะเจาะลึกการใช้งานจริง ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
--  Aspose.Cells สำหรับไลบรารี Java: ดาวน์โหลดและติดตั้งไลบรารีจาก[ที่นี่](https://releases.aspose.com/cells/java/).
+- Aspose.Cells สำหรับไลบรารี Java: ดาวน์โหลดและติดตั้งไลบรารีจาก [ที่นี่](https://releases-aspose.com/cells/java/).
 
 - สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java บนระบบของคุณแล้ว
 
@@ -48,7 +48,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## ขั้นตอนที่ 3: ทำซ้ำผ่านแถวและคอลัมน์
 
-เมื่อคุณเข้าถึงเวิร์กชีตได้แล้ว คุณสามารถทำซ้ำแถวและคอลัมน์เพื่อเรียกค้นข้อมูลได้ โดยทำได้ดังนี้:
+เมื่อคุณเข้าถึงเวิร์กชีตได้แล้ว คุณสามารถทำซ้ำในแถวและคอลัมน์เพื่อเรียกค้นข้อมูลได้ โดยทำได้ดังนี้:
 
 ```java
 // รับจำนวนแถวและคอลัมน์สูงสุดในเวิร์กชีต

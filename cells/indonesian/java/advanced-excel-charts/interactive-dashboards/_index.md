@@ -1,10 +1,10 @@
 ---
-title: Dasbor Interaktif
-linktitle: Dasbor Interaktif
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari Cara Membuat Dasbor Interaktif dengan Aspose.Cells untuk Java. Panduan langkah demi langkah untuk membangun visualisasi data yang dinamis.
-weight: 10
-url: /id/java/advanced-excel-charts/interactive-dashboards/
+"description": "Pelajari Cara Membuat Dasbor Interaktif dengan Aspose.Cells untuk Java. Panduan langkah demi langkah untuk membangun visualisasi data yang dinamis."
+"linktitle": "Dasbor Interaktif"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Dasbor Interaktif"
+"url": "/id/java/advanced-excel-charts/interactive-dashboards/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Dalam dunia pengambilan keputusan berbasis data yang serba cepat, dasbor interak
 
 Sebelum kita membahas detailnya, pastikan Anda telah memenuhi prasyarat berikut:
 
--  Aspose.Cells untuk Java: Unduh dan instal pustaka Aspose.Cells untuk Java dari[Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk Java: Unduh dan instal pustaka Aspose.Cells untuk Java dari [Di Sini](https://releases.aspose.com/cells/java/).
 
 ## Menyiapkan Proyek Anda
 
@@ -84,7 +84,7 @@ Tombol dapat memicu tindakan di dasbor kita. Mari tambahkan tombol yang memperba
 worksheet.getShapes().addShape(MsoDrawingType.BUTTON, 1, 1, 3, 1);
 Button button = (Button) worksheet.getShapes().get(0);
 
-//Sesuaikan tampilan dan perilaku tombol
+// Sesuaikan tampilan dan perilaku tombol
 button.setText("Update Chart");
 button.setActionType(MsoButtonActionType.HYPERLINK);
 button.setHyperlink("Sheet1!A2");
@@ -102,7 +102,7 @@ workbook.save("InteractiveDashboard.xlsx");
 
 ## Kesimpulan
 
-Selamat! Anda telah mempelajari cara membuat dasbor interaktif menggunakan Aspose.Cells untuk Java. Pustaka canggih ini memungkinkan Anda membuat visualisasi data yang dinamis dan menarik, yang akan menyempurnakan proses pengambilan keputusan Anda. Bereksperimenlah dengan berbagai jenis bagan, opsi interaktivitas, dan elemen desain untuk membuat dasbor yang disesuaikan dengan kebutuhan spesifik Anda.
+Selamat! Anda telah mempelajari cara membuat dasbor interaktif menggunakan Aspose.Cells untuk Java. Pustaka canggih ini memungkinkan Anda membuat visualisasi data yang dinamis dan menarik, yang akan meningkatkan proses pengambilan keputusan Anda. Bereksperimenlah dengan berbagai jenis bagan, opsi interaktivitas, dan elemen desain untuk membuat dasbor yang disesuaikan dengan kebutuhan spesifik Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -125,6 +125,7 @@ Ya, Aspose.Cells untuk Java menyediakan kemampuan untuk mengekspor dasbor intera
 ### Apakah Aspose.Cells untuk Java cocok untuk proyek visualisasi data berskala besar?
 
 Ya, Aspose.Cells untuk Java sangat cocok untuk proyek visualisasi data skala kecil dan besar. Fleksibilitas dan rangkaian fiturnya yang luas menjadikannya pilihan yang tangguh untuk berbagai persyaratan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

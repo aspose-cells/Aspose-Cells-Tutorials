@@ -1,10 +1,10 @@
 ---
-title: Bảo vệ mật khẩu Excel
-linktitle: Bảo vệ mật khẩu Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách tăng cường bảo mật dữ liệu bằng bảo vệ mật khẩu Excel bằng Aspose.Cells cho Java. Hướng dẫn từng bước với mã nguồn để bảo mật dữ liệu tối ưu.
-weight: 10
-url: /vi/java/excel-data-security/excel-password-protection/
+"description": "Tìm hiểu cách tăng cường bảo mật dữ liệu bằng bảo vệ mật khẩu Excel bằng Aspose.Cells cho Java. Hướng dẫn từng bước với mã nguồn để bảo mật dữ liệu tối ưu."
+"linktitle": "Bảo vệ mật khẩu Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Bảo vệ mật khẩu Excel"
+"url": "/vi/java/excel-data-security/excel-password-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ Trong thời đại kỹ thuật số, việc bảo mật dữ liệu nhạy c�
 Trước khi tìm hiểu về bảo vệ mật khẩu Excel bằng Aspose.Cells for Java, bạn cần đảm bảo mình có các công cụ và kiến thức cần thiết:
 
 - Môi trường phát triển Java
--  Aspose.Cells cho Java API (Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/java/)
+- Aspose.Cells cho Java API (Bạn có thể tải xuống [đây](https://releases.aspose.com/cells/java/)
 - Kiến thức cơ bản về lập trình Java
 
 ## Thiết lập Môi trường
@@ -79,7 +79,7 @@ import com.aspose.cells.*;
 
 public class ExcelPasswordProtection {
     public static void main(String[] args) {
-        //Tải sổ làm việc hiện có
+        // Tải sổ làm việc hiện có
         Workbook workbook;
         try {
             workbook = new Workbook("Sample.xlsx");
@@ -102,7 +102,7 @@ public class ExcelPasswordProtection {
 }
 ```
 
- Trong mã này, chúng ta tải tệp Excel đã tạo trước đó, đặt mật khẩu và bảo vệ sổ làm việc. Bạn có thể thay thế`"MySecretPassword"` bằng mật khẩu bạn muốn.
+Trong mã này, chúng ta tải tệp Excel đã tạo trước đó, đặt mật khẩu và bảo vệ sổ làm việc. Bạn có thể thay thế `"MySecretPassword"` bằng mật khẩu bạn muốn.
 
 ## Phần kết luận
 
@@ -129,6 +129,7 @@ Có, bạn có thể thay đổi mật khẩu cho tệp Excel đã được bả
 ### Có bất kỳ hạn chế nào đối với việc bảo vệ bằng mật khẩu trong tệp Excel không?
 
 Bảo vệ bằng mật khẩu trong các tệp Excel là biện pháp bảo mật mạnh mẽ, nhưng điều cần thiết là phải chọn mật khẩu mạnh và giữ bí mật để tối đa hóa bảo mật.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

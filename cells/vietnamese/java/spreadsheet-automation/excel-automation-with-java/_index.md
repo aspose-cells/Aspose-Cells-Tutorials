@@ -1,10 +1,10 @@
 ---
-title: Tự động hóa Excel với Java
-linktitle: Tự động hóa Excel với Java
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách tự động hóa các tác vụ Excel trong Java với các ví dụ mã nguồn sử dụng Aspose.Cells, một thư viện mạnh mẽ để thao tác trên Excel.
-weight: 18
-url: /vi/java/spreadsheet-automation/excel-automation-with-java/
+"description": "Tìm hiểu cách tự động hóa các tác vụ Excel trong Java với các ví dụ mã nguồn sử dụng Aspose.Cells, một thư viện mạnh mẽ để thao tác trên Excel."
+"linktitle": "Tự động hóa Excel với Java"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Tự động hóa Excel với Java"
+"url": "/vi/java/spreadsheet-automation/excel-automation-with-java/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ Tự động hóa Excel bao gồm các tác vụ như đọc, viết và thao t�
 
 ## 2. Thiết lập dự án Java của bạn
 
- Để bắt đầu, hãy tải xuống Aspose.Cells cho Java từ[đây](https://releases.aspose.com/cells/java/). Bao gồm thư viện trong dự án Java của bạn. Sau đây là đoạn mã để thêm Aspose.Cells vào dự án Gradle của bạn:
+Để bắt đầu, hãy tải xuống Aspose.Cells cho Java từ [đây](https://releases.aspose.com/cells/java/). Bao gồm thư viện trong dự án Java của bạn. Sau đây là đoạn mã để thêm Aspose.Cells vào dự án Gradle của bạn:
 
 ```gradle
 dependencies {
@@ -113,7 +113,7 @@ Aspose.Cells for Java cho phép bạn tự động hóa các tác vụ Excel m�
 
 	Yes, it's optimized for handling large Excel files efficiently.
 
-###  Aspose.Cells có cung cấp hỗ trợ và tài liệu hướng dẫn không?
+###  Aspose.Cells có cung cấp hỗ trợ và tài liệu không?
 
 	Yes, you can find comprehensive documentation at [Aspose.Cells for Java API Reference](https://reference.aspose.com/cells/java/), and Aspose provides excellent support.
 

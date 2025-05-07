@@ -1,10 +1,10 @@
 ---
-title: Biểu đồ 3D
-linktitle: Biểu đồ 3D
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Học cách tạo biểu đồ 3D tuyệt đẹp trong Java với Aspose.Cells. Hướng dẫn từng bước để trực quan hóa dữ liệu Excel.
-weight: 13
-url: /vi/java/advanced-excel-charts/3d-charts/
+"description": "Học cách tạo biểu đồ 3D tuyệt đẹp trong Java với Aspose.Cells. Hướng dẫn từng bước để trực quan hóa dữ liệu Excel."
+"linktitle": "Biểu đồ 3D"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Biểu đồ 3D"
+"url": "/vi/java/advanced-excel-charts/3d-charts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -39,7 +39,7 @@ Bạn có thể tải xuống thư viện Aspose.Cells for Java từ trang web. 
 Để sử dụng Aspose.Cells cho Java, bạn sẽ cần khởi tạo giấy phép của mình. Bước này rất cần thiết để loại bỏ mọi hạn chế đánh giá và mở khóa toàn bộ tiềm năng của thư viện.
 
 ```java
-//Khởi tạo giấy phép Aspose.Cells
+// Khởi tạo giấy phép Aspose.Cells
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -150,7 +150,7 @@ Trong bài viết này, chúng tôi đã khám phá cách tạo biểu đồ 3D 
 
 ### Làm thế nào để thêm nhiều chuỗi dữ liệu vào biểu đồ 3D?
 
- Để thêm nhiều chuỗi dữ liệu vào biểu đồ 3D, bạn có thể sử dụng`chart.getNSeries().add()` phương pháp và chỉ định phạm vi dữ liệu cho từng chuỗi. Đảm bảo thiết lập loại biểu đồ phù hợp cho từng chuỗi để phân biệt chúng.
+Để thêm nhiều chuỗi dữ liệu vào biểu đồ 3D, bạn có thể sử dụng `chart.getNSeries().add()` phương pháp và chỉ định phạm vi dữ liệu cho từng chuỗi. Đảm bảo thiết lập loại biểu đồ phù hợp cho từng chuỗi để phân biệt chúng.
 
 ### Tôi có thể xuất biểu đồ 3D được tạo bằng Aspose.Cells for Java sang các định dạng khác không?
 
@@ -166,7 +166,8 @@ Có, bạn có thể tự động hóa quy trình cập nhật dữ liệu trong
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu và tài nguyên toàn diện về Aspose.Cells for Java tại trang web:[Tài liệu Aspose.Cells cho Java](https://reference.aspose.com/cells/java/).
+Bạn có thể tìm thấy tài liệu và tài nguyên toàn diện về Aspose.Cells for Java tại trang web: [Tài liệu Aspose.Cells cho Java](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

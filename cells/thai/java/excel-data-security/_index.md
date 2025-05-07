@@ -1,10 +1,10 @@
 ---
-title: การรักษาความปลอดภัยข้อมูล Excel
-linktitle: การรักษาความปลอดภัยข้อมูล Excel
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เพิ่มความปลอดภัยให้กับข้อมูล Excel ด้วย Aspose.Cells สำหรับ Java เรียนรู้ทีละขั้นตอนเกี่ยวกับวิธีปกป้องสเปรดชีต เข้ารหัสไฟล์ และรับรองความสมบูรณ์ของข้อมูล
-weight: 17
-url: /th/java/excel-data-security/
+"description": "เพิ่มความปลอดภัยให้กับข้อมูล Excel ด้วย Aspose.Cells สำหรับ Java เรียนรู้ทีละขั้นตอนเกี่ยวกับวิธีปกป้องสเปรดชีต เข้ารหัสไฟล์ และรับรองความสมบูรณ์ของข้อมูล"
+"linktitle": "การรักษาความปลอดภัยข้อมูล Excel"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การรักษาความปลอดภัยข้อมูล Excel"
+"url": "/th/java/excel-data-security/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

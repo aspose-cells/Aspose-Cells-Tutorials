@@ -1,10 +1,10 @@
 ---
-title: Excel'de Dinamik Açılır Listeler
-linktitle: Excel'de Dinamik Açılır Listeler
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Excel'deki Dinamik Açılır Listelerin Gücünü Keşfedin. Java için Aspose.Cells'i kullanarak adım adım kılavuz. Etkileşimli veri seçimiyle elektronik tablolarınızı geliştirin.
-weight: 11
-url: /tr/java/data-validation-rules/dynamic-dropdown-lists-in-excel/
+"description": "Excel'deki Dinamik Açılır Listelerin Gücünü Keşfedin. Java için Aspose.Cells'i kullanarak adım adım kılavuz. Etkileşimli veri seçimiyle elektronik tablolarınızı geliştirin."
+"linktitle": "Excel'de Dinamik Açılır Listeler"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Excel'de Dinamik Açılır Listeler"
+"url": "/tr/java/data-validation-rules/dynamic-dropdown-lists-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Dinamik açılır listeler oluşturmaya başlamadan önce, aşağıdaki ön koş
 
 - Java Geliştirme Ortamı: Sisteminizde Java ve uygun bir Entegre Geliştirme Ortamı (IDE) yüklü olmalıdır.
 
--  Aspose.Cells for Java Kütüphanesi: Aspose.Cells for Java kütüphanesini şu adresten indirin:[Burada](https://releases.aspose.com/cells/java/) ve bunu Java projenize dahil edin.
+- Aspose.Cells for Java Kütüphanesi: Aspose.Cells for Java kütüphanesini şu adresten indirin: [Burada](https://releases.aspose.com/cells/java/) ve bunu Java projenize dahil edin.
 
 Şimdi adım adım rehberimize başlayalım.
 
@@ -51,7 +51,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Adım 4: Açılır Liste Kaynağını Tanımlama
 
-Dinamik bir açılır liste oluşturmak için listenin değerlerini alacağı bir kaynağa ihtiyacınız vardır. Meyvelerden oluşan bir açılır liste oluşturmak istediğinizi varsayalım. Meyve adlarından oluşan bir diziyi şu şekilde tanımlayabilirsiniz:
+Dinamik bir açılır liste oluşturmak için listenin değerlerini alacağı bir kaynağa ihtiyacınız vardır. Diyelim ki meyvelerden oluşan bir açılır liste oluşturmak istiyorsunuz. Meyve adlarından oluşan bir diziyi şu şekilde tanımlayabilirsiniz:
 
 ```java
 String[] fruits = {"Apple", "Banana", "Cherry", "Grapes", "Orange"};
@@ -69,7 +69,7 @@ range.setValue(fruits);
 
 ## Adım 6: Veri Doğrulaması Ekleme
 
-Artık açılır listenin görünmesini istediğiniz hücreye veri doğrulaması ekleyebilirsiniz. Bu örnekte, bunu B2 hücresine ekleyeceğiz:
+Şimdi, açılır listenin görünmesini istediğiniz hücreye veri doğrulaması ekleyebilirsiniz. Bu örnekte, bunu B2 hücresine ekleyeceğiz:
 
 ```java
 Cell cell = worksheet.getCells().get("B2");
@@ -94,7 +94,7 @@ Aspose.Cells for Java kullanarak Excel'de dinamik açılır listeler oluşturmak
 
 ### Açılır liste kaynağını nasıl özelleştirebilirim?
 
- Açılır liste kaynağını özelleştirmek için, kaynağı tanımladığınız adımda değerler dizisini değiştirmeniz yeterlidir. Örneğin, öğeleri ekleyebilir veya kaldırabilirsiniz`fruits` Açılır listedeki seçenekleri değiştirmek için dizi.
+Açılır liste kaynağını özelleştirmek için, kaynağı tanımladığınız adımda değerler dizisini değiştirmeniz yeterlidir. Örneğin, öğeleri ekleyebilir veya kaldırabilirsiniz `fruits` açılır listedeki seçenekleri değiştirmek için dizi.
 
 ### Dinamik açılır listeli hücrelere koşullu biçimlendirme uygulayabilir miyim?
 
@@ -111,6 +111,7 @@ Evet, kullanıcıların dinamik açılır listelerle etkileşime girmesine izin 
 ### Açılır listedeki öğe sayısında herhangi bir sınırlama var mı?
 
 Açılır listedeki öğelerin sayısı Excel'in maksimum çalışma sayfası boyutuyla sınırlıdır. Ancak, kullanıcı deneyimini geliştirmek için listeyi öz ve bağlamla alakalı tutmak iyi bir uygulamadır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

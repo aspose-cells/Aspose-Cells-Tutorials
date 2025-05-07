@@ -1,10 +1,10 @@
 ---
-title: चार्ट एनोटेशन
-linktitle: चार्ट एनोटेशन
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: जावा के लिए Aspose.Cells का उपयोग करके चार्ट एनोटेशन के साथ अपने चार्ट को बेहतर बनाएँ - एक चरण-दर-चरण मार्गदर्शिका। जानकारीपूर्ण डेटा विज़ुअलाइज़ेशन के लिए एनोटेशन जोड़ने का तरीका जानें।
-weight: 16
-url: /hi/java/advanced-excel-charts/chart-annotations/
+"description": "जावा के लिए Aspose.Cells का उपयोग करके चार्ट एनोटेशन के साथ अपने चार्ट को बेहतर बनाएँ - एक चरण-दर-चरण मार्गदर्शिका। जानकारीपूर्ण डेटा विज़ुअलाइज़ेशन के लिए एनोटेशन जोड़ने का तरीका जानें।"
+"linktitle": "चार्ट एनोटेशन"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "चार्ट एनोटेशन"
+"url": "/hi/java/advanced-excel-charts/chart-annotations/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -28,7 +28,7 @@ url: /hi/java/advanced-excel-charts/chart-annotations/
 
 ## Java के लिए Aspose.Cells सेट अप करना
 
-आरंभ करने के लिए, आपको अपने प्रोजेक्ट में Java के लिए Aspose.Cells सेट अप करना होगा। आप Aspose वेबसाइट से लाइब्रेरी डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/java/)डाउनलोड हो जाने के बाद, लाइब्रेरी को अपने जावा प्रोजेक्ट में जोड़ें।
+आरंभ करने के लिए, आपको अपने प्रोजेक्ट में Java के लिए Aspose.Cells सेट अप करना होगा। आप Aspose वेबसाइट से लाइब्रेरी डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/java/)डाउनलोड हो जाने के बाद, लाइब्रेरी को अपने जावा प्रोजेक्ट में जोड़ें।
 
 ## एक्सेल वर्कबुक बनाना
 
@@ -74,7 +74,7 @@ chart.getNSeries().setCategoryData("A2:A13");
 
 ## चार्ट में एनोटेशन जोड़ना
 
- चार्ट में एनोटेशन जोड़ने के लिए, हम इसका उपयोग कर सकते हैं`TextFrame` Aspose.Cells में वर्ग.
+चार्ट में एनोटेशन जोड़ने के लिए, हम इसका उपयोग कर सकते हैं `TextFrame` Aspose.Cells में वर्ग.
 
 ```java
 // चार्ट में एनोटेशन जोड़ना
@@ -106,7 +106,7 @@ textFrame.getText().getCharacters().setColor(Color.getRed());
 
 ### मैं Java के लिए Aspose.Cells कैसे डाउनलोड करूं?
 
- आप Aspose.Cells for Java को Aspose वेबसाइट से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/java/).
+आप Aspose.Cells for Java को Aspose वेबसाइट से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/java/).
 
 ### क्या मैं एनोटेशन के स्वरूप को अनुकूलित कर सकता हूँ?
 
@@ -122,7 +122,8 @@ textFrame.getText().getCharacters().setColor(Color.getRed());
 
 ### मैं Java के लिए Aspose.Cells पर अधिक ट्यूटोरियल कहां पा सकता हूं?
 
- आप Aspose.Cells for Java पर अधिक ट्यूटोरियल और दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/cells/java/).
+आप Aspose.Cells for Java पर अधिक ट्यूटोरियल और दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

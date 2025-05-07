@@ -1,10 +1,10 @@
 ---
-title: मूल एक्सेल फ़ंक्शन
-linktitle: मूल एक्सेल फ़ंक्शन
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: जावा के लिए Aspose.Cells का उपयोग करके आवश्यक Excel फ़ंक्शन एक्सप्लोर करें। हमारे ट्यूटोरियल मूल बातें चरण-दर-चरण कवर करते हैं। स्प्रेडशीट मैनिपुलेशन के साथ आरंभ करें
-weight: 10
-url: /hi/java/basic-excel-functions/
+"description": "जावा के लिए Aspose.Cells का उपयोग करके आवश्यक Excel फ़ंक्शन एक्सप्लोर करें। हमारे ट्यूटोरियल मूल बातें चरण-दर-चरण कवर करते हैं। स्प्रेडशीट मैनिपुलेशन के साथ आरंभ करें"
+"linktitle": "मूल एक्सेल फ़ंक्शन"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "मूल एक्सेल फ़ंक्शन"
+"url": "/hi/java/basic-excel-functions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

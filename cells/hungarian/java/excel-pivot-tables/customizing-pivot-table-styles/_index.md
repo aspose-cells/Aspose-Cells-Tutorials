@@ -1,65 +1,65 @@
 ---
-title: A kimutatás-stílusok testreszabása
-linktitle: A kimutatás-stílusok testreszabása
-second_title: Aspose.Cells Java Excel Processing API
-description: Ismerje meg, hogyan szabhatja testre a pivot tábla stílusait az Aspose.Cells for Java API-ban. Könnyedén hozhat létre tetszetős pivot táblázatokat.
-weight: 18
-url: /hu/java/excel-pivot-tables/customizing-pivot-table-styles/
+"description": "Tanuld meg, hogyan szabhatod testre a pivot tábla stílusait az Aspose.Cells for Java API-ban. Hozz létre vizuálisan vonzó pivot táblákat könnyedén."
+"linktitle": "Kimutatási táblázat stílusainak testreszabása"
+"second_title": "Aspose.Cells Java Excel feldolgozási API"
+"title": "Kimutatási táblázat stílusainak testreszabása"
+"url": "/hu/java/excel-pivot-tables/customizing-pivot-table-styles/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A kimutatás-stílusok testreszabása
+# Kimutatási táblázat stílusainak testreszabása
 
 
-A kimutatástáblák hatékony eszközök az adatok táblázatokban történő összegzésére és elemzésére. Az Aspose.Cells for Java API-val nemcsak pivot táblákat hozhat létre, hanem azok stílusát is testreszabhatja, hogy az adatmegjelenítést vizuálisan vonzóvá tegye. Ebben a lépésről lépésre bemutatjuk, hogyan érheti el ezt a forráskód példáival.
+A pivot táblázatok hatékony eszközök az adatok táblázatokban történő összefoglalásához és elemzéséhez. Az Aspose.Cells for Java API segítségével nemcsak pivot táblázatokat hozhat létre, hanem testreszabhatja azok stílusát is, hogy az adatok bemutatása vizuálisan vonzóbb legyen. Ebben a lépésről lépésre bemutatott útmutatóban forráskód példákkal mutatjuk be, hogyan érheti el ezt.
 
-## Kezdő lépések
+## Első lépések
 
- A pivot tábla stílusok testreszabása előtt győződjön meg arról, hogy az Aspose.Cells for Java könyvtár integrálva van a projektbe. Letöltheti innen[itt](https://releases.aspose.com/cells/java/).
+A pivot tábla stílusainak testreszabása előtt győződjön meg arról, hogy az Aspose.Cells for Java könyvtár integrálva van a projektjébe. Letöltheti innen: [itt](https://releases.aspose.com/cells/java/).
 
-## 1. lépés: Hozzon létre egy kimutatástáblát
+## 1. lépés: Pivottábla létrehozása
 
-A stílusok testreszabásának megkezdéséhez pivot táblára van szüksége. Íme egy alapvető példa egy ilyen létrehozására:
+A stílusok testreszabásának megkezdéséhez szükséged van egy pivot táblázatra. Íme egy alapvető példa egy létrehozására:
 
 ```java
 // Munkafüzet példányosítása
 Workbook workbook = new Workbook();
 
-// Nyissa meg a munkalapot
+// Hozzáférés a munkalaphoz
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Hozzon létre egy kimutatástáblát
+// Pivottábla létrehozása
 PivotTableCollection pivotTables = worksheet.getPivotTables();
 int index = pivotTables.add("=A1:D6", "E3", "PivotTable1");
 PivotTable pivotTable = pivotTables.get(index);
 ```
 
-## 2. lépés: A kimutatás-stílusok testreszabása
+## 2. lépés: Pivot tábla stílusok testreszabása
 
-Most pedig térjünk át a testreszabási részre. Módosíthatja a pivot tábla stílusának különböző aspektusait, beleértve a betűtípusokat, a színeket és a formázást. Íme egy példa a pivot táblázat fejlécének betűtípusának és háttérszínének módosítására:
+Most pedig térjünk rá a testreszabási részre. A pivot tábla stílusának különböző aspektusait módosíthatjuk, beleértve a betűtípusokat, a színeket és a formázást. Íme egy példa a pivot tábla fejlécének betűtípusának és háttérszínének módosítására:
 
 ```java
-// A kimutatástábla fejlécstílusának testreszabása
+// Pivot tábla fejléc stílusának testreszabása
 Style pivotTableHeaderStyle = pivotTable.getTableStyleOption().getFirstRowStyle();
 pivotTableHeaderStyle.getFont().setBold(true);
 pivotTableHeaderStyle.getFont().setColor(Color.getBlue());
 pivotTableHeaderStyle.setForegroundColor(Color.getLightGray());
 ```
 
-## 3. lépés: Alkalmazza az egyéni stílust a kimutatástáblára
+## 3. lépés: Egyéni stílus alkalmazása a kimutatástáblázatra
 
-A stílus testreszabása után alkalmazza a pivot táblára:
+A stílus testreszabása után alkalmazza azt a pivot táblára:
 
 ```java
 pivotTable.setStyleType(StyleType.PIVOT_TABLE_STYLE_LIGHT_16);
 ```
 
-## 4. lépés: Mentse el a munkafüzetet
+## 4. lépés: A munkafüzet mentése
 
-Ne felejtse el menteni a munkafüzetet a testreszabott pivot tábla megtekintéséhez:
+Ne felejtsd el menteni a munkafüzetedet a testreszabott pivot tábla megtekintéséhez:
 
 ```java
 workbook.save("output.xlsx");
@@ -67,27 +67,27 @@ workbook.save("output.xlsx");
 
 ## Következtetés
 
-A pivot tábla stílusok testreszabása az Aspose.Cells for Java API-ban egyszerű, és lehetővé teszi, hogy vizuálisan lenyűgöző jelentéseket és prezentációkat készítsen az adatokról. Kísérletezzen a különböző stílusokkal, és tegye kitűnjön pivot táblázatait.
+Az Aspose.Cells for Java API-ban a pivot tábla stílusok testreszabása egyszerű, és lehetővé teszi, hogy vizuálisan lenyűgöző jelentéseket és adatprezentációkat készítsen. Kísérletezzen különböző stílusokkal, és tegye pivot tábláit kiemelkedővé.
 
 ## GYIK
 
-### Testreszabhatom a pivot táblázat adatainak betűméretét?
-   Igen, beállíthatja a betűméretet és az egyéb formázási tulajdonságokat saját igényei szerint.
+### Testreszabhatom a pivot tábla adatainak betűméretét?
+   Igen, a betűméretet és az egyéb formázási tulajdonságokat a saját preferenciái szerint módosíthatja.
 
-### Elérhetők előre meghatározott stílusok a pivot táblákhoz?
+### Vannak előre definiált stílusok a pivot táblázatokhoz?
    Igen, az Aspose.Cells for Java számos beépített stílus közül választhat.
 
-### Lehetséges feltételes formázást hozzáadni a pivot táblákhoz?
-   Feltétlenül alkalmazhat feltételes formázást, hogy kiemelje bizonyos adatokat a kimutatástáblázataiban.
+### Lehetséges feltételes formázást hozzáadni a pivot táblázatokhoz?
+   Természetesen feltételes formázást alkalmazhat bizonyos adatok kiemelésére a kimutatástáblázatokban.
 
-### Exportálhatom a pivot táblákat különböző fájlformátumokba?
-   Az Aspose.Cells for Java lehetővé teszi a pivot táblák különböző formátumokban történő mentését, beleértve az Excel, PDF és egyebeket.
+### Exportálhatok pivot táblákat különböző fájlformátumokba?
+   Az Aspose.Cells for Java lehetővé teszi a pivot táblák különböző formátumokban történő mentését, beleértve az Excelt, PDF-et és egyebeket.
 
 ### Hol találok további dokumentációt a pivot tábla testreszabásáról?
-    Az API dokumentációját a következő címen tekintheti meg[Aspose.Cells for Java API References](https://reference.aspose.com/cells/java/) részletes információkért.
+   Az API dokumentációját itt tekintheti meg: [Aspose.Cells Java API-hivatkozásokhoz](https://reference.aspose.com/cells/java/) részletes információkért.
 
-Most már rendelkezik a pivot tábla stílusok létrehozásához és testreszabásához szükséges ismeretekkel az Aspose.Cells for Java alkalmazásban. Fedezzen fel többet, és tegye igazán kivételessé adatbemutatóit!
-{{< /blocks/products/pf/tutorial-page-section >}}
+Most már rendelkezik a szükséges tudással ahhoz, hogy pivot táblastílusokat hozzon létre és testreszabjon az Aspose.Cells for Java programban. Fedezze fel a további lehetőségeket, és tegye adatprezentációit valóban kivételessé!
+{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

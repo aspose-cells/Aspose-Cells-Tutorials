@@ -1,10 +1,10 @@
 ---
-title: Xuất Excel sang PDF
-linktitle: Xuất Excel sang PDF
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách xuất tệp Excel sang PDF dễ dàng bằng Aspose.Cells for Java. Hướng dẫn từng bước của chúng tôi giúp đơn giản hóa quy trình. Bắt đầu chuyển đổi ngay hôm nay!
-weight: 14
-url: /vi/java/excel-import-export/exporting-excel-to-pdf/
+"description": "Tìm hiểu cách xuất tệp Excel sang PDF dễ dàng bằng Aspose.Cells for Java. Hướng dẫn từng bước của chúng tôi giúp đơn giản hóa quy trình. Bắt đầu chuyển đổi ngay hôm nay!"
+"linktitle": "Xuất Excel sang PDF"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Xuất Excel sang PDF"
+"url": "/vi/java/excel-import-export/exporting-excel-to-pdf/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -61,11 +61,11 @@ public class ExcelToPdfConverter {
 }
 ```
 
- Đảm bảo bạn thay thế`"path/to/your/excel/file.xlsx"` với đường dẫn thực tế đến tệp Excel của bạn.
+Đảm bảo bạn thay thế `"path/to/your/excel/file.xlsx"` với đường dẫn thực tế đến tệp Excel của bạn.
 
 ## Bước 3: Chuyển đổi Excel sang PDF
 
-Với tệp Excel đã tải, giờ chúng ta có thể tiến hành chuyển đổi sang định dạng PDF. Aspose.Cells đơn giản hóa quá trình này đáng kể:
+Sau khi tải xong tệp Excel, chúng ta có thể tiến hành chuyển đổi sang định dạng PDF. Aspose.Cells đơn giản hóa quá trình này đáng kể:
 
 ```java
 // Lưu bảng tính Excel dưới dạng tệp PDF
@@ -73,7 +73,7 @@ String pdfFilePath = "path/to/output/pdf/file.pdf";
 workbook.save(pdfFilePath, SaveFormat.PDF);
 ```
 
- Thay thế`"path/to/output/pdf/file.pdf"` với đường dẫn đầu ra và tên tệp ưa thích của bạn cho tài liệu PDF kết quả.
+Thay thế `"path/to/output/pdf/file.pdf"` với đường dẫn đầu ra và tên tệp ưa thích của bạn cho tài liệu PDF kết quả.
 
 ## Bước 4: Nâng cao ứng dụng Java của bạn
 
@@ -105,7 +105,7 @@ Mặc dù Aspose.Cells được tối ưu hóa để xử lý hiệu quả các 
 
 Câu hỏi 5: Tôi có thể tìm thêm tài liệu và ví dụ về Aspose.Cells ở đâu?
 
- Khám phá tài liệu API Aspose.Cells tại[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) để có tài liệu toàn diện và nhiều ví dụ giúp mở rộng kiến thức của bạn hơn nữa.
+Khám phá tài liệu API Aspose.Cells tại [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) để có tài liệu toàn diện và nhiều ví dụ giúp mở rộng kiến thức của bạn hơn nữa.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

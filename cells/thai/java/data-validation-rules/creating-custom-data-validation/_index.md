@@ -1,10 +1,10 @@
 ---
-title: การสร้างการตรวจสอบข้อมูลแบบกำหนดเอง
-linktitle: การสร้างการตรวจสอบข้อมูลแบบกำหนดเอง
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีสร้างการตรวจสอบข้อมูลแบบกำหนดเองโดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ
-weight: 10
-url: /th/java/data-validation-rules/creating-custom-data-validation/
+"description": "เรียนรู้วิธีสร้างการตรวจสอบข้อมูลแบบกำหนดเองโดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ"
+"linktitle": "การสร้างการตรวจสอบข้อมูลแบบกำหนดเอง"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การสร้างการตรวจสอบข้อมูลแบบกำหนดเอง"
+"url": "/th/java/data-validation-rules/creating-custom-data-validation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /th/java/data-validation-rules/creating-custom-data-validation/
 
 ก่อนที่จะดำดิ่งลงไปในโค้ด ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
--  Aspose.Cells สำหรับ Java: ดาวน์โหลดและติดตั้งไลบรารีจาก[ที่นี่](https://releases.aspose.com/cells/java/).
+- Aspose.Cells สำหรับ Java: ดาวน์โหลดและติดตั้งไลบรารีจาก [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ## ขั้นตอนที่ 1: การตั้งค่าโครงการ Java ของคุณ
 
@@ -95,7 +95,7 @@ workbook.save("CustomDataValidation.xlsx");
 
 ### ฉันจะดาวน์โหลด Aspose.Cells สำหรับ Java ได้อย่างไร?
 
- คุณสามารถดาวน์โหลด Aspose.Cells สำหรับ Java ได้จากเว็บไซต์ที่[ที่นี่](https://releases.aspose.com/cells/java/).
+คุณสามารถดาวน์โหลด Aspose.Cells สำหรับ Java ได้จากเว็บไซต์ที่ [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ### ฉันสามารถใช้การตรวจสอบข้อมูลแบบกำหนดเองกับช่วงต่างๆ ในเวิร์กชีตเดียวกันได้หรือไม่
 
@@ -107,11 +107,12 @@ workbook.save("CustomDataValidation.xlsx");
 
 ### ฉันจะปรับแต่งข้อความแสดงข้อผิดพลาดที่แสดงเมื่อการตรวจสอบข้อมูลล้มเหลวได้อย่างไร
 
- คุณสามารถปรับแต่งข้อความแสดงข้อผิดพลาดได้โดยการแก้ไข`setErrorMessage` วิธีการในขั้นตอนที่ 4 โดยที่คุณกำหนดเกณฑ์การตรวจสอบ
+คุณสามารถปรับแต่งข้อความแสดงข้อผิดพลาดได้โดยการแก้ไข `setErrorMessage` วิธีการในขั้นตอนที่ 4 โดยที่คุณกำหนดเกณฑ์การตรวจสอบ
 
 ### Aspose.Cells สำหรับ Java ทำงานกับไฟล์ Excel ในรูปแบบที่แตกต่างกันได้หรือไม่
 
 ใช่ Aspose.Cells สำหรับ Java รองรับรูปแบบไฟล์ Excel หลากหลาย รวมถึง XLS, XLSX, XLSM และอื่นๆ อีกมากมาย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

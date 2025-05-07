@@ -1,10 +1,10 @@
 ---
-title: Анализ тренда
-linktitle: Анализ тренда
-second_title: API обработки Java Excel Aspose.Cells
-description: Освойте анализ трендовых линий в Java с Aspose.Cells. Научитесь создавать основанные на данных идеи с помощью пошаговых инструкций и примеров кода.
-weight: 15
-url: /ru/java/advanced-excel-charts/trendline-analysis/
+"description": "Освойте анализ трендовых линий в Java с Aspose.Cells. Научитесь создавать основанные на данных идеи с помощью пошаговых инструкций и примеров кода."
+"linktitle": "Анализ тренда"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Анализ тренда"
+"url": "/ru/java/advanced-excel-charts/trendline-analysis/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ url: /ru/java/advanced-excel-charts/trendline-analysis/
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 
 - Java установлена в вашей системе.
--  Библиотека Aspose.Cells for Java. Вы можете скачать ее здесь[здесь](https://releases.aspose.com/cells/java/).
+- Библиотека Aspose.Cells for Java. Вы можете скачать ее здесь [здесь](https://releases.aspose.com/cells/java/).
 
 ## Шаг 1: Настройка проекта
 
@@ -74,7 +74,7 @@ chart.getTitle().setText("Trendline Analysis");
 chart.getCategoryAxis().getTitle().setText("X-Axis");
 chart.getValueAxis().getTitle().setText("Y-Axis");
 
-//Сохраните файл Excel с диаграммой
+// Сохраните файл Excel с диаграммой
 workbook.save("output.xlsx");
 ```
 
@@ -90,15 +90,16 @@ workbook.save("output.xlsx");
 
 ### Как изменить тип линии тренда?
 
- Чтобы изменить тип линии тренда, измените`TrendlineType` перечисление при добавлении линии тренда. Например, используйте`TrendlineType.POLYNOMIAL` для полиномиальной линии тренда.
+Чтобы изменить тип линии тренда, измените `TrendlineType` перечисление при добавлении линии тренда. Например, используйте `TrendlineType.POLYNOMIAL` для полиномиальной линии тренда.
 
 ### Могу ли я настроить внешний вид линии тренда?
 
- Да, вы можете настроить внешний вид линии тренда, используя такие свойства, как`setLineFormat()` и`setWeight()` объекта линии тренда.
+Да, вы можете настроить внешний вид линии тренда, используя такие свойства, как `setLineFormat()` и `setWeight()` объекта линии тренда.
 
 ### Как экспортировать диаграмму в изображение или PDF-файл?
 
 Вы можете экспортировать диаграмму в различные форматы с помощью Aspose.Cells. Подробные инструкции см. в документации.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

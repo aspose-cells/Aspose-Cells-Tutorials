@@ -1,10 +1,10 @@
 ---
-title: Bagan Excel Lanjutan
-linktitle: Bagan Excel Lanjutan
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Jelajahi Tutorial Bagan Excel Lanjutan dengan Aspose.Cells untuk Java. Tingkatkan keterampilan visualisasi data Anda selangkah demi selangkah. Kuasai pembuatan bagan hari ini!
-weight: 15
-url: /id/java/advanced-excel-charts/
+"description": "Jelajahi Tutorial Bagan Excel Lanjutan dengan Aspose.Cells untuk Java. Tingkatkan keterampilan visualisasi data Anda selangkah demi selangkah. Kuasai pembuatan bagan hari ini!"
+"linktitle": "Bagan Excel Lanjutan"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Bagan Excel Lanjutan"
+"url": "/id/java/advanced-excel-charts/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -47,7 +47,7 @@ Pelajari cara membuat animasi grafik yang menarik dengan Aspose.Cells untuk Java
 Pelajari cara membuat Diagram Waterfall yang menakjubkan dengan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber untuk visualisasi data yang efektif.
 ### [Interaktivitas Bagan](./chart-interactivity/)
 Pelajari cara membuat bagan interaktif menggunakan Aspose.Cells untuk Java. Tingkatkan visualisasi data Anda dengan interaktivitas.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blok/produk/pf/bagian-halaman-tutorial >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

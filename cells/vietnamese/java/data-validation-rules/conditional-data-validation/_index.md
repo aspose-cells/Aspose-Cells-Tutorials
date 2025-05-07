@@ -1,10 +1,10 @@
 ---
-title: Xác thực dữ liệu có điều kiện
-linktitle: Xác thực dữ liệu có điều kiện
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách triển khai xác thực dữ liệu có điều kiện bằng Aspose.Cells cho Java. Hướng dẫn từng bước với mã nguồn để xử lý dữ liệu chính xác trong bảng tính Excel.
-weight: 17
-url: /vi/java/data-validation-rules/conditional-data-validation/
+"description": "Tìm hiểu cách triển khai xác thực dữ liệu có điều kiện bằng Aspose.Cells cho Java. Hướng dẫn từng bước với mã nguồn để xử lý dữ liệu chính xác trong bảng tính Excel."
+"linktitle": "Xác thực dữ liệu có điều kiện"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Xác thực dữ liệu có điều kiện"
+"url": "/vi/java/data-validation-rules/conditional-data-validation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ Trước khi đi sâu vào chi tiết về xác thực dữ liệu có điều k
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Aspose.Cells cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
+- Aspose.Cells cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/java/).
 
 ## Bước 1: Tạo một dự án Java mới
 
@@ -95,7 +95,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách triển khai xác t
 
 ### Làm thế nào để cài đặt Aspose.Cells cho Java?
 
- Aspose.Cells cho Java có thể được cài đặt bằng cách tải xuống thư viện từ trang web tại[đây](https://releases.aspose.com/cells/java/).
+Aspose.Cells cho Java có thể được cài đặt bằng cách tải xuống thư viện từ trang web tại [đây](https://releases.aspose.com/cells/java/).
 
 ### Tôi có thể áp dụng xác thực dữ liệu có điều kiện cho nhiều ô cùng một lúc không?
 
@@ -112,6 +112,7 @@ Hoàn toàn được! Bạn có thể tùy chỉnh thông báo lỗi, tiêu đ�
 ### Có bất kỳ hạn chế nào đối với việc xác thực dữ liệu có điều kiện trong Aspose.Cells cho Java không?
 
 Mặc dù Aspose.Cells for Java cung cấp các tính năng xác thực dữ liệu mạnh mẽ, nhưng điều cần thiết là phải xem xét tài liệu để biết bất kỳ hạn chế hoặc cân nhắc cụ thể nào khi triển khai các quy tắc xác thực phức tạp.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

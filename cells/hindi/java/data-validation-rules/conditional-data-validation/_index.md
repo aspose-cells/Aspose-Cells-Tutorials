@@ -1,10 +1,10 @@
 ---
-title: सशर्त डेटा सत्यापन
-linktitle: सशर्त डेटा सत्यापन
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: जावा के लिए Aspose.Cells का उपयोग करके सशर्त डेटा सत्यापन को लागू करना सीखें। एक्सेल स्प्रेडशीट में सटीक डेटा हैंडलिंग के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 17
-url: /hi/java/data-validation-rules/conditional-data-validation/
+"description": "जावा के लिए Aspose.Cells का उपयोग करके सशर्त डेटा सत्यापन को लागू करना सीखें। एक्सेल स्प्रेडशीट में सटीक डेटा हैंडलिंग के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "सशर्त डेटा सत्यापन"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "सशर्त डेटा सत्यापन"
+"url": "/hi/java/data-validation-rules/conditional-data-validation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ url: /hi/java/data-validation-rules/conditional-data-validation/
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Cells for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/java/).
+- Aspose.Cells for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/java/).
 
 ## चरण 1: एक नया जावा प्रोजेक्ट बनाएं
 
@@ -31,7 +31,7 @@ url: /hi/java/data-validation-rules/conditional-data-validation/
 
 1. अपना आईडीई खोलें.
 2. एक नया जावा प्रोजेक्ट बनाएं.
-3. Aspose.Cells for Java लाइब्रेरी सहित आवश्यक निर्भरताओं के साथ प्रोजेक्ट सेट अप करें।
+3. Aspose.Cells for Java लाइब्रेरी सहित आवश्यक निर्भरताओं के साथ प्रोजेक्ट सेट करें।
 
 ## चरण 2: Java के लिए Aspose.Cells आयात करें
 
@@ -95,7 +95,7 @@ workbook.save("ConditionalValidationExample.xlsx");
 
 ### मैं Java के लिए Aspose.Cells कैसे स्थापित करूं?
 
- जावा के लिए Aspose.Cells को वेबसाइट से लाइब्रेरी डाउनलोड करके स्थापित किया जा सकता है[यहाँ](https://releases.aspose.com/cells/java/).
+जावा के लिए Aspose.Cells को वेबसाइट से लाइब्रेरी डाउनलोड करके स्थापित किया जा सकता है [यहाँ](https://releases.aspose.com/cells/java/).
 
 ### क्या मैं एक साथ कई कक्षों पर सशर्त डेटा सत्यापन लागू कर सकता हूँ?
 
@@ -107,11 +107,12 @@ workbook.save("ConditionalValidationExample.xlsx");
 
 ### क्या मैं डेटा सत्यापन के लिए त्रुटि संदेशों को अनुकूलित कर सकता हूँ?
 
-बिल्कुल! आप अपने एप्लिकेशन की आवश्यकताओं के अनुरूप त्रुटि संदेश, शीर्षक और त्रुटि अलर्ट की उपस्थिति को अनुकूलित कर सकते हैं।
+बिल्कुल! आप अपने आवेदन की आवश्यकताओं के अनुरूप त्रुटि संदेश, शीर्षक और त्रुटि अलर्ट की उपस्थिति को अनुकूलित कर सकते हैं।
 
 ### क्या Java के लिए Aspose.Cells में सशर्त डेटा सत्यापन की कोई सीमाएँ हैं?
 
 जबकि Java के लिए Aspose.Cells मजबूत डेटा सत्यापन सुविधाएँ प्रदान करता है, जटिल सत्यापन नियमों को लागू करते समय किसी भी विशिष्ट सीमाओं या विचारों के लिए दस्तावेज़ की समीक्षा करना आवश्यक है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

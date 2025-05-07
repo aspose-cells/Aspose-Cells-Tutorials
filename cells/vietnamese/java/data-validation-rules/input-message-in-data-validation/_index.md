@@ -1,10 +1,10 @@
 ---
-title: Nhập tin nhắn trong Xác thực dữ liệu
-linktitle: Nhập tin nhắn trong Xác thực dữ liệu
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách nâng cao xác thực dữ liệu trong Excel bằng Aspose.Cells cho Java. Hướng dẫn từng bước với các ví dụ mã để cải thiện độ chính xác của dữ liệu và hướng dẫn người dùng.
-weight: 18
-url: /vi/java/data-validation-rules/input-message-in-data-validation/
+"description": "Tìm hiểu cách nâng cao xác thực dữ liệu trong Excel bằng Aspose.Cells cho Java. Hướng dẫn từng bước với các ví dụ mã để cải thiện độ chính xác của dữ liệu và hướng dẫn người dùng."
+"linktitle": "Nhập tin nhắn trong Xác thực dữ liệu"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Nhập tin nhắn trong Xác thực dữ liệu"
+"url": "/vi/java/data-validation-rules/input-message-in-data-validation/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -28,7 +28,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập môi trư�
 
 ## Tạo một dự án Java mới
 
-Bắt đầu bằng cách tạo một dự án Java mới trong IDE bạn đã chọn. Đặt cho nó một cái tên có ý nghĩa, chẳng hạn như "DataValidationDemo."
+Bắt đầu bằng cách tạo một dự án Java mới trong IDE bạn chọn. Đặt cho nó một cái tên có ý nghĩa, chẳng hạn như "DataValidationDemo".
 
 ## Thêm Aspose.Cells cho Java vào dự án của bạn
 
@@ -132,7 +132,7 @@ Trong bài viết này, chúng tôi đã khám phá cách thêm thông báo đ�
 
 ### Làm thế nào để thêm xác thực dữ liệu vào nhiều ô cùng một lúc?
 
- Để thêm xác thực dữ liệu vào nhiều ô, bạn có thể xác định một phạm vi ô và áp dụng các quy tắc xác thực cho phạm vi đó. Aspose.Cells for Java cho phép bạn chỉ định một phạm vi ô bằng cách sử dụng`CellArea` lớp học.
+Để thêm xác thực dữ liệu vào nhiều ô, bạn có thể xác định một phạm vi ô và áp dụng các quy tắc xác thực cho phạm vi đó. Aspose.Cells for Java cho phép bạn chỉ định một phạm vi ô bằng cách sử dụng `CellArea` lớp học.
 
 ### Tôi có thể sử dụng công thức tùy chỉnh để xác thực dữ liệu không?
 
@@ -140,7 +140,7 @@ Có, bạn có thể sử dụng các công thức tùy chỉnh để xác thự
 
 ### Làm thế nào để xóa xác thực dữ liệu khỏi một ô?
 
- Để xóa xác thực dữ liệu khỏi một ô, bạn chỉ cần gọi`removeDataValidation`phương pháp trên ô. Thao tác này sẽ xóa mọi quy tắc xác thực hiện có cho ô đó.
+Để xóa xác thực dữ liệu khỏi một ô, bạn chỉ cần gọi `removeDataValidation` phương pháp trên ô. Thao tác này sẽ xóa mọi quy tắc xác thực hiện có cho ô đó.
 
 ### Tôi có thể thiết lập các thông báo lỗi khác nhau cho các quy tắc xác thực khác nhau không?
 
@@ -148,7 +148,8 @@ Có, bạn có thể thiết lập các thông báo lỗi khác nhau cho các qu
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Cells cho Java ở đâu?
 
- Để biết thêm thông tin về Aspose.Cells for Java và các tính năng của nó, bạn có thể truy cập tài liệu tại[đây](https://reference.aspose.com/cells/java/).
+Để biết thêm thông tin về Aspose.Cells for Java và các tính năng của nó, bạn có thể truy cập tài liệu tại [đây](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

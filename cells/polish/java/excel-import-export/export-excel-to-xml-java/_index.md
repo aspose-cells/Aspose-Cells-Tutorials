@@ -1,10 +1,10 @@
 ---
-title: Eksportuj Excel do XML Java
-linktitle: Eksportuj Excel do XML Java
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak eksportować Excel do XML w Javie za pomocą Aspose.Cells for Java. Przewodnik krok po kroku z kodem źródłowym dla bezproblemowej konwersji danych.
-weight: 15
-url: /pl/java/excel-import-export/export-excel-to-xml-java/
+"description": "Dowiedz się, jak eksportować Excel do XML w Javie za pomocą Aspose.Cells for Java. Przewodnik krok po kroku z kodem źródłowym dla bezproblemowej konwersji danych."
+"linktitle": "Eksportuj Excel do XML Java"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Eksportuj Excel do XML Java"
+"url": "/pl/java/excel-import-export/export-excel-to-xml-java/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,14 +14,14 @@ url: /pl/java/excel-import-export/export-excel-to-xml-java/
 # Eksportuj Excel do XML Java
 
 
-W tym kompleksowym przewodniku przeprowadzimy Cię przez proces eksportowania danych Excel do XML przy użyciu Aspose.Cells dla Java. Dzięki szczegółowym wyjaśnieniom i przykładom kodu źródłowego opanujesz to niezbędne zadanie w mgnieniu oka.
+tym kompleksowym przewodniku przeprowadzimy Cię przez proces eksportowania danych Excel do XML przy użyciu Aspose.Cells dla Java. Dzięki szczegółowym wyjaśnieniom i przykładom kodu źródłowego opanujesz to niezbędne zadanie w mgnieniu oka.
 
 ## Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 
 - Java Development Kit (JDK) zainstalowany w Twoim systemie.
--  Biblioteka Aspose.Cells dla Java, którą można pobrać[Tutaj](https://releases.aspose.com/cells/java/).
+- Biblioteka Aspose.Cells dla Java, którą można pobrać [Tutaj](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Konfigurowanie projektu
 
@@ -122,6 +122,7 @@ Gratulacje! Udało Ci się nauczyć, jak eksportować dane Excela do XML w Javie
 
 ### 5. Czy istnieją jakieś wymagania licencyjne dotyczące korzystania z Aspose.Cells dla Java?
    Tak, musisz uzyskać ważną licencję od Aspose, aby korzystać z biblioteki w środowisku produkcyjnym. Odwiedź ich stronę internetową, aby uzyskać szczegóły dotyczące licencjonowania.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

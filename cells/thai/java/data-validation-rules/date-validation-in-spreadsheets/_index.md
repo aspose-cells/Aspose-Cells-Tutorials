@@ -1,10 +1,10 @@
 ---
-title: การตรวจสอบวันที่ในสเปรดชีต
-linktitle: การตรวจสอบวันที่ในสเปรดชีต
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีการตรวจสอบวันที่ในสเปรดชีต Excel โดยใช้ Aspose.Cells สำหรับ Java รับรองความถูกต้องและความสมบูรณ์ของข้อมูลด้วยคู่มือทีละขั้นตอนของเรา สำรวจเทคนิคการจัดการ Excel ที่มีประสิทธิภาพ
-weight: 14
-url: /th/java/data-validation-rules/date-validation-in-spreadsheets/
+"description": "เรียนรู้วิธีการตรวจสอบวันที่ในสเปรดชีต Excel โดยใช้ Aspose.Cells สำหรับ Java รับรองความถูกต้องและความสมบูรณ์ของข้อมูลด้วยคู่มือทีละขั้นตอนของเรา สำรวจเทคนิคการจัดการ Excel ที่มีประสิทธิภาพ"
+"linktitle": "การตรวจสอบวันที่ในสเปรดชีต"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การตรวจสอบวันที่ในสเปรดชีต"
+"url": "/th/java/data-validation-rules/date-validation-in-spreadsheets/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,14 +22,14 @@ url: /th/java/data-validation-rules/date-validation-in-spreadsheets/
 
 ก่อนที่จะเจาะลึกการตรวจสอบวันที่ โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 - การตั้งค่าสภาพแวดล้อมการพัฒนา Java
--  ดาวน์โหลดไลบรารี Aspose.Cells สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/cells/java/).
+- ดาวน์โหลดไลบรารี Aspose.Cells สำหรับ Java จาก [ที่นี่](https://releases-aspose.com/cells/java/).
 - ความรู้พื้นฐานในการทำงานกับไฟล์ Excel ใน Java
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
 ในการเริ่มต้น คุณต้องเพิ่มไลบรารี Aspose.Cells ลงในโปรเจ็กต์ Java ของคุณ ทำตามขั้นตอนเหล่านี้:
 
-1.  ดาวน์โหลดไลบรารี Aspose.Cells สำหรับ Java จากที่ให้มา[ลิงค์](https://releases.aspose.com/cells/java/).
+1. ดาวน์โหลดไลบรารี Aspose.Cells สำหรับ Java จากที่ให้มา [ลิงค์](https://releases-aspose.com/cells/java/).
 
 2. รวมไฟล์ JAR ที่ดาวน์โหลดไว้ใน classpath ของโปรเจ็กต์ของคุณ
 
@@ -55,7 +55,7 @@ Worksheet worksheet = workbook.getWorksheets().get("Sheet1");
 
 ## ขั้นตอนที่ 3: การตรวจสอบวันที่
 
-ตอนนี้มาถึงส่วนสำคัญ – การตรวจสอบวันที่ในสเปรดชีต เราจะวนซ้ำในเซลล์ต่างๆ และตรวจสอบว่ามีวันที่ถูกต้องหรือไม่:
+ตอนนี้มาถึงส่วนสำคัญ – การตรวจสอบวันที่ในสเปรดชีต เราจะวนซ้ำในเซลล์ต่างๆ และตรวจสอบว่ามีวันที่ที่ถูกต้องหรือไม่:
 
 ```java
 // วนซ้ำผ่านเซลล์
@@ -112,7 +112,8 @@ workbook.save("updated_excel_file.xlsx");
 
 ### ฉันสามารถหาทรัพยากรและตัวอย่างเพิ่มเติมสำหรับ Aspose.Cells สำหรับ Java ได้ที่ไหน
 
- คุณสามารถอ้างอิงได้จาก[เอกสารอ้างอิง API Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/) สำหรับเอกสารและตัวอย่างที่ครอบคลุม
+คุณสามารถอ้างอิงได้จาก [เอกสารอ้างอิง API Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/) สำหรับเอกสารและตัวอย่างที่ครอบคลุม
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

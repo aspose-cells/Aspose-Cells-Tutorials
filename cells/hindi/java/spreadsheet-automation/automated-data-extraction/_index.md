@@ -1,10 +1,10 @@
 ---
-title: स्वचालित डेटा निष्कर्षण
-linktitle: स्वचालित डेटा निष्कर्षण
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: जावा के लिए Aspose.Cells का उपयोग करके स्रोत कोड उदाहरणों के साथ कुशलतापूर्वक डेटा निष्कर्षण को स्वचालित करना सीखें। Excel फ़ाइलों से आसानी से डेटा निकालें।
-weight: 14
-url: /hi/java/spreadsheet-automation/automated-data-extraction/
+"description": "जावा के लिए Aspose.Cells का उपयोग करके स्रोत कोड उदाहरणों के साथ कुशलतापूर्वक डेटा निष्कर्षण को स्वचालित करना सीखें। Excel फ़ाइलों से आसानी से डेटा निकालें।"
+"linktitle": "स्वचालित डेटा निष्कर्षण"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "स्वचालित डेटा निष्कर्षण"
+"url": "/hi/java/spreadsheet-automation/automated-data-extraction/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -32,7 +32,7 @@ url: /hi/java/spreadsheet-automation/automated-data-extraction/
 
 ### 1. वातावरण की स्थापना
 
- सबसे पहले, सुनिश्चित करें कि आपके पास Aspose.Cells for Java इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/java/).
+सबसे पहले, सुनिश्चित करें कि आपके पास Aspose.Cells for Java इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/java/).
 
 ### 2. Aspose.Cells को आरंभ करना
 
@@ -108,7 +108,7 @@ Aspose.Cells for Java के साथ डेटा निष्कर्षण 
    हां, आपको अपनी परियोजनाओं में Java के लिए Aspose.Cells का उपयोग करने के लिए एक वैध लाइसेंस की आवश्यकता होगी।
 
 ### 5. मैं Aspose.Cells for Java के लिए अधिक संसाधन और दस्तावेज़ कहां पा सकता हूं?
-    API दस्तावेज़न का अन्वेषण करें[https://reference.aspose.com/ Cells/java/](https://reference.aspose.com/cells/java/) गहन जानकारी और उदाहरण के लिए.
+   API दस्तावेज़न का अन्वेषण करें [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) गहन जानकारी और उदाहरण के लिए.
 
 Aspose.Cells for Java के साथ आज ही अपने डेटा निष्कर्षण कार्यों को स्वचालित करना शुरू करें और अपनी डेटा पुनर्प्राप्ति प्रक्रियाओं को सुव्यवस्थित करें।
 {{< /blocks/products/pf/tutorial-page-section >}}

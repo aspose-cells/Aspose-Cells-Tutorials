@@ -1,10 +1,10 @@
 ---
-title: Przewodnik po formule SUMA w programie Excel
-linktitle: Przewodnik po formule SUMA w programie Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Odkryj potencjał formuły SUM w programie Excel za pomocą Aspose.Cells dla Java — kompleksowego przewodnika po automatyzacji w programie Excel.
-weight: 10
-url: /pl/java/basic-excel-functions/excel-sum-formula-guide/
+"description": "Odkryj potencjał formuły SUM w programie Excel za pomocą Aspose.Cells dla Java — kompleksowego przewodnika po automatyzacji w programie Excel."
+"linktitle": "Przewodnik po formule SUMA w programie Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Przewodnik po formule SUMA w programie Excel"
+"url": "/pl/java/basic-excel-functions/excel-sum-formula-guide/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Aspose.Cells for Java to solidny interfejs API Java, który umożliwia programis
 
 ## Konfigurowanie środowiska
 
- Przed zanurzeniem się w formułach Excela, kluczowe jest skonfigurowanie środowiska programistycznego. Upewnij się, że masz zainstalowaną Javę, pobierz bibliotekę Aspose.Cells for Java i uwzględnij ją w swoim projekcie. Link do pobrania znajdziesz[Tutaj](https://releases.aspose.com/cells/java/).
+Przed zanurzeniem się w formułach Excela, kluczowe jest skonfigurowanie środowiska programistycznego. Upewnij się, że masz zainstalowaną Javę, pobierz bibliotekę Aspose.Cells for Java i uwzględnij ją w swoim projekcie. Link do pobrania znajdziesz [Tutaj](https://releases.aspose.com/cells/java/).
 
 ## Tworzenie nowego skoroszytu
 
@@ -60,7 +60,7 @@ W tym przykładzie dodaliśmy liczbę 10 do komórki A1.
 
 ## Zrozumienie wzoru SUMA
 
- Formuła SUM służy do obliczania sumy zakresu liczb w programie Excel. Jej podstawowa składnia to`=SUM(range)`, gdzie „zakres” reprezentuje komórki, które chcesz dodać.
+Formuła SUM służy do obliczania sumy zakresu liczb w programie Excel. Jej podstawowa składnia to `=SUM(range)`, gdzie „zakres” reprezentuje komórki, które chcesz dodać.
 
 ## Korzystanie z funkcjonalności SUMA z Aspose.Cells
 
@@ -76,7 +76,7 @@ workbook.calculateFormula();
 workbook.save("sample.xlsx");
 ```
 
- W tym przykładzie użyliśmy`setFormula`metodę zastosowania formuły SUMA do komórki B1, sumując wartości w komórkach A1 do A10.
+W tym przykładzie użyliśmy `setFormula` metodę zastosowania formuły SUMA do komórki B1, sumując wartości w komórkach A1 do A10.
 
 ## Stosowanie SUMY w różnych zakresach
 
@@ -99,7 +99,7 @@ Tutaj obliczyliśmy sumę wartości w komórkach A1 do A10 i D1 do D10 i umieśc
 
 ## SUMA warunkowa z Aspose.Cells
 
- Aspose.Cells pozwala również na implementację formuł warunkowej SUMY, co może być niezwykle przydatne w przypadku złożonej analizy danych. Możesz używać funkcji takich jak`SUMIF` I`SUMIFS` aby zastosować warunki do swoich kwot.
+Aspose.Cells pozwala również na implementację formuł warunkowej SUMY, co może być niezwykle przydatne w przypadku złożonej analizy danych. Możesz używać funkcji takich jak `SUMIF` I `SUMIFS` aby zastosować warunki do swoich kwot.
 
 ```java
 // SUMA warunkowa
@@ -129,13 +129,13 @@ W tym kompleksowym przewodniku przyjrzeliśmy się formule Excel SUM i sposobowi
 
 ### Jak pobrać Aspose.Cells dla Java?
 
- Możesz pobrać Aspose.Cells dla Java ze strony internetowej:[Tutaj](https://releases.aspose.com/cells/java/)Wybierz wersję odpowiadającą Twoim potrzebom i postępuj zgodnie z instrukcjami instalacji.
+Możesz pobrać Aspose.Cells dla Java ze strony internetowej: [Tutaj](https://releases.aspose.com/cells/java/)Wybierz wersję odpowiadającą Twoim potrzebom i postępuj zgodnie z instrukcjami instalacji.
 
 ### Czy mogę używać Aspose.Cells for Java w projektach komercyjnych?
 
 Tak, Aspose.Cells for Java nadaje się zarówno do projektów komercyjnych, jak i niekomercyjnych. Oferuje opcje licencjonowania, które spełniają różne wymagania, w tym wymagania firm.
 
-### Czy istnieją jakieś ograniczenia dotyczące formuły SUMA w Aspose.Cells?
+### Czy istnieją jakieś ograniczenia formuły SUMA w Aspose.Cells?
 
 Aspose.Cells zapewnia solidne wsparcie dla formuł Excela, w tym SUM. Jednak ważne jest przejrzenie dokumentacji i przetestowanie konkretnych przypadków użycia, aby zapewnić zgodność i wydajność.
 
@@ -145,7 +145,8 @@ Oczywiście! Aspose.Cells for Java obsługuje szeroki zakres funkcji Excela, co 
 
 ### Gdzie mogę znaleźć więcej materiałów i dokumentacji dla Aspose.Cells dla Java?
 
- Pełną dokumentację i dodatkowe zasoby dotyczące Aspose.Cells dla języka Java można uzyskać pod adresem[Tutaj](https://reference.aspose.com/cells/java/)Przeglądaj dokumentację, aby odkryć zaawansowane funkcje i przykłady.
+Pełną dokumentację i dodatkowe zasoby dotyczące Aspose.Cells dla języka Java można uzyskać pod adresem [Tutaj](https://reference.aspose.com/cells/java/). Przeglądaj dokumentację, aby odkryć zaawansowane funkcje i przykłady.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

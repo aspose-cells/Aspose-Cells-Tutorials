@@ -1,10 +1,10 @@
 ---
-title: Анализ данных Диаграммы Excel
-linktitle: Анализ данных Диаграммы Excel
-second_title: API обработки Java Excel Aspose.Cells
-description: Раскройте совершенство анализа данных с Aspose.Cells для Java. Создавайте потрясающие диаграммы и отчеты Excel.
-weight: 15
-url: /ru/java/excel-data-analysis/data-analysis-excel-charts/
+"description": "Раскройте совершенство анализа данных с Aspose.Cells для Java. Создавайте потрясающие диаграммы и отчеты Excel."
+"linktitle": "Анализ данных Диаграммы Excel"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Анализ данных Диаграммы Excel"
+"url": "/ru/java/excel-data-analysis/data-analysis-excel-charts/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ url: /ru/java/excel-data-analysis/data-analysis-excel-charts/
 
 - Среда разработки Java: убедитесь, что в вашей системе установлена Java.
 
--  Aspose.Cells для Java: Загрузите и установите библиотеку Aspose.Cells для Java с сайта[здесь](https://releases.aspose.com/cells/java/).
+- Aspose.Cells для Java: Загрузите и установите библиотеку Aspose.Cells для Java с сайта [здесь](https://releases.aspose.com/cells/java/).
 
 - Источник данных: Имейте набор данных, готовый к анализу. Вы можете использовать любой источник данных, например, CSV-файл или базу данных.
 
@@ -34,7 +34,7 @@ url: /ru/java/excel-data-analysis/data-analysis-excel-charts/
 
 1. Создайте проект Java: начните с создания нового проекта Java в предпочитаемой вами интегрированной среде разработки (IDE).
 
-2. Добавьте библиотеку Aspose.Cells for Java: включите библиотеку Aspose.Cells for Java в свой проект, добавив ее в classpath.
+2. Добавьте библиотеку Aspose.Cells для Java: включите библиотеку Aspose.Cells для Java в свой проект, добавив ее в classpath.
 
 3. Импорт классов Aspose.Cells: импортируйте необходимые классы Aspose.Cells в начало вашего файла Java.
 
@@ -64,7 +64,7 @@ worksheet.getCells().sort(0, true);
 AutoFilter autoFilter = worksheet.getAutoFilter();
 autoFilter.setRange("A1:D1");
 
-//Выполнить преобразование данных
+// Выполнить преобразование данных
 // (например, конвертация валюты, расчет процентов)
 ```
 
@@ -102,7 +102,7 @@ workbook.save("data_analysis_report.xlsx", SaveFormat.XLSX);
 
 ### Как установить Aspose.Cells для Java?
 
- Чтобы установить Aspose.Cells для Java, посетите страницу загрузки по адресу[эта ссылка](https://releases.aspose.com/cells/java/) и следуйте предоставленным инструкциям по установке.
+Чтобы установить Aspose.Cells для Java, посетите страницу загрузки по адресу [эта ссылка](https://releases.aspose.com/cells/java/) и следуйте предоставленным инструкциям по установке.
 
 ### Могу ли я использовать Aspose.Cells для Java с другими библиотеками Java?
 
@@ -118,7 +118,8 @@ Aspose.Cells для Java поддерживает широкий спектр т
 
 ### Где я могу найти больше ресурсов и руководств по Aspose.Cells для Java?
 
- Дополнительные ресурсы и руководства по Aspose.Cells для Java см. в документации по адресу[здесь](https://reference.aspose.com/cells/java/).
+Дополнительные ресурсы и руководства по Aspose.Cells для Java см. в документации по адресу [здесь](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

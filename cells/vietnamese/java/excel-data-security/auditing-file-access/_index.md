@@ -1,10 +1,10 @@
 ---
-title: Kiểm tra quyền truy cập tệp
-linktitle: Kiểm tra quyền truy cập tệp
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách kiểm tra quyền truy cập tệp bằng Aspose.Cells cho Java API. Hướng dẫn từng bước với mã nguồn và câu hỏi thường gặp.
-weight: 16
-url: /vi/java/excel-data-security/auditing-file-access/
+"description": "Tìm hiểu cách kiểm tra quyền truy cập tệp bằng Aspose.Cells cho Java API. Hướng dẫn từng bước với mã nguồn và câu hỏi thường gặp."
+"linktitle": "Kiểm tra quyền truy cập tệp"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Kiểm tra quyền truy cập tệp"
+"url": "/vi/java/excel-data-security/auditing-file-access/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách kiểm tra quyền tr
 Trước khi bắt đầu, hãy đảm bảo bạn có đủ các điều kiện tiên quyết sau:
 
 - [Bộ phát triển Java (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) được cài đặt trên hệ thống của bạn.
--  Thư viện Aspose.Cells cho Java. Bạn có thể tải xuống từ[Trang web Aspose.Cells cho Java](https://releases.aspose.com/cells/java/).
+- Aspose.Cells cho thư viện Java. Bạn có thể tải xuống từ [Trang web Aspose.Cells cho Java](https://releases.aspose.com/cells/java/).
 
 ## Bước 1: Thiết lập dự án Java của bạn
 
@@ -33,7 +33,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn có đủ các điều kiện
 
 ## Bước 2: Tạo Trình ghi nhật ký kiểm tra
 
- Trong bước này, chúng ta sẽ tạo một lớp chịu trách nhiệm ghi nhật ký các hoạt động truy cập tệp. Hãy gọi nó là`FileAccessLogger.java`. Sau đây là cách triển khai cơ bản:
+Trong bước này, chúng ta sẽ tạo một lớp chịu trách nhiệm ghi nhật ký các hoạt động truy cập tệp. Hãy gọi nó là `FileAccessLogger.java`. Sau đây là cách triển khai cơ bản:
 
 ```java
 import java.io.FileWriter;
@@ -61,7 +61,7 @@ Trình ghi này ghi lại các sự kiện truy cập vào một tệp văn bả
 
 ## Bước 3: Sử dụng Aspose.Cells để thực hiện các thao tác tệp
 
- Bây giờ, hãy tích hợp Aspose.Cells vào dự án của chúng ta để thực hiện các hoạt động tệp và hoạt động truy cập nhật ký. Chúng ta sẽ tạo một lớp có tên là`ExcelFileManager.java`:
+Bây giờ, hãy tích hợp Aspose.Cells vào dự án của chúng ta để thực hiện các hoạt động tệp và hoạt động truy cập nhật ký. Chúng ta sẽ tạo một lớp có tên là `ExcelFileManager.java`:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -93,7 +93,7 @@ public class ExcelFileManager {
 
 ## Bước 4: Sử dụng Audit Logger trong ứng dụng của bạn
 
- Bây giờ chúng ta đã có`FileAccessLogger` Và`ExcelFileManager` các lớp, bạn có thể sử dụng chúng trong ứng dụng của mình như sau:
+Bây giờ chúng ta đã có `FileAccessLogger` Và `ExcelFileManager` các lớp, bạn có thể sử dụng chúng trong ứng dụng của mình như sau:
 
 ```java
 public class Main {
@@ -120,19 +120,20 @@ Trong hướng dẫn toàn diện này, chúng tôi đã đi sâu vào thế gi�
 
 ### Tôi có thể lấy lại nhật ký kiểm tra bằng cách nào?
 
-Để lấy lại nhật ký kiểm tra, bạn chỉ cần đọc nội dung của`file_access_log.txt` tập tin bằng cách sử dụng khả năng đọc tập tin của Java.
+Để lấy lại nhật ký kiểm tra, bạn chỉ cần đọc nội dung của `file_access_log.txt` tập tin bằng cách sử dụng khả năng đọc tập tin của Java.
 
 ### Tôi có thể tùy chỉnh định dạng hoặc đích đến của nhật ký không?
 
- Có, bạn có thể tùy chỉnh định dạng nhật ký và đích đến bằng cách sửa đổi`FileAccessLogger` lớp. Bạn có thể thay đổi đường dẫn tệp nhật ký, định dạng mục nhập nhật ký hoặc thậm chí sử dụng thư viện ghi nhật ký khác như Log4j.
+Có, bạn có thể tùy chỉnh định dạng nhật ký và đích đến bằng cách sửa đổi `FileAccessLogger` lớp. Bạn có thể thay đổi đường dẫn tệp nhật ký, định dạng mục nhập nhật ký hoặc thậm chí sử dụng thư viện ghi nhật ký khác như Log4j.
 
 ### Có cách nào để lọc mục nhật ký theo người dùng hoặc tệp không?
 
- Bạn có thể triển khai logic lọc trong`FileAccessLogger` lớp. Thêm điều kiện vào mục nhật ký dựa trên tiêu chí của người dùng hoặc tệp trước khi ghi vào tệp nhật ký.
+Bạn có thể triển khai logic lọc trong `FileAccessLogger` lớp. Thêm điều kiện vào mục nhật ký dựa trên tiêu chí của người dùng hoặc tệp trước khi ghi vào tệp nhật ký.
 
 ### Tôi có thể ghi lại những hành động nào khác ngoài việc mở và lưu tệp?
 
- Bạn có thể mở rộng`ExcelFileManager` lớp để ghi lại các hành động khác như chỉnh sửa, xóa hoặc chia sẻ tệp, tùy thuộc vào yêu cầu của ứng dụng.
+Bạn có thể mở rộng `ExcelFileManager` lớp để ghi lại các hành động khác như chỉnh sửa, xóa hoặc chia sẻ tệp, tùy thuộc vào yêu cầu của ứng dụng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

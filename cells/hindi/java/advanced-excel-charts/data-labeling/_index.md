@@ -1,10 +1,10 @@
 ---
-title: डेटा लेबलिंग
-linktitle: डेटा लेबलिंग
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: जावा के लिए Aspose.Cells के साथ डेटा लेबलिंग की क्षमता को अनलॉक करें। चरण दर चरण तकनीक सीखें।
-weight: 14
-url: /hi/java/advanced-excel-charts/data-labeling/
+"description": "जावा के लिए Aspose.Cells के साथ डेटा लेबलिंग की क्षमता को अनलॉक करें। चरण दर चरण तकनीक सीखें।"
+"linktitle": "डेटा लेबलिंग"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "डेटा लेबलिंग"
+"url": "/hi/java/advanced-excel-charts/data-labeling/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -26,19 +26,19 @@ url: /hi/java/advanced-excel-charts/data-labeling/
 
 आरंभ करने के लिए, आपको Aspose.Cells for Java को डाउनलोड और इंस्टॉल करना होगा। इन सरल चरणों का पालन करें:
 
-1.  मिलने जाना[Aspose.Cells for Java दस्तावेज़ीकरण](https://reference.aspose.com/cells/java/).
+1. मिलने जाना [Aspose.Cells for Java दस्तावेज़ीकरण](https://reference.aspose.com/cells/java/).
 2. Java के लिए Aspose.Cells का नवीनतम संस्करण डाउनलोड करें।
 3. दस्तावेज़ में दिए गए स्थापना निर्देशों का पालन करें।
 
 ## स्प्रेडशीट लोड करना और बनाना
 
-इस अनुभाग में, हम सीखेंगे कि Aspose.Cells for Java का उपयोग करके मौजूदा स्प्रेडशीट को कैसे लोड किया जाए या नई स्प्रेडशीट कैसे बनाई जाए।
+इस अनुभाग में, हम सीखेंगे कि Java के लिए Aspose.Cells का उपयोग करके मौजूदा स्प्रेडशीट को कैसे लोड किया जाए या नई स्प्रेडशीट कैसे बनाई जाए।
 
 ```java
-// मौजूदा स्प्रेडशीट को लोड करने के लिए जावा कोड
+// मौजूदा स्प्रेडशीट लोड करने के लिए जावा कोड
 Workbook workbook = new Workbook("example.xlsx");
 
-//नई स्प्रेडशीट बनाने के लिए जावा कोड
+// नई स्प्रेडशीट बनाने के लिए जावा कोड
 Workbook workbook = new Workbook();
 ```
 
@@ -128,7 +128,7 @@ workbook.save("labeled_data.xlsx");
 
 ### मैं Java के लिए Aspose.Cells कैसे स्थापित करूं?
 
- Java के लिए Aspose.Cells स्थापित करने के लिए, पर जाएँ[प्रलेखन](https://reference.aspose.com/cells/java/) विस्तृत स्थापना निर्देशों के लिए.
+Java के लिए Aspose.Cells स्थापित करने के लिए, पर जाएँ [प्रलेखन](https://reference.aspose.com/cells/java/) विस्तृत स्थापना निर्देशों के लिए.
 
 ### क्या मैं लेबलों के स्वरूप को अनुकूलित कर सकता हूँ?
 
@@ -141,6 +141,7 @@ Java के लिए Aspose.Cells आपके लेबल वाली स्
 ### डेटा लेबल करते समय मैं त्रुटियों को कैसे संभालूँ?
 
 आप अपवादों को पकड़ने और सार्थक त्रुटि संदेश प्रदान करने के लिए try-catch ब्लॉकों का उपयोग करके त्रुटियों को सुचारू रूप से संभाल सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

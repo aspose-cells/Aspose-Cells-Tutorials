@@ -1,10 +1,10 @@
 ---
-title: Biểu đồ Excel nâng cao
-linktitle: Biểu đồ Excel nâng cao
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Khám phá Hướng dẫn Biểu đồ Excel Nâng cao với Aspose.Cells cho Java. Nâng cao kỹ năng trực quan hóa dữ liệu của bạn từng bước. Làm chủ biểu đồ ngay hôm nay!
-weight: 15
-url: /vi/java/advanced-excel-charts/
+"description": "Khám phá Hướng dẫn Biểu đồ Excel Nâng cao với Aspose.Cells cho Java. Nâng cao kỹ năng trực quan hóa dữ liệu của bạn từng bước. Làm chủ biểu đồ ngay hôm nay!"
+"linktitle": "Biểu đồ Excel nâng cao"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Biểu đồ Excel nâng cao"
+"url": "/vi/java/advanced-excel-charts/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -38,7 +38,7 @@ Học cách tạo biểu đồ 3D tuyệt đẹp trong Java với Aspose.Cells. 
 ### [Nhãn dữ liệu](./data-labeling/)
 Mở khóa tiềm năng của việc gắn nhãn dữ liệu với Aspose.Cells cho Java. Tìm hiểu các kỹ thuật từng bước.
 ### [Phân tích đường xu hướng](./trendline-analysis/)
-Làm chủ Phân tích đường xu hướng trong Java với Aspose.Cells. Học cách tạo thông tin chi tiết dựa trên dữ liệu với hướng dẫn từng bước và ví dụ mã.
+Làm chủ Phân tích đường xu hướng trong Java với Aspose.Cells. Học cách tạo thông tin chi tiết dựa trên dữ liệu với hướng dẫn từng bước và ví dụ về mã.
 ### [Chú thích biểu đồ](./chart-annotations/)
 Cải thiện biểu đồ của bạn bằng chú thích biểu đồ bằng Aspose.Cells cho Java - Hướng dẫn từng bước. Tìm hiểu cách thêm chú thích để trực quan hóa dữ liệu mang tính thông tin.
 ### [Biểu đồ hoạt hình](./chart-animation/)

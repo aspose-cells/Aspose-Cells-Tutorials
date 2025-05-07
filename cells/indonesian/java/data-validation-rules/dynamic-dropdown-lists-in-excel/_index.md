@@ -1,10 +1,10 @@
 ---
-title: Daftar Dropdown Dinamis di Excel
-linktitle: Daftar Dropdown Dinamis di Excel
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Temukan Kekuatan Daftar Dropdown Dinamis di Excel. Panduan langkah demi langkah menggunakan Aspose.Cells untuk Java. Sempurnakan lembar kerja Anda dengan pemilihan data interaktif.
-weight: 11
-url: /id/java/data-validation-rules/dynamic-dropdown-lists-in-excel/
+"description": "Temukan Kekuatan Daftar Dropdown Dinamis di Excel. Panduan langkah demi langkah menggunakan Aspose.Cells untuk Java. Sempurnakan lembar kerja Anda dengan pemilihan data interaktif."
+"linktitle": "Daftar Dropdown Dinamis di Excel"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Daftar Dropdown Dinamis di Excel"
+"url": "/id/java/data-validation-rules/dynamic-dropdown-lists-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,9 +22,9 @@ Microsoft Excel adalah alat serbaguna yang tidak hanya sekadar entri data dan ka
 
 Sebelum kita mulai membuat daftar dropdown dinamis, pastikan Anda memiliki prasyarat berikut:
 
-- Lingkungan Pengembangan Java: Anda harus menginstal Java dan Lingkungan Pengembangan Terpadu (IDE) yang sesuai pada sistem Anda.
+- Lingkungan Pengembangan Java: Anda harus menginstal Java dan Lingkungan Pengembangan Terpadu (IDE) yang sesuai di sistem Anda.
 
--  Pustaka Aspose.Cells untuk Java: Unduh pustaka Aspose.Cells untuk Java dari[Di Sini](https://releases.aspose.com/cells/java/) dan sertakan dalam proyek Java Anda.
+- Pustaka Aspose.Cells untuk Java: Unduh pustaka Aspose.Cells untuk Java dari [Di Sini](https://releases.aspose.com/cells/java/) dan sertakan dalam proyek Java Anda.
 
 Sekarang, mari kita mulai dengan panduan langkah demi langkah.
 
@@ -94,7 +94,7 @@ Membuat daftar dropdown dinamis di Excel menggunakan Aspose.Cells for Java merup
 
 ### Bagaimana saya dapat menyesuaikan sumber daftar dropdown?
 
- Untuk menyesuaikan sumber daftar dropdown, cukup ubah array nilai pada langkah saat Anda menentukan sumber. Misalnya, Anda dapat menambahkan atau menghapus item dari`fruits` array untuk mengubah opsi pada daftar dropdown.
+Untuk menyesuaikan sumber daftar dropdown, cukup ubah array nilai pada langkah saat Anda menentukan sumber. Misalnya, Anda dapat menambahkan atau menghapus item dari `fruits` array untuk mengubah opsi pada daftar dropdown.
 
 ### Dapatkah saya menerapkan pemformatan bersyarat ke sel dengan daftar dropdown dinamis?
 
@@ -106,11 +106,12 @@ Ya, Anda dapat membuat daftar dropdown bertingkat di Excel menggunakan Aspose.Ce
 
 ### Bisakah saya melindungi lembar kerja dengan daftar dropdown dinamis?
 
-Ya, Anda dapat melindungi lembar kerja sambil tetap mengizinkan pengguna berinteraksi dengan daftar dropdown dinamis. Gunakan fitur perlindungan lembar Excel untuk mengontrol sel mana yang dapat diedit dan mana yang dilindungi.
+Ya, Anda dapat melindungi lembar kerja sambil tetap memperbolehkan pengguna berinteraksi dengan daftar dropdown dinamis. Gunakan fitur perlindungan lembar Excel untuk mengontrol sel mana yang dapat diedit dan mana yang dilindungi.
 
 ### Apakah ada batasan jumlah item pada daftar dropdown?
 
 Jumlah item dalam daftar dropdown dibatasi oleh ukuran lembar kerja maksimum Excel. Namun, sebaiknya daftar dibuat ringkas dan relevan dengan konteks untuk meningkatkan pengalaman pengguna.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

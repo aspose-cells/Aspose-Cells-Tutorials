@@ -1,10 +1,10 @@
 ---
-title: Grafik Etkileşimi
-linktitle: Grafik Etkileşimi
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java için Aspose.Cells'i kullanarak etkileşimli grafiklerin nasıl oluşturulacağını öğrenin. Veri görselleştirmenizi etkileşimle geliştirin.
-weight: 19
-url: /tr/java/advanced-excel-charts/chart-interactivity/
+"description": "Java için Aspose.Cells'i kullanarak etkileşimli grafiklerin nasıl oluşturulacağını öğrenin. Veri görselleştirmenizi etkileşimle geliştirin."
+"linktitle": "Grafik Etkileşimi"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Grafik Etkileşimi"
+"url": "/tr/java/advanced-excel-charts/chart-interactivity/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Etkileşimli grafikler, kullanıcıların verileri daha iyi keşfetmesini ve anl
 
 Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 - Java Geliştirme Ortamı
-- Java Kütüphanesi için Aspose.Cells (Şuradan indirin[Burada](https://releases.aspose.com/cells/java/)
+- Java Kütüphanesi için Aspose.Cells (Şuradan indirin [Burada](https://releases.aspose.com/cells/java/)
 
 ## Adım 1: Java Projenizi Kurma
 
@@ -94,7 +94,7 @@ Bu eğitimde, Java için Aspose.Cells kullanarak etkileşimli grafiklerin nasıl
 
 ### Grafik türünü nasıl değiştirebilirim?
 
- Grafik türünü değiştirerek değiştirebilirsiniz.`ChartType` Bir grafik oluştururken parametre. Örneğin, değiştirin`ChartType.COLUMN` ile`ChartType.LINE` Bir çizgi grafiği oluşturmak için.
+Grafik türünü değiştirerek değiştirebilirsiniz. `ChartType` Bir grafik oluştururken parametre. Örneğin, değiştirin `ChartType.COLUMN` ile `ChartType.LINE` Bir çizgi grafiği oluşturmak için.
 
 ### Araç ipuçlarının görünümünü özelleştirebilir miyim?
 
@@ -106,7 +106,8 @@ Kullanıcı etkileşimlerini yönetmek için, tıklamalar veya gezinme eylemleri
 
 ### Daha fazla örnek ve dokümanı nerede bulabilirim?
 
- Java için Aspose.Cells'i kullanma hakkında daha fazla örnek ve ayrıntılı belgeleri şu adreste inceleyebilirsiniz:[Aspose.Cells Java API Başvurusu](https://reference.aspose.com/cells/java/).
+Java için Aspose.Cells'i kullanma hakkında daha fazla örnek ve ayrıntılı belgeleri şu adreste inceleyebilirsiniz: [Aspose.Cells Java API Başvurusu](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

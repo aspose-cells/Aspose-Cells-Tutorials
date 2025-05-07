@@ -1,10 +1,10 @@
 ---
-title: Veri Doğrulama Kuralları
-linktitle: Veri Doğrulama Kuralları
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java için Aspose.Cells ile Ana Veri Doğrulama Kuralları. Hatasız Excel sayfaları oluşturun. Kapsamlı eğitimleri şimdi keşfedin!
-weight: 11
-url: /tr/java/data-validation-rules/
+"description": "Java için Aspose.Cells ile Ana Veri Doğrulama Kuralları. Hatasız Excel sayfaları oluşturun. Kapsamlı eğitimleri şimdi keşfedin!"
+"linktitle": "Veri Doğrulama Kuralları"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Veri Doğrulama Kuralları"
+"url": "/tr/java/data-validation-rules/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

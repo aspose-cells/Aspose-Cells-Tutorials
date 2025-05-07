@@ -1,10 +1,10 @@
 ---
-title: Pesan Input dalam Validasi Data
-linktitle: Pesan Input dalam Validasi Data
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara meningkatkan validasi data di Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode untuk meningkatkan akurasi data dan panduan pengguna.
-weight: 18
-url: /id/java/data-validation-rules/input-message-in-data-validation/
+"description": "Pelajari cara meningkatkan validasi data di Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode untuk meningkatkan akurasi data dan panduan pengguna."
+"linktitle": "Pesan Input dalam Validasi Data"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Pesan Input dalam Validasi Data"
+"url": "/id/java/data-validation-rules/input-message-in-data-validation/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -32,7 +32,7 @@ Mulailah dengan membuat proyek Java baru di IDE pilihan Anda. Berikan nama yang 
 
 ## Menambahkan Aspose.Cells untuk Java ke Proyek Anda
 
-Untuk menggunakan Aspose.Cells for Java dalam proyek Anda, Anda perlu menambahkan pustaka Aspose.Cells. Anda dapat mengunduh pustaka tersebut dari situs web dan menambahkannya ke classpath proyek Anda.
+Untuk menggunakan Aspose.Cells for Java di proyek Anda, Anda perlu menambahkan pustaka Aspose.Cells. Anda dapat mengunduh pustaka tersebut dari situs web dan menambahkannya ke classpath proyek Anda.
 
 ## Menambahkan Validasi Data ke Lembar Kerja
 
@@ -132,7 +132,7 @@ Dalam artikel ini, kami telah menjajaki cara menambahkan pesan input ke aturan v
 
 ### Bagaimana cara menambahkan validasi data ke beberapa sel sekaligus?
 
- Untuk menambahkan validasi data ke beberapa sel, Anda dapat menentukan rentang sel dan menerapkan aturan validasi ke rentang tersebut. Aspose.Cells untuk Java memungkinkan Anda menentukan rentang sel menggunakan`CellArea` kelas.
+Untuk menambahkan validasi data ke beberapa sel, Anda dapat menentukan rentang sel dan menerapkan aturan validasi ke rentang tersebut. Aspose.Cells untuk Java memungkinkan Anda menentukan rentang sel menggunakan `CellArea` kelas.
 
 ### Dapatkah saya menggunakan rumus khusus untuk validasi data?
 
@@ -140,7 +140,7 @@ Ya, Anda dapat menggunakan rumus khusus untuk validasi data di Aspose.Cells for 
 
 ### Bagaimana cara menghapus validasi data dari sel?
 
- Untuk menghapus validasi data dari sel, Anda cukup memanggil`removeDataValidation`metode pada sel. Ini akan menghapus semua aturan validasi yang ada untuk sel tersebut.
+Untuk menghapus validasi data dari sel, Anda cukup memanggil `removeDataValidation` metode pada sel. Ini akan menghapus semua aturan validasi yang ada untuk sel tersebut.
 
 ### Dapatkah saya mengatur pesan kesalahan yang berbeda untuk aturan validasi yang berbeda?
 
@@ -148,7 +148,8 @@ Ya, Anda dapat mengatur pesan kesalahan yang berbeda untuk aturan validasi yang 
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Cells untuk Java?
 
- Untuk informasi lebih lanjut tentang Aspose.Cells untuk Java dan fitur-fiturnya, Anda dapat mengunjungi dokumentasi di[Di Sini](https://reference.aspose.com/cells/java/).
+Untuk informasi lebih lanjut tentang Aspose.Cells untuk Java dan fitur-fiturnya, Anda dapat mengunjungi dokumentasi di [Di Sini](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

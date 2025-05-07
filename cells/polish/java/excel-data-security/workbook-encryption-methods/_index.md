@@ -1,10 +1,10 @@
 ---
-title: Metody szyfrowania skoroszytu
-linktitle: Metody szyfrowania skoroszytu
-second_title: Aspose.Cells Java Excel Processing API
-description: Zwiększ bezpieczeństwo danych dzięki Aspose.Cells do szyfrowania skoroszytów Java. Dowiedz się, jak szyfrować skoroszyty Excela krok po kroku.
-weight: 12
-url: /pl/java/excel-data-security/workbook-encryption-methods/
+"description": "Zwiększ bezpieczeństwo danych dzięki Aspose.Cells do szyfrowania skoroszytów Java. Dowiedz się, jak szyfrować skoroszyty Excela krok po kroku."
+"linktitle": "Metody szyfrowania skoroszytu"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Metody szyfrowania skoroszytu"
+"url": "/pl/java/excel-data-security/workbook-encryption-methods/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ url: /pl/java/excel-data-security/workbook-encryption-methods/
 
 ## Wprowadzenie do metod szyfrowania skoroszytów
 
-dzisiejszej erze cyfrowej bezpieczeństwo danych jest najważniejsze. Jeśli chodzi o obsługę poufnych informacji w skoroszytach programu Excel, szyfrowanie staje się krytycznym elementem. Aspose.Cells for Java, potężne API Java do pracy z plikami programu Excel, zapewnia różne metody zabezpieczania skoroszytów za pomocą szyfrowania. W tym kompleksowym przewodniku przyjrzymy się różnym metodom szyfrowania skoroszytów oferowanym przez Aspose.Cells for Java i pokażemy, jak wdrożyć je w aplikacjach Java.
+W dzisiejszej erze cyfrowej bezpieczeństwo danych jest najważniejsze. Jeśli chodzi o obsługę poufnych informacji w skoroszytach programu Excel, szyfrowanie staje się krytycznym elementem. Aspose.Cells for Java, potężne API Java do pracy z plikami programu Excel, zapewnia różne metody zabezpieczania skoroszytów za pomocą szyfrowania. W tym kompleksowym przewodniku przyjrzymy się różnym metodom szyfrowania skoroszytów oferowanym przez Aspose.Cells for Java i pokażemy, jak wdrożyć je w aplikacjach Java.
 
 ## Zrozumienie szyfrowania skoroszytu
 
@@ -27,7 +27,7 @@ Zanim zagłębimy się w szczegóły implementacji, najpierw zrozumiemy, czym je
 Zanim zaczniesz pracę z Aspose.Cells dla Java i szyfrowania, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Java Development Kit (JDK) zainstalowany w Twoim systemie.
--  Biblioteka Aspose.Cells for Java, którą można pobrać ze strony[Tutaj](https://releases.aspose.com/cells/java/).
+- Biblioteka Aspose.Cells dla Java, którą można pobrać ze strony [Tutaj](https://releases.aspose.com/cells/java/).
 
 ## Pierwsze kroki
 
@@ -102,6 +102,7 @@ Nie, odszyfrowanie zaszyfrowanego skoroszytu bez podania prawidłowego hasła ni
 ### Czy Aspose.Cells for Java obsługuje szyfrowanie innych formatów plików?
 
 Aspose.Cells for Java koncentruje się głównie na skoroszytach Excela, ale może również oferować obsługę szyfrowania dla innych formatów plików. Sprawdź dokumentację, aby uzyskać więcej szczegółów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

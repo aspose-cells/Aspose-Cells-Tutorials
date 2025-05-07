@@ -1,10 +1,10 @@
 ---
-title: Tabel Pivot Excel
-linktitle: Tabel Pivot Excel
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Kuasai Tabel Pivot Excel dengan Aspose.Cells untuk Java. Pelajari cara membuat, menyesuaikan, dan menganalisis data dengan mudah.
-weight: 13
-url: /id/java/excel-pivot-tables/
+"description": "Kuasai Tabel Pivot Excel dengan Aspose.Cells untuk Java. Pelajari cara membuat, menyesuaikan, dan menganalisis data dengan mudah."
+"linktitle": "Tabel Pivot Excel"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Tabel Pivot Excel"
+"url": "/id/java/excel-pivot-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -40,7 +40,7 @@ Pelajari cara membuat kolom kalkulasi di Tabel Pivot menggunakan Aspose.Cells un
 Pelajari cara menyegarkan data Tabel Pivot di Aspose.Cells untuk Java. Jaga data Anda tetap terkini dengan mudah.
 ### [Menyesuaikan Gaya Tabel Pivot](./customizing-pivot-table-styles/)
 Pelajari cara menyesuaikan gaya tabel pivot di Aspose.Cells untuk API Java. Buat tabel pivot yang menarik secara visual dengan mudah.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blok/produk/pf/bagian-halaman-tutorial >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

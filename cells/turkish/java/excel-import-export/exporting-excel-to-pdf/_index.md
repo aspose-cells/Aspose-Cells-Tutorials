@@ -1,10 +1,10 @@
 ---
-title: Excel'i PDF'e Aktarma
-linktitle: Excel'i PDF'e Aktarma
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java kullanarak Excel dosyalarını zahmetsizce PDF'ye nasıl aktaracağınızı öğrenin. Adım adım kılavuzumuz süreci basitleştirir. Bugün dönüştürmeye başlayın!
-weight: 14
-url: /tr/java/excel-import-export/exporting-excel-to-pdf/
+"description": "Aspose.Cells for Java kullanarak Excel dosyalarını zahmetsizce PDF'ye nasıl aktaracağınızı öğrenin. Adım adım kılavuzumuz süreci basitleştirir. Bugün dönüştürmeye başlayın!"
+"linktitle": "Excel'i PDF'e Aktarma"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Excel'i PDF'e Aktarma"
+"url": "/tr/java/excel-import-export/exporting-excel-to-pdf/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,7 +20,7 @@ Bu kapsamlı kılavuzda, Aspose.Cells for Java kitaplığını kullanarak bir Ex
 
 İşleme başlamadan önce aşağıdaki ön koşulların sağlandığından emin olun:
 
-1. Java Geliştirme Ortamı: Sisteminizde Java'nın yüklü olduğundan emin olun. Henüz yapmadıysanız web sitesinden Java'yı indirip yükleyebilirsiniz.
+1. Java Geliştirme Ortamı: Sisteminizde Java'nın yüklü olduğundan emin olun. Eğer henüz yüklemediyseniz web sitesinden Java'yı indirip yükleyebilirsiniz.
 
 2. Aspose.Cells for Java Kütüphanesi: Aspose.Cells for Java kütüphanesini Aspose web sitesinden edinin. Kütüphaneyi indirin ve projenizin sınıf yoluna ekleyin.
 
@@ -61,7 +61,7 @@ public class ExcelToPdfConverter {
 }
 ```
 
- Değiştirdiğinizden emin olun`"path/to/your/excel/file.xlsx"` Excel dosyanızın gerçek yolunu belirtin.
+Değiştirdiğinizden emin olun `"path/to/your/excel/file.xlsx"` Excel dosyanızın gerçek yolunu belirtin.
 
 ## Adım 3: Excel'i PDF'ye dönüştürün
 
@@ -73,7 +73,7 @@ String pdfFilePath = "path/to/output/pdf/file.pdf";
 workbook.save(pdfFilePath, SaveFormat.PDF);
 ```
 
- Yer değiştirmek`"path/to/output/pdf/file.pdf"` Elde edilen PDF belgesi için tercih ettiğiniz çıktı yolu ve dosya adı ile.
+Yer değiştirmek `"path/to/output/pdf/file.pdf"` Elde edilen PDF belgesi için tercih ettiğiniz çıktı yolu ve dosya adı ile.
 
 ## Adım 4: Java Uygulamanızı Geliştirin
 
@@ -105,7 +105,7 @@ Aspose.Cells, büyük Excel dosyalarının verimli bir şekilde işlenmesi için
 
 S5: Aspose.Cells için daha fazla doküman ve örneği nerede bulabilirim?
 
- Aspose.Cells API belgelerini şu adreste keşfedin:[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) Bilginizi daha da genişletmek için kapsamlı dokümantasyon ve zengin örnekler için.
+Aspose.Cells API belgelerini şu adreste keşfedin: [https://reference.aspose.com/hücreler/java/](https://reference.aspose.com/cells/java/) Bilginizi daha da genişletmek için kapsamlı dokümantasyon ve zengin örnekler için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Hiểu về hàm MAX của Excel
-linktitle: Hiểu về hàm MAX của Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách sử dụng hàm MAX của Excel với Aspose.Cells cho Java. Khám phá hướng dẫn từng bước, ví dụ mã và câu hỏi thường gặp trong hướng dẫn toàn diện này.
-weight: 16
-url: /vi/java/basic-excel-functions/understanding-excel-max-function/
+"description": "Tìm hiểu cách sử dụng hàm MAX của Excel với Aspose.Cells cho Java. Khám phá hướng dẫn từng bước, ví dụ mã và câu hỏi thường gặp trong hướng dẫn toàn diện này."
+"linktitle": "Hiểu về hàm MAX của Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Hiểu về hàm MAX của Excel"
+"url": "/vi/java/basic-excel-functions/understanding-excel-max-function/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -102,7 +102,7 @@ Có, bạn có thể. Bạn có thể kết hợp hàm MAX với các hàm logic
 
 ### Làm thế nào để xử lý lỗi khi sử dụng hàm MAX trong Aspose.Cells?
 
-Bạn có thể sử dụng khối try-catch để xử lý các ngoại lệ có thể phát sinh khi sử dụng hàm MAX. Kiểm tra dữ liệu không phải số trong phạm vi trước khi áp dụng hàm để tránh lỗi.
+Bạn có thể sử dụng khối try-catch để xử lý các trường hợp ngoại lệ có thể phát sinh khi sử dụng hàm MAX. Kiểm tra dữ liệu không phải số trong phạm vi trước khi áp dụng hàm để tránh lỗi.
 
 ### Aspose.Cells for Java có phù hợp để làm việc với các tệp Excel lớn không?
 
@@ -110,7 +110,8 @@ Có, Aspose.Cells for Java được thiết kế để xử lý hiệu quả cá
 
 ### Tôi có thể tìm thêm tài liệu và ví dụ về Aspose.Cells cho Java ở đâu?
 
- Bạn có thể tham khảo tài liệu Aspose.Cells cho Java tại[đây](https://reference.aspose.com/cells/java/) để biết thông tin đầy đủ và ví dụ.
+Bạn có thể tham khảo tài liệu Aspose.Cells cho Java tại [đây](https://reference.aspose.com/cells/java/) để biết thông tin đầy đủ và ví dụ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

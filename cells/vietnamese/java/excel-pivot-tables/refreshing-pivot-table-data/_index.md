@@ -1,10 +1,10 @@
 ---
-title: Làm mới dữ liệu bảng Pivot
-linktitle: Làm mới dữ liệu bảng Pivot
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách làm mới dữ liệu Pivot Table trong Aspose.Cells for Java. Giữ cho dữ liệu của bạn được cập nhật dễ dàng.
-weight: 16
-url: /vi/java/excel-pivot-tables/refreshing-pivot-table-data/
+"description": "Tìm hiểu cách làm mới dữ liệu Pivot Table trong Aspose.Cells for Java. Giữ cho dữ liệu của bạn được cập nhật dễ dàng."
+"linktitle": "Làm mới dữ liệu bảng Pivot"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Làm mới dữ liệu bảng Pivot"
+"url": "/vi/java/excel-pivot-tables/refreshing-pivot-table-data/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Trước khi đi sâu vào các bước, hãy cùng tìm hiểu lý do tại sao
 
 ## Bước 1: Khởi tạo Aspose.Cells
 
- Để bắt đầu, bạn sẽ cần thiết lập môi trường Java của mình với Aspose.Cells. Nếu bạn chưa làm như vậy, hãy tải xuống và cài đặt thư viện từ[Tải xuống Aspose.Cells cho Java](https://releases.aspose.com/cells/java/) trang.
+Để bắt đầu, bạn sẽ cần thiết lập môi trường Java của mình với Aspose.Cells. Nếu bạn chưa làm như vậy, hãy tải xuống và cài đặt thư viện từ [Tải xuống Aspose.Cells cho Java](https://releases.aspose.com/cells/java/) trang.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -89,7 +89,7 @@ Làm mới dữ liệu Pivot Table trong Aspose.Cells for Java là một quy tr�
 ### Tôi có thể lên lịch làm mới Bảng Pivot tự động không?
    - Có, bạn có thể lên lịch làm mới dữ liệu tự động bằng Aspose.Cells và các thư viện lập lịch Java. Điều này cho phép bạn cập nhật Pivot Tables của mình mà không cần can thiệp thủ công.
 
-Bây giờ bạn đã có kiến thức để làm mới dữ liệu Pivot Table trong Aspose.Cells for Java. Giữ cho các phân tích của bạn chính xác và đi trước trong các quyết định dựa trên dữ liệu của bạn.
+Bây giờ bạn đã có kiến thức để làm mới dữ liệu Pivot Table trong Aspose.Cells for Java. Giữ cho các phân tích của bạn chính xác và luôn đi đầu trong các quyết định dựa trên dữ liệu của bạn.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

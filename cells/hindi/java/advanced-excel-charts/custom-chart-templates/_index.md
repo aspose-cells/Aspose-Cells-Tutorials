@@ -1,10 +1,10 @@
 ---
-title: कस्टम चार्ट टेम्पलेट्स
-linktitle: कस्टम चार्ट टेम्पलेट्स
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: Aspose.Cells के साथ जावा में शानदार कस्टम चार्ट टेम्पलेट बनाना सीखें। यह चरण-दर-चरण मार्गदर्शिका गतिशील डेटा विज़ुअलाइज़ेशन के लिए आपकी ज़रूरत की हर चीज़ को कवर करती है।
-weight: 11
-url: /hi/java/advanced-excel-charts/custom-chart-templates/
+"description": "Aspose.Cells के साथ जावा में शानदार कस्टम चार्ट टेम्पलेट बनाना सीखें। यह चरण-दर-चरण मार्गदर्शिका गतिशील डेटा विज़ुअलाइज़ेशन के लिए आपकी ज़रूरत की हर चीज़ को कवर करती है।"
+"linktitle": "कस्टम चार्ट टेम्पलेट्स"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "कस्टम चार्ट टेम्पलेट्स"
+"url": "/hi/java/advanced-excel-charts/custom-chart-templates/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -27,7 +27,7 @@ url: /hi/java/advanced-excel-charts/custom-chart-templates/
 इस ट्यूटोरियल का अनुसरण करने के लिए, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Cells for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/java/).
+- Aspose.Cells for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/java/).
 
 ## कस्टम चार्ट टेम्पलेट बनाना
 
@@ -37,7 +37,7 @@ url: /hi/java/advanced-excel-charts/custom-chart-templates/
 
 ### चरण 2: Aspose.Cells को आरंभ करना
 
-अपने जावा अनुप्रयोग में, Aspose.Cells को निम्न प्रकार आरंभ करें:
+अपने जावा अनुप्रयोग में, Aspose.Cells को निम्न प्रकार आरंभित करें:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -106,7 +106,7 @@ Java के लिए Aspose.Cells का उपयोग करके कस्
 
 ### मैं Java के लिए Aspose.Cells कैसे स्थापित कर सकता हूँ?
 
- Java के लिए Aspose.Cells स्थापित करने के लिए, डाउनलोड पृष्ठ पर जाएँ[यहाँ](https://releases.aspose.com/cells/java/)लाइब्रेरी डाउनलोड करें और दस्तावेज़ में दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+Java के लिए Aspose.Cells स्थापित करने के लिए, डाउनलोड पृष्ठ पर जाएँ [यहाँ](https://releases.aspose.com/cells/java/)लाइब्रेरी डाउनलोड करें और दस्तावेज़ में दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 
 ### मैं Java के लिए Aspose.Cells के साथ किस प्रकार के चार्ट बना सकता हूँ?
 
@@ -122,7 +122,8 @@ Aspose.Cells for Java कई तरह के चार्ट प्रकार
 
 ### मैं अधिक संसाधन और दस्तावेज कहां पा सकता हूं?
 
- विस्तृत दस्तावेज़ीकरण और उदाहरणों के लिए, Aspose.Cells for Java दस्तावेज़ीकरण पर जाएँ[यहाँ](https://reference.aspose.com/cells/java/).
+विस्तृत दस्तावेज़ीकरण और उदाहरणों के लिए, Aspose.Cells for Java दस्तावेज़ीकरण पर जाएँ [यहाँ](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

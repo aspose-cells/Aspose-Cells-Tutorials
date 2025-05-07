@@ -1,10 +1,10 @@
 ---
-title: การรีเฟรชข้อมูลตารางสรุปข้อมูล
-linktitle: การรีเฟรชข้อมูลตารางสรุปข้อมูล
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีการรีเฟรชข้อมูล Pivot Table ใน Aspose.Cells สำหรับ Java อัปเดตข้อมูลของคุณได้อย่างง่ายดาย
-weight: 16
-url: /th/java/excel-pivot-tables/refreshing-pivot-table-data/
+"description": "เรียนรู้วิธีการรีเฟรชข้อมูล Pivot Table ใน Aspose.Cells สำหรับ Java อัปเดตข้อมูลของคุณได้อย่างง่ายดาย"
+"linktitle": "การรีเฟรชข้อมูลตารางสรุปข้อมูล"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การรีเฟรชข้อมูลตารางสรุปข้อมูล"
+"url": "/th/java/excel-pivot-tables/refreshing-pivot-table-data/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /th/java/excel-pivot-tables/refreshing-pivot-table-data/
 
 ## ขั้นตอนที่ 1: เริ่มต้น Aspose.Cells
 
- ในการเริ่มต้น คุณจะต้องตั้งค่าสภาพแวดล้อม Java ของคุณด้วย Aspose.Cells หากคุณยังไม่ได้ทำ ให้ดาวน์โหลดและติดตั้งไลบรารีจาก[ดาวน์โหลด Aspose.Cells สำหรับ Java](https://releases.aspose.com/cells/java/) หน้าหนังสือ.
+ในการเริ่มต้น คุณจะต้องตั้งค่าสภาพแวดล้อม Java ของคุณด้วย Aspose.Cells หากคุณยังไม่ได้ทำ ให้ดาวน์โหลดและติดตั้งไลบรารีจาก [ดาวน์โหลด Aspose.Cells สำหรับ Java](https://releases.aspose.com/cells/java/) หน้าหนังสือ.
 
 ```java
 import com.aspose.cells.Workbook;

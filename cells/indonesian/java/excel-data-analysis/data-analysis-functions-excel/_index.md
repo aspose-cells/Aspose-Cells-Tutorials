@@ -1,10 +1,10 @@
 ---
-title: Fungsi Analisis Data Excel
-linktitle: Fungsi Analisis Data Excel
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Manfaatkan Kekuatan Analisis Data di Excel dengan Aspose.Cells untuk Java. Pelajari Pengurutan, Pemfilteran, Perhitungan, dan Tabel Pivot.
-weight: 10
-url: /id/java/excel-data-analysis/data-analysis-functions-excel/
+"description": "Manfaatkan Kekuatan Analisis Data di Excel dengan Aspose.Cells untuk Java. Pelajari Pengurutan, Pemfilteran, Perhitungan, dan Tabel Pivot."
+"linktitle": "Fungsi Analisis Data Excel"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Fungsi Analisis Data Excel"
+"url": "/id/java/excel-data-analysis/data-analysis-functions-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -21,7 +21,7 @@ Dalam panduan lengkap ini, kita akan membahas cara memanfaatkan Aspose.Cells unt
 ## Prasyarat
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
-- [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/): Anda memerlukan pustaka Aspose.Cells untuk Java. Ikuti tautan untuk mengunduh dan mengaturnya di proyek Anda.
+- [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/): Anda memerlukan pustaka Aspose.Cells untuk Java. Ikuti tautan untuk mengunduh dan memasangnya di proyek Anda.
 
 ## Memuat File Excel
 Pertama, Anda memerlukan berkas Excel untuk digunakan. Anda dapat membuat berkas baru atau memuat berkas yang sudah ada menggunakan Aspose.Cells. Berikut cara memuat berkas Excel:
@@ -40,7 +40,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Tentukan rentang penyortiran
 CellArea cellArea = new CellArea();
-cellArea.startRow = 1; //Mulai dari baris kedua (dengan asumsi baris pertama adalah header)
+cellArea.startRow = 1; // Mulai dari baris kedua (dengan asumsi baris pertama adalah header)
 cellArea.startColumn = 0; // Mulai dari kolom pertama
 cellArea.endRow = worksheet.getCells().getMaxDataRow(); // Dapatkan baris terakhir dengan data
 cellArea.endColumn = worksheet.getCells().getMaxDataColumn(); // Dapatkan kolom terakhir dengan data
@@ -112,7 +112,8 @@ Anda dapat menyesuaikan tampilan tabel pivot dengan memodifikasi berbagai proper
 
 ### Di mana saya dapat menemukan contoh dan sumber daya yang lebih maju?
 
- Untuk contoh, tutorial, dan sumber daya yang lebih canggih tentang Aspose.Cells untuk Java, silakan kunjungi[Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)Anda akan menemukan banyak informasi untuk membantu Anda menguasai analisis data Excel dengan Aspose.Cells.
+Untuk contoh, tutorial, dan sumber daya yang lebih canggih tentang Aspose.Cells untuk Java, silakan kunjungi [Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)Anda akan menemukan banyak informasi untuk membantu Anda menguasai analisis data Excel dengan Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

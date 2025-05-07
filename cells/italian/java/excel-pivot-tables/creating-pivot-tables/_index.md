@@ -1,10 +1,10 @@
 ---
-title: Creazione di tabelle pivot
-linktitle: Creazione di tabelle pivot
-second_title: API di elaborazione Excel Java Aspose.Cells
-description: Scopri come creare potenti tabelle pivot in Java con Aspose.Cells per migliorare l'analisi e la visualizzazione dei dati.
-weight: 10
-url: /it/java/excel-pivot-tables/creating-pivot-tables/
+"description": "Scopri come creare potenti tabelle pivot in Java con Aspose.Cells per una migliore analisi e visualizzazione dei dati."
+"linktitle": "Creazione di tabelle pivot"
+"second_title": "API di elaborazione Excel Java Aspose.Cells"
+"title": "Creazione di tabelle pivot"
+"url": "/it/java/excel-pivot-tables/creating-pivot-tables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,10 +14,10 @@ url: /it/java/excel-pivot-tables/creating-pivot-tables/
 # Creazione di tabelle pivot
 
 ## Introduzione
-Le tabelle pivot sono strumenti indispensabili per l'analisi e la visualizzazione dei dati. In questo tutorial, esploreremo come creare tabelle pivot utilizzando l'API Aspose.Cells for Java. Ti forniremo istruzioni dettagliate insieme ad esempi di codice sorgente per rendere il processo fluido.
+Le tabelle pivot sono strumenti indispensabili per l'analisi e la visualizzazione dei dati. In questo tutorial, esploreremo come creare tabelle pivot utilizzando l'API Aspose.Cells per Java. Forniremo istruzioni dettagliate insieme ad esempi di codice sorgente per semplificare il processo.
 
 ## Prerequisiti
-Prima di iniziare, assicurati di aver installato la libreria Aspose.Cells for Java. Puoi scaricarla da[Qui](https://releases.aspose.com/cells/java/).
+Prima di iniziare, assicurati di aver installato la libreria Aspose.Cells per Java. Puoi scaricarla da [Qui](https://releases.aspose.com/cells/java/).
 
 ## Passaggio 1: creare una cartella di lavoro
 ```java
@@ -69,7 +69,7 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 2);  // Aggiungere valori
 È possibile personalizzare l'aspetto e il comportamento della tabella pivot in base alle proprie esigenze.
 
 ```java
-//Personalizza la tabella pivot
+// Personalizza la tabella pivot
 pivotTable.refreshData();
 pivotTable.calculateData();
 ```
@@ -78,15 +78,15 @@ pivotTable.calculateData();
 Infine, salva la cartella di lavoro con la tabella pivot.
 
 ```java
-// Salvare la cartella di lavoro
+// Salva la cartella di lavoro
 workbook.save("output.xlsx");
 ```
 
 ## Conclusione
-In questo tutorial, abbiamo esaminato il processo di creazione di tabelle pivot utilizzando l'API Aspose.Cells for Java. Ora puoi migliorare le tue capacità di analisi e visualizzazione dei dati con facilità.
+In questo tutorial, abbiamo illustrato il processo di creazione di tabelle pivot utilizzando l'API Aspose.Cells per Java. Ora puoi migliorare le tue capacità di analisi e visualizzazione dei dati con facilità.
 
 ## Domande frequenti
-### Cos'è una tabella pivot?
+### Che cosa è una tabella pivot?
    Una tabella pivot è uno strumento di elaborazione dati utilizzato per riassumere, analizzare e visualizzare dati provenienti da diverse fonti.
 
 ### Posso aggiungere più tabelle pivot a un singolo foglio di lavoro?
@@ -96,12 +96,12 @@ In questo tutorial, abbiamo esaminato il processo di creazione di tabelle pivot 
    Sì, Aspose.Cells supporta un'ampia gamma di formati di dati, tra cui Excel, CSV e altri.
 
 ### Posso personalizzare la formattazione della tabella pivot?
-   Certamente, puoi personalizzare l'aspetto e la formattazione della tua tabella pivot in base alle tue preferenze.
+   Certamente, puoi personalizzare l'aspetto e la formattazione della tabella pivot in base alle tue preferenze.
 
 ### Come posso automatizzare la creazione di tabelle pivot nelle applicazioni Java?
    È possibile automatizzare la creazione di tabelle pivot in Java utilizzando l'API Aspose.Cells per Java, come illustrato in questo tutorial.
 
-Ora hai le conoscenze e il codice per creare potenti Pivot Table in Java usando Aspose.Cells. Sperimenta con diverse fonti di dati e configurazioni per adattare le tue Pivot Table alle tue esigenze specifiche. Buona analisi dei dati!
+Ora hai le conoscenze e il codice necessari per creare potenti tabelle pivot in Java utilizzando Aspose.Cells. Sperimenta diverse fonti dati e configurazioni per adattare le tue tabelle pivot alle tue esigenze specifiche. Buona analisi dei dati!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

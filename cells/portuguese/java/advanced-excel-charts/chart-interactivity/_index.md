@@ -1,10 +1,10 @@
 ---
-title: Interatividade do gráfico
-linktitle: Interatividade do gráfico
-second_title: API de processamento Java Excel Aspose.Cells
-description: Aprenda a criar gráficos interativos usando Aspose.Cells para Java. Melhore sua visualização de dados com interatividade.
-weight: 19
-url: /pt/java/advanced-excel-charts/chart-interactivity/
+"description": "Aprenda a criar gráficos interativos usando Aspose.Cells para Java. Aprimore sua visualização de dados com interatividade."
+"linktitle": "Interatividade do gráfico"
+"second_title": "API de processamento Java Excel Aspose.Cells"
+"title": "Interatividade do gráfico"
+"url": "/pt/java/advanced-excel-charts/chart-interactivity/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,13 +16,13 @@ url: /pt/java/advanced-excel-charts/chart-interactivity/
 
 ## Introdução
 
-Gráficos interativos adicionam uma nova dimensão à visualização de dados, permitindo que os usuários explorem e entendam melhor os dados. Neste tutorial, mostraremos como criar gráficos interativos usando o Aspose.Cells para Java. Você aprenderá como adicionar recursos como dicas de ferramentas, rótulos de dados e funcionalidade de detalhamento aos seus gráficos, tornando suas apresentações de dados mais envolventes.
+Gráficos interativos adicionam uma nova dimensão à visualização de dados, permitindo que os usuários explorem e compreendam melhor os dados. Neste tutorial, mostraremos como criar gráficos interativos usando o Aspose.Cells para Java. Você aprenderá a adicionar recursos como dicas de ferramentas, rótulos de dados e funcionalidade de detalhamento aos seus gráficos, tornando suas apresentações de dados mais envolventes.
 
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter os seguintes pré-requisitos:
 - Ambiente de desenvolvimento Java
-- Biblioteca Aspose.Cells para Java (Baixar de[aqui](https://releases.aspose.com/cells/java/)
+- Biblioteca Aspose.Cells para Java (Baixe de [aqui](https://releases.aspose.com/cells/java/)
 
 ## Etapa 1: Configurando seu projeto Java
 
@@ -34,7 +34,7 @@ Antes de começar, certifique-se de ter os seguintes pré-requisitos:
 Para criar gráficos interativos, você precisa de dados. Vamos começar carregando alguns dados de exemplo de um arquivo Excel usando Aspose.Cells.
 
 ```java
-// Carregue o arquivo Excel
+// Carregar o arquivo Excel
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
@@ -69,12 +69,12 @@ chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3. Implementando Drill-Down
-Para implementar a funcionalidade drill-down, você pode usar hyperlinks ou criar ações personalizadas. Aqui está um exemplo de como adicionar um hyperlink a um ponto de dados:
+### 4.3. Implementando o Drill-Down
+Para implementar a funcionalidade de detalhamento, você pode usar hiperlinks ou criar ações personalizadas. Veja um exemplo de como adicionar um hiperlink a um ponto de dados:
 
 ```java
 // Adicionar um hiperlink a um ponto de dados
-String url = "https://exemplo.com/detalhes-dos-dados";
+String url = "https://example.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
@@ -88,13 +88,13 @@ workbook.save("interactive_chart_output.xlsx");
 
 ## Conclusão
 
-Neste tutorial, mostramos como criar gráficos interativos usando Aspose.Cells para Java. Você aprendeu como adicionar dicas de ferramentas, rótulos de dados e até mesmo implementar a funcionalidade drill-down. Esses recursos aumentam a interatividade dos seus gráficos e melhoram a compreensão dos dados para seus usuários.
+Neste tutorial, mostramos como criar gráficos interativos usando o Aspose.Cells para Java. Você aprendeu a adicionar dicas de ferramentas, rótulos de dados e até mesmo implementar a funcionalidade de detalhamento. Esses recursos aumentam a interatividade dos seus gráficos e melhoram a compreensão dos dados pelos usuários.
 
 ## Perguntas frequentes
 
 ### Como posso alterar o tipo de gráfico?
 
- Você pode alterar o tipo de gráfico modificando o`ChartType` parâmetro ao criar um gráfico. Por exemplo, substitua`ChartType.COLUMN` com`ChartType.LINE` para criar um gráfico de linhas.
+Você pode alterar o tipo de gráfico modificando o `ChartType` parâmetro ao criar um gráfico. Por exemplo, substitua `ChartType.COLUMN` com `ChartType.LINE` para criar um gráfico de linhas.
 
 ### Posso personalizar a aparência das dicas de ferramentas?
 
@@ -102,11 +102,12 @@ Sim, você pode personalizar a aparência da dica de ferramenta ajustando propri
 
 ### Como lidar com interações do usuário em um aplicativo web?
 
-Para lidar com as interações do usuário, você pode usar JavaScript junto com seu aplicativo web para capturar eventos acionados por interações de gráficos, como cliques ou ações de foco.
+Para lidar com as interações do usuário, você pode usar JavaScript junto com seu aplicativo web para capturar eventos acionados por interações de gráficos, como cliques ou ações de passar o mouse.
 
 ### Onde posso encontrar mais exemplos e documentação?
 
- Você pode explorar mais exemplos e documentação detalhada sobre o uso do Aspose.Cells para Java em[Referência da API Java Aspose.Cells](https://reference.aspose.com/cells/java/).
+Você pode explorar mais exemplos e documentação detalhada sobre o uso do Aspose.Cells para Java em [Referência da API Java Aspose.Cells](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

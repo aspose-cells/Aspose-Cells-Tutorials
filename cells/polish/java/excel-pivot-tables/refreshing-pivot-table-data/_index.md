@@ -1,10 +1,10 @@
 ---
-title: Odświeżanie danych tabeli przestawnej
-linktitle: Odświeżanie danych tabeli przestawnej
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak odświeżyć dane tabeli przestawnej w Aspose.Cells dla Java. Utrzymuj swoje dane na bieżąco bez wysiłku.
-weight: 16
-url: /pl/java/excel-pivot-tables/refreshing-pivot-table-data/
+"description": "Dowiedz się, jak odświeżyć dane tabeli przestawnej w Aspose.Cells dla Java. Utrzymuj swoje dane na bieżąco bez wysiłku."
+"linktitle": "Odświeżanie danych tabeli przestawnej"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Odświeżanie danych tabeli przestawnej"
+"url": "/pl/java/excel-pivot-tables/refreshing-pivot-table-data/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Zanim przejdziemy do kroków, zrozumiemy, dlaczego odświeżanie danych w tabeli
 
 ## Krok 1: Zainicjuj Aspose.Cells
 
- Aby rozpocząć, musisz skonfigurować środowisko Java z Aspose.Cells. Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj bibliotekę z[Aspose.Cells dla Java Pobierz](https://releases.aspose.com/cells/java/) strona.
+Aby rozpocząć, musisz skonfigurować środowisko Java z Aspose.Cells. Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj bibliotekę z [Aspose.Cells dla Java Pobierz](https://releases.aspose.com/cells/java/) strona.
 
 ```java
 import com.aspose.cells.Workbook;

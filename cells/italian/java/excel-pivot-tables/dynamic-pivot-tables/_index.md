@@ -1,10 +1,10 @@
 ---
-title: Tabelle pivot dinamiche
-linktitle: Tabelle pivot dinamiche
-second_title: API di elaborazione Excel Java Aspose.Cells
-description: Crea tabelle pivot dinamiche senza sforzo usando Aspose.Cells per Java. Analizza e riepiloga i dati con facilità. Potenzia le tue capacità di analisi dei dati.
-weight: 13
-url: /it/java/excel-pivot-tables/dynamic-pivot-tables/
+"description": "Crea tabelle pivot dinamiche senza sforzo utilizzando Aspose.Cells per Java. Analizza e riepiloga i dati con facilità. Potenzia le tue capacità di analisi dei dati."
+"linktitle": "Tabelle pivot dinamiche"
+"second_title": "API di elaborazione Excel Java Aspose.Cells"
+"title": "Tabelle pivot dinamiche"
+"url": "/it/java/excel-pivot-tables/dynamic-pivot-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,32 +14,32 @@ url: /it/java/excel-pivot-tables/dynamic-pivot-tables/
 # Tabelle pivot dinamiche
 
 
-Le tabelle pivot sono uno strumento potente nell'analisi dei dati, che consente di riassumere e manipolare i dati in un foglio di calcolo. In questo tutorial, esploreremo come creare tabelle pivot dinamiche utilizzando l'API Aspose.Cells for Java.
+Le tabelle pivot sono un potente strumento per l'analisi dei dati, consentendo di riassumere e manipolare i dati in un foglio di calcolo. In questo tutorial, esploreremo come creare tabelle pivot dinamiche utilizzando l'API Aspose.Cells per Java.
 
 ## Introduzione alle tabelle pivot
 
-Le tabelle pivot sono tabelle interattive che consentono di riassumere e analizzare i dati in un foglio di calcolo. Forniscono un modo dinamico per organizzare e analizzare i dati, rendendo più facile trarre spunti e prendere decisioni informate.
+Le tabelle pivot sono tabelle interattive che consentono di riassumere e analizzare i dati in un foglio di calcolo. Offrono un modo dinamico per organizzare e analizzare i dati, facilitando l'elaborazione di informazioni e il processo decisionale.
 
 ## Passaggio 1: importazione della libreria Aspose.Cells
 
- Prima di poter creare tabelle pivot dinamiche, dobbiamo importare la libreria Aspose.Cells nel nostro progetto Java. Puoi scaricare la libreria dalle release di Aspose[Qui](https://releases.aspose.com/cells/java/).
+Prima di poter creare tabelle pivot dinamiche, dobbiamo importare la libreria Aspose.Cells nel nostro progetto Java. È possibile scaricare la libreria dalle versioni di Aspose. [Qui](https://releases.aspose.com/cells/java/).
 
 Dopo aver scaricato la libreria, aggiungila al percorso di compilazione del tuo progetto.
 
 ## Passaggio 2: caricamento di una cartella di lavoro
 
-Per lavorare con le tabelle pivot, dobbiamo prima caricare una cartella di lavoro che contenga i dati che vogliamo analizzare. Puoi farlo usando il seguente codice:
+Per lavorare con le tabelle pivot, dobbiamo prima caricare una cartella di lavoro contenente i dati che vogliamo analizzare. Puoi farlo utilizzando il seguente codice:
 
 ```java
 // Carica il file Excel
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Sostituire`"your_excel_file.xlsx"` con il percorso del file Excel.
+Sostituire `"your_excel_file.xlsx"` con il percorso del file Excel.
 
 ## Passaggio 3: creazione di una tabella pivot
 
-Ora che abbiamo caricato la cartella di lavoro, creiamo una tabella pivot. Dovremo specificare l'intervallo di dati sorgente per la tabella pivot e la posizione in cui vogliamo posizionarla nel foglio di lavoro. Ecco un esempio:
+Ora che abbiamo caricato la cartella di lavoro, creiamo una tabella pivot. Dovremo specificare l'intervallo di dati di origine per la tabella pivot e la posizione in cui vogliamo inserirla nel foglio di lavoro. Ecco un esempio:
 
 ```java
 // Ottieni il primo foglio di lavoro
@@ -58,7 +58,7 @@ PivotTable pivotTable = worksheet.getPivotTables().add(sourceData, worksheet.get
 
 ## Passaggio 4: configurazione della tabella pivot
 
-Ora che abbiamo creato la tabella pivot, possiamo configurarla per riassumere e analizzare i dati come necessario. Puoi impostare campi riga, campi colonna, campi dati e applicare vari calcoli. Ecco un esempio:
+Ora che abbiamo creato la tabella pivot, possiamo configurarla per riassumere e analizzare i dati secondo necessità. È possibile impostare campi riga, campi colonna, campi dati e applicare vari calcoli. Ecco un esempio:
 
 ```java
 // Aggiungere campi alla tabella pivot
@@ -72,7 +72,7 @@ pivotTable.getDataFields().get(0).setFunction(PivotFieldFunction.SUM);
 
 ## Passaggio 5: aggiornamento della tabella pivot
 
-Le tabelle pivot possono essere dinamiche, ovvero si aggiornano automaticamente quando cambiano i dati sorgente. Per aggiornare la tabella pivot, puoi usare il seguente codice:
+Le tabelle pivot possono essere dinamiche, ovvero si aggiornano automaticamente quando i dati di origine cambiano. Per aggiornare la tabella pivot, puoi utilizzare il seguente codice:
 
 ```java
 // Aggiorna la tabella pivot
@@ -82,9 +82,9 @@ pivotTable.calculateData();
 
 ## Conclusione
 
-In questo tutorial, abbiamo imparato come creare tabelle pivot dinamiche utilizzando l'API Aspose.Cells per Java. Le tabelle pivot sono uno strumento prezioso per l'analisi dei dati e, con Aspose.Cells, puoi automatizzarne la creazione e la manipolazione nelle tue applicazioni Java.
+In questo tutorial abbiamo imparato a creare tabelle pivot dinamiche utilizzando l'API Aspose.Cells per Java. Le tabelle pivot sono uno strumento prezioso per l'analisi dei dati e, con Aspose.Cells, è possibile automatizzarne la creazione e la manipolazione nelle applicazioni Java.
 
-Se hai domande o hai bisogno di ulteriore assistenza, non esitare a contattarci. Buona programmazione!
+Per qualsiasi domanda o ulteriore assistenza, non esitate a contattarci. Buona programmazione!
 
 ## Domande frequenti
 
@@ -94,7 +94,7 @@ Sì, puoi applicare calcoli personalizzati ai campi dati implementando la tua lo
 
 ### D2: Come posso modificare la formattazione della tabella pivot?
 
-È possibile modificare la formattazione della tabella pivot accedendo alle proprietà di stile e applicando la formattazione desiderata.
+È possibile modificare la formattazione della tabella pivot accedendo alle sue proprietà di stile e applicando la formattazione desiderata.
 
 ### D3: È possibile creare più tabelle pivot nello stesso foglio di lavoro?
 

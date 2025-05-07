@@ -1,10 +1,10 @@
 ---
-title: Perlindungan Kata Sandi Excel
-linktitle: Perlindungan Kata Sandi Excel
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara meningkatkan keamanan data dengan perlindungan kata sandi Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber untuk kerahasiaan data terbaik.
-weight: 10
-url: /id/java/excel-data-security/excel-password-protection/
+"description": "Pelajari cara meningkatkan keamanan data dengan perlindungan kata sandi Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber untuk kerahasiaan data terbaik."
+"linktitle": "Perlindungan Kata Sandi Excel"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Perlindungan Kata Sandi Excel"
+"url": "/id/java/excel-data-security/excel-password-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ Di era digital, mengamankan data sensitif Anda adalah hal yang terpenting. Lemba
 Sebelum menyelami dunia perlindungan kata sandi Excel dengan Aspose.Cells untuk Java, Anda harus memastikan Anda memiliki alat dan pengetahuan yang diperlukan:
 
 - Lingkungan Pengembangan Java
--  Aspose.Cells untuk Java API (Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/java/)
+- Aspose.Cells untuk Java API (Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/cells/java/)
 - Pengetahuan dasar tentang pemrograman Java
 
 ## Menyiapkan Lingkungan
@@ -79,7 +79,7 @@ import com.aspose.cells.*;
 
 public class ExcelPasswordProtection {
     public static void main(String[] args) {
-        //Memuat buku kerja yang ada
+        // Memuat buku kerja yang ada
         Workbook workbook;
         try {
             workbook = new Workbook("Sample.xlsx");
@@ -102,7 +102,7 @@ public class ExcelPasswordProtection {
 }
 ```
 
- Dalam kode ini, kita memuat file Excel yang dibuat sebelumnya, mengatur kata sandi, dan melindungi buku kerja. Anda dapat mengganti`"MySecretPassword"` dengan kata sandi yang Anda inginkan.
+Dalam kode ini, kita memuat file Excel yang dibuat sebelumnya, mengatur kata sandi, dan melindungi buku kerja. Anda dapat mengganti `"MySecretPassword"` dengan kata sandi yang Anda inginkan.
 
 ## Kesimpulan
 
@@ -112,7 +112,7 @@ Dalam tutorial ini, kita telah mempelajari cara menambahkan proteksi kata sandi 
 
 ### Bagaimana cara menghapus proteksi kata sandi dari berkas Excel?
 
-Anda dapat menghapus proteksi kata sandi dengan memuat file Excel yang dilindungi, memberikan kata sandi yang benar, lalu menyimpan buku kerja tanpa proteksi.
+Anda dapat menghapus proteksi kata sandi dengan memuat file Excel yang diproteksi, memberikan kata sandi yang benar, lalu menyimpan buku kerja tanpa proteksi.
 
 ### Dapatkah saya mengatur kata sandi yang berbeda untuk lembar kerja yang berbeda dalam file Excel yang sama?
 
@@ -129,6 +129,7 @@ Ya, Anda dapat mengubah kata sandi untuk file Excel yang sudah dilindungi dengan
 ### Apakah ada batasan pada perlindungan kata sandi dalam file Excel?
 
 Perlindungan kata sandi dalam file Excel merupakan tindakan keamanan yang kuat, tetapi penting untuk memilih kata sandi yang kuat dan menjaganya tetap rahasia untuk memaksimalkan keamanan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

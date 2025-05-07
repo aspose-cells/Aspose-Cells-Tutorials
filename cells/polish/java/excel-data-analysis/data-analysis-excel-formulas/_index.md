@@ -1,10 +1,10 @@
 ---
-title: Formuły analizy danych w programie Excel
-linktitle: Formuły analizy danych w programie Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Odblokuj moc analizy danych w programie Excel dzięki Aspose.Cells dla języka Java. Poznaj podstawowe formuły i techniki.
-weight: 16
-url: /pl/java/excel-data-analysis/data-analysis-excel-formulas/
+"description": "Odblokuj moc analizy danych w programie Excel dzięki Aspose.Cells dla języka Java. Poznaj podstawowe formuły i techniki."
+"linktitle": "Formuły analizy danych w programie Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Formuły analizy danych w programie Excel"
+"url": "/pl/java/excel-data-analysis/data-analysis-excel-formulas/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Zanim zagłębimy się w analizę danych, przedstawimy Aspose.Cells dla Javy. Je
 
 Aby rozpocząć korzystanie z Aspose.Cells dla Javy, musisz skonfigurować środowisko Java i uwzględnić bibliotekę Aspose.Cells w swoim projekcie. Oto kroki, aby to zrobić:
 
-1.  Pobierz Aspose.Cells: Odwiedź[Aspose.Cells dla Javy](https://releases.aspose.com/cells/java/) aby pobrać najnowszą wersję biblioteki.
+1. Pobierz Aspose.Cells: Odwiedź [Aspose.Cells dla Javy](https://releases.aspose.com/cells/java/) aby pobrać najnowszą wersję biblioteki.
 
 2. Dodaj Aspose.Cells do swojego projektu: Dołącz plik JAR Aspose.Cells do ścieżki kompilacji swojego projektu Java.
 
@@ -30,7 +30,7 @@ Teraz, gdy mamy już gotowe środowisko, możemy zapoznać się z podstawowymi t
 
 ## Podstawowe formuły programu Excel do analizy danych
 
-### Wzór SUMA
+### Wzór na sumę
 
 Formuła SUMA jest jedną z najczęściej używanych funkcji do analizy danych w programie Excel. Pozwala ona szybko dodać zakres liczb. Oto, jak można jej używać z Aspose.Cells dla Java:
 
@@ -92,13 +92,13 @@ pivotTable.calculateData();
 
 ## Wniosek
 
-tym artykule przyjrzeliśmy się analizie danych w programie Excel przy użyciu Aspose.Cells dla języka Java. Zaczęliśmy od wprowadzenia biblioteki i skonfigurowania środowiska Java. Następnie omówiliśmy podstawowe formuły programu Excel, takie jak SUM i AVERAGE, służące do analizy danych. Na koniec omówiliśmy zaawansowane techniki, takie jak tabele przestawne.
+W tym artykule przyjrzeliśmy się analizie danych w programie Excel przy użyciu Aspose.Cells dla języka Java. Zaczęliśmy od wprowadzenia biblioteki i skonfigurowania środowiska Java. Następnie omówiliśmy podstawowe formuły programu Excel, takie jak SUM i AVERAGE, służące do analizy danych. Na koniec omówiliśmy zaawansowane techniki, takie jak tabele przestawne.
 
 ## Najczęściej zadawane pytania
 
 ### Czy Aspose.Cells dla Java jest darmowy?
 
- Nie, Aspose.Cells for Java to komercyjna biblioteka z opłatą licencyjną. Możesz odwiedzić[Strona internetowa Aspose](https://www.aspose.com/) aby dowiedzieć się więcej o cenach.
+Nie, Aspose.Cells for Java to komercyjna biblioteka z opłatą licencyjną. Możesz odwiedzić [Strona internetowa Aspose](https://www.aspose.com/) aby dowiedzieć się więcej o cenach.
 
 ### Czy mogę używać Aspose.Cells for Java zarówno w aplikacjach desktopowych, jak i internetowych?
 
@@ -114,7 +114,8 @@ Tak, Aspose.Cells obsługuje formuły programu Excel w różnych językach, co c
 
 ### Gdzie mogę znaleźć więcej samouczków i zasobów dotyczących Aspose.Cells dla Java?
 
- Dodatkowe samouczki i dokumentację na temat Aspose.Cells dla języka Java można znaleźć pod adresem[Aspose.Cells Dokumentacja API Java](https://reference.aspose.com/cells/java/).
+Dodatkowe samouczki i dokumentację na temat Aspose.Cells dla języka Java można znaleźć pod adresem [Aspose.Cells Dokumentacja API Java](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

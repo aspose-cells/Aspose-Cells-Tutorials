@@ -1,17 +1,17 @@
 ---
-title: Trend Çizgisi Analizi
-linktitle: Trend Çizgisi Analizi
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells ile Java'da Trendline Analizinde Ustalaşın. Adım adım talimatlar ve kod örnekleriyle veri odaklı içgörüler oluşturmayı öğrenin.
-weight: 15
-url: /tr/java/advanced-excel-charts/trendline-analysis/
+"description": "Aspose.Cells ile Java'da Trendline Analizinde Ustalaşın. Adım adım talimatlar ve kod örnekleriyle veri odaklı içgörüler oluşturmayı öğrenin."
+"linktitle": "Trend çizgisi analizi"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Trend çizgisi analizi"
+"url": "/tr/java/advanced-excel-charts/trendline-analysis/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Trend Çizgisi Analizi
+# Trend çizgisi analizi
 
 
 ## Giriş Trend Çizgisi Analizi
@@ -23,7 +23,7 @@ Bu eğitimde, Java için Aspose.Cells kullanarak Trendline Analizi'nin nasıl ge
 Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
 - Sisteminizde Java yüklü.
--  Java kütüphanesi için Aspose.Cells. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/).
+- Java kütüphanesi için Aspose.Cells. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/cells/java/).
 
 ## Adım 1: Projenin Kurulumu
 
@@ -74,7 +74,7 @@ chart.getTitle().setText("Trendline Analysis");
 chart.getCategoryAxis().getTitle().setText("X-Axis");
 chart.getValueAxis().getTitle().setText("Y-Axis");
 
-//Excel dosyasını grafikle birlikte kaydedin
+// Excel dosyasını grafikle birlikte kaydedin
 workbook.save("output.xlsx");
 ```
 
@@ -90,15 +90,16 @@ Bu eğitimde, Java için Aspose.Cells kullanarak Trendline Analizi'nin nasıl ge
 
 ### Trend çizgisinin tipini nasıl değiştirebilirim?
 
- Trend çizgisi türünü değiştirmek için,`TrendlineType` trend çizgisini eklerken numaralandırma. Örneğin, şunu kullanın`TrendlineType.POLYNOMIAL` polinom trend çizgisi için.
+Trend çizgisi türünü değiştirmek için, `TrendlineType` trend çizgisini eklerken numaralandırma. Örneğin, şunu kullanın `TrendlineType.POLYNOMIAL` polinom trend çizgisi için.
 
 ### Trend çizgisinin görünümünü özelleştirebilir miyim?
 
- Evet, şu özelliklere erişerek trend çizgisinin görünümünü özelleştirebilirsiniz:`setLineFormat()` Ve`setWeight()` trend çizgisi nesnesinin.
+Evet, şu özelliklere erişerek trend çizgisinin görünümünü özelleştirebilirsiniz: `setLineFormat()` Ve `setWeight()` trend çizgisi nesnesinin.
 
 ### Tabloyu görüntüye veya PDF'e nasıl aktarabilirim?
 
 Aspose.Cells kullanarak grafiği çeşitli biçimlere aktarabilirsiniz. Ayrıntılı talimatlar için belgelere bakın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

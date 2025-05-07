@@ -1,10 +1,10 @@
 ---
-title: Automatyzacja arkuszy kalkulacyjnych
-linktitle: Automatyzacja arkuszy kalkulacyjnych
-second_title: Aspose.Cells Java Excel Processing API
-description: Odblokuj moc Aspose.Cells dla Java dzięki naszym kompleksowym samouczkom. Poznaj automatyzację arkuszy kalkulacyjnych krok po kroku, aby zapewnić wydajne tworzenie aplikacji Java.
-weight: 19
-url: /pl/java/spreadsheet-automation/
+"description": "Odblokuj moc Aspose.Cells dla Java dzięki naszym kompleksowym samouczkom. Poznaj automatyzację arkuszy kalkulacyjnych krok po kroku, aby zapewnić wydajne tworzenie aplikacji Java."
+"linktitle": "Automatyzacja arkuszy kalkulacyjnych"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Automatyzacja arkuszy kalkulacyjnych"
+"url": "/pl/java/spreadsheet-automation/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -38,14 +38,14 @@ Odkryj, jak usprawnić zadania przetwarzania wsadowego w programie Excel za pomo
 Dowiedz się, jak skutecznie automatyzować wprowadzanie danych za pomocą przykładów kodu źródłowego przy użyciu Aspose.Cells for Java. Zwiększ produktywność i dokładność w obsłudze danych.
 ### [Dynamiczne raporty Excela](./dynamic-excel-reports/)
 Twórz dynamiczne raporty Excela łatwo dzięki Aspose.Cells for Java. Automatyzuj aktualizacje danych, stosuj formatowanie i oszczędzaj czas.
-### [Zautomatyzowane wyodrębnianie danych](./automated-data-extraction/)
+### [Zautomatyzowane pobieranie danych](./automated-data-extraction/)
 Dowiedz się, jak skutecznie automatyzować ekstrakcję danych za pomocą przykładów kodu źródłowego przy użyciu Aspose.Cells dla Java. Bezproblemowo wyodrębniaj dane z plików Excel.
 ### [Automatyzacja skoroszytu programu Excel](./excel-workbook-automation/)
 Poznaj automatyzację skoroszytu programu Excel w Javie z Aspose.Cells: Twórz, odczytuj, aktualizuj pliki programu Excel programowo. Zacznij teraz!
 ### [Automatyzacja wykresów programu Excel](./automating-excel-charts/)
-Poznaj sposób automatyzacji tworzenia i dostosowywania wykresów w programie Excel za pomocą Aspose.Cells for Java z przykładami kodu źródłowego. Usprawnij swoje zadania związane z wykresami. 
+Poznaj sposób automatyzacji tworzenia i dostosowywania wykresów w programie Excel za pomocą Aspose.Cells for Java z przykładami kodu źródłowego. Usprawnij zadania związane z wykresami. 
 ### [Automatyzacja programu Excel za pomocą języka Java](./excel-automation-with-java/)
-Dowiedz się, jak automatyzować zadania programu Excel w języku Java, korzystając z przykładów kodu źródłowego przy użyciu Aspose.Cells, zaawansowanej biblioteki do edycji danych w programie Excel.
+Dowiedz się, jak automatyzować zadania programu Excel w języku Java, korzystając z przykładów kodu źródłowego i biblioteki Aspose.Cells, która umożliwia przetwarzanie danych w programie Excel.
 ### [Integracja danych w programie Excel](./data-integration-in-excel/)
 Dowiedz się, jak skutecznie integrować dane w programie Excel, aby uzyskać lepsze spostrzeżenia i podejmować decyzje. Przewodnik krok po kroku z kodem źródłowym przy użyciu Aspose.Cells dla języka Java.
 {{< /blocks/products/pf/tutorial-page-section >}}

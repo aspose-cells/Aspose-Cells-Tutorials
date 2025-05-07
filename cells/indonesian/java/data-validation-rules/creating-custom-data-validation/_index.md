@@ -1,10 +1,10 @@
 ---
-title: Membuat Validasi Data Kustom
-linktitle: Membuat Validasi Data Kustom
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara membuat validasi data khusus menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber.
-weight: 10
-url: /id/java/data-validation-rules/creating-custom-data-validation/
+"description": "Pelajari cara membuat validasi data khusus menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber."
+"linktitle": "Membuat Validasi Data Kustom"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Membuat Validasi Data Kustom"
+"url": "/id/java/data-validation-rules/creating-custom-data-validation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Validasi data membantu menjaga integritas data dengan mencegah pengguna memasukk
 
 Sebelum menyelami kode, pastikan Anda memiliki prasyarat berikut:
 
--  Aspose.Cells untuk Java: Unduh dan instal pustaka dari[Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk Java: Unduh dan instal pustaka dari [Di Sini](https://releases.aspose.com/cells/java/).
 
 ## Langkah 1: Menyiapkan Proyek Java Anda
 
@@ -95,7 +95,7 @@ Dalam tutorial ini, kami telah mempelajari cara membuat aturan validasi data kus
 
 ### Bagaimana cara mengunduh Aspose.Cells untuk Java?
 
- Anda dapat mengunduh Aspose.Cells untuk Java dari situs web di[Di Sini](https://releases.aspose.com/cells/java/).
+Anda dapat mengunduh Aspose.Cells untuk Java dari situs web di [Di Sini](https://releases.aspose.com/cells/java/).
 
 ### Dapatkah saya menerapkan validasi data khusus ke beberapa rentang di lembar kerja yang sama?
 
@@ -107,11 +107,12 @@ Ya, Aspose.Cells untuk Java mendukung berbagai jenis validasi data, termasuk bil
 
 ### Bagaimana saya dapat menyesuaikan pesan kesalahan yang ditampilkan saat validasi data gagal?
 
- Anda dapat menyesuaikan pesan kesalahan dengan memodifikasi`setErrorMessage` metode pada Langkah 4, di mana Anda menentukan kriteria validasi.
+Anda dapat menyesuaikan pesan kesalahan dengan memodifikasi `setErrorMessage` metode pada Langkah 4, di mana Anda menentukan kriteria validasi.
 
 ### Apakah Aspose.Cells untuk Java berfungsi dengan file Excel dalam format yang berbeda?
 
 Ya, Aspose.Cells untuk Java mendukung berbagai format file Excel, termasuk XLS, XLSX, XLSM, dan banyak lagi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

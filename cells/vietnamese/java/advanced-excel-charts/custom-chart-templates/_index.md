@@ -1,10 +1,10 @@
 ---
-title: Mẫu biểu đồ tùy chỉnh
-linktitle: Mẫu biểu đồ tùy chỉnh
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách tạo mẫu biểu đồ tùy chỉnh tuyệt đẹp trong Java với Aspose.Cells. Hướng dẫn từng bước này bao gồm mọi thứ bạn cần để trực quan hóa dữ liệu động.
-weight: 11
-url: /vi/java/advanced-excel-charts/custom-chart-templates/
+"description": "Tìm hiểu cách tạo mẫu biểu đồ tùy chỉnh tuyệt đẹp trong Java với Aspose.Cells. Hướng dẫn từng bước này bao gồm mọi thứ bạn cần để trực quan hóa dữ liệu động."
+"linktitle": "Mẫu biểu đồ tùy chỉnh"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Mẫu biểu đồ tùy chỉnh"
+"url": "/vi/java/advanced-excel-charts/custom-chart-templates/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -27,7 +27,7 @@ Trước khi bắt đầu tạo mẫu biểu đồ tùy chỉnh, hãy cùng làm
 Để làm theo hướng dẫn này, hãy đảm bảo bạn có đủ các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Aspose.Cells cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
+- Aspose.Cells cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/java/).
 
 ## Tạo mẫu biểu đồ tùy chỉnh
 
@@ -106,7 +106,7 @@ Tạo mẫu biểu đồ tùy chỉnh bằng Aspose.Cells for Java cho phép b�
 
 ### Làm thế nào để cài đặt Aspose.Cells cho Java?
 
- Để cài đặt Aspose.Cells cho Java, hãy truy cập trang tải xuống[đây](https://releases.aspose.com/cells/java/). Tải xuống thư viện và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+Để cài đặt Aspose.Cells cho Java, hãy truy cập trang tải xuống [đây](https://releases.aspose.com/cells/java/). Tải xuống thư viện và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
 
 ### Tôi có thể tạo loại biểu đồ nào bằng Aspose.Cells for Java?
 
@@ -122,7 +122,8 @@ Chắc chắn rồi! Aspose.Cells for Java rất linh hoạt và có thể xử 
 
 ### Tôi có thể tìm thêm tài liệu và nguồn lực ở đâu?
 
- Để biết tài liệu và ví dụ toàn diện, hãy truy cập tài liệu Aspose.Cells cho Java tại[đây](https://reference.aspose.com/cells/java/).
+Để biết tài liệu và ví dụ toàn diện, hãy truy cập tài liệu Aspose.Cells cho Java tại [đây](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

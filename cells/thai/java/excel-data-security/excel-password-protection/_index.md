@@ -1,10 +1,10 @@
 ---
-title: การป้องกันด้วยรหัสผ่าน Excel
-linktitle: การป้องกันด้วยรหัสผ่าน Excel
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีการปรับปรุงความปลอดภัยข้อมูลด้วยการป้องกันด้วยรหัสผ่าน Excel โดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับเพื่อการรักษาความลับของข้อมูลอย่างสูงสุด
-weight: 10
-url: /th/java/excel-data-security/excel-password-protection/
+"description": "เรียนรู้วิธีการปรับปรุงความปลอดภัยข้อมูลด้วยการป้องกันด้วยรหัสผ่าน Excel โดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับเพื่อการรักษาความลับของข้อมูลอย่างสูงสุด"
+"linktitle": "การป้องกันด้วยรหัสผ่าน Excel"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การป้องกันด้วยรหัสผ่าน Excel"
+"url": "/th/java/excel-data-security/excel-password-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ url: /th/java/excel-data-security/excel-password-protection/
 ก่อนที่จะเข้าสู่โลกของการป้องกันรหัสผ่าน Excel ด้วย Aspose.Cells สำหรับ Java คุณจะต้องแน่ใจว่าคุณมีเครื่องมือและความรู้ที่จำเป็น:
 
 - สภาพแวดล้อมการพัฒนา Java
--  Aspose.Cells สำหรับ Java API (สามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/cells/java/)
+- Aspose.Cells สำหรับ Java API (สามารถดาวน์โหลดได้ [ที่นี่](https://releases.aspose.com/cells/java/)
 - ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 
 ## การจัดเตรียมสภาพแวดล้อม
@@ -79,7 +79,7 @@ import com.aspose.cells.*;
 
 public class ExcelPasswordProtection {
     public static void main(String[] args) {
-        //โหลดสมุดงานที่มีอยู่
+        // โหลดสมุดงานที่มีอยู่
         Workbook workbook;
         try {
             workbook = new Workbook("Sample.xlsx");
@@ -102,7 +102,7 @@ public class ExcelPasswordProtection {
 }
 ```
 
- ในโค้ดนี้ เราจะโหลดไฟล์ Excel ที่สร้างไว้ก่อนหน้านี้ ตั้งรหัสผ่าน และป้องกันเวิร์กบุ๊ก คุณสามารถแทนที่`"MySecretPassword"` ด้วยรหัสผ่านที่คุณต้องการ
+ในโค้ดนี้ เราจะโหลดไฟล์ Excel ที่สร้างไว้ก่อนหน้านี้ ตั้งรหัสผ่าน และป้องกันเวิร์กบุ๊ก คุณสามารถแทนที่ `"MySecretPassword"` ด้วยรหัสผ่านที่คุณต้องการ
 
 ## บทสรุป
 
@@ -128,7 +128,8 @@ public class ExcelPasswordProtection {
 
 ### มีข้อจำกัดใด ๆ ในการป้องกันด้วยรหัสผ่านในไฟล์ Excel หรือไม่
 
-การป้องกันด้วยรหัสผ่านในไฟล์ Excel ถือเป็นมาตรการรักษาความปลอดภัยที่แข็งแกร่ง แต่สิ่งสำคัญคือต้องเลือกใช้รหัสผ่านที่แข็งแกร่งและรักษาให้เป็นความลับเพื่อเพิ่มความปลอดภัยให้สูงสุด
+การป้องกันด้วยรหัสผ่านในไฟล์ Excel ถือเป็นมาตรการรักษาความปลอดภัยที่แข็งแกร่ง แต่จำเป็นต้องเลือกใช้รหัสผ่านที่แข็งแกร่งและรักษาให้เป็นความลับเพื่อเพิ่มความปลอดภัยให้สูงสุด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

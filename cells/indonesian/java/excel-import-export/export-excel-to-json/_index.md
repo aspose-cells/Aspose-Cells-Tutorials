@@ -1,10 +1,10 @@
 ---
-title: Ekspor Excel ke JSON
-linktitle: Ekspor Excel ke JSON
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara mengekspor data Excel ke JSON menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini dengan kode sumber untuk konversi yang lancar.
-weight: 17
-url: /id/java/excel-import-export/export-excel-to-json/
+"description": "Pelajari cara mengekspor data Excel ke JSON menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini dengan kode sumber untuk konversi yang lancar."
+"linktitle": "Ekspor Excel ke JSON"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Ekspor Excel ke JSON"
+"url": "/id/java/excel-import-export/export-excel-to-json/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,7 +20,7 @@ Dalam tutorial ini, kami akan memandu Anda melalui proses mengekspor data Excel 
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
--  Aspose.Cells untuk Java: Unduh dan instal pustaka Aspose.Cells untuk Java dari[Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk Java: Unduh dan instal pustaka Aspose.Cells untuk Java dari [Di Sini](https://releases.aspose.com/cells/java/).
 - File Excel: Siapkan file Excel yang ingin Anda ubah ke JSON.
 
 ## Langkah 1: Impor Aspose.Cells untuk Java
@@ -38,7 +38,7 @@ Selanjutnya, muat file Excel yang ingin Anda ekspor ke JSON. Anda dapat mengguna
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Mengganti`"your_excel_file.xlsx"` dengan jalur ke berkas Excel Anda.
+Mengganti `"your_excel_file.xlsx"` dengan jalur ke berkas Excel Anda.
 
 ## Langkah 3: Konversi ke JSON
 Sekarang, mari kita ubah data Excel ke format JSON. Gunakan kode berikut untuk melakukan konversi:
@@ -54,7 +54,7 @@ workbook.save("output.json", jsonSaveOptions);
 Kode ini akan menyimpan data Excel sebagai file JSON bernama "output.json" di direktori proyek Anda.
 
 ## Langkah 4: Menangani Data JSON
-Kini Anda dapat mengolah data JSON sesuai kebutuhan. Anda dapat mengurai, memanipulasi, atau menggunakannya dalam aplikasi Anda.
+Kini Anda dapat mengolah data JSON sesuai kebutuhan. Anda dapat menguraikannya, memanipulasinya, atau menggunakannya dalam aplikasi Anda.
 
 ## Kesimpulan
 Selamat! Anda telah berhasil mengekspor data Excel ke JSON menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah ini telah menyediakan kode sumber yang diperlukan untuk menyederhanakan proses. Sekarang, Anda dapat mengonversi file Excel ke JSON secara efisien di aplikasi Java Anda.
@@ -76,7 +76,7 @@ Selamat! Anda telah berhasil mengekspor data Excel ke JSON menggunakan Aspose.Ce
    Ya, Anda dapat mengunduh versi uji coba Aspose.Cells untuk Java dari situs web mereka untuk mengevaluasi fitur-fiturnya.
 
 Jangan ragu untuk menjelajahi kemungkinan lebih lanjut dengan Aspose.Cells untuk Java untuk meningkatkan kemampuan pemrosesan data Anda.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blok/produk/pf/bagian-halaman-tutorial >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

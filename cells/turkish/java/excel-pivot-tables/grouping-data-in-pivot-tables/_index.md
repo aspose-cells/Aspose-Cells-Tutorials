@@ -1,10 +1,10 @@
 ---
-title: Pivot Tablolarda Verileri Gruplandırma
-linktitle: Pivot Tablolarda Verileri Gruplandırma
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java kullanarak Excel'de pivot tabloların nasıl oluşturulacağını öğrenin. Kaynak kod örnekleriyle veri gruplandırma ve analizini otomatikleştirin.
-weight: 14
-url: /tr/java/excel-pivot-tables/grouping-data-in-pivot-tables/
+"description": "Aspose.Cells for Java kullanarak Excel'de pivot tabloların nasıl oluşturulacağını öğrenin. Kaynak kod örnekleriyle veri gruplandırma ve analizini otomatikleştirin."
+"linktitle": "Pivot Tablolarda Verileri Gruplandırma"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Pivot Tablolarda Verileri Gruplandırma"
+"url": "/tr/java/excel-pivot-tables/grouping-data-in-pivot-tables/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -58,13 +58,13 @@ workbook.save("output.xlsx");
 
 ## Adım 2: Verileri Gruplandır
 
- Java için Aspose.Cells'de, pivot tablo içindeki verileri şu şekilde gruplayabilirsiniz:`PivotField` sınıf. Pivot tabloda bir alanın nasıl gruplandırılacağına dair bir örnek:
+Java için Aspose.Cells'de, pivot tablo içindeki verileri şu şekilde gruplayabilirsiniz: `PivotField` sınıf. Pivot tabloda bir alanın nasıl gruplandırılacağına dair bir örnek:
 
 ```java
 // Pivot tabloda "Ürün" alanına erişin
 PivotField productField = pivotTable.getPivotFields().get("Product");
 
-//"Ürün" alanını belirli bir ölçüte göre gruplandırın, örneğin başlangıç harfine göre
+// "Ürün" alanını belirli bir ölçüte göre gruplandırın, örneğin başlangıç harfine göre
 productField.setIsAutoSubtotals(false);
 productField.setBaseField("Product");
 productField.setAutoSort(true);
@@ -99,11 +99,11 @@ Pivot tablolarda veri gruplandırma, Excel'de veri analiz etmek ve özetlemek i�
 
 ### 1. Excel'deki pivot tabloların amacı nedir?
 
-Excel'deki pivot tablolar büyük veri kümelerini özetlemek ve analiz etmek için kullanılır. Verilerinizin özel görünümlerini oluşturmanıza olanak tanır ve kalıpları ve eğilimleri belirlemeyi kolaylaştırır.
+Excel'deki pivot tablolar büyük veri kümelerini özetlemek ve analiz etmek için kullanılır. Verilerinizin özel görünümlerini oluşturmanıza olanak tanır ve bu da kalıpları ve eğilimleri belirlemeyi kolaylaştırır.
 
 ### 2. Pivot tablodaki verilerin gruplandırılmasını nasıl özelleştirebilirim?
 
- Pivot tablodaki verilerin gruplandırılmasını, şunu kullanarak özelleştirebilirsiniz:`PivotField` Java için Aspose.Cells'deki sınıf. Bu, tarih tabanlı aralıklar veya özel kurallar gibi gruplama ölçütlerini belirtmenize olanak tanır.
+Pivot tablodaki verilerin gruplandırılmasını, şunu kullanarak özelleştirebilirsiniz: `PivotField` Java için Aspose.Cells'deki sınıf. Bu, tarih tabanlı aralıklar veya özel kurallar gibi gruplama ölçütlerini belirtmenize olanak tanır.
 
 ### 3. Java için Aspose.Cells'i kullanarak pivot tabloların oluşturulmasını otomatikleştirebilir miyim?
 

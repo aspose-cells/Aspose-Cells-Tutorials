@@ -5,7 +5,8 @@ limit:
 description: Learn how to wrap text in Excel cells using Aspose.Cells for .NET. This guide covers creating a workbook, adding a worksheet, and applying text wrapping.
 keywords: [Aspose.Cells for .NET, wrap text in Excel, Excel text wrapping, .NET Excel library, format Excel cells, Excel automation, C# Excel tutorial]
 url: /net/formatting/wrapping-text/
----  
+---
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -1,10 +1,10 @@
 ---
-title: पिवट तालिकाओं में परिकलित फ़ील्ड
-linktitle: पिवट तालिकाओं में परिकलित फ़ील्ड
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: Java के लिए Aspose.Cells का उपयोग करके पिवट टेबल में परिकलित फ़ील्ड बनाने का तरीका जानें। Excel में कस्टम गणनाओं के साथ अपने डेटा विश्लेषण को बढ़ावा दें।
-weight: 15
-url: /hi/java/excel-pivot-tables/calculated-fields-in-pivot-tables/
+"description": "Java के लिए Aspose.Cells का उपयोग करके पिवट टेबल में परिकलित फ़ील्ड बनाने का तरीका जानें। Excel में कस्टम गणनाओं के साथ अपने डेटा विश्लेषण को बढ़ावा दें।"
+"linktitle": "पिवट तालिकाओं में परिकलित फ़ील्ड"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "पिवट तालिकाओं में परिकलित फ़ील्ड"
+"url": "/hi/java/excel-pivot-tables/calculated-fields-in-pivot-tables/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /hi/java/excel-pivot-tables/calculated-fields-in-pivot-tables/
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान.
 
 ## चरण 1: अपना जावा प्रोजेक्ट सेट अप करना
- सबसे पहले, अपने पसंदीदा IDE में एक नया Java प्रोजेक्ट बनाएं और Aspose.Cells for Java लाइब्रेरी को शामिल करें। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/java/).
+सबसे पहले, अपने पसंदीदा IDE में एक नया Java प्रोजेक्ट बनाएं और Aspose.Cells for Java लाइब्रेरी को शामिल करें। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/java/).
 
 ## चरण 2: आवश्यक कक्षाएं आयात करना
 अपने जावा कोड में, Aspose.Cells से आवश्यक क्लासेस आयात करें। ये क्लासेस आपको पिवट टेबल और कैलकुलेटेड फ़ील्ड के साथ काम करने में मदद करेंगी।
@@ -32,14 +32,14 @@ import com.aspose.cells.*;
 ```
 
 ## चरण 3: अपनी एक्सेल फ़ाइल लोड करना
- अपनी एक्सेल फ़ाइल को लोड करें जिसमें पिवट टेबल शामिल है, अपने जावा एप्लिकेशन में।`"your-file.xlsx"` अपनी एक्सेल फ़ाइल के पथ के साथ.
+अपनी एक्सेल फ़ाइल को लोड करें जिसमें पिवट टेबल शामिल है, अपने जावा एप्लिकेशन में। `"your-file.xlsx"` अपनी एक्सेल फ़ाइल के पथ के साथ.
 
 ```java
 Workbook workbook = new Workbook("your-file.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## चरण 4: पिवट तालिका तक पहुँचना
+## चरण 4: पिवट टेबल तक पहुंचना
 पिवट टेबल के साथ काम करने के लिए, आपको इसे अपनी वर्कशीट में एक्सेस करना होगा। मान लीजिए कि आपकी पिवट टेबल का नाम "PivotTable1" है।
 
 ```java
@@ -73,7 +73,7 @@ pivotTable.calculateData();
    आप परिकलित फ़ील्ड में फ़ंक्शन और फ़ील्ड संदर्भों को संयोजित करके अधिक जटिल सूत्र बना सकते हैं।
 
 ### यदि मुझे किसी परिकलित फ़ील्ड की आवश्यकता न हो, तो क्या मैं उसे हटा सकता हूँ?
-   हां, आप पिवट तालिका से किसी परिकलित फ़ील्ड को एक्सेस करके हटा सकते हैं`pivotFields` संग्रह और नाम से क्षेत्र को हटाने.
+   हां, आप पिवट तालिका से किसी परिकलित फ़ील्ड को हटा सकते हैं `pivotFields` संग्रह और नाम से क्षेत्र को हटाने.
 
 ### क्या Aspose.Cells for Java बड़े डेटासेट के लिए उपयुक्त है?
    हां, Java के लिए Aspose.Cells को बड़ी Excel फ़ाइलों और डेटासेट को कुशलतापूर्वक संभालने के लिए डिज़ाइन किया गया है।
@@ -82,7 +82,8 @@ pivotTable.calculateData();
    परिकलित फ़ील्ड में कुछ सीमाएँ हैं, जैसे कि कुछ प्रकार की गणनाओं का समर्थन न करना। विवरण के लिए दस्तावेज़ अवश्य देखें।
 
 ### मैं Aspose.Cells for Java पर अधिक संसाधन कहां पा सकता हूं?
-    आप API दस्तावेज़न यहाँ देख सकते हैं[Aspose.Cells for Java दस्तावेज़ीकरण](https://reference.aspose.com/cells/java/).
+   आप API दस्तावेज़न यहाँ देख सकते हैं [Aspose.Cells for Java दस्तावेज़ीकरण](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

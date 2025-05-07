@@ -1,10 +1,10 @@
 ---
-title: การดึงข้อมูลอัตโนมัติ
-linktitle: การดึงข้อมูลอัตโนมัติ
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีการดึงข้อมูลอัตโนมัติอย่างมีประสิทธิภาพด้วยตัวอย่างโค้ดต้นฉบับโดยใช้ Aspose.Cells สำหรับ Java ดึงข้อมูลจากไฟล์ Excel ได้อย่างง่ายดาย
-weight: 14
-url: /th/java/spreadsheet-automation/automated-data-extraction/
+"description": "เรียนรู้วิธีการดึงข้อมูลอัตโนมัติอย่างมีประสิทธิภาพด้วยตัวอย่างโค้ดต้นฉบับโดยใช้ Aspose.Cells สำหรับ Java ดึงข้อมูลจากไฟล์ Excel ได้อย่างง่ายดาย"
+"linktitle": "การดึงข้อมูลอัตโนมัติ"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การดึงข้อมูลอัตโนมัติ"
+"url": "/th/java/spreadsheet-automation/automated-data-extraction/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -17,7 +17,7 @@ url: /th/java/spreadsheet-automation/automated-data-extraction/
 
 # ดึงข้อมูลอัตโนมัติด้วย Aspose.Cells สำหรับ Java
 
-การดึงข้อมูลจากไฟล์ Excel เป็นงานทั่วไปในแอปพลิเคชันธุรกิจต่างๆ การทำให้กระบวนการนี้เป็นอัตโนมัติจะช่วยประหยัดเวลาและเพิ่มความแม่นยำ ในบทช่วยสอนนี้ เราจะสำรวจวิธีการทำให้การดึงข้อมูลเป็นอัตโนมัติโดยใช้ Aspose.Cells สำหรับ Java ซึ่งเป็น Java API ที่มีประสิทธิภาพสำหรับการทำงานกับไฟล์ Excel
+การดึงข้อมูลจากไฟล์ Excel เป็นงานทั่วไปในแอปพลิเคชันธุรกิจต่างๆ การทำให้กระบวนการนี้เป็นอัตโนมัติจะช่วยประหยัดเวลาและเพิ่มความแม่นยำ ในบทช่วยสอนนี้ เราจะมาสำรวจวิธีการทำให้การดึงข้อมูลเป็นอัตโนมัติโดยใช้ Aspose.Cells สำหรับ Java ซึ่งเป็น Java API ที่มีประสิทธิภาพสำหรับการทำงานกับไฟล์ Excel
 
 ## เหตุใดจึงต้องดึงข้อมูลแบบอัตโนมัติ?
 
@@ -32,7 +32,7 @@ url: /th/java/spreadsheet-automation/automated-data-extraction/
 
 ### 1. การจัดเตรียมสภาพแวดล้อม
 
- ก่อนอื่น ให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Cells สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/java/).
+ก่อนอื่น ให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Cells สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ### 2. การเริ่มต้น Aspose.Cells
 
@@ -51,7 +51,7 @@ public class DataExtraction {
 
 ### 3. การโหลดข้อมูล Excel
 
-ในการดึงข้อมูล คุณต้องโหลดไฟล์ Excel คุณสามารถทำได้ดังนี้:
+ในการดึงข้อมูล คุณต้องโหลดไฟล์ Excel โดยคุณสามารถทำได้ดังนี้:
 
 ```java
 // โหลดไฟล์ Excel
@@ -108,7 +108,7 @@ String[][] extractedData = worksheet.getCells().exportArray(cellArea);
    ใช่ คุณจะต้องมีใบอนุญาตที่ถูกต้องเพื่อใช้ Aspose.Cells สำหรับ Java ในโปรเจ็กต์ของคุณ
 
 ### 5. ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.Cells สำหรับ Java ได้ที่ไหน
-    สำรวจเอกสาร API ได้ที่[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) เพื่อข้อมูลเชิงลึกและตัวอย่าง
+   สำรวจเอกสาร API ได้ที่ [https://reference.aspose.com/เซลล์/จาวา/](https://reference.aspose.com/cells/java/) เพื่อข้อมูลเชิงลึกและตัวอย่าง
 
 เริ่มต้นจัดการงานดึงข้อมูลของคุณโดยอัตโนมัติวันนี้ด้วย Aspose.Cells สำหรับ Java และปรับปรุงกระบวนการดึงข้อมูลของคุณให้มีประสิทธิภาพ
 {{< /blocks/products/pf/tutorial-page-section >}}

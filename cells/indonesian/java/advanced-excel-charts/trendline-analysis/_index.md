@@ -1,10 +1,10 @@
 ---
-title: Analisis Garis Tren
-linktitle: Analisis Garis Tren
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Kuasai Analisis Garis Tren di Java dengan Aspose.Cells. Pelajari cara membuat wawasan berdasarkan data dengan petunjuk langkah demi langkah dan contoh kode.
-weight: 15
-url: /id/java/advanced-excel-charts/trendline-analysis/
+"description": "Kuasai Analisis Garis Tren di Java dengan Aspose.Cells. Pelajari cara membuat wawasan berdasarkan data dengan petunjuk langkah demi langkah dan contoh kode."
+"linktitle": "Analisis Garis Tren"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Analisis Garis Tren"
+"url": "/id/java/advanced-excel-charts/trendline-analysis/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ Dalam tutorial ini, kita akan mempelajari cara melakukan Analisis Garis Tren men
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 - Java terinstal di sistem Anda.
--  Aspose.Cells untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
 
 ## Langkah 1: Menyiapkan Proyek
 
@@ -74,7 +74,7 @@ chart.getTitle().setText("Trendline Analysis");
 chart.getCategoryAxis().getTitle().setText("X-Axis");
 chart.getValueAxis().getTitle().setText("Y-Axis");
 
-//Simpan file Excel dengan grafik
+// Simpan file Excel dengan grafik
 workbook.save("output.xlsx");
 ```
 
@@ -90,15 +90,16 @@ Dalam tutorial ini, kita telah mempelajari cara melakukan Analisis Garis Tren me
 
 ### Bagaimana cara mengubah jenis garis tren?
 
- Untuk mengubah jenis garis tren, ubah`TrendlineType` enumerasi saat menambahkan garis tren. Misalnya, gunakan`TrendlineType.POLYNOMIAL` untuk garis tren polinomial.
+Untuk mengubah jenis garis tren, ubah `TrendlineType` enumerasi saat menambahkan garis tren. Misalnya, gunakan `TrendlineType.POLYNOMIAL` untuk garis tren polinomial.
 
 ### Bisakah saya menyesuaikan tampilan garis tren?
 
- Ya, Anda dapat menyesuaikan tampilan garis tren dengan mengakses properti seperti`setLineFormat()` Dan`setWeight()` dari objek garis tren.
+Ya, Anda dapat menyesuaikan tampilan garis tren dengan mengakses properti seperti `setLineFormat()` Dan `setWeight()` dari objek garis tren.
 
 ### Bagaimana cara mengekspor bagan ke gambar atau PDF?
 
 Anda dapat mengekspor diagram ke berbagai format menggunakan Aspose.Cells. Lihat dokumentasi untuk petunjuk terperinci.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

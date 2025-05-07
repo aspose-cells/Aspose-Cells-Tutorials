@@ -1,10 +1,10 @@
 ---
-title: Nhập dữ liệu từ Excel
-linktitle: Nhập dữ liệu từ Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách nhập dữ liệu từ Excel bằng Aspose.Cells for Java. Hướng dẫn toàn diện với mã nguồn để truy xuất dữ liệu liền mạch.
-weight: 16
-url: /vi/java/excel-import-export/data-import-from-excel/
+"description": "Tìm hiểu cách nhập dữ liệu từ Excel bằng Aspose.Cells cho Java. Hướng dẫn toàn diện với mã nguồn để truy xuất dữ liệu liền mạch."
+"linktitle": "Nhập dữ liệu từ Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Nhập dữ liệu từ Excel"
+"url": "/vi/java/excel-import-export/data-import-from-excel/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -21,7 +21,7 @@ Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn qu
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 1. Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java JDK trên hệ thống của mình.
-2.  Aspose.Cells for Java: Tải xuống và bao gồm thư viện Aspose.Cells for Java trong dự án của bạn. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/cells/java/).
+2. Aspose.Cells for Java: Tải xuống và bao gồm thư viện Aspose.Cells for Java trong dự án của bạn. Bạn có thể tìm thấy liên kết tải xuống [đây](https://releases.aspose.com/cells/java/).
 
 ## Tạo một dự án Java
 
@@ -32,7 +32,7 @@ Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã đáp ứng �
 
 Để thêm Aspose.Cells for Java vào dự án của bạn, hãy làm theo các bước sau:
 
-1.  Tải xuống thư viện Aspose.Cells cho Java từ trang web[đây](https://releases.aspose.com/cells/java/).
+1. Tải xuống thư viện Aspose.Cells cho Java từ trang web [đây](https://releases.aspose.com/cells/java/).
 2. Bao gồm tệp JAR đã tải xuống vào classpath của dự án bạn.
 
 ## Đọc dữ liệu từ Excel
@@ -51,7 +51,7 @@ public class ExcelDataImport {
         // Truy cập bảng tính
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        //Truy cập dữ liệu ô (ví dụ: A1)
+        // Truy cập dữ liệu ô (ví dụ: A1)
         Cell cell = worksheet.getCells().get("A1");
         System.out.println("Data in cell A1: " + cell.getStringValue());
 
@@ -93,7 +93,7 @@ Bây giờ bạn đã biết cách nhập dữ liệu từ Excel bằng Aspose.C
    Aspose.Cells được tối ưu hóa để xử lý hiệu quả các tệp Excel lớn.
 
 ### 5. Tôi có thể tìm thêm tài liệu và ví dụ ở đâu?
-    Truy cập tài liệu Aspose.Cells[đây](https://reference.aspose.com/cells/java/) để biết thêm tài nguyên và ví dụ chuyên sâu.
+   Truy cập tài liệu Aspose.Cells [đây](https://reference.aspose.com/cells/java/) để biết thêm tài nguyên và ví dụ chuyên sâu.
 
 Hãy thoải mái khám phá thêm và điều chỉnh mã này cho phù hợp với yêu cầu nhập dữ liệu cụ thể của bạn. Chúc bạn viết mã vui vẻ!
 {{< /blocks/products/pf/tutorial-page-section >}}

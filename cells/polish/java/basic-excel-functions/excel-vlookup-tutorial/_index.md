@@ -1,10 +1,10 @@
 ---
-title: Samouczek dotyczący funkcji VLOOKUP w programie Excel
-linktitle: Samouczek dotyczący funkcji VLOOKUP w programie Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Odkryj możliwości funkcji VLOOKUP w programie Excel z Aspose.Cells dla języka Java — kompleksowy przewodnik po bezproblemowym pobieraniu danych.
-weight: 12
-url: /pl/java/basic-excel-functions/excel-vlookup-tutorial/
+"description": "Odkryj możliwości funkcji VLOOKUP w programie Excel z Aspose.Cells dla języka Java — kompleksowy przewodnik po bezproblemowym pobieraniu danych."
+"linktitle": "Samouczek dotyczący funkcji VLOOKUP w programie Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Samouczek dotyczący funkcji VLOOKUP w programie Excel"
+"url": "/pl/java/basic-excel-functions/excel-vlookup-tutorial/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ W tym kompleksowym samouczku zagłębimy się w świat funkcji VLOOKUP w program
 Zanim przejdziemy do szczegółów, upewnij się, że spełnione są następujące warunki wstępne:
 
 - Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowany Java JDK.
--  Aspose.Cells dla Java: Pobierz i zainstaluj Aspose.Cells dla Java ze strony[Tutaj](https://releases.aspose.com/cells/java/).
+- Aspose.Cells dla Java: Pobierz i zainstaluj Aspose.Cells dla Java ze strony [Tutaj](https://releases.aspose.com/cells/java/).
 
 ## Pierwsze kroki
 
@@ -91,7 +91,7 @@ Teraz możesz już swobodnie odkrywać nieograniczone możliwości narzędzia As
 
 ### Jak zainstalować Aspose.Cells dla Java?
 
- Aby zainstalować Aspose.Cells dla Java, wystarczy pobrać bibliotekę ze strony[ten link](https://releases.aspose.com/cells/java/) i postępuj zgodnie z instrukcjami instalacji podanymi na stronie internetowej Aspose.
+Aby zainstalować Aspose.Cells dla Java, wystarczy pobrać bibliotekę ze strony [ten link](https://releases.aspose.com/cells/java/) i postępuj zgodnie z instrukcjami instalacji podanymi na stronie internetowej Aspose.
 
 ### Czy mogę używać Aspose.Cells for Java z innymi językami programowania?
 
@@ -107,7 +107,8 @@ Tak, Excel oferuje różne funkcje, takie jak HLOOKUP, INDEX MATCH i inne jako a
 
 ### Gdzie mogę znaleźć więcej dokumentacji Aspose?
 
- Aby uzyskać pełną dokumentację Aspose.Cells dla języka Java, odwiedź stronę dokumentacji pod adresem[Tutaj](https://reference.aspose.com/cells/java/).
+Aby uzyskać pełną dokumentację Aspose.Cells dla języka Java, odwiedź stronę dokumentacji pod adresem [Tutaj](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

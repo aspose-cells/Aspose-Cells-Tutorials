@@ -1,10 +1,10 @@
 ---
-title: ส่งออก Excel เป็น HTML Java
-linktitle: ส่งออก Excel เป็น HTML Java
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีการส่งออก Excel เป็น HTML ใน Java โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้พร้อมโค้ดต้นฉบับเพื่อแปลงไฟล์ Excel เป็น HTML ได้อย่างราบรื่นและง่ายดาย
-weight: 19
-url: /th/java/excel-import-export/export-excel-to-html-java/
+"description": "เรียนรู้วิธีการส่งออก Excel เป็น HTML ใน Java โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้พร้อมโค้ดต้นฉบับเพื่อแปลงไฟล์ Excel เป็น HTML ได้อย่างราบรื่นและง่ายดาย"
+"linktitle": "ส่งออก Excel เป็น HTML Java"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "ส่งออก Excel เป็น HTML Java"
+"url": "/th/java/excel-import-export/export-excel-to-html-java/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -33,11 +33,11 @@ url: /th/java/excel-import-export/export-excel-to-html-java/
 
 ## ขั้นตอนที่ 2: เพิ่มไลบรารี Aspose.Cells
 
- เพิ่มไลบรารี Aspose.Cells สำหรับ Java ลงในคลาสพาธของโปรเจ็กต์ของคุณ หากคุณใช้ Maven ให้รวมไลบรารีไว้ใน`pom.xml` ไฟล์.
+เพิ่มไลบรารี Aspose.Cells สำหรับ Java ลงในคลาสพาธของโปรเจ็กต์ของคุณ หากคุณใช้ Maven ให้รวมไลบรารีไว้ใน `pom.xml` ไฟล์.
 
 ## ขั้นตอนที่ 3: โหลดไฟล์ Excel
 
- ในขั้นตอนนี้ คุณจะโหลดไฟล์ Excel ที่คุณต้องการส่งออกเป็น HTML คุณสามารถทำได้โดยสร้างไฟล์`Workbook` วัตถุและการโหลดไฟล์ Excel โดยใช้เส้นทางของมัน
+ในขั้นตอนนี้ คุณจะโหลดไฟล์ Excel ที่คุณต้องการส่งออกเป็น HTML คุณสามารถทำได้โดยสร้างไฟล์ `Workbook` วัตถุและการโหลดไฟล์ Excel โดยใช้เส้นทางของมัน
 
 ```java
 // โหลดไฟล์ Excel
@@ -80,6 +80,7 @@ workbook.save("output.html", SaveFormat.HTML);
 
 ### ถาม: ฉันสามารถหาตัวอย่างและแหล่งข้อมูลเพิ่มเติมสำหรับ Aspose.Cells สำหรับ Java ได้ที่ไหน
    - ตอบ: เยี่ยมชมเอกสารและฟอรัม Aspose.Cells เพื่อดูตัวอย่าง บทช่วยสอน และการสนับสนุนมากมาย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

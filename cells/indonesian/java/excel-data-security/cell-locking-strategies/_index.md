@@ -1,10 +1,10 @@
 ---
-title: Strategi Penguncian Sel
-linktitle: Strategi Penguncian Sel
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari strategi penguncian sel yang efektif menggunakan Aspose.Cells untuk Java. Tingkatkan keamanan dan integritas data dalam file Excel dengan panduan langkah demi langkah.
-weight: 11
-url: /id/java/excel-data-security/cell-locking-strategies/
+"description": "Pelajari strategi penguncian sel yang efektif menggunakan Aspose.Cells untuk Java. Tingkatkan keamanan dan integritas data dalam file Excel dengan panduan langkah demi langkah."
+"linktitle": "Strategi Penguncian Sel"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Strategi Penguncian Sel"
+"url": "/id/java/excel-data-security/cell-locking-strategies/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Keakuratan dan kerahasiaan data tidak dapat dinegosiasikan di sebagian besar ind
 
 ## Memulai dengan Aspose.Cells untuk Java
 
- Sebelum menyelami penguncian sel, mari pastikan Anda memiliki alat yang diperlukan dalam perangkat Anda. Pertama, Anda perlu mengunduh dan menyiapkan Aspose.Cells untuk Java. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/cells/java/)Setelah pustaka terinstal, kita dapat melanjutkan ke hal-hal dasar.
+Sebelum menyelami penguncian sel, mari pastikan Anda memiliki alat yang diperlukan dalam perangkat Anda. Pertama, Anda perlu mengunduh dan menyiapkan Aspose.Cells untuk Java. Anda dapat menemukan tautan unduhan [Di Sini](https://releases.aspose.com/cells/java/)Setelah pustaka terinstal, kita dapat melanjutkan ke hal-hal dasar.
 
 ## Penguncian Sel Dasar
 
@@ -58,7 +58,7 @@ Aspose.Cells untuk Java melampaui penguncian sel dasar. Anda dapat menentukan at
 Untuk menerapkan penguncian sel tingkat lanjut, Anda perlu menentukan izin pengguna dan menerapkannya ke sel atau rentang tertentu.
 
 ```java
-//Tentukan izin pengguna
+// Tentukan izin pengguna
 WorksheetProtection worksheetProtection = worksheet.getProtection();
 worksheetProtection.setAllowEditingContent(true);  // Izinkan pengeditan konten
 worksheetProtection.setAllowEditingObject(true);   // Izinkan pengeditan objek
@@ -125,7 +125,7 @@ Penguncian sel adalah teknik yang digunakan untuk mencegah perubahan yang tidak 
 
 ### Bagaimana cara melindungi seluruh lembar kerja Excel?
 
- Anda dapat melindungi seluruh lembar kerja Excel menggunakan Aspose.Cells untuk Java dengan memanggil`protect` metode pada objek lembar kerja dengan`ProtectionType.ALL` parameter.
+Anda dapat melindungi seluruh lembar kerja Excel menggunakan Aspose.Cells untuk Java dengan memanggil `protect` metode pada objek lembar kerja dengan `ProtectionType.ALL` parameter.
 
 ### Dapatkah saya menentukan aturan penguncian sel khusus?
 
@@ -138,6 +138,7 @@ Ya, Anda dapat mengunci sel secara kondisional berdasarkan kriteria tertentu men
 ### Bagaimana saya dapat menguji strategi penguncian sel saya?
 
 Untuk memastikan efektivitas strategi penguncian sel Anda, ujilah secara menyeluruh dengan berbagai skenario dan peran pengguna. Pastikan aturan penguncian Anda selaras dengan tujuan keamanan data Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

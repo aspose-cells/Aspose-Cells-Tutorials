@@ -1,10 +1,10 @@
 ---
-title: Veri Doğrulamada Giriş Mesajı
-linktitle: Veri Doğrulamada Giriş Mesajı
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java kullanarak Excel'de veri doğrulamasını nasıl geliştireceğinizi öğrenin. Veri doğruluğunu ve kullanıcı rehberliğini iyileştirmek için kod örnekleriyle adım adım kılavuz.
-weight: 18
-url: /tr/java/data-validation-rules/input-message-in-data-validation/
+"description": "Aspose.Cells for Java kullanarak Excel'de veri doğrulamasını nasıl geliştireceğinizi öğrenin. Veri doğruluğunu ve kullanıcı rehberliğini iyileştirmek için kod örnekleriyle adım adım kılavuz."
+"linktitle": "Veri Doğrulamada Giriş Mesajı"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Veri Doğrulamada Giriş Mesajı"
+"url": "/tr/java/data-validation-rules/input-message-in-data-validation/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -132,7 +132,7 @@ Bu makalede, Java için Aspose.Cells kullanarak veri doğrulama kurallarına gir
 
 ### Birden fazla hücreye aynı anda veri doğrulaması nasıl eklerim?
 
- Birden fazla hücreye veri doğrulaması eklemek için bir hücre aralığı tanımlayabilir ve doğrulama kurallarını bu aralığa uygulayabilirsiniz. Java için Aspose.Cells, hücre aralığını belirtmenize olanak tanır`CellArea` sınıf.
+Birden fazla hücreye veri doğrulaması eklemek için bir hücre aralığı tanımlayabilir ve doğrulama kurallarını bu aralığa uygulayabilirsiniz. Java için Aspose.Cells, hücre aralığını belirtmenize olanak tanır. `CellArea` sınıf.
 
 ### Veri doğrulama için özel formüller kullanabilir miyim?
 
@@ -140,7 +140,7 @@ Evet, Aspose.Cells for Java'da veri doğrulaması için özel formüller kullana
 
 ### Bir hücreden veri doğrulamasını nasıl kaldırabilirim?
 
- Bir hücreden veri doğrulamasını kaldırmak için, basitçe şunu çağırabilirsiniz:`removeDataValidation`hücre üzerindeki yöntem. Bu, o hücre için mevcut tüm doğrulama kurallarını kaldıracaktır.
+Bir hücreden veri doğrulamasını kaldırmak için, basitçe şunu çağırabilirsiniz: `removeDataValidation` hücre üzerindeki yöntem. Bu, o hücre için mevcut tüm doğrulama kurallarını kaldıracaktır.
 
 ### Farklı doğrulama kuralları için farklı hata mesajları ayarlayabilir miyim?
 
@@ -148,7 +148,8 @@ Evet, Aspose.Cells for Java'da farklı doğrulama kuralları için farklı hata 
 
 ### Java için Aspose.Cells hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Java için Aspose.Cells ve özellikleri hakkında daha fazla bilgi için şu belgeleri ziyaret edebilirsiniz:[Burada](https://reference.aspose.com/cells/java/).
+Java için Aspose.Cells ve özellikleri hakkında daha fazla bilgi için şu belgeleri ziyaret edebilirsiniz: [Burada](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

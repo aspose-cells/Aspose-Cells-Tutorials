@@ -1,10 +1,10 @@
 ---
-title: Wykresy analizy danych w programie Excel
-linktitle: Wykresy analizy danych w programie Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Odblokuj doskonałość analizy danych dzięki Aspose.Cells dla Java. Twórz oszałamiające wykresy i raporty w programie Excel.
-weight: 15
-url: /pl/java/excel-data-analysis/data-analysis-excel-charts/
+"description": "Odblokuj doskonałość analizy danych dzięki Aspose.Cells dla Java. Twórz oszałamiające wykresy i raporty w programie Excel."
+"linktitle": "Wykresy analizy danych w programie Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Wykresy analizy danych w programie Excel"
+"url": "/pl/java/excel-data-analysis/data-analysis-excel-charts/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Zanim zagłębimy się w świat analizy danych z Aspose.Cells for Java, musisz s
 
 - Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowana Java.
 
--  Aspose.Cells dla Java: Pobierz i zainstaluj bibliotekę Aspose.Cells dla Java ze strony[Tutaj](https://releases.aspose.com/cells/java/).
+- Aspose.Cells dla Java: Pobierz i zainstaluj bibliotekę Aspose.Cells dla Java ze strony [Tutaj](https://releases.aspose.com/cells/java/).
 
 - Źródło danych: Przygotuj zbiór danych do analizy. Możesz użyć dowolnego źródła danych, takiego jak plik CSV lub baza danych.
 
@@ -64,7 +64,7 @@ worksheet.getCells().sort(0, true);
 AutoFilter autoFilter = worksheet.getAutoFilter();
 autoFilter.setRange("A1:D1");
 
-//Wykonaj transformację danych
+// Wykonaj transformację danych
 // (np. przeliczanie walut, obliczanie procentów)
 ```
 
@@ -102,7 +102,7 @@ W tym samouczku zbadaliśmy, jak wykonywać analizę danych i tworzyć wykresy E
 
 ### Jak zainstalować Aspose.Cells dla Java?
 
- Aby zainstalować Aspose.Cells dla Java, odwiedź stronę pobierania pod adresem[ten link](https://releases.aspose.com/cells/java/) i postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
+Aby zainstalować Aspose.Cells dla Java, odwiedź stronę pobierania pod adresem [ten link](https://releases.aspose.com/cells/java/) i postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
 
 ### Czy mogę używać Aspose.Cells for Java z innymi bibliotekami Java?
 
@@ -118,7 +118,8 @@ Aspose.Cells for Java obsługuje szeroki zakres typów wykresów, w tym wykresy 
 
 ### Gdzie mogę znaleźć więcej materiałów i samouczków dotyczących Aspose.Cells dla języka Java?
 
- Więcej zasobów i samouczków dotyczących Aspose.Cells dla języka Java można znaleźć w dokumentacji pod adresem[Tutaj](https://reference.aspose.com/cells/java/).
+Więcej zasobów i samouczków dotyczących Aspose.Cells dla języka Java można znaleźć w dokumentacji pod adresem [Tutaj](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

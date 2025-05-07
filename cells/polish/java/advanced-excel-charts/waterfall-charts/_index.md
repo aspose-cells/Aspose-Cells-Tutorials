@@ -1,10 +1,10 @@
 ---
-title: Wykresy wodospadowe
-linktitle: Wykresy wodospadowe
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak tworzyć oszałamiające wykresy wodospadowe za pomocą Aspose.Cells dla Java. Przewodnik krok po kroku z kodem źródłowym do efektywnej wizualizacji danych.
-weight: 18
-url: /pl/java/advanced-excel-charts/waterfall-charts/
+"description": "Dowiedz się, jak tworzyć oszałamiające wykresy wodospadowe za pomocą Aspose.Cells dla Java. Przewodnik krok po kroku z kodem źródłowym do efektywnej wizualizacji danych."
+"linktitle": "Wykresy wodospadowe"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Wykresy wodospadowe"
+"url": "/pl/java/advanced-excel-charts/waterfall-charts/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Wykresy kaskadowe są niezbędnym narzędziem w wizualizacji danych, umożliwiaj
 
 Zanim przejdziemy do szczegółów, upewnij się, że spełnione są następujące wymagania wstępne:
 
--  Aspose.Cells dla Java: Musisz mieć zainstalowany Aspose.Cells dla Java. Możesz go pobrać z[Tutaj](https://releases.aspose.com/cells/java/).
+- Aspose.Cells dla Java: Musisz mieć zainstalowany Aspose.Cells dla Java. Możesz go pobrać z [Tutaj](https://releases.aspose.com/cells/java/).
 
 - Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowana Java.
 
@@ -113,7 +113,8 @@ Oczywiście, do wykresu kaskadowego możesz dodać więcej serii danych, aby sku
 
 ### Gdzie mogę znaleźć więcej materiałów i przykładów dla Aspose.Cells dla Java?
 
- Dokumentację Aspose.Cells dla języka Java można znaleźć pod adresem[reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) aby uzyskać szczegółowe informacje i przykłady kodu.
+Dokumentację Aspose.Cells dla języka Java można znaleźć pod adresem [odniesienie.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) aby uzyskać szczegółowe informacje i przykłady kodu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

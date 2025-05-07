@@ -105,7 +105,7 @@ Button button = (Button) sheet.getShapes().addShape(
 ```java
 import com.aspose.cells.Color;
 import com.aspose.cells.PlacementType;
-// Configure button propertiesutton.setText("Aspose"); // Set the caption of the button.
+// Set the caption of the button.
 button.setPlacement(PlacementType.FREE_FLOATING); // Determine how the button is attached to cells.
 button.getFont().setName("Tahoma"); // Define font name.
 button.getFont().setBold(true); // Make text bold.

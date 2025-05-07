@@ -1,10 +1,10 @@
 ---
-title: Pesan Kesalahan Validasi Data
-linktitle: Pesan Kesalahan Validasi Data
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Optimalkan pesan kesalahan validasi data Anda dengan Aspose.Cells untuk Java. Pelajari cara membuat, menyesuaikan, dan meningkatkan pengalaman pengguna.
-weight: 12
-url: /id/java/data-validation-rules/data-validation-error-messages/
+"description": "Optimalkan pesan kesalahan validasi data Anda dengan Aspose.Cells untuk Java. Pelajari cara membuat, menyesuaikan, dan meningkatkan pengalaman pengguna."
+"linktitle": "Pesan Kesalahan Validasi Data"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Pesan Kesalahan Validasi Data"
+"url": "/id/java/data-validation-rules/data-validation-error-messages/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -78,7 +78,7 @@ Anda dapat memformat pesan kesalahan menggunakan tag HTML, menambahkan informasi
 
 Ya, Anda dapat menyematkan gambar atau ikon dalam pesan kesalahan untuk membuatnya lebih menarik secara visual dan informatif.
 
-### Apakah mungkin untuk memvalidasi data dalam beberapa sel secara bersamaan?
+### Apakah mungkin untuk memvalidasi data di beberapa sel secara bersamaan?
 
 Ya, Aspose.Cells untuk Java memungkinkan Anda memvalidasi data dalam beberapa sel dan menentukan pesan kesalahan untuk setiap aturan validasi.
 
@@ -96,7 +96,7 @@ Anda dapat memformat pesan kesalahan menggunakan tag HTML, menambahkan informasi
 
 Ya, Anda dapat menyematkan gambar atau ikon dalam pesan kesalahan untuk membuatnya lebih menarik secara visual dan informatif.
 
-### Apakah mungkin untuk memvalidasi data dalam beberapa sel secara bersamaan?
+### Apakah mungkin untuk memvalidasi data di beberapa sel secara bersamaan?
 
 Ya, Aspose.Cells untuk Java memungkinkan Anda memvalidasi data dalam beberapa sel dan menentukan pesan kesalahan untuk setiap aturan validasi.
 
@@ -107,6 +107,7 @@ Ya, Anda dapat mengotomatiskan proses pembuatan pesan kesalahan berdasarkan atur
 ### Bagaimana saya dapat menangani kesalahan validasi dengan baik dalam aplikasi saya?
 
 Anda dapat menangkap kesalahan validasi dan menampilkan pesan kesalahan yang disesuaikan kepada pengguna, memandu mereka untuk memperbaiki masukan mereka.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

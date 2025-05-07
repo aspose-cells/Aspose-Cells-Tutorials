@@ -1,10 +1,10 @@
 ---
-title: Интерактивные панели управления
-linktitle: Интерактивные панели управления
-second_title: API обработки Java Excel Aspose.Cells
-description: Научитесь создавать интерактивные панели мониторинга с помощью Aspose.Cells для Java. Пошаговое руководство по созданию динамических визуализаций данных.
-weight: 10
-url: /ru/java/advanced-excel-charts/interactive-dashboards/
+"description": "Научитесь создавать интерактивные панели мониторинга с помощью Aspose.Cells для Java. Пошаговое руководство по созданию динамических визуализаций данных."
+"linktitle": "Интерактивные панели управления"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Интерактивные панели управления"
+"url": "/ru/java/advanced-excel-charts/interactive-dashboards/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /ru/java/advanced-excel-charts/interactive-dashboards/
 
 Прежде чем углубляться в детали, убедитесь, что у вас выполнены следующие предварительные условия:
 
--  Aspose.Cells для Java: Загрузите и установите библиотеку Aspose.Cells для Java с сайта[здесь](https://releases.aspose.com/cells/java/).
+- Aspose.Cells для Java: Загрузите и установите библиотеку Aspose.Cells для Java с сайта [здесь](https://releases.aspose.com/cells/java/).
 
 ## Настройка вашего проекта
 
@@ -84,7 +84,7 @@ chart.getNSeries().add("A2:A13", true);
 worksheet.getShapes().addShape(MsoDrawingType.BUTTON, 1, 1, 3, 1);
 Button button = (Button) worksheet.getShapes().get(0);
 
-//Настройте внешний вид и поведение кнопки
+// Настройте внешний вид и поведение кнопки
 button.setText("Update Chart");
 button.setActionType(MsoButtonActionType.HYPERLINK);
 button.setHyperlink("Sheet1!A2");
@@ -125,6 +125,7 @@ workbook.save("InteractiveDashboard.xlsx");
 ### Подходит ли Aspose.Cells для Java для крупномасштабных проектов визуализации данных?
 
 Да, Aspose.Cells for Java хорошо подходит как для небольших, так и для крупных проектов визуализации данных. Его гибкость и обширный набор функций делают его надежным выбором для разнообразных требований.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

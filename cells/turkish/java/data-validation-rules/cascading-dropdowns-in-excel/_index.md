@@ -1,10 +1,10 @@
 ---
-title: Excel'de Basamaklı Açılır Listeler
-linktitle: Excel'de Basamaklı Açılır Listeler
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java kullanarak Excel'de basamaklı açılır listelerin nasıl oluşturulacağını öğrenin. Bu adım adım kılavuz, verimli Excel elektronik tablosu düzenlemesi için kaynak kodu ve uzman ipuçları sağlar.
-weight: 13
-url: /tr/java/data-validation-rules/cascading-dropdowns-in-excel/
+"description": "Aspose.Cells for Java kullanarak Excel'de basamaklı açılır listelerin nasıl oluşturulacağını öğrenin. Bu adım adım kılavuz, verimli Excel elektronik tablosu düzenlemesi için kaynak kodu ve uzman ipuçları sağlar."
+"linktitle": "Excel'de Basamaklı Açılır Listeler"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Excel'de Basamaklı Açılır Listeler"
+"url": "/tr/java/data-validation-rules/cascading-dropdowns-in-excel/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Elektronik tablo düzenleme dünyasında, Java için Aspose.Cells, geliştiricil
 
 Bu yolculuğa çıkmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
--  Java için Aspose.Cells: İndirin ve kurun[Burada](https://releases.aspose.com/cells/java/).
+- Java için Aspose.Cells: İndirin ve kurun [Burada](https://releases.aspose.com/cells/java/).
 - Java Geliştirme Ortamı: Makinenizde bir Java geliştirme ortamının kurulu olması gerekir.
 - Excel'in Temel Anlayışı: Excel'e ve temel kavramlarına aşinalık faydalı olacaktır.
 
@@ -47,7 +47,7 @@ Worksheet citySheet = workbook.getWorksheets().add("Cities");
 Şimdi, çalışma sayfalarımızı verilerle doldurmamız gerekiyor. "Ülkeler" sayfasında ülkeleri listeleyeceğiz ve "Şehirler" sayfasında başlangıçta boş bırakacağız çünkü daha sonra dinamik olarak dolduracağız.
 
 ```java
-//"Ülkeler" sayfasını doldurmak için Java kodu
+// "Ülkeler" sayfasını doldurmak için Java kodu
 countrySheet.getCells().get("A1").putValue("Country");
 countrySheet.getCells().get("A2").putValue("USA");
 countrySheet.getCells().get("A3").putValue("Canada");
@@ -125,7 +125,8 @@ Java'ya dair temel bir anlayış faydalı olsa da, Aspose.Cells for Java, süre�
 
 ### Aspose.Cells for Java için daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Java için Aspose.Cells'e ilişkin kapsamlı belgelere ve kaynaklara şu adresten erişebilirsiniz:[Burada](https://reference.aspose.com/cells/java/).
+Java için Aspose.Cells'e ilişkin kapsamlı belgelere ve kaynaklara şu adresten erişebilirsiniz: [Burada](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

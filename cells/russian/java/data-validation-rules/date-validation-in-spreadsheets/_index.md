@@ -1,10 +1,10 @@
 ---
-title: Проверка дат в электронных таблицах
-linktitle: Проверка дат в электронных таблицах
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как выполнять проверку даты в таблицах Excel с помощью Aspose.Cells для Java. Обеспечьте точность и целостность данных с помощью нашего пошагового руководства. Изучите мощные методы обработки Excel.
-weight: 14
-url: /ru/java/data-validation-rules/date-validation-in-spreadsheets/
+"description": "Узнайте, как выполнять проверку даты в таблицах Excel с помощью Aspose.Cells для Java. Обеспечьте точность и целостность данных с помощью нашего пошагового руководства. Изучите мощные методы обработки Excel."
+"linktitle": "Проверка дат в электронных таблицах"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Проверка дат в электронных таблицах"
+"url": "/ru/java/data-validation-rules/date-validation-in-spreadsheets/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,14 +22,14 @@ url: /ru/java/data-validation-rules/date-validation-in-spreadsheets/
 
 Прежде чем мы углубимся в проверку дат, убедитесь, что у вас выполнено следующее:
 - Настроена среда разработки Java.
--  Библиотека Aspose.Cells для Java, загруженная с[здесь](https://releases.aspose.com/cells/java/).
+- Библиотека Aspose.Cells для Java, загруженная с [здесь](https://releases.aspose.com/cells/java/).
 - Базовые знания работы с файлами Excel на Java.
 
 ## Настройка Aspose.Cells для Java
 
 Для начала вам нужно добавить библиотеку Aspose.Cells в ваш проект Java. Выполните следующие шаги:
 
-1.  Загрузите библиотеку Aspose.Cells для Java из предоставленного[связь](https://releases.aspose.com/cells/java/).
+1. Загрузите библиотеку Aspose.Cells для Java из предоставленного [связь](https://releases.aspose.com/cells/java/).
 
 2. Включите загруженный JAR-файл в classpath вашего проекта.
 
@@ -112,7 +112,8 @@ workbook.save("updated_excel_file.xlsx");
 
 ### Где я могу найти больше ресурсов и примеров по Aspose.Cells для Java?
 
- Вы можете обратиться к[Справочник API Aspose.Cells для Java](https://reference.aspose.com/cells/java/) для получения исчерпывающей документации и примеров.
+Вы можете обратиться к [Справочник API Aspose.Cells для Java](https://reference.aspose.com/cells/java/) для получения исчерпывающей документации и примеров.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

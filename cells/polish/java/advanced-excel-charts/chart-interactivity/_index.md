@@ -1,10 +1,10 @@
 ---
-title: Interaktywność wykresu
-linktitle: Interaktywność wykresu
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak tworzyć interaktywne wykresy za pomocą Aspose.Cells dla Java. Ulepsz wizualizację danych dzięki interaktywności.
-weight: 19
-url: /pl/java/advanced-excel-charts/chart-interactivity/
+"description": "Dowiedz się, jak tworzyć interaktywne wykresy za pomocą Aspose.Cells dla Java. Ulepsz wizualizację danych dzięki interaktywności."
+"linktitle": "Interaktywność wykresu"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Interaktywność wykresu"
+"url": "/pl/java/advanced-excel-charts/chart-interactivity/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Interaktywne wykresy dodają nowy wymiar do wizualizacji danych, pozwalając uż
 
 Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 - Środowisko programistyczne Java
-- Biblioteka Aspose.Cells dla Java (do pobrania z[Tutaj](https://releases.aspose.com/cells/java/)
+- Biblioteka Aspose.Cells dla Java (do pobrania z [Tutaj](https://releases.aspose.com/cells/java/)
 
 ## Krok 1: Konfigurowanie projektu Java
 
@@ -94,7 +94,7 @@ W tym samouczku pokazaliśmy, jak tworzyć interaktywne wykresy przy użyciu Asp
 
 ### Jak mogę zmienić typ wykresu?
 
- Możesz zmienić typ wykresu, modyfikując`ChartType` parametr podczas tworzenia wykresu. Na przykład zamień`ChartType.COLUMN` z`ChartType.LINE` aby utworzyć wykres liniowy.
+Możesz zmienić typ wykresu, modyfikując `ChartType` parametr podczas tworzenia wykresu. Na przykład zamień `ChartType.COLUMN` z `ChartType.LINE` aby utworzyć wykres liniowy.
 
 ### Czy mogę dostosować wygląd podpowiedzi?
 
@@ -106,7 +106,8 @@ Aby obsługiwać interakcje użytkowników, możesz użyć języka JavaScript wr
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
 
- Więcej przykładów i szczegółową dokumentację dotyczącą korzystania z Aspose.Cells dla języka Java można znaleźć na stronie[Aspose.Cells Dokumentacja API Java](https://reference.aspose.com/cells/java/).
+Więcej przykładów i szczegółową dokumentację dotyczącą korzystania z Aspose.Cells dla języka Java można znaleźć na stronie [Aspose.Cells Dokumentacja API Java](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

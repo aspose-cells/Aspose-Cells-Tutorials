@@ -1,54 +1,54 @@
 ---
-title: Dynamické kontingenční tabulky
-linktitle: Dynamické kontingenční tabulky
-second_title: Aspose.Cells Java Excel Processing API
-description: Vytvářejte dynamické kontingenční tabulky bez námahy pomocí Aspose.Cells for Java. Snadno analyzujte a sumarizujte data. Zvyšte své možnosti analýzy dat.
-weight: 13
-url: /cs/java/excel-pivot-tables/dynamic-pivot-tables/
+"description": "Vytvářejte dynamické kontingenční tabulky bez námahy pomocí Aspose.Cells pro Javu. Snadno analyzujte a shrnujte data. Rozšiřte své možnosti analýzy dat."
+"linktitle": "Dynamické pivotní tabulky"
+"second_title": "Rozhraní API pro zpracování Excelu v Javě od Aspose.Cells"
+"title": "Dynamické pivotní tabulky"
+"url": "/cs/java/excel-pivot-tables/dynamic-pivot-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dynamické kontingenční tabulky
+# Dynamické pivotní tabulky
 
 
-Kontingenční tabulky jsou mocným nástrojem při analýze dat, který vám umožňuje sumarizovat a manipulovat s daty v tabulkovém procesoru. V tomto tutoriálu prozkoumáme, jak vytvořit dynamické kontingenční tabulky pomocí Aspose.Cells for Java API.
+Kontingenční tabulky jsou mocným nástrojem pro analýzu dat, který umožňuje shrnout a manipulovat s daty v tabulce. V tomto tutoriálu se podíváme na to, jak vytvářet dynamické kontingenční tabulky pomocí rozhraní Aspose.Cells for Java API.
 
 ## Úvod do kontingenčních tabulek
 
-Kontingenční tabulky jsou interaktivní tabulky, které umožňují shrnout a analyzovat data v tabulce. Poskytují dynamický způsob, jak organizovat a analyzovat data, což usnadňuje získávání poznatků a informovaná rozhodnutí.
+Kontingenční tabulky jsou interaktivní tabulky, které umožňují shrnout a analyzovat data v tabulce. Poskytují dynamický způsob organizace a analýzy dat, což usnadňuje získávání poznatků a informované rozhodování.
 
 ## Krok 1: Import knihovny Aspose.Cells
 
- Než budeme moci vytvářet dynamické kontingenční tabulky, musíme do našeho projektu Java importovat knihovnu Aspose.Cells. Knihovnu si můžete stáhnout z vydání Aspose[zde](https://releases.aspose.com/cells/java/).
+Než budeme moci vytvářet dynamické pivotní tabulky, musíme importovat knihovnu Aspose.Cells do našeho projektu v Javě. Knihovnu si můžete stáhnout z verzí Aspose. [zde](https://releases.aspose.com/cells/java/).
 
-Jakmile si knihovnu stáhnete, přidejte ji do cesty sestavení vašeho projektu.
+Jakmile si stáhnete knihovnu, přidejte ji do cesty sestavení projektu.
 
 ## Krok 2: Načtení sešitu
 
-Abychom mohli pracovat s kontingenčními tabulkami, musíme nejprve načíst sešit, který obsahuje data, která chceme analyzovat. Můžete to provést pomocí následujícího kódu:
+Pro práci s kontingenčními tabulkami musíme nejprve načíst sešit obsahující data, která chceme analyzovat. To lze provést pomocí následujícího kódu:
 
 ```java
-// Načtěte soubor Excel
+// Načtěte soubor Excelu
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Nahradit`"your_excel_file.xlsx"` s cestou k souboru Excel.
+Nahradit `"your_excel_file.xlsx"` s cestou k vašemu souboru Excel.
 
 ## Krok 3: Vytvoření kontingenční tabulky
 
-Nyní, když jsme načetli sešit, vytvoříme kontingenční tabulku. Budeme muset zadat rozsah zdrojových dat pro kontingenční tabulku a umístění, kam ji chceme v listu umístit. Zde je příklad:
+Nyní, když jsme načetli sešit, vytvořme kontingenční tabulku. Budeme muset zadat zdrojový rozsah dat pro kontingenční tabulku a umístění, kam ji chceme v listu umístit. Zde je příklad:
 
 ```java
 // Získejte první pracovní list
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Zadejte rozsah dat pro kontingenční tabulku
-String sourceData = "A1:D10"; // Nahraďte svým rozsahem dat
+String sourceData = "A1:D10"; // Nahraďte rozsahem dat
 
-// Určete umístění kontingenční tabulky
+// Určete umístění pro kontingenční tabulku
 int firstRow = 1;
 int firstColumn = 5;
 
@@ -58,55 +58,55 @@ PivotTable pivotTable = worksheet.getPivotTables().add(sourceData, worksheet.get
 
 ## Krok 4: Konfigurace kontingenční tabulky
 
-Nyní, když jsme vytvořili kontingenční tabulku, můžeme ji nakonfigurovat tak, aby sumarizovala a analyzovala data podle potřeby. Můžete nastavit řádková pole, sloupcová pole, datová pole a použít různé výpočty. Zde je příklad:
+Nyní, když jsme vytvořili kontingenční tabulku, ji můžeme nakonfigurovat tak, aby dle potřeby shrnovala a analyzovala data. Můžete nastavit pole řádků, pole sloupců, datová pole a použít různé výpočty. Zde je příklad:
 
 ```java
-// Přidejte pole do kontingenční tabulky
-pivotTable.addFieldToArea(PivotFieldType.ROW, 0); // Řádkové pole
-pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1); // Sloupcové pole
+// Přidání polí do kontingenční tabulky
+pivotTable.addFieldToArea(PivotFieldType.ROW, 0); // Pole řádku
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1); // Pole sloupce
 pivotTable.addFieldToArea(PivotFieldType.DATA, 2); // Datové pole
 
-// Nastavte výpočet pro datové pole
+// Nastavení výpočtu pro datové pole
 pivotTable.getDataFields().get(0).setFunction(PivotFieldFunction.SUM);
 ```
 
 ## Krok 5: Obnovení kontingenční tabulky
 
-Kontingenční tabulky mohou být dynamické, což znamená, že se automaticky aktualizují, když se změní zdrojová data. Chcete-li aktualizovat kontingenční tabulku, můžete použít následující kód:
+Kontingenční tabulky mohou být dynamické, což znamená, že se automaticky aktualizují při změně zdrojových dat. Pro aktualizaci kontingenční tabulky můžete použít následující kód:
 
 ```java
-// Obnovte kontingenční tabulku
+// Obnovit kontingenční tabulku
 pivotTable.refreshData();
 pivotTable.calculateData();
 ```
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili vytvářet dynamické kontingenční tabulky pomocí Aspose.Cells for Java API. Kontingenční tabulky jsou cenným nástrojem pro analýzu dat as Aspose.Cells můžete automatizovat jejich vytváření a manipulaci ve vašich aplikacích Java.
+V tomto tutoriálu jsme se naučili, jak vytvářet dynamické pivotní tabulky pomocí rozhraní Aspose.Cells pro Java API. Pivotní tabulky jsou cenným nástrojem pro analýzu dat a s Aspose.Cells můžete automatizovat jejich vytváření a manipulaci ve vašich Java aplikacích.
 
-Pokud máte nějaké dotazy nebo potřebujete další pomoc, neváhejte se na nás obrátit. Šťastné kódování!
+Pokud máte jakékoli dotazy nebo potřebujete další pomoc, neváhejte se na nás obrátit. Přejeme vám příjemné programování!
 
-## Nejčastější dotazy
+## Často kladené otázky
 
-### Q1: Mohu použít vlastní výpočty na datová pole kontingenční tabulky?
+### Q1: Mohu na datová pole kontingenční tabulky použít vlastní výpočty?
 
-Ano, můžete použít vlastní výpočty na datová pole implementací vlastní logiky.
+Ano, na datová pole můžete aplikovat vlastní výpočty implementací vlastní logiky.
 
 ### Q2: Jak mohu změnit formátování kontingenční tabulky?
 
-Formátování kontingenční tabulky můžete změnit tak, že otevřete její vlastnosti stylu a použijete požadované formátování.
+Formátování kontingenční tabulky můžete změnit v jejích vlastnostech stylu a použitím požadovaného formátování.
 
 ### Q3: Je možné vytvořit více kontingenčních tabulek ve stejném listu?
 
-Ano, můžete vytvořit více kontingenčních tabulek ve stejném listu zadáním různých cílových umístění.
+Ano, v jednom listu můžete vytvořit více kontingenčních tabulek zadáním různých cílových umístění.
 
 ### Q4: Mohu filtrovat data v kontingenční tabulce?
 
-Ano, na kontingenční tabulky můžete použít filtry a zobrazit tak konkrétní podmnožiny dat.
+Ano, na kontingenční tabulky můžete použít filtry pro zobrazení konkrétních podmnožin dat.
 
-### Q5: Podporuje Aspose.Cells pokročilé funkce kontingenční tabulky aplikace Excel?
+### Q5: Podporuje Aspose.Cells pokročilé funkce kontingenčních tabulek v Excelu?
 
-Ano, Aspose.Cells poskytuje rozsáhlou podporu pro pokročilé funkce kontingenčních tabulek Excelu, které vám umožňují vytvářet složité kontingenční tabulky.
+Ano, Aspose.Cells poskytuje rozsáhlou podporu pro pokročilé funkce kontingenčních tabulek v Excelu, což vám umožňuje vytvářet složité kontingenční tabulky.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

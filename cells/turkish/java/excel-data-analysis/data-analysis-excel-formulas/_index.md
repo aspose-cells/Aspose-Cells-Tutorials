@@ -1,10 +1,10 @@
 ---
-title: Veri Analizi Excel Formülleri
-linktitle: Veri Analizi Excel Formülleri
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java ile Excel'de Veri Analizinin Gücünü Açın. Temel Formülleri ve Teknikleri Öğrenin.
-weight: 16
-url: /tr/java/excel-data-analysis/data-analysis-excel-formulas/
+"description": "Aspose.Cells for Java ile Excel'de Veri Analizinin Gücünü Açın. Temel Formülleri ve Teknikleri Öğrenin."
+"linktitle": "Veri Analizi Excel Formülleri"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Veri Analizi Excel Formülleri"
+"url": "/tr/java/excel-data-analysis/data-analysis-excel-formulas/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Veri analizine dalmadan önce, Java için Aspose.Cells'i tanıtalım. Geliştiri
 
 Java için Aspose.Cells'e başlamak için Java ortamınızı kurmanız ve projenize Aspose.Cells kütüphanesini eklemeniz gerekir. Bunu yapmak için adımlar şunlardır:
 
-1.  Aspose.Cells'i indirin: Ziyaret edin[Java için Aspose.Cells](https://releases.aspose.com/cells/java/) Kütüphanenin en son sürümünü indirmek için.
+1. Aspose.Cells'i indirin: Ziyaret edin [Java için Aspose.Cells](https://releases.aspose.com/cells/java/) Kütüphanenin en son sürümünü indirmek için.
 
 2. Aspose.Cells'i Projenize Ekleyin: Aspose.Cells JAR dosyasını Java projenizin derleme yoluna ekleyin.
 
@@ -32,7 +32,7 @@ Artık ortamımız hazır olduğuna göre, bazı temel veri analizi tekniklerini
 
 ### TOPLAM Formülü
 
-SUM formülü Excel'de veri analizi için en sık kullanılan işlevlerden biridir. Bir dizi sayıyı hızlı bir şekilde toplamanıza olanak tanır. İşte Java için Aspose.Cells ile nasıl kullanabileceğiniz:
+SUM formülü, Excel'de veri analizi için en sık kullanılan işlevlerden biridir. Bir dizi sayıyı hızlı bir şekilde toplamanıza olanak tanır. İşte bunu Java için Aspose.Cells ile nasıl kullanabileceğiniz:
 
 ```java
 // Bir çalışma kitabı oluşturun
@@ -98,7 +98,7 @@ Bu makalede, Java için Aspose.Cells kullanarak Excel'de veri analizini inceledi
 
 ### Aspose.Cells for Java'yı kullanmak ücretsiz mi?
 
- Hayır, Aspose.Cells for Java lisans ücreti olan ticari bir kütüphanedir. Ziyaret edebilirsiniz[Aspose web sitesi](https://www.aspose.com/) fiyatlandırma hakkında daha fazla bilgi edinmek için.
+Hayır, Aspose.Cells for Java lisans ücreti olan ticari bir kütüphanedir. Ziyaret edebilirsiniz [Aspose web sitesi](https://www.aspose.com/) fiyatlandırma hakkında daha fazla bilgi edinmek için.
 
 ### Aspose.Cells for Java'yı hem masaüstü hem de web uygulamalarında kullanabilir miyim?
 
@@ -112,9 +112,10 @@ Java için Aspose.Cells büyük Excel dosyalarını kolaylıkla işleyebilir, bu
 
 Evet, Aspose.Cells Excel formüllerini çeşitli dillerde destekler ve bu da onu uluslararası kullanıcılar için çok yönlü hale getirir.
 
-### Java için Aspose.Cells hakkında daha fazla öğretici ve kaynağı nerede bulabilirim?
+### Aspose.Cells for Java için daha fazla öğretici ve kaynağı nerede bulabilirim?
 
- Java için Aspose.Cells hakkında ek öğreticileri ve belgeleri şu adreste inceleyebilirsiniz:[Aspose.Cells Java API Başvurusu](https://reference.aspose.com/cells/java/).
+Java için Aspose.Cells hakkında ek öğreticileri ve belgeleri şu adreste inceleyebilirsiniz: [Aspose.Cells Java API Başvurusu](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

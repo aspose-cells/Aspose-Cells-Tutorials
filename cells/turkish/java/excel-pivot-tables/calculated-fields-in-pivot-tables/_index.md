@@ -1,10 +1,10 @@
 ---
-title: Pivot Tablolardaki Hesaplanan Alanlar
-linktitle: Pivot Tablolardaki Hesaplanan Alanlar
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java kullanarak Pivot Tablolarda hesaplanan alanların nasıl oluşturulacağını öğrenin. Excel'deki özel hesaplamalarla veri analizinizi artırın.
-weight: 15
-url: /tr/java/excel-pivot-tables/calculated-fields-in-pivot-tables/
+"description": "Aspose.Cells for Java kullanarak Pivot Tablolarda hesaplanan alanların nasıl oluşturulacağını öğrenin. Excel'deki özel hesaplamalarla veri analizinizi artırın."
+"linktitle": "Pivot Tablolardaki Hesaplanan Alanlar"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Pivot Tablolardaki Hesaplanan Alanlar"
+"url": "/tr/java/excel-pivot-tables/calculated-fields-in-pivot-tables/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 - Temel Java programlama bilgisi.
 
 ## Adım 1: Java Projenizi Kurma
- Öncelikle, favori IDE'nizde yeni bir Java projesi oluşturun ve Aspose.Cells for Java kütüphanesini ekleyin. Kütüphaneyi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/cells/java/).
+Öncelikle, favori IDE'nizde yeni bir Java projesi oluşturun ve Aspose.Cells for Java kütüphanesini ekleyin. Kütüphaneyi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/cells/java/).
 
 ## Adım 2: Gerekli Sınıfları İçe Aktarma
 Java kodunuzda, Aspose.Cells'den gerekli sınıfları içe aktarın. Bu sınıflar Pivot Tablolar ve hesaplanan alanlarla çalışmanıza yardımcı olacaktır.
@@ -32,7 +32,7 @@ import com.aspose.cells.*;
 ```
 
 ## Adım 3: Excel Dosyanızı Yükleme
- Pivot Tablo'yu içeren Excel dosyanızı Java uygulamanıza yükleyin. Değiştir`"your-file.xlsx"` Excel dosyanızın yolunu belirtin.
+Pivot Tablo'yu içeren Excel dosyanızı Java uygulamanıza yükleyin. Değiştir `"your-file.xlsx"` Excel dosyanızın yolunu belirtin.
 
 ```java
 Workbook workbook = new Workbook("your-file.xlsx");
@@ -73,7 +73,7 @@ Tebrikler! Aspose.Cells for Java kullanarak Pivot Tablolarda hesaplanan alanlar�
    Hesaplanan alanda fonksiyonları ve alan referanslarını birleştirerek daha karmaşık formüller oluşturabilirsiniz.
 
 ### Artık ihtiyacım yoksa hesaplanan alanı kaldırabilir miyim?
-   Evet, Pivot Tablosundan hesaplanan bir alanı, şuraya erişerek kaldırabilirsiniz:`pivotFields` Alanın isme göre toplanması ve kaldırılması.
+   Evet, Pivot Tablosundan hesaplanan bir alanı, şuraya erişerek kaldırabilirsiniz: `pivotFields` Alanın isme göre toplanması ve kaldırılması.
 
 ### Aspose.Cells for Java büyük veri kümeleri için uygun mudur?
    Evet, Java için Aspose.Cells büyük Excel dosyalarını ve veri kümelerini verimli bir şekilde işlemek için tasarlanmıştır.
@@ -82,7 +82,8 @@ Tebrikler! Aspose.Cells for Java kullanarak Pivot Tablolarda hesaplanan alanlar�
    Hesaplanan alanların bazı sınırlamaları vardır, örneğin belirli hesaplama türlerini desteklemez. Ayrıntılar için belgeleri kontrol ettiğinizden emin olun.
 
 ### Aspose.Cells for Java hakkında daha fazla kaynağı nerede bulabilirim?
-    API belgelerini şu adreste inceleyebilirsiniz:[Java için Aspose.Cells Belgeleri](https://reference.aspose.com/cells/java/).
+   API belgelerini şu adreste inceleyebilirsiniz: [Java için Aspose.Cells Belgeleri](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

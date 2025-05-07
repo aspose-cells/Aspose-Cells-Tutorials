@@ -1,10 +1,10 @@
 ---
-title: एक्सेल को XML जावा में निर्यात करें
-linktitle: एक्सेल को XML जावा में निर्यात करें
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: Aspose.Cells for Java के साथ जावा में Excel को XML में एक्सपोर्ट करना सीखें। सहज डेटा रूपांतरण के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 15
-url: /hi/java/excel-import-export/export-excel-to-xml-java/
+"description": "Aspose.Cells for Java के साथ जावा में Excel को XML में एक्सपोर्ट करना सीखें। सहज डेटा रूपांतरण के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "एक्सेल को XML जावा में निर्यात करें"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "एक्सेल को XML जावा में निर्यात करें"
+"url": "/hi/java/excel-import-export/export-excel-to-xml-java/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,14 +14,14 @@ url: /hi/java/excel-import-export/export-excel-to-xml-java/
 # एक्सेल को XML जावा में निर्यात करें
 
 
-इस व्यापक गाइड में, हम आपको जावा के लिए Aspose.Cells का उपयोग करके एक्सेल डेटा को XML में निर्यात करने की प्रक्रिया से अवगत कराएँगे। विस्तृत स्पष्टीकरण और स्रोत कोड उदाहरणों के साथ, आप कुछ ही समय में इस आवश्यक कार्य में महारत हासिल कर लेंगे।
+इस व्यापक गाइड में, हम आपको जावा के लिए Aspose.Cells का उपयोग करके एक्सेल डेटा को XML में निर्यात करने की प्रक्रिया से परिचित कराएँगे। विस्तृत स्पष्टीकरण और स्रोत कोड उदाहरणों के साथ, आप कुछ ही समय में इस आवश्यक कार्य में महारत हासिल कर लेंगे।
 
 ## आवश्यक शर्तें
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Cells for Java लाइब्रेरी, जिसे आप डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/java/).
+- Aspose.Cells for Java लाइब्रेरी, जिसे आप डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/java/).
 
 ## चरण 1: अपना प्रोजेक्ट सेट अप करना
 
@@ -122,6 +122,7 @@ public class ExcelToXMLExporter {
 
 ### 5. क्या Java के लिए Aspose.Cells का उपयोग करने के लिए कोई लाइसेंसिंग आवश्यकताएं हैं?
    हां, आपको उत्पादन परिवेश में लाइब्रेरी का उपयोग करने के लिए Aspose से वैध लाइसेंस प्राप्त करना होगा। लाइसेंसिंग विवरण के लिए उनकी वेबसाइट पर जाएँ।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

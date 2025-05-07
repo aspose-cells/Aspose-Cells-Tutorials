@@ -1,10 +1,10 @@
 ---
-title: Jenis Bagan Gabungan
-linktitle: Jenis Bagan Gabungan
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara membuat tipe bagan gabungan menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah ini menyediakan kode sumber dan kiat untuk visualisasi data yang efektif.
-weight: 12
-url: /id/java/advanced-excel-charts/combined-chart-types/
+"description": "Pelajari cara membuat tipe bagan gabungan menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah ini menyediakan kode sumber dan kiat untuk visualisasi data yang efektif."
+"linktitle": "Jenis Bagan Gabungan"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Jenis Bagan Gabungan"
+"url": "/id/java/advanced-excel-charts/combined-chart-types/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Sebelum mulai membuat bagan gabungan, mari kita pahami dulu apa itu Aspose.Cells
 
 ## Memulai
 
- Untuk memulai pembuatan bagan gabungan, Anda harus menginstal dan menyiapkan Aspose.Cells for Java di proyek Java Anda. Anda dapat mengunduh pustaka tersebut dari situs web Aspose menggunakan tautan berikut:[Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/).
+Untuk memulai pembuatan bagan gabungan, Anda harus menginstal dan menyiapkan Aspose.Cells for Java di proyek Java Anda. Anda dapat mengunduh pustaka tersebut dari situs web Aspose menggunakan tautan berikut: [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/).
 
 Setelah pustaka Anda siap, Anda dapat melanjutkan dengan langkah-langkah berikut untuk membuat bagan gabungan.
 
@@ -110,13 +110,13 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 
 ## Kesimpulan
 
-Dalam artikel ini, kami telah menjajaki cara membuat jenis bagan gabungan menggunakan Aspose.Cells untuk Java. Kami mulai dengan memahami apa itu Aspose.Cells untuk Java, lalu melanjutkan dengan petunjuk langkah demi langkah untuk membuat bagan gabungan, menambahkan data ke dalamnya, menyesuaikan tampilannya, dan menyimpan/mengekspornya. Dengan Aspose.Cells untuk Java, Anda dapat memanfaatkan kekuatan visualisasi data dalam aplikasi Java Anda.
+Dalam artikel ini, kami telah menjajaki cara membuat tipe bagan gabungan menggunakan Aspose.Cells untuk Java. Kami mulai dengan memahami apa itu Aspose.Cells untuk Java, lalu melanjutkan dengan petunjuk langkah demi langkah untuk membuat bagan gabungan, menambahkan data ke dalamnya, menyesuaikan tampilannya, dan menyimpan/mengekspornya. Dengan Aspose.Cells untuk Java, Anda dapat memanfaatkan kekuatan visualisasi data dalam aplikasi Java Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
- Untuk menginstal Aspose.Cells untuk Java, kunjungi situs web Aspose dan unduh pustaka dari[tautan ini](https://releases.aspose.com/cells/java/)Ikuti petunjuk instalasi yang tersedia dalam dokumentasi.
+Untuk menginstal Aspose.Cells untuk Java, kunjungi situs web Aspose dan unduh pustaka dari [tautan ini](https://releases.aspose.com/cells/java/)Ikuti petunjuk instalasi yang tersedia dalam dokumentasi.
 
 ### Bisakah saya membuat jenis bagan lain dengan Aspose.Cells untuk Java?
 
@@ -132,7 +132,8 @@ Tentu saja! Aspose.Cells untuk Java menawarkan opsi penyesuaian yang luas. Anda 
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan contoh untuk Aspose.Cells untuk Java?
 
- Anda dapat menemukan dokumentasi yang lengkap dan banyak contoh kode di situs web Aspose di[Di Sini](https://reference.aspose.com/cells/java/).
+Anda dapat menemukan dokumentasi yang lengkap dan banyak contoh kode di situs web Aspose di [Di Sini](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

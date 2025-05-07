@@ -1,10 +1,10 @@
 ---
-title: カスタムデータ検証の作成
-linktitle: カスタムデータ検証の作成
-second_title: Aspose.Cells Java Excel 処理 API
-description: Aspose.Cells for Java を使用してカスタム データ検証を作成する方法を学習します。ソース コード付きのステップ バイ ステップ ガイド。
-weight: 10
-url: /ja/java/data-validation-rules/creating-custom-data-validation/
+"description": "Aspose.Cells for Javaを使用してカスタムデータ検証を作成する方法を学びます。ソースコード付きのステップバイステップガイドです。"
+"linktitle": "カスタムデータ検証の作成"
+"second_title": "Aspose.Cells Java Excel 処理 API"
+"title": "カスタムデータ検証の作成"
+"url": "/ja/java/data-validation-rules/creating-custom-data-validation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,24 +16,24 @@ url: /ja/java/data-validation-rules/creating-custom-data-validation/
 
 ## 導入
 
-データ検証は、ユーザーが Excel スプレッドシートに不正確なデータや無効なデータを入力するのを防ぐことで、データの整合性を維持するのに役立ちます。Excel には組み込みのデータ検証オプションが用意されていますが、カスタム検証ルールを定義する必要があるシナリオもあります。Aspose.Cells for Java を使用すると、これを効率的に実現できます。
+データ検証は、ユーザーがExcelスプレッドシートに不正確なデータや無効なデータを入力するのを防ぎ、データの整合性を維持するのに役立ちます。Excelには組み込みのデータ検証オプションが用意されていますが、カスタム検証ルールを定義する必要がある場合もあります。Aspose.Cells for Javaを使用すると、これを効率的に実現できます。
 
 ## 前提条件
 
-コードに進む前に、次の前提条件を満たしていることを確認してください。
+コードに進む前に、次の前提条件が満たされていることを確認してください。
 
--  Aspose.Cells for Java: ライブラリをダウンロードしてインストールします。[ここ](https://releases.aspose.com/cells/java/).
+- Aspose.Cells for Java: ライブラリをダウンロードしてインストールします。 [ここ](https://releases。aspose.com/cells/java/).
 
 ## ステップ1: Javaプロジェクトの設定
 
-まず、お好みの統合開発環境 (IDE) で新しい Java プロジェクトを作成します。プロジェクトのクラスパスに Aspose.Cells for Java ライブラリを追加します。
+まず、お好みの統合開発環境（IDE）で新しいJavaプロジェクトを作成します。Aspose.Cells for Javaライブラリをプロジェクトのクラスパスに追加します。
 
-## ステップ2: Excelブックを作成する
+## ステップ2: Excelブックの作成
 
-まず、Aspose.Cells for Java を使用して新しい Excel ブックを作成しましょう。
+まず、Aspose.Cells for Java を使用して新しい Excel ブックを作成します。
 
 ```java
-//新しい Excel ワークブックを作成するための Java コード
+// 新しい Excel ブックを作成するための Java コード
 Workbook workbook = new Workbook();
 ```
 
@@ -42,16 +42,16 @@ Workbook workbook = new Workbook();
 ここで、カスタム データ検証を適用するワークシートをワークブックに追加します。
 
 ```java
-//ワークシートを追加するJavaコード
+// ワークシートを追加するJavaコード
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
 ## ステップ4: カスタム検証基準の定義
 
-このステップでは、データが準拠する必要があるカスタム検証基準を定義します。セルに入力される年齢を 18 ～ 60 歳に制限するとします。
+このステップでは、データが遵守すべきカスタム検証基準を定義します。例えば、セルに入力される年齢を18歳から60歳までに制限するとします。
 
 ```java
-//カスタム検証基準を定義するJavaコード
+// カスタム検証基準を定義するJavaコード
 Validation validation = worksheet.getValidations().add();
 validation.setType(ValidationType.WHOLE);
 validation.setOperator(OperatorType.BETWEEN);
@@ -63,16 +63,16 @@ validation.setErrorTitle("Invalid Age");
 validation.setErrorMessage("Age must be between 18 and 60.");
 ```
 
-## ステップ 5: 範囲にデータ検証を適用する
+## ステップ5: 範囲にデータ検証を適用する
 
 カスタム検証基準を定義したので、それを特定のセル範囲に適用してみましょう。
 
 ```java
-//範囲にデータ検証を適用するJavaコード
+// 範囲にデータ検証を適用するJavaコード
 CellArea area = new CellArea();
 area.startRow = 0;
 area.startColumn = 0;
-area.endRow = 9; //最初の10行に検証を適用する
+area.endRow = 9; // 最初の10行に検証を適用する
 area.endColumn = 0;
 
 validation.addArea(area);
@@ -83,19 +83,19 @@ validation.addArea(area);
 最後に、カスタム データ検証ルールを適用した Excel ファイルを保存します。
 
 ```java
-// Excel ファイルを保存するための Java コード
+// Excelファイルを保存するJavaコード
 workbook.save("CustomDataValidation.xlsx");
 ```
 
 ## 結論
 
-このチュートリアルでは、Aspose.Cells for Java を使用してカスタム データ検証ルールを作成する方法について説明しました。これらの手順に従うことで、Excel データが特定の基準に準拠していることを保証し、データの整合性と正確性を高めることができます。
+このチュートリアルでは、Aspose.Cells for Java を使用してカスタムデータ検証ルールを作成する方法を説明しました。これらの手順に従うことで、Excel データが特定の基準に準拠していることを保証し、データの整合性と正確性を向上させることができます。
 
 ## よくある質問
 
 ### Aspose.Cells for Java をダウンロードするにはどうすればいいですか?
 
- Aspose.Cells for Javaは次のウェブサイトからダウンロードできます。[ここ](https://releases.aspose.com/cells/java/).
+Aspose.Cells for Javaは次のウェブサイトからダウンロードできます。 [ここ](https://releases。aspose.com/cells/java/).
 
 ### 同じワークシート内の複数の範囲にカスタム データ検証を適用できますか?
 
@@ -107,11 +107,12 @@ workbook.save("CustomDataValidation.xlsx");
 
 ### データ検証が失敗したときに表示されるエラー メッセージをカスタマイズするにはどうすればよいですか?
 
-エラーメッセージをカスタマイズするには、`setErrorMessage`手順 4 で検証基準を定義する方法。
+エラーメッセージをカスタマイズするには、 `setErrorMessage` 手順 4 で検証基準を定義する方法。
 
 ### Aspose.Cells for Java は、さまざまな形式の Excel ファイルでも動作しますか?
 
 はい、Aspose.Cells for Java は、XLS、XLSX、XLSM など、幅広い Excel ファイル形式をサポートしています。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

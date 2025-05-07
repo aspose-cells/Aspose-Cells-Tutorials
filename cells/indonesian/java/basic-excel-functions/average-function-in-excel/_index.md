@@ -1,10 +1,10 @@
 ---
-title: Fungsi AVERAGE di Excel
-linktitle: Fungsi AVERAGE di Excel
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara menggunakan fungsi AVERAGE di Excel dengan Aspose.Cells untuk Java. Panduan langkah demi langkah, contoh kode, dan kiat untuk otomatisasi Excel yang efisien.
-weight: 15
-url: /id/java/basic-excel-functions/average-function-in-excel/
+"description": "Pelajari cara menggunakan fungsi AVERAGE di Excel dengan Aspose.Cells untuk Java. Panduan langkah demi langkah, contoh kode, dan kiat untuk otomatisasi Excel yang efisien."
+"linktitle": "Fungsi AVERAGE di Excel"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Fungsi AVERAGE di Excel"
+"url": "/id/java/basic-excel-functions/average-function-in-excel/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,15 +22,15 @@ Lembar kerja Excel banyak digunakan untuk analisis dan kalkulasi data. Salah sat
 
 Sebelum kita mulai menggunakan fungsi AVERAGE, kita perlu menyiapkan lingkungan pengembangan kita. Ikuti langkah-langkah berikut untuk memulai:
 
-1.  Unduh Aspose.Cells untuk Java: Kunjungi[Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/) untuk mengunduh pustaka.
+1. Unduh Aspose.Cells untuk Java: Kunjungi [Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/) untuk mengunduh pustaka.
 
-2.  Instal Aspose.Cells: Ikuti petunjuk instalasi yang disediakan pada dokumentasi Aspose[Di Sini](https://reference.aspose.com/cells/java/).
+2. Instal Aspose.Cells: Ikuti petunjuk instalasi yang disediakan pada dokumentasi Aspose [Di Sini](https://reference.aspose.com/cells/java/).
 
 Setelah Anda menginstal Aspose.Cells untuk Java, Anda siap untuk mulai bekerja dengan file Excel.
 
 ## Membuat Buku Kerja Excel Baru
 
-Untuk menggunakan fungsi AVERAGE, pertama-tama kita perlu buku kerja Excel. Mari kita buat satu buku kerja secara terprogram menggunakan Aspose.Cells:
+Untuk menggunakan fungsi AVERAGE, pertama-tama kita memerlukan buku kerja Excel. Mari kita buat satu buku kerja secara terprogram menggunakan Aspose.Cells:
 
 ```java
 // Kode Java untuk membuat buku kerja Excel baru
@@ -109,7 +109,7 @@ Selalu bungkus kode Anda dalam blok try-catch untuk menangani pengecualian secar
 
 ## Fitur Tambahan
 
-Aspose.Cells untuk Java menawarkan berbagai fitur yang lebih dari sekadar yang telah kami bahas dalam artikel ini. Anda dapat membuat bagan, tabel pivot, melakukan perhitungan tingkat lanjut, dan banyak lagi. Jelajahi dokumentasi untuk informasi yang lengkap.
+Aspose.Cells untuk Java menawarkan berbagai fitur yang lebih dari sekadar yang telah kami bahas dalam artikel ini. Anda dapat membuat bagan, tabel pivot, melakukan kalkulasi tingkat lanjut, dan banyak lagi. Jelajahi dokumentasi untuk informasi yang lengkap.
 
 ## Kesimpulan
 
@@ -119,7 +119,7 @@ Dalam artikel ini, kami telah menjajaki cara menggunakan fungsi AVERAGE di Excel
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
- Untuk menginstal Aspose.Cells untuk Java, kunjungi situs web di[Di Sini](https://reference.aspose.com/cells/java/) dan ikuti petunjuk instalasi.
+Untuk menginstal Aspose.Cells untuk Java, kunjungi situs web di [Di Sini](https://reference.aspose.com/cells/java/) dan ikuti petunjuk instalasi.
 
 ### Bisakah saya mengekspor buku kerja Excel ke format lain selain PDF?
 
@@ -133,9 +133,10 @@ Aspose.Cells untuk Java menyederhanakan otomatisasi Excel, menghemat waktu dan t
 
 Anda dapat menyesuaikan tampilan sel dengan mengubah font, warna, dan gaya menggunakan Aspose.Cells untuk Java. Lihat dokumentasi untuk petunjuk terperinci.
 
-### Di mana saya dapat mengakses fitur Aspose.Cells yang lebih canggih untuk Java?
+### Di mana saya dapat mengakses fitur Aspose.Cells untuk Java yang lebih canggih?
 
 Untuk daftar lengkap fitur dan fungsionalitas lanjutan, lihat dokumentasi Aspose.Cells untuk Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

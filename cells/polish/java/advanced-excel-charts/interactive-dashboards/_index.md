@@ -1,10 +1,10 @@
 ---
-title: Interaktywne pulpity nawigacyjne
-linktitle: Interaktywne pulpity nawigacyjne
-second_title: Aspose.Cells Java Excel Processing API
-description: Naucz się tworzyć interaktywne pulpity nawigacyjne za pomocą Aspose.Cells dla Java. Przewodnik krok po kroku dotyczący tworzenia dynamicznych wizualizacji danych.
-weight: 10
-url: /pl/java/advanced-excel-charts/interactive-dashboards/
+"description": "Naucz się tworzyć interaktywne pulpity nawigacyjne za pomocą Aspose.Cells dla Java. Przewodnik krok po kroku dotyczący tworzenia dynamicznych wizualizacji danych."
+"linktitle": "Interaktywne pulpity nawigacyjne"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Interaktywne pulpity nawigacyjne"
+"url": "/pl/java/advanced-excel-charts/interactive-dashboards/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ szybko zmieniającym się świecie podejmowania decyzji opartych na danych, inte
 
 Zanim przejdziemy do szczegółów, upewnij się, że spełnione są następujące wymagania wstępne:
 
--  Aspose.Cells dla Java: Pobierz i zainstaluj bibliotekę Aspose.Cells dla Java ze strony[Tutaj](https://releases.aspose.com/cells/java/).
+- Aspose.Cells dla Java: Pobierz i zainstaluj bibliotekę Aspose.Cells dla Java ze strony [Tutaj](https://releases.aspose.com/cells/java/).
 
 ## Konfigurowanie projektu
 
@@ -84,7 +84,7 @@ Przyciski mogą wyzwalać akcje na naszym pulpicie. Dodajmy przycisk, który akt
 worksheet.getShapes().addShape(MsoDrawingType.BUTTON, 1, 1, 3, 1);
 Button button = (Button) worksheet.getShapes().get(0);
 
-//Dostosuj wygląd i zachowanie przycisku
+// Dostosuj wygląd i zachowanie przycisku
 button.setText("Update Chart");
 button.setActionType(MsoButtonActionType.HYPERLINK);
 button.setHyperlink("Sheet1!A2");
@@ -125,6 +125,7 @@ Tak, Aspose.Cells for Java umożliwia eksportowanie interaktywnego pulpitu nawig
 ### Czy Aspose.Cells for Java nadaje się do projektów wizualizacji danych na dużą skalę?
 
 Tak, Aspose.Cells for Java jest dobrze przystosowany do projektów wizualizacji danych na małą i dużą skalę. Jego elastyczność i rozbudowany zestaw funkcji sprawiają, że jest to solidny wybór dla różnych wymagań.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Trích xuất dữ liệu tự động
-linktitle: Trích xuất dữ liệu tự động
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách tự động trích xuất dữ liệu hiệu quả với các ví dụ về mã nguồn sử dụng Aspose.Cells cho Java. Trích xuất dữ liệu từ các tệp Excel một cách dễ dàng.
-weight: 14
-url: /vi/java/spreadsheet-automation/automated-data-extraction/
+"description": "Tìm hiểu cách tự động trích xuất dữ liệu hiệu quả với các ví dụ về mã nguồn sử dụng Aspose.Cells cho Java. Trích xuất dữ liệu từ các tệp Excel một cách dễ dàng."
+"linktitle": "Trích xuất dữ liệu tự động"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Trích xuất dữ liệu tự động"
+"url": "/vi/java/spreadsheet-automation/automated-data-extraction/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -32,7 +32,7 @@ Tự động trích xuất dữ liệu mang lại một số lợi thế:
 
 ### 1. Thiết lập môi trường
 
- Trước tiên, hãy đảm bảo bạn đã cài đặt Aspose.Cells for Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
+Trước tiên, hãy đảm bảo bạn đã cài đặt Aspose.Cells for Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/java/).
 
 ### 2. Khởi tạo Aspose.Cells
 
@@ -108,9 +108,9 @@ Tự động trích xuất dữ liệu với Aspose.Cells for Java giúp đơn g
    Có, bạn cần có giấy phép hợp lệ để sử dụng Aspose.Cells for Java trong các dự án của mình.
 
 ### 5. Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
-    Khám phá tài liệu API tại[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) để biết thông tin chi tiết và ví dụ.
+   Khám phá tài liệu API tại [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) để biết thông tin chi tiết và ví dụ.
 
-Hãy bắt đầu tự động hóa các tác vụ trích xuất dữ liệu của bạn ngay hôm nay với Aspose.Cells for Java và hợp lý hóa quy trình truy xuất dữ liệu của bạn.
+Hãy bắt đầu tự động hóa các tác vụ trích xuất dữ liệu của bạn ngay hôm nay với Aspose.Cells for Java và hợp lý hóa quy trình truy xuất dữ liệu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

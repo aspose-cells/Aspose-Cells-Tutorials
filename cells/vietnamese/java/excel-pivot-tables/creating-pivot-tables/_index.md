@@ -1,10 +1,10 @@
 ---
-title: Tạo bảng Pivot
-linktitle: Tạo bảng Pivot
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách tạo Bảng Pivot mạnh mẽ trong Java với Aspose.Cells để phân tích và trực quan hóa dữ liệu tốt hơn.
-weight: 10
-url: /vi/java/excel-pivot-tables/creating-pivot-tables/
+"description": "Tìm hiểu cách tạo Bảng Pivot mạnh mẽ trong Java với Aspose.Cells để phân tích và trực quan hóa dữ liệu tốt hơn."
+"linktitle": "Tạo bảng Pivot"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Tạo bảng Pivot"
+"url": "/vi/java/excel-pivot-tables/creating-pivot-tables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -17,7 +17,7 @@ url: /vi/java/excel-pivot-tables/creating-pivot-tables/
 Pivot Table là công cụ không thể thiếu để phân tích và trực quan hóa dữ liệu. Trong hướng dẫn này, chúng ta sẽ khám phá cách tạo Pivot Table bằng API Aspose.Cells for Java. Chúng tôi sẽ cung cấp cho bạn hướng dẫn từng bước cùng với các ví dụ về mã nguồn để quá trình này trở nên liền mạch.
 
 ## Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt thư viện Aspose.Cells for Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
+Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt thư viện Aspose.Cells for Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/java/).
 
 ## Bước 1: Tạo một Workbook
 ```java
@@ -69,7 +69,7 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 2);  // Thêm giá trị
 Bạn có thể tùy chỉnh giao diện và hành vi của Bảng Pivot khi cần.
 
 ```java
-//Tùy chỉnh Bảng Pivot
+// Tùy chỉnh Bảng Pivot
 pivotTable.refreshData();
 pivotTable.calculateData();
 ```

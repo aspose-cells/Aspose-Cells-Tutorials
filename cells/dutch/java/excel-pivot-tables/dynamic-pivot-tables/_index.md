@@ -1,10 +1,10 @@
 ---
-title: Dynamische draaitabellen
-linktitle: Dynamische draaitabellen
-second_title: Aspose.Cells Java Excel-verwerkings-API
-description: Maak moeiteloos dynamische draaitabellen met Aspose.Cells voor Java. Analyseer en vat gegevens eenvoudig samen. Vergroot uw mogelijkheden voor gegevensanalyse.
-weight: 13
-url: /nl/java/excel-pivot-tables/dynamic-pivot-tables/
+"description": "Maak moeiteloos dynamische draaitabellen met Aspose.Cells voor Java. Analyseer en vat gegevens eenvoudig samen. Vergroot uw mogelijkheden voor data-analyse."
+"linktitle": "Dynamische draaitabellen"
+"second_title": "Aspose.Cells Java Excel-verwerkings-API"
+"title": "Dynamische draaitabellen"
+"url": "/nl/java/excel-pivot-tables/dynamic-pivot-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,32 +14,32 @@ url: /nl/java/excel-pivot-tables/dynamic-pivot-tables/
 # Dynamische draaitabellen
 
 
-Draaitabellen zijn een krachtig hulpmiddel bij data-analyse, waarmee u data in een spreadsheet kunt samenvatten en manipuleren. In deze tutorial gaan we onderzoeken hoe u dynamische draaitabellen kunt maken met behulp van de Aspose.Cells voor Java API.
+Draaitabellen zijn een krachtig hulpmiddel voor data-analyse, waarmee u gegevens in een spreadsheet kunt samenvatten en bewerken. In deze tutorial laten we zien hoe u dynamische draaitabellen kunt maken met behulp van de Aspose.Cells voor Java API.
 
 ## Inleiding tot draaitabellen
 
-Draaitabellen zijn interactieve tabellen waarmee u gegevens in een spreadsheet kunt samenvatten en analyseren. Ze bieden een dynamische manier om gegevens te ordenen en analyseren, waardoor het eenvoudiger wordt om inzichten te verkrijgen en weloverwogen beslissingen te nemen.
+Draaitabellen zijn interactieve tabellen waarmee u gegevens in een spreadsheet kunt samenvatten en analyseren. Ze bieden een dynamische manier om gegevens te ordenen en te analyseren, waardoor u gemakkelijker inzichten kunt verkrijgen en weloverwogen beslissingen kunt nemen.
 
 ## Stap 1: De Aspose.Cells-bibliotheek importeren
 
- Voordat we dynamische draaitabellen kunnen maken, moeten we de Aspose.Cells-bibliotheek importeren in ons Java-project. U kunt de bibliotheek downloaden van de Aspose-releases[hier](https://releases.aspose.com/cells/java/).
+Voordat we dynamische draaitabellen kunnen maken, moeten we de Aspose.Cells-bibliotheek importeren in ons Java-project. Je kunt de bibliotheek downloaden van de Aspose-releases. [hier](https://releases.aspose.com/cells/java/).
 
 Nadat u de bibliotheek hebt gedownload, voegt u deze toe aan het buildpad van uw project.
 
 ## Stap 2: Een werkmap laden
 
-Om met draaitabellen te werken, moeten we eerst een werkmap laden die de gegevens bevat die we willen analyseren. U kunt dit doen met de volgende code:
+Om met draaitabellen te werken, moeten we eerst een werkmap laden met de gegevens die we willen analyseren. U kunt dit doen met de volgende code:
 
 ```java
 // Laad het Excel-bestand
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Vervangen`"your_excel_file.xlsx"` met het pad naar uw Excel-bestand.
+Vervangen `"your_excel_file.xlsx"` met het pad naar uw Excel-bestand.
 
 ## Stap 3: Een draaitabel maken
 
-Nu we de werkmap hebben geladen, gaan we een draaitabel maken. We moeten het brongegevensbereik voor de draaitabel opgeven en de locatie waar we deze in het werkblad willen plaatsen. Hier is een voorbeeld:
+Nu we de werkmap hebben geladen, gaan we een draaitabel maken. We moeten het brongegevensbereik voor de draaitabel en de locatie waar we deze in het werkblad willen plaatsen, opgeven. Hier is een voorbeeld:
 
 ```java
 // Ontvang het eerste werkblad
@@ -52,17 +52,17 @@ String sourceData = "A1:D10"; // Vervang met uw gegevensbereik
 int firstRow = 1;
 int firstColumn = 5;
 
-// Maak de draaitabel
+// De draaitabel maken
 PivotTable pivotTable = worksheet.getPivotTables().add(sourceData, worksheet.getCells().get(firstRow, firstColumn), "PivotTable1");
 ```
 
 ## Stap 4: De draaitabel configureren
 
-Nu we de draaitabel hebben gemaakt, kunnen we deze configureren om de gegevens samen te vatten en te analyseren zoals nodig. U kunt rijvelden, kolomvelden, gegevensvelden instellen en verschillende berekeningen toepassen. Hier is een voorbeeld:
+Nu we de draaitabel hebben gemaakt, kunnen we deze configureren om de gegevens naar behoefte samen te vatten en te analyseren. U kunt rijvelden, kolomvelden en gegevensvelden instellen en diverse berekeningen toepassen. Hier is een voorbeeld:
 
 ```java
 // Velden toevoegen aan de draaitabel
-pivotTable.addFieldToArea(PivotFieldType.ROW, 0); // Rij veld
+pivotTable.addFieldToArea(PivotFieldType.ROW, 0); // Rijveld
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1); // Kolomveld
 pivotTable.addFieldToArea(PivotFieldType.DATA, 2); // Gegevensveld
 
@@ -82,9 +82,9 @@ pivotTable.calculateData();
 
 ## Conclusie
 
-In deze tutorial hebben we geleerd hoe u dynamische draaitabellen kunt maken met behulp van de Aspose.Cells voor Java API. Draaitabellen zijn een waardevolle tool voor gegevensanalyse en met Aspose.Cells kunt u de creatie en manipulatie ervan in uw Java-toepassingen automatiseren.
+In deze tutorial hebben we geleerd hoe je dynamische draaitabellen maakt met behulp van de Aspose.Cells voor Java API. Draaitabellen zijn een waardevolle tool voor data-analyse en met Aspose.Cells kun je het maken en bewerken ervan in je Java-applicaties automatiseren.
 
-Als u vragen heeft of verdere assistentie nodig heeft, neem dan gerust contact met ons op. Veel plezier met coderen!
+Als je vragen hebt of verdere hulp nodig hebt, neem dan gerust contact met ons op. Veel plezier met coderen!
 
 ## Veelgestelde vragen
 
@@ -107,7 +107,7 @@ Ja, u kunt filters toepassen op draaitabellen om specifieke subsets van gegevens
 ### V5: Ondersteunt Aspose.Cells de geavanceerde draaitabelfuncties van Excel?
 
 Ja, Aspose.Cells biedt uitgebreide ondersteuning voor de geavanceerde draaitabelfuncties van Excel, zodat u complexe draaitabellen kunt maken.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/producten/pf/tutorial-pagina-sectie >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

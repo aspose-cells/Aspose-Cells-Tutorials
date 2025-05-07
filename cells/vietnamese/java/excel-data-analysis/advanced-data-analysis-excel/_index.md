@@ -1,10 +1,10 @@
 ---
-title: Phân tích dữ liệu nâng cao Excel
-linktitle: Phân tích dữ liệu nâng cao Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Làm chủ phân tích dữ liệu nâng cao trong Excel với Aspose.Cells for Java. Học từng bước, với các ví dụ về mã nguồn.
-weight: 12
-url: /vi/java/excel-data-analysis/advanced-data-analysis-excel/
+"description": "Làm chủ phân tích dữ liệu nâng cao trong Excel với Aspose.Cells for Java. Học từng bước, với các ví dụ về mã nguồn."
+"linktitle": "Phân tích dữ liệu nâng cao Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Phân tích dữ liệu nâng cao Excel"
+"url": "/vi/java/excel-data-analysis/advanced-data-analysis-excel/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Trước khi đi sâu vào thế giới phân tích dữ liệu nâng cao với 
 
 - Kiến thức cơ bản về lập trình Java.
 - Môi trường phát triển được thiết lập bằng Java và IDE mà bạn ưa thích.
--  Thư viện Aspose.Cells cho Java, bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
+- Thư viện Aspose.Cells cho Java, bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/java/).
 - Bảng tính Excel có dữ liệu mẫu để làm việc.
 
 ## Thiết lập Aspose.Cells cho Java
@@ -187,7 +187,7 @@ Với Aspose.Cells for Java, bạn có thể nâng cao khả năng phân tích d
 
 Để cài đặt Aspose.Cells cho Java, hãy làm theo các bước sau:
 
-1.  Tải xuống thư viện từ[đây](https://releases.aspose.com/cells/java/).
+1. Tải xuống thư viện từ [đây](https://releases.aspose.com/cells/java/).
 2. Thêm thư viện vào dự án Java của bạn.
 3. Nhập các gói cần thiết vào mã của bạn.
 
@@ -206,6 +206,7 @@ Có, bạn có thể tự động hóa các tác vụ Excel, bao gồm cả vi�
 ### Tôi có thể xuất kết quả phân tích của mình sang những định dạng nào?
 
 Aspose.Cells for Java hỗ trợ xuất kết quả phân tích sang nhiều định dạng khác nhau, bao gồm PDF và CSV.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

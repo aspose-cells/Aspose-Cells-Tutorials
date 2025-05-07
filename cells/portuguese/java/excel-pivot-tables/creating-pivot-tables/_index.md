@@ -1,10 +1,10 @@
 ---
-title: Criando tabelas dinâmicas
-linktitle: Criando tabelas dinâmicas
-second_title: API de processamento Java Excel Aspose.Cells
-description: Aprenda a criar tabelas dinâmicas poderosas em Java com Aspose.Cells para análise e visualização de dados aprimoradas.
-weight: 10
-url: /pt/java/excel-pivot-tables/creating-pivot-tables/
+"description": "Aprenda a criar tabelas dinâmicas poderosas em Java com Aspose.Cells para análise e visualização de dados aprimoradas."
+"linktitle": "Criando tabelas dinâmicas"
+"second_title": "API de processamento Java Excel Aspose.Cells"
+"title": "Criando tabelas dinâmicas"
+"url": "/pt/java/excel-pivot-tables/creating-pivot-tables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,12 +14,12 @@ url: /pt/java/excel-pivot-tables/creating-pivot-tables/
 # Criando tabelas dinâmicas
 
 ## Introdução
-Tabelas Dinâmicas são ferramentas indispensáveis para análise e visualização de dados. Neste tutorial, exploraremos como criar Tabelas Dinâmicas usando o Aspose.Cells para API Java. Forneceremos instruções passo a passo junto com exemplos de código-fonte para tornar o processo perfeito.
+Tabelas Dinâmicas são ferramentas indispensáveis para análise e visualização de dados. Neste tutorial, exploraremos como criar Tabelas Dinâmicas usando a API Aspose.Cells para Java. Forneceremos instruções passo a passo, juntamente com exemplos de código-fonte, para tornar o processo simples.
 
 ## Pré-requisitos
-Antes de começar, certifique-se de ter a biblioteca Aspose.Cells for Java instalada. Você pode baixá-la em[aqui](https://releases.aspose.com/cells/java/).
+Antes de começar, certifique-se de ter a biblioteca Aspose.Cells para Java instalada. Você pode baixá-la em [aqui](https://releases.aspose.com/cells/java/).
 
-## Etapa 1: Crie uma pasta de trabalho
+## Etapa 1: Criar uma pasta de trabalho
 ```java
 // Importar classes necessárias
 import com.aspose.cells.Workbook;
@@ -44,7 +44,7 @@ Especifique o intervalo de dados que você deseja incluir na Tabela Dinâmica.
 String sourceData = "Sheet1!A1:D100"; // Altere isso para seu intervalo de dados
 ```
 
-## Etapa 4: Crie uma tabela dinâmica
+## Etapa 4: Criar uma Tabela Dinâmica
 Agora, vamos criar a Tabela Dinâmica.
 
 ```java
@@ -69,7 +69,7 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 2);  // Adicionar valores
 Você pode personalizar a aparência e o comportamento da Tabela Dinâmica conforme necessário.
 
 ```java
-//Personalize a Tabela Dinâmica
+// Personalizar a Tabela Dinâmica
 pivotTable.refreshData();
 pivotTable.calculateData();
 ```
@@ -83,7 +83,7 @@ workbook.save("output.xlsx");
 ```
 
 ## Conclusão
-Neste tutorial, percorremos o processo de criação de Tabelas Dinâmicas usando o Aspose.Cells para API Java. Agora você pode aprimorar seus recursos de análise e visualização de dados com facilidade.
+Neste tutorial, abordamos o processo de criação de Tabelas Dinâmicas usando a API Aspose.Cells para Java. Agora você pode aprimorar seus recursos de análise e visualização de dados com facilidade.
 
 ## Perguntas frequentes
 ### O que é uma tabela dinâmica?
@@ -99,10 +99,10 @@ Neste tutorial, percorremos o processo de criação de Tabelas Dinâmicas usando
    Claro, você pode personalizar a aparência e a formatação da sua Tabela Dinâmica para corresponder às suas preferências.
 
 ### Como posso automatizar a criação de Tabelas Dinâmicas em aplicativos Java?
-   Você pode automatizar a criação de Tabelas Dinâmicas em Java usando a API Aspose.Cells para Java, conforme demonstrado neste tutorial.
+   Você pode automatizar a criação de Tabela Dinâmica em Java usando a API Aspose.Cells para Java, conforme demonstrado neste tutorial.
 
 Agora você tem o conhecimento e o código para criar Tabelas Dinâmicas poderosas em Java usando Aspose.Cells. Experimente diferentes fontes de dados e configurações para adaptar suas Tabelas Dinâmicas às suas necessidades específicas. Boa análise de dados!
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocos/produtos/pf/seção-da-página-tutorial >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

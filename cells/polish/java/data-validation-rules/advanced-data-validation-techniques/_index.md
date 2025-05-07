@@ -1,10 +1,10 @@
 ---
-title: Zaawansowane techniki walidacji danych
-linktitle: Zaawansowane techniki walidacji danych
-second_title: Aspose.Cells Java Excel Processing API
-description: Odblokuj zaawansowane techniki walidacji danych w programie Excel za pomocą Aspose.Cells for Java. Naucz się tworzyć niestandardowe reguły, listy rozwijane i inne elementy w celu precyzyjnej kontroli danych.
-weight: 19
-url: /pl/java/data-validation-rules/advanced-data-validation-techniques/
+"description": "Odblokuj zaawansowane techniki walidacji danych w programie Excel za pomocą Aspose.Cells for Java. Naucz się tworzyć niestandardowe reguły, listy rozwijane i inne elementy w celu precyzyjnej kontroli danych."
+"linktitle": "Zaawansowane techniki walidacji danych"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Zaawansowane techniki walidacji danych"
+"url": "/pl/java/data-validation-rules/advanced-data-validation-techniques/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,7 +20,7 @@ Walidacja danych to proces definiowania reguł i ograniczeń, aby zapobiec wprow
 
 ## Konfigurowanie Aspose.Cells dla Java
 
- Zanim przejdziemy do zaawansowanych technik, zacznijmy od Aspose.Cells dla Javy. Możesz pobrać bibliotekę ze strony[Link do pobrania Aspose.Cells dla Java](https://releases.aspose.com/cells/java/) . Upewnij się, że postępujesz zgodnie z instrukcjami instalacji podanymi w dokumentacji na stronie[Aspose.Cells dla API Java Odwołania](https://reference.aspose.com/cells/java/).
+Zanim przejdziemy do zaawansowanych technik, zacznijmy od Aspose.Cells dla Javy. Możesz pobrać bibliotekę ze strony [Link do pobrania Aspose.Cells dla Java](https://releases.aspose.com/cells/java/). Upewnij się, że postępujesz zgodnie z instrukcjami instalacji podanymi w dokumentacji na stronie [Aspose.Cells dla API Java Odwołania](https://reference.aspose.com/cells/java/).
 
 ## Podstawowa walidacja danych
 
@@ -64,7 +64,7 @@ dataValidation.setFormula1("AND(ISNUMBER(A1), A1>=10, A1<=50)");
 
 ### Lista walidacji danych
 
-Można także tworzyć listy rozwijane, aby zapewnić wstępnie zdefiniowane opcje wprowadzania danych.
+Można także tworzyć listy rozwijane zawierające predefiniowane opcje wprowadzania danych.
 
 ```java
 // Kod Java do walidacji danych listy
@@ -74,7 +74,7 @@ dataValidation.setFormula1("Option1,Option2,Option3");
 
 ### Walidacja daty i godziny
 
-Aspose.Cells for Java obsługuje sprawdzanie poprawności daty i godziny, zapewniając, że wpisy dat mieszczą się w określonym zakresie.
+Aspose.Cells for Java obsługuje sprawdzanie poprawności daty i godziny, zapewniając, że wpisy dotyczące dat mieszczą się w określonym zakresie.
 
 ```java
 // Kod Java do sprawdzania daty i godziny
@@ -92,7 +92,7 @@ Walidacja danych jest krytycznym aspektem utrzymania jakości danych w arkuszach
 
 ### Jak pobrać Aspose.Cells dla Java?
 
- Możesz pobrać Aspose.Cells dla Java ze strony[link do pobrania](https://releases.aspose.com/cells/java/).
+Możesz pobrać Aspose.Cells dla Java ze strony [link do pobrania](https://releases.aspose.com/cells/java/).
 
 ### Czy mogę tworzyć niestandardowe reguły walidacji przy użyciu Aspose.Cells dla Java?
 
@@ -108,7 +108,8 @@ Tak, można zdefiniować listy rozwijane z predefiniowanymi opcjami sprawdzania 
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Cells dla Java?
 
-Szczegółową dokumentację i odniesienia można znaleźć na stronie[Aspose.Cells dla API Java Odwołania](https://reference.aspose.com/cells/java/).
+Szczegółową dokumentację i odniesienia można znaleźć na stronie [Aspose.Cells dla API Java Odwołania](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

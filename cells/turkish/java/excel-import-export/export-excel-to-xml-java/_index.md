@@ -1,10 +1,10 @@
 ---
-title: Excel'i XML'e Aktar Java
-linktitle: Excel'i XML'e Aktar Java
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java ile Excel'i Java'da XML'e nasıl aktaracağınızı öğrenin. Sorunsuz veri dönüşümü için kaynak kodlu adım adım kılavuz.
-weight: 15
-url: /tr/java/excel-import-export/export-excel-to-xml-java/
+"description": "Java'da Aspose.Cells for Java ile Excel'i XML'e nasıl aktaracağınızı öğrenin. Sorunsuz veri dönüşümü için kaynak kodlu adım adım kılavuz."
+"linktitle": "Excel'i XML'e Aktar Java"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Excel'i XML'e Aktar Java"
+"url": "/tr/java/excel-import-export/export-excel-to-xml-java/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -21,12 +21,12 @@ Bu kapsamlı kılavuzda, Aspose.Cells for Java kullanarak Excel verilerini XML'e
 Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
 - Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
--  İndirebileceğiniz Java kütüphanesi için Aspose.Cells[Burada](https://releases.aspose.com/cells/java/).
+- İndirebileceğiniz Java kütüphanesi için Aspose.Cells [Burada](https://releases.aspose.com/cells/java/).
 
 ## Adım 1: Projenizi Kurma
 
 1. Favori IDE'nizde yeni bir Java projesi oluşturun.
-2. Aspose.Cells for Java kütüphanesini projenizin bağımlılıklarına ekleyin.
+2. Projenizin bağımlılıklarına Aspose.Cells for Java kütüphanesini ekleyin.
 
 ## Adım 2: Excel Dosyasını Yükleme
 
@@ -46,7 +46,7 @@ Daha sonra, verileri dışarı aktarmak istediğimiz çalışma sayfasına eriş
 Worksheet worksheet = workbook.getWorksheets().get(0); // Gerektiğinde dizini değiştirin
 ```
 
-## Adım 4: XML'e aktarma
+## Adım 4: XML'e Aktarma
 
 Şimdi çalışma sayfası verilerini XML'e aktaralım.
 
@@ -115,13 +115,14 @@ Tebrikler! Java'da Aspose.Cells for Java kullanarak Excel verilerini XML'e nası
    Evet, Java için Aspose.Cells, XLS, XLSX ve daha fazlası dahil olmak üzere çeşitli Excel formatlarını destekler.
 
 ### 3. Excel formüllerini dışa aktarma işlemi sırasında nasıl kullanabilirim?
-   Java için Aspose.Cells, Excel formüllerini dışa aktarılan XML verilerinde koruyarak bunların işlevselliğini korur.
+   Java için Aspose.Cells, dışa aktarılan XML verilerinde Excel formüllerini koruyarak bunların işlevselliğini korur.
 
 ### 4. XML dışa aktarma formatını özelleştirebilir miyim?
    Evet, Aspose.Cells'in kapsamlı API'lerini kullanarak XML dışa aktarma formatını özel gereksinimlerinizi karşılayacak şekilde özelleştirebilirsiniz.
 
 ### 5. Aspose.Cells for Java'yı kullanmak için herhangi bir lisanslama gereksinimi var mı?
    Evet, kütüphaneyi üretim ortamında kullanmak için Aspose'dan geçerli bir lisans almanız gerekecektir. Lisanslama ayrıntıları için web sitelerini ziyaret edin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

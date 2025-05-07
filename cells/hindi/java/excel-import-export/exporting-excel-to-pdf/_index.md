@@ -1,10 +1,10 @@
 ---
-title: एक्सेल को पीडीएफ में निर्यात करना
-linktitle: एक्सेल को पीडीएफ में निर्यात करना
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: जावा के लिए Aspose.Cells का उपयोग करके आसानी से Excel फ़ाइलों को PDF में निर्यात करना सीखें। हमारी चरण-दर-चरण मार्गदर्शिका प्रक्रिया को सरल बनाती है। आज ही कनवर्ट करना शुरू करें!
-weight: 14
-url: /hi/java/excel-import-export/exporting-excel-to-pdf/
+"description": "जावा के लिए Aspose.Cells का उपयोग करके आसानी से Excel फ़ाइलों को PDF में निर्यात करना सीखें। हमारी चरण-दर-चरण मार्गदर्शिका प्रक्रिया को सरल बनाती है। आज ही कनवर्ट करना शुरू करें!"
+"linktitle": "एक्सेल को पीडीएफ में निर्यात करना"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "एक्सेल को पीडीएफ में निर्यात करना"
+"url": "/hi/java/excel-import-export/exporting-excel-to-pdf/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -61,7 +61,7 @@ public class ExcelToPdfConverter {
 }
 ```
 
- सुनिश्चित करें कि आप प्रतिस्थापित करें`"path/to/your/excel/file.xlsx"` आपकी एक्सेल फ़ाइल का वास्तविक पथ.
+सुनिश्चित करें कि आप प्रतिस्थापित करें `"path/to/your/excel/file.xlsx"` आपकी एक्सेल फ़ाइल का वास्तविक पथ.
 
 ## चरण 3: एक्सेल को पीडीएफ में बदलें
 
@@ -73,11 +73,11 @@ String pdfFilePath = "path/to/output/pdf/file.pdf";
 workbook.save(pdfFilePath, SaveFormat.PDF);
 ```
 
- प्रतिस्थापित करें`"path/to/output/pdf/file.pdf"` परिणामी PDF दस्तावेज़ के लिए अपने पसंदीदा आउटपुट पथ और फ़ाइल नाम के साथ।
+प्रतिस्थापित करें `"path/to/output/pdf/file.pdf"` परिणामी PDF दस्तावेज़ के लिए अपने पसंदीदा आउटपुट पथ और फ़ाइल नाम के साथ।
 
 ## चरण 4: अपने जावा एप्लिकेशन को बेहतर बनाएँ
 
-इस स्तर पर, आपने सफलतापूर्वक एक एक्सेल फ़ाइल को पीडीएफ दस्तावेज़ में बदल दिया है। आप आवश्यकतानुसार अतिरिक्त सुविधाएँ, त्रुटि प्रबंधन, या उपयोगकर्ता इंटरैक्शन शामिल करके अपने जावा एप्लिकेशन को और बेहतर बना सकते हैं।
+इस स्तर पर, आपने सफलतापूर्वक एक एक्सेल फ़ाइल को पीडीएफ दस्तावेज़ में बदल दिया है। आप आवश्यकतानुसार अतिरिक्त सुविधाएँ, त्रुटि प्रबंधन या उपयोगकर्ता इंटरैक्शन शामिल करके अपने जावा एप्लिकेशन को और बेहतर बना सकते हैं।
 
 ## निष्कर्ष
 
@@ -105,7 +105,7 @@ workbook.save(pdfFilePath, SaveFormat.PDF);
 
 प्रश्न 5: मैं Aspose.Cells के लिए अधिक दस्तावेज़ और उदाहरण कहां पा सकता हूं?
 
- Aspose.Cells API दस्तावेज़न का अन्वेषण करें[https://reference.aspose.com/ Cells/java/](https://reference.aspose.com/cells/java/) आपके ज्ञान को और अधिक विस्तारित करने के लिए व्यापक दस्तावेज़ीकरण और उदाहरणों का खजाना।
+Aspose.Cells API दस्तावेज़न का अन्वेषण करें [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) आपके ज्ञान को और अधिक विस्तारित करने के लिए व्यापक दस्तावेज़ीकरण और उदाहरणों का खजाना।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

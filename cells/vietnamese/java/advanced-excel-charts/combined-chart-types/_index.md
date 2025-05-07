@@ -1,10 +1,10 @@
 ---
-title: Các loại biểu đồ kết hợp
-linktitle: Các loại biểu đồ kết hợp
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách tạo các loại biểu đồ kết hợp bằng Aspose.Cells for Java. Hướng dẫn từng bước này cung cấp mã nguồn và mẹo để trực quan hóa dữ liệu hiệu quả.
-weight: 12
-url: /vi/java/advanced-excel-charts/combined-chart-types/
+"description": "Tìm hiểu cách tạo các loại biểu đồ kết hợp bằng Aspose.Cells for Java. Hướng dẫn từng bước này cung cấp mã nguồn và mẹo để trực quan hóa dữ liệu hiệu quả."
+"linktitle": "Các loại biểu đồ kết hợp"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Các loại biểu đồ kết hợp"
+"url": "/vi/java/advanced-excel-charts/combined-chart-types/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Trước khi đi sâu vào việc tạo biểu đồ kết hợp, chúng ta hãy
 
 ## Bắt đầu
 
- Để bắt đầu tạo biểu đồ kết hợp, bạn cần cài đặt và thiết lập Aspose.Cells for Java trong dự án Java của mình. Bạn có thể tải xuống thư viện từ trang web Aspose bằng liên kết sau:[Tải xuống Aspose.Cells cho Java](https://releases.aspose.com/cells/java/).
+Để bắt đầu tạo biểu đồ kết hợp, bạn cần cài đặt và thiết lập Aspose.Cells for Java trong dự án Java của mình. Bạn có thể tải xuống thư viện từ trang web Aspose bằng liên kết sau: [Tải xuống Aspose.Cells cho Java](https://releases.aspose.com/cells/java/).
 
 Khi đã có thư viện, bạn có thể tiến hành các bước sau để tạo biểu đồ kết hợp.
 
@@ -116,7 +116,7 @@ Trong bài viết này, chúng tôi đã khám phá cách tạo các loại bi�
 
 ### Làm thế nào để cài đặt Aspose.Cells cho Java?
 
- Để cài đặt Aspose.Cells cho Java, hãy truy cập trang web Aspose và tải xuống thư viện từ[liên kết này](https://releases.aspose.com/cells/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+Để cài đặt Aspose.Cells cho Java, hãy truy cập trang web Aspose và tải xuống thư viện từ [liên kết này](https://releases.aspose.com/cells/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp trong tài liệu.
 
 ### Tôi có thể tạo các loại biểu đồ khác bằng Aspose.Cells cho Java không?
 
@@ -132,7 +132,8 @@ Chắc chắn rồi! Aspose.Cells for Java cung cấp nhiều tùy chọn tùy c
 
 ### Tôi có thể tìm thêm tài nguyên và ví dụ về Aspose.Cells cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện và nhiều ví dụ về mã trên trang web Aspose tại[đây](https://reference.aspose.com/cells/java/).
+Bạn có thể tìm thấy tài liệu toàn diện và rất nhiều ví dụ về mã trên trang web Aspose tại [đây](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

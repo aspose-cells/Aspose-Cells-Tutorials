@@ -1,10 +1,10 @@
 ---
-title: ฟังก์ชัน CONCATENATE ของ Excel
-linktitle: ฟังก์ชัน CONCATENATE ของ Excel
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีต่อข้อความใน Excel โดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนนี้ประกอบด้วยตัวอย่างโค้ดต้นฉบับสำหรับการจัดการข้อความอย่างราบรื่น
-weight: 13
-url: /th/java/basic-excel-functions/excel-concatenate-function/
+"description": "เรียนรู้วิธีต่อข้อความใน Excel โดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนนี้ประกอบด้วยตัวอย่างโค้ดต้นฉบับสำหรับการจัดการข้อความอย่างราบรื่น"
+"linktitle": "ฟังก์ชัน CONCATENATE ของ Excel"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "ฟังก์ชัน CONCATENATE ของ Excel"
+"url": "/th/java/basic-excel-functions/excel-concatenate-function/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ url: /th/java/basic-excel-functions/excel-concatenate-function/
 
 1. สภาพแวดล้อมการพัฒนา Java: คุณควรติดตั้ง Java ไว้ในระบบของคุณพร้อมกับ Integrated Development Environment (IDE) ที่เหมาะสม เช่น Eclipse หรือ IntelliJ IDEA
 
-2. Aspose.Cells สำหรับ Java: คุณต้องติดตั้งไลบรารี Aspose.Cells สำหรับ Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/java/).
+2. Aspose.Cells สำหรับ Java: คุณต้องติดตั้งไลบรารี Aspose.Cells สำหรับ Java คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ## ขั้นตอนที่ 1: สร้างโครงการ Java ใหม่
 
@@ -91,7 +91,7 @@ workbook.save("concatenated_text.xlsx");
 
 ## บทสรุป
 
- ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีการต่อข้อความใน Excel โดยใช้ Aspose.Cells สำหรับ Java เราได้ครอบคลุมขั้นตอนพื้นฐานตั้งแต่การเริ่มต้นเวิร์กบุ๊กไปจนถึงการบันทึกไฟล์ Excel นอกจากนี้ เรายังได้สำรวจวิธีทางเลือกสำหรับการต่อข้อความโดยใช้`Cell.putValue` วิธีการ ตอนนี้คุณสามารถใช้ Aspose.Cells สำหรับ Java เพื่อเชื่อมต่อข้อความในแอปพลิเคชัน Java ของคุณได้อย่างง่ายดาย
+ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีการต่อข้อความใน Excel โดยใช้ Aspose.Cells สำหรับ Java เราได้ครอบคลุมขั้นตอนพื้นฐานตั้งแต่การเริ่มต้นเวิร์กบุ๊กไปจนถึงการบันทึกไฟล์ Excel นอกจากนี้ เรายังได้สำรวจวิธีทางเลือกสำหรับการต่อข้อความโดยใช้ `Cell.putValue` วิธีการ ตอนนี้คุณสามารถใช้ Aspose.Cells สำหรับ Java เพื่อเชื่อมต่อข้อความในแอปพลิเคชัน Java ของคุณได้อย่างง่ายดาย
 
 ## คำถามที่พบบ่อย
 
@@ -103,9 +103,9 @@ workbook.save("concatenated_text.xlsx");
 
 2. ป้อนข้อมูลข้อความลงในเซลล์ที่ต้องการ
 
-3.  ใช้`setFormula` วิธีการสร้างสูตร CONCATENATE เพื่อเชื่อมข้อความจากเซลล์เข้าด้วยกัน
+3. ใช้ `setFormula` วิธีการสร้างสูตร CONCATENATE เพื่อเชื่อมข้อความจากเซลล์เข้าด้วยกัน
 
-4.  คำนวณสูตรใหม่ในเวิร์กชีตโดยใช้`workbook.calculateFormula()`.
+4. คำนวณสูตรใหม่ในเวิร์กชีตโดยใช้ `workbook-calculateFormula()`.
 
 5. บันทึกไฟล์ Excel
 
@@ -117,7 +117,7 @@ workbook.save("concatenated_text.xlsx");
 
 ### มีทางเลือกอื่นสำหรับ CONCATENATE ใน Aspose.Cells สำหรับ Java หรือไม่
 
- ใช่ Aspose.Cells สำหรับ Java ให้ทางเลือกในการต่อข้อความโดยใช้`Cell.putValue` วิธีการนี้ คุณสามารถเชื่อมโยงข้อความจากหลายเซลล์และกำหนดผลลัพธ์ในเซลล์อื่นได้โดยไม่ต้องใช้สูตร
+ใช่ Aspose.Cells สำหรับ Java ให้ทางเลือกในการต่อข้อความโดยใช้ `Cell.putValue` วิธีการนี้ คุณสามารถเชื่อมโยงข้อความจากหลายเซลล์และกำหนดผลลัพธ์ในเซลล์อื่นได้โดยไม่ต้องใช้สูตร
 
 ```java
 // เชื่อมข้อความจากเซลล์ A1, B1 และ C1 ลงใน D1 โดยไม่ต้องใช้สูตร
@@ -126,6 +126,7 @@ worksheet.getCells().get("D1").putValue(concatenatedText);
 ```
 
 วิธีการนี้อาจเป็นประโยชน์หากคุณต้องการเรียงข้อความโดยไม่ต้องพึ่งสูตร Excel
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

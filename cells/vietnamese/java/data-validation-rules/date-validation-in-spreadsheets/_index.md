@@ -1,10 +1,10 @@
 ---
-title: Xác thực ngày trong bảng tính
-linktitle: Xác thực ngày trong bảng tính
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách thực hiện xác thực ngày trong bảng tính Excel bằng Aspose.Cells for Java. Đảm bảo tính chính xác và toàn vẹn của dữ liệu với hướng dẫn từng bước của chúng tôi. Khám phá các kỹ thuật thao tác Excel mạnh mẽ.
-weight: 14
-url: /vi/java/data-validation-rules/date-validation-in-spreadsheets/
+"description": "Tìm hiểu cách thực hiện xác thực ngày trong bảng tính Excel bằng Aspose.Cells for Java. Đảm bảo tính chính xác và toàn vẹn của dữ liệu với hướng dẫn từng bước của chúng tôi. Khám phá các kỹ thuật thao tác Excel mạnh mẽ."
+"linktitle": "Xác thực ngày trong bảng tính"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Xác thực ngày trong bảng tính"
+"url": "/vi/java/data-validation-rules/date-validation-in-spreadsheets/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,14 +22,14 @@ Trong thế giới xử lý dữ liệu, bảng tính là công cụ không th�
 
 Trước khi đi sâu vào xác thực ngày tháng, hãy đảm bảo bạn đã chuẩn bị đầy đủ những điều sau:
 - Thiết lập môi trường phát triển Java.
--  Thư viện Aspose.Cells cho Java được tải xuống từ[đây](https://releases.aspose.com/cells/java/).
+- Thư viện Aspose.Cells cho Java được tải xuống từ [đây](https://releases.aspose.com/cells/java/).
 - Kiến thức cơ bản về cách làm việc với các tệp Excel trong Java.
 
 ## Thiết lập Aspose.Cells cho Java
 
 Để bắt đầu, bạn cần thêm thư viện Aspose.Cells vào dự án Java của mình. Thực hiện theo các bước sau:
 
-1.  Tải xuống thư viện Aspose.Cells cho Java từ thư viện được cung cấp[liên kết](https://releases.aspose.com/cells/java/).
+1. Tải xuống thư viện Aspose.Cells cho Java từ trang web được cung cấp [liên kết](https://releases.aspose.com/cells/java/).
 
 2. Bao gồm tệp JAR đã tải xuống vào classpath của dự án bạn.
 
@@ -112,7 +112,8 @@ Có, Aspose.Cells for Java cung cấp nhiều tính năng để làm việc vớ
 
 ### Tôi có thể tìm thêm tài nguyên và ví dụ về Aspose.Cells cho Java ở đâu?
 
- Bạn có thể tham khảo[Tài liệu tham khảo API Aspose.Cells cho Java](https://reference.aspose.com/cells/java/) để có tài liệu và ví dụ đầy đủ.
+Bạn có thể tham khảo [Tài liệu tham khảo API Aspose.Cells cho Java](https://reference.aspose.com/cells/java/) để có tài liệu và ví dụ đầy đủ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

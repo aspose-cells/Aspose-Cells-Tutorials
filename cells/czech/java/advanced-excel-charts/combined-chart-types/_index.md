@@ -1,10 +1,10 @@
 ---
-title: Kombinované typy grafů
-linktitle: Kombinované typy grafů
-second_title: Aspose.Cells Java Excel Processing API
-description: Naučte se vytvářet kombinované typy grafů pomocí Aspose.Cells for Java. Tento podrobný průvodce poskytuje zdrojový kód a tipy pro efektivní vizualizaci dat.
-weight: 12
-url: /cs/java/advanced-excel-charts/combined-chart-types/
+"description": "Naučte se, jak vytvářet kombinované typy grafů pomocí Aspose.Cells pro Javu. Tato podrobná příručka poskytuje zdrojový kód a tipy pro efektivní vizualizaci dat."
+"linktitle": "Kombinované typy grafů"
+"second_title": "Rozhraní API pro zpracování Excelu v Javě od Aspose.Cells"
+"title": "Kombinované typy grafů"
+"url": "/cs/java/advanced-excel-charts/combined-chart-types/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,33 +16,33 @@ url: /cs/java/advanced-excel-charts/combined-chart-types/
 
 ## Úvod do kombinovaných typů grafů pomocí Aspose.Cells pro Javu
 
-Ve světě vizualizace dat hrají grafy klíčovou roli, protože nám pomáhají porozumět komplexním datovým sadám. Aspose.Cells for Java je výkonné Java API, které umožňuje vytvářet, manipulovat a přizpůsobovat různé typy grafů, včetně kombinovaných typů grafů. V tomto článku prozkoumáme, jak vytvořit kombinované typy grafů pomocí Aspose.Cells pro Java.
+Ve světě vizualizace dat hrají grafy klíčovou roli v porozumění složitým datovým sadám. Aspose.Cells for Java je výkonné Java API, které umožňuje vytvářet, manipulovat a upravovat různé typy grafů, včetně kombinovaných typů grafů. V tomto článku se podíváme na to, jak vytvářet kombinované typy grafů pomocí Aspose.Cells for Java.
 
-## Porozumění Aspose.Cells pro Java
+## Principy Aspose.Cells pro Javu
 
-Než se ponoříme do vytváření kombinovaných grafů, pojďme si krátce vysvětlit, co je Aspose.Cells for Java. Je to knihovna založená na Javě, která poskytuje komplexní funkce pro práci s tabulkami aplikace Excel. To zahrnuje možnost vytvářet, upravovat a vylepšovat grafy v souborech aplikace Excel programově.
+Než se pustíme do vytváření kombinovaných grafů, pojďme si stručně vysvětlit, co je Aspose.Cells pro Javu. Je to knihovna založená na Javě, která poskytuje komplexní funkce pro práci s tabulkami aplikace Excel. Patří sem možnost programově vytvářet, upravovat a vylepšovat grafy v souborech aplikace Excel.
 
 ## Začínáme
 
- Chcete-li začít s vytvářením kombinovaných grafů, musíte mít ve svém projektu Java nainstalovaný a nastavený Aspose.Cells for Java. Knihovnu si můžete stáhnout z webu Aspose pomocí následujícího odkazu:[Stáhněte si Aspose.Cells pro Java](https://releases.aspose.com/cells/java/).
+Abyste mohli začít vytvářet kombinované grafy, musíte mít ve svém projektu Java nainstalovaný a nastavený Aspose.Cells for Java. Knihovnu si můžete stáhnout z webových stránek Aspose pomocí následujícího odkazu: [Stáhněte si Aspose.Cells pro Javu](https://releases.aspose.com/cells/java/).
 
-Jakmile budete mít knihovnu připravenou, můžete pokračovat podle následujících kroků a vytvořit kombinované grafy.
+Jakmile budete mít knihovnu připravenou, můžete pokračovat v následujících krocích k vytvoření kombinovaných grafů.
 
 ## Vytvoření kombinovaného grafu
 
-### Krok 1: Importujte potřebné třídy a balíčky z Aspose.Cells for Java do vašeho projektu Java.
+### Krok 1: Importujte potřebné třídy a balíčky z Aspose.Cells pro Javu do vašeho projektu v Javě.
 
 ```java
 import com.aspose.cells.*;
 ```
 
-### Krok 2: Inicializujte objekt sešitu.
+### Krok 2: Inicializace objektu Workbook.
 
 ```java
 Workbook workbook = new Workbook();
 ```
 
-### Krok 3: Přidejte list do sešitu.
+### Krok 3: Přidejte do sešitu pracovní list.
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -55,9 +55,9 @@ int chartIndex = worksheet.getCharts().add(ChartType.LINE, 0, 0, 20, 10);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
-## Přidání dat do grafu
+## Přidávání dat do grafu
 
-Nyní, když jsme vytvořili kombinovaný graf, přidejte do něj některá data.
+Nyní, když jsme vytvořili kombinovaný graf, pojďme do něj přidat nějaká data.
 
 ### Krok 5: Vytvořte datovou řadu pro graf.
 
@@ -75,7 +75,7 @@ chart.getNSeries().setCategoryData("C1:C5");
 
 ## Přizpůsobení grafu
 
-Vzhled a chování kombinovaného grafu můžete přizpůsobit svým konkrétním požadavkům.
+Vzhled a chování kombinovaného grafu si můžete přizpůsobit tak, aby splňoval vaše specifické požadavky.
 
 ### Krok 7: Upravte název grafu a popisky os.
 
@@ -94,7 +94,7 @@ chart.getLegend().setOverlay(true);
 
 ## Uložení a export grafu
 
-Po vytvoření a přizpůsobení kombinovaného grafu jej můžete uložit do souboru aplikace Excel nebo exportovat do různých formátů.
+Jakmile vytvoříte a upravíte kombinovaný graf, můžete jej uložit do souboru aplikace Excel nebo exportovat do různých formátů.
 
 ### Krok 9: Uložte sešit do souboru aplikace Excel.
 
@@ -102,7 +102,7 @@ Po vytvoření a přizpůsobení kombinovaného grafu jej můžete uložit do so
 workbook.save("CombinedChart.xlsx");
 ```
 
-### Krok 10: Exportujte graf do souboru obrázku.
+### Krok 10: Exportujte graf do obrazového souboru.
 
 ```java
 chart.toImage("CombinedChart.png", ImageFormat.getPng());
@@ -110,29 +110,30 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 
 ## Závěr
 
-V tomto článku jsme prozkoumali, jak vytvořit kombinované typy grafů pomocí Aspose.Cells for Java. Začali jsme tím, že jsme pochopili, co je Aspose.Cells for Java, a poté jsme pokračovali podrobnými pokyny pro vytvoření kombinovaného grafu, přidání dat do něj, přizpůsobení jeho vzhledu a jeho uložení/exportování. S Aspose.Cells for Java můžete uvolnit sílu vizualizace dat ve vašich aplikacích Java.
+V tomto článku jsme prozkoumali, jak vytvářet kombinované typy grafů pomocí Aspose.Cells pro Javu. Začali jsme pochopením toho, co Aspose.Cells pro Javu je, a poté jsme pokračovali podrobnými pokyny pro vytvoření kombinovaného grafu, přidání dat do něj, přizpůsobení jeho vzhledu a jeho uložení/export. S Aspose.Cells pro Javu můžete uvolnit sílu vizualizace dat ve vašich Java aplikacích.
 
-## FAQ
+## Často kladené otázky
 
-### Jak nainstaluji Aspose.Cells for Java?
+### Jak nainstaluji Aspose.Cells pro Javu?
 
- Chcete-li nainstalovat Aspose.Cells for Java, navštivte web Aspose a stáhněte si knihovnu z[tento odkaz](https://releases.aspose.com/cells/java/). Postupujte podle pokynů k instalaci uvedených v dokumentaci.
+Chcete-li nainstalovat Aspose.Cells pro Javu, navštivte webové stránky Aspose a stáhněte si knihovnu z [tento odkaz](https://releases.aspose.com/cells/java/)Řiďte se pokyny k instalaci uvedenými v dokumentaci.
 
-### Mohu pomocí Aspose.Cells for Java vytvářet jiné typy grafů?
+### Mohu s Aspose.Cells pro Javu vytvářet i jiné typy grafů?
 
-Ano, Aspose.Cells for Java podporuje širokou škálu typů grafů, včetně sloupcových grafů, koláčových grafů, bodových grafů a dalších. Příklady a použití najdete v dokumentaci.
+Ano, Aspose.Cells pro Javu podporuje širokou škálu typů grafů, včetně sloupcových grafů, koláčových grafů, bodových grafů a dalších. Příklady a návod k použití naleznete v dokumentaci.
 
-### Je Aspose.Cells for Java vhodný pro začátečníky i zkušené Java vývojáře?
+### Je Aspose.Cells pro Javu vhodný jak pro začátečníky, tak pro zkušené vývojáře v Javě?
 
-Aspose.Cells for Java je navržen tak, aby byl uživatelsky přívětivý, takže je vhodný pro začátečníky i zkušené vývojáře. Poskytuje rozhraní API na vysoké úrovni pro snadné použití a zároveň nabízí pokročilé funkce pro ty, kteří mají více zkušeností.
+Aspose.Cells pro Javu je navržen tak, aby byl uživatelsky přívětivý, a je vhodný jak pro začátečníky, tak pro zkušené vývojáře. Poskytuje vysoce kvalitní API pro snadné použití a zároveň nabízí pokročilé funkce pro ty s většími zkušenostmi.
 
 ### Mohu si vzhled svého kombinovaného grafu dále přizpůsobit?
 
-Absolutně! Aspose.Cells for Java nabízí rozsáhlé možnosti přizpůsobení. Můžete změnit barvy, písma, styly a další a přizpůsobit si vzhled grafu podle svých představ.
+Rozhodně! Aspose.Cells pro Javu nabízí rozsáhlé možnosti přizpůsobení. Můžete změnit barvy, písma, styly a další prvky a přizpůsobit si vzhled grafu podle svých představ.
 
-### Kde najdu další zdroje a příklady pro Aspose.Cells pro Java?
+### Kde najdu další zdroje a příklady pro Aspose.Cells pro Javu?
 
- Komplexní dokumentaci a množství příkladů kódu můžete najít na webu Aspose na adrese[zde](https://reference.aspose.com/cells/java/).
+Komplexní dokumentaci a množství příkladů kódu naleznete na webových stránkách Aspose na adrese [zde](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

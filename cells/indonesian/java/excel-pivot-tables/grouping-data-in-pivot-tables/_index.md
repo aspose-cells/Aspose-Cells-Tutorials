@@ -1,10 +1,10 @@
 ---
-title: Pengelompokan Data dalam Tabel Pivot
-linktitle: Pengelompokan Data dalam Tabel Pivot
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara membuat tabel pivot di Excel menggunakan Aspose.Cells untuk Java. Otomatiskan pengelompokan dan analisis data dengan contoh kode sumber.
-weight: 14
-url: /id/java/excel-pivot-tables/grouping-data-in-pivot-tables/
+"description": "Pelajari cara membuat tabel pivot di Excel menggunakan Aspose.Cells untuk Java. Otomatiskan pengelompokan dan analisis data dengan contoh kode sumber."
+"linktitle": "Pengelompokan Data dalam Tabel Pivot"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Pengelompokan Data dalam Tabel Pivot"
+"url": "/id/java/excel-pivot-tables/grouping-data-in-pivot-tables/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -58,13 +58,13 @@ workbook.save("output.xlsx");
 
 ## Langkah 2: Kelompokkan Data
 
- Di Aspose.Cells untuk Java, Anda dapat mengelompokkan data dalam tabel pivot menggunakan`PivotField` kelas. Berikut ini contoh cara mengelompokkan bidang dalam tabel pivot:
+Di Aspose.Cells untuk Java, Anda dapat mengelompokkan data dalam tabel pivot menggunakan `PivotField` kelas. Berikut ini contoh cara mengelompokkan bidang dalam tabel pivot:
 
 ```java
 // Akses bidang "Produk" di tabel pivot
 PivotField productField = pivotTable.getPivotFields().get("Product");
 
-//Kelompokkan bidang "Produk" berdasarkan kriteria tertentu, misalnya, dengan huruf awal
+// Kelompokkan bidang "Produk" berdasarkan kriteria tertentu, misalnya, dengan huruf awal
 productField.setIsAutoSubtotals(false);
 productField.setBaseField("Product");
 productField.setAutoSort(true);
@@ -93,7 +93,7 @@ workbook.save("output_custom_grouping.xlsx");
 
 ## Kesimpulan
 
-Pengelompokan data dalam tabel pivot merupakan teknik yang berharga untuk menganalisis dan meringkas data di Excel, dan Aspose.Cells untuk Java memudahkan untuk mengotomatiskan proses ini. Dengan contoh kode sumber yang disediakan, Anda dapat membuat tabel pivot, menyesuaikan pengelompokan, dan memperoleh wawasan dari data Anda secara efisien.
+Pengelompokan data dalam tabel pivot merupakan teknik yang berguna untuk menganalisis dan meringkas data di Excel, dan Aspose.Cells for Java memudahkan Anda untuk mengotomatiskan proses ini. Dengan contoh kode sumber yang disediakan, Anda dapat membuat tabel pivot, menyesuaikan pengelompokan, dan memperoleh wawasan dari data Anda secara efisien.
 
 ## Tanya Jawab Umum
 
@@ -103,12 +103,12 @@ Tabel pivot di Excel digunakan untuk meringkas dan menganalisis kumpulan data be
 
 ### 2. Bagaimana cara menyesuaikan pengelompokan data dalam tabel pivot?
 
- Anda dapat menyesuaikan pengelompokan data dalam tabel pivot menggunakan`PivotField` kelas di Aspose.Cells untuk Java. Ini memungkinkan Anda menentukan kriteria pengelompokan, seperti interval berbasis tanggal atau aturan khusus.
+Anda dapat menyesuaikan pengelompokan data dalam tabel pivot menggunakan `PivotField` kelas di Aspose.Cells untuk Java. Ini memungkinkan Anda menentukan kriteria pengelompokan, seperti interval berbasis tanggal atau aturan khusus.
 
 ### 3. Dapatkah saya mengotomatiskan pembuatan tabel pivot menggunakan Aspose.Cells untuk Java?
 
 Ya, Anda dapat mengotomatiskan pembuatan tabel pivot di Excel menggunakan Aspose.Cells untuk Java, seperti yang ditunjukkan dalam contoh kode sumber yang disediakan.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blok/produk/pf/bagian-halaman-tutorial >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

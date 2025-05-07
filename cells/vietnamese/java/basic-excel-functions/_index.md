@@ -1,10 +1,10 @@
 ---
-title: Các hàm cơ bản của Excel
-linktitle: Các hàm cơ bản của Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Khám phá các hàm Excel thiết yếu bằng Aspose.Cells for Java. Hướng dẫn của chúng tôi bao gồm các bước cơ bản từng bước. Bắt đầu với thao tác bảng tính
-weight: 10
-url: /vi/java/basic-excel-functions/
+"description": "Khám phá các hàm Excel thiết yếu bằng Aspose.Cells for Java. Hướng dẫn của chúng tôi bao gồm các bước cơ bản từng bước. Bắt đầu với thao tác bảng tính"
+"linktitle": "Các hàm cơ bản của Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Các hàm cơ bản của Excel"
+"url": "/vi/java/basic-excel-functions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

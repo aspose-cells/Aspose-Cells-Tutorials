@@ -1,10 +1,10 @@
 ---
-title: Расширенные диаграммы Excel
-linktitle: Расширенные диаграммы Excel
-second_title: API обработки Java Excel Aspose.Cells
-description: Изучите расширенные руководства по диаграммам Excel с Aspose.Cells для Java. Повышайте свои навыки визуализации данных шаг за шагом. Освойте диаграммы сегодня!
-weight: 15
-url: /ru/java/advanced-excel-charts/
+"description": "Изучите расширенные руководства по диаграммам Excel с Aspose.Cells для Java. Повышайте свои навыки визуализации данных шаг за шагом. Освойте диаграммы сегодня!"
+"linktitle": "Расширенные диаграммы Excel"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Расширенные диаграммы Excel"
+"url": "/ru/java/advanced-excel-charts/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -47,7 +47,7 @@ url: /ru/java/advanced-excel-charts/
 Узнайте, как создавать потрясающие каскадные диаграммы с помощью Aspose.Cells для Java. Пошаговое руководство с исходным кодом для эффективной визуализации данных.
 ### [Интерактивность диаграммы](./chart-interactivity/)
 Узнайте, как создавать интерактивные диаграммы с помощью Aspose.Cells для Java. Улучшите визуализацию данных с помощью интерактивности.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

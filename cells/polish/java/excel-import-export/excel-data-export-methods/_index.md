@@ -1,10 +1,10 @@
 ---
-title: Metody eksportu danych programu Excel
-linktitle: Metody eksportu danych programu Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Odblokuj potencjał metod eksportu danych Excela za pomocą Aspose.Cells for Java. Ucz się z praktycznymi przykładami kodu źródłowego w tym kompleksowym przewodniku. Zoptymalizuj swoje umiejętności zarządzania danymi już dziś.
-weight: 11
-url: /pl/java/excel-import-export/excel-data-export-methods/
+"description": "Odblokuj potencjał metod eksportu danych Excela za pomocą Aspose.Cells for Java. Ucz się z praktycznymi przykładami kodu źródłowego w tym kompleksowym przewodniku. Zoptymalizuj swoje umiejętności zarządzania danymi już dziś."
+"linktitle": "Metody eksportu danych programu Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Metody eksportu danych programu Excel"
+"url": "/pl/java/excel-import-export/excel-data-export-methods/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -90,7 +90,7 @@ public class ExcelToPDF {
         // Załaduj plik Excel
         Workbook workbook = new Workbook("input.xlsx");
 
-        // Utwórz opcje zapisywania pliku PDF
+        // Utwórz opcje zapisywania PDF
         PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
         // Zapisz skoroszyt jako PDF
@@ -186,6 +186,7 @@ O: Tak, Aspose oferuje forum społecznościowe, na którym użytkownicy mogą sz
 W tym kompleksowym przewodniku zbadaliśmy metody eksportu danych z programu Excel przy użyciu Aspose.Cells dla języka Java i podaliśmy przykłady kodu źródłowego dla każdej metody. Niezależnie od tego, czy jesteś programistą, czy profesjonalistą biznesowym, opanowanie tych metod pozwoli Ci obsługiwać dane z programu Excel z finezją.
 
 Teraz, wyposażony w praktyczną wiedzę i przykłady kodu źródłowego, jesteś gotowy, aby osiągnąć sukces w eksporcie danych z Aspose.Cells dla Java. Zacznij eksplorować, eksperymentować i ulepszać swoje możliwości eksportu danych już dziś.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,43 +1,43 @@
 ---
-title: Analýza trendové linie
-linktitle: Analýza trendové linie
-second_title: Aspose.Cells Java Excel Processing API
-description: Zvládněte analýzu trendů v Javě s Aspose.Cells. Naučte se vytvářet statistiky založené na datech pomocí podrobných pokynů a příkladů kódu.
-weight: 15
-url: /cs/java/advanced-excel-charts/trendline-analysis/
+"description": "Zvládněte analýzu trendových linií v Javě s Aspose.Cells. Naučte se vytvářet datově řízené poznatky s podrobnými pokyny a příklady kódu."
+"linktitle": "Analýza trendových linií"
+"second_title": "Rozhraní API pro zpracování Excelu v Javě od Aspose.Cells"
+"title": "Analýza trendových linií"
+"url": "/cs/java/advanced-excel-charts/trendline-analysis/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Analýza trendové linie
+# Analýza trendových linií
 
 
 ## Úvod Analýza trendových linií
 
-V tomto tutoriálu prozkoumáme, jak provádět analýzu trendových linií pomocí Aspose.Cells pro Java. Analýza trendových linií pomáhá porozumět vzorcům a přijímat rozhodnutí na základě dat. Poskytneme vám podrobné pokyny spolu s příklady zdrojového kódu.
+V tomto tutoriálu se podíváme na to, jak provádět analýzu trendových čar pomocí Aspose.Cells pro Javu. Analýza trendových čar pomáhá pochopit vzorce a činit rozhodnutí na základě dat. Poskytneme podrobné pokyny spolu s příklady zdrojového kódu.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující předpoklady:
 
 - Java nainstalovaná ve vašem systému.
--  Aspose.Cells pro knihovnu Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
+- Knihovna Aspose.Cells pro Javu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Nastavení projektu
 
-1. Vytvořte nový Java projekt ve svém oblíbeném IDE.
+1. Vytvořte nový projekt Java ve vašem oblíbeném IDE.
 
-2. Přidejte do projektu knihovnu Aspose.Cells for Java zahrnutím souborů JAR.
+2. Přidejte do projektu knihovnu Aspose.Cells pro Javu zahrnutím souborů JAR.
 
-## Krok 2: Načtěte data
+## Krok 2: Načtení dat
 
 ```java
-// Importujte potřebné knihovny
+// Importovat potřebné knihovny
 import com.aspose.cells.*;
 
-// Načtěte soubor Excel
+// Načtěte soubor Excelu
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 
 // Přístup k pracovnímu listu
@@ -55,50 +55,51 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 chart.getNSeries().add("A1:A10", true);
 ```
 
-## Krok 4: Přidejte spojnici trendu
+## Krok 4: Přidání trendové spojnice
 
 ```java
-// Přidejte do grafu spojnici trendu
+// Přidání trendové spojnice do grafu
 Trendline trendline = chart.getNSeries().get(0).getTrendlines().add(TrendlineType.LINEAR);
 
-// Přizpůsobte možnosti spojnice trendu
+// Možnosti přizpůsobení trendové čáry
 trendline.setDisplayEquation(true);
 trendline.setDisplayRSquaredValue(true);
 ```
 
-## Krok 5: Přizpůsobte graf
+## Krok 5: Přizpůsobení grafu
 
 ```java
-// Přizpůsobte nadpis a osy grafu
+// Přizpůsobení názvu grafu a os
 chart.getTitle().setText("Trendline Analysis");
 chart.getCategoryAxis().getTitle().setText("X-Axis");
 chart.getValueAxis().getTitle().setText("Y-Axis");
 
-//Uložte soubor Excel s grafem
+// Uložte soubor Excel s grafem
 workbook.save("output.xlsx");
 ```
 
-## Krok 6: Analyzujte výsledky
+## Krok 6: Analýza výsledků
 
-Nyní máte graf s přidanou spojnicí trendu. Pomocí vygenerovaného souboru Excel můžete dále analyzovat spojnici trendu, koeficienty a druhou mocninu R.
+Nyní máte graf s přidanou trendovou spojnicí. Trendovou spojnici, koeficienty a hodnotu R-kvadrát můžete dále analyzovat pomocí vygenerovaného souboru aplikace Excel.
 
 ##Závěr
 
-V tomto tutoriálu jsme se naučili, jak provádět analýzu trendových linií pomocí Aspose.Cells for Java. Vytvořili jsme vzorový excelový sešit, přidali data, vytvořili graf a přidali trendovou linii pro vizualizaci a analýzu dat. Nyní můžete tyto techniky použít k provádění analýzy trendových linií na vašich vlastních souborech dat.
+tomto tutoriálu jsme se naučili, jak provádět analýzu trendových spojnic pomocí Aspose.Cells pro Javu. Vytvořili jsme ukázkový sešit aplikace Excel, přidali data, vytvořili graf a přidali trendovou spojnici pro vizualizaci a analýzu dat. Nyní můžete tyto techniky použít k provedení analýzy trendových spojnic na vlastních datových sadách.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu změnit typ spojnice trendu?
+### Jak mohu změnit typ trendové čáry?
 
- Chcete-li změnit typ spojnice trendu, upravte`TrendlineType` výčet při přidávání spojnice trendu. Například použijte`TrendlineType.POLYNOMIAL` pro polynomiální trendovou linii.
+Chcete-li změnit typ trendové čáry, upravte `TrendlineType` výčet při přidávání trendové spojnice. Například použijte `TrendlineType.POLYNOMIAL` pro polynomiální trendovou linii.
 
-### Mohu přizpůsobit vzhled trendové čáry?
+### Mohu si přizpůsobit vzhled trendové čáry?
 
- Ano, vzhled spojnice trendu si můžete přizpůsobit pomocí vlastností, jako je`setLineFormat()` a`setWeight()` objektu trendové linie.
+Ano, vzhled trendové čáry si můžete přizpůsobit přístupem k vlastnostem, jako je `setLineFormat()` a `setWeight()` objektu trendové čáry.
 
 ### Jak exportuji graf do obrázku nebo PDF?
 
-Pomocí Aspose.Cells můžete graf exportovat do různých formátů. Podrobné pokyny naleznete v dokumentaci.
+Graf můžete exportovat do různých formátů pomocí Aspose.Cells. Podrobné pokyny naleznete v dokumentaci.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

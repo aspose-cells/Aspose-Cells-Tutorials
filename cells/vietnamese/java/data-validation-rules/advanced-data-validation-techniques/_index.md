@@ -1,10 +1,10 @@
 ---
-title: Kỹ thuật xác thực dữ liệu nâng cao
-linktitle: Kỹ thuật xác thực dữ liệu nâng cao
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Mở khóa các kỹ thuật xác thực dữ liệu nâng cao trong Excel với Aspose.Cells for Java. Tìm hiểu cách tạo các quy tắc tùy chỉnh, danh sách thả xuống và nhiều hơn nữa để kiểm soát dữ liệu chính xác.
-weight: 19
-url: /vi/java/data-validation-rules/advanced-data-validation-techniques/
+"description": "Mở khóa các kỹ thuật xác thực dữ liệu nâng cao trong Excel với Aspose.Cells for Java. Tìm hiểu cách tạo các quy tắc tùy chỉnh, danh sách thả xuống và nhiều hơn nữa để kiểm soát dữ liệu chính xác."
+"linktitle": "Kỹ thuật xác thực dữ liệu nâng cao"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Kỹ thuật xác thực dữ liệu nâng cao"
+"url": "/vi/java/data-validation-rules/advanced-data-validation-techniques/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,7 +20,7 @@ Xác thực dữ liệu là quá trình xác định các quy tắc và ràng bu
 
 ## Thiết lập Aspose.Cells cho Java
 
- Trước khi đi sâu vào các kỹ thuật nâng cao, chúng ta hãy bắt đầu với Aspose.Cells cho Java. Bạn có thể tải xuống thư viện từ[Liên kết tải xuống Aspose.Cells cho Java](https://releases.aspose.com/cells/java/) . Hãy đảm bảo làm theo hướng dẫn cài đặt được cung cấp trong tài liệu tại[Tài liệu tham khảo API Aspose.Cells cho Java](https://reference.aspose.com/cells/java/).
+Trước khi đi sâu vào các kỹ thuật nâng cao, chúng ta hãy bắt đầu với Aspose.Cells cho Java. Bạn có thể tải xuống thư viện từ [Liên kết tải xuống Aspose.Cells cho Java](https://releases.aspose.com/cells/java/). Hãy đảm bảo làm theo hướng dẫn cài đặt được cung cấp trong tài liệu tại [Tài liệu tham khảo API Aspose.Cells cho Java](https://reference.aspose.com/cells/java/).
 
 ## Xác thực dữ liệu cơ bản
 
@@ -92,7 +92,7 @@ Xác thực dữ liệu là một khía cạnh quan trọng để duy trì chấ
 
 ### Làm thế nào để tải xuống Aspose.Cells cho Java?
 
- Bạn có thể tải xuống Aspose.Cells cho Java từ[liên kết tải xuống](https://releases.aspose.com/cells/java/).
+Bạn có thể tải xuống Aspose.Cells cho Java từ [liên kết tải xuống](https://releases.aspose.com/cells/java/).
 
 ### Tôi có thể tạo các quy tắc xác thực tùy chỉnh bằng Aspose.Cells cho Java không?
 
@@ -108,7 +108,8 @@ Có, bạn có thể xác định danh sách thả xuống với các tùy chọ
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells cho Java ở đâu?
 
-Bạn có thể tìm thấy tài liệu chi tiết và tài liệu tham khảo tại[Tài liệu tham khảo API Aspose.Cells cho Java](https://reference.aspose.com/cells/java/).
+Bạn có thể tìm thấy tài liệu chi tiết và tài liệu tham khảo tại [Tài liệu tham khảo API Aspose.Cells cho Java](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

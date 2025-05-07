@@ -1,10 +1,10 @@
 ---
-title: Anotasi Bagan
-linktitle: Anotasi Bagan
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Sempurnakan Bagan Anda dengan Anotasi Bagan menggunakan Aspose.Cells untuk Java - Panduan Langkah demi Langkah. Pelajari Cara Menambahkan Anotasi untuk Visualisasi Data Informatif.
-weight: 16
-url: /id/java/advanced-excel-charts/chart-annotations/
+"description": "Sempurnakan Bagan Anda dengan Anotasi Bagan menggunakan Aspose.Cells untuk Java - Panduan Langkah demi Langkah. Pelajari Cara Menambahkan Anotasi untuk Visualisasi Data Informatif."
+"linktitle": "Anotasi Bagan"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Anotasi Bagan"
+"url": "/id/java/advanced-excel-charts/chart-annotations/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -28,7 +28,7 @@ Sebelum kita mulai menerapkannya, pastikan Anda memiliki prasyarat berikut:
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-Untuk memulai, Anda perlu menyiapkan Aspose.Cells untuk Java di proyek Anda. Anda dapat mengunduh pustaka dari situs web Aspose[Di Sini](https://releases.aspose.com/cells/java/)Setelah diunduh, tambahkan pustaka tersebut ke proyek Java Anda.
+Untuk memulai, Anda perlu menyiapkan Aspose.Cells untuk Java di proyek Anda. Anda dapat mengunduh pustaka dari situs web Aspose [Di Sini](https://releases.aspose.com/cells/java/)Setelah diunduh, tambahkan pustaka tersebut ke proyek Java Anda.
 
 ## Membuat Buku Kerja Excel
 
@@ -74,7 +74,7 @@ chart.getNSeries().setCategoryData("A2:A13");
 
 ## Menambahkan Anotasi ke Bagan
 
- Untuk menambahkan anotasi ke grafik, kita dapat menggunakan`TextFrame` kelas di Aspose.Cells.
+Untuk menambahkan anotasi ke grafik, kita dapat menggunakan `TextFrame` kelas di Aspose.Cells.
 
 ```java
 // Menambahkan anotasi ke bagan
@@ -106,7 +106,7 @@ Dalam tutorial ini, kita telah mempelajari cara menambahkan anotasi bagan menggu
 
 ### Bagaimana cara mengunduh Aspose.Cells untuk Java?
 
- Anda dapat mengunduh Aspose.Cells untuk Java dari situs web Aspose[Di Sini](https://releases.aspose.com/cells/java/).
+Anda dapat mengunduh Aspose.Cells untuk Java dari situs web Aspose [Di Sini](https://releases.aspose.com/cells/java/).
 
 ### Bisakah saya menyesuaikan tampilan anotasi?
 
@@ -122,7 +122,8 @@ Tentu saja! Aspose.Cells untuk Java menyediakan serangkaian alat dan fitur yang 
 
 ### Di mana saya dapat menemukan lebih banyak tutorial tentang Aspose.Cells untuk Java?
 
- Anda dapat menemukan lebih banyak tutorial dan dokumentasi tentang Aspose.Cells untuk Java di[Di Sini](https://reference.aspose.com/cells/java/).
+Anda dapat menemukan lebih banyak tutorial dan dokumentasi tentang Aspose.Cells untuk Java di [Di Sini](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

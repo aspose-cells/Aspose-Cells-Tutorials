@@ -1,10 +1,10 @@
 ---
-title: Анализ данных Excel
-linktitle: Анализ данных Excel
-second_title: API обработки Java Excel Aspose.Cells
-description: Откройте для себя мощный анализ данных Excel с помощью Aspose.Cells для Java. Изучите пошаговые руководства для разработчиков Java. Освойте аналитику данных уже сегодня.
-weight: 12
-url: /ru/java/excel-data-analysis/
+"description": "Откройте для себя мощный анализ данных Excel с помощью Aspose.Cells для Java. Изучите пошаговые руководства для разработчиков Java. Освойте аналитику данных уже сегодня."
+"linktitle": "Анализ данных Excel"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Анализ данных Excel"
+"url": "/ru/java/excel-data-analysis/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -36,7 +36,8 @@ url: /ru/java/excel-data-analysis/
 ### [Анализ данных Диаграммы Excel](./data-analysis-excel-charts/)
 Раскройте совершенство анализа данных с Aspose.Cells для Java. Создавайте потрясающие диаграммы и отчеты Excel.
 ### [Формулы анализа данных Excel](./data-analysis-excel-formulas/)
-Откройте для себя мощь анализа данных в Excel с Aspose.Cells для Java. Изучите основные формулы и методы.
+Откройте для себя мощь анализа данных в Excel с помощью Aspose.Cells для Java. Изучите основные формулы и методы.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

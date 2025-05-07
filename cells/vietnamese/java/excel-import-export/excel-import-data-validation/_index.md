@@ -1,10 +1,10 @@
 ---
-title: Xác thực dữ liệu nhập Excel
-linktitle: Xác thực dữ liệu nhập Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách triển khai xác thực dữ liệu nhập Excel bằng Aspose.Cells cho Java với hướng dẫn từng bước toàn diện này. Đảm bảo độ chính xác của dữ liệu và nâng cao trải nghiệm người dùng.
-weight: 18
-url: /vi/java/excel-import-export/excel-import-data-validation/
+"description": "Tìm hiểu cách triển khai xác thực dữ liệu nhập Excel bằng Aspose.Cells cho Java với hướng dẫn từng bước toàn diện này. Đảm bảo độ chính xác của dữ liệu và nâng cao trải nghiệm người dùng."
+"linktitle": "Xác thực dữ liệu nhập Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Xác thực dữ liệu nhập Excel"
+"url": "/vi/java/excel-import-export/excel-import-data-validation/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -25,7 +25,7 @@ Trước khi đi sâu vào triển khai, chúng ta hãy nắm bắt những đi�
 
 1. Cài đặt Java Development Kit (JDK): Đảm bảo bạn đã cài đặt JDK trên hệ thống của mình. Bạn có thể tải xuống từ trang web Oracle.
 
-2.  Tải xuống Aspose.Cells: Truy cập[Trang tải xuống Aspose.Cells cho Java](https://releases.aspose.com/cells/java/) để tải thư viện. Thực hiện theo hướng dẫn cài đặt được cung cấp.
+2. Tải xuống Aspose.Cells: Truy cập [Trang tải xuống Aspose.Cells cho Java](https://releases.aspose.com/cells/java/) để tải thư viện. Thực hiện theo hướng dẫn cài đặt được cung cấp.
 
 3. Tạo một dự án Java: Thiết lập một dự án Java mới trong Môi trường phát triển tích hợp (IDE) mà bạn thích.
 

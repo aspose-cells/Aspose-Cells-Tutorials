@@ -1,10 +1,10 @@
 ---
-title: Veri Analizi Fonksiyonları Excel
-linktitle: Veri Analizi Fonksiyonları Excel
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java ile Excel'de Veri Analizinin Gücünü Açın. Sıralama, Filtreleme, Hesaplamalar ve Pivot Tabloları Öğrenin.
-weight: 10
-url: /tr/java/excel-data-analysis/data-analysis-functions-excel/
+"description": "Aspose.Cells for Java ile Excel'de Veri Analizinin Gücünü Açın. Sıralama, Filtreleme, Hesaplamalar ve Pivot Tabloları Öğrenin."
+"linktitle": "Veri Analizi Fonksiyonları Excel"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Veri Analizi Fonksiyonları Excel"
+"url": "/tr/java/excel-data-analysis/data-analysis-functions-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -40,7 +40,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Sıralama aralığını tanımlayın
 CellArea cellArea = new CellArea();
-cellArea.startRow = 1; //İkinci satırdan başlayın (ilk satırın başlıklar olduğunu varsayarak)
+cellArea.startRow = 1; // İkinci satırdan başlayın (ilk satırın başlıklar olduğunu varsayarak)
 cellArea.startColumn = 0; // İlk sütundan başla
 cellArea.endRow = worksheet.getCells().getMaxDataRow(); // Veri içeren son satırı al
 cellArea.endColumn = worksheet.getCells().getMaxDataColumn(); // Veri içeren son sütunu al
@@ -112,7 +112,8 @@ Pivot tablonuzun görünümünü çeşitli özellikleri ve stilleri değiştirer
 
 ### Daha gelişmiş örnekleri ve kaynakları nerede bulabilirim?
 
- Java için Aspose.Cells hakkında daha gelişmiş örnekler, eğitimler ve kaynaklar için lütfen şu adresi ziyaret edin:[Java için Aspose.Cells belgeleri](https://reference.aspose.com/cells/java/)Aspose.Cells ile Excel veri analizinde ustalaşmanıza yardımcı olacak birçok bilgi bulacaksınız.
+Java için Aspose.Cells hakkında daha gelişmiş örnekler, eğitimler ve kaynaklar için lütfen şu adresi ziyaret edin: [Java için Aspose.Cells belgeleri](https://reference.aspose.com/cells/java/)Aspose.Cells ile Excel veri analizinde ustalaşmanıza yardımcı olacak birçok bilgi bulacaksınız.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Interaktivitas Bagan
-linktitle: Interaktivitas Bagan
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara membuat bagan interaktif menggunakan Aspose.Cells untuk Java. Tingkatkan visualisasi data Anda dengan interaktivitas.
-weight: 19
-url: /id/java/advanced-excel-charts/chart-interactivity/
+"description": "Pelajari cara membuat bagan interaktif menggunakan Aspose.Cells untuk Java. Tingkatkan visualisasi data Anda dengan interaktivitas."
+"linktitle": "Interaktivitas Bagan"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Interaktivitas Bagan"
+"url": "/id/java/advanced-excel-charts/chart-interactivity/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Bagan interaktif menambahkan dimensi baru pada visualisasi data, yang memungkink
 
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 - Lingkungan Pengembangan Java
-- Aspose.Cells untuk Pustaka Java (Unduh dari[Di Sini](https://releases.aspose.com/cells/java/)
+- Aspose.Cells untuk Pustaka Java (Unduh dari [Di Sini](https://releases.aspose.com/cells/java/)
 
 ## Langkah 1: Menyiapkan Proyek Java Anda
 
@@ -31,7 +31,7 @@ Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 ## Langkah 2: Memuat Data
 
-Untuk membuat diagram interaktif, Anda memerlukan data. Mari kita mulai dengan memuat beberapa contoh data dari file Excel menggunakan Aspose.Cells.
+Untuk membuat grafik interaktif, Anda memerlukan data. Mari kita mulai dengan memuat beberapa contoh data dari file Excel menggunakan Aspose.Cells.
 
 ```java
 // Memuat file Excel
@@ -94,7 +94,7 @@ Dalam tutorial ini, kami telah menunjukkan kepada Anda cara membuat bagan intera
 
 ### Bagaimana cara mengubah jenis grafik?
 
- Anda dapat mengubah jenis grafik dengan memodifikasi`ChartType` parameter saat membuat grafik. Misalnya, ganti`ChartType.COLUMN` dengan`ChartType.LINE` untuk membuat diagram garis.
+Anda dapat mengubah jenis grafik dengan memodifikasi `ChartType` parameter saat membuat grafik. Misalnya, ganti `ChartType.COLUMN` dengan `ChartType.LINE` untuk membuat diagram garis.
 
 ### Bisakah saya menyesuaikan tampilan tooltip?
 
@@ -106,7 +106,8 @@ Untuk menangani interaksi pengguna, Anda dapat menggunakan JavaScript bersama de
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
 
- Anda dapat menjelajahi lebih banyak contoh dan dokumentasi terperinci tentang penggunaan Aspose.Cells untuk Java di[Referensi API Java Aspose.Cells](https://reference.aspose.com/cells/java/).
+Anda dapat menjelajahi lebih banyak contoh dan dokumentasi terperinci tentang penggunaan Aspose.Cells untuk Java di [Referensi API Java Aspose.Cells](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

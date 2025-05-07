@@ -1,10 +1,10 @@
 ---
-title: Ekspor Excel ke HTML Java
-linktitle: Ekspor Excel ke HTML Java
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara mengekspor Excel ke HTML di Java menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini dengan kode sumber untuk mengonversi file Excel Anda ke HTML dengan mudah.
-weight: 19
-url: /id/java/excel-import-export/export-excel-to-html-java/
+"description": "Pelajari cara mengekspor Excel ke HTML di Java menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini dengan kode sumber untuk mengonversi file Excel Anda ke HTML dengan mudah."
+"linktitle": "Ekspor Excel ke HTML Java"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Ekspor Excel ke HTML Java"
+"url": "/id/java/excel-import-export/export-excel-to-html-java/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -33,11 +33,11 @@ Mulailah dengan membuat proyek Java baru di Lingkungan Pengembangan Terpadu (IDE
 
 ## Langkah 2: Tambahkan Pustaka Aspose.Cells
 
- Tambahkan pustaka Aspose.Cells for Java ke classpath proyek Anda. Jika Anda menggunakan Maven, sertakan pustaka tersebut di classpath Anda.`pom.xml` mengajukan.
+Tambahkan pustaka Aspose.Cells for Java ke classpath proyek Anda. Jika Anda menggunakan Maven, sertakan pustaka tersebut di classpath Anda. `pom.xml` mengajukan.
 
 ## Langkah 3: Muat File Excel
 
- Pada langkah ini, Anda akan memuat file Excel yang ingin Anda ekspor ke HTML. Anda dapat melakukannya dengan membuat`Workbook` objek dan memuat file Excel menggunakan jalurnya.
+Pada langkah ini, Anda akan memuat file Excel yang ingin Anda ekspor ke HTML. Anda dapat melakukannya dengan membuat `Workbook` objek dan memuat file Excel menggunakan jalurnya.
 
 ```java
 // Memuat file Excel
@@ -55,7 +55,7 @@ workbook.save("output.html", SaveFormat.HTML);
 
 ## Langkah 5: Jalankan Aplikasi Anda
 
-Kompilasi dan jalankan aplikasi Java Anda. Setelah kode berhasil dijalankan, Anda akan menemukan berkas HTML bernama "output.html" di direktori proyek Anda.
+Kompilasi dan jalankan aplikasi Java Anda. Setelah kode berhasil dijalankan, Anda akan menemukan file HTML bernama "output.html" di direktori proyek Anda.
 
 ## Kesimpulan
 
@@ -80,6 +80,7 @@ Untuk fitur lebih lanjut dan opsi penyesuaian, lihat dokumentasi Aspose.Cells un
 
 ### T: Di mana saya dapat menemukan lebih banyak contoh dan sumber daya untuk Aspose.Cells untuk Java?
    - A: Kunjungi dokumentasi dan forum Aspose.Cells untuk mendapatkan banyak contoh, tutorial, dan dukungan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

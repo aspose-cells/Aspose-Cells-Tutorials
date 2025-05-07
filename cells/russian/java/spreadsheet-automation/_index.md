@@ -1,10 +1,10 @@
 ---
-title: Автоматизация электронных таблиц
-linktitle: Автоматизация электронных таблиц
-second_title: API обработки Java Excel Aspose.Cells
-description: Откройте для себя мощь Aspose.Cells для Java с нашими всеобъемлющими руководствами. Изучите автоматизацию электронных таблиц шаг за шагом для эффективной разработки Java.
-weight: 19
-url: /ru/java/spreadsheet-automation/
+"description": "Откройте для себя мощь Aspose.Cells для Java с нашими всеобъемлющими руководствами. Изучите автоматизацию электронных таблиц шаг за шагом для эффективной разработки Java."
+"linktitle": "Автоматизация электронных таблиц"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Автоматизация электронных таблиц"
+"url": "/ru/java/spreadsheet-automation/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -48,7 +48,7 @@ url: /ru/java/spreadsheet-automation/
 Узнайте, как автоматизировать задачи Excel на Java с помощью примеров исходного кода, используя Aspose.Cells, мощную библиотеку для работы с Excel.
 ### [Интеграция данных в Excel](./data-integration-in-excel/)
 Узнайте, как эффективно интегрировать данные в Excel для лучшего понимания и принятия решений. Пошаговое руководство с исходным кодом с использованием Aspose.Cells для Java.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

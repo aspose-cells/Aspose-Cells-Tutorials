@@ -1,10 +1,10 @@
 ---
-title: Tutorial Fungsi Tanggal Excel
-linktitle: Tutorial Fungsi Tanggal Excel
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari Fungsi Tanggal Excel menggunakan Aspose.Cells untuk Java. Jelajahi tutorial langkah demi langkah dengan kode sumber.
-weight: 19
-url: /id/java/basic-excel-functions/excel-date-functions-tutorial/
+"description": "Pelajari Fungsi Tanggal Excel menggunakan Aspose.Cells untuk Java. Jelajahi tutorial langkah demi langkah dengan kode sumber."
+"linktitle": "Tutorial Fungsi Tanggal Excel"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Tutorial Fungsi Tanggal Excel"
+"url": "/id/java/basic-excel-functions/excel-date-functions-tutorial/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -46,7 +46,7 @@ Sekarang setelah kita membahas dasar-dasar fungsi tanggal Excel, mari selami pen
 
 Sebelum kita dapat memulai pengkodean, kita perlu menyiapkan Aspose.Cells untuk Java dalam proyek kita. Ikuti langkah-langkah berikut untuk memulai.
 
-1. Unduh dan Instal Aspose.Cells: Kunjungi[Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/) dan unduh versi terbaru.
+1. Unduh dan Instal Aspose.Cells: Kunjungi [Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/) dan unduh versi terbaru.
 
 2. Sertakan Aspose.Cells dalam Proyek Anda: Tambahkan pustaka Aspose.Cells ke proyek Java Anda.
 
@@ -112,7 +112,7 @@ worksheet.getCells().get("A2").putValue("2023-08-01");
 // Hitung selisihnya menggunakan DATEDIF
 worksheet.getCells().get("A3").setFormula("=DATEDIF(A1, A2, \"d\")");
 
-//Dapatkan perbedaannya dalam hitungan hari
+// Dapatkan perbedaannya dalam beberapa hari
 int daysDifference = worksheet.getCells().get("A3").getIntValue();
 
 // Cetak hasilnya
@@ -145,13 +145,13 @@ System.out.println("End of Month: " + endOfMonth);
 
 ## Kesimpulan
 
-Tutorial ini telah memberikan gambaran umum yang komprehensif tentang fungsi tanggal Excel dan cara menggunakannya menggunakan Aspose.Cells untuk Java. Anda telah mempelajari cara menyiapkan Aspose.Cells, menggunakan fungsi DATE, TODAY, DATEDIF, dan EOMONTH, serta melakukan perhitungan tanggal secara terprogram. Dengan pengetahuan ini, Anda dapat menyederhanakan tugas-tugas yang terkait dengan tanggal di Excel dan menyempurnakan aplikasi Java Anda.
+Tutorial ini telah memberikan gambaran umum yang komprehensif tentang fungsi tanggal Excel dan cara menggunakannya menggunakan Aspose.Cells untuk Java. Anda telah mempelajari cara menyiapkan Aspose.Cells, menggunakan fungsi DATE, TODAY, DATEDIF, dan EOMONTH, serta melakukan perhitungan tanggal secara terprogram. Dengan pengetahuan ini, Anda dapat menyederhanakan tugas-tugas yang berkaitan dengan tanggal di Excel dan menyempurnakan aplikasi Java Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara memformat tanggal di Aspose.Cells untuk Java?
 
- Memformat tanggal di Aspose.Cells mudah. Anda dapat menggunakan`Style` kelas untuk menentukan format tanggal dan menerapkannya ke sel. Misalnya, untuk menampilkan tanggal dalam format "dd-MM-yyyy":
+Memformat tanggal di Aspose.Cells mudah. Anda dapat menggunakan `Style` kelas untuk menentukan format tanggal dan menerapkannya ke sel. Misalnya, untuk menampilkan tanggal dalam format "dd-MM-yyyy":
 
 ```java
 // Buat gaya tanggal
@@ -172,11 +172,12 @@ Aspose.Cells untuk Java sangat cocok untuk pemrosesan tanggal skala kecil dan be
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.Cells untuk Java?
 
- Anda dapat mengakses dokumentasi dan sumber daya yang komprehensif untuk Aspose.Cells untuk Java di[Di Sini](https://reference.aspose.com/cells/java/).
+Anda dapat mengakses dokumentasi dan sumber daya yang komprehensif untuk Aspose.Cells untuk Java di [Di Sini](https://reference.aspose.com/cells/java/).
 
 ### Bagaimana saya dapat memulai dengan Aspose.Cells untuk Java?
 
- Untuk memulai Aspose.Cells untuk Java, unduh pustaka dari[Di Sini](https://releases.aspose.com/cells/java/) dan lihat dokumentasi untuk instalasi dan
+Untuk memulai Aspose.Cells untuk Java, unduh pustaka dari [Di Sini](https://releases.aspose.com/cells/java/) dan lihat dokumentasi untuk instalasi dan
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

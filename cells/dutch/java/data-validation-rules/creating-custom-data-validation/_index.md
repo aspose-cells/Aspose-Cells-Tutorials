@@ -1,10 +1,10 @@
 ---
-title: Aangepaste gegevensvalidatie maken
-linktitle: Aangepaste gegevensvalidatie maken
-second_title: Aspose.Cells Java Excel-verwerkings-API
-description: Leer hoe u aangepaste gegevensvalidatie maakt met Aspose.Cells voor Java. Stapsgewijze handleiding met broncode.
-weight: 10
-url: /nl/java/data-validation-rules/creating-custom-data-validation/
+"description": "Leer hoe u aangepaste gegevensvalidatie maakt met Aspose.Cells voor Java. Stapsgewijze handleiding met broncode."
+"linktitle": "Aangepaste gegevensvalidatie maken"
+"second_title": "Aspose.Cells Java Excel-verwerkings-API"
+"title": "Aangepaste gegevensvalidatie maken"
+"url": "/nl/java/data-validation-rules/creating-custom-data-validation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,17 +16,17 @@ url: /nl/java/data-validation-rules/creating-custom-data-validation/
 
 ## Invoering
 
-Gegevensvalidatie helpt de integriteit van gegevens te behouden door te voorkomen dat gebruikers onjuiste of ongeldige gegevens invoeren in Excel-spreadsheets. Hoewel Excel ingebouwde opties voor gegevensvalidatie biedt, zijn er scenario's waarin u aangepaste validatieregels moet definiëren. Aspose.Cells voor Java stelt u in staat dit efficiënt te bereiken.
+Gegevensvalidatie helpt de gegevensintegriteit te behouden door te voorkomen dat gebruikers onjuiste of ongeldige gegevens in Excel-spreadsheets invoeren. Hoewel Excel ingebouwde opties voor gegevensvalidatie biedt, zijn er scenario's waarin u aangepaste validatieregels moet definiëren. Aspose.Cells voor Java stelt u in staat dit efficiënt te doen.
 
 ## Vereisten
 
 Voordat u aan de slag gaat met de code, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
--  Aspose.Cells voor Java: Download en installeer de bibliotheek van[hier](https://releases.aspose.com/cells/java/).
+- Aspose.Cells voor Java: Download en installeer de bibliotheek van [hier](https://releases.aspose.com/cells/java/).
 
 ## Stap 1: Uw Java-project instellen
 
-Om te beginnen maakt u een nieuw Java-project in uw favoriete Integrated Development Environment (IDE). Voeg de Aspose.Cells for Java-bibliotheek toe aan het classpath van uw project.
+Om te beginnen, maakt u een nieuw Java-project aan in uw favoriete Integrated Development Environment (IDE). Voeg de Aspose.Cells for Java-bibliotheek toe aan het classpath van uw project.
 
 ## Stap 2: Een Excel-werkmap maken
 
@@ -48,7 +48,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Stap 4: Aangepaste validatiecriteria definiëren
 
-In deze stap definiëren we de aangepaste validatiecriteria waaraan onze gegevens moeten voldoen. Stel dat we de leeftijd die in een cel wordt ingevoerd, willen beperken tot tussen de 18 en 60.
+In deze stap definiëren we de aangepaste validatiecriteria waaraan onze gegevens moeten voldoen. Stel dat we de leeftijd in een cel willen beperken tot 18 tot 60 jaar.
 
 ```java
 // Java-code om aangepaste validatiecriteria te definiëren
@@ -89,29 +89,30 @@ workbook.save("CustomDataValidation.xlsx");
 
 ## Conclusie
 
-In deze tutorial hebben we onderzocht hoe u aangepaste gegevensvalidatieregels kunt maken met Aspose.Cells voor Java. Door deze stappen te volgen, kunt u ervoor zorgen dat uw Excel-gegevens voldoen aan specifieke criteria, waardoor de gegevensintegriteit en nauwkeurigheid worden verbeterd.
+In deze tutorial hebben we uitgelegd hoe je aangepaste gegevensvalidatieregels kunt maken met Aspose.Cells voor Java. Door deze stappen te volgen, zorg je ervoor dat je Excel-gegevens aan specifieke criteria voldoen, waardoor de integriteit en nauwkeurigheid van de gegevens worden verbeterd.
 
 ## Veelgestelde vragen
 
 ### Hoe download ik Aspose.Cells voor Java?
 
- U kunt Aspose.Cells voor Java downloaden van de website op[hier](https://releases.aspose.com/cells/java/).
+U kunt Aspose.Cells voor Java downloaden van de website op [hier](https://releases.aspose.com/cells/java/).
 
 ### Kan ik aangepaste gegevensvalidatie toepassen op meerdere bereiken in hetzelfde werkblad?
 
-Ja, u kunt aangepaste gegevensvalidatie toepassen op meerdere bereiken binnen hetzelfde werkblad door stap 5 te herhalen voor elk gewenst bereik.
+Ja, u kunt aangepaste gegevensvalidatie toepassen op meerdere bereiken in hetzelfde werkblad door stap 5 voor elk gewenst bereik te herhalen.
 
-### Worden er nog andere typen gegevensvalidatie ondersteund door Aspose.Cells voor Java?
+### Worden er andere typen gegevensvalidatie ondersteund door Aspose.Cells voor Java?
 
-Ja, Aspose.Cells voor Java ondersteunt verschillende typen gegevensvalidatie, waaronder gehele getallen, decimalen, datums, tijden, tekstlengte en meer.
+Ja, Aspose.Cells voor Java ondersteunt verschillende typen gegevensvalidatie, waaronder gehele getallen, decimalen, datums, tijden, tekstlengtes en meer.
 
-### Hoe kan ik de foutmelding aanpassen die wordt weergegeven wanneer gegevensvalidatie mislukt?
+### Hoe kan ik het foutbericht aanpassen dat wordt weergegeven wanneer de gegevensvalidatie mislukt?
 
- U kunt het foutbericht aanpassen door de`setErrorMessage` methode in stap 4, waar u de validatiecriteria definieert.
+U kunt het foutbericht aanpassen door de `setErrorMessage` methode in stap 4, waarin u de validatiecriteria definieert.
 
 ### Werkt Aspose.Cells voor Java met Excel-bestanden in verschillende formaten?
 
 Ja, Aspose.Cells voor Java ondersteunt een breed scala aan Excel-bestandsindelingen, waaronder XLS, XLSX, XLSM en meer.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

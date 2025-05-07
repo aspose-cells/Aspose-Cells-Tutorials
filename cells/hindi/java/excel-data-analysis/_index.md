@@ -1,10 +1,10 @@
 ---
-title: एक्सेल डेटा विश्लेषण
-linktitle: एक्सेल डेटा विश्लेषण
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: Aspose.Cells for Java के साथ शक्तिशाली Excel डेटा विश्लेषण अनलॉक करें। Java डेवलपर्स के लिए चरण-दर-चरण ट्यूटोरियल देखें। आज ही डेटा इनसाइट मास्टर करें।
-weight: 12
-url: /hi/java/excel-data-analysis/
+"description": "Aspose.Cells for Java के साथ शक्तिशाली Excel डेटा विश्लेषण अनलॉक करें। Java डेवलपर्स के लिए चरण-दर-चरण ट्यूटोरियल देखें। आज ही डेटा इनसाइट मास्टर करें।"
+"linktitle": "एक्सेल डेटा विश्लेषण"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "एक्सेल डेटा विश्लेषण"
+"url": "/hi/java/excel-data-analysis/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -37,6 +37,7 @@ Java के लिए Aspose.Cells के साथ Excel में डेटा
 Java के लिए Aspose.Cells के साथ डेटा विश्लेषण उत्कृष्टता अनलॉक करें। शानदार Excel चार्ट और रिपोर्ट बनाएँ।
 ### [डेटा विश्लेषण एक्सेल फ़ार्मुले](./data-analysis-excel-formulas/)
 जावा के लिए Aspose.Cells के साथ Excel में डेटा विश्लेषण की शक्ति अनलॉक करें। आवश्यक सूत्र और तकनीक सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Dropdown Berjenjang di Excel
-linktitle: Dropdown Berjenjang di Excel
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara membuat dropdown bertingkat di Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah ini menyediakan kode sumber dan kiat ahli untuk manipulasi spreadsheet Excel yang efisien.
-weight: 13
-url: /id/java/data-validation-rules/cascading-dropdowns-in-excel/
+"description": "Pelajari cara membuat dropdown bertingkat di Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah ini menyediakan kode sumber dan kiat ahli untuk manipulasi spreadsheet Excel yang efisien."
+"linktitle": "Dropdown Berjenjang di Excel"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Dropdown Berjenjang di Excel"
+"url": "/id/java/data-validation-rules/cascading-dropdowns-in-excel/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Dalam dunia manipulasi spreadsheet, Aspose.Cells for Java merupakan perangkat ca
 
 Sebelum kita memulai perjalanan ini, pastikan Anda memiliki prasyarat berikut:
 
--  Aspose.Cells untuk Java: Unduh dan instal dari[Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk Java: Unduh dan instal dari [Di Sini](https://releases.aspose.com/cells/java/).
 - Lingkungan Pengembangan Java: Anda harus menyiapkan lingkungan pengembangan Java di komputer Anda.
 - Pemahaman Dasar tentang Excel: Keakraban dengan Excel dan konsep dasarnya akan sangat membantu.
 
@@ -47,7 +47,7 @@ Worksheet citySheet = workbook.getWorksheets().add("Cities");
 Sekarang, kita perlu mengisi lembar kerja kita dengan data. Di lembar "Negara", kita akan mencantumkan negara-negara, dan di lembar "Kota", kita akan membiarkannya kosong terlebih dahulu, karena kita akan mengisinya secara dinamis nanti.
 
 ```java
-//Kode Java untuk mengisi lembar "Negara"
+// Kode Java untuk mengisi lembar "Negara"
 countrySheet.getCells().get("A1").putValue("Country");
 countrySheet.getCells().get("A2").putValue("USA");
 countrySheet.getCells().get("A3").putValue("Canada");
@@ -57,7 +57,7 @@ countrySheet.getCells().get("A4").putValue("UK");
 
 ## Langkah 3: Membuat Dropdown
 
-Selanjutnya, kita akan membuat daftar dropdown untuk kolom negara dan kota. Dropdown ini akan ditautkan sedemikian rupa sehingga saat suatu negara dipilih, dropdown kota akan diperbarui sebagaimana mestinya.
+Selanjutnya, kita akan membuat daftar dropdown untuk kolom negara dan kota. Dropdown ini akan ditautkan sedemikian rupa sehingga saat negara dipilih, dropdown kota akan diperbarui sesuai dengan pilihan.
 
 ```java
 // Kode Java untuk membuat daftar dropdown
@@ -125,7 +125,8 @@ Meskipun pemahaman dasar tentang Java sangat membantu, Aspose.Cells untuk Java m
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.Cells untuk Java?
 
- Anda dapat mengakses dokumentasi dan sumber daya yang komprehensif untuk Aspose.Cells untuk Java di[Di Sini](https://reference.aspose.com/cells/java/).
+Anda dapat mengakses dokumentasi dan sumber daya yang komprehensif untuk Aspose.Cells untuk Java di [Di Sini](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

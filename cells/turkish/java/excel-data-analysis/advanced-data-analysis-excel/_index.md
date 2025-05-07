@@ -1,10 +1,10 @@
 ---
-title: Gelişmiş Veri Analizi Excel
-linktitle: Gelişmiş Veri Analizi Excel
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java ile Excel'de gelişmiş veri analizinde ustalaşın. Kaynak kod örnekleriyle adım adım öğrenin.
-weight: 12
-url: /tr/java/excel-data-analysis/advanced-data-analysis-excel/
+"description": "Aspose.Cells for Java ile Excel'de gelişmiş veri analizinde ustalaşın. Kaynak kod örnekleriyle adım adım öğrenin."
+"linktitle": "Gelişmiş Veri Analizi Excel"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Gelişmiş Veri Analizi Excel"
+"url": "/tr/java/excel-data-analysis/advanced-data-analysis-excel/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Aspose.Cells for Java ile gelişmiş veri analizi dünyasına dalmadan önce, bi
 
 - Temel Java programlama bilgisi.
 - Java ve tercih ettiğiniz IDE ile kurulmuş bir geliştirme ortamı.
--  Java için Aspose.Cells kütüphanesini buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/).
+- Java için Aspose.Cells kütüphanesini buradan indirebilirsiniz [Burada](https://releases.aspose.com/cells/java/).
 - Üzerinde çalışabileceğiniz örnek veriler içeren bir Excel elektronik tablosu.
 
 ## Java için Aspose.Cells Kurulumu
@@ -187,7 +187,7 @@ Aspose.Cells for Java ile Excel'deki veri analizi yeteneklerinizi yeni zirvelere
 
 Java için Aspose.Cells'i yüklemek için şu adımları izleyin:
 
-1.  Kütüphaneyi şu adresten indirin:[Burada](https://releases.aspose.com/cells/java/).
+1. Kütüphaneyi şu adresten indirin: [Burada](https://releases.aspose.com/cells/java/).
 2. Kütüphaneyi Java projenize ekleyin.
 3. Gerekli paketleri kodunuza aktarın.
 
@@ -206,6 +206,7 @@ Evet, Aspose.Cells for Java'yı kullanarak makro çalıştırma da dahil olmak �
 ### Analiz sonuçlarımı hangi formatlarda dışarı aktarabilirim?
 
 Java için Aspose.Cells, analiz sonuçlarının PDF ve CSV dahil olmak üzere çeşitli formatlara aktarılmasını destekler.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

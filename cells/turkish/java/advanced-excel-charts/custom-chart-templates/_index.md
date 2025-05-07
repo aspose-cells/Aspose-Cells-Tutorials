@@ -1,10 +1,10 @@
 ---
-title: Özel Grafik Şablonları
-linktitle: Özel Grafik Şablonları
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells ile Java'da çarpıcı özel grafik şablonları oluşturmayı öğrenin. Bu adım adım kılavuz, dinamik veri görselleştirme için ihtiyacınız olan her şeyi kapsar.
-weight: 11
-url: /tr/java/advanced-excel-charts/custom-chart-templates/
+"description": "Aspose.Cells ile Java'da çarpıcı özel grafik şablonları oluşturmayı öğrenin. Bu adım adım kılavuz, dinamik veri görselleştirme için ihtiyacınız olan her şeyi kapsar."
+"linktitle": "Özel Grafik Şablonları"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Özel Grafik Şablonları"
+"url": "/tr/java/advanced-excel-charts/custom-chart-templates/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -27,7 +27,7 @@ Sürekli gelişen veri görselleştirme dünyasında, verilerinizin hikayesini e
 Bu eğitimi takip edebilmek için aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
 - Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
--  Java kütüphanesi için Aspose.Cells. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/).
+- Java kütüphanesi için Aspose.Cells. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/cells/java/).
 
 ## Özel Bir Grafik Şablonu Oluşturma
 
@@ -106,7 +106,7 @@ Java için Aspose.Cells kullanarak özel grafik şablonları oluşturmak, özel 
 
 ### Java için Aspose.Cells'i nasıl kurabilirim?
 
- Java için Aspose.Cells'i yüklemek için indirme sayfasını ziyaret edin[Burada](https://releases.aspose.com/cells/java/)Kütüphaneyi indirin ve dokümantasyonda verilen kurulum talimatlarını izleyin.
+Java için Aspose.Cells'i yüklemek için indirme sayfasını ziyaret edin [Burada](https://releases.aspose.com/cells/java/)Kütüphaneyi indirin ve dokümantasyonda verilen kurulum talimatlarını izleyin.
 
 ### Aspose.Cells for Java ile hangi tür grafikler oluşturabilirim?
 
@@ -122,7 +122,8 @@ Kesinlikle! Aspose.Cells for Java çok yönlüdür ve hem basit hem de karmaşı
 
 ### Daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Kapsamlı belgeler ve örnekler için Java için Aspose.Cells belgelerini şu adreste ziyaret edin:[Burada](https://reference.aspose.com/cells/java/).
+Kapsamlı belgeler ve örnekler için Java için Aspose.Cells belgelerini şu adreste ziyaret edin: [Burada](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

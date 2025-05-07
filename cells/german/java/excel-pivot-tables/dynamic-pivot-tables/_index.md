@@ -1,10 +1,10 @@
 ---
-title: Dynamische Pivot-Tabellen
-linktitle: Dynamische Pivot-Tabellen
-second_title: Aspose.Cells Java Excel-Verarbeitungs-API
-description: Erstellen Sie mühelos dynamische Pivot-Tabellen mit Aspose.Cells für Java. Analysieren und fassen Sie Daten mühelos zusammen. Steigern Sie Ihre Datenanalysefunktionen.
-weight: 13
-url: /de/java/excel-pivot-tables/dynamic-pivot-tables/
+"description": "Erstellen Sie mühelos dynamische Pivot-Tabellen mit Aspose.Cells für Java. Analysieren und fassen Sie Daten mühelos zusammen. Steigern Sie Ihre Datenanalysefähigkeiten."
+"linktitle": "Dynamische Pivot-Tabellen"
+"second_title": "Aspose.Cells Java Excel-Verarbeitungs-API"
+"title": "Dynamische Pivot-Tabellen"
+"url": "/de/java/excel-pivot-tables/dynamic-pivot-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,32 +14,32 @@ url: /de/java/excel-pivot-tables/dynamic-pivot-tables/
 # Dynamische Pivot-Tabellen
 
 
-Pivot-Tabellen sind ein leistungsstarkes Tool zur Datenanalyse, mit dem Sie Daten in einer Tabelle zusammenfassen und bearbeiten können. In diesem Tutorial erfahren Sie, wie Sie mit der Aspose.Cells-API für Java dynamische Pivot-Tabellen erstellen.
+Pivot-Tabellen sind ein leistungsstarkes Werkzeug in der Datenanalyse und ermöglichen die Zusammenfassung und Bearbeitung von Daten in einer Tabellenkalkulation. In diesem Tutorial erfahren Sie, wie Sie dynamische Pivot-Tabellen mit der Aspose.Cells für Java-API erstellen.
 
 ## Einführung in Pivot-Tabellen
 
-Pivot-Tabellen sind interaktive Tabellen, mit denen Sie Daten in einer Kalkulationstabelle zusammenfassen und analysieren können. Sie bieten eine dynamische Möglichkeit, Daten zu organisieren und zu analysieren, sodass Sie leichter Erkenntnisse gewinnen und fundierte Entscheidungen treffen können.
+Pivot-Tabellen sind interaktive Tabellen, mit denen Sie Daten in einer Kalkulationstabelle zusammenfassen und analysieren können. Sie bieten eine dynamische Möglichkeit, Daten zu organisieren und zu analysieren und erleichtern so das Gewinnen von Erkenntnissen und das Treffen fundierter Entscheidungen.
 
 ## Schritt 1: Importieren der Aspose.Cells-Bibliothek
 
- Bevor wir dynamische Pivot-Tabellen erstellen können, müssen wir die Aspose.Cells-Bibliothek in unser Java-Projekt importieren. Sie können die Bibliothek von den Aspose-Releases herunterladen.[Hier](https://releases.aspose.com/cells/java/).
+Bevor wir dynamische Pivot-Tabellen erstellen können, müssen wir die Aspose.Cells-Bibliothek in unser Java-Projekt importieren. Sie können die Bibliothek von den Aspose-Releases herunterladen. [Hier](https://releases.aspose.com/cells/java/).
 
 Nachdem Sie die Bibliothek heruntergeladen haben, fügen Sie sie dem Build-Pfad Ihres Projekts hinzu.
 
 ## Schritt 2: Laden einer Arbeitsmappe
 
-Um mit Pivot-Tabellen arbeiten zu können, müssen wir zunächst eine Arbeitsmappe laden, die die zu analysierenden Daten enthält. Dazu können Sie den folgenden Code verwenden:
+Um mit Pivot-Tabellen arbeiten zu können, müssen wir zunächst eine Arbeitsmappe mit den zu analysierenden Daten laden. Dies können Sie mit dem folgenden Code tun:
 
 ```java
 // Laden Sie die Excel-Datei
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Ersetzen`"your_excel_file.xlsx"` durch den Pfad zu Ihrer Excel-Datei.
+Ersetzen `"your_excel_file.xlsx"` mit dem Pfad zu Ihrer Excel-Datei.
 
 ## Schritt 3: Erstellen einer Pivot-Tabelle
 
-Nachdem wir nun die Arbeitsmappe geladen haben, erstellen wir eine Pivot-Tabelle. Wir müssen den Quelldatenbereich für die Pivot-Tabelle und die Position angeben, an der wir sie im Arbeitsblatt platzieren möchten. Hier ist ein Beispiel:
+Nachdem wir die Arbeitsmappe geladen haben, erstellen wir eine Pivot-Tabelle. Wir müssen den Quelldatenbereich für die Pivot-Tabelle und die Position im Arbeitsblatt angeben. Hier ein Beispiel:
 
 ```java
 // Holen Sie sich das erste Arbeitsblatt
@@ -58,10 +58,10 @@ PivotTable pivotTable = worksheet.getPivotTables().add(sourceData, worksheet.get
 
 ## Schritt 4: Konfigurieren der Pivot-Tabelle
 
-Nachdem wir nun die Pivot-Tabelle erstellt haben, können wir sie so konfigurieren, dass die Daten nach Bedarf zusammengefasst und analysiert werden. Sie können Zeilenfelder, Spaltenfelder und Datenfelder festlegen und verschiedene Berechnungen anwenden. Hier ist ein Beispiel:
+Nachdem wir die Pivot-Tabelle erstellt haben, können wir sie so konfigurieren, dass die Daten nach Bedarf zusammengefasst und analysiert werden. Sie können Zeilenfelder, Spaltenfelder und Datenfelder festlegen und verschiedene Berechnungen anwenden. Hier ein Beispiel:
 
 ```java
-// Hinzufügen von Feldern zur Pivot-Tabelle
+// Felder zur Pivot-Tabelle hinzufügen
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0); // Zeilenfeld
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1); // Spaltenfeld
 pivotTable.addFieldToArea(PivotFieldType.DATA, 2); // Datenfeld
@@ -82,13 +82,13 @@ pivotTable.calculateData();
 
 ## Abschluss
 
-In diesem Tutorial haben wir gelernt, wie man mit der Aspose.Cells für Java-API dynamische Pivot-Tabellen erstellt. Pivot-Tabellen sind ein wertvolles Werkzeug für die Datenanalyse und mit Aspose.Cells können Sie deren Erstellung und Bearbeitung in Ihren Java-Anwendungen automatisieren.
+In diesem Tutorial haben wir gelernt, wie man dynamische Pivot-Tabellen mit der Aspose.Cells für Java-API erstellt. Pivot-Tabellen sind ein wertvolles Werkzeug für die Datenanalyse. Mit Aspose.Cells können Sie deren Erstellung und Bearbeitung in Ihren Java-Anwendungen automatisieren.
 
-Wenn Sie Fragen haben oder weitere Hilfe benötigen, können Sie sich jederzeit an uns wenden. Viel Spaß beim Programmieren!
+Wenn Sie Fragen haben oder weitere Unterstützung benötigen, können Sie sich jederzeit an uns wenden. Viel Spaß beim Programmieren!
 
 ## FAQs
 
-### F1: Kann ich auf die Datenfelder meiner Pivot-Tabelle benutzerdefinierte Berechnungen anwenden?
+### F1: Kann ich benutzerdefinierte Berechnungen auf die Datenfelder meiner Pivot-Tabelle anwenden?
 
 Ja, Sie können benutzerdefinierte Berechnungen auf Datenfelder anwenden, indem Sie Ihre eigene Logik implementieren.
 
@@ -104,9 +104,9 @@ Ja, Sie können mehrere Pivot-Tabellen im selben Arbeitsblatt erstellen, indem S
 
 Ja, Sie können Filter auf Pivot-Tabellen anwenden, um bestimmte Datenteilmengen anzuzeigen.
 
-### F5: Unterstützt Aspose.Cells die erweiterten PivotTabellenfunktionen von Excel?
+### F5: Unterstützt Aspose.Cells die erweiterten PivotTable-Funktionen von Excel?
 
-Ja, Aspose.Cells bietet umfassende Unterstützung für die erweiterten PivotTabellenfunktionen von Excel, sodass Sie komplexe PivotTabellen erstellen können.
+Ja, Aspose.Cells bietet umfassende Unterstützung für die erweiterten PivotTable-Funktionen von Excel, sodass Sie komplexe PivotTables erstellen können.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

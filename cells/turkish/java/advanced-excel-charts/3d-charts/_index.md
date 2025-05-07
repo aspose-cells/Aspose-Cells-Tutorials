@@ -1,10 +1,10 @@
 ---
-title: 3D Grafikler
-linktitle: 3D Grafikler
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells ile Java'da Çarpıcı 3D Grafikler Oluşturmayı Öğrenin. Excel Veri Görselleştirmesi için Adım Adım Kılavuz.
-weight: 13
-url: /tr/java/advanced-excel-charts/3d-charts/
+"description": "Aspose.Cells ile Java'da Çarpıcı 3D Grafikler Oluşturmayı Öğrenin. Excel Veri Görselleştirmesi için Adım Adım Kılavuz."
+"linktitle": "3D Grafikler"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "3D Grafikler"
+"url": "/tr/java/advanced-excel-charts/3d-charts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Aspose.Cells for Java, çeşitli grafik türlerinin oluşturulması da dahil olm
 
 ## 3D grafikler oluşturmak için Java için Aspose.Cells'i neden kullanmalısınız?
 
-Java için Aspose.Cells, Excel dosyaları ve grafikleriyle çalışmak için kapsamlı bir özellik ve araç seti sunar. 3D grafikler de dahil olmak üzere grafikleri oluşturmak, özelleştirmek ve düzenlemek için kullanıcı dostu bir arayüz sağlar. Ayrıca, Java için Aspose.Cells, oluşturulan grafiklerin çok çeşitli Excel sürümleriyle uyumlu olmasını sağlayarak grafik oluşturma için güvenilir bir seçenek haline getirir.
+Java için Aspose.Cells, Excel dosyaları ve grafikleriyle çalışmak için kapsamlı bir özellik ve araç seti sunar. 3D grafikler dahil olmak üzere grafikleri oluşturmak, özelleştirmek ve düzenlemek için kullanıcı dostu bir arayüz sağlar. Ayrıca, Java için Aspose.Cells, oluşturulan grafiklerin çok çeşitli Excel sürümleriyle uyumlu olmasını sağlayarak grafik oluşturma için güvenilir bir seçenek haline getirir.
 
 ## Java için Aspose.Cells Kurulumu
 
@@ -39,7 +39,7 @@ Aspose.Cells for Java kütüphanesini web sitesinden indirebilirsiniz. İndirdik
 Java için Aspose.Cells'i kullanmak için lisansınızı başlatmanız gerekir. Bu adım, herhangi bir değerlendirme sınırlamasını kaldırmak ve kütüphanenin tüm potansiyelini ortaya çıkarmak için önemlidir.
 
 ```java
-//Aspose.Cells lisansını başlatın
+// Aspose.Cells lisansını başlatın
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -150,7 +150,7 @@ Bu makalede, Aspose.Cells for Java kullanarak 3B grafiklerin nasıl oluşturulac
 
 ### 3D grafiğe birden fazla veri serisi nasıl ekleyebilirim?
 
- 3B grafiğe birden fazla veri serisi eklemek için şunu kullanabilirsiniz:`chart.getNSeries().add()` yöntemini kullanın ve her seri için veri aralığını belirtin. Her seri için uygun grafik türünü ayarlayarak onları birbirinden ayırdığınızdan emin olun.
+3B grafiğe birden fazla veri serisi eklemek için şunu kullanabilirsiniz: `chart.getNSeries().add()` yöntemini kullanın ve her seri için veri aralığını belirtin. Her seri için uygun grafik türünü ayarlayarak onları birbirinden ayırdığınızdan emin olun.
 
 ### Aspose.Cells for Java ile oluşturulan 3D grafikleri diğer formatlara aktarabilir miyim?
 
@@ -162,11 +162,12 @@ Java için Aspose.Cells, öncelikle Excel dosyaları için statik 3B grafikler o
 
 ### 3D grafiklerimdeki verilerin güncellenme sürecini otomatikleştirebilir miyim?
 
-Evet, Excel'de VBA (Visual Basic for Applications) gibi veri kaynaklarını entegre ederek veya betik dillerini kullanarak 3B grafiklerinizdeki verileri güncelleme sürecini otomatikleştirebilirsiniz. Java için Aspose.Cells ayrıca yeni veriler mevcut olduğunda grafiklerin dinamik olarak güncellenmesine yardımcı olabilir.
+Evet, veri kaynaklarını entegre ederek veya Excel içinde VBA (Visual Basic for Applications) gibi betik dillerini kullanarak 3B grafiklerinizdeki verileri güncelleme sürecini otomatikleştirebilirsiniz. Java için Aspose.Cells ayrıca yeni veriler mevcut olduğunda grafiklerin dinamik olarak güncellenmesine yardımcı olabilir.
 
 ### Aspose.Cells for Java için daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Aspose.Cells for Java için kapsamlı dokümanları ve kaynakları şu web sitesinde bulabilirsiniz:[Java için Aspose.Cells Belgeleri](https://reference.aspose.com/cells/java/).
+Aspose.Cells for Java için kapsamlı dokümanları ve kaynakları şu web sitesinde bulabilirsiniz: [Java için Aspose.Cells Belgeleri](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

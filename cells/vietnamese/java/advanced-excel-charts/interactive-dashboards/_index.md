@@ -1,10 +1,10 @@
 ---
-title: Bảng điều khiển tương tác
-linktitle: Bảng điều khiển tương tác
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Học cách tạo bảng điều khiển tương tác với Aspose.Cells cho Java. Hướng dẫn từng bước để xây dựng hình ảnh dữ liệu động.
-weight: 10
-url: /vi/java/advanced-excel-charts/interactive-dashboards/
+"description": "Học cách tạo bảng điều khiển tương tác với Aspose.Cells cho Java. Hướng dẫn từng bước để xây dựng hình ảnh dữ liệu động."
+"linktitle": "Bảng điều khiển tương tác"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Bảng điều khiển tương tác"
+"url": "/vi/java/advanced-excel-charts/interactive-dashboards/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Trong thế giới ra quyết định dựa trên dữ liệu với nhịp độ
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
--  Aspose.Cells cho Java: Tải xuống và cài đặt thư viện Aspose.Cells cho Java từ[đây](https://releases.aspose.com/cells/java/).
+- Aspose.Cells cho Java: Tải xuống và cài đặt thư viện Aspose.Cells cho Java từ [đây](https://releases.aspose.com/cells/java/).
 
 ## Thiết lập dự án của bạn
 
@@ -84,7 +84,7 @@ Các nút có thể kích hoạt các hành động trên bảng điều khiển
 worksheet.getShapes().addShape(MsoDrawingType.BUTTON, 1, 1, 3, 1);
 Button button = (Button) worksheet.getShapes().get(0);
 
-//Tùy chỉnh giao diện và hành vi của nút
+// Tùy chỉnh giao diện và hành vi của nút
 button.setText("Update Chart");
 button.setActionType(MsoButtonActionType.HYPERLINK);
 button.setHyperlink("Sheet1!A2");
@@ -116,7 +116,7 @@ Có, Aspose.Cells for Java cho phép bạn nhập dữ liệu từ nhiều ngu�
 
 ### Có giới hạn nào về số lượng thành phần tương tác mà tôi có thể thêm không?
 
-Số lượng thành phần tương tác bạn có thể thêm vào bảng điều khiển bị giới hạn bởi bộ nhớ khả dụng và tài nguyên hệ thống. Hãy lưu ý đến các cân nhắc về hiệu suất khi bạn thiết kế bảng điều khiển.
+Số lượng thành phần tương tác bạn có thể thêm vào bảng điều khiển bị giới hạn bởi bộ nhớ và tài nguyên hệ thống có sẵn. Hãy lưu ý đến các cân nhắc về hiệu suất khi bạn thiết kế bảng điều khiển.
 
 ### Tôi có thể xuất bảng điều khiển tương tác của mình sang các định dạng khác như PDF hoặc HTML không?
 
@@ -125,6 +125,7 @@ Có, Aspose.Cells for Java cung cấp khả năng xuất bảng thông tin tươ
 ### Aspose.Cells for Java có phù hợp cho các dự án trực quan hóa dữ liệu quy mô lớn không?
 
 Có, Aspose.Cells for Java phù hợp cho cả các dự án trực quan hóa dữ liệu quy mô nhỏ và lớn. Tính linh hoạt và bộ tính năng mở rộng của nó khiến nó trở thành lựa chọn mạnh mẽ cho các yêu cầu đa dạng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

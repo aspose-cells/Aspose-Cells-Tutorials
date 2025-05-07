@@ -1,10 +1,10 @@
 ---
-title: Chức năng phân tích dữ liệu Excel
-linktitle: Chức năng phân tích dữ liệu Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Mở khóa sức mạnh của phân tích dữ liệu trong Excel với Aspose.Cells cho Java. Tìm hiểu về sắp xếp, lọc, tính toán và bảng Pivot.
-weight: 10
-url: /vi/java/excel-data-analysis/data-analysis-functions-excel/
+"description": "Mở khóa sức mạnh của phân tích dữ liệu trong Excel với Aspose.Cells cho Java. Tìm hiểu về sắp xếp, lọc, tính toán và bảng Pivot."
+"linktitle": "Chức năng phân tích dữ liệu Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Chức năng phân tích dữ liệu Excel"
+"url": "/vi/java/excel-data-analysis/data-analysis-functions-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -40,7 +40,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Xác định phạm vi sắp xếp
 CellArea cellArea = new CellArea();
-cellArea.startRow = 1; //Bắt đầu từ hàng thứ hai (giả sử hàng đầu tiên là tiêu đề)
+cellArea.startRow = 1; // Bắt đầu từ hàng thứ hai (giả sử hàng đầu tiên là tiêu đề)
 cellArea.startColumn = 0; // Bắt đầu từ cột đầu tiên
 cellArea.endRow = worksheet.getCells().getMaxDataRow(); // Lấy hàng cuối cùng có dữ liệu
 cellArea.endColumn = worksheet.getCells().getMaxDataColumn(); // Lấy cột cuối cùng có dữ liệu
@@ -112,7 +112,8 @@ Bạn có thể tùy chỉnh giao diện của bảng trục bằng cách sửa 
 
 ### Tôi có thể tìm thêm ví dụ và tài nguyên nâng cao ở đâu?
 
- Để biết thêm các ví dụ, hướng dẫn và tài nguyên nâng cao về Aspose.Cells cho Java, vui lòng truy cập[Tài liệu Aspose.Cells cho Java](https://reference.aspose.com/cells/java/). Bạn sẽ tìm thấy rất nhiều thông tin giúp bạn thành thạo việc phân tích dữ liệu Excel với Aspose.Cells.
+Để biết thêm các ví dụ, hướng dẫn và tài nguyên nâng cao về Aspose.Cells cho Java, vui lòng truy cập [Tài liệu Aspose.Cells cho Java](https://reference.aspose.com/cells/java/). Bạn sẽ tìm thấy rất nhiều thông tin giúp bạn thành thạo việc phân tích dữ liệu Excel với Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

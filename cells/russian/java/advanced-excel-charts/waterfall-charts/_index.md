@@ -1,10 +1,10 @@
 ---
-title: Водопадные диаграммы
-linktitle: Водопадные диаграммы
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как создавать потрясающие каскадные диаграммы с помощью Aspose.Cells для Java. Пошаговое руководство с исходным кодом для эффективной визуализации данных.
-weight: 18
-url: /ru/java/advanced-excel-charts/waterfall-charts/
+"description": "Узнайте, как создавать потрясающие каскадные диаграммы с помощью Aspose.Cells для Java. Пошаговое руководство с исходным кодом для эффективной визуализации данных."
+"linktitle": "Водопадные диаграммы"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Водопадные диаграммы"
+"url": "/ru/java/advanced-excel-charts/waterfall-charts/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /ru/java/advanced-excel-charts/waterfall-charts/
 
 Прежде чем углубляться в детали, убедитесь, что у вас выполнены следующие предварительные условия:
 
--  Aspose.Cells for Java: Вам понадобится установленный Aspose.Cells for Java. Вы можете загрузить его с[здесь](https://releases.aspose.com/cells/java/).
+- Aspose.Cells for Java: Вам понадобится установленный Aspose.Cells for Java. Вы можете загрузить его с [здесь](https://releases.aspose.com/cells/java/).
 
 - Среда разработки Java: убедитесь, что в вашей системе установлена Java.
 
@@ -113,7 +113,8 @@ workbook.save("WaterfallChart.xlsx");
 
 ### Где я могу найти больше ресурсов и примеров по Aspose.Cells для Java?
 
- Вы можете изучить документацию по Aspose.Cells для Java по адресу[reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения подробной информации и примеров кода.
+Вы можете изучить документацию по Aspose.Cells для Java по адресу [ссылка.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения подробной информации и примеров кода.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

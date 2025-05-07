@@ -1,10 +1,10 @@
 ---
-title: Biểu đồ Excel Phân tích dữ liệu
-linktitle: Biểu đồ Excel Phân tích dữ liệu
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Mở khóa sự xuất sắc trong phân tích dữ liệu với Aspose.Cells cho Java. Tạo biểu đồ và báo cáo Excel tuyệt đẹp.
-weight: 15
-url: /vi/java/excel-data-analysis/data-analysis-excel-charts/
+"description": "Mở khóa sự xuất sắc trong phân tích dữ liệu với Aspose.Cells cho Java. Tạo biểu đồ và báo cáo Excel tuyệt đẹp."
+"linktitle": "Biểu đồ Excel Phân tích dữ liệu"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Biểu đồ Excel Phân tích dữ liệu"
+"url": "/vi/java/excel-data-analysis/data-analysis-excel-charts/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Trước khi đi sâu vào thế giới phân tích dữ liệu với Aspose.Cel
 
 - Môi trường phát triển Java: Đảm bảo rằng bạn đã cài đặt Java trên hệ thống của mình.
 
--  Aspose.Cells cho Java: Tải xuống và cài đặt thư viện Aspose.Cells cho Java từ[đây](https://releases.aspose.com/cells/java/).
+- Aspose.Cells cho Java: Tải xuống và cài đặt thư viện Aspose.Cells cho Java từ [đây](https://releases.aspose.com/cells/java/).
 
 - Nguồn dữ liệu: Chuẩn bị sẵn một tập dữ liệu để phân tích. Bạn có thể sử dụng bất kỳ nguồn dữ liệu nào, chẳng hạn như tệp CSV hoặc cơ sở dữ liệu.
 
@@ -64,7 +64,7 @@ worksheet.getCells().sort(0, true);
 AutoFilter autoFilter = worksheet.getAutoFilter();
 autoFilter.setRange("A1:D1");
 
-//Thực hiện chuyển đổi dữ liệu
+// Thực hiện chuyển đổi dữ liệu
 // (ví dụ, chuyển đổi tiền tệ, tính toán phần trăm)
 ```
 
@@ -102,7 +102,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách thực hiện phân
 
 ### Làm thế nào để cài đặt Aspose.Cells cho Java?
 
- Để cài đặt Aspose.Cells cho Java, hãy truy cập trang tải xuống tại[liên kết này](https://releases.aspose.com/cells/java/) và làm theo hướng dẫn cài đặt được cung cấp.
+Để cài đặt Aspose.Cells cho Java, hãy truy cập trang tải xuống tại [liên kết này](https://releases.aspose.com/cells/java/) và làm theo hướng dẫn cài đặt được cung cấp.
 
 ### Tôi có thể sử dụng Aspose.Cells cho Java với các thư viện Java khác không?
 
@@ -118,7 +118,8 @@ Aspose.Cells for Java hỗ trợ nhiều loại biểu đồ, bao gồm biểu �
 
 ### Tôi có thể tìm thêm tài nguyên và hướng dẫn về Aspose.Cells cho Java ở đâu?
 
- Để biết thêm tài nguyên và hướng dẫn về Aspose.Cells cho Java, hãy truy cập tài liệu tại[đây](https://reference.aspose.com/cells/java/).
+Để biết thêm tài nguyên và hướng dẫn về Aspose.Cells cho Java, hãy truy cập tài liệu tại [đây](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Phân tích dữ liệu Excel
-linktitle: Phân tích dữ liệu Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Mở khóa khả năng phân tích dữ liệu Excel mạnh mẽ với Aspose.Cells for Java. Khám phá hướng dẫn từng bước dành cho nhà phát triển Java. Nắm vững thông tin chi tiết về dữ liệu ngay hôm nay.
-weight: 12
-url: /vi/java/excel-data-analysis/
+"description": "Mở khóa khả năng phân tích dữ liệu Excel mạnh mẽ với Aspose.Cells for Java. Khám phá hướng dẫn từng bước dành cho nhà phát triển Java. Nắm vững thông tin chi tiết về dữ liệu ngay hôm nay."
+"linktitle": "Phân tích dữ liệu Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Phân tích dữ liệu Excel"
+"url": "/vi/java/excel-data-analysis/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,7 +20,7 @@ Trong lĩnh vực phân tích dữ liệu, Excel vẫn là công cụ nền tả
 
 ## Hướng dẫn từng bước cho các nhà phát triển Java
 
-Hướng dẫn toàn diện của chúng tôi đưa bạn vào hành trình khám phá thế giới phân tích dữ liệu Excel bằng Aspose.Cells for Java. Cho dù bạn là một nhà phát triển Java dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn từng bước của chúng tôi đảm bảo bạn nắm được những điều cốt yếu. Từ trích xuất và chuyển đổi dữ liệu đến tính toán và trực quan hóa nâng cao, bạn sẽ tìm thấy các hướng dẫn đáp ứng mọi cấp độ chuyên môn.
+Hướng dẫn toàn diện của chúng tôi sẽ đưa bạn vào hành trình khám phá thế giới phân tích dữ liệu Excel bằng Aspose.Cells for Java. Cho dù bạn là một nhà phát triển Java dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn từng bước của chúng tôi đảm bảo bạn nắm được những điều cốt yếu. Từ trích xuất và chuyển đổi dữ liệu đến tính toán và trực quan hóa nâng cao, bạn sẽ tìm thấy các hướng dẫn đáp ứng mọi cấp độ chuyên môn.
 
 ## Làm chủ thông tin chi tiết về dữ liệu ngày nay
 
@@ -37,6 +37,7 @@ Tìm hiểu Phân tích dữ liệu trong Excel với Aspose.Cells cho Java: Hư
 Mở khóa sự xuất sắc trong phân tích dữ liệu với Aspose.Cells cho Java. Tạo biểu đồ và báo cáo Excel tuyệt đẹp.
 ### [Công thức Excel Phân tích dữ liệu](./data-analysis-excel-formulas/)
 Mở khóa sức mạnh của phân tích dữ liệu trong Excel với Aspose.Cells cho Java. Tìm hiểu các công thức và kỹ thuật thiết yếu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

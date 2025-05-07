@@ -1,10 +1,10 @@
 ---
-title: Pivot Tablolar Oluşturma
-linktitle: Pivot Tablolar Oluşturma
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Gelişmiş veri analizi ve görselleştirme için Aspose.Cells ile Java'da güçlü Pivot Tablolar oluşturmayı öğrenin.
-weight: 10
-url: /tr/java/excel-pivot-tables/creating-pivot-tables/
+"description": "Gelişmiş veri analizi ve görselleştirme için Aspose.Cells ile Java'da güçlü Pivot Tablolar oluşturmayı öğrenin."
+"linktitle": "Pivot Tablolar Oluşturma"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Pivot Tablolar Oluşturma"
+"url": "/tr/java/excel-pivot-tables/creating-pivot-tables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -17,7 +17,7 @@ url: /tr/java/excel-pivot-tables/creating-pivot-tables/
 Pivot Tablolar, veri analizi ve görselleştirme için vazgeçilmez araçlardır. Bu eğitimde, Aspose.Cells for Java API'sini kullanarak Pivot Tabloların nasıl oluşturulacağını inceleyeceğiz. Süreci sorunsuz hale getirmek için size adım adım talimatlar ve kaynak kod örnekleri sunacağız.
 
 ## Ön koşullar
-Başlamadan önce, Aspose.Cells for Java kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/java/).
+Başlamadan önce, Aspose.Cells for Java kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/cells/java/).
 
 ## Adım 1: Bir Çalışma Kitabı Oluşturun
 ```java
@@ -56,7 +56,7 @@ PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
 ```
 
 ## Adım 5: Pivot Tablosunu Yapılandırın
-Pivot Tabloyu satırlar, sütunlar ve değerler ekleyerek, filtreler ayarlayarak ve daha fazlasını yaparak yapılandırabilirsiniz.
+Pivot Tablo'yu satırlar, sütunlar ve değerler ekleyerek, filtreler ayarlayarak vb. yapılandırabilirsiniz.
 
 ```java
 // Pivot Tablosunu Yapılandırın
@@ -69,13 +69,13 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 2);  // Değer katın
 Pivot Tablonun görünümünü ve davranışını ihtiyacınıza göre özelleştirebilirsiniz.
 
 ```java
-//Pivot Tablosunu Özelleştirin
+// Pivot Tablosunu Özelleştirin
 pivotTable.refreshData();
 pivotTable.calculateData();
 ```
 
 ## Adım 7: Çalışma Kitabını Kaydedin
-Son olarak Pivot Tablo ile çalışma kitabını kaydedin.
+Son olarak Pivot Table ile çalışma kitabını kaydedin.
 
 ```java
 // Çalışma kitabını kaydet

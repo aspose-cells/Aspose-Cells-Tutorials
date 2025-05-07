@@ -1,10 +1,10 @@
 ---
-title: Анимация диаграммы
-linktitle: Анимация диаграммы
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как создавать захватывающие анимации диаграмм с помощью Aspose.Cells для Java. Пошаговое руководство и исходный код включены для динамической визуализации данных.
-weight: 17
-url: /ru/java/advanced-excel-charts/chart-animation/
+"description": "Узнайте, как создавать захватывающие анимации диаграмм с помощью Aspose.Cells для Java. Пошаговое руководство и исходный код включены для динамической визуализации данных."
+"linktitle": "Анимация диаграммы"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Анимация диаграммы"
+"url": "/ru/java/advanced-excel-charts/chart-animation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /ru/java/advanced-excel-charts/chart-animation/
 
 Прежде чем приступить к созданию анимации диаграмм, убедитесь, что выполнены следующие предварительные условия:
 
-1.  Aspose.Cells for Java: Убедитесь, что у вас установлена библиотека Aspose.Cells for Java. Вы можете загрузить ее с[здесь](https://releases.aspose.com/cells/java/).
+1. Aspose.Cells for Java: Убедитесь, что у вас установлена библиотека Aspose.Cells for Java. Вы можете загрузить ее с [здесь](https://releases.aspose.com/cells/java/).
 
 2. Среда разработки Java: в вашей системе должна быть настроена среда разработки Java.
 
@@ -68,7 +68,7 @@ Chart chart = worksheet.getCharts().get(0); // При необходимости
 
 ```java
 chart.getChartObject().setAnimationType(AnimationType.SLIDE);
-chart.getChartObject().setAnimationDuration(1000); // Продолжительность анимации в миллисекундах
+chart.getChartObject().setAnimationDuration(1000); // Длительность анимации в миллисекундах
 chart.getChartObject().setAnimationDelay(500);    // Задержка перед началом анимации (миллисекунды)
 ```
 
@@ -88,15 +88,16 @@ workbook.save("output.xlsx");
 
 ### Как изменить тип анимации?
 
- Чтобы изменить тип анимации, используйте`setAnimationType` Метод на объекте диаграммы. Вы можете выбрать из различных типов, таких как`SLIDE`, `FADE` , и`GROW_SHRINK`.
+Чтобы изменить тип анимации, используйте `setAnimationType` метод на объекте диаграммы. Вы можете выбрать из различных типов, таких как `SLIDE`, `FADE`, и `GROW_SHRINK`.
 
 ### Могу ли я настроить продолжительность анимации?
 
- Да, вы можете настроить длительность анимации с помощью`setAnimationDuration` Метод. Укажите длительность в миллисекундах.
+Да, вы можете настроить длительность анимации с помощью `setAnimationDuration` Метод. Укажите длительность в миллисекундах.
 
 ### Какова цель задержки анимации?
 
- Задержка анимации определяет временной промежуток перед началом анимации диаграммы. Используйте`setAnimationDelay` метод установки задержки в миллисекундах.
+Задержка анимации определяет временной промежуток перед началом анимации диаграммы. Используйте `setAnimationDelay` метод установки задержки в миллисекундах.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

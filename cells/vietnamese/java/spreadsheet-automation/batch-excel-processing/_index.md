@@ -1,10 +1,10 @@
 ---
-title: Xử lý hàng loạt Excel
-linktitle: Xử lý hàng loạt Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Khám phá cách hợp lý hóa các tác vụ xử lý Excel hàng loạt với Aspose.Cells for Java. Tự động hóa việc xử lý, chuyển đổi và thao tác dữ liệu với các ví dụ về mã nguồn.
-weight: 10
-url: /vi/java/spreadsheet-automation/batch-excel-processing/
+"description": "Khám phá cách hợp lý hóa các tác vụ xử lý Excel hàng loạt với Aspose.Cells for Java. Tự động hóa việc xử lý, chuyển đổi và thao tác dữ liệu với các ví dụ về mã nguồn."
+"linktitle": "Xử lý hàng loạt Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Xử lý hàng loạt Excel"
+"url": "/vi/java/spreadsheet-automation/batch-excel-processing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -29,7 +29,7 @@ Việc tự động xử lý hàng loạt Excel mang lại một số lợi th�
 
 ### 1. Thiết lập môi trường
 
- Để bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Cells for Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
+Để bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Cells for Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/java/).
 
 ### 2. Khởi tạo Aspose.Cells
 
@@ -59,7 +59,7 @@ for (String filePath : excelFiles) {
     // Tải tệp Excel
     Workbook fileWorkbook = new Workbook(filePath);
     
-    //Thực hiện các tác vụ xử lý trên fileWorkbook
+    // Thực hiện các tác vụ xử lý trên fileWorkbook
 }
 ```
 
@@ -106,7 +106,7 @@ Tự động hóa xử lý hàng loạt Excel với Aspose.Cells for Java giúp 
    Có, bạn cần có giấy phép hợp lệ để sử dụng Aspose.Cells for Java trong các dự án của mình.
 
 ### 4. Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
-    Khám phá tài liệu API tại[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) để biết thông tin chi tiết và ví dụ.
+   Khám phá tài liệu API tại [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) để biết thông tin chi tiết và ví dụ.
 
 Tối ưu hóa các tác vụ xử lý Excel hàng loạt và tăng năng suất bằng Aspose.Cells cho Java.
 {{< /blocks/products/pf/tutorial-page-section >}}

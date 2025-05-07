@@ -1,10 +1,10 @@
 ---
-title: Tabel Pivot Dinamis
-linktitle: Tabel Pivot Dinamis
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Buat tabel pivot dinamis dengan mudah menggunakan Aspose.Cells untuk Java. Analisis dan rangkum data dengan mudah. Tingkatkan kemampuan analisis data Anda.
-weight: 13
-url: /id/java/excel-pivot-tables/dynamic-pivot-tables/
+"description": "Buat tabel pivot dinamis dengan mudah menggunakan Aspose.Cells untuk Java. Analisis dan rangkum data dengan mudah. Tingkatkan kemampuan analisis data Anda."
+"linktitle": "Tabel Pivot Dinamis"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Tabel Pivot Dinamis"
+"url": "/id/java/excel-pivot-tables/dynamic-pivot-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Tabel pivot adalah tabel interaktif yang memungkinkan Anda meringkas dan mengana
 
 ## Langkah 1: Mengimpor Pustaka Aspose.Cells
 
- Sebelum kita dapat membuat tabel pivot dinamis, kita perlu mengimpor pustaka Aspose.Cells ke dalam proyek Java kita. Anda dapat mengunduh pustaka tersebut dari rilis Aspose[Di Sini](https://releases.aspose.com/cells/java/).
+Sebelum kita dapat membuat tabel pivot dinamis, kita perlu mengimpor pustaka Aspose.Cells ke dalam proyek Java kita. Anda dapat mengunduh pustaka tersebut dari rilis Aspose [Di Sini](https://releases.aspose.com/cells/java/).
 
 Setelah Anda mengunduh pustaka, tambahkan ke jalur pembuatan proyek Anda.
 
@@ -35,7 +35,7 @@ Untuk bekerja dengan tabel pivot, pertama-tama kita perlu memuat buku kerja yang
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Mengganti`"your_excel_file.xlsx"` dengan jalur ke berkas Excel Anda.
+Mengganti `"your_excel_file.xlsx"` dengan jalur ke berkas Excel Anda.
 
 ## Langkah 3: Membuat Tabel Pivot
 
@@ -106,8 +106,8 @@ Ya, Anda dapat menerapkan filter ke tabel pivot untuk menampilkan subset data te
 
 ### Q5: Apakah Aspose.Cells mendukung fitur tabel pivot tingkat lanjut Excel?
 
-Ya, Aspose.Cells menyediakan dukungan luas untuk fitur tabel pivot tingkat lanjut Excel, yang memungkinkan Anda membuat tabel pivot yang kompleks.
-{{< /blocks/products/pf/tutorial-page-section >}}
+Ya, Aspose.Cells menyediakan dukungan luas untuk fitur tabel pivot Excel yang canggih, memungkinkan Anda membuat tabel pivot yang kompleks.
+{{< /blok/produk/pf/bagian-halaman-tutorial >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,10 +1,10 @@
 ---
-title: Автоматизированный ввод данных
-linktitle: Автоматизированный ввод данных
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как эффективно автоматизировать ввод данных с примерами исходного кода с помощью Aspose.Cells для Java. Повысьте производительность и точность обработки данных.
-weight: 11
-url: /ru/java/spreadsheet-automation/automated-data-entry/
+"description": "Узнайте, как эффективно автоматизировать ввод данных с примерами исходного кода с помощью Aspose.Cells для Java. Повысьте производительность и точность обработки данных."
+"linktitle": "Автоматизированный ввод данных"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Автоматизированный ввод данных"
+"url": "/ru/java/spreadsheet-automation/automated-data-entry/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -29,7 +29,7 @@ url: /ru/java/spreadsheet-automation/automated-data-entry/
 
 ### 1. Создание среды
 
- Для начала убедитесь, что у вас установлен Aspose.Cells for Java. Вы можете загрузить его с[здесь](https://releases.aspose.com/cells/java/).
+Для начала убедитесь, что у вас установлен Aspose.Cells for Java. Вы можете загрузить его с [здесь](https://releases.aspose.com/cells/java/).
 
 ### 2. Инициализация Aspose.Cells
 
@@ -112,10 +112,10 @@ validation.setFormula2("100");
    Вы можете реализовать правила проверки данных с помощью Aspose.Cells, как показано в статье.
 
 ### Где я могу найти дополнительные ресурсы и документацию по Aspose.Cells для Java?
-    Вы можете изучить документацию по адресу[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
+   Вы можете изучить документацию по адресу [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 Теперь у вас есть знания и инструменты для эффективной автоматизации ввода данных с помощью Aspose.Cells для Java. Начните улучшать процессы обработки данных и повышайте эффективность своего бизнеса.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

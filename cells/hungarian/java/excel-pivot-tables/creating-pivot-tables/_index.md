@@ -1,10 +1,10 @@
 ---
-title: Pivot táblák létrehozása
-linktitle: Pivot táblák létrehozása
-second_title: Aspose.Cells Java Excel Processing API
-description: Ismerje meg, hogyan hozhat létre hatékony pivot táblákat Java nyelven az Aspose.Cells segítségével a továbbfejlesztett adatelemzés és -vizualizáció érdekében.
-weight: 10
-url: /hu/java/excel-pivot-tables/creating-pivot-tables/
+"description": "Tanuld meg, hogyan hozhatsz létre hatékony pivot táblázatokat Java nyelven az Aspose.Cells segítségével a továbbfejlesztett adatelemzés és vizualizáció érdekében."
+"linktitle": "Pivot táblák létrehozása"
+"second_title": "Aspose.Cells Java Excel feldolgozási API"
+"title": "Pivot táblák létrehozása"
+"url": "/hu/java/excel-pivot-tables/creating-pivot-tables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,95 +14,95 @@ url: /hu/java/excel-pivot-tables/creating-pivot-tables/
 # Pivot táblák létrehozása
 
 ## Bevezetés
-A pivot táblák nélkülözhetetlen eszközök az adatok elemzéséhez és megjelenítéséhez. Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre kimutatástáblákat az Aspose.Cells for Java API használatával. A folyamat zökkenőmentessé tétele érdekében lépésről lépésre útmutatást adunk a forráskód példáival együtt.
+A pivot táblák nélkülözhetetlen eszközök az adatelemzéshez és -vizualizációhoz. Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan hozhatunk létre pivot táblákat az Aspose.Cells for Java API használatával. Lépésről lépésre bemutatjuk a folyamatot forráskódpéldákkal együtt.
 
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy telepítve van az Aspose.Cells for Java könyvtár. Letöltheti innen[itt](https://releases.aspose.com/cells/java/).
+Mielőtt elkezdenénk, győződjünk meg róla, hogy telepítve van az Aspose.Cells for Java könyvtár. Letöltheti innen: [itt](https://releases.aspose.com/cells/java/).
 
-## 1. lépés: Hozzon létre egy munkafüzetet
+## 1. lépés: Munkafüzet létrehozása
 ```java
-// Importálja a szükséges osztályokat
+// Szükséges osztályok importálása
 import com.aspose.cells.Workbook;
 
-// Hozzon létre egy új munkafüzetet
+// Új munkafüzet létrehozása
 Workbook workbook = new Workbook();
 ```
 
-## 2. lépés: Töltse be az adatokat a munkafüzetbe
+## 2. lépés: Adatok betöltése a munkafüzetbe
 Az adatokat különböző forrásokból, például adatbázisból vagy Excel-fájlból töltheti be a munkafüzetbe.
 
 ```java
-// Töltse be az adatokat a munkafüzetbe
+// Adatok betöltése a munkafüzetbe
 workbook.open("data.xlsx");
 ```
 
-## 3. lépés: Válassza ki az Adatok a kimutatáshoz
-Adja meg azt az adattartományt, amelyet fel szeretne venni a kimutatástáblázatba. 
+## 3. lépés: Adatok kiválasztása a kimutatástáblázathoz
+Adja meg a kimutatástáblázatba felvenni kívánt adattartományt. 
 
 ```java
-// Adja meg a Pivot Table adattartományát
+// Adja meg a kimutatástábla adattartományát
 String sourceData = "Sheet1!A1:D100"; // Módosítsa ezt az adattartományra
 ```
 
-## 4. lépés: Hozzon létre egy kimutatástáblát
-Most hozzuk létre a kimutatástáblát.
+## 4. lépés: Pivottábla létrehozása
+Most hozzuk létre a Pivot táblát.
 
 ```java
-// Hozzon létre egy kimutatástáblát
+// Kimutatási táblázat létrehozása
 int index = workbook.getWorksheets().add();
 Worksheet worksheet = workbook.getWorksheets().get(index);
 int pivotIndex = worksheet.getPivotTables().add(sourceData, "A1", "PivotTable1");
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
 ```
 
-## 5. lépés: Konfigurálja a Pivot Table-t
-A kimutatás konfigurálható sorok, oszlopok és értékek hozzáadásával, szűrők beállításával stb.
+## 5. lépés: A pivottábla konfigurálása
+A kimutatástáblázatot sorok, oszlopok és értékek hozzáadásával, szűrők beállításával és egyebekkel konfigurálhatja.
 
 ```java
-// Konfigurálja a Pivot Table-t
+// A pivottábla konfigurálása
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0);  // Sorok hozzáadása
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1);  // Oszlopok hozzáadása
 pivotTable.addFieldToArea(PivotFieldType.DATA, 2);  // Értékek hozzáadása
 ```
 
-## 6. lépés: A Pivot Table testreszabása
-Szükség szerint testreszabhatja a kimutatás megjelenését és viselkedését.
+## 6. lépés: A pivottábla testreszabása
+A Pivot tábla megjelenését és viselkedését szükség szerint testreszabhatja.
 
 ```java
-// Pivot Table testreszabása
+// A pivottábla testreszabása
 pivotTable.refreshData();
 pivotTable.calculateData();
 ```
 
-## 7. lépés: Mentse el a munkafüzetet
-Végül mentse el a munkafüzetet a kimutatástáblázattal.
+## 7. lépés: A munkafüzet mentése
+Végül mentse el a munkafüzetet a kimutatástáblával együtt.
 
 ```java
-// Mentse el a munkafüzetet
+// A munkafüzet mentése
 workbook.save("output.xlsx");
 ```
 
 ## Következtetés
-Ebben az oktatóanyagban végigvezettük a pivot táblák létrehozásának folyamatát az Aspose.Cells for Java API használatával. Most már könnyedén fejlesztheti adatelemzési és vizualizációs képességeit.
+Ebben az oktatóanyagban végigvezettük a pivot táblák létrehozásának folyamatán az Aspose.Cells for Java API használatával. Mostantól könnyedén fejlesztheted adatelemzési és vizualizációs képességeidet.
 
 ## GYIK
-### Mi az a Pivot Table?
-   A Pivot Table egy adatfeldolgozó eszköz, amely különféle forrásokból származó adatok összegzésére, elemzésére és megjelenítésére szolgál.
+### Mi az a pivot tábla?
+   pivot tábla egy adatfeldolgozó eszköz, amely különböző forrásokból származó adatok összefoglalására, elemzésére és vizualizálására szolgál.
 
 ### Hozzáadhatok több kimutatástáblát egyetlen munkalaphoz?
    Igen, szükség szerint több kimutatástáblát is hozzáadhat ugyanahhoz a munkalaphoz.
 
 ### Az Aspose.Cells kompatibilis a különböző adatformátumokkal?
-   Igen, az Aspose.Cells az adatformátumok széles skáláját támogatja, beleértve az Excelt, a CSV-t és egyebeket.
+   Igen, az Aspose.Cells számos adatformátumot támogat, beleértve az Excelt, a CSV-t és egyebeket.
 
-### Testreszabhatom a kimutatástábla formázását?
-   Természetesen testreszabhatja a kimutatás megjelenését és formázását az Ön preferenciáinak megfelelően.
+### Testreszabhatom a Pivot tábla formázását?
+   Természetesen testreszabhatja a pivot tábla megjelenését és formázását az igényeinek megfelelően.
 
-### Hogyan automatizálhatom a Pivot Table létrehozását Java alkalmazásokban?
-   Automatizálhatja a kimutatástábla létrehozását Java nyelven az Aspose.Cells for Java API használatával, amint azt ebben az oktatóanyagban bemutatjuk.
+### Hogyan automatizálhatom a Pivot tábla létrehozását Java alkalmazásokban?
+   A Java nyelven a Pivot tábla létrehozását automatizálhatod az Aspose.Cells for Java API használatával, ahogy az ebben az oktatóanyagban is látható.
 
-Most már birtokában van a tudásnak és a kódnak ahhoz, hogy hatékony pivot táblákat készítsen Java nyelven az Aspose.Cells használatával. Kísérletezzen különböző adatforrásokkal és konfigurációkkal, hogy a kimutatástáblázatokat az Ön egyedi igényeihez igazítsa. Jó adatelemzést!
-{{< /blocks/products/pf/tutorial-page-section >}}
+Most már rendelkezel a szükséges tudással és kóddal ahhoz, hogy hatékony Java pivot táblákat hozz létre az Aspose.Cells segítségével. Kísérletezz különböző adatforrásokkal és konfigurációkkal, hogy a pivot tábláidat a saját igényeidhez igazítsd. Jó adatelemzést!
+{{< /blokkok/termékek/pf/oktatóanyag-oldal-szakasz >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

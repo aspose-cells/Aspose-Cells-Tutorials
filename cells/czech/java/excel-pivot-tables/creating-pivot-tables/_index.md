@@ -1,10 +1,10 @@
 ---
-title: Vytváření kontingenčních tabulek
-linktitle: Vytváření kontingenčních tabulek
-second_title: Aspose.Cells Java Excel Processing API
-description: Naučte se vytvářet výkonné kontingenční tabulky v Javě pomocí Aspose.Cells pro vylepšenou analýzu a vizualizaci dat.
-weight: 10
-url: /cs/java/excel-pivot-tables/creating-pivot-tables/
+"description": "Naučte se, jak vytvářet výkonné kontingenční tabulky v Javě pomocí Aspose.Cells pro vylepšenou analýzu a vizualizaci dat."
+"linktitle": "Vytváření kontingenčních tabulek"
+"second_title": "Rozhraní API pro zpracování Excelu v Javě od Aspose.Cells"
+"title": "Vytváření kontingenčních tabulek"
+"url": "/cs/java/excel-pivot-tables/creating-pivot-tables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,29 +14,29 @@ url: /cs/java/excel-pivot-tables/creating-pivot-tables/
 # Vytváření kontingenčních tabulek
 
 ## Zavedení
-Kontingenční tabulky jsou nepostradatelnými nástroji pro analýzu a vizualizaci dat. V tomto tutoriálu prozkoumáme, jak vytvořit kontingenční tabulky pomocí Aspose.Cells for Java API. Poskytneme vám podrobné pokyny spolu s příklady zdrojového kódu, aby byl proces bezproblémový.
+Kontingenční tabulky jsou nepostradatelnými nástroji pro analýzu a vizualizaci dat. V tomto tutoriálu se podíváme na to, jak vytvořit kontingenční tabulky pomocí rozhraní Aspose.Cells for Java API. Poskytneme vám podrobné pokyny spolu s příklady zdrojového kódu, aby byl proces bezproblémový.
 
 ## Předpoklady
-Než začneme, ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
+Než začneme, ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells pro Javu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Vytvořte sešit
 ```java
-// Importujte potřebné třídy
+// Importovat potřebné třídy
 import com.aspose.cells.Workbook;
 
-// Vytvořte nový sešit
+// Vytvořit nový sešit
 Workbook workbook = new Workbook();
 ```
 
-## Krok 2: Načtěte data do sešitu
-Data do sešitu můžete načíst z různých zdrojů, jako je databáze nebo soubor aplikace Excel.
+## Krok 2: Načtení dat do sešitu
+Data můžete do sešitu načíst z různých zdrojů, například z databáze nebo souboru aplikace Excel.
 
 ```java
-// Načtěte data do sešitu
+// Načtení dat do sešitu
 workbook.open("data.xlsx");
 ```
 
-## Krok 3: Vyberte data pro kontingenční tabulku
+## Krok 3: Výběr dat pro kontingenční tabulku
 Zadejte rozsah dat, který chcete zahrnout do kontingenční tabulky. 
 
 ```java
@@ -45,7 +45,7 @@ String sourceData = "Sheet1!A1:D100"; // Změňte toto na rozsah dat
 ```
 
 ## Krok 4: Vytvořte kontingenční tabulku
-Nyní vytvoříme kontingenční tabulku.
+Nyní si vytvořme kontingenční tabulku.
 
 ```java
 // Vytvořte kontingenční tabulku
@@ -55,53 +55,53 @@ int pivotIndex = worksheet.getPivotTables().add(sourceData, "A1", "PivotTable1")
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
 ```
 
-## Krok 5: Nakonfigurujte kontingenční tabulku
-Kontingenční tabulku můžete nakonfigurovat přidáním řádků, sloupců a hodnot, nastavením filtrů a dalším.
+## Krok 5: Konfigurace kontingenční tabulky
+Kontingenční tabulku můžete konfigurovat přidáním řádků, sloupců a hodnot, nastavením filtrů a dalšími funkcemi.
 
 ```java
-// Nakonfigurujte kontingenční tabulku
+// Konfigurace kontingenční tabulky
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0);  // Přidat řádky
-pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1);  // Přidejte sloupce
-pivotTable.addFieldToArea(PivotFieldType.DATA, 2);  // Přidejte hodnoty
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1);  // Přidat sloupce
+pivotTable.addFieldToArea(PivotFieldType.DATA, 2);  // Přidat hodnoty
 ```
 
-## Krok 6: Přizpůsobte kontingenční tabulku
-Vzhled a chování kontingenční tabulky můžete přizpůsobit podle potřeby.
+## Krok 6: Přizpůsobení kontingenční tabulky
+Vzhled a chování kontingenční tabulky si můžete přizpůsobit dle potřeby.
 
 ```java
-//Přizpůsobte kontingenční tabulku
+// Přizpůsobení kontingenční tabulky
 pivotTable.refreshData();
 pivotTable.calculateData();
 ```
 
-## Krok 7: Uložte sešit
+## Krok 7: Uložení sešitu
 Nakonec uložte sešit s kontingenční tabulkou.
 
 ```java
-// Uložte sešit
+// Uložit sešit
 workbook.save("output.xlsx");
 ```
 
 ## Závěr
-V tomto tutoriálu jsme prošli procesem vytváření kontingenčních tabulek pomocí Aspose.Cells for Java API. Nyní můžete snadno vylepšit své možnosti analýzy dat a vizualizace.
+V tomto tutoriálu jsme si prošli procesem vytváření kontingenčních tabulek pomocí rozhraní Aspose.Cells for Java API. Nyní můžete snadno vylepšit své možnosti analýzy a vizualizace dat.
 
-## Nejčastější dotazy
-### Co je kontingenční tabulka?
-   Kontingenční tabulka je nástroj pro zpracování dat používaný k sumarizaci, analýze a vizualizaci dat z různých zdrojů.
+## Často kladené otázky
+### Co je to kontingenční tabulka?
+   Kontingenční tabulka je nástroj pro zpracování dat, který se používá k shrnutí, analýze a vizualizaci dat z různých zdrojů.
 
-### Mohu přidat více kontingenčních tabulek do jednoho listu?
-   Ano, podle potřeby můžete do stejného listu přidat více kontingenčních tabulek.
+### Mohu do jednoho listu přidat více kontingenčních tabulek?
+   Ano, do stejného listu můžete dle potřeby přidat více kontingenčních tabulek.
 
 ### Je Aspose.Cells kompatibilní s různými datovými formáty?
    Ano, Aspose.Cells podporuje širokou škálu datových formátů, včetně Excelu, CSV a dalších.
 
-### Mohu přizpůsobit formátování kontingenční tabulky?
-   Vzhled a formátování kontingenční tabulky můžete samozřejmě přizpůsobit svým preferencím.
+### Mohu si přizpůsobit formátování kontingenční tabulky?
+   Vzhled a formátování kontingenční tabulky si samozřejmě můžete přizpůsobit svým preferencím.
 
-### Jak mohu automatizovat vytváření kontingenční tabulky v aplikacích Java?
-   Vytváření kontingenční tabulky v Javě můžete automatizovat pomocí Aspose.Cells for Java API, jak je ukázáno v tomto kurzu.
+### Jak mohu automatizovat vytváření kontingenčních tabulek v aplikacích Java?
+   Vytváření kontingenčních tabulek v Javě můžete automatizovat pomocí rozhraní Aspose.Cells for Java API, jak je ukázáno v tomto tutoriálu.
 
-Nyní máte znalosti a kód k vytváření výkonných kontingenčních tabulek v Javě pomocí Aspose.Cells. Experimentujte s různými zdroji dat a konfiguracemi a přizpůsobte své kontingenční tabulky svým konkrétním potřebám. Šťastnou analýzu dat!
+Nyní máte znalosti a kód pro vytváření výkonných kontingenčních tabulek v Javě pomocí Aspose.Cells. Experimentujte s různými zdroji dat a konfiguracemi, abyste si kontingenční tabulky přizpůsobili svým specifickým potřebám. Přejeme vám příjemnou analýzu dat!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

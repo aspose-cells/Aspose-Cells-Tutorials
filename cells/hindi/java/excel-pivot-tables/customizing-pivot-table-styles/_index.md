@@ -1,10 +1,10 @@
 ---
-title: पिवट तालिका शैलियों को अनुकूलित करना
-linktitle: पिवट तालिका शैलियों को अनुकूलित करना
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: Aspose.Cells for Java API में पिवट टेबल शैलियों को अनुकूलित करना सीखें। आसानी से आकर्षक पिवट टेबल बनाएँ।
-weight: 18
-url: /hi/java/excel-pivot-tables/customizing-pivot-table-styles/
+"description": "Aspose.Cells for Java API में पिवट टेबल शैलियों को अनुकूलित करना सीखें। आसानी से आकर्षक पिवट टेबल बनाएँ।"
+"linktitle": "पिवट तालिका शैलियों को अनुकूलित करना"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "पिवट तालिका शैलियों को अनुकूलित करना"
+"url": "/hi/java/excel-pivot-tables/customizing-pivot-table-styles/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -18,7 +18,7 @@ url: /hi/java/excel-pivot-tables/customizing-pivot-table-styles/
 
 ## शुरू करना
 
- पिवट टेबल शैलियों को अनुकूलित करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Cells for Java लाइब्रेरी एकीकृत है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/java/).
+पिवट टेबल शैलियों को अनुकूलित करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Cells for Java लाइब्रेरी एकीकृत है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/java/).
 
 ## चरण 1: पिवट तालिका बनाएं
 
@@ -71,7 +71,7 @@ Aspose.Cells for Java API में पिवट टेबल शैलियो
 
 ## पूछे जाने वाले प्रश्न
 
-### क्या मैं पिवट तालिका डेटा के फ़ॉन्ट आकार को अनुकूलित कर सकता हूँ?
+### क्या मैं पिवट टेबल डेटा के फ़ॉन्ट आकार को अनुकूलित कर सकता हूँ?
    हां, आप अपनी पसंद के अनुसार फ़ॉन्ट आकार और अन्य स्वरूपण गुणों को समायोजित कर सकते हैं।
 
 ### क्या पिवट तालिकाओं के लिए पूर्वनिर्धारित शैलियाँ उपलब्ध हैं?
@@ -84,7 +84,7 @@ Aspose.Cells for Java API में पिवट टेबल शैलियो
    Java के लिए Aspose.Cells आपको अपने पिवट टेबल को विभिन्न प्रारूपों में सहेजने की अनुमति देता है, जिसमें एक्सेल, पीडीएफ और अन्य शामिल हैं।
 
 ### मैं पिवट टेबल अनुकूलन पर अधिक दस्तावेज़ कहां पा सकता हूं?
-    आप API दस्तावेज़न का संदर्भ यहां ले सकते हैं[Aspose.Cells for Java API संदर्भ](https://reference.aspose.com/cells/java/) विस्तृत जानकारी के लिए.
+   आप API दस्तावेज़न का संदर्भ यहां ले सकते हैं [Aspose.Cells for Java API संदर्भ](https://reference.aspose.com/cells/java/) विस्तृत जानकारी के लिए.
 
 अब आपके पास Aspose.Cells for Java में पिवट टेबल स्टाइल बनाने और कस्टमाइज़ करने का ज्ञान है। आगे की खोज करें और अपने डेटा प्रेजेंटेशन को वाकई असाधारण बनाएं!
 {{< /blocks/products/pf/tutorial-page-section >}}

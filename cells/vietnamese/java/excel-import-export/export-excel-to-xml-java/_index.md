@@ -1,10 +1,10 @@
 ---
-title: Xuất Excel sang XML Java
-linktitle: Xuất Excel sang XML Java
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách xuất Excel sang XML trong Java bằng Aspose.Cells for Java. Hướng dẫn từng bước với mã nguồn để chuyển đổi dữ liệu liền mạch.
-weight: 15
-url: /vi/java/excel-import-export/export-excel-to-xml-java/
+"description": "Tìm hiểu cách xuất Excel sang XML trong Java bằng Aspose.Cells for Java. Hướng dẫn từng bước với mã nguồn để chuyển đổi dữ liệu liền mạch."
+"linktitle": "Xuất Excel sang XML Java"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Xuất Excel sang XML Java"
+"url": "/vi/java/excel-import-export/export-excel-to-xml-java/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -21,7 +21,7 @@ Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn qu
 Trước khi bắt đầu, hãy đảm bảo bạn đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Thư viện Aspose.Cells cho Java, bạn có thể tải xuống[đây](https://releases.aspose.com/cells/java/).
+- Thư viện Aspose.Cells cho Java, bạn có thể tải xuống [đây](https://releases.aspose.com/cells/java/).
 
 ## Bước 1: Thiết lập dự án của bạn
 
@@ -122,6 +122,7 @@ Xin chúc mừng! Bạn đã học thành công cách xuất dữ liệu Excel s
 
 ### 5. Có yêu cầu cấp phép nào khi sử dụng Aspose.Cells cho Java không?
    Có, bạn sẽ cần phải có giấy phép hợp lệ từ Aspose để sử dụng thư viện trong môi trường sản xuất. Truy cập trang web của họ để biết thông tin chi tiết về giấy phép.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

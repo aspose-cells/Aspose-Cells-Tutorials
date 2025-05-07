@@ -1,10 +1,10 @@
 ---
-title: Adatelemzés Excel Pivot
-linktitle: Adatelemzés Excel Pivot
-second_title: Aspose.Cells Java Excel Processing API
-description: Tanuljon adatelemzést Excelben az Aspose.Cells for Java segítségével. Lépésről lépésre útmutató a pivot tábla hatékony használatához.
-weight: 13
-url: /hu/java/excel-data-analysis/data-analysis-excel-pivot/
+"description": "Tanulj adatelemzést Excelben az Aspose.Cells for Java segítségével. Lépésről lépésre útmutató a pivot tábla hatékony használatához."
+"linktitle": "Adatelemzés Excel Pivot"
+"second_title": "Aspose.Cells Java Excel feldolgozási API"
+"title": "Adatelemzés Excel Pivot"
+"url": "/hu/java/excel-data-analysis/data-analysis-excel-pivot/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,108 +14,109 @@ url: /hu/java/excel-data-analysis/data-analysis-excel-pivot/
 # Adatelemzés Excel Pivot
 
 
-## Az Aspose.Cells for Java bemutatása
+## Bevezetés az Aspose.Cells Java-ba
 
-Mielőtt belemerülnénk az adatelemzés finomságaiba, ismerkedjünk meg az Aspose.Cells for Java programmal. Ez a Java-könyvtár az Aspose.Cells termékcsalád része, amely Excel-fájlok kezelési képességeiről híres. Az Aspose.Cells for Java lehetővé teszi Excel-munkafüzetek, munkalapok, diagramok és pivot táblák programozott létrehozását, módosítását és kezelését.
+Mielőtt belemerülnénk az adatelemzés részleteibe, ismerkedjünk meg az Aspose.Cells for Java programmal. Ez a Java könyvtár az Aspose.Cells termékcsalád része, amely az Excel-fájlok kezelésében való képességeiről ismert. Az Aspose.Cells for Java lehetővé teszi Excel-munkafüzetek, munkalapok, diagramok és pivot-táblázatok programozott létrehozását, módosítását és kezelését.
 
 ## Előfeltételek
 
-Az útmutató követéséhez a következőkre lesz szüksége:
+Az útmutató követéséhez a következőkre lesz szükséged:
 
-- Java fejlesztői környezet: Győződjön meg arról, hogy a Java telepítve van a rendszeren.
--  Aspose.Cells for Java: Töltse le és foglalja bele projektjébe az Aspose.Cells for Java könyvtárat. A letöltési linket megtalálod[itt](https://releases.aspose.com/cells/java/).
+- Java fejlesztői környezet: Győződjön meg róla, hogy a Java telepítve van a rendszerén.
+- Aspose.Cells Java-hoz: Töltsd le és építsd be az Aspose.Cells Java-hoz könyvtárat a projektedbe. A letöltési linket itt találod: [itt](https://releases.aspose.com/cells/java/).
 - Mintaadatok: Készítse elő az elemezni kívánt Excel-adatokat.
 
-## Új Excel munkafüzet készítése
+## Új Excel-munkafüzet létrehozása
 
-Kezdjük egy új Excel-munkafüzet létrehozásával az Aspose.Cells for Java használatával. Ez szolgál majd adatelemzésünk alapjául.
+Kezdjük egy új Excel-munkafüzet létrehozásával az Aspose.Cells for Java használatával. Ez szolgál majd az adatelemzésünk alapjául.
 
 ```java
-// Java-kód új Excel-munkafüzet létrehozásához
+// Java kód új Excel munkafüzet létrehozásához
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
 ## Adatok importálása Excelbe
 
-Most, hogy van egy üres munkafüzetünk, importálhatjuk bele adatainkat. Adatokat olvashat különféle forrásokból, például adatbázisokból, CSV-fájlokból, vagy akár manuálisan is beviheti az adatokat.
+Most, hogy van egy üres munkafüzetünk, importálhatjuk bele az adatainkat. Különböző forrásokból, például adatbázisokból, CSV-fájlokból olvashat adatokat, vagy akár manuálisan is beírhatja az adatokat.
 
 ```java
-// Java kód adatok Excelbe importálásához
+// Java kód az adatok Excelbe importálásához
 Cells cells = worksheet.getCells();
 cells.importData(yourDataArray, 0, 0, importOptions);
 ```
 
 ## Pivot táblák létrehozása
 
-A kimutatástáblák hatékony módszert jelentenek az adatok Excelben történő összegzésére és elemzésére. Hozzon létre egy pivot táblát a munkafüzetünkben az adatelemzés megkönnyítése érdekében.
+A kimutatástáblázatok hatékony módszereket kínálnak az adatok Excelben történő összefoglalására és elemzésére. Hozzunk létre egy kimutatástáblázatot a munkafüzetünkben az adatelemzés megkönnyítése érdekében.
 
 ```java
-// Java kód pivot tábla létrehozásához
+// Java kód egy pivot tábla létrehozásához
 PivotTableCollection pivotTables = worksheet.getPivotTables();
 int index = pivotTables.add("A1", "E10", "PivotTable");
 PivotTable pivotTable = pivotTables.get(index);
 ```
 
-## Pivot tábla mezők meghatározása
+## Kimutatástábla mezők definiálása
 
-Az adatelemzés hatékony végrehajtásához meg kell határoznunk, hogy mely mezőket vegyük fel a kimutatástáblázatunkba. Ezek a mezők lehetnek az importált adataink oszlopai.
+Az adatelemzés hatékony elvégzéséhez meg kell adnunk, hogy mely mezőket foglaljuk bele a pivot táblázatunkba. Ezek a mezők lehetnek az importált adataink oszlopai.
 
 ```java
-// Java kód a pivot tábla mezőinek meghatározásához
+// Java kód a pivot tábla mezőinek definiálásához
 PivotFieldCollection pivotFields = pivotTable.getRowFields();
-pivotFields.add(cells, 0); // Adja hozzá az első oszlopot sormezőként
+pivotFields.add(cells, 0); // Első oszlop hozzáadása sormezőként
 ```
 
 ## Adatok összesítése
 
-pivot tábla beállítása után igényeink alapján összesíthetjük és összesíthetjük az adatokat. Megadhat olyan összesítő függvényeket, mint az összeg, az átlag, a szám stb.
+Miután a pivot tábla be van állítva, az igényeink szerint összesíthetjük és összegezhetjük az adatokat. Megadhatunk olyan összesítő függvényeket, mint az összeg, átlag, darabszám stb.
 
 ```java
-// Java kód az adatok összesítéséhez a pivot táblában
-pivotTable.addFieldToArea(0, PivotFieldType.DATA); // Adja hozzá az első oszlopot adatmezőként
-pivotTable.getDataFields().get(0).setFunction(PivotFieldFunctionType.SUM); // Használja a SUM függvényt
+// Java kód az adatok összesítéséhez a pivot táblázatban
+pivotTable.addFieldToArea(0, PivotFieldType.DATA); // Első oszlop hozzáadása adatmezőként
+pivotTable.getDataFields().get(0).setFunction(PivotFieldFunctionType.SUM); // Használja a SZUM függvényt
 ```
 
-## A kimutatástábla elrendezésének testreszabása
+## Pivot tábla elrendezésének testreszabása
 
-Pivot táblánk informatívabbá tétele érdekében testreszabhatjuk az elrendezését, például szűrőket hozzáadhatunk, rendezhetünk és megváltoztathatjuk a mezők pozícióját.
+A pivot táblázatunk informatívabbá tétele érdekében testreszabhatjuk az elrendezését, például szűrőket adhatunk hozzá, rendezhetjük és módosíthatjuk a mezők pozícióit.
 
 ```java
 // Java kód a pivot tábla elrendezésének testreszabásához
-pivotTable.addFieldToArea(1, PivotFieldType.PAGE); // A második oszlop hozzáadása oldalmezőként (szűrő)
-pivotTable.getField(1).setDisplayAutomaticSubtotals(false); // Az automatikus részösszegek letiltása
+pivotTable.addFieldToArea(1, PivotFieldType.PAGE); // A második oszlop hozzáadása oldalmezőként (szűrőként)
+pivotTable.getField(1).setDisplayAutomaticSubtotals(false); // Automatikus részösszegek letiltása
 ```
 
 ## Adatok elemzése
 
-Most, hogy elkészítettük és testreszabtuk kimutatástáblánkat, ideje elemezni az adatokat. A pivot tábla segítségével betekintést nyerhet, trendeket észlelhet, és megalapozott döntéseket hozhat.
+Most, hogy létrehoztuk és testreszabtuk a kimutatástáblánkat, itt az ideje elemezni az adatokat. A kimutatástábla segítségével elemzéseket generálhat, trendeket észlelhet, és megalapozott döntéseket hozhat.
 
 ## Következtetés
 
-Ebben az útmutatóban megvizsgáltuk, hogyan végezhet adatelemzést Excelben az Aspose.Cells for Java használatával. Egy új munkafüzet létrehozásával, adatok importálásával és egy kimutatástábla létrehozásával kezdtük. Ezután meghatároztuk a pivot tábla mezőit, összesítettük az adatokat, és testreszabtuk az elrendezést. Ezekkel a rendelkezésére álló eszközökkel kibontakoztathatja az adatelemzés teljes potenciálját az Excelben a Java segítségével.
+Ebben az útmutatóban azt vizsgáltuk meg, hogyan végezhetünk adatelemzést Excelben az Aspose.Cells for Java használatával. Először létrehoztunk egy új munkafüzetet, importáltuk az adatokat, majd létrehoztunk egy kimutatástáblát. Ezután definiáltuk a kimutatástábla mezőit, összesítettük az adatokat, és testre szabtuk az elrendezést. Ezekkel az eszközökkel kiaknázhatjuk az adatelemzés teljes potenciálját az Excelben Java használatával.
 
 ## GYIK
 
-### Hogyan telepíthetem az Aspose.Cells for Java programot?
+### Hogyan telepíthetem az Aspose.Cells-t Java-hoz?
 
- Az Aspose.Cells for Java letölthető a webhelyről[itt](https://releases.aspose.com/cells/java/). Kövesse a mellékelt telepítési utasításokat a Java projektben történő beállításához.
+Az Aspose.Cells for Java programot letöltheted a weboldalról. [itt](https://releases.aspose.com/cells/java/)Kövesd a telepítési utasításokat a Java-projektedben való beállításhoz.
 
-### Végezhetek speciális számításokat pivot táblákban?
+### Végezhetek el speciális számításokat a pivot táblázatokban?
 
-Igen, különféle számításokat végezhet a kimutatástáblázatokban, beleértve az összeget, az átlagot, a számlálást és egyebeket. Az Aspose.Cells for Java kiterjedt támogatást nyújt a pivot tábla számítások testreszabásához.
+Igen, a pivot táblákban különféle számításokat végezhet, beleértve az összegzést, átlagolást, darabszámot és egyebeket. Az Aspose.Cells for Java széleskörű támogatást nyújt a pivot tábla számításainak testreszabásához.
 
-### Alkalmas az Aspose.Cells for Java nagy adatkészletekhez?
+### Alkalmas az Aspose.Cells for Java nagy adathalmazokhoz?
 
-Igen, az Aspose.Cells for Java nagy adatkészletek hatékony kezelésére készült. Olyan funkciókat kínál, mint az adatlapozás és a streaming, hogy jelentős mennyiségű adattal optimalizálja a teljesítményt.
+Igen, az Aspose.Cells for Java-t úgy tervezték, hogy hatékonyan kezelje a nagy adathalmazokat. Olyan funkciókat biztosít, mint az adatlapozás és a streamelés, hogy optimalizálja a teljesítményt jelentős mennyiségű adat esetén.
 
 ### Automatizálhatom az adatelemzési feladatokat az Aspose.Cells for Java segítségével?
 
-Teljesen! Az Aspose.Cells for Java lehetővé teszi az adatelemzési feladatok automatizálását az Excel-fájlok kezeléséhez szükséges Java kód írásával. Ezeket a feladatokat ütemezheti vagy integrálhatja alkalmazásaiba a zökkenőmentes automatizálás érdekében.
+Abszolút! Az Aspose.Cells for Java lehetővé teszi az adatelemzési feladatok automatizálását Java kód írásával az Excel fájlok kezeléséhez. Ezeket a feladatokat ütemezheti, vagy integrálhatja az alkalmazásaiba a zökkenőmentes automatizálás érdekében.
 
-### Vannak licenckövetelmények az Aspose.Cells for Java számára?
+### Vannak licencelési követelmények az Aspose.Cells for Java használatához?
 
-Igen, az Aspose.Cells for Java egy kereskedelmi célú könyvtár, és a projektekben való használatához érvényes licencre lesz szüksége. Látogasson el az Aspose webhelyére a licencekkel és az árakkal kapcsolatos információkért.
+Igen, az Aspose.Cells for Java egy kereskedelmi célú könyvtár, és érvényes licencre lesz szükséged a projektekben való használatához. A licencelési részletekért és az árakért látogass el az Aspose weboldalára.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

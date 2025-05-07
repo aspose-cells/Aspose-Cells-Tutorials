@@ -1,10 +1,10 @@
 ---
-title: Importowanie danych zbiorczych do programu Excel
-linktitle: Importowanie danych zbiorczych do programu Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak wykonać masowy import danych z programu Excel za pomocą interfejsu API Aspose.Cells for Java. Usprawnij przetwarzanie danych dzięki temu przewodnikowi krok po kroku.
-weight: 10
-url: /pl/java/excel-import-export/bulk-data-import-excel/
+"description": "Dowiedz się, jak wykonać masowy import danych z programu Excel za pomocą interfejsu API Aspose.Cells for Java. Usprawnij przetwarzanie danych dzięki temu przewodnikowi krok po kroku."
+"linktitle": "Importowanie danych zbiorczych do programu Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Importowanie danych zbiorczych do programu Excel"
+"url": "/pl/java/excel-import-export/bulk-data-import-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,7 +14,7 @@ url: /pl/java/excel-import-export/bulk-data-import-excel/
 # Importowanie danych zbiorczych do programu Excel
 
 
-tym kompleksowym przewodniku przeprowadzimy Cię przez proces wykonywania masowego importu danych z programu Excel przy użyciu potężnego interfejsu API Aspose.Cells for Java. Niezależnie od tego, czy masz do czynienia z dużym zestawem danych, czy po prostu chcesz usprawnić przetwarzanie danych, ten samouczek krok po kroku z przykładami kodu źródłowego pomoże Ci skutecznie osiągnąć Twoje cele.
+W tym kompleksowym przewodniku przeprowadzimy Cię przez proces masowego importu danych z programu Excel przy użyciu potężnego interfejsu API Aspose.Cells for Java. Niezależnie od tego, czy masz do czynienia z dużym zestawem danych, czy po prostu chcesz usprawnić przetwarzanie danych, ten samouczek krok po kroku z przykładami kodu źródłowego pomoże Ci skutecznie osiągnąć Twoje cele.
 
 ## Wstęp
 
@@ -24,7 +24,7 @@ Masowy import danych z Excela jest powszechnym wymogiem w wielu aplikacjach Java
 
 Zanim przejdziemy do wdrożenia, upewnij się, że spełnione są następujące wymagania wstępne:
 
--  Biblioteka Aspose.Cells dla Java: Pobierz i zainstaluj bibliotekę ze strony[Tutaj](https://releases.aspose.com/cells/java/).
+- Biblioteka Aspose.Cells dla Java: Pobierz i zainstaluj bibliotekę ze strony [Tutaj](https://releases.aspose.com/cells/java/).
 
 - Środowisko programistyczne Java: Upewnij się, że w swoim systemie masz skonfigurowane środowisko programistyczne Java.
 

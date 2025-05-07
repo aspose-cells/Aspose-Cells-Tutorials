@@ -1,10 +1,10 @@
 ---
-title: Проверка данных для безопасности
-linktitle: Проверка данных для безопасности
-second_title: API обработки Java Excel Aspose.Cells
-description: Повысьте безопасность данных с помощью Aspose.Cells для Java. Изучите комплексные методы проверки данных. Узнайте, как реализовать надежную проверку и защиту.
-weight: 17
-url: /ru/java/excel-data-security/data-validation-for-security/
+"description": "Повысьте безопасность данных с помощью Aspose.Cells для Java. Изучите комплексные методы проверки данных. Узнайте, как реализовать надежную проверку и защиту."
+"linktitle": "Проверка данных для безопасности"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Проверка данных для безопасности"
+"url": "/ru/java/excel-data-security/data-validation-for-security/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -31,7 +31,7 @@ url: /ru/java/excel-data-security/data-validation-for-security/
 Прежде чем погрузиться в проверку данных, давайте настроим нашу среду разработки с Aspose.Cells for Java. Выполните следующие шаги, чтобы начать:
 
 ### Установка
-1.  Загрузите библиотеку Aspose.Cells для Java с сайта[здесь](https://releases.aspose.com/cells/java/).
+1. Загрузите библиотеку Aspose.Cells для Java с сайта [здесь](https://releases.aspose.com/cells/java/).
 2. Добавьте библиотеку в свой проект Java.
 
 ### Инициализация
@@ -152,6 +152,7 @@ workbook.protect(ProtectionType.ALL);
 ### Какие существуют передовые методы проверки данных?
 
 Расширенные методы включают каскадные раскрывающиеся списки и использование формул для проверки.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

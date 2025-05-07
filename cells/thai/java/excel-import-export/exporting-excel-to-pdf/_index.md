@@ -1,10 +1,10 @@
 ---
-title: การส่งออก Excel ไปยัง PDF
-linktitle: การส่งออก Excel ไปยัง PDF
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีการส่งออกไฟล์ Excel เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนของเราจะทำให้กระบวนการนี้ง่ายขึ้น เริ่มแปลงไฟล์ได้แล้ววันนี้!
-weight: 14
-url: /th/java/excel-import-export/exporting-excel-to-pdf/
+"description": "เรียนรู้วิธีการส่งออกไฟล์ Excel เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนของเราจะทำให้กระบวนการนี้ง่ายขึ้น เริ่มแปลงไฟล์ได้แล้ววันนี้!"
+"linktitle": "การส่งออก Excel ไปยัง PDF"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การส่งออก Excel ไปยัง PDF"
+"url": "/th/java/excel-import-export/exporting-excel-to-pdf/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -61,7 +61,7 @@ public class ExcelToPdfConverter {
 }
 ```
 
- ให้แน่ใจว่าคุณเปลี่ยน`"path/to/your/excel/file.xlsx"` พร้อมเส้นทางจริงไปยังไฟล์ Excel ของคุณ
+ให้แน่ใจว่าคุณเปลี่ยน `"path/to/your/excel/file.xlsx"` พร้อมเส้นทางจริงไปยังไฟล์ Excel ของคุณ
 
 ## ขั้นตอนที่ 3: แปลง Excel เป็น PDF
 
@@ -73,7 +73,7 @@ String pdfFilePath = "path/to/output/pdf/file.pdf";
 workbook.save(pdfFilePath, SaveFormat.PDF);
 ```
 
- แทนที่`"path/to/output/pdf/file.pdf"` พร้อมเส้นทางเอาต์พุตที่คุณต้องการและชื่อไฟล์สำหรับเอกสาร PDF ที่ได้
+แทนที่ `"path/to/output/pdf/file.pdf"` พร้อมเส้นทางเอาต์พุตที่คุณต้องการและชื่อไฟล์สำหรับเอกสาร PDF ที่ได้
 
 ## ขั้นตอนที่ 4: ปรับปรุงแอปพลิเคชัน Java ของคุณ
 
@@ -81,7 +81,7 @@ workbook.save(pdfFilePath, SaveFormat.PDF);
 
 ## บทสรุป
 
-ขอแสดงความยินดี! คุณได้เชี่ยวชาญศิลปะในการส่งออกไฟล์ Excel ไปยัง PDF โดยใช้ไลบรารี Aspose.Cells สำหรับ Java แล้ว เครื่องมืออันทรงพลังนี้ช่วยลดความซับซ้อนในการจัดการไฟล์ Excel ด้วยโปรแกรม และทำให้คุณสามารถสร้างเอกสาร PDF ได้อย่างง่ายดายจากข้อมูล Excel ของคุณ
+ขอแสดงความยินดี! คุณได้เชี่ยวชาญในการส่งออกไฟล์ Excel ไปยัง PDF โดยใช้ไลบรารี Aspose.Cells สำหรับ Java แล้ว เครื่องมืออันทรงพลังนี้ช่วยลดความซับซ้อนในการจัดการไฟล์ Excel ด้วยโปรแกรม และทำให้คุณสามารถสร้างเอกสาร PDF จากข้อมูล Excel ได้อย่างง่ายดาย
 
 ---
 
@@ -105,7 +105,7 @@ workbook.save(pdfFilePath, SaveFormat.PDF);
 
 คำถามที่ 5: ฉันสามารถหาเอกสารและตัวอย่างเพิ่มเติมสำหรับ Aspose.Cells ได้จากที่ไหน
 
- สำรวจเอกสาร API ของ Aspose.Cells ได้ที่[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) เพื่อเอกสารประกอบที่ครอบคลุมและตัวอย่างมากมายที่จะช่วยเพิ่มพูนความรู้ของคุณเพิ่มเติม
+สำรวจเอกสาร API ของ Aspose.Cells ได้ที่ [https://reference.aspose.com/เซลล์/จาวา/](https://reference.aspose.com/cells/java/) เพื่อเอกสารประกอบที่ครอบคลุมและตัวอย่างมากมายเพื่อขยายความรู้ของคุณเพิ่มเติม
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

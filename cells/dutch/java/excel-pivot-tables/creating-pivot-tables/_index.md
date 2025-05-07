@@ -1,10 +1,10 @@
 ---
-title: Draaitabellen maken
-linktitle: Draaitabellen maken
-second_title: Aspose.Cells Java Excel-verwerkings-API
-description: Ontdek hoe u krachtige draaitabellen in Java maakt met Aspose.Cells voor verbeterde gegevensanalyse en -visualisatie.
-weight: 10
-url: /nl/java/excel-pivot-tables/creating-pivot-tables/
+"description": "Ontdek hoe u krachtige draaitabellen in Java maakt met Aspose.Cells voor verbeterde gegevensanalyse en -visualisatie."
+"linktitle": "Draaitabellen maken"
+"second_title": "Aspose.Cells Java Excel-verwerkings-API"
+"title": "Draaitabellen maken"
+"url": "/nl/java/excel-pivot-tables/creating-pivot-tables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,12 +14,12 @@ url: /nl/java/excel-pivot-tables/creating-pivot-tables/
 # Draaitabellen maken
 
 ## Invoering
-Draaitabellen zijn onmisbare tools voor data-analyse en visualisatie. In deze tutorial gaan we onderzoeken hoe je draaitabellen maakt met behulp van de Aspose.Cells voor Java API. We geven je stapsgewijze instructies samen met broncodevoorbeelden om het proces naadloos te laten verlopen.
+Draaitabellen zijn onmisbare tools voor data-analyse en -visualisatie. In deze tutorial laten we zien hoe je draaitabellen maakt met behulp van de Aspose.Cells voor Java API. We geven je stapsgewijze instructies en broncodevoorbeelden om het proces soepel te laten verlopen.
 
 ## Vereisten
-Voordat we beginnen, zorg ervoor dat je de Aspose.Cells for Java-bibliotheek hebt geïnstalleerd. Je kunt deze downloaden van[hier](https://releases.aspose.com/cells/java/).
+Voordat we beginnen, zorg ervoor dat je de Aspose.Cells voor Java-bibliotheek hebt geïnstalleerd. Je kunt deze downloaden van [hier](https://releases.aspose.com/cells/java/).
 
-## Stap 1: Maak een werkmap
+## Stap 1: Maak een werkboek
 ```java
 // Importeer noodzakelijke klassen
 import com.aspose.cells.Workbook;
@@ -41,7 +41,7 @@ Geef het gegevensbereik op dat u in de draaitabel wilt opnemen.
 
 ```java
 // Geef het gegevensbereik voor de draaitabel op
-String sourceData = "Sheet1!A1:D100"; // Wijzig dit naar uw gegevensbereik
+String sourceData = "Sheet1!A1:D100"; // Verander dit naar uw gegevensbereik
 ```
 
 ## Stap 4: Een draaitabel maken
@@ -65,11 +65,11 @@ pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1);  // Kolommen toevoegen
 pivotTable.addFieldToArea(PivotFieldType.DATA, 2);  // Waarden toevoegen
 ```
 
-## Stap 6: Pas de draaitabel aan
-U kunt het uiterlijk en het gedrag van de draaitabel naar wens aanpassen.
+## Stap 6: De draaitabel aanpassen
+U kunt het uiterlijk en gedrag van de draaitabel naar wens aanpassen.
 
 ```java
-//De draaitabel aanpassen
+// De draaitabel aanpassen
 pivotTable.refreshData();
 pivotTable.calculateData();
 ```
@@ -78,16 +78,16 @@ pivotTable.calculateData();
 Sla ten slotte de werkmap met de draaitabel op.
 
 ```java
-// Werkmap opslaan
+// Sla de werkmap op
 workbook.save("output.xlsx");
 ```
 
 ## Conclusie
-In deze tutorial hebben we het proces van het maken van draaitabellen met behulp van de Aspose.Cells voor Java API doorlopen. U kunt nu uw data-analyse en visualisatiemogelijkheden eenvoudig verbeteren.
+In deze tutorial hebben we het proces van het maken van draaitabellen met behulp van de Aspose.Cells voor Java API doorlopen. Je kunt nu eenvoudig je mogelijkheden voor data-analyse en -visualisatie verbeteren.
 
 ## Veelgestelde vragen
 ### Wat is een draaitabel?
-   Een draaitabel is een gegevensverwerkingshulpmiddel waarmee u gegevens uit verschillende bronnen kunt samenvatten, analyseren en visualiseren.
+   Een draaitabel is een hulpmiddel voor gegevensverwerking waarmee u gegevens uit verschillende bronnen kunt samenvatten, analyseren en visualiseren.
 
 ### Kan ik meerdere draaitabellen aan één werkblad toevoegen?
    Ja, u kunt indien nodig meerdere draaitabellen aan hetzelfde werkblad toevoegen.
@@ -99,10 +99,10 @@ In deze tutorial hebben we het proces van het maken van draaitabellen met behulp
    Jazeker, u kunt het uiterlijk en de opmaak van uw draaitabel aanpassen aan uw voorkeuren.
 
 ### Hoe kan ik het maken van draaitabellen in Java-toepassingen automatiseren?
-   kunt het maken van draaitabellen in Java automatiseren met behulp van de Aspose.Cells voor Java API, zoals in deze tutorial wordt gedemonstreerd.
+   U kunt het maken van draaitabellen in Java automatiseren met behulp van de Aspose.Cells voor Java API, zoals in deze tutorial wordt gedemonstreerd.
 
-Nu heb je de kennis en code om krachtige draaitabellen in Java te maken met Aspose.Cells. Experimenteer met verschillende gegevensbronnen en configuraties om je draaitabellen aan te passen aan jouw specifieke behoeften. Veel plezier met data-analyse!
-{{< /blocks/products/pf/tutorial-page-section >}}
+Nu beschikt u over de kennis en code om krachtige draaitabellen in Java te maken met Aspose.Cells. Experimenteer met verschillende gegevensbronnen en configuraties om uw draaitabellen aan te passen aan uw specifieke behoeften. Veel plezier met uw data-analyse!
+{{< /blocks/producten/pf/tutorial-pagina-sectie >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

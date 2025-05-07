@@ -120,7 +120,7 @@ book.Worksheets[0].Split();
 Save your modifications to preserve the pane splits for future use:
 
 ```csharp
-// Save the workbook with split panesook.Save(dataDir + "output.xls");
+// Save the workbook with split panes book.Save(dataDir + "output.xls");
 ```
 
 **Troubleshooting Tip**: If saving issues arise, ensure that your file path is correct and accessible by your application.

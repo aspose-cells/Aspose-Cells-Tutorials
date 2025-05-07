@@ -1,10 +1,10 @@
 ---
-title: Templat Bagan Kustom
-linktitle: Templat Bagan Kustom
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara membuat templat bagan kustom yang menakjubkan di Java dengan Aspose.Cells. Panduan langkah demi langkah ini mencakup semua yang Anda butuhkan untuk visualisasi data yang dinamis.
-weight: 11
-url: /id/java/advanced-excel-charts/custom-chart-templates/
+"description": "Pelajari cara membuat templat bagan kustom yang menakjubkan di Java dengan Aspose.Cells. Panduan langkah demi langkah ini mencakup semua yang Anda butuhkan untuk visualisasi data yang dinamis."
+"linktitle": "Templat Bagan Kustom"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Templat Bagan Kustom"
+"url": "/id/java/advanced-excel-charts/custom-chart-templates/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -27,7 +27,7 @@ Sebelum kita mulai membuat templat bagan kustom, mari berkenalan dengan Aspose.C
 Untuk mengikuti tutorial ini, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.Cells untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
 
 ## Membuat Template Bagan Kustom
 
@@ -106,7 +106,7 @@ Membuat templat bagan kustom menggunakan Aspose.Cells untuk Java memungkinkan An
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
- Untuk menginstal Aspose.Cells untuk Java, kunjungi halaman unduhan[Di Sini](https://releases.aspose.com/cells/java/)Unduh pustaka dan ikuti petunjuk penginstalan yang disediakan dalam dokumentasi.
+Untuk menginstal Aspose.Cells untuk Java, kunjungi halaman unduhan [Di Sini](https://releases.aspose.com/cells/java/)Unduh pustaka dan ikuti petunjuk penginstalan yang disediakan dalam dokumentasi.
 
 ### Jenis bagan apa yang dapat saya buat dengan Aspose.Cells untuk Java?
 
@@ -122,7 +122,8 @@ Tentu saja! Aspose.Cells untuk Java bersifat serbaguna dan dapat menangani skena
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi?
 
- Untuk dokumentasi dan contoh yang lengkap, kunjungi dokumentasi Aspose.Cells untuk Java di[Di Sini](https://reference.aspose.com/cells/java/).
+Untuk dokumentasi dan contoh yang lengkap, kunjungi dokumentasi Aspose.Cells untuk Java di [Di Sini](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

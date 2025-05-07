@@ -1,10 +1,10 @@
 ---
-title: Creación de tablas dinámicas
-linktitle: Creación de tablas dinámicas
-second_title: API de procesamiento de Excel en Java Aspose.Cells
-description: Aprenda a crear potentes tablas dinámicas en Java con Aspose.Cells para mejorar el análisis y la visualización de datos.
-weight: 10
-url: /es/java/excel-pivot-tables/creating-pivot-tables/
+"description": "Aprenda a crear potentes tablas dinámicas en Java con Aspose.Cells para mejorar el análisis y la visualización de datos."
+"linktitle": "Creación de tablas dinámicas"
+"second_title": "API de procesamiento de Excel en Java de Aspose.Cells"
+"title": "Creación de tablas dinámicas"
+"url": "/es/java/excel-pivot-tables/creating-pivot-tables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,14 +14,14 @@ url: /es/java/excel-pivot-tables/creating-pivot-tables/
 # Creación de tablas dinámicas
 
 ## Introducción
-Las tablas dinámicas son herramientas indispensables para el análisis y la visualización de datos. En este tutorial, exploraremos cómo crear tablas dinámicas utilizando la API Aspose.Cells para Java. Le brindaremos instrucciones paso a paso junto con ejemplos de código fuente para que el proceso sea sencillo.
+Las tablas dinámicas son herramientas indispensables para el análisis y la visualización de datos. En este tutorial, exploraremos cómo crear tablas dinámicas con la API Aspose.Cells para Java. Le proporcionaremos instrucciones paso a paso y ejemplos de código fuente para que el proceso sea fluido.
 
 ## Prerrequisitos
-Antes de comenzar, asegúrese de tener instalada la biblioteca Aspose.Cells para Java. Puede descargarla desde[aquí](https://releases.aspose.com/cells/java/).
+Antes de comenzar, asegúrese de tener instalada la biblioteca Aspose.Cells para Java. Puede descargarla desde [aquí](https://releases.aspose.com/cells/java/).
 
 ## Paso 1: Crear un libro de trabajo
 ```java
-// Importar clases necesarias
+// Importar las clases necesarias
 import com.aspose.cells.Workbook;
 
 // Crear un nuevo libro de trabajo
@@ -69,13 +69,13 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 2);  // Añadir valores
 Puede personalizar la apariencia y el comportamiento de la tabla dinámica según sea necesario.
 
 ```java
-//Personalizar la tabla dinámica
+// Personalizar la tabla dinámica
 pivotTable.refreshData();
 pivotTable.calculateData();
 ```
 
 ## Paso 7: Guardar el libro de trabajo
-Por último, guarde el libro de trabajo con la tabla dinámica.
+Por último, guarde el libro con la tabla dinámica.
 
 ```java
 // Guardar el libro de trabajo
@@ -83,7 +83,7 @@ workbook.save("output.xlsx");
 ```
 
 ## Conclusión
-En este tutorial, hemos recorrido el proceso de creación de tablas dinámicas mediante la API Aspose.Cells para Java. Ahora puede mejorar sus capacidades de análisis y visualización de datos con facilidad.
+En este tutorial, explicamos el proceso de creación de tablas dinámicas con la API Aspose.Cells para Java. Ahora puede mejorar fácilmente sus capacidades de análisis y visualización de datos.
 
 ## Preguntas frecuentes
 ### ¿Qué es una tabla dinámica?
@@ -99,9 +99,9 @@ En este tutorial, hemos recorrido el proceso de creación de tablas dinámicas m
    Por supuesto, puede personalizar la apariencia y el formato de su tabla dinámica para que coincida con sus preferencias.
 
 ### ¿Cómo puedo automatizar la creación de tablas dinámicas en aplicaciones Java?
-   Puede automatizar la creación de tablas dinámicas en Java utilizando la API Aspose.Cells para Java, como se demuestra en este tutorial.
+   Puede automatizar la creación de tablas dinámicas en Java utilizando la API Aspose.Cells para Java, como se muestra en este tutorial.
 
-Ahora tiene los conocimientos y el código para crear potentes tablas dinámicas en Java con Aspose.Cells. Experimente con diferentes fuentes de datos y configuraciones para adaptar sus tablas dinámicas a sus necesidades específicas. ¡Disfrute del análisis de datos!
+Ahora tienes los conocimientos y el código para crear potentes tablas dinámicas en Java con Aspose.Cells. Experimenta con diferentes fuentes de datos y configuraciones para adaptar tus tablas dinámicas a tus necesidades específicas. ¡Que disfrutes del análisis de datos!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

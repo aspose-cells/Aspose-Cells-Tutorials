@@ -1,10 +1,10 @@
 ---
-title: Wiadomość wejściowa w walidacji danych
-linktitle: Wiadomość wejściowa w walidacji danych
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak ulepszyć walidację danych w programie Excel za pomocą Aspose.Cells dla Java. Przewodnik krok po kroku z przykładami kodu, aby poprawić dokładność danych i wskazówkami dla użytkownika.
-weight: 18
-url: /pl/java/data-validation-rules/input-message-in-data-validation/
+"description": "Dowiedz się, jak ulepszyć walidację danych w programie Excel za pomocą Aspose.Cells for Java. Przewodnik krok po kroku z przykładami kodu, aby poprawić dokładność danych i wskazówkami dla użytkownika."
+"linktitle": "Wiadomość wejściowa w walidacji danych"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Wiadomość wejściowa w walidacji danych"
+"url": "/pl/java/data-validation-rules/input-message-in-data-validation/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -28,7 +28,7 @@ Zanim zaczniemy, upewnij się, że masz środowisko programistyczne Java skonfig
 
 ## Tworzenie nowego projektu Java
 
-Zacznij od utworzenia nowego projektu Java w wybranym IDE. Nadaj mu znaczącą nazwę, np. „DataValidationDemo”.
+Zacznij od utworzenia nowego projektu Java w wybranym środowisku IDE. Nadaj mu znaczącą nazwę, np. „DataValidationDemo”.
 
 ## Dodawanie Aspose.Cells dla Java do projektu
 
@@ -122,7 +122,7 @@ validation.setType(DataValidationType.DATE);
 
 ## Zaawansowane techniki walidacji danych
 
-Aspose.Cells for Java oferuje zaawansowane techniki sprawdzania poprawności danych, takie jak niestandardowe formuły i kaskadowe sprawdzanie poprawności.
+Aspose.Cells for Java oferuje zaawansowane techniki sprawdzania poprawności danych, takie jak niestandardowe formuły i kaskadowa walidacja.
 
 ## Wniosek
 
@@ -132,7 +132,7 @@ tym artykule przyjrzeliśmy się sposobowi dodawania komunikatów wejściowych d
 
 ### Jak dodać walidację danych do wielu komórek jednocześnie?
 
- Aby dodać walidację danych do wielu komórek, możesz zdefiniować zakres komórek i zastosować reguły walidacji do tego zakresu. Aspose.Cells for Java umożliwia określenie zakresu komórek za pomocą`CellArea` klasa.
+Aby dodać walidację danych do wielu komórek, możesz zdefiniować zakres komórek i zastosować reguły walidacji do tego zakresu. Aspose.Cells for Java umożliwia określenie zakresu komórek za pomocą `CellArea` klasa.
 
 ### Czy mogę używać niestandardowych formuł do sprawdzania poprawności danych?
 
@@ -140,7 +140,7 @@ Tak, możesz używać niestandardowych formuł do walidacji danych w Aspose.Cell
 
 ### Jak usunąć sprawdzanie poprawności danych z komórki?
 
- Aby usunąć sprawdzanie poprawności danych z komórki, wystarczy wywołać`removeDataValidation`metodę na komórce. Spowoduje to usunięcie wszelkich istniejących reguł walidacji dla tej komórki.
+Aby usunąć sprawdzanie poprawności danych z komórki, wystarczy wywołać `removeDataValidation` metoda na komórce. Spowoduje to usunięcie wszelkich istniejących reguł walidacji dla tej komórki.
 
 ### Czy mogę ustawić różne komunikaty o błędach dla różnych reguł walidacji?
 
@@ -148,7 +148,8 @@ Tak, możesz ustawić różne komunikaty o błędach dla różnych reguł walida
 
 ### Gdzie mogę znaleźć więcej informacji o Aspose.Cells dla Java?
 
- Aby uzyskać więcej informacji na temat Aspose.Cells dla języka Java i jego funkcji, zapoznaj się z dokumentacją pod adresem[Tutaj](https://reference.aspose.com/cells/java/).
+Aby uzyskać więcej informacji na temat Aspose.Cells dla języka Java i jego funkcji, zapoznaj się z dokumentacją pod adresem [Tutaj](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Pivot Tablo Verilerini Yenileme
-linktitle: Pivot Tablo Verilerini Yenileme
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java'da Pivot Table verilerinin nasıl yenileneceğini öğrenin. Verilerinizi zahmetsizce güncel tutun.
-weight: 16
-url: /tr/java/excel-pivot-tables/refreshing-pivot-table-data/
+"description": "Aspose.Cells for Java'da Pivot Table verilerinin nasıl yenileneceğini öğrenin. Verilerinizi zahmetsizce güncel tutun."
+"linktitle": "Pivot Tablo Verilerini Yenileme"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Pivot Tablo Verilerini Yenileme"
+"url": "/tr/java/excel-pivot-tables/refreshing-pivot-table-data/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Adımlara dalmadan önce, Pivot Tablo verilerini yenilemenin neden önemli oldu�
 
 ## Adım 1: Aspose.Cells'i başlatın
 
- Başlamak için Java ortamınızı Aspose.Cells ile kurmanız gerekir. Henüz yapmadıysanız, kütüphaneyi şuradan indirin ve kurun:[Java için Aspose.Cells İndir](https://releases.aspose.com/cells/java/) sayfa.
+Başlamak için Java ortamınızı Aspose.Cells ile kurmanız gerekir. Henüz yapmadıysanız, kütüphaneyi şuradan indirin ve kurun: [Java için Aspose.Cells İndir](https://releases.aspose.com/cells/java/) sayfa.
 
 ```java
 import com.aspose.cells.Workbook;

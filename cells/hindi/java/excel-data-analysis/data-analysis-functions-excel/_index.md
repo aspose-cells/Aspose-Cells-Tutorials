@@ -1,10 +1,10 @@
 ---
-title: डेटा विश्लेषण फ़ंक्शन एक्सेल
-linktitle: डेटा विश्लेषण फ़ंक्शन एक्सेल
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: जावा के लिए Aspose.Cells के साथ Excel में डेटा विश्लेषण की शक्ति अनलॉक करें। सॉर्टिंग, फ़िल्टरिंग, गणना और पिवट टेबल सीखें।
-weight: 10
-url: /hi/java/excel-data-analysis/data-analysis-functions-excel/
+"description": "जावा के लिए Aspose.Cells के साथ Excel में डेटा विश्लेषण की शक्ति अनलॉक करें। सॉर्टिंग, फ़िल्टरिंग, गणना और पिवट टेबल सीखें।"
+"linktitle": "डेटा विश्लेषण फ़ंक्शन एक्सेल"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "डेटा विश्लेषण फ़ंक्शन एक्सेल"
+"url": "/hi/java/excel-data-analysis/data-analysis-functions-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -40,7 +40,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // सॉर्टिंग रेंज परिभाषित करें
 CellArea cellArea = new CellArea();
-cellArea.startRow = 1; //दूसरी पंक्ति से शुरू करें (मान लें कि पहली पंक्ति हेडर है)
+cellArea.startRow = 1; // दूसरी पंक्ति से शुरू करें (मान लें कि पहली पंक्ति हेडर है)
 cellArea.startColumn = 0; // पहले कॉलम से शुरू करें
 cellArea.endRow = worksheet.getCells().getMaxDataRow(); // डेटा के साथ अंतिम पंक्ति प्राप्त करें
 cellArea.endColumn = worksheet.getCells().getMaxDataColumn(); // डेटा के साथ अंतिम कॉलम प्राप्त करें
@@ -108,11 +108,12 @@ worksheet.getAutoFilter().filter(1, "Filter Condition 2");
 
 ### मैं अपनी पिवट तालिका के स्वरूप को कैसे अनुकूलित कर सकता हूँ?
 
-आप विभिन्न गुणों और शैलियों को संशोधित करके अपनी पिवट टेबल की उपस्थिति को अनुकूलित कर सकते हैं। इसमें सेल फ़ॉर्मेटिंग सेट करना, कॉलम की चौड़ाई समायोजित करना और पिवट टेबल सेल पर कस्टम स्टाइल लागू करना शामिल है। पिवट टेबल को अनुकूलित करने के बारे में विस्तृत निर्देशों के लिए Aspose.Cells दस्तावेज़ देखें।
+आप विभिन्न गुणों और शैलियों को संशोधित करके अपनी पिवट टेबल की उपस्थिति को अनुकूलित कर सकते हैं। इसमें सेल फ़ॉर्मेटिंग सेट करना, कॉलम की चौड़ाई समायोजित करना और पिवट टेबल सेल पर कस्टम स्टाइल लागू करना शामिल है। पिवट टेबल को कस्टमाइज़ करने के बारे में विस्तृत निर्देशों के लिए Aspose.Cells दस्तावेज़ देखें।
 
 ### मैं अधिक उन्नत उदाहरण और संसाधन कहां पा सकता हूं?
 
- Aspose.Cells for Java पर अधिक उन्नत उदाहरणों, ट्यूटोरियल्स और संसाधनों के लिए, कृपया देखें[Aspose.Cells for Java दस्तावेज़ीकरण](https://reference.aspose.com/cells/java/)आपको Aspose.Cells के साथ Excel डेटा विश्लेषण में महारत हासिल करने में मदद करने के लिए जानकारी का खजाना मिलेगा।
+Aspose.Cells for Java पर अधिक उन्नत उदाहरणों, ट्यूटोरियल्स और संसाधनों के लिए, कृपया देखें [Aspose.Cells for Java दस्तावेज़ीकरण](https://reference.aspose.com/cells/java/)आपको Aspose.Cells के साथ Excel डेटा विश्लेषण में महारत हासिल करने में मदद करने के लिए जानकारी का खजाना मिलेगा।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

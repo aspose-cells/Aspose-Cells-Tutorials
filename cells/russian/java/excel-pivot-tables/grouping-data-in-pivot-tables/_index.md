@@ -1,10 +1,10 @@
 ---
-title: Группировка данных в сводных таблицах
-linktitle: Группировка данных в сводных таблицах
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как создавать сводные таблицы в Excel с помощью Aspose.Cells для Java. Автоматизируйте группировку и анализ данных с примерами исходного кода.
-weight: 14
-url: /ru/java/excel-pivot-tables/grouping-data-in-pivot-tables/
+"description": "Узнайте, как создавать сводные таблицы в Excel с помощью Aspose.Cells для Java. Автоматизируйте группировку и анализ данных с примерами исходного кода."
+"linktitle": "Группировка данных в сводных таблицах"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Группировка данных в сводных таблицах"
+"url": "/ru/java/excel-pivot-tables/grouping-data-in-pivot-tables/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -58,13 +58,13 @@ workbook.save("output.xlsx");
 
 ## Шаг 2: Группировка данных
 
- В Aspose.Cells для Java вы можете группировать данные в сводной таблице, используя`PivotField` класс. Вот пример того, как сгруппировать поле в сводной таблице:
+В Aspose.Cells для Java вы можете группировать данные в сводной таблице с помощью `PivotField` класс. Вот пример того, как сгруппировать поле в сводной таблице:
 
 ```java
 // Доступ к полю «Продукт» в сводной таблице.
 PivotField productField = pivotTable.getPivotFields().get("Product");
 
-//Сгруппируйте поле «Продукт» по определенному критерию, например, по начальной букве.
+// Сгруппируйте поле «Продукт» по определенному критерию, например, по начальной букве.
 productField.setIsAutoSubtotals(false);
 productField.setBaseField("Product");
 productField.setAutoSort(true);
@@ -103,12 +103,12 @@ workbook.save("output_custom_grouping.xlsx");
 
 ### 2. Как настроить группировку данных в сводной таблице?
 
- Вы можете настроить группировку данных в сводной таблице с помощью`PivotField` класс в Aspose.Cells для Java. Это позволяет вам указать критерии группировки, такие как интервалы на основе дат или пользовательские правила.
+Вы можете настроить группировку данных в сводной таблице с помощью `PivotField` класс в Aspose.Cells для Java. Это позволяет вам указать критерии группировки, такие как интервалы на основе дат или пользовательские правила.
 
 ### 3. Можно ли автоматизировать создание сводных таблиц с помощью Aspose.Cells для Java?
 
 Да, вы можете автоматизировать создание сводных таблиц в Excel с помощью Aspose.Cells для Java, как показано в предоставленных примерах исходного кода.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

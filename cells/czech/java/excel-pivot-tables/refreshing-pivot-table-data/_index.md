@@ -1,65 +1,65 @@
 ---
-title: Obnovení dat kontingenční tabulky
-linktitle: Obnovení dat kontingenční tabulky
-second_title: Aspose.Cells Java Excel Processing API
-description: Přečtěte si, jak obnovit data kontingenční tabulky v Aspose.Cells pro Java. Udržujte svá data aktuální bez námahy.
-weight: 16
-url: /cs/java/excel-pivot-tables/refreshing-pivot-table-data/
+"description": "Naučte se, jak aktualizovat data kontingenční tabulky v Aspose.Cells pro Javu. Udržujte svá data aktuální bez námahy."
+"linktitle": "Aktualizace dat kontingenční tabulky"
+"second_title": "Rozhraní API pro zpracování Excelu v Javě od Aspose.Cells"
+"title": "Aktualizace dat kontingenční tabulky"
+"url": "/cs/java/excel-pivot-tables/refreshing-pivot-table-data/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obnovení dat kontingenční tabulky
+# Aktualizace dat kontingenční tabulky
 
 
-Kontingenční tabulky jsou výkonnými nástroji v analýze dat, které umožňují sumarizovat a vizualizovat komplexní datové sady. Chcete-li však z nich vytěžit maximum, je důležité udržovat svá data aktuální. V tomto podrobném průvodci vám ukážeme, jak obnovit data kontingenční tabulky pomocí Aspose.Cells for Java.
+Kontingenční tabulky jsou výkonné nástroje pro analýzu dat, které vám umožňují shrnout a vizualizovat složité datové sady. Abyste je však co nejlépe využili, je zásadní udržovat data aktuální. V tomto podrobném návodu vám ukážeme, jak aktualizovat data kontingenční tabulky pomocí Aspose.Cells pro Javu.
 
-## Proč je důležité aktualizovat data kontingenční tabulky
+## Proč je důležitá aktualizace dat kontingenční tabulky
 
-Než se ponoříme do kroků, pojďme pochopit, proč je obnova dat kontingenční tabulky zásadní. Při práci s dynamickými zdroji dat, jako jsou databáze nebo externí soubory, mohou být informace zobrazené v kontingenční tabulce zastaralé. Aktualizace zajistí, že vaše analýza bude odrážet nejnovější změny, díky čemuž budou vaše sestavy přesné a spolehlivé.
+Než se ponoříme do jednotlivých kroků, pojďme si vysvětlit, proč je aktualizace dat v kontingenční tabulce nezbytná. Při práci s dynamickými zdroji dat, jako jsou databáze nebo externí soubory, mohou informace zobrazené v kontingenční tabulce zastarat. Aktualizace zajišťuje, že vaše analýza odráží nejnovější změny, takže vaše sestavy jsou přesné a spolehlivé.
 
-## Krok 1: Inicializujte Aspose.Cells
+## Krok 1: Inicializace Aspose.Cells
 
- Chcete-li začít, budete muset nastavit prostředí Java pomocí Aspose.Cells. Pokud jste to ještě neudělali, stáhněte si a nainstalujte knihovnu z[Aspose.Cells pro Java ke stažení](https://releases.aspose.com/cells/java/) strana.
+Chcete-li začít, budete muset nastavit prostředí Java s Aspose.Cells. Pokud jste tak ještě neučinili, stáhněte si a nainstalujte knihovnu z [Stažení Aspose.Cells pro Javu](https://releases.aspose.com/cells/java/) strana.
 
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 ```
 
-## Krok 2: Načtěte sešit
+## Krok 2: Načtěte si sešit
 
-Dále načtěte sešit aplikace Excel obsahující kontingenční tabulku, kterou chcete aktualizovat.
+Dále načtěte sešit aplikace Excel, který obsahuje kontingenční tabulku, kterou chcete aktualizovat.
 
 ```java
 String filePath = "path_to_your_workbook.xlsx";
 Workbook workbook = new Workbook(filePath);
 ```
 
-## Krok 3: Otevřete kontingenční tabulku
+## Krok 3: Přístup k kontingenční tabulce
 
-Vyhledejte kontingenční tabulku v sešitu. Můžete to provést zadáním jeho listu a názvu.
+Vyhledejte kontingenční tabulku v sešitu. Můžete to provést zadáním jejího listu a názvu.
 
 ```java
-String sheetName = "Sheet1"; // Nahraďte názvem svého listu
-String pivotTableName = "PivotTable1"; // Nahraďte svým názvem kontingenční tabulky
+String sheetName = "Sheet1"; // Nahraďte názvem listu
+String pivotTableName = "PivotTable1"; // Nahraďte názvem vaší kontingenční tabulky
 
 Worksheet worksheet = workbook.getWorksheets().get(sheetName);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotTableName);
 ```
 
-## Krok 4: Obnovte kontingenční tabulku
+## Krok 4: Aktualizace kontingenční tabulky
 
-Nyní, když máte přístup ke své kontingenční tabulce, je obnovení dat jednoduché.
+Nyní, když máte přístup k kontingenční tabulce, je aktualizace dat jednoduchá.
 
 ```java
 pivotTable.refreshData();
 pivotTable.calculateData();
 ```
 
-## Krok 5: Uložte aktualizovaný sešit
+## Krok 5: Uložení aktualizovaného sešitu
 
 Po aktualizaci kontingenční tabulky uložte sešit s aktualizovanými daty.
 
@@ -70,26 +70,26 @@ workbook.save(outputFilePath);
 
 ## Závěr
 
-Obnovení dat kontingenční tabulky v Aspose.Cells for Java je jednoduchý, ale nezbytný proces, který zajistí, že vaše sestavy a analýzy zůstanou aktuální. Dodržováním těchto kroků můžete bez námahy udržovat svá data aktuální a činit informovaná rozhodnutí na základě nejnovějších informací.
+Aktualizace dat kontingenční tabulky v Aspose.Cells pro Javu je jednoduchý, ale nezbytný proces, který zajistí aktuálnost vašich reportů a analýz. Dodržováním těchto kroků můžete bez námahy udržovat svá data aktuální a činit informovaná rozhodnutí na základě nejnovějších informací.
 
-## Nejčastější dotazy
+## Často kladené otázky
 
 ### Proč se moje kontingenční tabulka neaktualizuje automaticky?
-   - Kontingenční tabulky v Excelu se nemusí aktualizovat automaticky, pokud zdroj dat není nastaven na obnovení při otevření souboru. Nezapomeňte tuto možnost povolit v nastavení kontingenční tabulky.
+   - Kontingenční tabulky v Excelu se nemusí automaticky aktualizovat, pokud zdroj dat není nastaven na aktualizaci při otevření souboru. Ujistěte se, že je tato možnost povolena v nastavení kontingenční tabulky.
 
-### Mohu aktualizovat kontingenční tabulky v dávce pro více sešitů?
-   - Ano, proces obnovování kontingenčních tabulek pro více sešitů můžete automatizovat pomocí Aspose.Cells for Java. Vytvořte skript nebo program pro iteraci vašich souborů a použijte kroky aktualizace.
+### Mohu dávkově aktualizovat kontingenční tabulky pro více sešitů?
+   - Ano, proces aktualizace kontingenčních tabulek pro více sešitů můžete automatizovat pomocí Aspose.Cells pro Javu. Vytvořte skript nebo program pro iteraci souborů a použití kroků aktualizace.
 
 ### Je Aspose.Cells kompatibilní s různými zdroji dat?
-   - Aspose.Cells for Java podporuje různé zdroje dat, včetně databází, souborů CSV a dalších. Kontingenční tabulku můžete připojit k těmto zdrojům pro dynamické aktualizace.
+   - Aspose.Cells pro Javu podporuje různé zdroje dat, včetně databází, souborů CSV a dalších. Svou kontingenční tabulku můžete k těmto zdrojům propojit pro dynamické aktualizace.
 
-### Existují nějaká omezení počtu kontingenčních tabulek, které mohu aktualizovat?
-   - Počet kontingenčních tabulek, které můžete obnovit, závisí na paměti systému a výkonu zpracování. Aspose.Cells for Java je navržen tak, aby efektivně zpracovával velké datové sady.
+### Existují nějaká omezení ohledně počtu kontingenčních tabulek, které mohu aktualizovat?
+   - Počet kontingenčních tabulek, které můžete obnovit, závisí na paměti a výpočetním výkonu systému. Aspose.Cells pro Javu je navržen pro efektivní zpracování velkých datových sad.
 
-### Mohu naplánovat automatické obnovení kontingenční tabulky?
-   - Ano, můžete naplánovat automatické obnovování dat pomocí plánovacích knihoven Aspose.Cells a Java. To vám umožní udržovat kontingenční tabulky aktuální bez ručního zásahu.
+### Mohu naplánovat automatické aktualizace kontingenční tabulky?
+   - Ano, automatické aktualizace dat můžete naplánovat pomocí Aspose.Cells a plánovacích knihoven Java. To vám umožní udržovat vaše kontingenční tabulky aktuální bez ručního zásahu.
 
-Nyní máte znalosti pro obnovení dat kontingenční tabulky v Aspose.Cells pro Java. Udržujte své analýzy přesné a zůstaňte napřed ve svých rozhodnutích založených na datech.
+Nyní máte znalosti o aktualizaci dat kontingenčních tabulek v Aspose.Cells pro Javu. Udržujte své analýzy přesné a buďte o krok napřed při rozhodování na základě dat.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Funkcja CONCATENATE w programie Excel
-linktitle: Funkcja CONCATENATE w programie Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak łączyć tekst w programie Excel za pomocą Aspose.Cells dla języka Java. Ten przewodnik krok po kroku zawiera przykłady kodu źródłowego do bezproblemowej manipulacji tekstem.
-weight: 13
-url: /pl/java/basic-excel-functions/excel-concatenate-function/
+"description": "Dowiedz się, jak łączyć tekst w programie Excel za pomocą Aspose.Cells dla Java. Ten przewodnik krok po kroku zawiera przykłady kodu źródłowego do bezproblemowej manipulacji tekstem."
+"linktitle": "Funkcja CONCATENATE w programie Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Funkcja CONCATENATE w programie Excel"
+"url": "/pl/java/basic-excel-functions/excel-concatenate-function/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 
 1. Środowisko programistyczne Java: W systemie powinna być zainstalowana Java oraz odpowiednie zintegrowane środowisko programistyczne (IDE), np. Eclipse lub IntelliJ IDEA.
 
-2. Aspose.Cells dla Java: Musisz mieć zainstalowaną bibliotekę Aspose.Cells dla Java. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/java/).
+2. Aspose.Cells dla Java: Musisz mieć zainstalowaną bibliotekę Aspose.Cells dla Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Utwórz nowy projekt Java
 
@@ -91,7 +91,7 @@ workbook.save("concatenated_text.xlsx");
 
 ## Wniosek
 
- W tym samouczku nauczyliśmy się, jak łączyć tekst w programie Excel za pomocą Aspose.Cells dla języka Java. Omówiliśmy podstawowe kroki, od inicjalizacji skoroszytu po zapisanie pliku programu Excel. Ponadto zbadaliśmy alternatywną metodę łączenia tekstu za pomocą`Cell.putValue` metoda. Teraz możesz używać Aspose.Cells dla Java do łatwego wykonywania konkatenacji tekstu w swoich aplikacjach Java.
+W tym samouczku nauczyliśmy się, jak łączyć tekst w programie Excel za pomocą Aspose.Cells dla języka Java. Omówiliśmy podstawowe kroki, od inicjalizacji skoroszytu po zapisanie pliku programu Excel. Ponadto zbadaliśmy alternatywną metodę łączenia tekstu za pomocą `Cell.putValue` metoda. Teraz możesz używać Aspose.Cells for Java do łatwego wykonywania konkatenacji tekstu w swoich aplikacjach Java.
 
 ## Najczęściej zadawane pytania
 
@@ -103,9 +103,9 @@ Aby połączyć tekst z różnych komórek w programie Excel przy użyciu pakiet
 
 2. Wprowadź dane tekstowe do żądanych komórek.
 
-3.  Użyj`setFormula` metoda umożliwiająca utworzenie formuły CONCATENATE, która łączy tekst z komórek.
+3. Użyj `setFormula` metoda umożliwiająca utworzenie formuły CONCATENATE, która łączy tekst z komórek.
 
-4.  Przelicz formuły w arkuszu kalkulacyjnym, używając`workbook.calculateFormula()`.
+4. Przelicz formuły w arkuszu kalkulacyjnym, używając `workbook.calculateFormula()`.
 
 5. Zapisz plik Excela.
 
@@ -117,15 +117,16 @@ Tak, możesz połączyć więcej niż trzy ciągi tekstowe za pomocą CONCATENAT
 
 ### Czy istnieje alternatywa dla CONCATENATE w Aspose.Cells dla Java?
 
- Tak, Aspose.Cells dla języka Java zapewnia alternatywny sposób łączenia tekstu za pomocą`Cell.putValue` metoda. Możesz połączyć tekst z wielu komórek i ustawić wynik w innej komórce bez używania formuł.
+Tak, Aspose.Cells dla języka Java zapewnia alternatywny sposób łączenia tekstu za pomocą `Cell.putValue` metoda. Możesz połączyć tekst z wielu komórek i ustawić wynik w innej komórce bez używania formuł.
 
 ```java
-// Połącz tekst z komórek A1, B1 i C1 do komórki D1 bez użycia formuł
+// Łączenie tekstu z komórek A1, B1 i C1 w komórce D1 bez użycia formuł
 String concatenatedText = text1 + text2 + text3;
 worksheet.getCells().get("D1").putValue(concatenatedText);
 ```
 
 Takie podejście może być przydatne, gdy chcesz łączyć teksty bez polegania na formułach programu Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

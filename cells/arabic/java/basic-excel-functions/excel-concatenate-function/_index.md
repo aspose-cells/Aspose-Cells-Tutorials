@@ -1,10 +1,10 @@
 ---
-title: دالة CONCATENATE في Excel
-linktitle: دالة CONCATENATE في Excel
-second_title: واجهة برمجة تطبيقات معالجة Excel في Java من Aspose.Cells
-description: تعرف على كيفية ربط النصوص في Excel باستخدام Aspose.Cells لـ Java. يتضمن هذا الدليل خطوة بخطوة أمثلة على التعليمات البرمجية المصدرية للتعامل مع النصوص بسلاسة.
-weight: 13
-url: /ar/java/basic-excel-functions/excel-concatenate-function/
+"description": "تعلّم كيفية ربط النصوص في Excel باستخدام Aspose.Cells لجافا. يتضمن هذا الدليل خطوة بخطوة أمثلة على الكود المصدري لمعالجة النصوص بسلاسة."
+"linktitle": "دالة CONCATENATE في Excel"
+"second_title": "واجهة برمجة تطبيقات معالجة Excel لـ Aspose.Cells Java"
+"title": "دالة CONCATENATE في Excel"
+"url": "/ar/java/basic-excel-functions/excel-concatenate-function/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ url: /ar/java/basic-excel-functions/excel-concatenate-function/
 
 ## مقدمة إلى دالة CONCATENATE في Excel باستخدام Aspose.Cells في Java
 
-في هذا البرنامج التعليمي، سنستكشف كيفية استخدام دالة CONCATENATE في Excel باستخدام Aspose.Cells for Java. CONCATENATE هي دالة Excel مفيدة تتيح لك دمج أو ربط سلاسل نصية متعددة في سلسلة واحدة. باستخدام Aspose.Cells for Java، يمكنك تحقيق نفس الوظيفة برمجيًا في تطبيقات Java الخاصة بك.
+في هذا البرنامج التعليمي، سنستكشف كيفية استخدام دالة CONCATENATE في Excel باستخدام Aspose.Cells لجافا. CONCATENATE دالة مفيدة في Excel تتيح لك دمج أو ربط عدة سلاسل نصية في سلسلة واحدة. باستخدام Aspose.Cells لجافا، يمكنك تحقيق نفس الوظيفة برمجيًا في تطبيقات جافا.
 
 ## المتطلبات الأساسية
 
@@ -24,11 +24,11 @@ url: /ar/java/basic-excel-functions/excel-concatenate-function/
 
 1. بيئة تطوير Java: يجب أن يكون لديك Java مثبتًا على نظامك بالإضافة إلى بيئة تطوير متكاملة (IDE) مناسبة مثل Eclipse أو IntelliJ IDEA.
 
-2. Aspose.Cells for Java: يجب أن يكون لديك مكتبة Aspose.Cells for Java مثبتة. يمكنك تنزيلها من[هنا](https://releases.aspose.com/cells/java/).
+2. Aspose.Cells لجافا: يجب تثبيت مكتبة Aspose.Cells لجافا. يمكنك تنزيلها من [هنا](https://releases.aspose.com/cells/java/).
 
 ## الخطوة 1: إنشاء مشروع Java جديد
 
-أولاً، دعنا ننشئ مشروع Java جديدًا في بيئة التطوير المتكاملة المفضلة لديك. تأكد من تكوين مشروعك لتضمين مكتبة Aspose.Cells for Java في مسار الفصل.
+أولاً، لنُنشئ مشروع جافا جديدًا في بيئة التطوير المتكاملة المُفضّلة لديك. تأكد من تهيئة مشروعك ليتضمن مكتبة Aspose.Cells for Java في مسار الفئة.
 
 ## الخطوة 2: استيراد مكتبة Aspose.Cells
 
@@ -38,9 +38,9 @@ url: /ar/java/basic-excel-functions/excel-concatenate-function/
 import com.aspose.cells.*;
 ```
 
-## الخطوة 3: تهيئة مصنف العمل
+## الخطوة 3: تهيئة مصنف
 
-قم بإنشاء كائن مصنف جديد لتمثيل ملف Excel الخاص بك. يمكنك إما إنشاء ملف Excel جديد أو فتح ملف موجود. هنا، سنقوم بإنشاء ملف Excel جديد:
+أنشئ مصنفًا جديدًا ليمثل ملف Excel. يمكنك إما إنشاء ملف Excel جديد أو فتح ملف موجود. هنا، سننشئ ملف Excel جديدًا:
 
 ```java
 Workbook workbook = new Workbook();
@@ -49,7 +49,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## الخطوة 4: إدخال البيانات
 
-لنقم بملء ورقة عمل Excel ببعض البيانات. في هذا المثال، سننشئ جدولًا بسيطًا يحتوي على قيم نصية نريد ربطها.
+لنملأ ورقة عمل Excel ببعض البيانات. في هذا المثال، سننشئ جدولًا بسيطًا بقيم نصية نريد ربطها.
 
 ```java
 // بيانات العينة
@@ -74,7 +74,7 @@ worksheet.getCells().get("D1").setFormula("=CONCATENATE(A1, B1, C1)");
 
 ## الخطوة 6: حساب الصيغ
 
-لتتأكد من تقييم صيغة CONCATENATE، يتعين عليك إعادة حساب الصيغ في ورقة العمل.
+للتأكد من تقييم صيغة CONCATENATE، يتعين عليك إعادة حساب الصيغ في ورقة العمل.
 
 ```java
 // إعادة حساب الصيغ
@@ -83,7 +83,7 @@ workbook.calculateFormula();
 
 ## الخطوة 7: حفظ ملف Excel
 
-وأخيرًا، قم بحفظ مصنف Excel في ملف.
+وأخيرًا، احفظ مصنف Excel في ملف.
 
 ```java
 workbook.save("concatenated_text.xlsx");
@@ -91,7 +91,7 @@ workbook.save("concatenated_text.xlsx");
 
 ## خاتمة
 
- في هذا البرنامج التعليمي، تعلمنا كيفية ربط النصوص في Excel باستخدام Aspose.Cells لـ Java. لقد قمنا بتغطية الخطوات الأساسية، من تهيئة مصنف إلى حفظ ملف Excel. بالإضافة إلى ذلك، استكشفنا طريقة بديلة لربط النصوص باستخدام`Cell.putValue` الطريقة. يمكنك الآن استخدام Aspose.Cells for Java لإجراء عملية ربط النصوص في تطبيقات Java الخاصة بك بسهولة.
+في هذا البرنامج التعليمي، تعلمنا كيفية ربط النصوص في Excel باستخدام Aspose.Cells لجافا. غطينا الخطوات الأساسية، من تهيئة مصنف إلى حفظ ملف Excel. بالإضافة إلى ذلك، استكشفنا طريقة بديلة لربط النصوص باستخدام `Cell.putValue` يمكنك الآن استخدام Aspose.Cells لـ Java لتنفيذ عملية ربط النصوص في تطبيقات Java الخاصة بك بسهولة.
 
 ## الأسئلة الشائعة
 
@@ -103,21 +103,21 @@ workbook.save("concatenated_text.xlsx");
 
 2. أدخل بيانات النص في الخلايا المطلوبة.
 
-3.  استخدم`setFormula` طريقة لإنشاء صيغة CONCATENATE التي تقوم بربط النص من الخلايا.
+3. استخدم `setFormula` طريقة لإنشاء صيغة CONCATENATE التي تقوم بربط النص من الخلايا.
 
-4.  أعد حساب الصيغ في ورقة العمل باستخدام`workbook.calculateFormula()`.
+4. أعد حساب الصيغ في ورقة العمل باستخدام `workbook.calculateFormula()`.
 
 5. احفظ ملف Excel.
 
-هذا كل شيء! لقد نجحت في ربط النص في Excel باستخدام Aspose.Cells for Java.
+هذا كل شيء! لقد نجحت في ربط النص في Excel باستخدام Aspose.Cells لـ Java.
 
 ### هل يمكنني ربط أكثر من ثلاث سلاسل نصية باستخدام CONCATENATE؟
 
-نعم، يمكنك ربط أكثر من ثلاث سلاسل نصية باستخدام CONCATENATE في Excel وAspose.Cells لـ Java. ما عليك سوى توسيع الصيغة لتشمل مراجع خلايا إضافية حسب الحاجة.
+نعم، يمكنك ربط أكثر من ثلاث سلاسل نصية باستخدام دالة CONCATENATE في Excel وAspose.Cells في Java. ما عليك سوى توسيع الصيغة لتشمل مراجع خلايا إضافية حسب الحاجة.
 
 ### هل هناك بديل لـ CONCATENATE في Aspose.Cells لـ Java؟
 
- نعم، يوفر Aspose.Cells for Java طريقة بديلة لربط النص باستخدام`Cell.putValue` الطريقة. يمكنك ربط النص من خلايا متعددة وتعيين النتيجة في خلية أخرى دون استخدام الصيغ.
+نعم، يوفر Aspose.Cells for Java طريقة بديلة لربط النص باستخدام `Cell.putValue` الطريقة. يمكنك ربط النص من خلايا متعددة وتعيين النتيجة في خلية أخرى دون استخدام الصيغ.
 
 ```java
 // ربط النص من الخلايا A1 وB1 وC1 في D1 دون استخدام الصيغ
@@ -125,7 +125,8 @@ String concatenatedText = text1 + text2 + text3;
 worksheet.getCells().get("D1").putValue(concatenatedText);
 ```
 
-يمكن أن يكون هذا النهج مفيدًا إذا كنت تريد دمج النص دون الاعتماد على صيغ Excel.
+يمكن أن يكون هذا النهج مفيدًا إذا كنت تريد ربط النص دون الاعتماد على صيغ Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: एक्सेल दिनांक फ़ंक्शन ट्यूटोरियल
-linktitle: एक्सेल दिनांक फ़ंक्शन ट्यूटोरियल
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: जावा के लिए Aspose.Cells का उपयोग करके Excel दिनांक फ़ंक्शन सीखें। स्रोत कोड के साथ चरण-दर-चरण ट्यूटोरियल देखें।
-weight: 19
-url: /hi/java/basic-excel-functions/excel-date-functions-tutorial/
+"description": "जावा के लिए Aspose.Cells का उपयोग करके Excel दिनांक फ़ंक्शन सीखें। स्रोत कोड के साथ चरण-दर-चरण ट्यूटोरियल देखें।"
+"linktitle": "एक्सेल दिनांक फ़ंक्शन ट्यूटोरियल"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "एक्सेल दिनांक फ़ंक्शन ट्यूटोरियल"
+"url": "/hi/java/basic-excel-functions/excel-date-functions-tutorial/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -46,7 +46,7 @@ EOMONTH किसी दी गई तिथि के लिए महीने
 
 कोडिंग शुरू करने से पहले, हमें अपने प्रोजेक्ट में Java के लिए Aspose.Cells सेट अप करना होगा। आरंभ करने के लिए इन चरणों का पालन करें।
 
-1. Aspose.Cells डाउनलोड और इंस्टॉल करें: पर जाएँ[जावा के लिए Aspose.Cells](https://releases.aspose.com/cells/java/) और नवीनतम संस्करण डाउनलोड करें.
+1. Aspose.Cells डाउनलोड और इंस्टॉल करें: पर जाएँ [जावा के लिए Aspose.Cells](https://releases.aspose.com/cells/java/) और नवीनतम संस्करण डाउनलोड करें.
 
 2. अपने प्रोजेक्ट में Aspose.Cells शामिल करें: अपने जावा प्रोजेक्ट में Aspose.Cells लाइब्रेरी जोड़ें।
 
@@ -112,7 +112,7 @@ worksheet.getCells().get("A2").putValue("2023-08-01");
 // DATEDIF का उपयोग करके अंतर की गणना करें
 worksheet.getCells().get("A3").setFormula("=DATEDIF(A1, A2, \"d\")");
 
-//दिनों में अंतर जानें
+// दिनों में अंतर जानें
 int daysDifference = worksheet.getCells().get("A3").getIntValue();
 
 // परिणाम प्रिंट करें
@@ -151,7 +151,7 @@ System.out.println("End of Month: " + endOfMonth);
 
 ### मैं Java के लिए Aspose.Cells में दिनांकों को कैसे प्रारूपित करूं?
 
- Aspose.Cells में तिथियों को फ़ॉर्मेट करना सरल है। आप इसका उपयोग कर सकते हैं`Style` दिनांक स्वरूपों को परिभाषित करने और उन्हें कक्षों पर लागू करने के लिए क्लास। उदाहरण के लिए, दिनांकों को "dd-MM-yyyy" स्वरूप में प्रदर्शित करने के लिए:
+Aspose.Cells में तिथियों को फ़ॉर्मेट करना सरल है। आप इसका उपयोग कर सकते हैं `Style` दिनांक स्वरूपों को परिभाषित करने और उन्हें कक्षों पर लागू करने के लिए क्लास। उदाहरण के लिए, दिनांकों को "dd-MM-yyyy" स्वरूप में प्रदर्शित करने के लिए:
 
 ```java
 // दिनांक शैली बनाएँ
@@ -172,11 +172,12 @@ Aspose.Cells for Java छोटे पैमाने और बड़े पै
 
 ### मैं Aspose.Cells for Java के लिए और अधिक संसाधन और दस्तावेज़ कहां पा सकता हूं?
 
- आप Aspose.Cells for Java के लिए व्यापक दस्तावेज़ और संसाधनों तक पहुँच सकते हैं[यहाँ](https://reference.aspose.com/cells/java/).
+आप Aspose.Cells for Java के लिए व्यापक दस्तावेज़ और संसाधनों तक पहुँच सकते हैं [यहाँ](https://reference.aspose.com/cells/java/).
 
 ### मैं Java के लिए Aspose.Cells के साथ कैसे शुरुआत कर सकता हूं?
 
- Java के लिए Aspose.Cells के साथ आरंभ करने के लिए, लाइब्रेरी को यहां से डाउनलोड करें[यहाँ](https://releases.aspose.com/cells/java/) और स्थापना के लिए दस्तावेज़ देखें और
+Java के लिए Aspose.Cells के साथ आरंभ करने के लिए, लाइब्रेरी को यहां से डाउनलोड करें [यहाँ](https://releases.aspose.com/cells/java/) और स्थापना के लिए दस्तावेज़ देखें और
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

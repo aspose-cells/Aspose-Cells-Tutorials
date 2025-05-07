@@ -1,10 +1,10 @@
 ---
-title: Thả xuống dạng thác đổ trong Excel
-linktitle: Thả xuống dạng thác đổ trong Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách tạo danh sách thả xuống dạng xếp tầng trong Excel bằng Aspose.Cells for Java. Hướng dẫn từng bước này cung cấp mã nguồn và mẹo chuyên gia để thao tác bảng tính Excel hiệu quả.
-weight: 13
-url: /vi/java/data-validation-rules/cascading-dropdowns-in-excel/
+"description": "Tìm hiểu cách tạo danh sách thả xuống dạng xếp tầng trong Excel bằng Aspose.Cells for Java. Hướng dẫn từng bước này cung cấp mã nguồn và mẹo chuyên gia để thao tác bảng tính Excel hiệu quả."
+"linktitle": "Thả xuống dạng thác đổ trong Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Thả xuống dạng thác đổ trong Excel"
+"url": "/vi/java/data-validation-rules/cascading-dropdowns-in-excel/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Trong thế giới thao tác bảng tính, Aspose.Cells for Java là một bộ 
 
 Trước khi bắt đầu hành trình này, hãy đảm bảo rằng bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
--  Aspose.Cells cho Java: Tải xuống và cài đặt từ[đây](https://releases.aspose.com/cells/java/).
+- Aspose.Cells cho Java: Tải xuống và cài đặt từ [đây](https://releases.aspose.com/cells/java/).
 - Môi trường phát triển Java: Bạn nên thiết lập môi trường phát triển Java trên máy của mình.
 - Hiểu biết cơ bản về Excel: Sự quen thuộc với Excel và các khái niệm cơ bản của nó sẽ rất hữu ích.
 
@@ -47,7 +47,7 @@ Worksheet citySheet = workbook.getWorksheets().add("Cities");
 Bây giờ, chúng ta cần điền dữ liệu vào bảng tính. Trong bảng "Countries", chúng ta sẽ liệt kê các quốc gia và trong bảng "Cities", ban đầu chúng ta sẽ để trống, vì chúng ta sẽ điền dữ liệu động sau.
 
 ```java
-//Mã Java để điền vào bảng "Quốc gia"
+// Mã Java để điền vào bảng "Quốc gia"
 countrySheet.getCells().get("A1").putValue("Country");
 countrySheet.getCells().get("A2").putValue("USA");
 countrySheet.getCells().get("A3").putValue("Canada");
@@ -69,7 +69,7 @@ validation.setFormula1("Countries!$A$2:$A$4"); // Tham khảo danh sách quốc 
 
 ## Bước 4: Triển khai Dropdown xếp tầng
 
-Bây giờ đến phần thú vị: triển khai danh sách thả xuống dạng xếp tầng. Chúng ta sẽ sử dụng Aspose.Cells for Java để cập nhật danh sách thả xuống thành phố một cách động dựa trên quốc gia đã chọn.
+Bây giờ đến phần thú vị: triển khai danh sách thả xuống xếp tầng. Chúng ta sẽ sử dụng Aspose.Cells cho Java để cập nhật danh sách thả xuống thành phố một cách động dựa trên quốc gia đã chọn.
 
 ```java
 // Mã Java để triển khai danh sách thả xuống dạng tầng
@@ -125,7 +125,8 @@ Mặc dù hiểu biết cơ bản về Java rất hữu ích, Aspose.Cells for J
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
 
- Bạn có thể truy cập tài liệu và tài nguyên toàn diện cho Aspose.Cells cho Java tại[đây](https://reference.aspose.com/cells/java/).
+Bạn có thể truy cập tài liệu và tài nguyên toàn diện cho Aspose.Cells cho Java tại [đây](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

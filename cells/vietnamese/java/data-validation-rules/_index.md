@@ -1,10 +1,10 @@
 ---
-title: Quy tắc xác thực dữ liệu
-linktitle: Quy tắc xác thực dữ liệu
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Master Data Validation Rules với Aspose.Cells cho Java. Tạo các bảng tính Excel không có lỗi. Khám phá hướng dẫn toàn diện ngay!
-weight: 11
-url: /vi/java/data-validation-rules/
+"description": "Master Data Validation Rules với Aspose.Cells cho Java. Tạo các bảng tính Excel không có lỗi. Khám phá hướng dẫn toàn diện ngay!"
+"linktitle": "Quy tắc xác thực dữ liệu"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Quy tắc xác thực dữ liệu"
+"url": "/vi/java/data-validation-rules/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

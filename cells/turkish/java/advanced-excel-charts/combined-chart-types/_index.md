@@ -1,10 +1,10 @@
 ---
-title: Birleştirilmiş Grafik Türleri
-linktitle: Birleştirilmiş Grafik Türleri
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java için Aspose.Cells kullanarak birleşik grafik türlerinin nasıl oluşturulacağını öğrenin. Bu adım adım kılavuz, etkili veri görselleştirmesi için kaynak kodu ve ipuçları sağlar.
-weight: 12
-url: /tr/java/advanced-excel-charts/combined-chart-types/
+"description": "Java için Aspose.Cells kullanarak birleşik grafik türlerinin nasıl oluşturulacağını öğrenin. Bu adım adım kılavuz, etkili veri görselleştirmesi için kaynak kodu ve ipuçları sağlar."
+"linktitle": "Birleştirilmiş Grafik Türleri"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Birleştirilmiş Grafik Türleri"
+"url": "/tr/java/advanced-excel-charts/combined-chart-types/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Birleşik grafikler oluşturmaya dalmadan önce, Aspose.Cells for Java'nın ne o
 
 ## Başlarken
 
- Birleşik grafikler oluşturmaya başlamak için Java projenizde Aspose.Cells for Java'nın yüklü ve ayarlanmış olması gerekir. Kütüphaneyi aşağıdaki bağlantıyı kullanarak Aspose web sitesinden indirebilirsiniz:[Java için Aspose.Cells'i indirin](https://releases.aspose.com/cells/java/).
+Birleşik grafikler oluşturmaya başlamak için Java projenizde Aspose.Cells for Java'nın yüklü ve ayarlanmış olması gerekir. Kütüphaneyi aşağıdaki bağlantıyı kullanarak Aspose web sitesinden indirebilirsiniz: [Java için Aspose.Cells'i indirin](https://releases.aspose.com/cells/java/).
 
 Kütüphaneniz hazır olduğunda, birleşik grafikler oluşturmak için aşağıdaki adımları takip edebilirsiniz.
 
@@ -116,7 +116,7 @@ Bu makalede, Java için Aspose.Cells kullanarak birleşik grafik türlerinin nas
 
 ### Java için Aspose.Cells'i nasıl yüklerim?
 
- Java için Aspose.Cells'i yüklemek için Aspose web sitesini ziyaret edin ve kütüphaneyi şu adresten indirin:[bu bağlantı](https://releases.aspose.com/cells/java/). Dokümanlarda verilen kurulum talimatlarını izleyin.
+Java için Aspose.Cells'i yüklemek için Aspose web sitesini ziyaret edin ve kütüphaneyi şu adresten indirin: [bu bağlantı](https://releases.aspose.com/cells/java/). Dokümanlarda verilen kurulum talimatlarını izleyin.
 
 ### Aspose.Cells for Java ile başka tür grafikler oluşturabilir miyim?
 
@@ -132,7 +132,8 @@ Kesinlikle! Java için Aspose.Cells kapsamlı özelleştirme seçenekleri sunar.
 
 ### Java için Aspose.Cells hakkında daha fazla kaynak ve örneği nerede bulabilirim?
 
- Aspose web sitesinde kapsamlı dokümantasyon ve çok sayıda kod örneği bulabilirsiniz.[Burada](https://reference.aspose.com/cells/java/).
+Aspose web sitesinde kapsamlı belgelere ve çok sayıda kod örneğine ulaşabilirsiniz. [Burada](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

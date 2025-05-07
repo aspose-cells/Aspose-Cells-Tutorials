@@ -1,10 +1,10 @@
 ---
-title: Samouczek dotyczący funkcji daty w programie Excel
-linktitle: Samouczek dotyczący funkcji daty w programie Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Poznaj funkcje daty w programie Excel za pomocą Aspose.Cells dla języka Java. Poznaj samouczki krok po kroku z kodem źródłowym.
-weight: 19
-url: /pl/java/basic-excel-functions/excel-date-functions-tutorial/
+"description": "Poznaj funkcje daty w programie Excel za pomocą Aspose.Cells dla języka Java. Poznaj samouczki krok po kroku z kodem źródłowym."
+"linktitle": "Samouczek dotyczący funkcji daty w programie Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Samouczek dotyczący funkcji daty w programie Excel"
+"url": "/pl/java/basic-excel-functions/excel-date-functions-tutorial/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -46,7 +46,7 @@ Teraz, gdy omówiliśmy już podstawy funkcji daty w programie Excel, możemy pr
 
 Zanim zaczniemy kodować, musimy skonfigurować Aspose.Cells dla Java w naszym projekcie. Wykonaj poniższe kroki, aby rozpocząć.
 
-1. Pobierz i zainstaluj Aspose.Cells: Odwiedź[Aspose.Cells dla Javy](https://releases.aspose.com/cells/java/) i pobierz najnowszą wersję.
+1. Pobierz i zainstaluj Aspose.Cells: Odwiedź [Aspose.Cells dla Javy](https://releases.aspose.com/cells/java/) i pobierz najnowszą wersję.
 
 2. Dodaj Aspose.Cells do swojego projektu: Dodaj bibliotekę Aspose.Cells do swojego projektu Java.
 
@@ -112,7 +112,7 @@ worksheet.getCells().get("A2").putValue("2023-08-01");
 // Oblicz różnicę za pomocą funkcji DATEDIF
 worksheet.getCells().get("A3").setFormula("=DATEDIF(A1, A2, \"d\")");
 
-//Zobacz różnicę w ciągu kilku dni
+// Zobacz różnicę w ciągu kilku dni
 int daysDifference = worksheet.getCells().get("A3").getIntValue();
 
 // Wydrukuj wynik
@@ -151,7 +151,7 @@ Ten samouczek zawiera kompleksowy przegląd funkcji daty w programie Excel i spo
 
 ### Jak sformatować daty w Aspose.Cells dla Java?
 
- Formatowanie dat w Aspose.Cells jest proste. Możesz użyć`Style` klasa do definiowania formatów dat i stosowania ich do komórek. Na przykład, aby wyświetlić daty w formacie „dd-MM-yyyy”:
+Formatowanie dat w Aspose.Cells jest proste. Możesz użyć `Style` klasa do definiowania formatów dat i stosowania ich do komórek. Na przykład, aby wyświetlić daty w formacie „dd-MM-yyyy”:
 
 ```java
 // Utwórz styl daty
@@ -172,11 +172,12 @@ Aspose.Cells for Java jest dobrze przystosowany do przetwarzania dat na małą i
 
 ### Gdzie mogę znaleźć więcej materiałów i dokumentacji dla Aspose.Cells dla Java?
 
- Pełną dokumentację i zasoby dotyczące Aspose.Cells dla języka Java można uzyskać pod adresem[Tutaj](https://reference.aspose.com/cells/java/).
+Pełną dokumentację i zasoby dotyczące Aspose.Cells dla języka Java można uzyskać pod adresem [Tutaj](https://reference.aspose.com/cells/java/).
 
 ### Jak mogę rozpocząć pracę z Aspose.Cells dla Java?
 
- Aby rozpocząć korzystanie z Aspose.Cells dla języka Java, pobierz bibliotekę ze strony[Tutaj](https://releases.aspose.com/cells/java/) i zapoznaj się z dokumentacją dotyczącą instalacji i
+Aby rozpocząć pracę z Aspose.Cells dla Java, pobierz bibliotekę ze strony [Tutaj](https://releases.aspose.com/cells/java/) i zapoznaj się z dokumentacją dotyczącą instalacji i
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

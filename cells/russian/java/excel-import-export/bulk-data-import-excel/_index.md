@@ -1,10 +1,10 @@
 ---
-title: Массовый импорт данных Excel
-linktitle: Массовый импорт данных Excel
-second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как выполнить массовый импорт данных из Excel с помощью API Aspose.Cells для Java. Оптимизируйте обработку данных с помощью этого пошагового руководства.
-weight: 10
-url: /ru/java/excel-import-export/bulk-data-import-excel/
+"description": "Узнайте, как выполнить массовый импорт данных из Excel с помощью API Aspose.Cells для Java. Оптимизируйте обработку данных с помощью этого пошагового руководства."
+"linktitle": "Массовый импорт данных Excel"
+"second_title": "API обработки Java Excel Aspose.Cells"
+"title": "Массовый импорт данных Excel"
+"url": "/ru/java/excel-import-export/bulk-data-import-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ url: /ru/java/excel-import-export/bulk-data-import-excel/
 
 Прежде чем приступить к реализации, убедитесь, что выполнены следующие предварительные условия:
 
--  Библиотека Aspose.Cells для Java: Загрузите и установите библиотеку с сайта[здесь](https://releases.aspose.com/cells/java/).
+- Библиотека Aspose.Cells для Java: Загрузите и установите библиотеку с сайта [здесь](https://releases.aspose.com/cells/java/).
 
 - Среда разработки Java: убедитесь, что в вашей системе настроена среда разработки Java.
 
@@ -80,7 +80,7 @@ for (int row = 0; row < maxRows; row++) {
 
 ### 1. Можно ли импортировать данные из нескольких файлов Excel одновременно?
 
-Да, вы можете импортировать данные из нескольких файлов Excel, повторив действия, описанные в этом руководстве, для каждого файла.
+Да, вы можете импортировать данные из нескольких файлов Excel, повторив шаги, описанные в этом руководстве, для каждого файла.
 
 ### 2. Как работать с файлами Excel со сложным форматированием?
 
@@ -99,7 +99,7 @@ Aspose.Cells for Java предоставляет обширные возможн
 Да, пожалуйста, ознакомьтесь с информацией о лицензировании на веб-сайте Aspose для получения подробной информации о лицензировании и ценах.
 
 Не стесняйтесь изучать дальше и адаптировать примеры кода под свои конкретные требования. Удачного кодирования!
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/раздел-страницы-руководства >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

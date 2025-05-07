@@ -1,10 +1,10 @@
 ---
-title: Interaktivita grafu
-linktitle: Interaktivita grafu
-second_title: Aspose.Cells Java Excel Processing API
-description: Naučte se vytvářet interaktivní grafy pomocí Aspose.Cells for Java. Vylepšete vizualizaci dat pomocí interaktivity.
-weight: 19
-url: /cs/java/advanced-excel-charts/chart-interactivity/
+"description": "Naučte se, jak vytvářet interaktivní grafy pomocí Aspose.Cells pro Javu. Vylepšete vizualizaci dat pomocí interaktivity."
+"linktitle": "Interaktivita grafu"
+"second_title": "Rozhraní API pro zpracování Excelu v Javě od Aspose.Cells"
+"title": "Interaktivita grafu"
+"url": "/cs/java/advanced-excel-charts/chart-interactivity/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,32 +16,32 @@ url: /cs/java/advanced-excel-charts/chart-interactivity/
 
 ## Zavedení
 
-Interaktivní grafy dodávají vizualizaci dat nový rozměr a umožňují uživatelům lépe prozkoumat a porozumět datům. V tomto tutoriálu vám ukážeme, jak vytvořit interaktivní grafy pomocí Aspose.Cells for Java. Dozvíte se, jak do grafů přidat funkce, jako jsou popisky, popisky dat a funkce rozbalování, díky čemuž budou vaše prezentace dat poutavější.
+Interaktivní grafy přidávají vizualizaci dat nový rozměr a umožňují uživatelům lépe prozkoumávat a porozumět datům. V tomto tutoriálu vám ukážeme, jak vytvářet interaktivní grafy pomocí Aspose.Cells pro Javu. Naučíte se, jak do grafů přidávat funkce, jako jsou popisky, popisky dat a funkce procházení detailů, díky čemuž budou vaše prezentace dat poutavější.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující předpoklady:
-- Vývojové prostředí Java
-- Aspose.Cells for Java Library (stáhnout z[zde](https://releases.aspose.com/cells/java/)
+- Vývojové prostředí v Javě
+- Knihovna Aspose.Cells pro Javu (stáhnout z [zde](https://releases.aspose.com/cells/java/)
 
-## Krok 1: Nastavení vašeho projektu Java
+## Krok 1: Nastavení projektu v jazyce Java
 
-1. Vytvořte nový Java projekt ve svém oblíbeném IDE.
-2. Přidejte do projektu knihovnu Aspose.Cells for Java zahrnutím souboru JAR.
+1. Vytvořte nový projekt Java ve vašem oblíbeném IDE.
+2. Přidejte do projektu knihovnu Aspose.Cells pro Javu zahrnutím souboru JAR.
 
 ## Krok 2: Načítání dat
 
-K vytvoření interaktivních grafů potřebujete data. Začněme načtením ukázkových dat ze souboru Excel pomocí Aspose.Cells.
+Pro vytvoření interaktivních grafů potřebujete data. Začněme načtením ukázkových dat ze souboru aplikace Excel pomocí Aspose.Cells.
 
 ```java
-// Načtěte soubor Excel
+// Načtěte soubor Excelu
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
 ## Krok 3: Vytvoření grafu
 
-Nyní vytvoříme graf a přidáme jej do listu.
+Nyní si vytvořme graf a přidejme ho do pracovního listu.
 
 ```java
 // Vytvořte sloupcový graf
@@ -52,7 +52,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 ## Krok 4: Přidání interaktivity
 
 ### 4.1. Přidávání popisků
-Chcete-li k řadě grafů přidat popisky, použijte následující kód:
+Chcete-li do série grafů přidat popisky, použijte následující kód:
 
 ```java
 // Povolit popisky pro datové body
@@ -60,21 +60,21 @@ chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
-### 4.2. Přidání datových štítků
-Chcete-li k řadě grafů přidat štítky dat, použijte tento kód:
+### 4.2. Přidávání datových štítků
+Chcete-li do série grafů přidat popisky dat, použijte tento kód:
 
 ```java
-// Povolit štítky dat pro datové body
+// Povolit popisky dat pro datové body
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3. Provádění Drill-Down
-Chcete-li implementovat funkci rozbalení, můžete použít hypertextové odkazy nebo vytvořit vlastní akce. Zde je příklad přidání hypertextového odkazu k datovému bodu:
+### 4.3. Implementace drill-downu
+Pro implementaci funkce procházení detailů můžete použít hypertextové odkazy nebo vytvořit vlastní akce. Zde je příklad přidání hypertextového odkazu k datovému bodu:
 
 ```java
-// Přidejte hypertextový odkaz na datový bod
-String url = "https://example.com/data-details";
+// Přidání hypertextového odkazu k datovému bodu
+String url = "https://example.com/data-detaily";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
@@ -82,31 +82,32 @@ chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 Nakonec uložte sešit s interaktivním grafem.
 
 ```java
-// Uložte sešit
+// Uložit sešit
 workbook.save("interactive_chart_output.xlsx");
 ```
 
 ## Závěr
 
-V tomto tutoriálu jsme vám ukázali, jak vytvořit interaktivní grafy pomocí Aspose.Cells pro Java. Naučili jste se, jak přidávat popisky, popisky dat a dokonce implementovat funkci rozbalení. Tyto funkce zvyšují interaktivitu vašich grafů a zlepšují pochopení dat pro vaše uživatele.
+V tomto tutoriálu jsme vám ukázali, jak vytvářet interaktivní grafy pomocí Aspose.Cells pro Javu. Naučili jste se, jak přidávat popisky, popisky dat a dokonce implementovat funkci procházení detailů. Tyto funkce vylepšují interaktivitu vašich grafů a zlepšují pochopení dat pro vaše uživatele.
 
-## FAQ
+## Často kladené otázky
 
 ### Jak mohu změnit typ grafu?
 
- Typ grafu můžete změnit úpravou`ChartType` parametr při vytváření grafu. Například nahradit`ChartType.COLUMN` s`ChartType.LINE` k vytvoření spojnicového grafu.
+Typ grafu můžete změnit úpravou `ChartType` parametr při vytváření grafu. Například nahraďte `ChartType.COLUMN` s `ChartType.LINE` vytvořit spojnicový graf.
 
-### Mohu přizpůsobit vzhled popisků?
+### Mohu si přizpůsobit vzhled popisků nástrojů?
 
-Ano, vzhled popisku můžete přizpůsobit úpravou vlastností, jako je velikost písma a barva pozadí, prostřednictvím rozhraní Aspose.Cells API.
+Ano, vzhled popisku můžete přizpůsobit úpravou vlastností, jako je velikost písma a barva pozadí, pomocí rozhraní Aspose.Cells API.
 
-### Jak zvládnu uživatelské interakce ve webové aplikaci?
+### Jak mám zvládat interakce uživatelů ve webové aplikaci?
 
-Ke zpracování uživatelských interakcí můžete spolu s webovou aplikací použít JavaScript k zachycení událostí spouštěných interakcemi s grafem, jako jsou kliknutí nebo akce umístění kurzoru myši.
+Pro zpracování interakcí uživatelů můžete ve webové aplikaci použít JavaScript k zachycení událostí spuštěných interakcemi s grafem, jako jsou kliknutí nebo akce najetí myší.
 
 ### Kde najdu další příklady a dokumentaci?
 
- Další příklady a podrobnou dokumentaci k používání Aspose.Cells pro Java můžete prozkoumat na adrese[Aspose.Cells Java API Reference](https://reference.aspose.com/cells/java/).
+Další příklady a podrobnou dokumentaci k používání Aspose.Cells pro Javu si můžete prohlédnout na adrese [Referenční příručka k rozhraní Aspose.Cells pro Java API](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

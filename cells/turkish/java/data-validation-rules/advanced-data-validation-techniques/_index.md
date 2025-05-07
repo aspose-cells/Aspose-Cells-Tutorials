@@ -1,10 +1,10 @@
 ---
-title: Gelişmiş Veri Doğrulama Teknikleri
-linktitle: Gelişmiş Veri Doğrulama Teknikleri
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java ile Excel'de gelişmiş veri doğrulama tekniklerinin kilidini açın. Hassas veri kontrolü için özel kurallar, açılır listeler ve daha fazlasını oluşturmayı öğrenin.
-weight: 19
-url: /tr/java/data-validation-rules/advanced-data-validation-techniques/
+"description": "Aspose.Cells for Java ile Excel'de gelişmiş veri doğrulama tekniklerinin kilidini açın. Hassas veri kontrolü için özel kurallar, açılır listeler ve daha fazlasını oluşturmayı öğrenin."
+"linktitle": "Gelişmiş Veri Doğrulama Teknikleri"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Gelişmiş Veri Doğrulama Teknikleri"
+"url": "/tr/java/data-validation-rules/advanced-data-validation-techniques/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,7 +20,7 @@ Veri doğrulama, Excel elektronik tablolarınıza yanlış veya tutarsız verile
 
 ## Java için Aspose.Cells Kurulumu
 
- Gelişmiş tekniklere dalmadan önce, Java için Aspose.Cells ile başlayalım. Kütüphaneyi şuradan indirebilirsiniz:[Java için Aspose.Cells indirme bağlantısı](https://releases.aspose.com/cells/java/) . Lütfen belgelerde verilen kurulum talimatlarını takip ettiğinizden emin olun.[Java API Referansları için Aspose.Cells](https://reference.aspose.com/cells/java/).
+Gelişmiş tekniklere dalmadan önce, Java için Aspose.Cells ile başlayalım. Kütüphaneyi şuradan indirebilirsiniz: [Java için Aspose.Cells indirme bağlantısı](https://releases.aspose.com/cells/java/). Lütfen belgelerde verilen kurulum talimatlarını takip ettiğinizden emin olun. [Java API Referansları için Aspose.Cells](https://reference.aspose.com/cells/java/).
 
 ## Temel Veri Doğrulaması
 
@@ -86,13 +86,13 @@ dataValidation.setFormula2("12/31/2023");
 
 ## Çözüm
 
-Veri doğrulama, Excel elektronik tablolarında veri kalitesini korumanın kritik bir yönüdür. Aspose.Cells for Java, hem temel hem de gelişmiş veri doğrulama tekniklerini uygulamak için kapsamlı bir araç seti sağlar. Bu makalede özetlenen adımları izleyerek, veri odaklı uygulamalarınızın güvenilirliğini ve doğruluğunu artırabilirsiniz.
+Veri doğrulama, Excel elektronik tablolarında veri kalitesini korumanın kritik bir yönüdür. Java için Aspose.Cells, hem temel hem de gelişmiş veri doğrulama tekniklerini uygulamak için kapsamlı bir araç seti sağlar. Bu makalede özetlenen adımları izleyerek, veri odaklı uygulamalarınızın güvenilirliğini ve doğruluğunu artırabilirsiniz.
 
 ## SSS
 
 ### Java için Aspose.Cells'i nasıl indirebilirim?
 
- Java için Aspose.Cells'i şu adresten indirebilirsiniz:[indirme bağlantısı](https://releases.aspose.com/cells/java/).
+Java için Aspose.Cells'i şu adresten indirebilirsiniz: [indirme bağlantısı](https://releases.aspose.com/cells/java/).
 
 ### Java için Aspose.Cells'i kullanarak özel doğrulama kuralları oluşturabilir miyim?
 
@@ -108,7 +108,8 @@ Evet, liste verilerinin doğrulanması için önceden tanımlanmış seçenekler
 
 ### Java için Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?
 
-Ayrıntılı dokümantasyon ve referansları şu adreste bulabilirsiniz:[Java API Referansları için Aspose.Cells](https://reference.aspose.com/cells/java/).
+Ayrıntılı dokümanları ve referansları şu adreste bulabilirsiniz: [Java API Referansları için Aspose.Cells](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

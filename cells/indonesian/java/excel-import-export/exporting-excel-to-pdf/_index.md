@@ -1,10 +1,10 @@
 ---
-title: Mengekspor Excel ke PDF
-linktitle: Mengekspor Excel ke PDF
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara mengekspor file Excel ke PDF dengan mudah menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah kami menyederhanakan prosesnya. Mulailah mengonversi hari ini!
-weight: 14
-url: /id/java/excel-import-export/exporting-excel-to-pdf/
+"description": "Pelajari cara mengekspor file Excel ke PDF dengan mudah menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah kami menyederhanakan prosesnya. Mulailah mengonversi hari ini!"
+"linktitle": "Mengekspor Excel ke PDF"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Mengekspor Excel ke PDF"
+"url": "/id/java/excel-import-export/exporting-excel-to-pdf/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -61,9 +61,9 @@ public class ExcelToPdfConverter {
 }
 ```
 
- Pastikan Anda mengganti`"path/to/your/excel/file.xlsx"` dengan jalur sebenarnya ke berkas Excel Anda.
+Pastikan Anda mengganti `"path/to/your/excel/file.xlsx"` dengan jalur sebenarnya ke berkas Excel Anda.
 
-## Langkah 3: Ubah Excel ke PDF
+## Langkah 3: Konversi Excel ke PDF
 
 Setelah berkas Excel dimuat, kita sekarang dapat melanjutkan untuk mengonversinya ke format PDF. Aspose.Cells menyederhanakan proses ini secara signifikan:
 
@@ -73,7 +73,7 @@ String pdfFilePath = "path/to/output/pdf/file.pdf";
 workbook.save(pdfFilePath, SaveFormat.PDF);
 ```
 
- Mengganti`"path/to/output/pdf/file.pdf"` dengan jalur keluaran dan nama file pilihan Anda untuk dokumen PDF yang dihasilkan.
+Mengganti `"path/to/output/pdf/file.pdf"` dengan jalur keluaran dan nama file pilihan Anda untuk dokumen PDF yang dihasilkan.
 
 ## Langkah 4: Tingkatkan Aplikasi Java Anda
 
@@ -105,8 +105,8 @@ Meskipun Aspose.Cells dioptimalkan untuk penanganan file Excel besar secara efis
 
 Q5: Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh untuk Aspose.Cells?
 
- Jelajahi dokumentasi API Aspose.Cells di[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) untuk dokumentasi yang komprehensif dan banyak contoh untuk lebih memperluas pengetahuan Anda.
-{{< /blocks/products/pf/tutorial-page-section >}}
+Jelajahi dokumentasi API Aspose.Cells di [https://reference.aspose.com/sel/java/](https://reference.aspose.com/cells/java/) untuk dokumentasi yang komprehensif dan banyak contoh untuk lebih memperluas pengetahuan Anda.
+{{< /blok/produk/pf/bagian-halaman-tutorial >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

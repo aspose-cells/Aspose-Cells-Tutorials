@@ -1,10 +1,10 @@
 ---
-title: Validasi Data Bersyarat
-linktitle: Validasi Data Bersyarat
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara menerapkan validasi data bersyarat menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber untuk penanganan data yang akurat dalam lembar kerja Excel.
-weight: 17
-url: /id/java/data-validation-rules/conditional-data-validation/
+"description": "Pelajari cara menerapkan validasi data bersyarat menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber untuk penanganan data yang akurat dalam lembar kerja Excel."
+"linktitle": "Validasi Data Bersyarat"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Validasi Data Bersyarat"
+"url": "/id/java/data-validation-rules/conditional-data-validation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ Sebelum kita menyelami detail validasi data bersyarat, mari kita perkenalkan Asp
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.Cells untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
 
 ## Langkah 1: Buat Proyek Java Baru
 
@@ -58,7 +58,7 @@ Validasi data bersyarat melibatkan pengaturan kriteria untuk data dalam sel tert
 DataValidation dataValidation = worksheet.getValidations().addDataValidation("A1:A10", DataValidationType.WHOLE, DataValidationOperator.BETWEEN, "1", "100");
 ```
 
-Dalam contoh ini, kami menerapkan validasi data pada sel A1 hingga A10, dengan menentukan bahwa data harus berupa angka bulat antara 1 dan 100.
+Dalam contoh ini, kami menerapkan validasi data pada sel A1 hingga A10, dengan menentukan bahwa data harus berupa bilangan bulat antara 1 dan 100.
 
 ## Langkah 5: Atur Pesan Validasi dan Peringatan Kesalahan
 
@@ -95,7 +95,7 @@ Dalam tutorial ini, kami telah mempelajari cara menerapkan validasi data bersyar
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
- Aspose.Cells untuk Java dapat diinstal dengan mengunduh pustaka dari situs web di[Di Sini](https://releases.aspose.com/cells/java/).
+Aspose.Cells untuk Java dapat diinstal dengan mengunduh pustaka dari situs web di [Di Sini](https://releases.aspose.com/cells/java/).
 
 ### Dapatkah saya menerapkan validasi data bersyarat ke beberapa sel sekaligus?
 
@@ -112,6 +112,7 @@ Tentu saja! Anda dapat menyesuaikan pesan kesalahan, judul, dan tampilan peringa
 ### Apakah ada batasan pada validasi data bersyarat di Aspose.Cells untuk Java?
 
 Meskipun Aspose.Cells untuk Java menyediakan fitur validasi data yang kuat, penting untuk meninjau dokumentasi untuk mengetahui batasan atau pertimbangan khusus saat menerapkan aturan validasi yang rumit.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: ฟังก์ชั่นการวิเคราะห์ข้อมูล Excel
-linktitle: ฟังก์ชั่นการวิเคราะห์ข้อมูล Excel
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: ปลดล็อกพลังของการวิเคราะห์ข้อมูลใน Excel ด้วย Aspose.Cells สำหรับ Java เรียนรู้การเรียงลำดับ การกรอง การคำนวณ และตารางสรุปข้อมูล
-weight: 10
-url: /th/java/excel-data-analysis/data-analysis-functions-excel/
+"description": "ปลดล็อกพลังของการวิเคราะห์ข้อมูลใน Excel ด้วย Aspose.Cells สำหรับ Java เรียนรู้การเรียงลำดับ การกรอง การคำนวณ และตารางสรุปข้อมูล"
+"linktitle": "ฟังก์ชั่นการวิเคราะห์ข้อมูล Excel"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "ฟังก์ชั่นการวิเคราะห์ข้อมูล Excel"
+"url": "/th/java/excel-data-analysis/data-analysis-functions-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -40,7 +40,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // กำหนดช่วงการเรียงลำดับ
 CellArea cellArea = new CellArea();
-cellArea.startRow = 1; //เริ่มจากแถวที่ 2 (โดยถือว่าแถวแรกเป็นส่วนหัว)
+cellArea.startRow = 1; // เริ่มจากแถวที่ 2 (โดยถือว่าแถวแรกเป็นส่วนหัว)
 cellArea.startColumn = 0; // เริ่มจากคอลัมน์แรก
 cellArea.endRow = worksheet.getCells().getMaxDataRow(); // รับแถวสุดท้ายพร้อมข้อมูล
 cellArea.endColumn = worksheet.getCells().getMaxDataColumn(); // รับคอลัมน์สุดท้ายพร้อมข้อมูล
@@ -82,7 +82,7 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 3);
 ```
 
 ## บทสรุป
-Aspose.Cells สำหรับ Java มีคุณสมบัติมากมายสำหรับการวิเคราะห์ข้อมูลใน Excel ในคู่มือนี้ เราได้ครอบคลุมพื้นฐานของการเรียงลำดับ การกรอง การคำนวณสถิติ และการสร้างตารางสรุปข้อมูล ตอนนี้คุณสามารถใช้ประโยชน์จากความสามารถของ Aspose.Cells เพื่อทำให้กระบวนการวิเคราะห์ข้อมูลใน Excel ของคุณเป็นแบบอัตโนมัติและคล่องตัวมากขึ้น
+Aspose.Cells สำหรับ Java นำเสนอฟีเจอร์มากมายสำหรับการวิเคราะห์ข้อมูลใน Excel ในคู่มือนี้ เราได้กล่าวถึงพื้นฐานของการเรียงลำดับ การกรอง การคำนวณสถิติ และการสร้างตารางสรุปข้อมูล ตอนนี้คุณสามารถใช้ประโยชน์จากความสามารถของ Aspose.Cells เพื่อทำให้กระบวนการวิเคราะห์ข้อมูลใน Excel ของคุณเป็นแบบอัตโนมัติและคล่องตัวมากขึ้น
 
 ## คำถามที่พบบ่อย
 
@@ -112,7 +112,8 @@ worksheet.getAutoFilter().filter(1, "Filter Condition 2");
 
 ### ฉันสามารถหาตัวอย่างและทรัพยากรขั้นสูงเพิ่มเติมได้ที่ไหน
 
- สำหรับตัวอย่าง บทช่วยสอน และทรัพยากรขั้นสูงเพิ่มเติมเกี่ยวกับ Aspose.Cells สำหรับ Java โปรดไปที่[เอกสาร Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/)คุณจะพบข้อมูลมากมายที่จะช่วยให้คุณเชี่ยวชาญการวิเคราะห์ข้อมูล Excel ด้วย Aspose.Cells
+สำหรับตัวอย่าง บทช่วยสอน และทรัพยากรขั้นสูงเพิ่มเติมเกี่ยวกับ Aspose.Cells สำหรับ Java โปรดไปที่ [เอกสาร Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/)คุณจะพบข้อมูลมากมายที่จะช่วยให้คุณเชี่ยวชาญการวิเคราะห์ข้อมูล Excel ด้วย Aspose.Cells
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Şelale Grafikleri
-linktitle: Şelale Grafikleri
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java için Aspose.Cells ile çarpıcı Şelale Grafikleri oluşturmayı öğrenin. Etkili veri görselleştirmesi için kaynak kodlu adım adım kılavuz.
-weight: 18
-url: /tr/java/advanced-excel-charts/waterfall-charts/
+"description": "Java için Aspose.Cells ile çarpıcı Şelale Grafikleri oluşturmayı öğrenin. Etkili veri görselleştirme için kaynak kodlu adım adım kılavuz."
+"linktitle": "Şelale Grafikleri"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Şelale Grafikleri"
+"url": "/tr/java/advanced-excel-charts/waterfall-charts/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /tr/java/advanced-excel-charts/waterfall-charts/
 
 Ayrıntılara girmeden önce, aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
--  Java için Aspose.Cells: Java için Aspose.Cells'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/java/).
+- Java için Aspose.Cells: Java için Aspose.Cells'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/cells/java/).
 
 - Java Geliştirme Ortamı: Sisteminizde Java'nın yüklü olduğundan emin olun.
 
@@ -113,7 +113,8 @@ Elbette, karmaşık veri senaryolarını etkili bir şekilde temsil etmek için 
 
 ### Java için Aspose.Cells hakkında daha fazla kaynak ve örneği nerede bulabilirim?
 
- Java için Aspose.Cells belgelerini şu adreste inceleyebilirsiniz:[reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) Ayrıntılı bilgi ve kod örnekleri için.
+Java için Aspose.Cells belgelerini şu adreste inceleyebilirsiniz: [referans.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) Ayrıntılı bilgi ve kod örnekleri için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

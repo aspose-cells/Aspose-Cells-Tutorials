@@ -1,10 +1,10 @@
 ---
-title: Excel Veri Analizi
-linktitle: Excel Veri Analizi
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java için Aspose.Cells ile güçlü Excel veri analizinin kilidini açın. Java geliştiricileri için adım adım eğitimleri keşfedin. Bugün veri içgörülerinde ustalaşın.
-weight: 12
-url: /tr/java/excel-data-analysis/
+"description": "Java için Aspose.Cells ile güçlü Excel veri analizinin kilidini açın. Java geliştiricileri için adım adım eğitimleri keşfedin. Bugün veri içgörülerinde ustalaşın."
+"linktitle": "Excel Veri Analizi"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Excel Veri Analizi"
+"url": "/tr/java/excel-data-analysis/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Kapsamlı eğitimlerimiz sizi Aspose.Cells for Java kullanarak Excel veri analiz
 
 ## Bugün Veri İçgörülerinde Ustalaşmak
 
-Aspose.Cells for Java ile Excel veri analizi konusunda uzmanlaşarak, verilerinizin tüm potansiyelini kullanmada rekabet avantajı elde edersiniz. İster trendleri ortaya çıkarın, ister raporlar oluşturun veya süreçleri otomatikleştirin, bu eğitimler size günümüzün veri odaklı ortamında başarılı olmak için gereken becerileri kazandırır. Eğitimlerimize dalın ve verileri bugünden itibaren eyleme dönüştürülebilir içgörülere dönüştürmeye başlayın.
+Aspose.Cells for Java ile Excel veri analizi konusunda ustalaşarak, verilerinizin tüm potansiyelini kullanmada rekabet avantajı elde edersiniz. İster trendleri ortaya çıkarın, ister raporlar oluşturun veya süreçleri otomatikleştirin, bu eğitimler sizi günümüzün veri odaklı ortamında başarılı olmak için gereken becerilerle donatır. Eğitimlerimize dalın ve verileri bugünden itibaren eyleme dönüştürülebilir içgörülere dönüştürmeye başlayın.
 
 ## Excel Veri Analizi Eğitimleri
 ### [Veri Analizi Fonksiyonları Excel](./data-analysis-functions-excel/)
@@ -32,11 +32,12 @@ Aspose.Cells for Java ile Excel'de Veri Analizinin Gücünü Açın. Sıralama, 
 ### [Gelişmiş Veri Analizi Excel](./advanced-data-analysis-excel/)
 Aspose.Cells for Java ile Excel'de gelişmiş veri analizinde ustalaşın. Kaynak kod örnekleriyle adım adım öğrenin.
 ### [Veri Analizi Excel Pivot](./data-analysis-excel-pivot/)
-Aspose.Cells for Java ile Excel'de Veri Analizini Öğrenin: Pivot tabloların etkili kullanımı için adım adım kılavuz.
+Java için Aspose.Cells ile Excel'de Veri Analizini Öğrenin: Pivot tabloların etkili kullanımı için adım adım kılavuz.
 ### [Veri Analizi Excel Grafikleri](./data-analysis-excel-charts/)
 Java için Aspose.Cells ile Veri Analizinde Mükemmelliğin Kilidini Açın. Çarpıcı Excel Grafikleri ve Raporları Oluşturun.
 ### [Veri Analizi Excel Formülleri](./data-analysis-excel-formulas/)
 Aspose.Cells for Java ile Excel'de Veri Analizinin Gücünü Açın. Temel Formülleri ve Teknikleri Öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

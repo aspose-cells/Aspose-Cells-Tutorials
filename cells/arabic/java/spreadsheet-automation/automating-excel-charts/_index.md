@@ -1,10 +1,10 @@
 ---
-title: أتمتة مخططات Excel
-linktitle: أتمتة مخططات Excel
-second_title: واجهة برمجة تطبيقات معالجة Excel في Java من Aspose.Cells
-description: اكتشف كيفية أتمتة إنشاء مخططات Excel وتخصيصها باستخدام Aspose.Cells for Java مع أمثلة التعليمات البرمجية المصدرية. قم بتبسيط مهام إنشاء المخططات.
-weight: 17
-url: /ar/java/spreadsheet-automation/automating-excel-charts/
+"description": "اكتشف كيفية أتمتة إنشاء وتخصيص مخططات Excel باستخدام Aspose.Cells لـ Java مع أمثلة من الكود المصدري. بسّط مهامك في إنشاء المخططات."
+"linktitle": "أتمتة مخططات Excel"
+"second_title": "واجهة برمجة تطبيقات معالجة Excel لـ Aspose.Cells Java"
+"title": "أتمتة مخططات Excel"
+"url": "/ar/java/spreadsheet-automation/automating-excel-charts/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,22 +14,22 @@ url: /ar/java/spreadsheet-automation/automating-excel-charts/
 # أتمتة مخططات Excel
 
 
-تُعد مخططات Excel أدوات فعّالة لتصور البيانات، ويمكن أن يؤدي أتمتة إنشائها وتخصيصها إلى تحسين الإنتاجية بشكل كبير. في هذا البرنامج التعليمي، سنوضح لك كيفية أتمتة مهام مخططات Excel باستخدام Aspose.Cells for Java، وهي واجهة برمجة تطبيقات Java متعددة الاستخدامات للعمل مع ملفات Excel.
+تُعد مخططات Excel أدوات فعّالة لعرض البيانات، ويُمكن لأتمتة إنشائها وتخصيصها تحسين الإنتاجية بشكل ملحوظ. في هذا البرنامج التعليمي، سنوضح لك كيفية أتمتة مهام مخططات Excel باستخدام Aspose.Cells for Java، وهي واجهة برمجة تطبيقات Java متعددة الاستخدامات للعمل مع ملفات Excel.
 
 ## لماذا أتمتة الرسوم البيانية في Excel؟
 
 توفر أتمتة مخططات Excel العديد من الفوائد:
 
-1. الكفاءة: توفير الوقت عن طريق أتمتة إنشاء المخططات وتحديثاتها.
+1. الكفاءة: وفر الوقت عن طريق أتمتة إنشاء المخططات وتحديثاتها.
 2. الاتساق: ضمان تنسيق الرسم البياني الموحد عبر التقارير.
-3. البيانات الديناميكية: تحديث المخططات بسهولة بالبيانات الجديدة.
+3. البيانات الديناميكية: قم بتحديث المخططات بسهولة باستخدام البيانات الجديدة.
 4. إمكانية التوسع: إنشاء مخططات بيانية لمجموعات البيانات الكبيرة بسهولة.
 
 ## ابدء
 
 ### 1. إعداد البيئة
 
-قبل أن تبدأ، تأكد من تثبيت Aspose.Cells for Java. يمكنك تنزيله من[هنا](https://releases.aspose.com/cells/java/).
+قبل البدء، تأكد من تثبيت Aspose.Cells لجافا. يمكنك تنزيله من [هنا](https://releases.aspose.com/cells/java/).
 
 ### 2. تهيئة Aspose.Cells
 
@@ -60,9 +60,9 @@ Worksheet worksheet = workbook.getWorksheets().add("ChartSheet");
 
 ## أتمتة مخططات Excel
 
-### 4. إنشاء مخطط
+### 4. إنشاء مخطط بياني
 
-لنقم بإنشاء مخطط على ورقة العمل. على سبيل المثال، سنقوم بإنشاء مخطط عمودي:
+لننشئ مخططًا بيانيًا على ورقة العمل. على سبيل المثال، سننشئ مخططًا بيانيًا عموديًا:
 
 ```java
 // إضافة مخطط إلى ورقة العمل
@@ -74,7 +74,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 
 ### 5. إضافة البيانات إلى الرسم البياني
 
-الآن، سنضيف البيانات إلى الرسم البياني. يمكنك تحديد نطاق البيانات والعناوين:
+الآن، سنضيف البيانات إلى الرسم البياني. يمكنك تحديد نطاق البيانات وعلاماتها:
 
 ```java
 // تعيين نطاق البيانات للرسم البياني
@@ -93,14 +93,14 @@ chart.setTitle("Sales Chart");
 // تخصيص نمط الرسم البياني
 chart.getChartArea().setForegroundColor(Color.getLightSkyBlue());
 
-// تخصيص عناوين وعناوين المحاور
+// تخصيص تسميات المحاور والعناوين
 chart.getCategoryAxis().getTitle().setText("Months");
 chart.getValueAxis().getTitle().setText("Sales (USD)");
 ```
 
 ## خاتمة
 
-إن أتمتة مخططات Excel باستخدام Aspose.Cells for Java تبسط عملية إنشاء المخططات وتخصيصها في ملفات Excel. باستخدام أمثلة التعليمات البرمجية المصدرية المقدمة، يمكنك تحسين مهام إنشاء المخططات في تطبيقات Java.
+تُبسّط أتمتة مخططات Excel باستخدام Aspose.Cells لـ Java عملية إنشاء المخططات وتخصيصها في ملفات Excel. باستخدام أمثلة التعليمات البرمجية المصدرية المُقدّمة، يُمكنك تحسين مهام إنشاء المخططات في تطبيقات Java.
 
 ## الأسئلة الشائعة
 
@@ -114,9 +114,9 @@ chart.getValueAxis().getTitle().setText("Sales (USD)");
    نعم، ستحتاج إلى ترخيص صالح لاستخدام Aspose.Cells for Java في مشاريعك.
 
 ### 4. أين يمكنني العثور على المزيد من الموارد والوثائق الخاصة بـ Aspose.Cells لـ Java؟
-    استكشف وثائق واجهة برمجة التطبيقات على[https://reference.aspose.com/cells/Java/](https://reference.aspose.com/cells/java/) للحصول على معلومات وأمثلة متعمقة.
+   استكشف وثائق واجهة برمجة التطبيقات على [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) للحصول على معلومات وأمثلة متعمقة.
 
-قم بأتمتة مهام رسم البيانات في Excel بسهولة باستخدام Aspose.Cells for Java وقم بترقية قدرات تصور البيانات لديك.
+قم بأتمتة مهام رسم المخططات البيانية في Excel بسهولة باستخدام Aspose.Cells for Java وقم بترقية قدرات تصور البيانات لديك.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

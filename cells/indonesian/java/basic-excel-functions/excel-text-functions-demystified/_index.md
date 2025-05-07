@@ -1,10 +1,10 @@
 ---
-title: Fungsi Teks Excel Diungkap
-linktitle: Fungsi Teks Excel Diungkap
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Ungkap rahasia fungsi teks Excel dengan Aspose.Cells untuk Java. Pelajari cara memanipulasi, mengekstrak, dan mengubah teks di Excel dengan mudah.
-weight: 18
-url: /id/java/basic-excel-functions/excel-text-functions-demystified/
+"description": "Ungkap rahasia fungsi teks Excel dengan Aspose.Cells untuk Java. Pelajari cara memanipulasi, mengekstrak, dan mengubah teks di Excel dengan mudah."
+"linktitle": "Fungsi Teks Excel Diungkap"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Fungsi Teks Excel Diungkap"
+"url": "/id/java/basic-excel-functions/excel-text-functions-demystified/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -20,11 +20,11 @@ Dalam tutorial ini, kita akan mempelajari dunia manipulasi teks di Excel menggun
 
 ## Memulai
 
- Sebelum kita mulai, pastikan Anda telah menginstal Aspose.Cells untuk Java. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/java/)Setelah Anda mengaturnya, mari selami dunia fungsi teks Excel yang menarik.
+Sebelum kita mulai, pastikan Anda telah menginstal Aspose.Cells untuk Java. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/cells/java/)Setelah Anda mengaturnya, mari selami dunia fungsi teks Excel yang menarik.
 
 ## CONCATENATE - Menggabungkan Teks
 
- Itu`CONCATENATE`Fungsi ini memungkinkan Anda untuk menggabungkan teks dari sel yang berbeda. Mari kita lihat cara melakukannya dengan Aspose.Cells untuk Java:
+Itu `CONCATENATE` Fungsi ini memungkinkan Anda untuk menggabungkan teks dari sel yang berbeda. Mari kita lihat cara melakukannya dengan Aspose.Cells untuk Java:
 
 ```java
 // Kode Java untuk menggabungkan teks menggunakan Aspose.Cells
@@ -47,7 +47,7 @@ Sekarang, sel C1 akan berisi "Halo, Dunia!".
 
 ## KIRI dan KANAN - Mengekstrak Teks
 
- Itu`LEFT` Dan`RIGHT` Fungsi ini memungkinkan Anda untuk mengambil sejumlah karakter tertentu dari kiri atau kanan string teks. Berikut cara menggunakannya:
+Itu `LEFT` Dan `RIGHT` Fungsi ini memungkinkan Anda untuk mengambil sejumlah karakter tertentu dari kiri atau kanan string teks. Berikut cara menggunakannya:
 
 ```java
 // Kode Java untuk mengekstrak teks menggunakan Aspose.Cells
@@ -69,7 +69,7 @@ Sel B2 akan bertuliskan "Excel", dan sel C2 akan bertuliskan "Hebat!".
 
 ## LEN - Menghitung Karakter
 
- Itu`LEN` fungsi menghitung jumlah karakter dalam string teks. Mari kita lihat cara menggunakannya dengan Aspose.Cells untuk Java:
+Itu `LEN` fungsi menghitung jumlah karakter dalam string teks. Mari kita lihat cara menggunakannya dengan Aspose.Cells untuk Java:
 
 ```java
 // Kode Java untuk menghitung karakter menggunakan Aspose.Cells
@@ -87,7 +87,7 @@ Sel B3 akan berisi "5", karena ada 5 karakter di "Excel".
 
 ## ATAS dan BAWAH - Mengubah Kasus
 
- Itu`UPPER` Dan`LOWER` Fungsi ini memungkinkan Anda mengubah teks menjadi huruf besar atau kecil. Berikut cara melakukannya:
+Itu `UPPER` Dan `LOWER` Fungsi ini memungkinkan Anda mengubah teks menjadi huruf besar atau kecil. Berikut cara melakukannya:
 
 ```java
 // Kode Java untuk mengubah huruf besar/kecil menggunakan Aspose.Cells
@@ -109,7 +109,7 @@ Sel B4 akan berisi "JAVA PROGRAMMING", dan sel C4 akan berisi "java programming"
 
 ## TEMUKAN dan GANTI - Menemukan dan Mengganti Teks
 
- Itu`FIND` fungsi memungkinkan Anda untuk menemukan posisi karakter atau teks tertentu dalam string, sementara`REPLACE` Fungsi ini membantu Anda mengganti teks. Mari kita lihat cara kerjanya:
+Itu `FIND` fungsi memungkinkan Anda untuk menemukan posisi karakter atau teks tertentu dalam string, sementara `REPLACE` Fungsi ini membantu Anda mengganti teks. Mari kita lihat cara kerjanya:
 
 ```java
 // Kode Java untuk menemukan dan mengganti menggunakan Aspose.Cells
@@ -137,15 +137,15 @@ Fungsi teks di Excel merupakan alat yang hebat untuk memanipulasi dan menganalis
 
 ### Bagaimana cara menggabungkan teks dari beberapa sel?
 
- Untuk menggabungkan teks dari beberapa sel, gunakan`CONCATENATE` fungsi. Misalnya:
+Untuk menggabungkan teks dari beberapa sel, gunakan `CONCATENATE` fungsi. Misalnya:
 ```java
 Cell cell = worksheet.getCells().get("A1");
 cell.setFormula("=CONCATENATE(A1, B1)");
 ```
 
-### Bisakah saya mengekstrak karakter pertama dan terakhir dari string teks?
+### Bisakah saya mengekstrak karakter pertama dan terakhir dari rangkaian teks?
 
- Ya, Anda bisa menggunakan`LEFT` Dan`RIGHT` fungsi untuk mengekstrak karakter dari awal atau akhir string teks. Misalnya:
+Ya, Anda bisa menggunakan `LEFT` Dan `RIGHT` fungsi untuk mengekstrak karakter dari awal atau akhir string teks. Misalnya:
 ```java
 Cell cell = worksheet.getCells().get("A2");
 cell.setFormula("=LEFT(A2, 5)");
@@ -153,7 +153,7 @@ cell.setFormula("=LEFT(A2, 5)");
 
 ### Bagaimana cara menghitung karakter dalam rangkaian teks?
 
- Gunakan`LEN` fungsi untuk menghitung karakter dalam string teks. Misalnya:
+Gunakan `LEN` fungsi untuk menghitung karakter dalam string teks. Misalnya:
 ```java
 Cell cell = worksheet.getCells().get("A3");
 cell.setFormula("=LEN(A3)");
@@ -161,7 +161,7 @@ cell.setFormula("=LEN(A3)");
 
 ### Apakah mungkin untuk mengubah besar kecilnya huruf pada teks?
 
- Ya, Anda dapat mengubah teks menjadi huruf besar atau kecil menggunakan`UPPER` Dan`LOWER` fungsi. Misalnya:
+Ya, Anda dapat mengubah teks menjadi huruf besar atau kecil menggunakan `UPPER` Dan `LOWER` fungsi. Misalnya:
 ```java
 Cell cell = worksheet.getCells().get("A4");
 cell.setFormula("=UPPER(A4)");
@@ -169,7 +169,7 @@ cell.setFormula("=UPPER(A4)");
 
 ### Bagaimana cara menemukan dan mengganti teks dalam string?
 
-Untuk menemukan dan mengganti teks dalam string, gunakan`FIND` Dan`REPLACE` fungsi. Misalnya:
+Untuk menemukan dan mengganti teks dalam string, gunakan `FIND` Dan `REPLACE` fungsi. Misalnya:
 ```java
 Cell cell = worksheet.getCells().get("A5");
 cell.setFormula("=FIND(\"for\", A5)");

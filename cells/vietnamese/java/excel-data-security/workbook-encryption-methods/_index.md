@@ -1,10 +1,10 @@
 ---
-title: Phương pháp mã hóa sổ làm việc
-linktitle: Phương pháp mã hóa sổ làm việc
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Tăng cường bảo mật dữ liệu với Aspose.Cells cho mã hóa sổ làm việc Java. Tìm hiểu cách mã hóa sổ làm việc Excel từng bước.
-weight: 12
-url: /vi/java/excel-data-security/workbook-encryption-methods/
+"description": "Tăng cường bảo mật dữ liệu với Aspose.Cells cho mã hóa sổ làm việc Java. Tìm hiểu cách mã hóa sổ làm việc Excel từng bước."
+"linktitle": "Phương pháp mã hóa sổ làm việc"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Phương pháp mã hóa sổ làm việc"
+"url": "/vi/java/excel-data-security/workbook-encryption-methods/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -27,7 +27,7 @@ Trước khi đi sâu vào chi tiết triển khai, trước tiên chúng ta hã
 Trước khi bắt đầu làm việc với Aspose.Cells cho Java và mã hóa, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Thư viện Aspose.Cells cho Java, bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
+- Thư viện Aspose.Cells cho Java, bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/java/).
 
 ## Bắt đầu
 
@@ -102,6 +102,7 @@ Không, không thể giải mã bảng tính được mã hóa nếu không có 
 ### Aspose.Cells for Java có hỗ trợ mã hóa cho các định dạng tệp khác không?
 
 Aspose.Cells for Java chủ yếu tập trung vào sổ làm việc Excel, nhưng nó cũng có thể hỗ trợ mã hóa cho các định dạng tệp khác. Kiểm tra tài liệu để biết thêm chi tiết.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

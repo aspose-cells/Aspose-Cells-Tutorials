@@ -1,10 +1,10 @@
 ---
-title: การจัดเรียงแบบดรอปดาวน์ใน Excel
-linktitle: การจัดเรียงแบบดรอปดาวน์ใน Excel
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: เรียนรู้วิธีสร้างรายการดร็อปดาวน์แบบเรียงซ้อนใน Excel โดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนนี้ประกอบด้วยโค้ดต้นฉบับและคำแนะนำจากผู้เชี่ยวชาญสำหรับการจัดการสเปรดชีต Excel อย่างมีประสิทธิภาพ
-weight: 13
-url: /th/java/data-validation-rules/cascading-dropdowns-in-excel/
+"description": "เรียนรู้วิธีสร้างรายการดร็อปดาวน์แบบเรียงซ้อนใน Excel โดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนนี้ประกอบด้วยโค้ดต้นฉบับและคำแนะนำจากผู้เชี่ยวชาญสำหรับการจัดการสเปรดชีต Excel อย่างมีประสิทธิภาพ"
+"linktitle": "การจัดเรียงแบบดรอปดาวน์ใน Excel"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "การจัดเรียงแบบดรอปดาวน์ใน Excel"
+"url": "/th/java/data-validation-rules/cascading-dropdowns-in-excel/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /th/java/data-validation-rules/cascading-dropdowns-in-excel/
 
 ก่อนที่เราจะเริ่มต้นการเดินทางครั้งนี้ ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
--  Aspose.Cells สำหรับ Java: ดาวน์โหลดและติดตั้งจาก[ที่นี่](https://releases.aspose.com/cells/java/).
+- Aspose.Cells สำหรับ Java: ดาวน์โหลดและติดตั้งจาก [ที่นี่](https://releases-aspose.com/cells/java/).
 - สภาพแวดล้อมการพัฒนา Java: คุณควรมีการตั้งค่าสภาพแวดล้อมการพัฒนา Java บนเครื่องของคุณ
 - ความเข้าใจพื้นฐานเกี่ยวกับ Excel: ความคุ้นเคยกับ Excel และแนวคิดพื้นฐานของมันจะเป็นประโยชน์
 
@@ -32,7 +32,7 @@ url: /th/java/data-validation-rules/cascading-dropdowns-in-excel/
 
 ## ขั้นตอนที่ 1: การสร้างสมุดงาน Excel
 
-ขั้นแรก ให้สร้างเวิร์กบุ๊ก Excel โดยใช้ Aspose.Cells สำหรับ Java เราจะเพิ่มชีตสองชีต หนึ่งชีตสำหรับรายชื่อประเทศและอีกชีตสำหรับรายชื่อเมือง
+ขั้นแรก ให้สร้างเวิร์กบุ๊ก Excel โดยใช้ Aspose.Cells สำหรับ Java เราจะเพิ่มชีตสองชีต ชีตหนึ่งสำหรับรายชื่อประเทศและอีกชีตหนึ่งสำหรับรายชื่อเมือง
 
 ```java
 // โค้ด Java เพื่อสร้างเวิร์กบุ๊ก Excel
@@ -47,7 +47,7 @@ Worksheet citySheet = workbook.getWorksheets().add("Cities");
 ตอนนี้เราต้องป้อนข้อมูลลงในเวิร์กชีตของเรา ในชีต "ประเทศ" เราจะแสดงรายชื่อประเทศ และในชีต "เมือง" เราจะปล่อยให้ว่างเปล่าไว้ก่อน เนื่องจากเราจะป้อนข้อมูลแบบไดนามิกในภายหลัง
 
 ```java
-//โค้ด Java สำหรับการเติมข้อมูลในชีต "ประเทศ"
+// โค้ด Java สำหรับการเติมข้อมูลในชีต "ประเทศ"
 countrySheet.getCells().get("A1").putValue("Country");
 countrySheet.getCells().get("A2").putValue("USA");
 countrySheet.getCells().get("A3").putValue("Canada");
@@ -94,7 +94,7 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
                 case "UK":
                     validation.setFormula1("Cities!$C$2:$C$4"); // ประชากรในเมืองต่างๆ ในสหราชอาณาจักร
                     break;
-                // เพิ่มกรณีสำหรับประเทศอื่น ๆ
+                // เพิ่มกรณีสำหรับประเทศอื่นๆ
             }
         }
     }
@@ -125,7 +125,8 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
 
 ### ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.Cells สำหรับ Java ได้จากที่ไหน
 
- คุณสามารถเข้าถึงเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.Cells สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/cells/java/).
+คุณสามารถเข้าถึงเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.Cells สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

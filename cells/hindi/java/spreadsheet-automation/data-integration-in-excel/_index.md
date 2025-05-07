@@ -1,10 +1,10 @@
 ---
-title: एक्सेल में डेटा एकीकरण
-linktitle: एक्सेल में डेटा एकीकरण
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: बेहतर जानकारी और निर्णय लेने के लिए Excel में डेटा को कुशलतापूर्वक एकीकृत करने का तरीका जानें। Java के लिए Aspose.Cells का उपयोग करके स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 19
-url: /hi/java/spreadsheet-automation/data-integration-in-excel/
+"description": "बेहतर जानकारी और निर्णय लेने के लिए Excel में डेटा को कुशलतापूर्वक एकीकृत करने का तरीका जानें। Java के लिए Aspose.Cells का उपयोग करके स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "एक्सेल में डेटा एकीकरण"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "एक्सेल में डेटा एकीकरण"
+"url": "/hi/java/spreadsheet-automation/data-integration-in-excel/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /hi/java/spreadsheet-automation/data-integration-in-excel/
 
 ## 2. Java के लिए Aspose.Cells सेट अप करना
 
- डेटा एकीकरण में गोता लगाने से पहले, आपको Java के लिए Aspose.Cells सेट अप करना होगा। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/java/)आरंभ करने के लिए स्थापना निर्देशों का पालन करें.
+डेटा एकीकरण में गोता लगाने से पहले, आपको Java के लिए Aspose.Cells सेट अप करना होगा। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/java/)आरंभ करने के लिए स्थापना निर्देशों का पालन करें.
 
 ## 3. एक्सेल में डेटा लोड करना
 

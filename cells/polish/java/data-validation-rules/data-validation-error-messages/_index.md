@@ -1,10 +1,10 @@
 ---
-title: Komunikaty o błędach walidacji danych
-linktitle: Komunikaty o błędach walidacji danych
-second_title: Aspose.Cells Java Excel Processing API
-description: Zoptymalizuj komunikaty o błędach walidacji danych za pomocą Aspose.Cells dla Java. Naucz się tworzyć, dostosowywać i ulepszać doświadczenie użytkownika.
-weight: 12
-url: /pl/java/data-validation-rules/data-validation-error-messages/
+"description": "Zoptymalizuj komunikaty o błędach walidacji danych za pomocą Aspose.Cells dla Java. Naucz się tworzyć, dostosowywać i ulepszać doświadczenie użytkownika."
+"linktitle": "Komunikaty o błędach walidacji danych"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Komunikaty o błędach walidacji danych"
+"url": "/pl/java/data-validation-rules/data-validation-error-messages/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -107,6 +107,7 @@ Tak, można zautomatyzować proces generowania komunikatów o błędach na podst
 ### Jak mogę sprawnie obsługiwać błędy walidacji w mojej aplikacji?
 
 Możesz wychwytywać błędy walidacji i wyświetlać użytkownikom dostosowane komunikaty o błędach, pomagające im skorygować wprowadzane dane.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: चार्ट एनीमेशन
-linktitle: चार्ट एनीमेशन
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: जावा के लिए Aspose.Cells के साथ आकर्षक चार्ट एनिमेशन बनाना सीखें। गतिशील डेटा विज़ुअलाइज़ेशन के लिए चरण-दर-चरण मार्गदर्शिका और स्रोत कोड शामिल है।
-weight: 17
-url: /hi/java/advanced-excel-charts/chart-animation/
+"description": "जावा के लिए Aspose.Cells के साथ आकर्षक चार्ट एनिमेशन बनाना सीखें। गतिशील डेटा विज़ुअलाइज़ेशन के लिए चरण-दर-चरण मार्गदर्शिका और स्रोत कोड शामिल है।"
+"linktitle": "चार्ट एनीमेशन"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "चार्ट एनीमेशन"
+"url": "/hi/java/advanced-excel-charts/chart-animation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /hi/java/advanced-excel-charts/chart-animation/
 
 इससे पहले कि हम चार्ट एनिमेशन बनाना शुरू करें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-1.  Aspose.Cells for Java: सुनिश्चित करें कि आपके पास Aspose.Cells for Java लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/java/).
+1. Aspose.Cells for Java: सुनिश्चित करें कि आपके पास Aspose.Cells for Java लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/java/).
 
 2. जावा विकास वातावरण: आपके सिस्टम पर जावा विकास वातावरण स्थापित होना चाहिए।
 
@@ -88,15 +88,16 @@ workbook.save("output.xlsx");
 
 ### मैं एनीमेशन का प्रकार कैसे बदल सकता हूँ?
 
- एनीमेशन प्रकार बदलने के लिए, का उपयोग करें`setAnimationType` चार्ट ऑब्जेक्ट पर विधि। आप विभिन्न प्रकारों में से चुन सकते हैं जैसे`SLIDE`, `FADE` , और`GROW_SHRINK`.
+एनीमेशन प्रकार बदलने के लिए, का उपयोग करें `setAnimationType` चार्ट ऑब्जेक्ट पर विधि। आप विभिन्न प्रकारों में से चुन सकते हैं जैसे `SLIDE`, `FADE`, और `GROW_SHRINK`.
 
 ### क्या मैं एनीमेशन अवधि को अनुकूलित कर सकता हूँ?
 
- हां, आप एनीमेशन अवधि को अनुकूलित कर सकते हैं`setAnimationDuration` विधि. अवधि को मिलीसेकंड में निर्दिष्ट करें.
+हां, आप एनीमेशन अवधि को अनुकूलित कर सकते हैं `setAnimationDuration` विधि. अवधि को मिलीसेकंड में निर्दिष्ट करें.
 
 ### एनीमेशन विलंब का उद्देश्य क्या है?
 
- एनीमेशन विलंब चार्ट एनीमेशन शुरू होने से पहले समय अंतराल निर्धारित करता है।`setAnimationDelay` मिलीसेकंड में देरी सेट करने की विधि.
+एनीमेशन विलंब चार्ट एनीमेशन शुरू होने से पहले समय अंतराल निर्धारित करता है। `setAnimationDelay` मिलीसेकंड में देरी सेट करने की विधि।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

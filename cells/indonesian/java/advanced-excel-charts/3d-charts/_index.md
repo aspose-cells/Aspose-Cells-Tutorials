@@ -1,10 +1,10 @@
 ---
-title: Bagan 3D
-linktitle: Bagan 3D
-second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari Cara Membuat Grafik 3D yang Menakjubkan di Java dengan Aspose.Cells. Panduan Langkah demi Langkah untuk Visualisasi Data Excel.
-weight: 13
-url: /id/java/advanced-excel-charts/3d-charts/
+"description": "Pelajari Cara Membuat Grafik 3D yang Menakjubkan di Java dengan Aspose.Cells. Panduan Langkah demi Langkah untuk Visualisasi Data Excel."
+"linktitle": "Bagan 3D"
+"second_title": "API Pemrosesan Java Excel Aspose.Cells"
+"title": "Bagan 3D"
+"url": "/id/java/advanced-excel-charts/3d-charts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,13 +16,13 @@ url: /id/java/advanced-excel-charts/3d-charts/
 
 ## Pengenalan Grafik 3D
 
-Aspose.Cells untuk Java adalah API Java yang hebat untuk bekerja dengan file Excel, termasuk pembuatan berbagai jenis grafik. Dalam artikel ini, kita akan membahas cara membuat grafik 3D menggunakan Aspose.Cells untuk Java.
+Aspose.Cells untuk Java adalah API Java yang hebat untuk bekerja dengan file Excel, termasuk pembuatan berbagai jenis bagan. Dalam artikel ini, kita akan membahas cara membuat bagan 3D menggunakan Aspose.Cells untuk Java.
 
 ## Apa itu Bagan 3D?
 
-Bagan 3D adalah jenis visualisasi data yang menambah kedalaman pada bagan 2D tradisional. Bagan ini menyediakan cara yang lebih mendalam untuk menyajikan data, sehingga memudahkan pemahaman hubungan yang kompleks dalam kumpulan data. Bagan 3D dapat sangat berguna saat menangani data multidimensi.
+Bagan 3D adalah jenis visualisasi data yang menambah kedalaman pada bagan 2D tradisional. Bagan 3D menyediakan cara yang lebih mendalam untuk menyajikan data, sehingga memudahkan pemahaman hubungan yang kompleks dalam kumpulan data. Bagan 3D dapat sangat berguna saat menangani data multidimensi.
 
-## Mengapa menggunakan Aspose.Cells untuk Java untuk membuat grafik 3D?
+## Mengapa menggunakan Aspose.Cells untuk Java untuk membuat bagan 3D?
 
 Aspose.Cells untuk Java menawarkan serangkaian fitur dan alat yang lengkap untuk bekerja dengan file dan bagan Excel. Aplikasi ini menyediakan antarmuka yang mudah digunakan untuk membuat, menyesuaikan, dan memanipulasi bagan, termasuk bagan 3D. Selain itu, Aspose.Cells untuk Java memastikan bahwa bagan yang dihasilkan kompatibel dengan berbagai versi Excel, menjadikannya pilihan yang andal untuk pembuatan bagan.
 
@@ -39,7 +39,7 @@ Anda dapat mengunduh pustaka Aspose.Cells for Java dari situs web. Setelah diund
 Untuk menggunakan Aspose.Cells untuk Java, Anda perlu menginisialisasi lisensi Anda. Langkah ini penting untuk menghapus batasan evaluasi dan membuka potensi penuh pustaka tersebut.
 
 ```java
-//Inisialisasi lisensi Aspose.Cells
+// Inisialisasi lisensi Aspose.Cells
 License license = new License();
 license.setLicense("path_to_license_file.xml");
 ```
@@ -150,7 +150,7 @@ Dalam artikel ini, kami membahas cara membuat bagan 3D menggunakan Aspose.Cells 
 
 ### Bagaimana cara menambahkan beberapa seri data ke bagan 3D?
 
- Untuk menambahkan beberapa seri data ke bagan 3D, Anda dapat menggunakan`chart.getNSeries().add()` metode dan tentukan rentang data untuk setiap seri. Pastikan untuk mengatur jenis bagan yang sesuai untuk setiap seri guna membedakannya.
+Untuk menambahkan beberapa seri data ke bagan 3D, Anda dapat menggunakan `chart.getNSeries().add()` metode dan tentukan rentang data untuk setiap seri. Pastikan untuk mengatur jenis bagan yang sesuai untuk setiap seri guna membedakannya.
 
 ### Bisakah saya mengekspor grafik 3D yang dibuat dengan Aspose.Cells untuk Java ke format lain?
 
@@ -166,7 +166,8 @@ Ya, Anda dapat mengotomatiskan proses pembaruan data dalam bagan 3D dengan mengi
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.Cells untuk Java?
 
- Anda dapat menemukan dokumentasi dan sumber daya lengkap untuk Aspose.Cells untuk Java di situs web:[Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/).
+Anda dapat menemukan dokumentasi dan sumber daya yang lengkap untuk Aspose.Cells untuk Java di situs web: [Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

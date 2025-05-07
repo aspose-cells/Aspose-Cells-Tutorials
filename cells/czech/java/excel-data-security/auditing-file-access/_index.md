@@ -1,39 +1,39 @@
 ---
-title: Kontrola přístupu k souboru
-linktitle: Kontrola přístupu k souboru
-second_title: Aspose.Cells Java Excel Processing API
-description: Naučte se, jak auditovat přístup k souborům pomocí Aspose.Cells for Java API. Podrobný průvodce se zdrojovým kódem a často kladenými dotazy.
-weight: 16
-url: /cs/java/excel-data-security/auditing-file-access/
+"description": "Naučte se, jak auditovat přístup k souborům pomocí Aspose.Cells pro Java API. Podrobný návod se zdrojovým kódem a nejčastějšími dotazy."
+"linktitle": "Auditování přístupu k souborům"
+"second_title": "Rozhraní API pro zpracování Excelu v Javě od Aspose.Cells"
+"title": "Auditování přístupu k souborům"
+"url": "/cs/java/excel-data-security/auditing-file-access/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kontrola přístupu k souboru
+# Auditování přístupu k souborům
 
 
-## Úvod do auditování přístupu k souboru
+## Úvod do auditování přístupu k souborům
 
-tomto tutoriálu prozkoumáme, jak auditovat přístup k souborům pomocí Aspose.Cells for Java API. Aspose.Cells je výkonná Java knihovna, která vám umožňuje vytvářet, manipulovat a spravovat tabulky aplikace Excel. Ukážeme si, jak sledovat a protokolovat aktivity přístupu k souborům ve vaší aplikaci Java pomocí tohoto rozhraní API.
+V tomto tutoriálu se podíváme na audit přístupu k souborům pomocí rozhraní Aspose.Cells pro Java API. Aspose.Cells je výkonná knihovna Java, která umožňuje vytvářet, manipulovat a spravovat tabulky aplikace Excel. Ukážeme si, jak sledovat a protokolovat aktivity přístupu k souborům ve vaší aplikaci Java pomocí tohoto API.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující předpoklady:
 
-- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) nainstalovaný ve vašem systému.
--  Aspose.Cells pro knihovnu Java. Můžete si jej stáhnout z[Web Aspose.Cells pro Java](https://releases.aspose.com/cells/java/).
+- [Vývojová sada pro Javu (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) nainstalovaný ve vašem systému.
+- Knihovna Aspose.Cells pro Javu. Můžete si ji stáhnout z [Webová stránka Aspose.Cells pro Javu](https://releases.aspose.com/cells/java/).
 
-## Krok 1: Nastavení vašeho projektu Java
+## Krok 1: Nastavení projektu v jazyce Java
 
-1. Vytvořte nový projekt Java ve vašem preferovaném integrovaném vývojovém prostředí (IDE).
+1. Vytvořte nový projekt Java ve vámi preferovaném integrovaném vývojovém prostředí (IDE).
 
-2. Přidejte do projektu knihovnu Aspose.Cells for Java zahrnutím souboru JAR, který jste si stáhli dříve.
+2. Přidejte do projektu knihovnu Aspose.Cells pro Javu zahrnutím dříve staženého souboru JAR.
 
-## Krok 2: Vytvoření Audit Logger
+## Krok 2: Vytvoření auditního protokolovače
 
- V tomto kroku vytvoříme třídu zodpovědnou za protokolování aktivit přístupu k souborům. Nazvěme to`FileAccessLogger.java`. Zde je základní implementace:
+V tomto kroku vytvoříme třídu zodpovědnou za protokolování aktivit přístupu k souborům. Nazvěme ji `FileAccessLogger.java`Zde je základní implementace:
 
 ```java
 import java.io.FileWriter;
@@ -57,11 +57,11 @@ public class FileAccessLogger {
 }
 ```
 
-Tento záznamník zaznamenává události přístupu do textového souboru.
+Tento logger zaznamenává události přístupu do textového souboru.
 
 ## Krok 3: Použití Aspose.Cells k provádění operací se soubory
 
- Nyní integrujme Aspose.Cells do našeho projektu, abychom mohli provádět operace se soubory a činnosti týkající se přístupu k protokolům. Vytvoříme třídu tzv`ExcelFileManager.java`:
+Nyní integrujme Aspose.Cells do našeho projektu, abychom mohli provádět operace se soubory a přístup k protokolům. Vytvoříme třídu s názvem `ExcelFileManager.java`:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -71,7 +71,7 @@ public class ExcelFileManager {
     public static void openExcelFile(String filename, String username) {
         try {
             Workbook workbook = new Workbook(filename);
-            // Podle potřeby provádějte operace se sešitem
+            // Provádějte operace se sešitem dle potřeby
             FileAccessLogger.logAccess(username, filename, "opened");
         } catch (Exception e) {
             e.printStackTrace();
@@ -81,7 +81,7 @@ public class ExcelFileManager {
     public static void saveExcelFile(String filename, String username) {
         try {
             Workbook workbook = new Workbook();
-            // Podle potřeby provádějte operace se sešitem
+            // Provádějte operace se sešitem dle potřeby
             workbook.save(filename, FileFormatType.XLSX);
             FileAccessLogger.logAccess(username, filename, "saved");
         } catch (Exception e) {
@@ -91,9 +91,9 @@ public class ExcelFileManager {
 }
 ```
 
-## Krok 4: Použití Audit Logger ve vaší aplikaci
+## Krok 4: Použití Audit Loggeru ve vaší aplikaci
 
- Nyní, když máme své`FileAccessLogger` a`ExcelFileManager` třídy, můžete je použít ve své aplikaci následovně:
+Teď, když máme naše `FileAccessLogger` a `ExcelFileManager` třídy, můžete je ve své aplikaci použít takto:
 
 ```java
 public class Main {
@@ -101,12 +101,12 @@ public class Main {
         String username = "john_doe"; // Nahraďte skutečným uživatelským jménem
         String filename = "example.xlsx"; // Nahraďte skutečnou cestou k souboru
 
-        // Otevřete soubor aplikace Excel
+        // Otevřete soubor Excelu
         ExcelFileManager.openExcelFile(filename, username);
 
-        // Proveďte operace se souborem Excel
+        // Provádět operace se souborem Excel
 
-        // Uložte soubor aplikace Excel
+        // Uložte soubor Excelu
         ExcelFileManager.saveExcelFile(filename, username);
     }
 }
@@ -114,25 +114,26 @@ public class Main {
 
 ## Závěr
 
-V tomto komplexním průvodci jsme se ponořili do světa Aspose.Cells for Java API a ukázali, jak auditovat přístup k souborům ve vašich aplikacích Java. Následováním podrobných pokynů a používáním příkladů zdrojového kódu jste získali cenné poznatky o využití schopností této výkonné knihovny.
+V této komplexní příručce jsme se ponořili do světa Aspose.Cells pro Java API a ukázali jsme, jak auditovat přístup k souborům ve vašich Java aplikacích. Dodržováním podrobných pokynů a využitím příkladů zdrojového kódu jste získali cenné poznatky o využití možností této výkonné knihovny.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu získat protokol auditu?
+### Jak mohu načíst protokol auditu?
 
-Chcete-li získat protokol auditu, můžete si jednoduše přečíst obsah souboru`file_access_log.txt` soubor pomocí možností čtení souborů Java.
+Chcete-li načíst protokol auditu, můžete si jednoduše přečíst obsah `file_access_log.txt` soubor s využitím možností čtení souborů v Javě.
 
-### Mohu přizpůsobit formát protokolu nebo cíl?
+### Mohu si přizpůsobit formát protokolu nebo cíl?
 
- Ano, můžete upravit formát protokolu a cíl úpravou`FileAccessLogger` třída. Můžete změnit cestu k souboru protokolu, formát záznamu protokolu nebo dokonce použít jinou knihovnu protokolování, jako je Log4j.
+Ano, formát a cíl protokolu si můžete přizpůsobit úpravou `FileAccessLogger` třída. Můžete změnit cestu k souboru protokolu, formát položky protokolu nebo dokonce použít jinou knihovnu pro protokolování, jako je Log4j.
 
 ### Existuje způsob, jak filtrovat položky protokolu podle uživatele nebo souboru?
 
- Logiku filtrování můžete implementovat do`FileAccessLogger` třída. Před zápisem do souboru protokolu přidejte podmínky k položkám protokolu na základě kritérií uživatele nebo souboru.
+Logiku filtrování můžete implementovat v `FileAccessLogger` třída. Před zápisem do souboru protokolu přidejte do záznamů protokolu podmínky na základě kritérií uživatele nebo souboru.
 
-### Jaké další akce mohu protokolovat kromě otevírání a ukládání souborů?
+### Jaké další akce mohu zaznamenávat kromě otevírání a ukládání souborů?
 
- Můžete prodloužit`ExcelFileManager` třídy k protokolování dalších akcí, jako je úprava, mazání nebo sdílení souborů, v závislosti na požadavcích vaší aplikace.
+Můžete prodloužit `ExcelFileManager` třída pro zaznamenávání dalších akcí, jako je úprava, mazání nebo sdílení souborů, v závislosti na požadavcích vaší aplikace.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

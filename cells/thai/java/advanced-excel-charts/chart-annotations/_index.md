@@ -1,10 +1,10 @@
 ---
-title: คำอธิบายแผนภูมิ
-linktitle: คำอธิบายแผนภูมิ
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: ปรับปรุงแผนภูมิของคุณด้วยคำอธิบายประกอบแผนภูมิโดยใช้ Aspose.Cells สำหรับ Java - คำแนะนำทีละขั้นตอน เรียนรู้วิธีการเพิ่มคำอธิบายประกอบสำหรับการแสดงข้อมูลเชิงข้อมูล
-weight: 16
-url: /th/java/advanced-excel-charts/chart-annotations/
+"description": "ปรับปรุงแผนภูมิของคุณด้วยคำอธิบายประกอบแผนภูมิโดยใช้ Aspose.Cells สำหรับ Java - คำแนะนำทีละขั้นตอน เรียนรู้วิธีการเพิ่มคำอธิบายประกอบสำหรับการแสดงข้อมูลเชิงข้อมูล"
+"linktitle": "คำอธิบายแผนภูมิ"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "คำอธิบายแผนภูมิ"
+"url": "/th/java/advanced-excel-charts/chart-annotations/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -28,7 +28,7 @@ url: /th/java/advanced-excel-charts/chart-annotations/
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
-ในการเริ่มต้น คุณต้องตั้งค่า Aspose.Cells สำหรับ Java ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดไลบรารีได้จากเว็บไซต์ Aspose[ที่นี่](https://releases.aspose.com/cells/java/)เมื่อดาวน์โหลดแล้วให้เพิ่มไลบรารีลงในโปรเจ็กต์ Java ของคุณ
+ในการเริ่มต้น คุณต้องตั้งค่า Aspose.Cells สำหรับ Java ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดไลบรารีได้จากเว็บไซต์ Aspose [ที่นี่](https://releases.aspose.com/cells/java/)เมื่อดาวน์โหลดแล้วให้เพิ่มไลบรารีลงในโปรเจ็กต์ Java ของคุณ
 
 ## การสร้างสมุดงาน Excel
 
@@ -74,7 +74,7 @@ chart.getNSeries().setCategoryData("A2:A13");
 
 ## การเพิ่มคำอธิบายลงในแผนภูมิ
 
- หากต้องการเพิ่มคำอธิบายลงในแผนภูมิ เราสามารถใช้`TextFrame` คลาสใน Aspose.Cells
+หากต้องการเพิ่มคำอธิบายลงในแผนภูมิ เราสามารถใช้ `TextFrame` คลาสใน Aspose.Cells
 
 ```java
 // การเพิ่มคำอธิบายลงในแผนภูมิ
@@ -106,13 +106,13 @@ textFrame.getText().getCharacters().setColor(Color.getRed());
 
 ### ฉันจะดาวน์โหลด Aspose.Cells สำหรับ Java ได้อย่างไร?
 
- คุณสามารถดาวน์โหลด Aspose.Cells สำหรับ Java ได้จากเว็บไซต์ Aspose[ที่นี่](https://releases.aspose.com/cells/java/).
+คุณสามารถดาวน์โหลด Aspose.Cells สำหรับ Java ได้จากเว็บไซต์ Aspose [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ### ฉันสามารถปรับแต่งลักษณะที่ปรากฏของคำอธิบายประกอบได้หรือไม่
 
 ใช่ คุณสามารถปรับแต่งแบบอักษร สี ขนาด และคุณสมบัติอื่นๆ ของคำอธิบายประกอบให้ตรงกับสไตล์ที่คุณต้องการได้
 
-### มีแผนภูมิประเภทอื่น ๆ ที่รองรับโดย Aspose.Cells สำหรับ Java หรือไม่
+### มีประเภทแผนภูมิอื่น ๆ ที่รองรับโดย Aspose.Cells สำหรับ Java หรือไม่
 
 ใช่ Aspose.Cells สำหรับ Java รองรับแผนภูมิประเภทต่างๆ มากมาย รวมถึงแผนภูมิแท่ง แผนภูมิเส้น และแผนภูมิวงกลม
 
@@ -122,7 +122,8 @@ textFrame.getText().getCharacters().setColor(Color.getRed());
 
 ### ฉันสามารถหาบทช่วยสอนเพิ่มเติมเกี่ยวกับ Aspose.Cells สำหรับ Java ได้ที่ไหน
 
- คุณสามารถค้นหาบทช่วยสอนและเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Cells สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/cells/java/).
+คุณสามารถค้นหาบทช่วยสอนและเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Cells สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

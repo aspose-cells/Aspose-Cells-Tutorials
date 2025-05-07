@@ -1,10 +1,10 @@
 ---
-title: Warunkowa walidacja danych
-linktitle: Warunkowa walidacja danych
-second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak wdrożyć warunkową walidację danych za pomocą Aspose.Cells dla Java. Przewodnik krok po kroku z kodem źródłowym do dokładnej obsługi danych w arkuszach kalkulacyjnych Excel.
-weight: 17
-url: /pl/java/data-validation-rules/conditional-data-validation/
+"description": "Dowiedz się, jak wdrożyć warunkową walidację danych za pomocą Aspose.Cells dla Java. Przewodnik krok po kroku z kodem źródłowym do dokładnej obsługi danych w arkuszach kalkulacyjnych Excel."
+"linktitle": "Warunkowa walidacja danych"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Warunkowa walidacja danych"
+"url": "/pl/java/data-validation-rules/conditional-data-validation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +23,7 @@ Zanim zagłębimy się w szczegóły warunkowej walidacji danych, krótko przeds
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Java Development Kit (JDK) zainstalowany w Twoim systemie.
--  Biblioteka Aspose.Cells dla Java. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/java/).
+- Biblioteka Aspose.Cells dla Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Utwórz nowy projekt Java
 
@@ -89,13 +89,13 @@ workbook.save("ConditionalValidationExample.xlsx");
 
 ## Wniosek
 
-W tym samouczku zbadaliśmy, jak wdrożyć warunkową walidację danych za pomocą Aspose.Cells dla Java. Postępując zgodnie z powyższymi krokami, możesz upewnić się, że dane wprowadzone do arkuszy kalkulacyjnych programu Excel spełniają określone kryteria, zwiększając dokładność i niezawodność danych.
+tym samouczku zbadaliśmy, jak wdrożyć warunkową walidację danych za pomocą Aspose.Cells dla Java. Postępując zgodnie z powyższymi krokami, możesz upewnić się, że dane wprowadzone do arkuszy kalkulacyjnych programu Excel spełniają określone kryteria, zwiększając dokładność i niezawodność danych.
 
 ## Najczęściej zadawane pytania
 
 ### Jak zainstalować Aspose.Cells dla Java?
 
- Aspose.Cells dla Java można zainstalować, pobierając bibliotekę ze strony internetowej pod adresem[Tutaj](https://releases.aspose.com/cells/java/).
+Aspose.Cells dla Java można zainstalować, pobierając bibliotekę ze strony internetowej pod adresem [Tutaj](https://releases.aspose.com/cells/java/).
 
 ### Czy mogę zastosować warunkową walidację danych do wielu komórek jednocześnie?
 
@@ -107,11 +107,12 @@ Tak, Aspose.Cells for Java obsługuje różne formaty Excela, w tym XLS, XLSX i 
 
 ### Czy mogę dostosować komunikaty o błędach dotyczące walidacji danych?
 
-Oczywiście! Możesz dostosować komunikat o błędzie, tytuł i wygląd alertów o błędach, aby dopasować je do wymagań swojej aplikacji.
+Oczywiście! Możesz dostosować komunikat o błędzie, tytuł i wygląd alertów o błędach do wymagań swojej aplikacji.
 
 ### Czy istnieją jakieś ograniczenia warunkowej walidacji danych w Aspose.Cells dla Java?
 
 Chociaż Aspose.Cells for Java oferuje rozbudowane funkcje walidacji danych, przy wdrażaniu złożonych reguł walidacji należy zapoznać się z dokumentacją w celu poznania konkretnych ograniczeń lub kwestii do rozważenia.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

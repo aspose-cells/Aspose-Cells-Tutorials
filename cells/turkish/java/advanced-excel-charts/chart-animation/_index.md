@@ -1,10 +1,10 @@
 ---
-title: Grafik Animasyonu
-linktitle: Grafik Animasyonu
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java için Aspose.Cells ile büyüleyici grafik animasyonları oluşturmayı öğrenin. Dinamik veri görselleştirme için adım adım kılavuz ve kaynak kodu dahildir.
-weight: 17
-url: /tr/java/advanced-excel-charts/chart-animation/
+"description": "Java için Aspose.Cells ile büyüleyici grafik animasyonları oluşturmayı öğrenin. Dinamik veri görselleştirme için adım adım kılavuz ve kaynak kodu dahildir."
+"linktitle": "Grafik Animasyonu"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Grafik Animasyonu"
+"url": "/tr/java/advanced-excel-charts/chart-animation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ Bu eğitimde, Aspose.Cells for Java API'sini kullanarak dinamik grafik animasyon
 
 Grafik animasyonları oluşturmaya başlamadan önce, aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1.  Java için Aspose.Cells: Java için Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/java/).
+1. Java için Aspose.Cells: Java için Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/cells/java/).
 
 2. Java Geliştirme Ortamı: Sisteminizde bir Java geliştirme ortamının kurulu olması gerekir.
 
@@ -88,15 +88,16 @@ Bu eğitimde, Java API için Aspose.Cells'i kullanarak grafik animasyonları olu
 
 ### Animasyon türünü nasıl değiştirebilirim?
 
- Animasyon türünü değiştirmek için şunu kullanın:`setAnimationType` grafik nesnesindeki yöntem. Çeşitli türlerden seçim yapabilirsiniz.`SLIDE`, `FADE` , Ve`GROW_SHRINK`.
+Animasyon türünü değiştirmek için şunu kullanın: `setAnimationType` grafik nesnesindeki yöntem. Çeşitli türlerden seçim yapabilirsiniz. `SLIDE`, `FADE`, Ve `GROW_SHRINK`.
 
 ### Animasyon süresini özelleştirebilir miyim?
 
- Evet, animasyon süresini kullanarak özelleştirebilirsiniz.`setAnimationDuration` yöntem. Süreyi milisaniye olarak belirtin.
+Evet, animasyon süresini kullanarak özelleştirebilirsiniz. `setAnimationDuration` yöntem. Süreyi milisaniye olarak belirtin.
 
 ### Animasyon gecikmesinin amacı nedir?
 
- Animasyon gecikmesi, grafik animasyonu başlamadan önceki zaman aralığını belirler.`setAnimationDelay` Gecikmeyi milisaniye cinsinden ayarlama yöntemi.
+Animasyon gecikmesi, grafik animasyonu başlamadan önceki zaman aralığını belirler. `setAnimationDelay` Gecikmeyi milisaniye cinsinden ayarlama yöntemi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

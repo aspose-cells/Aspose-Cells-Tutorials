@@ -1,10 +1,10 @@
 ---
-title: วิธีใช้ฟังก์ชัน IF ของ Excel
-linktitle: วิธีใช้ฟังก์ชัน IF ของ Excel
-second_title: API การประมวลผล Java Excel ของ Aspose.Cells
-description: ปลดล็อกพลังของฟังก์ชัน IF ของ Excel ด้วย Aspose.Cells สำหรับ Java เรียนรู้การนำตรรกะแบบมีเงื่อนไขมาใช้ได้อย่างราบรื่น
-weight: 11
-url: /th/java/basic-excel-functions/how-to-use-excel-if-function/
+"description": "ปลดล็อกพลังของฟังก์ชัน IF ของ Excel ด้วย Aspose.Cells สำหรับ Java เรียนรู้การนำตรรกะแบบมีเงื่อนไขมาใช้ได้อย่างราบรื่น"
+"linktitle": "วิธีใช้ฟังก์ชัน IF ของ Excel"
+"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
+"title": "วิธีใช้ฟังก์ชัน IF ของ Excel"
+"url": "/th/java/basic-excel-functions/how-to-use-excel-if-function/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /th/java/basic-excel-functions/how-to-use-excel-if-function/
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
--  Aspose.Cells สำหรับ Java: คุณควรติดตั้ง Aspose.Cells สำหรับ Java API คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/java/).
+- Aspose.Cells สำหรับ Java: คุณควรติดตั้ง Aspose.Cells สำหรับ Java API คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/java/).
 
 ## ขั้นตอนที่ 1: การตั้งค่าโครงการ Java ของคุณ
 
@@ -79,7 +79,7 @@ worksheet.getCells().copyRow(worksheet.getCells().getRows().get("2"), worksheet.
 สุดท้าย ให้บันทึกเวิร์กบุ๊ก Excel ลงในไฟล์หรือสตรีม
 
 ```java
-//บันทึกสมุดงานลงในไฟล์
+// บันทึกสมุดงานลงในไฟล์
 workbook.save("Grades.xlsx");
 ```
 
@@ -91,7 +91,7 @@ workbook.save("Grades.xlsx");
 
 ### ฉันจะติดตั้ง Aspose.Cells สำหรับ Java ได้อย่างไร?
 
- หากต้องการติดตั้ง Aspose.Cells สำหรับ Java ให้ไปที่เว็บไซต์ Aspose และดาวน์โหลดไลบรารีจาก[ที่นี่](https://releases.aspose.com/cells/java/). ทำตามคำแนะนำการติดตั้งที่ให้ไว้ในเว็บไซต์
+หากต้องการติดตั้ง Aspose.Cells สำหรับ Java ให้ไปที่เว็บไซต์ Aspose และดาวน์โหลดไลบรารีจาก [ที่นี่](https://releases.aspose.com/cells/java/). ทำตามคำแนะนำการติดตั้งที่ให้ไว้ในเว็บไซต์
 
 ### ฉันสามารถใช้ฟังก์ชัน IF ของ Excel กับเงื่อนไขที่ซับซ้อนได้หรือไม่
 
@@ -108,6 +108,7 @@ workbook.save("Grades.xlsx");
 ### Aspose.Cells สำหรับ Java เหมาะกับแอปพลิเคชันระดับองค์กรหรือไม่
 
 ใช่ Aspose.Cells สำหรับ Java เป็นไลบรารีที่มีประสิทธิภาพซึ่งเหมาะสำหรับทั้งแอปพลิเคชันขนาดเล็กและระดับองค์กร ไลบรารีนี้มีคุณสมบัติมากมายสำหรับการทำงานกับไฟล์ Excel ทำให้เป็นเครื่องมือที่มีประโยชน์สำหรับสถานการณ์ทางธุรกิจต่างๆ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Bảng Pivot Excel
-linktitle: Bảng Pivot Excel
-second_title: API xử lý Excel Java của Aspose.Cells
-description: Làm chủ Excel Pivot Tables với Aspose.Cells for Java. Tìm hiểu cách tạo, tùy chỉnh và phân tích dữ liệu dễ dàng.
-weight: 13
-url: /vi/java/excel-pivot-tables/
+"description": "Làm chủ Excel Pivot Tables với Aspose.Cells for Java. Tìm hiểu cách tạo, tùy chỉnh và phân tích dữ liệu dễ dàng."
+"linktitle": "Bảng Pivot Excel"
+"second_title": "API xử lý Excel Java của Aspose.Cells"
+"title": "Bảng Pivot Excel"
+"url": "/vi/java/excel-pivot-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

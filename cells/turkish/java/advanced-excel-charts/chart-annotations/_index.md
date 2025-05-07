@@ -1,10 +1,10 @@
 ---
-title: Grafik Açıklamaları
-linktitle: Grafik Açıklamaları
-second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java için Aspose.Cells'i kullanarak Grafik Açıklamalarıyla Grafiklerinizi Geliştirin - Adım Adım Kılavuz. Bilgilendirici Veri Görselleştirmesi için Açıklamaların Nasıl Ekleneceği Öğrenin.
-weight: 16
-url: /tr/java/advanced-excel-charts/chart-annotations/
+"description": "Java için Aspose.Cells'i kullanarak Grafik Açıklamalarıyla Grafiklerinizi Geliştirin - Adım Adım Kılavuz. Bilgilendirici Veri Görselleştirmesi için Açıklamaların Nasıl Ekleneceği Öğrenin."
+"linktitle": "Grafik Açıklamaları"
+"second_title": "Aspose.Cells Java Excel İşleme API'si"
+"title": "Grafik Açıklamaları"
+"url": "/tr/java/advanced-excel-charts/chart-annotations/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -28,11 +28,11 @@ Uygulamaya geçmeden önce aşağıdaki ön koşulların mevcut olduğundan emin
 
 ## Java için Aspose.Cells Kurulumu
 
-Başlamak için projenizde Aspose.Cells for Java'yı kurmanız gerekir. Kütüphaneyi Aspose web sitesinden indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/). İndirdikten sonra kütüphaneyi Java projenize ekleyin.
+Başlamak için projenizde Aspose.Cells for Java'yı kurmanız gerekir. Kütüphaneyi Aspose web sitesinden indirebilirsiniz [Burada](https://releases.aspose.com/cells/java/). İndirdikten sonra kütüphaneyi Java projenize ekleyin.
 
 ## Excel Çalışma Kitabı Oluşturma
 
-Java için Aspose.Cells kullanarak yeni bir Excel çalışma kitabı oluşturarak başlayalım. Bu çalışma kitabı, açıklamalar içeren bir grafik eklemek için tuvalimiz olarak hizmet edecektir.
+Java için Aspose.Cells kullanarak yeni bir Excel çalışma kitabı oluşturarak başlayalım. Bu çalışma kitabı, açıklamalarla bir grafik eklemek için tuvalimiz olarak hizmet edecektir.
 
 ```java
 // Yeni bir Excel çalışma kitabı oluşturmak için Java kodu
@@ -74,7 +74,7 @@ chart.getNSeries().setCategoryData("A2:A13");
 
 ## Grafiğe Açıklamalar Ekleme
 
- Grafiğe açıklamalar eklemek için şunu kullanabiliriz:`TextFrame` Aspose.Cells'deki sınıf.
+Grafiğe açıklamalar eklemek için şunu kullanabiliriz: `TextFrame` Aspose.Cells'deki sınıf.
 
 ```java
 // Grafiğe açıklamalar ekleme
@@ -106,7 +106,7 @@ Bu eğitimde, Java için Aspose.Cells kullanarak grafik açıklamalarının nas�
 
 ### Java için Aspose.Cells'i nasıl indirebilirim?
 
- Aspose.Cells for Java'yı Aspose web sitesinden indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/).
+Aspose.Cells for Java'yı Aspose web sitesinden indirebilirsiniz [Burada](https://releases.aspose.com/cells/java/).
 
 ### Açıklamaların görünümünü özelleştirebilir miyim?
 
@@ -122,7 +122,8 @@ Kesinlikle! Aspose.Cells for Java, profesyonel düzeyde Excel tabanlı veri gör
 
 ### Java için Aspose.Cells hakkında daha fazla öğreticiyi nerede bulabilirim?
 
- Java için Aspose.Cells hakkında daha fazla öğretici ve belgeyi şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/cells/java/).
+Java için Aspose.Cells hakkında daha fazla öğretici ve belgeyi şu adreste bulabilirsiniz: [Burada](https://reference.aspose.com/cells/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,10 +1,10 @@
 ---
-title: Dynamiczne listy rozwijane w programie Excel
-linktitle: Dynamiczne listy rozwijane w programie Excel
-second_title: Aspose.Cells Java Excel Processing API
-description: Odkryj moc dynamicznych list rozwijanych w programie Excel. Przewodnik krok po kroku dotyczący korzystania z Aspose.Cells dla Java. Ulepsz swoje arkusze kalkulacyjne dzięki interaktywnemu wyborowi danych.
-weight: 11
-url: /pl/java/data-validation-rules/dynamic-dropdown-lists-in-excel/
+"description": "Odkryj moc dynamicznych list rozwijanych w programie Excel. Przewodnik krok po kroku dotyczący korzystania z Aspose.Cells dla Java. Ulepsz swoje arkusze kalkulacyjne dzięki interaktywnemu wyborowi danych."
+"linktitle": "Dynamiczne listy rozwijane w programie Excel"
+"second_title": "Aspose.Cells Java Excel Processing API"
+"title": "Dynamiczne listy rozwijane w programie Excel"
+"url": "/pl/java/data-validation-rules/dynamic-dropdown-lists-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,7 +24,7 @@ Zanim przejdziemy do tworzenia dynamicznych list rozwijanych, upewnij się, że 
 
 - Środowisko programistyczne Java: Na komputerze powinna być zainstalowana Java oraz odpowiednie zintegrowane środowisko programistyczne (IDE).
 
--  Biblioteka Aspose.Cells dla języka Java: Pobierz bibliotekę Aspose.Cells dla języka Java ze strony[Tutaj](https://releases.aspose.com/cells/java/) i dołącz go do swojego projektu Java.
+- Biblioteka Aspose.Cells dla języka Java: Pobierz bibliotekę Aspose.Cells dla języka Java ze strony [Tutaj](https://releases.aspose.com/cells/java/) i dołącz go do swojego projektu Java.
 
 Przejdźmy teraz do przewodnika krok po kroku.
 
@@ -94,7 +94,7 @@ Tworzenie dynamicznych list rozwijanych w programie Excel przy użyciu Aspose.Ce
 
 ### Jak mogę dostosować źródło listy rozwijanej?
 
- Aby dostosować źródło listy rozwijanej, po prostu zmodyfikuj tablicę wartości w kroku, w którym definiujesz źródło. Na przykład możesz dodawać lub usuwać elementy z listy rozwijanej.`fruits` tablica, aby zmienić opcje na liście rozwijanej.
+Aby dostosować źródło listy rozwijanej, po prostu zmodyfikuj tablicę wartości w kroku, w którym definiujesz źródło. Na przykład możesz dodawać lub usuwać elementy z listy rozwijanej. `fruits` tablica, aby zmienić opcje na liście rozwijanej.
 
 ### Czy mogę zastosować formatowanie warunkowe do komórek zawierających dynamiczne listy rozwijane?
 
@@ -111,6 +111,7 @@ Tak, możesz chronić arkusz kalkulacyjny, jednocześnie pozwalając użytkownik
 ### Czy istnieją jakieś ograniczenia co do liczby elementów na liście rozwijanej?
 
 Liczba elementów na liście rozwijanej jest ograniczona maksymalnym rozmiarem arkusza kalkulacyjnego programu Excel. Jednak dobrą praktyką jest zachowanie zwięzłości listy i jej adekwatności do kontekstu, aby poprawić wrażenia użytkownika.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

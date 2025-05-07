@@ -1,10 +1,10 @@
 ---
-title: पिवट तालिका डेटा ताज़ा करना
-linktitle: पिवट तालिका डेटा ताज़ा करना
-second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: Aspose.Cells for Java में पिवट टेबल डेटा को रिफ्रेश करना सीखें। अपने डेटा को आसानी से अपडेट रखें।
-weight: 16
-url: /hi/java/excel-pivot-tables/refreshing-pivot-table-data/
+"description": "Aspose.Cells for Java में पिवट टेबल डेटा को रिफ्रेश करना सीखें। अपने डेटा को आसानी से अपडेट रखें।"
+"linktitle": "पिवट तालिका डेटा ताज़ा करना"
+"second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
+"title": "पिवट तालिका डेटा ताज़ा करना"
+"url": "/hi/java/excel-pivot-tables/refreshing-pivot-table-data/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +22,7 @@ url: /hi/java/excel-pivot-tables/refreshing-pivot-table-data/
 
 ## चरण 1: Aspose.Cells को आरंभ करें
 
- आरंभ करने के लिए, आपको Aspose.Cells के साथ अपना जावा वातावरण सेट करना होगा। यदि आपने पहले से ऐसा नहीं किया है, तो लाइब्रेरी को डाउनलोड करके इंस्टॉल करें।[Aspose.Cells for Java डाउनलोड करें](https://releases.aspose.com/cells/java/) पृष्ठ.
+आरंभ करने के लिए, आपको Aspose.Cells के साथ अपना जावा वातावरण सेट करना होगा। यदि आपने पहले से ऐसा नहीं किया है, तो लाइब्रेरी को डाउनलोड करके इंस्टॉल करें। [Aspose.Cells for Java डाउनलोड करें](https://releases.aspose.com/cells/java/) पृष्ठ.
 
 ```java
 import com.aspose.cells.Workbook;
