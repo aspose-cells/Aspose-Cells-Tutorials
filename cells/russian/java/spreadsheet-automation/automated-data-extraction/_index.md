@@ -111,7 +111,7 @@ String[][] extractedData = worksheet.getCells().exportArray(cellArea);
    Изучите документацию API по адресу [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения подробной информации и примеров.
 
 Начните автоматизировать задачи по извлечению данных уже сегодня с помощью Aspose.Cells для Java и оптимизируйте процессы извлечения данных.
-{{< /blocks/products/pf/раздел-страницы-руководства >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

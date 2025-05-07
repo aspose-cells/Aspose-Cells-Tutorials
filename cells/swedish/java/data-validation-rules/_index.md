@@ -42,7 +42,7 @@ Lär dig datavalidering i Excel med Aspose.Cells för Java. Implementera regler,
 Lär dig hur du implementerar villkorlig datavalidering med Aspose.Cells för Java. Steg-för-steg-guide med källkod för korrekt datahantering i Excel-kalkylblad.
 ### [Inmatningsmeddelande i datavalidering](./input-message-in-data-validation/)
 Lär dig hur du förbättrar datavalidering i Excel med Aspose.Cells för Java. Steg-för-steg-guide med kodexempel för att förbättra datanoggrannheten och användarvägledning.
-{{< /blocks/products/pf/handledningssida-avsnitt >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

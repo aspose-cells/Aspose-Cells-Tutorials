@@ -109,7 +109,7 @@ Att automatisera batchbearbetning av Excel med Aspose.Cells för Java förenklar
    Utforska API-dokumentationen på [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) för djupgående information och exempel.
 
 Optimera dina batchbearbetningsuppgifter i Excel och öka produktiviteten med Aspose.Cells för Java.
-{{< /blocks/products/pf/handledningssida-avsnitt >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -109,7 +109,7 @@ fileWorkbook.save("output.pdf", SaveFormat.PDF);
    Изучите документацию API по адресу [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения подробной информации и примеров.
 
 Оптимизируйте задачи пакетной обработки Excel и повысьте производительность с помощью Aspose.Cells для Java.
-{{< /blocks/products/pf/раздел-страницы-руководства >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

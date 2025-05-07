@@ -42,7 +42,7 @@ Aspose.Cells позволяет вам создавать пользовател
 Узнайте, как реализовать условную проверку данных с помощью Aspose.Cells для Java. Пошаговое руководство с исходным кодом для точной обработки данных в таблицах Excel.
 ### [Входное сообщение при проверке данных](./input-message-in-data-validation/)
 Узнайте, как улучшить проверку данных в Excel с помощью Aspose.Cells для Java. Пошаговое руководство с примерами кода для повышения точности данных и руководства для пользователя.
-{{< /blocks/products/pf/раздел-страницы-руководства >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

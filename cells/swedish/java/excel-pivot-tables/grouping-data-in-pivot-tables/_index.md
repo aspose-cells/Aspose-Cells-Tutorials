@@ -108,7 +108,7 @@ Du kan anpassa grupperingen av data i en pivottabell med hjälp av `PivotField` 
 ### 3. Kan jag automatisera skapandet av pivottabeller med Aspose.Cells för Java?
 
 Ja, du kan automatisera skapandet av pivottabeller i Excel med hjälp av Aspose.Cells för Java, vilket visas i de medföljande källkodsexemplen.
-{{< /blocks/products/pf/handledningssida-avsnitt >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

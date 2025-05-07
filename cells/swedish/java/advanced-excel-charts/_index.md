@@ -47,7 +47,7 @@ Lär dig hur du skapar fängslande diagramanimationer med Aspose.Cells för Java
 Lär dig hur du skapar fantastiska vattenfallsdiagram med Aspose.Cells för Java. Steg-för-steg-guide med källkod för effektiv datavisualisering.
 ### [Diagraminteraktivitet](./chart-interactivity/)
 Lär dig hur du skapar interaktiva diagram med Aspose.Cells för Java. Förbättra din datavisualisering med interaktivitet.
-{{< /blocks/products/pf/handledningssida-avsnitt >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

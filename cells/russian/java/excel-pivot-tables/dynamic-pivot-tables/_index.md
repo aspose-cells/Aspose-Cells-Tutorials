@@ -107,7 +107,7 @@ pivotTable.calculateData();
 ### В5: Поддерживает ли Aspose.Cells расширенные функции сводных таблиц Excel?
 
 Да, Aspose.Cells обеспечивает расширенную поддержку расширенных функций сводных таблиц Excel, позволяя создавать сложные сводные таблицы.
-{{< /blocks/products/pf/раздел-страницы-руководства >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

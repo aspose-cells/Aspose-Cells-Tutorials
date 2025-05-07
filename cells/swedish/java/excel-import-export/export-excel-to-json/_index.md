@@ -76,7 +76,7 @@ Grattis! Du har lyckats exportera Excel-data till JSON med Aspose.Cells för Jav
    Ja, du kan ladda ner en testversion av Aspose.Cells för Java från deras webbplats för att utvärdera dess funktioner.
 
 Utforska gärna ytterligare möjligheter med Aspose.Cells för Java för att förbättra dina databehandlingsmöjligheter.
-{{< /blocks/products/pf/handledningssida-avsnitt >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

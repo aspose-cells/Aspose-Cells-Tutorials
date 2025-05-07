@@ -107,7 +107,7 @@ Ja, du kan använda filter på pivottabeller för att visa specifika datadelmän
 ### F5: Stöder Aspose.Cells Excels avancerade pivottabellfunktioner?
 
 Ja, Aspose.Cells erbjuder omfattande stöd för Excels avancerade pivottabellfunktioner, vilket gör att du kan skapa komplexa pivottabeller.
-{{< /blocks/products/pf/handledningssida-avsnitt >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

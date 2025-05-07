@@ -115,7 +115,7 @@ validation.setFormula2("100");
    Вы можете изучить документацию по адресу [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 Теперь у вас есть знания и инструменты для эффективной автоматизации ввода данных с помощью Aspose.Cells для Java. Начните улучшать процессы обработки данных и повышайте эффективность своего бизнеса.
-{{< /blocks/products/pf/раздел-страницы-руководства >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

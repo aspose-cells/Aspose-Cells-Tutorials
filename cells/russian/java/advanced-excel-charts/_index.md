@@ -47,7 +47,7 @@
 Узнайте, как создавать потрясающие каскадные диаграммы с помощью Aspose.Cells для Java. Пошаговое руководство с исходным кодом для эффективной визуализации данных.
 ### [Интерактивность диаграммы](./chart-interactivity/)
 Узнайте, как создавать интерактивные диаграммы с помощью Aspose.Cells для Java. Улучшите визуализацию данных с помощью интерактивности.
-{{< /blocks/products/pf/раздел-страницы-руководства >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -118,7 +118,7 @@ Kompletta handledningar för att skapa rapportmallar, generera dokument och impl
 
 ### [Automatisering och batchbearbetning](./automation-batch-processing/)
 Steg-för-steg-handledningar för att automatisera Excel-uppgifter, batchbearbeta flera filer och schemalägga operationer med Aspose.Cells för Java.
-{{< /blocks/products/pf/handledningssida-avsnitt >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -115,7 +115,7 @@ Att automatisera datainmatning med Aspose.Cells för Java effektiviserar dina da
    Du kan utforska dokumentationen på [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 Nu har du kunskapen och verktygen för att automatisera datainmatning effektivt med Aspose.Cells för Java. Börja förbättra dina datahanteringsprocesser och öka din affärseffektivitet.
-{{< /blocks/products/pf/handledningssida-avsnitt >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

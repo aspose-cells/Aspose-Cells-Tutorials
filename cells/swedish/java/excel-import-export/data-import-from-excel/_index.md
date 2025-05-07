@@ -96,7 +96,7 @@ Du har nu lärt dig hur du importerar data från Excel med hjälp av Aspose.Cell
    Besök Aspose.Cells-dokumentationen [här](https://reference.aspose.com/cells/java/) för djupgående resurser och exempel.
 
 Utforska gärna vidare och anpassa den här koden för att passa dina specifika dataimportkrav. Lycka till med kodningen!
-{{< /blocks/products/pf/handledningssida-avsnitt >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -106,7 +106,7 @@ workbook.save(pdfFilePath, SaveFormat.PDF);
 В5: Где я могу найти дополнительную документацию и примеры для Aspose.Cells?
 
 Изучите документацию API Aspose.Cells по адресу [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения исчерпывающей документации и множества примеров для дальнейшего расширения ваших знаний.
-{{< /blocks/products/pf/раздел-страницы-руководства >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

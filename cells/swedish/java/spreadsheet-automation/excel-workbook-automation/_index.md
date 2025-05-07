@@ -110,7 +110,7 @@ Här är några vanliga frågor relaterade till automatisering av Excel-arbetsb�
    Du kan läsa API-dokumentationen på [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) för djupgående information och kodexempel.
 
 Utforska gärna mer avancerade funktioner och möjligheter i Aspose.Cells för Java för att skräddarsy dina behov av Excel-automatisering. Om du har några specifika frågor eller behöver ytterligare hjälp, tveka inte att fråga.
-{{< /blocks/products/pf/handledningssida-avsnitt >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

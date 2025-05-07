@@ -94,7 +94,7 @@ Grattis! Du har lärt dig hur man exporterar data till CSV-format med hjälp av 
    Besök Aspose.Cells-dokumentationen [här](https://reference.aspose.com/cells/java/) för omfattande resurser och exempel.
 
 Utforska gärna vidare och anpassa den här koden för att passa dina specifika behov. Lycka till med kodningen!
-{{< /blocks/products/pf/handledningssida-avsnitt >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -40,7 +40,7 @@ Lär dig effektiva datamaskeringstekniker med Aspose.Cells för Java. Skydda kä
 Lär dig hur du granskar filåtkomst med Aspose.Cells för Java API. Steg-för-steg-guide med källkod och vanliga frågor.
 ### [Datavalidering för säkerhet](./data-validation-for-security/)
 Förbättra datasäkerheten med Aspose.Cells för Java. Utforska omfattande datavalideringstekniker. Lär dig hur du implementerar robust validering och skydd.
-{{< /blocks/products/pf/handledningssida-avsnitt >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
